@@ -473,17 +473,18 @@ const QUESTIONS = {
       "explanation": "Correct: (A) Smallpox, a disease Native populations had no prior immunity to. Smallpox spread through the Caribbean, Mexico and the Andes after 1492, and a major outbreak weakened the Aztecs in 1520 and the Inca before Pizarro arrived. Europeans had partial immunity from long exposure, while Native peoples did not.\n\n(B) is wrong because malaria came from the Old World (Africa and Europe) and is generally treated as an introduction, not an American disease.\n(C) is wrong because smallpox is a human disease that spreads from person to person, not a livestock-only illness.\n(D) is wrong because many new diseases, including smallpox, measles and influenza, did arrive with Europeans and Africans."
     },
     {
-      "id": "1-32",
+      "id": "1-32r",
       "topic": "1.3 Columbian Exchange",
-      "stem": "Why does the Columbian Exchange framework matter for understanding later periods of this course, not just Period 1?",
+      "stem": "By the mid-1700s, peoples of the Great Plains such as the Comanche and Lakota had acquired horses that spread northward from Spanish settlements in New Mexico. Many of these peoples became mounted bison hunters who could travel farther, trade more widely, and wage war more effectively. These developments best illustrate which of the following?",
       "choices": [
-        "The exchange concluded entirely by 1500, leaving no lasting effects.",
-        "It affected only European history, with no bearing on developments in the Americas, Africa, or Asia in later centuries.",
-        "Its consequences — population collapse, labor shortages, and slavery's growth — directly shape later periods.",
-        "It has no relevance to American history beyond Period 1 itself."
+        "Horses were native to North America, and Plains peoples had ridden them for centuries before contact.",
+        "The Columbian Exchange transformed Native societies even in regions far from European settlement.",
+        "Plains peoples abandoned bison hunting for settled farming once horses arrived.",
+        "Spanish authorities kept horses out of Native hands, so the animals had little effect on Plains societies."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Its consequences — population collapse, labor shortages, and slavery's growth — directly shape later periods. Native deaths left European colonists short of workers, and they turned increasingly to enslaved Africans for plantations producing sugar, tobacco and rice, which shaped the economy, society and politics of the colonies and later the United States. New crops and livestock also changed land use and diets.\n\n(A) is wrong because the exchange continued for centuries and its effects are still felt.\n(B) is wrong because it reshaped the Americas, Africa and Asia as well as Europe.\n(D) is wrong because its consequences, especially slavery, are central to later periods of U.S. history."
+      "correct": 1,
+      "explanation": "Correct: (B) The Columbian Exchange transformed Native societies even in regions far from European settlement. The Spanish brought horses to the Americas, and the animals spread north through trade, raiding and escape, especially after the Pueblo Revolt of 1680. Plains peoples who had few Europeans living among them reorganized their economies, mobility and warfare around the horse, which shows that the effects of the Exchange reached well beyond the colonies themselves. (A) is wrong because horses had died out in the Americas thousands of years before contact and were reintroduced by the Spanish. (C) is wrong because the horse made bison hunting more productive, and several peoples moved away from farming toward mounted hunting rather than the reverse. (D) is wrong because Native peoples acquired horses in large numbers despite Spanish restrictions, and the horse reshaped Plains life.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-33",
@@ -577,17 +578,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) A person of mixed Spanish and Native American ancestry. The word 'mestizo' described the many people descended from Spanish men and Native women in the early colonies, a large and growing group that stood between the Spanish elite and the Native majority in the casta ranking.\n\n(A) is wrong because the casta categories were based on ancestry, so the term is entirely about ancestry.\n(B) is wrong because a person of purely Spanish ancestry born in Spain was a peninsular, and one born in the Americas was a criollo.\n(D) is wrong because people of African ancestry were placed in other categories, and mixed African-Spanish people were called mulattos."
     },
     {
-      "id": "1-40",
+      "id": "1-40r",
       "topic": "1.4 Spanish Conquest",
-      "stem": "Why does the formal, legal nature of the casta system matter for comparison with later periods of American history?",
+      "stem": "In eighteenth-century New Spain, artists produced sets of 'casta paintings' showing families of mixed ancestry, each labeled with a category such as mestizo (Spanish and Native parents) or mulato (Spanish and African parents). The classifications shown in these paintings most directly reflected which feature of Spanish colonial society?",
       "choices": [
-        "It has no analytical relevance to any later period of the course or to U.S. history.",
-        "The casta system was the only racial hierarchy in the whole of American history, so it stands alone.",
-        "It is a concrete example of a legally institutionalized racial hierarchy, a pattern the course revisits later.",
-        "Legal racial hierarchies never appear again after this period ends in the colonies."
+        "A social hierarchy that ranked people by ancestry and birthplace, with Spanish-born peninsulares holding the highest offices.",
+        "A system that granted equal legal status to all baptized subjects of the Spanish Crown regardless of ancestry.",
+        "A ban on marriage between Spaniards and Native peoples that prevented any mixed-ancestry population from forming.",
+        "A kinship system borrowed from Native clans that Spanish courts used to divide land among families."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) It is a concrete example of a legally institutionalized racial hierarchy, a pattern the course revisits later. The casta system wrote rank by ancestry into law, and students can compare it with slave codes, laws on free Black people, Jim Crow laws and other legal systems of racial hierarchy in British America and the United States.\n\n(A) is wrong because the comparison has direct analytical value for later periods.\n(B) is wrong because it was not the only racial hierarchy in American history; slavery and segregation laws are other examples.\n(D) is wrong because legal racial hierarchies recurred, for example in slavery, in Jim Crow laws and in restrictions on immigration."
+      "correct": 0,
+      "explanation": "Correct: (A) A social hierarchy that ranked people by ancestry and birthplace, with Spanish-born peninsulares holding the highest offices. The casta system sorted colonial subjects by ancestry and place of birth. Peninsulares born in Spain held the top offices in church and government, American-born creoles ranked below them, and people of mixed, Native or African ancestry were placed lower still, with consequences for taxes, office holding and social standing. The paintings tried to picture and label this order, so they reflect a hierarchy based on race and birthplace. (B) is wrong because legal status and opportunity in New Spain varied with ancestry, and baptism did not erase those distinctions. (C) is wrong because Spanish men frequently had children with Native and African women, which is why so many mixed categories existed. (D) is wrong because the categories were a Spanish colonial invention based on European ideas of ancestry, not a Native clan system.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-41",
@@ -733,30 +735,32 @@ const QUESTIONS = {
       "explanation": "Correct: (A) No — individual objections existed, but the broader shift was driven by economic necessity. Las Casas and some clergy argued against abuse of Native peoples, and the 1542 New Laws restricted encomienda, but the major change to African slavery came because colonists needed labor for sugar and mines when Native workers died. The shift therefore reflected economic interest, not a moral reform.\n\n(B) is wrong because a shift toward African slavery did occur, in the Caribbean in the 1500s and in Brazil.\n(C) is wrong because las Casas's views were opposed by many colonists and were not near-universal; colonists lobbied against the New Laws.\n(D) is wrong because moral concern was not the dominant driver, and the move relied on a different kind of exploitation."
     },
     {
-      "id": "1-52",
+      "id": "1-52r",
       "topic": "1.5 Labor Systems",
-      "stem": "Why does the causal chain connecting disease, labor shortage, and African slavery matter for the rest of this AP US History course?",
+      "stem": "In the 1570s, Spanish officials in Peru reorganized the mita, an Inca system of rotating labor service owed to the state, so that thousands of Native men each year were required to work in the silver mines of Potosí. This practice best illustrates which of the following?",
       "choices": [
-        "The causal chain is essentially coincidental, carrying no real explanatory value for students.",
-        "It matters only for Spanish colonial administration, with no broader relevance to later periods.",
-        "It carries no relevance beyond Period 1 and can safely be set aside when studying.",
-        "It is one of the most important multi-step causal chains, linking Period 1 to slavery's later growth."
+        "Spanish mining in the Andes relied almost entirely on enslaved Africans rather than Native workers.",
+        "The mita was a voluntary wage system that Native men joined because mining paid better than farming.",
+        "Spanish colonizers adapted existing Native institutions to extract labor and wealth from Native peoples.",
+        "The Spanish Crown banned mining in its American colonies in order to protect Native populations."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) It is one of the most important multi-step causal chains, linking Period 1 to slavery's later growth. Disease and labor shortages in the 1500s led to the Atlantic slave trade, and African slavery then shaped the plantation economies of the British colonies and the United States, the conflict over slavery before the Civil War, and later racial inequality. Seeing this chain lets students explain why slavery is central across the course.\n\n(A) is wrong because the chain is a well-supported explanation, not a coincidence.\n(B) is wrong because it affected the English and French colonies and the United States, not only Spanish administration.\n(C) is wrong because the chain explains developments for several centuries after Period 1."
+      "correct": 2,
+      "explanation": "Correct: (C) Spanish colonizers adapted existing Native institutions to extract labor and wealth from Native peoples. The Inca state had required communities to send workers in rotation for public projects. Viceroy Francisco de Toledo turned this obligation into a forced labor draft for the silver mines of Potosí, where dangerous work and mercury poisoning killed many laborers. The silver helped finance the Spanish Empire, which shows how colonizers built on Native structures to serve colonial goals. (A) is wrong because Andean silver mining depended mainly on Native draft and wage labor; enslaved Africans were concentrated on plantations and in other regions. (B) is wrong because the mita was compulsory, and communities were required to send a quota of men. (D) is wrong because the Crown encouraged mining and collected a share of the silver, its most valuable revenue from the Americas.",
+      "added": "2026-11-19"
     },
     {
-      "id": "1-53",
+      "id": "1-53r",
       "topic": "1.5 Labor Systems",
-      "stem": "Which best summarizes the encomienda system's relationship to the broader theme of Work, Exchange, and Technology (WXT)?",
+      "stem": "Under the encomienda system, the Spanish Crown granted colonists the right to demand labor and tribute from Native people in a given area, in return for protecting them and instructing them in Catholicism. Which development most directly reflected the Crown's response to criticism of abuses under this system?",
       "choices": [
-        "Encomienda is an early colonial labor system directly relevant to the WXT theme.",
-        "Encomienda is generally treated as having no relationship to this theme at all.",
-        "Encomienda was purely a religious institution, unrelated to economic exchange.",
-        "The WXT theme applies only to industrial-era labor systems, not colonial ones."
+        "The Pueblo Revolt of 1680, which drove Spanish colonists out of New Mexico for about twelve years.",
+        "The Proclamation of 1763, which limited colonial settlement west of the Appalachian Mountains.",
+        "The New Laws of 1542, which prohibited Native enslavement and restricted the inheritance of encomiendas.",
+        "The Treaty of Tordesillas of 1494, which divided newly claimed lands between Spain and Portugal."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) Encomienda is an early colonial labor system directly relevant to the WXT theme. The APUSH theme Work, Exchange and Technology covers how people have organized labor, trade and production, and encomienda was a way the Spanish Crown and colonists organized forced labor and tribute for mining and agriculture. It is also the starting point of the later shift toward African slavery.\n\n(B) is wrong because it directly concerns labor and the economy.\n(C) is wrong because religion was part of the justification, but its central function was extraction of labor and tribute.\n(D) is wrong because the theme runs across all periods, including colonial labor systems such as encomienda, indentured servitude and slavery."
+      "correct": 2,
+      "explanation": "Correct: (C) The New Laws of 1542, which prohibited Native enslavement and restricted the inheritance of encomiendas. Critics such as the Dominican friar Bartolome de las Casas reported widespread abuse, overwork and death among Native people held under encomienda. The Crown answered in 1542 with the New Laws, which outlawed the enslavement of Native people and sought to phase out encomiendas by limiting their inheritance. Colonists resisted fiercely and some provisions were weakened, but the laws were the Crown's direct response to the criticism. (A) is wrong because the Pueblo Revolt was an uprising by Native people against Spanish rule, not a royal reform of labor practices. (B) is wrong because the Proclamation of 1763 was a British policy about western settlement and had nothing to do with Spanish labor systems. (D) is wrong because the Treaty of Tordesillas divided territorial claims between two Iberian powers and did not regulate colonial labor.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-54",
@@ -811,30 +815,32 @@ const QUESTIONS = {
       "explanation": "Correct: (C) No — Native peoples actively resisted, negotiated, adapted, and leveraged European rivalries. Examples include the Tlaxcalans allying with Cortés, the Pueblo Revolt of 1680 that drove the Spanish from New Mexico, and Native nations that traded with and allied with French, Dutch and English traders to pursue their own interests. Native peoples were decision makers within a context of heavy pressure.\n\n(A) is wrong because abundant evidence survives of resistance and negotiation, including treaties, wars and revolts.\n(B) is wrong because describing Native peoples only as passive victims erases their active role.\n(D) is wrong because Europeans did have rivalries, among Spain, France, England and the Netherlands, and Native groups used them."
     },
     {
-      "id": "1-58",
+      "id": "1-58r",
       "topic": "1.6 Cultural Contact",
-      "stem": "Why does this course emphasize treating Native Americans as active historical agents rather than passive subjects of a process happening to them?",
+      "stem": "In 1680, Pueblo peoples led by Popé coordinated an uprising that drove Spanish colonists out of New Mexico for about twelve years. After the Spanish reconquered the region in the 1690s, colonial authorities generally made fewer labor demands and tolerated more traditional Pueblo religious practice. This sequence best illustrates which of the following?",
       "choices": [
-        "Because Native peoples genuinely shaped outcomes through resistance, negotiation, and adaptation.",
-        "Because this framing is required only for essay scoring, not for factual accuracy.",
-        "This framing is generally understood to carry no historical or analytical value.",
-        "Because Native Americans had essentially no meaningful interaction with European colonizers."
+        "The Spanish permanently abandoned their claims to the Southwest after the revolt.",
+        "Native resistance could force European colonizers to change the terms of colonial rule.",
+        "The Pueblo peoples abandoned their own religion and adopted Catholicism completely after the revolt.",
+        "Spanish missionaries succeeded in converting the Pueblo peoples without encountering resistance."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) Because Native peoples genuinely shaped outcomes through resistance, negotiation, and adaptation. Historians stress agency because the evidence shows Native nations deciding whom to ally with, when to fight, and what to trade, and these decisions influenced where colonies succeeded or failed, as in Pueblo resistance and Powhatan diplomacy. This is a matter of historical accuracy, not just of interpretation.\n\n(B) is wrong because the framing reflects what happened and is not merely an essay-scoring device.\n(C) is wrong because it carries significant analytical value, helping explain the course of contact.\n(D) is wrong because Native peoples interacted extensively with Europeans through trade, diplomacy, war and intermarriage."
+      "correct": 1,
+      "explanation": "Correct: (B) Native resistance could force European colonizers to change the terms of colonial rule. The Pueblo Revolt was a coordinated rising across many towns, provoked by forced labor, tribute and the suppression of Pueblo religion. Although Spain returned, the experience led colonial officials to ease labor demands and to accept a degree of religious blending rather than attempt complete suppression. The revolt therefore shows Native peoples acting to shape colonial policy rather than simply having it imposed on them. (A) is wrong because Spain reconquered New Mexico in the 1690s and kept the region as part of its empire for more than a century afterward. (C) is wrong because many Pueblo communities kept traditional ceremonies alongside Catholic practice, which is part of what the Spanish came to tolerate. (D) is wrong because the uprising itself was a violent rejection of missionary efforts, so conversion was clearly not accepted without resistance.",
+      "added": "2026-11-19"
     },
     {
-      "id": "1-59",
+      "id": "1-59r",
       "topic": "1.6 Cultural Contact",
-      "stem": "Which theme most directly connects to this section's content on differing land ownership concepts?",
+      "stem": "At Valladolid in 1550-1551, the scholar Juan Ginés de Sepúlveda argued before a council of the Spanish Crown that Native Americans were 'natural slaves' in Aristotle's sense who could justly be conquered by force, while the Dominican friar Bartolomé de las Casas argued that they were rational people who should be converted only by peaceful persuasion. This debate best illustrates which of the following?",
       "choices": [
-        "Social Structures (SOC) exclusively, with no other theme relevant.",
-        "Work, Exchange, and Technology (WXT) exclusively, with no other theme relevant.",
-        "Geography and the Environment (GEO), together with Migration and Settlement (MIG).",
-        "America in the World (WOR) exclusively, with no other theme relevant."
+        "Europeans disagreed sharply about the nature of Native peoples and how they should be treated.",
+        "Spanish officials agreed that Native peoples should receive full legal equality with Spaniards.",
+        "The debate led Spain to withdraw from its American colonies within a few years.",
+        "Spain and Portugal used the debate to settle their competing territorial claims in the Americas."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Geography and the Environment (GEO), together with Migration and Settlement (MIG). Land ownership concerns how people relate to the physical environment and territory (GEO), and the arrival and settlement of Europeans on lands used by Native peoples is migration and settlement (MIG), so both themes apply.\n\n(A) is wrong because Social Structures does not by itself capture the land and settlement issues, and 'exclusively' wrongly excludes the other themes.\n(B) is wrong because WXT concerns work and trade, which is relevant only partly, and 'exclusively' again rules out the others.\n(D) is wrong because America in the World concerns relations with other countries and does not most directly address land concepts, and 'exclusively' is again an error."
+      "correct": 0,
+      "explanation": "Correct: (A) Europeans disagreed sharply about the nature of Native peoples and how they should be treated. Sepúlveda used Aristotle's idea of natural slavery to justify conquest and forced labor, while las Casas insisted that Native peoples were fully human and capable of faith and reason. The council never issued a clear verdict, and the debate shows that Spanish society argued over the morality of conquest even as colonization continued. (B) is wrong because one side of the debate itself denied Native equality, and colonial law continued to treat Native peoples as subordinate. (C) is wrong because Spain kept and expanded its American empire for nearly three more centuries. (D) is wrong because Spanish and Portuguese claims had been divided by the Treaty of Tordesillas in 1494, and the Valladolid debate concerned the treatment of Native peoples.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-60",
@@ -863,17 +869,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) Permanent displacement of Native communities from land they understood as shared or temporarily granted. Once a deed was recorded, European courts and colonial governments backed the buyer's claim of exclusive ownership, and Native communities lost access to farming, hunting and burial grounds, whatever either side had intended. Growing settlement and later wars added to the pressure.\n\n(A) is wrong because the consequences were large and long lasting.\n(C) is wrong because European courts and officials generally upheld European titles, so Native communities rarely retained full legal ownership.\n(D) is wrong because Europeans enforced their own concept of property rather than adopting usufruct."
     },
     {
-      "id": "1-62",
+      "id": "1-62r",
       "topic": "1.6 Cultural Contact",
-      "stem": "Which best summarizes this section's overall lesson about cultural contact during Period 1?",
+      "stem": "French coureurs de bois in the 1600s learned Native languages, traveled by birchbark canoe, and often married into Native communities, while their Native trading partners incorporated metal kettles, woven cloth, and firearms into daily life. These developments best illustrate which of the following?",
       "choices": [
-        "Cultural contact is treated as having produced no lasting historical consequences.",
-        "Cultural contact was a simple, one-directional process carrying no genuine complexity.",
-        "Genuine conceptual mismatches, active Native agency, and consequences regardless of either side's intent.",
-        "European and Native American understandings of land were essentially always identical, so no conflict could arise from them."
+        "Europeans imposed their culture on Native peoples without adopting any Native practices themselves.",
+        "Native peoples rejected European manufactured goods in order to preserve their traditional ways of life.",
+        "French colonists in the fur trade focused mainly on building large plantations worked by Native labor.",
+        "Contact between Europeans and Native peoples produced adaptation and exchange in both directions."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Genuine conceptual mismatches, active Native agency, and consequences regardless of either side's intent. The section shows that Europeans and Native peoples held different ideas of land, that Native peoples acted as decision makers who traded, allied and resisted, and that outcomes such as the loss of land followed from the power of the colonial system even when there was no deliberate deception. The stem asks for the overall lesson, so the answer must combine these themes rather than a single extreme claim.\n\n(A) is wrong because contact had major, lasting consequences, including epidemic disease, new trade networks, land loss and the founding of colonies.\n(B) is wrong because contact was complex, with cooperation and conflict, and influence flowed in more than one direction, as shown by Native alliances and the exchange of goods and crops.\n(D) is wrong because European ideas of private, transferable land ownership differed from many Native ideas of shared use, which is exactly why treaties and sales produced disputes."
+      "correct": 3,
+      "explanation": "Correct: (D) Contact between Europeans and Native peoples produced adaptation and exchange in both directions. The fur trade depended on cooperation, so French traders adopted Native technology, languages and kinship ties in order to travel and trade successfully, and Native peoples chose European goods that were useful to them. Each side changed its way of life in response to the other, which shows that cultural contact was a two-way process of adaptation rather than a simple imposition of European culture. (A) is wrong because French traders clearly adopted Native practices such as canoe travel, language and intermarriage. (B) is wrong because Native trading partners actively sought European goods like kettles, cloth and guns and used them in daily life. (C) is wrong because New France was organized around the fur trade and had few plantations, which is why it needed Native trading partners.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-63",
@@ -1074,17 +1081,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) They provided a strong institution of local self-governance. In New England towns, adult male property holders met to elect selectmen, set taxes, regulate land use, and make local rules, which gave ordinary settlers a real say in local decisions. This tradition of local self-government grew from the Puritan idea of a covenant community and later fed Revolutionary-era resistance to rule from London. The stem asks about the role of town meetings in society, so the civic function is the key.\n\n(A) is wrong because the meetings had clear political functions, such as choosing officials, levying local taxes and deciding how common land would be used.\n(B) is wrong because town meetings dealt with civic and economic matters and were separate from worship, even though the Puritan church and the town were closely linked in membership.\n(D) is wrong because the meetings were run by local townspeople, and the Crown, an ocean away, had little part in daily town affairs."
     },
     {
-      "id": "2-11",
+      "id": "2-11r",
       "topic": "2.1 Regional Differences",
-      "stem": "A historian wants to explain regional economic differences among the thirteen colonies. Which single question would provide the most useful starting point, according to this section's framework?",
+      "stem": "By the late 1600s, the Chesapeake economy centered on large tobacco plantations, while New England's economy centered on small family farms, fishing, shipbuilding, and Atlantic trade. Which factor best explains this difference?",
       "choices": [
-        "What year was each colony founded?",
-        "What was each colony's founding motive?",
-        "How many rivers ran through each colony?",
-        "What was the population of each colony's capital city?"
+        "New England colonial governments banned commercial agriculture in order to protect the fishing industry.",
+        "The Chesapeake lacked navigable rivers, so planters had to grow a crop that could be stored for long periods.",
+        "Differences in climate and soil, as the Chesapeake had a long growing season while New England had rocky soil and long winters.",
+        "Parliament assigned a single crop to each region through the Navigation Acts, choosing tobacco for the Chesapeake."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) What was each colony's founding motive? Whether a colony began as a religious refuge (Massachusetts Bay), a profit venture (Virginia) or a proprietor's vision of toleration (Pennsylvania) shaped who migrated, whether they came as families or single men, what they produced, how they were governed and what labor they used. This one question therefore explains many regional differences.\n\n(A) is wrong because founding year helps only with chronology and does not account for differences in economy and society.\n(C) is wrong because the number of rivers is a minor geographic detail and does not explain economic differences between regions.\n(D) is wrong because the capital city's population describes one town and does not explain regional economies."
+      "correct": 2,
+      "explanation": "Correct: (C) Differences in climate and soil, as the Chesapeake had a long growing season while New England had rocky soil and long winters. Geography shaped the regional economies. The warm climate, long growing season and fertile soil of the Chesapeake favored tobacco, a labor-intensive export crop that encouraged large plantations. New England's thin, rocky soil and short growing season made large-scale export farming impractical, but its forests, fisheries and harbors supported shipbuilding, fishing and trade, so families farmed mainly for their own needs and local markets. (A) is wrong because New England colonists farmed widely, and no colonial government banned agriculture to protect fishing. (B) is wrong because the Chesapeake had many navigable rivers, which let planters ship tobacco directly from their own docks. (D) is wrong because the Navigation Acts regulated where certain goods could be shipped but did not assign crops to particular regions.",
+      "added": "2026-11-19"
     },
     {
       "id": "2-12",
@@ -1425,17 +1433,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) It became present-day New York. In 1664 an English fleet sent by the Duke of York, the future James II, took New Amsterdam without a fight, and the colony was renamed New York, with New Amsterdam becoming New York City and Fort Orange becoming Albany. The Dutch briefly retook it in 1673 but gave it up in 1674 by treaty. The stem asks what the Dutch colony later became.\n\n(A) is wrong because Pennsylvania was a separate colony given to William Penn in 1681, although it included some land that had been claimed earlier by the Dutch and the Swedes along the Delaware.\n(C) is wrong because New Netherland was never French; the French settled farther north along the St. Lawrence River in New France, and England rather than France took the Dutch colony.\n(D) is wrong because the colony did not remain Dutch, since England took it in 1664 and held it after the Treaty of Westminster in 1674."
     },
     {
-      "id": "2-38",
+      "id": "2-38r",
       "topic": "2.4 French and Dutch Approaches",
-      "stem": "Why does this section prefer a structural/economic explanation over a 'national character' explanation for differing colonial-Native relations?",
+      "stem": "French Jesuit missionaries in the 1600s lived in Huron (Wendat) villages, learned Native languages, and sent annual reports to France describing their work. Compared with Spanish missions in the Southwest, the Jesuit approach in New France generally",
       "choices": [
-        "A structural explanation identifies what each colonial economy actually needed to be profitable.",
-        "National-character explanations are always the more historically reliable of the two.",
-        "Economic motives never factor meaningfully into how historians explain colonial behavior.",
-        "Both explanations are equally rigorous, so historians treat them as interchangeable."
+        "relied on persuasion and living among Native communities rather than on systems of forced labor.",
+        "required converts to move to plantations where they produced sugar for export to France.",
+        "concentrated on converting enslaved Africans rather than Native peoples.",
+        "was forbidden by the French Crown, which opposed missionary work in its colonies."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) A structural explanation identifies what each colonial economy actually needed to be profitable. The French fur trade needed Native partners to hunt and trade, while English farming colonies needed land, and this difference accounts for patterns in alliances and conflict without relying on stereotypes about national character.\n\n(B) is wrong because national-character explanations are broad and hard to prove, and they are generally not the more reliable ones.\n(C) is wrong because economic motives are central to how historians explain colonial behavior.\n(D) is wrong because the two kinds of explanation are not equally rigorous: a structural account can be tested with evidence about trade and settlement, while character claims are generalizations."
+      "explanation": "Correct: (A) relied on persuasion and living among Native communities rather than on systems of forced labor. New France was a thinly settled fur-trading colony that depended on Native partners, so the Jesuits had no military or economic power to compel conversion. They traveled to Native villages, learned languages such as Wendat, and tried to adapt their teaching to local beliefs. Spanish missions in New Mexico, by contrast, were tied to labor and tribute demands, which helped provoke the Pueblo Revolt. (B) is wrong because New France had no sugar plantations, and the Jesuits went to Native villages rather than moving converts to plantations. (C) is wrong because New France had few enslaved Africans, and the Jesuits' work in the 1600s focused on Native nations such as the Huron. (D) is wrong because the French Crown supported missionary work, and converting Native peoples was one of the stated goals of French colonization.",
+      "added": "2026-11-19"
     },
     {
       "id": "2-39",
@@ -1464,17 +1473,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) It rests on an unsupported generalization rather than the structural fur-trade explanation. The statement attributes French behavior to feelings, but the evidence shows that French traders needed Native hunters and allies for the fur trade and had few settlers who wanted land, while English colonies were built on farming settlement. Also, French relations were not free of conflict, for example in the Fox Wars.\n\n(A) is wrong because claims about national temperament need evidence and are not self-evidently true.\n(B) is wrong because historians have gathered extensive evidence on the fur trade and alliances that bears on the claim.\n(D) is wrong because the student claims French relations were better, not worse."
     },
     {
-      "id": "2-41",
+      "id": "2-41r",
       "topic": "2.4 French and Dutch Approaches",
-      "stem": "Which comparison point does this section use as a model for explaining regional or national differences elsewhere in the course?",
+      "stem": "In the mid-1600s, New Amsterdam's residents spoke many languages and included Jews, Lutherans, Quakers, and both enslaved and free Africans. Director Peter Stuyvesant tried to restrict worship outside the Dutch Reformed Church, but the Dutch West India Company directors overruled him on admitting Jewish settlers. Which best explains this pattern?",
       "choices": [
-        "Comparing raw population totals while ignoring how each colonial economy was structured.",
-        "Comparing what each economy structurally needed from land and Native peoples to profit.",
-        "Comparing the size and equipment of each colonial power's military forces.",
-        "Comparing only the two powers' official religious policies toward settlers."
+        "The colony was founded as a religious refuge for English Puritans seeking to build a model Christian community.",
+        "The Dutch West India Company valued commerce and settlers who could build trade over religious uniformity.",
+        "The Spanish Crown sponsored New Netherland and required it to accept settlers from every part of its empire.",
+        "Dutch law restricted New Netherland to settlers born in the Netherlands, which made the colony religiously uniform."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Comparing what each economy structurally needed from land and Native peoples to profit. The section uses this approach to explain differences: fur trade colonies needed trading partners, farming colonies needed land. The same method can be applied elsewhere, asking what each region's economy required.\n\n(A) is wrong because raw population totals do not explain why the colonies developed as they did.\n(C) is wrong because military size is not the comparison the section uses.\n(D) is wrong because religious policy alone does not explain the economic structures and relations with Native peoples."
+      "explanation": "Correct: (B) The Dutch West India Company valued commerce and settlers who could build trade over religious uniformity. New Netherland was a commercial venture run by the Dutch West India Company, which wanted the fur trade and the port of New Amsterdam to prosper. Because few Dutch people chose to emigrate, the Company accepted settlers of many backgrounds, and it told Stuyvesant to tolerate groups that could contribute to the colony's economy. Commercial priorities thus produced a diverse population, a pattern that continued after the English took the colony as New York in 1664. (A) is wrong because Puritans founded Massachusetts Bay, while New Netherland was a Dutch trading colony with a mixed population. (C) is wrong because New Netherland was a Dutch colony, and Spain had no role in sponsoring or governing it. (D) is wrong because the colony's population was notably diverse, which contradicts any claim that only Dutch-born settlers were admitted.",
+      "added": "2026-11-19"
     },
     {
       "id": "2-42",
@@ -2286,17 +2296,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) It could not respond effectively, lacking a standing army or taxing power; Massachusetts used a private militia. Congress had no money to raise troops and little authority over the states, so Massachusetts leaders gathered a militia funded by wealthy Boston merchants under General Benjamin Lincoln, which dispersed the rebels in early 1787. The episode showed that the national government could not protect order or property, and it strengthened calls for a convention.\n\n(A) is wrong because the Confederation had no well-funded army, and Congress could not raise money from the states to pay for one.\n(B) is wrong because the rebellion was an American domestic event led by Daniel Shays and indebted western Massachusetts farmers, and Britain played no role in handling it.\n(C) is wrong because the rebels' demands were not adopted nationally, though the state later pardoned most of them and some debt relief followed."
     },
     {
-      "id": "3-38",
+      "id": "3-38r",
       "topic": "3.5 Articles of Confederation",
-      "stem": "Why is it important to acknowledge the Articles' weakness as a deliberate design choice before explaining the problems it caused?",
+      "stem": "Maryland refused to ratify the Articles of Confederation until states such as Virginia agreed to give up their claims to western lands. After the states ceded these claims, which achievement did the Confederation Congress accomplish?",
       "choices": [
-        "The Articles' weakness was, in fact, never a deliberate choice at all",
-        "This acknowledgment has no bearing on understanding the Convention",
-        "It is not important; the framers' reasoning is essentially irrelevant",
-        "A stronger essay explains WHY the framers chose this weak structure first"
+        "Congress gained the power to levy direct taxes on citizens in order to pay the war debt.",
+        "Congress divided the western lands among the original states in proportion to their populations.",
+        "Congress sold the western lands back to Britain in order to pay debts left from the Revolutionary War.",
+        "Congress organized the western lands through ordinances providing for their survey, sale, and admission as new states."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) A stronger essay explains WHY the framers chose this weak structure first. The Articles were not a mistake but the product of fear of tyranny after the British experience, so a good argument starts there and then shows how the lack of taxation power, a single vote per state, the unanimity needed to amend, and the inability to regulate commerce caused problems. This gives context and shows how the Constitution responded to a real tradeoff between liberty and order.\n\n(A) is wrong because the weak design was deliberate, reflecting Americans' distrust of centralized power after the break with Britain.\n(B) is wrong because the intent is directly relevant to understanding the Convention's choices, since the delegates tried to add power while still guarding liberty through separation of powers and checks.\n(C) is wrong because the reasoning matters in explaining both the original design and the later change, and ignoring it leaves the argument without cause."
+      "explanation": "Correct: (D) Congress organized the western lands through ordinances providing for their survey, sale, and admission as new states. Once the states ceded their western claims, the land became a national domain that Congress could govern. The Land Ordinance of 1785 set up a system for surveying the land into townships and selling it, and the Northwest Ordinance of 1787 created a territorial government, provided for new states equal to the original ones, and banned slavery in the Northwest Territory. These ordinances are usually counted as the most lasting achievements of government under the Articles. (A) is wrong because Congress never gained the power to tax under the Articles, which was one of its main weaknesses. (B) is wrong because the point of the cessions was to make the western lands national rather than to divide them among the states. (C) is wrong because Britain had given up these lands in the Treaty of Paris of 1783, and Congress did not sell them back.",
+      "added": "2026-11-19"
     },
     {
       "id": "3-39",
@@ -2835,17 +2846,18 @@ const QUESTIONS = {
       "explanation": "Correct: (A) A restored prewar status quo, with no major territorial changes for either side. Negotiators meeting in Ghent, Belgium, agreed to stop fighting and return conquered land, leaving issues like impressment unresolved because the end of the Napoleonic Wars had made them less urgent. The agreement ended the war on December 24, 1814, and the Senate ratified it in February 1815. The phrase prewar status quo captures that neither side won concessions.\n\n(B) is wrong because the U.S. gained no Canadian territory, and its invasions of Canada had failed.\n(C) is wrong because Britain did not annex any American states; its burning of Washington in 1814 was a raid, and the treaty returned the boundaries.\n(D) is wrong because Canada remained British, and the treaty provided for boundary commissions and no American annexation of British North America."
     },
     {
-      "id": "4-15",
+      "id": "4-15r",
       "topic": "4.2 War of 1812",
-      "stem": "Why should the War of 1812's SIGNIFICANCE for this exam be understood primarily in political rather than military terms?",
+      "stem": "In 1816, Congress chartered the Second Bank of the United States and passed a protective tariff, and Henry Clay soon promoted federally funded roads and canals as part of a program he called the American System. These measures most directly reflected",
       "choices": [
-        "The war produced no lasting consequences of any kind for later American political or economic life.",
-        "Its inconclusive military outcome mattered less than its lasting political legacy of nationalism.",
-        "Historians agree political consequences and military outcomes always carry precisely equal historical weight.",
-        "The war's clear, decisive military victory over Britain overshadows any of its minor political consequences."
+        "a wave of economic nationalism after the War of 1812 exposed weaknesses in the nation's finances and transportation.",
+        "a return to Jeffersonian strict construction that sharply limited the powers of the federal government.",
+        "the Federalist Party's success in winning control of Congress after the Hartford Convention.",
+        "terms imposed on the United States by Britain in the Treaty of Ghent."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) Its inconclusive military outcome mattered less than its lasting political legacy of nationalism. Though neither side won, Americans saw the war as a second war of independence, boosted by Jackson's victory and the Star-Spangled Banner, and it brought a rise of national feeling, new support for the Second Bank of 1816 and a protective tariff, plus the Federalists' decline. The war also weakened Native resistance east of the Mississippi after Tecumseh's death in 1813.\n\n(A) is wrong because the war had major consequences, including the end of the Federalists, the economic nationalism of the American System and the loss of Native land.\n(C) is wrong because historians do not say political consequences and military outcomes always carry equal weight, and the question concerns this war's particular legacy.\n(D) is wrong because there was no decisive military victory; the Treaty of Ghent restored the prewar boundaries and the fighting ended in a stalemate."
+      "correct": 0,
+      "explanation": "Correct: (A) a wave of economic nationalism after the War of 1812 exposed weaknesses in the nation's finances and transportation. During the war the government struggled to finance the fighting without a national bank, British blockades cut off imported goods, and poor roads hampered the movement of troops and supplies. Afterward, Republicans who had once opposed Hamilton's program supported a new national bank, a tariff to protect young American manufacturers and internal improvements, reflecting a nationalist mood that helped give the era the name Era of Good Feelings. (B) is wrong because chartering a national bank and funding internal improvements expanded federal power rather than limiting it. (C) is wrong because the Federalists were discredited by the Hartford Convention and faded as a national party after the war. (D) is wrong because the Treaty of Ghent restored prewar conditions and said nothing about American banking or tariff policy.",
+      "added": "2026-11-19"
     },
     {
       "id": "4-16",
@@ -2900,17 +2912,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) Falling costs made growing cash crops for distant markets newly profitable for interior farmers. Before the canals, roads, steamboats, and railroads, hauling wheat or pork far overland cost more than the goods were worth, so farmers grew mostly for their own use and local trade. With cheaper transport, farmers in the Old Northwest could sell to eastern cities and Europe, and in the South cotton shipped to northern and British mills. The stem asks for the mechanism, which is the profitability of selling at a distance.\n\n(A) is wrong because farming expanded in this period, and most Americans still worked in agriculture even as factories grew.\n(C) is wrong because interior farmers gained the most, since the Erie Canal and other routes opened eastern markets to them.\n(D) is wrong because the effect was large, with cheaper shipping and the spread of cash crops marking the market revolution in farming."
     },
     {
-      "id": "4-20",
+      "id": "4-20r",
       "topic": "4.3 Market Revolution",
-      "stem": "Why is describing the Market Revolution simply as 'the economy grew' an insufficiently precise answer for this exam?",
+      "stem": "In Gibbons v. Ogden (1824), the Supreme Court struck down a monopoly that New York had granted for steamboat service on the waters between New York and New Jersey. The decision most directly",
       "choices": [
-        "Historical writing is graded purely on style, so precision never actually affects a response's score.",
-        "The exam rewards naming the specific mechanism over vague, general growth language.",
-        "The Market Revolution is entirely unrelated to any form of economic growth or transformation.",
-        "This vague description is already sufficiently precise and needs no further elaboration."
+        "affirmed that states could grant exclusive rights to navigate waters shared with other states.",
+        "ruled that Congress had no authority to regulate trade among the states.",
+        "banned steamboats from interstate waters because of the danger of boiler explosions.",
+        "strengthened federal authority over interstate commerce and opened steamboat travel to competition."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) The exam rewards naming the specific mechanism over vague, general growth language. The Market Revolution refers to the shift from household and local production to production for distant markets, driven by transportation improvements such as the Erie Canal and steamboats, new factories, and wage labor. A strong answer says how transportation changes led to regional specialization, with the Northeast in manufacturing, the Midwest in grain, and the South in cotton.\n\n(A) is wrong because precision is rewarded; AP scoring depends on specific evidence and on analysis of cause and effect, so vague claims earn little credit.\n(C) is wrong because the Market Revolution is about economic transformation, specifically a change in how goods were produced, sold and transported.\n(D) is wrong because the economy grew does not explain how or why the change occurred, so it lacks the specific mechanism the exam asks for."
+      "correct": 3,
+      "explanation": "Correct: (D) strengthened federal authority over interstate commerce and opened steamboat travel to competition. Chief Justice John Marshall's opinion held that commerce included navigation and that the Constitution gave Congress power over commerce among the states, so a federally licensed steamboat could not be shut out by a state monopoly. Ending the monopoly brought competition, lowered fares and encouraged steamboat traffic, which helped the transportation growth of the Market Revolution. (A) is wrong because the Court struck down exactly this kind of state-granted monopoly. (B) is wrong because the Court read the Commerce Clause broadly in favor of federal power. (C) is wrong because the case was about who could regulate steamboat traffic, not about banning steamboats.",
+      "added": "2026-11-19"
     },
     {
       "id": "4-21",
@@ -3043,17 +3056,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) The temperance movement, opposing alcohol consumption. Evangelical reformers argued that drinking caused poverty, family violence, and sin, and groups such as the American Temperance Society (1826) pushed for abstinence, with Maine passing a prohibition law in 1851. The movement, which attracted many women, grew from the revivals' belief that people could improve society.\n\n(A) is wrong because the Bank War was Jackson's economic fight with the Second Bank.\n(B) is wrong because Manifest Destiny, a belief that the U.S. was meant to expand across the continent, was a political idea of the 1840s, not a reform tied to revivalism.\n(C) is wrong because the spoils system was a patronage policy."
     },
     {
-      "id": "4-31",
+      "id": "4-31r",
       "topic": "4.4 Second Great Awakening",
-      "stem": "A question asks about the religious movement connected to antebellum reform movements like abolitionism and temperance. Which specific movement should you name?",
+      "stem": "Charles Grandison Finney, a leading revivalist of the 1820s and 1830s, preached that individuals could choose to accept salvation and that converted Christians should work actively to remove sin from society. Finney's emphasis on human choice differed most sharply from which earlier belief?",
       "choices": [
-        "The First Great Awakening, which swept the colonies a century earlier",
-        "Neither revival movement has any relevance to antebellum reform",
-        "The Protestant Reformation, a sixteenth-century European movement",
-        "The Second Great Awakening, specifically"
+        "The Enlightenment idea that people possess natural rights to life, liberty, and property.",
+        "The Calvinist doctrine of predestination, held by the Puritans, that God had already chosen who would be saved.",
+        "The Quaker belief in an Inner Light that gave every person direct access to God.",
+        "The belief that dedicated Christians could improve society through organized reform."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) The Second Great Awakening, specifically. The revivals of the early 1800s linked religious conversion to social improvement, so converts joined temperance societies, abolitionist groups, and movements for schools and prison reform. A question about antebellum reforms, roughly the 1820s through 1850s, calls for this movement, whose preachers like Charles Finney taught that people could act to perfect society.\n\n(A) is wrong because the First Great Awakening was in the 1730s and 1740s, a century earlier, and it came before the antebellum reform era.\n(B) is wrong because the revival is the key link, since reformers drew moral energy and organizing methods from the Second Great Awakening.\n(C) is wrong because the Protestant Reformation was a sixteenth-century European movement, not the American religious revival that fed temperance and abolition in the 1800s."
+      "correct": 1,
+      "explanation": "Correct: (B) The Calvinist doctrine of predestination, held by the Puritans, that God had already chosen who would be saved. Puritans and many other colonial Protestants held the Calvinist belief that God had predestined the saved and the damned, so human effort could not earn salvation. Finney and other Second Great Awakening preachers stressed free will, telling audiences that they could choose to be saved immediately. This optimism about human ability encouraged converts to believe that society could also be perfected, which fed reform movements such as temperance and abolition. (A) is wrong because natural rights were a political idea about government and did not conflict with Finney's teaching about salvation. (C) is wrong because the Inner Light, available to every person, was closer to Finney's view of open access to salvation than opposed to it. (D) is wrong because the idea that Christians should reform society was Finney's own teaching, not an earlier belief he opposed.",
+      "added": "2026-11-19"
     },
     {
       "id": "4-32",
@@ -3329,30 +3343,32 @@ const QUESTIONS = {
       "explanation": "Correct: (D) It sharply increased processing efficiency for widely-grown short-staple cotton. Short-staple cotton could grow across much of the interior South but had sticky seeds that took a worker a day to clean about a pound by hand, while the gin let one person clean many pounds a day. This made short-staple cotton very profitable, though picking still required human labor, which increased the demand for enslaved workers.\n\n(A) is wrong because picking and planting were still done by hand, and the gin only mechanized the cleaning of seeds from the fiber.\n(B) is wrong because the gin mattered for short-staple, which was grown across the Deep South, while long-staple cotton had been grown mostly along the coast and was easier to clean.\n(C) is wrong because it greatly increased efficiency, raising the amount of cotton one worker could process from about a pound to dozens of pounds a day."
     },
     {
-      "id": "4-53",
+      "id": "4-53r",
       "topic": "4.7 Sectionalism",
-      "stem": "How does the cotton gin's economic effect connect to Period 3's continuity/change content on slavery?",
+      "stem": "In the decades after the invention of the cotton gin in 1793, the domestic slave trade forcibly moved large numbers of enslaved people from the Upper South, such as Virginia and Maryland, to states such as Alabama, Mississippi, and Louisiana. Which best explains this movement?",
       "choices": [
-        "It extends Period 3's point that slavery persisted despite liberty rhetoric, via this specific mechanism.",
-        "The cotton gin caused slavery's immediate nationwide abolition.",
-        "Period 3 and Period 4 address entirely separate historical periods with no possible thematic connection.",
-        "No meaningful connection exists between this unit's content and any earlier unit's material."
+        "Congress required the Upper South states to sell their enslaved populations to the newer states.",
+        "Virginia and Maryland had abolished slavery by 1800 and were sending enslaved people out of state.",
+        "Planters in the Deep South were switching from cotton to wheat, which needed more workers per acre.",
+        "Short-staple cotton spread into the fertile Deep South, raising demand for enslaved labor while the Upper South needed less."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) It extends Period 3's point that slavery persisted despite liberty rhetoric, via this specific mechanism. In Period 3, Revolutionary talk of liberty led northern states to abolish slavery gradually, but the Constitution protected it and Southern states kept it. After 1793, the cotton gin made slavery profitable in new lands, explaining why it expanded instead of dying out as some Founders had hoped. The stem asks for the continuity with the earlier period.\n\n(B) is wrong because slavery was not abolished until 1865 with the Thirteenth Amendment, and the gin pushed its growth instead of ending it.\n(C) is wrong because the periods are connected, with Period 4 developments such as cotton and expansion building on the Revolutionary-era compromises over slavery.\n(D) is wrong because there are clear links between units, such as the theme of slavery contradicting liberty and the persistence of the Constitution's compromises."
+      "correct": 3,
+      "explanation": "Correct: (D) Short-staple cotton spread into the fertile Deep South, raising demand for enslaved labor while the Upper South needed less. The cotton gin made short-staple cotton profitable, and planters rushed to grow it on fertile lands in the Deep South as Native nations were removed. Because Congress had banned the international slave trade in 1808, planters bought enslaved people from the Upper South, where tobacco had exhausted soils and planters shifted toward less labor-intensive crops. The result was a massive forced migration that broke up families and expanded slavery westward. (A) is wrong because Congress never required states to sell enslaved people, and the trade was driven by private buyers and sellers. (B) is wrong because Virginia and Maryland remained slave states until the Civil War era, which is why they had enslaved people to sell. (C) is wrong because the Deep South was expanding cotton production, not converting to wheat, and cotton drove the demand for labor.",
+      "added": "2026-11-19"
     },
     {
-      "id": "4-54",
+      "id": "4-54r",
       "topic": "4.7 Sectionalism",
-      "stem": "Why should a strong essay explicitly frame the Missouri Compromise as a temporary deferral rather than a permanent solution?",
+      "stem": "In 1819, New York Representative James Tallmadge proposed amending the bill to admit Missouri as a state by banning the further introduction of enslaved people there and gradually freeing the children of those already enslaved. Southern members of Congress strongly opposed the amendment. Which concern best explains their opposition?",
       "choices": [
-        "Because the compromise immediately and permanently ended every form of sectional political conflict.",
-        "Because the Missouri Compromise, in fact, had no substantive relationship to slavery at all.",
-        "Because the line was always going to face renewed pressure as western territory kept growing.",
-        "Because this deferral framing is historically inaccurate and should be avoided by strong essays."
+        "Admitting Missouri as a free state would upset the equal balance of free and slave states in the Senate.",
+        "The amendment would have abolished slavery immediately in every state of the Union.",
+        "Missouri did not yet have a large enough population to qualify for statehood under federal law.",
+        "Southern leaders wanted Missouri to remain a territory permanently rather than become a state."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Because the line was always going to face renewed pressure as western territory kept growing. The Missouri Compromise solved the immediate problem of balance between slave and free states, but it settled slavery's status only in the Louisiana Purchase, so annexation of Texas and the Mexican Cession reopened the matter. Seeing it as a pause explains the later Compromise of 1850, the Kansas-Nebraska Act of 1854, and the road to the Civil War.\n\n(A) is wrong because it did not end conflict; it postponed the dispute, and Jefferson himself called the crisis a firebell in the night.\n(B) is wrong because it was about slavery, since it set the terms for admitting Missouri and Maine and for slavery north of 36°30'.\n(D) is wrong because the deferral framing is historically accurate, as later territorial disputes returned to the same question and ended with the repeal of the line in 1854."
+      "correct": 0,
+      "explanation": "Correct: (A) Admitting Missouri as a free state would upset the equal balance of free and slave states in the Senate. In 1819 the Union had eleven free states and eleven slave states, giving each section equal votes in the Senate even though the North held a majority in the House. Making Missouri free would have tipped the Senate toward the North and set a precedent that Congress could limit slavery in new states. The resulting crisis was settled by the Missouri Compromise of 1820, which admitted Maine as a free state alongside Missouri. (B) is wrong because the Tallmadge Amendment applied only to Missouri and would have ended slavery there gradually, not nationwide or immediately. (C) is wrong because population was not the main issue; the debate centered on whether slavery would be allowed in the new state. (D) is wrong because Southern members wanted Missouri admitted as a slave state, not kept as a territory permanently.",
+      "added": "2026-11-19"
     },
     {
       "id": "4-55",
@@ -3826,17 +3842,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) No — it inflamed the dispute, seeming to open every territory to slavery unchecked. Taney's ruling meant Congress could not bar slavery in any territory, so Republicans saw a threat of slavery spreading everywhere and Northerners called it a slaveholders' conspiracy, while the decision also undercut Douglas's popular sovereignty. The Lincoln-Douglas debates of 1858 and the Republican gains followed.\n\n(A) is wrong because the ruling bore directly on slavery in the territories, declaring the Missouri Compromise line unconstitutional and denying Congress power to exclude slavery.\n(B) is wrong because sectional conflict continued to intensify, with John Brown's raid in 1859 and the split of the Democratic Party before the 1860 election.\n(C) is wrong because the crisis kept escalating to secession within four years of the 1857 decision, so no temporary resolution of about five years occurred."
     },
     {
-      "id": "5-25",
+      "id": "5-25r",
       "topic": "5.4 Civil War Causes and Strategy",
-      "stem": "What does this exam treat as the central, underlying cause of the Civil War?",
+      "stem": "In its December 1860 declaration of the causes of secession, South Carolina complained that several Northern states had refused to enforce the Fugitive Slave Act and that a president hostile to slavery had been elected. This document best supports which interpretation of secession?",
       "choices": [
-        "A dispute over federal tariff policy, with slavery playing only an incidental role",
-        "Slavery — the right at stake was the right to maintain and expand it",
-        "A dispute centered mainly on the location and status of the national capital",
-        "An abstract states' rights principle detached from any specific underlying policy"
+        "Secession was primarily a protest against high federal tariffs on imported manufactured goods.",
+        "Southern states wanted the federal government to do less in every area of policy, including the return of fugitives.",
+        "Protecting slavery was the central motive, and Southern leaders demanded federal power when it served that goal.",
+        "Secession was a response to the Emancipation Proclamation and its threat to slavery in the Confederate states."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) Slavery — the right at stake was the right to maintain and expand it. Secession documents such as Mississippi's declaration say its position was 'thoroughly identified with the institution of slavery,' and Alexander Stephens's Cornerstone speech (March 1861) described slavery as the foundation of the Confederacy. The territorial fights of 1850-1860 all concerned slavery's growth.\n\n(A) is wrong because tariffs were a secondary issue; the 1832 Nullification Crisis was earlier, and the Morrill Tariff followed secession.\n(C) is wrong because the question of the capital's location was not a cause; only the D.C. slave trade was touched in 1850.\n(D) is wrong because 'states' rights' in 1860 was invoked in defense of a specific right, slavery, as the secession declarations show."
+      "correct": 2,
+      "explanation": "Correct: (C) Protecting slavery was the central motive, and Southern leaders demanded federal power when it served that goal. South Carolina's declaration centered its grievances on slavery, charging that Northern states had passed laws obstructing the return of fugitives and that Lincoln's election threatened the institution. Ironically, it criticized Northern states for using their own authority against a federal law, which shows that the appeal to states' rights was tied to defending slavery. The document therefore supports the view that slavery was the central cause of secession. (A) is wrong because the tariff was not the focus of the declaration, which concentrated on slavery and the fugitive slave issue. (B) is wrong because the declaration demanded stronger federal enforcement of the Fugitive Slave Act, so it did not seek less federal action everywhere. (D) is wrong because the Emancipation Proclamation was issued in 1862 and 1863, years after South Carolina seceded in December 1860.",
+      "added": "2026-11-19"
     },
     {
       "id": "5-26",
@@ -4229,17 +4246,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) Yes — elected to southern legislatures and to the U.S. Congress for the first time. Hiram Revels of Mississippi became the first Black U.S. senator in 1870, Blanche K. Bruce followed, and Joseph Rainey of South Carolina entered the House in 1870, while hundreds of Black men served in state legislatures. The stem asks whether there was genuine participation, and the record shows it.\n\n(A) is wrong because many Black officeholders served, in local posts, state legislatures and Congress, during the Reconstruction years.\n(C) is wrong because the acts required Black male suffrage in the new state constitutions, which is the opposite of barring Black participation.\n(D) is wrong because Black officials were elected to state legislatures and Congress, so participation was not confined to local municipal offices."
     },
     {
-      "id": "5-56",
+      "id": "5-56r",
       "topic": "5.7 Radical Reconstruction",
-      "stem": "Why is it important not to understate the significance of Black political participation during Radical Reconstruction, even though this achievement would later be reversed?",
+      "stem": "During Radical Reconstruction, Southern state constitutional conventions that included many Black delegates wrote new constitutions providing for statewide systems of public schools, something most Southern states had lacked before the Civil War. Which best describes the long-term significance of this change?",
       "choices": [
-        "Black political participation during this period carried no lasting historical significance",
-        "It was a genuine achievement; a complete answer also notes its eventual reversal",
-        "This achievement should be dismissed entirely since it ultimately did not endure",
-        "The later reversal renders the original achievement historically meaningless"
+        "The new schools were racially integrated and remained integrated throughout the South until the 1950s.",
+        "Public education systems continued after Reconstruction ended, although they became segregated and unequally funded.",
+        "Southern states abolished all public schools immediately after federal troops withdrew in 1877.",
+        "The schools were funded permanently by the Freedmen's Bureau, which continued operating into the twentieth century."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It was a genuine achievement; a complete answer also notes its eventual reversal. Black men voting and holding office in the 1860s and 1870s was historic, and the Fourteenth and Fifteenth Amendments remained as a legal basis for later challenge, even though disenfranchisement took much of it away by 1900. The stem asks why not to understate the achievement even though it was later reversed, and the best answer balances both parts.\n\n(A) is wrong because it had significance, as Black citizens held office, built schools and churches, and shaped state constitutions.\n(C) is wrong because the reversal doesn't erase what was achieved, and the amendments and institutions from the period endured.\n(D) is wrong because the later loss doesn't make the achievement meaningless, since the legal framework it left was used by the Civil Rights Movement in the twentieth century."
+      "explanation": "Correct: (B) Public education systems continued after Reconstruction ended, although they became segregated and unequally funded. Reconstruction governments created public school systems open to Black and white children, a major change in a region where it had been illegal to teach enslaved people to read. After Democrats regained power, the systems survived, but Southern states segregated them and spent far less on Black schools. The change therefore had lasting significance even though its egalitarian promise was reversed, and later civil rights cases challenged the inequality that followed. (A) is wrong because most Southern schools were segregated from the start or soon after, and segregation was upheld until Brown v. Board in 1954. (C) is wrong because Redeemer governments cut spending and segregated schools but did not abolish public education after 1877. (D) is wrong because the Freedmen's Bureau was shut down in 1872 and never permanently funded Southern public schools.",
+      "added": "2026-11-19"
     },
     {
       "id": "5-57",
@@ -4453,17 +4471,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) Railroads. Railroads were the first giant American business and the infrastructure of the national market: track mileage multiplied after the Civil War, the first transcontinental line was completed at Promontory Summit in 1869, and the lines carried raw materials, finished goods, crops and passengers between regions. They also required huge capital and created modern corporate management, and their demand for steel, coal and timber stimulated other industries. The clue is 'essential infrastructure connecting the national market.'\n\n(A) is wrong because agriculture was a major sector but it depended on railroads to reach markets and did not itself provide the connecting infrastructure.\n(B) is wrong because banks financed industry and railroads, such as J. P. Morgan's firm, but the word 'exclusively' and the role of finance do not fit a description of physical infrastructure.\n(D) is wrong because textile manufacturing was an older industry, centered in New England mills since the early 1800s, that did not link regional markets together."
     },
     {
-      "id": "6-8",
+      "id": "6-8r",
       "topic": "6.1 Second Industrial Revolution",
-      "stem": "Why is distinguishing vertical from horizontal integration important for this exam, rather than treating both as interchangeable synonyms for 'big business getting bigger'?",
+      "stem": "By the 1890s, Carnegie Steel controlled coke ovens in western Pennsylvania, iron-ore lands around Lake Superior, the ore boats on the Great Lakes, and rail lines that carried ore and coke to its Pittsburgh-area mills. What did this pattern of ownership chiefly accomplish for the company?",
       "choices": [
-        "Only horizontal integration, and never vertical integration, is tested on this exam, so only it matters for essays.",
-        "Only vertical integration, and never horizontal integration, is tested on this exam, so only it matters for essays.",
-        "This exam rewards correctly identifying which strategy a scenario illustrates — different stages vs. same-stage rivals.",
-        "There is no meaningful reason to ever distinguish these two related business strategies in an essay."
+        "It gave the company a monopoly over steel production by absorbing all rival steelmakers in the country.",
+        "It allowed the company to escape federal regulation, since the Interstate Commerce Act did not apply to integrated firms.",
+        "It let the company control the cost and supply of its raw materials and transport, lowering production costs below those of competitors.",
+        "It let the company sell steel directly to European buyers without needing to compete in the American market."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) This exam rewards correctly identifying which strategy a scenario illustrates — different stages vs. same-stage rivals. AP questions often describe a company, such as one that buys its own coal mines and railroads versus one that buys competing refineries, and expect the student to name vertical or horizontal integration and tie it to Carnegie or Rockefeller. Using the terms as synonyms for 'big business getting bigger' would lose that precision and the points that depend on it.\n\n(A) is wrong because both strategies appear in the Gilded Age material, and ignoring vertical integration would leave Carnegie's steel empire unexplained.\n(B) is wrong because horizontal integration is equally testable, since Rockefeller's Standard Oil monopoly is the standard example, so the claim that only vertical integration matters is false.\n(D) is wrong because the distinction is exactly what lets essays compare how Carnegie and Rockefeller built their empires, so saying there is no reason to distinguish them is mistaken."
+      "explanation": "Correct: (C) It let the company control the cost and supply of its raw materials and transport, lowering production costs below those of competitors. The stimulus describes ownership of the inputs (coke, ore) and the transportation (boats, rail) that fed the steel mills, which is vertical integration. By owning each stage instead of buying from suppliers, Carnegie avoided middlemen's markups and supply disruptions, cut costs, and could undersell rivals, which is how Carnegie Steel became the largest steel producer in the world before its 1901 sale to J. P. Morgan's U.S. Steel. (A) is wrong because buying out rival steelmakers would be horizontal integration, and the stimulus describes suppliers and transport, not competing mills; Carnegie also never held a complete monopoly. (B) is wrong because the Interstate Commerce Act of 1887 regulated railroad rates generally, and owning suppliers did not exempt a firm from federal law or regulation. (D) is wrong because Carnegie's mills supplied mainly the booming American market for rails, bridges, and buildings, and the stimulus says nothing about avoiding domestic competition through exports.",
+      "added": "2026-11-19"
     },
     {
       "id": "6-9",
@@ -4531,17 +4550,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) Social Darwinism justified indifference to the poor; the Gospel of Wealth urged active giving back. Social Darwinists such as Spencer and Sumner held that inequality reflected natural competition and that charity or government relief interfered with it, while Carnegie's 1889 essay argued the successful had a duty to use their riches for public benefit. Both defended the economic order but drew different conclusions about obligations to others. The clue is the word 'differ' between a hands-off and a giving ethic.\n\n(A) is wrong because neither idea made philanthropy a legal requirement, and Social Darwinism actually discouraged charity to the poor.\n(B) is wrong because Carnegie accepted that wealth earned through business was legitimate and only urged how to use it, so the Gospel of Wealth did not reject accumulation.\n(D) is wrong because the two ideas reach different conclusions about helping others, so describing them as identical ignores that contrast."
     },
     {
-      "id": "6-14",
+      "id": "6-14r",
       "topic": "6.2 Robber Barons and Social Darwinism",
-      "stem": "Why might a strong essay evaluating Andrew Carnegie avoid forcing a single 'robber baron' or 'captain of industry' verdict?",
+      "stem": "\"The man who dies thus rich dies disgraced.\" — Andrew Carnegie, \"Wealth\" (later known as \"The Gospel of Wealth\"), 1889. Which development most complicates using this statement as evidence that Carnegie was a benevolent steward of his workers' interests?",
       "choices": [
-        "No surviving historical record about Carnegie's business or philanthropy exists to settle the question.",
-        "Only one of the two characterizations could ever be historically accurate.",
-        "Real evidence supports both framings — wage suppression and violence alongside philanthropy.",
-        "This historiographical debate carries no relevance for the AP exam."
+        "The 1892 Homestead lockout, in which Carnegie's partner Henry Clay Frick brought in Pinkerton guards and the union at the plant was broken.",
+        "The 1886 Haymarket bombing in Chicago, which Carnegie personally helped organize to discredit the Knights of Labor.",
+        "The 1894 Pullman Strike, in which Carnegie persuaded President Cleveland to send federal troops to Chicago.",
+        "The Sherman Antitrust Act of 1890, which Carnegie Steel was the first company convicted of violating."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Real evidence supports both framings — wage suppression and violence alongside philanthropy. Carnegie's steelworkers faced wage cuts and long hours, and in 1892 the Homestead lockout ended in a gun battle with Pinkerton guards, yet he also gave away about 350 million dollars and funded over 2,500 libraries. A strong AP essay weighs this evidence on both sides, as the question's wording about not 'forcing a single verdict' suggests.\n\n(A) is wrong because there are extensive records, including Carnegie's own writings, labor accounts of Homestead and records of his library gifts, so a lack of evidence is not the problem.\n(B) is wrong because the two characterizations are not mutually exclusive, and one man can be both ruthless in business and generous in giving.\n(D) is wrong because the robber baron versus captain of industry debate is a standard historiographical question for APUSH and often shows up in essays on the Gilded Age."
+      "correct": 0,
+      "explanation": "Correct: (A) The 1892 Homestead lockout, in which Carnegie's partner Henry Clay Frick brought in Pinkerton guards and the union at the plant was broken. Carnegie's essay argued that the rich had a duty to give away their fortunes for the public good, and he funded thousands of libraries. Yet at Homestead in 1892, with Carnegie's approval, Frick locked out the Amalgamated Association, hired armed Pinkertons, and after a deadly battle and state militia intervention, the union was crushed and wages cut. His generosity to the public coexisted with harsh treatment of his own workers. (B) is wrong because the Haymarket bombing was carried out by an unknown person at an anarchist-linked rally, and there is no evidence that Carnegie organized it. (C) is wrong because the Pullman Strike involved George Pullman's company and the American Railway Union; Cleveland sent troops at the urging of his attorney general, not Carnegie. (D) is wrong because Carnegie Steel was never convicted under the Sherman Act; early enforcement was weak and was often turned against labor unions instead of corporations.",
+      "added": "2026-11-19"
     },
     {
       "id": "6-15",
@@ -5847,17 +5867,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) No; it faced criticism from the left, business, and the Supreme Court. From the left, Senator Huey Long's 'Share Our Wealth' plan and Dr. Francis Townsend's pension plan said the New Deal did not go far enough. Business leaders and the American Liberty League said it threatened free enterprise and imposed heavy government control. The Supreme Court struck down the National Industrial Recovery Act in Schechter Poultry v. United States (1935) and the Agricultural Adjustment Act in United States v. Butler (1936), leading FDR to propose his unsuccessful court-packing plan in 1937.\n\n(A) is wrong because it says the New Deal never took legislative form, yet Congress passed the Social Security Act, Wagner Act, and many other laws that created lasting programs.\n(B) is wrong because it claims no political figure criticized any program, while Long, Townsend, Father Coughlin, and conservative Republicans all attacked it publicly.\n(C) is wrong because it claims no opposition of any kind, which ignores the Liberty League campaign and the Supreme Court rulings that struck down major early programs."
     },
     {
-      "id": "7-50",
+      "id": "7-50r",
       "topic": "7.7 The New Deal",
-      "stem": "How should a strong essay distinguish between different New Deal programs' significance?",
+      "stem": "Historians often sort New Deal measures into relief (immediate help for the needy), recovery (restarting the economy), and reform (lasting changes to prevent future crises). Which of the following is best classified as a long-term REFORM of the financial system?",
       "choices": [
-        "By treating only the WPA as historically significant and disregarding every other program",
-        "By ignoring any meaningful distinction between the individual New Deal programs",
-        "By treating every New Deal program as carrying one single, uniform historical legacy",
-        "By separating PERMANENT programs (Social Security, FDIC, Wagner Act) from TEMPORARY ones (WPA)."
+        "The Civilian Conservation Corps, which employed young men on conservation projects in national forests and parks.",
+        "The Securities and Exchange Commission, created in 1934 to regulate stock markets and require disclosure from companies selling securities.",
+        "The Works Progress Administration, which hired unemployed workers to build roads, schools, and other public projects.",
+        "The National Recovery Administration, which set industry codes on prices, wages, and production under the NIRA."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) By separating permanent programs (Social Security, FDIC, Wagner Act) from temporary ones (WPA). Some New Deal measures were created as emergency relief and ended once the crisis passed: the WPA was closed in 1943, the CCC in 1942, and the NIRA was struck down in 1935. Others set up lasting structures of regulation and security: Social Security still pays benefits, the FDIC still insures deposits, and the Wagner Act still governs labor relations. Distinguishing them lets an essay explain the New Deal's long-term legacy rather than treating it as a single block.\n\n(A) is wrong because it treats only the WPA as significant, though the CCC, TVA, Social Security, and FDIC all had major and in several cases lasting effects.\n(B) is wrong because ignoring any distinction among programs gives a vague argument that cannot explain which reforms lasted and which ended with the emergency.\n(C) is wrong because the programs differed in purpose, from relief to recovery to reform, and in how long they lasted, so one uniform legacy is inaccurate."
+      "correct": 1,
+      "explanation": "Correct: (B) The Securities and Exchange Commission, created in 1934 to regulate stock markets and require disclosure from companies selling securities. The SEC was designed to fix weaknesses exposed by the 1929 crash, such as fraud, insider dealing, and lack of information for investors, by permanently regulating securities markets. It still exists today and is a clear example of reform. The CCC and WPA gave temporary jobs as relief and were ended during World War II, and the NRA was a recovery measure struck down in 1935. (A) is wrong because the CCC was a relief program giving jobs to unemployed young men, and it was shut down in 1942 rather than reforming finance. (C) is wrong because the WPA was a work-relief program meant to put the unemployed to work during the emergency, and Congress ended it in 1943. (D) is wrong because the NRA was a recovery measure aimed at stabilizing industry, and the Supreme Court struck down its code system in Schechter Poultry v. United States (1935).",
+      "added": "2026-11-19"
     },
     {
       "id": "7-51",
@@ -6016,17 +6037,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) Japan was already near surrender, and demonstrating power to the USSR was a motive. Some historians, such as Gar Alperovitz, argue that Japan's government was already seeking an exit, that a guarantee for the emperor, continuing the naval blockade, or the Soviet declaration of war could have brought surrender without the bombs, and that Truman also wanted to impress the Soviet Union and influence postwar bargaining. Others reject this view, but it is a serious counterargument.\n\n(A) is wrong because it has been advanced since the late 1940s and 1960s.\n(B) is wrong because no historian claims the motive was purely humanitarian.\n(D) is wrong because the bombings of August 1945 are not disputed."
     },
     {
-      "id": "7-63",
+      "id": "7-63r",
       "topic": "7.9 WWII Fighting and Winning",
-      "stem": "Should a strong essay treat the atomic bomb decision's necessity as a settled historical consensus?",
+      "stem": "Some historians argue that the decision to use atomic bombs on Japan in August 1945 was shaped partly by concern about the Soviet Union, not only by the goal of defeating Japan. Which circumstance do these historians most often cite?",
       "choices": [
-        "Yes, this question has a single, uncontested correct answer that historians universally accept as settled",
-        "No, because the atomic bomb decision carries no real historical significance for the end of the war",
-        "No — this exam rewards treating it as a genuinely contested question with historians on multiple sides.",
-        "Yes, because no historian has ever seriously debated this question in the decades since 1945"
+        "Japan had formally offered unconditional surrender to the United States several weeks before the bombing of Hiroshima.",
+        "The Soviet Union had already tested its own atomic bomb and was threatening to use it against American forces in Asia.",
+        "The United States and the Soviet Union were officially at war with each other in the Pacific by mid-1945.",
+        "The Soviet Union had agreed at Yalta to enter the war against Japan about three months after Germany's defeat, and it declared war on Japan on August 8, 1945."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) No; this exam rewards treating it as a genuinely contested question with historians on multiple sides. The decision to use atomic bombs is still debated: traditionalists stress saving lives and ending the war; revisionists point to Japan's weakened position, the Soviet entry on August 8, and Cold War diplomacy. An essay that sets out the evidence for more than one view and weighs it shows stronger historical reasoning than one asserting a single answer. The word 'settled' in the stem is the trap, because the question remains open.\n\n(A) is wrong because it claims a single uncontested answer accepted by all historians, but no such universal agreement exists on whether the bombs were necessary.\n(B) is wrong because the decision is highly significant, since it ended the war with Japan and opened the nuclear age that shaped the Cold War.\n(D) is wrong because it says no historian has seriously debated the question, yet scholars have argued about it in books and articles since 1945, including Gar Alperovitz and others."
+      "correct": 3,
+      "explanation": "Correct: (D) The Soviet Union had agreed at Yalta to enter the war against Japan about three months after Germany's defeat, and it declared war on Japan on August 8, 1945. At Yalta in February 1945 Stalin promised to join the Pacific war roughly three months after Germany surrendered, and the Soviets declared war on Japan two days after Hiroshima. Revisionist historians argue American leaders wanted to end the war before the Soviets could claim a large role in Asia and to show American power. Other historians stress that the bombs were meant to avoid a costly invasion. (A) is wrong because Japan had not offered unconditional surrender before Hiroshima; its government was divided, and it surrendered only after both bombs and the Soviet declaration of war. (B) is wrong because the Soviet Union did not test an atomic bomb until August 1949, four years after the war ended, so it had no bomb in 1945. (C) is wrong because the United States and the Soviet Union were wartime allies in 1945, and they never declared war on each other during the Cold War.",
+      "added": "2026-11-19"
     },
     {
       "id": "7-64",
@@ -6851,17 +6873,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) The need for new policy approaches, since conventional tools struggled with stagnation and inflation together. Presidents Nixon, Ford, and Carter tried wage and price controls, voluntary restraint, and energy policies without ending stagflation. Carter appointed Paul Volcker to the Federal Reserve in 1979, and Volcker raised interest rates sharply to break inflation, causing a deep recession in 1981-82. Reagan's supply-side economics (tax cuts and deregulation) in the 1980s then replaced Keynesian demand management as the leading approach.\n\n(A) is wrong because stagflation created a major policy challenge that three presidents failed to solve, so it is false that no challenge resulted.\n(B) is wrong because stagflation shaped later policy, including Volcker's high interest rates and Reagan's supply-side economics in the 1980s.\n(C) is wrong because stagflation lasted until the early 1980s and was not solved by Keynesian tools; it took Volcker's high interest rates and a deep recession in 1981-82 to cut inflation."
     },
     {
-      "id": "8-60",
+      "id": "8-60r",
       "topic": "8.8 Economic Challenges",
-      "stem": "Why is it insufficient to describe 1970s economic conditions as simply 'bad economic times' without further specification?",
+      "stem": "In August 1971 President Richard Nixon ordered a 90-day freeze on wages and prices across the American economy. What does this measure most clearly reveal about the early 1970s?",
       "choices": [
-        "This vague description is already fully sufficient and complete as an answer.",
-        "Specificity carries essentially no real value in historical economic analysis.",
-        "It fails to name the specific unusual feature — simultaneous stagnation and inflation — that made this era distinct.",
-        "1970s economic conditions were not actually difficult in any meaningful way, once adjusted for population growth and regional variation."
+        "Unemployment had fallen so low that the government needed to stop wages from rising too quickly in a booming economy.",
+        "The Republican Party had fully adopted the Populist demand for government ownership of major industries.",
+        "Inflation had become serious enough that even a Republican president used direct federal controls over prices, an unusually interventionist step.",
+        "The OPEC oil embargo had already quadrupled oil prices, forcing an immediate emergency freeze."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It fails to name the specific unusual feature (simultaneous stagnation and inflation) that made this era distinct. Recessions in earlier eras, such as the Depression, involved falling prices and unemployment; the 1970s combined high inflation (over 11% in 1974) with slow growth and unemployment (about 9% in 1975). Naming stagflation explains why Keynesian tools struggled, why Nixon, Ford, and Carter had trouble, and why the nation turned to new ideas after 1980. The AP exam expects specific evidence, not vague labels.\n\n(A) is wrong because the vague phrase lacks specifics and would not earn credit for evidence or analysis, so it cannot be considered complete.\n(B) is wrong because specificity is basic to historical argument, which relies on precise evidence such as dates, statistics, and named events.\n(D) is wrong because the decade did include real hardship such as the oil shocks, the 1973-75 recession, and inflation that eroded wages and savings."
+      "explanation": "Correct: (C) Inflation had become serious enough that even a Republican president used direct federal controls over prices, an unusually interventionist step. Rising prices, fed partly by Vietnam War spending and Great Society programs, were eroding wages and savings by 1971. Nixon, despite his party's preference for limited government, imposed wage and price controls as part of his New Economic Policy. The controls held prices down briefly, but inflation returned after they were lifted, and it worsened with the 1973 oil shock, foreshadowing the stagflation that defined the decade. (A) is wrong because unemployment was rising in 1970 and 1971, not falling, and the freeze was aimed at inflation rather than at a booming labor market. (B) is wrong because wage and price controls regulated private businesses but did not transfer ownership of any industry to the government, which the Populists had demanded for railroads. (D) is wrong because the OPEC oil embargo began in October 1973, more than two years after Nixon's 1971 freeze, so it could not have caused it.",
+      "added": "2026-11-19"
     },
     {
       "id": "8-61",
@@ -6903,17 +6926,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) Slow growth and high unemployment combined together with high inflation. In a typical recession, weak demand lowers prices, but in 1973-75 and again around 1979-82, prices rose while output stalled. In 1974 inflation was above 11%, and unemployment reached about 9% in 1975. The oil embargo, wage and price pressures, and loose monetary policy each contributed. The stem asks what was unusual compared with a typical recession, and the answer is that inflation did not fall.\n\n(A) is wrong because growth was slow rather than high, and unemployment was high rather than low, with the jobless rate reaching about 9% in 1975.\n(B) is wrong because the unusual combination was widely recognized at the time and was given the name stagflation by economists and journalists.\n(C) is wrong because inflation was high rather than low, above 11% in 1974, and economic growth was weak, so both parts of this pairing are reversed."
     },
     {
-      "id": "8-64",
+      "id": "8-64r",
       "topic": "8.8 Economic Challenges",
-      "stem": "Why does this unit's closing section connect directly to Period 9's opening themes?",
+      "stem": "Which combination of late-1970s developments most directly weakened President Jimmy Carter and opened the way for Ronald Reagan's victory in 1980?",
       "choices": [
-        "This unit's closing section bears no relationship to any subsequent historical period.",
-        "There is essentially no connection between the end of this unit and the start of the next.",
-        "Declining trust and stagflation's policy challenge directly set up the shift Period 9 covers.",
-        "Period 9 covers an entirely unrelated set of developments with no link to Period 8."
+        "Persistent stagflation and the Iran hostage crisis, in which American embassy staff were held in Tehran for over a year.",
+        "The fall of the Berlin Wall and the dissolution of the Soviet Union, which ended the Cold War.",
+        "The passage of Medicare and Medicaid, which voters rejected as too expensive.",
+        "The ratification of the Equal Rights Amendment and the end of the military draft."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Declining trust and stagflation's policy challenge directly set up the shift Period 9 covers. The Vietnam failure, Watergate, and the economic troubles of the 1970s left many Americans doubting the federal government and the Keynesian approach, and that created an opening for Reagan's conservative movement in 1980 favoring tax cuts, deregulation, and a smaller federal role in domestic policy. So the end of Period 8 explains the beginning of Period 9. The stem asks why the closing section links to the next period, so the answer must name causes that carry forward.\n\n(A) is wrong because the periods are linked, with Period 9 beginning from the political and economic problems that Period 8 ended with.\n(B) is wrong because developments in the late 1970s, including the economic malaise and distrust, fed directly into the 1980 election of Reagan.\n(D) is wrong because Period 9 builds on these developments, including the conservative turn and tax and deregulation policies that responded to stagflation."
+      "correct": 0,
+      "explanation": "Correct: (A) Persistent stagflation and the Iran hostage crisis, in which American embassy staff were held in Tehran for over a year. By 1980 inflation was in double digits, unemployment remained high, and a second oil shock followed the 1979 Iranian Revolution. In November 1979 Iranian militants seized the U.S. embassy in Tehran and held Americans hostage, and a failed 1980 rescue attempt deepened the sense of weakness. Reagan promised tax cuts, a stronger military, and renewed confidence, and he won decisively. (B) is wrong because the Berlin Wall fell in 1989 and the Soviet Union dissolved in 1991, about a decade after the 1980 election. (C) is wrong because Medicare and Medicaid were enacted in 1965 under Johnson and were popular; they were not a late-1970s development that defeated Carter. (D) is wrong because the Equal Rights Amendment was never ratified, and the draft ended in 1973 under Nixon, not as a late-1970s issue for Carter.",
+      "added": "2026-11-19"
     },
     {
       "id": "8-65",
@@ -7062,17 +7086,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) a deliberate departure from Keynesian demand-side assumptions. The New Deal and the policies that followed it relied on the idea that federal spending and regulation could manage demand and stabilize the economy. Reagan's advisers deliberately rejected that framework after 1970s stagflation, favoring tax cuts on the supply side.\n\n(A) is wrong because the New Deal did operate from an identifiable philosophy, the view that government must actively intervene in the economy.\n(B) is wrong because the two approaches differed sharply in their view of the proper role of government.\n(C) is wrong because Reaganomics emerged in the 1980s, nearly half a century after the New Deal of the 1930s, so it could not precede it."
     },
     {
-      "id": "9-10",
+      "id": "9-10r",
       "topic": "9.1 Conservative Resurgence",
-      "stem": "Why is recognizing internal coalition diversity within the New Right consistent with a broader pattern in this course?",
+      "stem": "In August 1981, after about 13,000 federal air traffic controllers in the PATCO union went on strike, President Ronald Reagan fired more than 11,000 who refused his order to return to work. What did this action most clearly signal?",
       "choices": [
-        "This course has repeatedly shown internal diversity in coalitions, from the Populists (Period 6) to Civil Rights (Period 8).",
-        "Internal coalition diversity is treated as a concept unique to Period 9, without precedent earlier in the course.",
-        "This course has never previously asked students to recognize diversity within any political movement.",
-        "Political movements covered in this course are always ideologically uniform with no genuine internal diversity."
+        "A new federal willingness to confront organized labor, which encouraged private employers to take a harder line against strikes and unions.",
+        "Reagan's support for expanding collective-bargaining rights for federal employees, building on the Wagner Act.",
+        "The federal government's decision to nationalize the airline industry to keep air travel running during the strike.",
+        "The end of the long decline in union membership, as the firings set off a wave of new unionization in private industry."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) This course has repeatedly shown internal diversity in coalitions, from the Populists (Period 6) to Civil Rights (Period 8). Historians avoid treating movements as monoliths: the Populists of the 1890s combined farmers from the South and the West with different priorities, and the Civil Rights Movement included disagreements between groups such as the NAACP, SCLC, SNCC and, later, Black Power advocates. The New Right's mix of fiscal, social and foreign-policy conservatives fits that same pattern, which is why the stem calls it consistent with a broader pattern.\n\n(B) is wrong because diversity within coalitions is not unique to Period 9; the Populist and Civil Rights examples above come from earlier periods of the course.\n(C) is wrong because the course has asked students to recognize diversity within movements repeatedly, for example among abolitionists, progressives, and labor groups.\n(D) is wrong because movements in this course are not ideologically uniform; they contained real internal differences over goals, tactics, and leadership."
+      "explanation": "Correct: (A) A new federal willingness to confront organized labor, which encouraged private employers to take a harder line against strikes and unions. Strikes by federal employees were illegal, and Reagan gave the controllers 48 hours to return to work. He fired those who stayed out and barred them from federal jobs, and the union was decertified. Supervisors and military controllers kept flights running while replacements were trained. Many private employers then became more willing to hire permanent replacements for strikers, and union membership kept falling through the 1980s. (B) is wrong because Reagan broke the strike and destroyed the union rather than expanding bargaining rights, and the Wagner Act covered private-sector workers, not federal employees. (C) is wrong because the airlines stayed private; the government kept air traffic control running with supervisors, military controllers and new hires instead of taking over any industry. (D) is wrong because union membership continued to decline after 1981, and the firings discouraged strikes rather than starting a new wave of organizing.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-11",
@@ -7179,17 +7204,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) Soviet inefficiency and internal pressures were more decisive than U.S. policy. This competing view stresses economic stagnation, the burden of the arms race and Afghan war, Gorbachev's own reforms, and nationalist and reform movements in the satellite states as the main causes, with U.S. actions playing a smaller part.\n\n(A) is wrong because this competing position exists and is a major side of the debate.\n(B) is wrong because internal Soviet conditions are central, not unrelated.\n(C) is wrong because the position addresses why the Cold War ended, and its beginning is a separate question."
     },
     {
-      "id": "9-19",
+      "id": "9-19r",
       "topic": "9.2 End of the Cold War",
-      "stem": "Should a strong essay treat the Cold War's end as having a single, uncontested, settled explanation?",
+      "stem": "\"Mr. Gorbachev, tear down this wall!\" — Ronald Reagan, speech at the Brandenburg Gate, West Berlin, 1987. Which development of the same year best supports the view that negotiation, and not only pressure, helped end the Cold War?",
       "choices": [
-        "No — this exam rewards treating it as contested, like the atomic bomb debate (Period 7).",
-        "Yes, because no historian has ever seriously debated the Cold War's underlying causes.",
-        "Yes, this question has exactly one single, universally agreed-upon correct answer.",
-        "No, because the Cold War's end holds no historical significance worth analyzing."
+        "The Soviet invasion of Afghanistan, which led the United States to boycott the Moscow Olympics.",
+        "The Berlin Airlift, which supplied West Berlin by air after the Soviets closed land routes.",
+        "The Cuban Missile Crisis, which ended when the Soviets removed missiles from Cuba.",
+        "The Intermediate-Range Nuclear Forces (INF) Treaty, in which Reagan and Gorbachev agreed to eliminate an entire class of nuclear missiles."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) No, because historians contest it, as with the atomic bomb debate in Period 7. Some scholars credit Reagan's pressure, others emphasize Soviet internal weaknesses, others highlight Gorbachev's choices or the role of popular movements in Eastern Europe, so a strong essay acknowledges these competing explanations, just as it does for the decision to use atomic weapons in 1945. The words 'single, uncontested, settled' in the stem are the signal that the claim is too strong for a contested topic.\n\n(B) is wrong because it says no historian has seriously debated the question, when historians have argued extensively over whether Reagan, Gorbachev, or internal collapse ended the Cold War.\n(C) is wrong because there is no universally agreed single answer, and several schools of interpretation exist, so a claim of one correct answer overlooks that.\n(D) is wrong because the end of the Cold War is one of the most significant events in modern U.S. and world history, reshaping alliances, borders, and American foreign policy."
+      "correct": 3,
+      "explanation": "Correct: (D) The Intermediate-Range Nuclear Forces (INF) Treaty, in which Reagan and Gorbachev agreed to eliminate an entire class of nuclear missiles. Reagan's Berlin speech shows the confrontational side of his policy, but in December 1987 he and Gorbachev signed the INF Treaty, the first agreement to eliminate a whole category of nuclear weapons, with on-site inspections. Historians who stress diplomacy point to this treaty and the Reagan-Gorbachev summits as evidence that personal negotiation and Gorbachev's reforms, not only the U.S. arms buildup, eased the Cold War. (A) is wrong because the Soviet invasion of Afghanistan began in 1979 and the Olympic boycott came in 1980, and both increased Cold War tension rather than easing it. (B) is wrong because the Berlin Airlift took place in 1948 and 1949, at the start of the Cold War, and was a response to a Soviet blockade, not a negotiated settlement. (C) is wrong because the Cuban Missile Crisis occurred in 1962, a quarter century before Reagan's speech, so it is not a development of 1987.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-20",
@@ -7387,17 +7413,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) Manufacturing job losses as production shifted to lower-cost locations. Many factories in the Midwest and the South closed or moved abroad or to Mexico, hitting communities that depended on them, such as steel, auto parts, and textile towns, a decline sometimes called the Rust Belt. Lower wages overseas and trade agreements such as NAFTA made it cheaper to produce goods elsewhere, and displaced workers often struggled to find equal pay. The stem says costs were concentrated in specific regions and industries, which fits these places.\n\n(A) is wrong because there were real costs, including plant closings, lost wages, and declining towns, so the claim of no economic costs ignores well-documented evidence.\n(B) is wrong because American manufacturing declined in employment in many regions but did not disappear; the country still produced a large share of world output.\n(C) is wrong because the costs fell heavily on American workers and communities in the industrial Midwest and the South, so they had a clear domestic effect."
     },
     {
-      "id": "9-35",
+      "id": "9-35r",
       "topic": "9.4 Globalization",
-      "stem": "Why should globalization's effects NOT be described as either purely positive or purely negative?",
+      "stem": "From the 1990s to the 2010s, many furniture, textile, and auto-parts factories in towns of the Midwest and Southeast closed as production moved to Mexico, China, and other lower-wage countries, while store prices for many manufactured goods fell. Which statement best describes the effects of this shift?",
       "choices": [
-        "Globalization is generally understood to have produced no effects of any kind.",
-        "A strong essay identifies both genuine benefits and genuine, unevenly distributed costs.",
-        "Globalization's effects were identical and evenly distributed across every region.",
-        "This question bears no relationship to any pattern established elsewhere in the course."
+        "Its costs and benefits were spread evenly, so every American community gained or lost about the same amount.",
+        "It harmed consumers nationwide through higher prices but helped factory workers by raising their wages.",
+        "It spread modest benefits widely through lower prices while concentrating heavy job losses in particular industries and communities.",
+        "It had no domestic effects, because the factories that closed produced goods only for foreign markets."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) A strong essay identifies both genuine benefits and genuine, unevenly distributed costs. Globalization lowered prices and expanded markets and technology, while concentrating job losses in particular regions and industries, so a one-sided account of either kind misses part of the evidence. Consumers gained cheaper goods and exporters gained larger markets, while factory workers in the Midwest and South lost jobs. The word NOT in the stem points toward a balanced answer instead of a purely positive or negative claim.\n\n(A) is wrong because globalization had major effects on trade, jobs, prices, and technology, so the claim that it had no effects of any kind is false.\n(C) is wrong because effects varied widely by region, industry, and skill level, with manufacturing towns hit hard while coastal service and technology centers often gained.\n(D) is wrong because the question fits the course's recurring pattern of weighing gains and costs, as in the Gilded Age comparison in the next question."
+      "correct": 2,
+      "explanation": "Correct: (C) It spread modest benefits widely through lower prices while concentrating heavy job losses in particular industries and communities. Lower-cost imports reduced prices for consumers across the country and supported growth in other sectors, but the losses fell heavily on specific places that depended on one or two manufacturing employers. Workers there often faced long unemployment or lower-paid service jobs, and their towns lost tax revenue. This uneven pattern helps explain later political debate over trade agreements such as NAFTA and trade with China. (A) is wrong because the effects were concentrated rather than even; factory towns lost jobs while consumers and other regions gained more modest, scattered benefits. (B) is wrong because prices for many manufactured goods fell rather than rose, and displaced factory workers lost jobs rather than receiving higher wages. (D) is wrong because the closed factories had produced goods mainly for American buyers, and their closing caused real job and income losses inside the United States.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-36",
@@ -7465,17 +7492,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) A specific example of the broader trend of expanding trade agreements. NAFTA created a large free-trade zone among the U.S., Canada and Mexico in 1994, and it was followed by other measures such as the creation of the World Trade Organization (1995) and normalized trade relations with China (2000), all part of rising global economic integration. It phased out most tariffs among the three countries and increased cross-border investment, supply chains, and trade flows.\n\n(A) is wrong because NAFTA increased trade among the three countries by removing tariffs, so it did not reduce international trade overall.\n(C) is wrong because the agreement covered North America, namely the United States, Canada, and Mexico, and not trade with Asian countries.\n(D) is wrong because it was a clear instance of globalization, since it tied the economies of neighboring countries together and became a symbol of both the benefits and the costs of free trade."
     },
     {
-      "id": "9-41",
+      "id": "9-41r",
       "topic": "9.4 Globalization",
-      "stem": "Why is precision about WHICH regions and industries bore globalization's costs important for a strong essay?",
+      "stem": "Which region of the United States was most associated with deindustrialization in the late twentieth century, as steel mills and auto plants closed or cut jobs?",
       "choices": [
-        "All regions and industries experienced identical effects, making precision unnecessary.",
-        "This precision matters only for Gilded Age questions, not for later periods.",
-        "It reflects the exam's expectation of analyzing uneven distribution.",
-        "Precision about regional or industry-specific effects has no analytical value."
+        "The Sun Belt of the South and Southwest, where population and new industries grew rapidly.",
+        "The Rust Belt of the industrial Midwest and Northeast, including cities such as Detroit, Cleveland, Pittsburgh, and Youngstown.",
+        "The Silicon Valley area of California, where the computer industry was centered.",
+        "The Great Plains, where wheat farming employed most industrial workers."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) It reflects the exam's expectation of analyzing uneven distribution. AP scoring rewards specific evidence, so naming which regions (for example the industrial Midwest) and which industries (such as steel, autos, textiles) bore the costs shows the analysis of who gained and who lost instead of a vague generalization. A strong essay uses such detail to support a claim about uneven effects, which is the central point of the globalization section.\n\n(A) is wrong because effects were not identical across regions; manufacturing towns in the Midwest suffered while other areas gained, which is why precision is necessary.\n(B) is wrong because specificity matters in all periods, not only the Gilded Age, since every AP essay is scored for the quality of its evidence.\n(D) is wrong because precise evidence is central to strong historical writing, and naming exact regions and industries is what turns a general claim into a supported argument."
+      "correct": 1,
+      "explanation": "Correct: (B) The Rust Belt of the industrial Midwest and Northeast, including cities such as Detroit, Cleveland, Pittsburgh, and Youngstown. Beginning in the 1970s and continuing through later decades, foreign competition, automation, and the movement of plants to lower-cost locations hit the old heavy-industry centers. Steel towns such as Youngstown and Pittsburgh lost mills, and Detroit's auto employment fell sharply. The term Rust Belt describes these declining factory regions, which lost population while the Sun Belt grew. (A) is wrong because the Sun Belt gained population, jobs, and political influence in this period, partly as people and businesses left the older industrial states. (C) is wrong because Silicon Valley grew rapidly as the center of the computer and internet industries and was a winner, not a loser, of economic change. (D) is wrong because the Great Plains economy rested on agriculture rather than heavy industry, so it was not the center of factory closings.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-42",
@@ -7517,30 +7545,32 @@ const QUESTIONS = {
       "explanation": "Correct: (A) views sorting more consistently along party lines with declining overlap. Political polarization means that Democrats and Republicans increasingly hold consistently different positions across issues, with fewer moderates or cross-party coalitions, and that party identity increasingly lines up with region, religion, and values.\n\n(B) is wrong because it is an identifiable trend studied by political scientists.\n(C) is wrong because the Cold War was a geopolitical rivalry and the terms are unrelated.\n(D) is wrong because polarization means more disagreement between the parties, not less."
     },
     {
-      "id": "9-45",
+      "id": "9-45r",
       "topic": "9.5 Social and Political Debates",
-      "stem": "How should a strong essay approach genuinely contested contemporary political debates (like abortion or immigration policy)?",
+      "stem": "The Immigration Reform and Control Act of 1986, signed by President Ronald Reagan, tried to address undocumented immigration by doing which of the following?",
       "choices": [
-        "Describing the debate factually and evenhandedly, without advocacy.",
-        "Ignore these topics entirely, treating them as historically insignificant.",
-        "Assume all Americans hold identical views on every one of these issues.",
-        "Strongly advocate for one specific position as objectively, uniquely correct."
+        "It ended the national-origins quota system and replaced it with preferences based on family ties and job skills.",
+        "It offered legal status to many undocumented immigrants who had lived in the country since before 1982, while making it illegal for employers to knowingly hire undocumented workers.",
+        "It created the Department of Homeland Security and moved immigration enforcement into the new department.",
+        "It suspended all immigration from Mexico and Central America for ten years to reduce unauthorized border crossings."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) Describing the debate factually and evenhandedly, without advocacy. Historical analysis explains what each side argued and why, using evidence such as laws, court cases, and election results, without declaring one position correct, which keeps the essay about history rather than personal politics. Readers should come away knowing the positions, the values behind them, and how the debate developed over time. The stem calls the debates genuinely contested, which signals that neutrality is expected.\n\n(B) is wrong because these issues are historically significant, having shaped elections, court decisions, and party coalitions, so ignoring them would leave out important evidence for the period.\n(C) is wrong because Americans hold a range of views on abortion and immigration, and assuming identical opinions would misrepresent the real disagreement that defines a contested debate.\n(D) is wrong because advocacy for one position replaces analysis with opinion, and AP essays are scored on evidence and reasoning rather than on a writer's political preferences."
+      "correct": 1,
+      "explanation": "Correct: (B) It offered legal status to many undocumented immigrants who had lived in the country since before 1982, while making it illegal for employers to knowingly hire undocumented workers. The law was a compromise. About 2.7 million people eventually gained legal status, mostly people who had lived in the United States continuously since before January 1, 1982, along with certain farm workers. In exchange, employers who knowingly hired undocumented workers faced penalties, and border enforcement grew. The undocumented population grew again in later decades. Some critics called the law an \"amnesty\" that encouraged more unauthorized entry, while others said its employer penalties were weakly enforced, and both views shaped later immigration debates. (A) is wrong because ending national-origins quotas was the work of the Immigration and Nationality Act of 1965, two decades earlier. (C) is wrong because the Department of Homeland Security was created by the Homeland Security Act of 2002, after the September 11 attacks. (D) is wrong because the 1986 law did not ban immigration from any region; it dealt with undocumented immigrants already in the country and with hiring rules.",
+      "added": "2026-11-19"
     },
     {
-      "id": "9-46",
+      "id": "9-46r",
       "topic": "9.5 Social and Political Debates",
-      "stem": "Why does this exam expect the same disciplined neutrality for culture war debates that it expected for the atomic bomb debate (Period 7)?",
+      "stem": "Which earlier law most helps explain why immigration became a major subject of national debate in the late twentieth and early twenty-first centuries?",
       "choices": [
-        "Neutrality is never actually expected for any topic covered in this course.",
-        "The atomic bomb debate has been fully and permanently resolved, unlike culture war debates.",
-        "These are entirely unrelated question types requiring completely different treatment.",
-        "Both involve contested questions lacking settled consensus."
+        "The Immigration and Nationality Act of 1965, which ended national-origins quotas and contributed to large increases in immigration from Latin America and Asia.",
+        "The Chinese Exclusion Act of 1882, which permanently barred all immigration to the United States.",
+        "The National Origins Act of 1924, which opened immigration from all regions without limits.",
+        "The Homestead Act of 1862, which granted citizenship to every immigrant who settled in the West."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) Both involve contested questions lacking settled consensus. Historians and the public still disagree about whether the 1945 atomic bombings were necessary, and the same kind of unresolved disagreement exists for abortion, immigration and other culture-war issues, so both call for presenting competing positions fairly. The stem asks why the same disciplined neutrality applies, and the shared feature is the absence of agreement among informed people. A strong response lays out each side's evidence and values instead of picking one.\n\n(A) is wrong because neutrality is expected here, since contested topics in the course require fair presentation of competing views rather than a personal verdict.\n(B) is wrong because the atomic bomb debate remains unresolved, with traditionalist and revisionist historians still disagreeing about whether the bombs were necessary to end the war.\n(C) is wrong because they require the same approach of presenting multiple positions with evidence, so describing them as unrelated question types needing different treatment misses their common feature."
+      "correct": 0,
+      "explanation": "Correct: (A) The Immigration and Nationality Act of 1965, which ended national-origins quotas and contributed to large increases in immigration from Latin America and Asia. The 1965 law, passed during the civil rights era, replaced the 1924 quota system that favored northern and western Europe with a system emphasizing family ties and skills. In the following decades immigration rose sharply and came mostly from Latin America and Asia, changing the country's population. Debates over legal immigration levels, undocumented immigration, and border enforcement grew out of these changes. (B) is wrong because the Chinese Exclusion Act barred Chinese laborers, not all immigrants, and it was repealed in 1943, so it does not explain later debates. (C) is wrong because the National Origins Act sharply restricted immigration through quotas that favored northern and western Europeans rather than opening immigration without limits. (D) is wrong because the Homestead Act offered western land to settlers who farmed it; it did not grant citizenship or shape late twentieth-century immigration.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-47",
@@ -7556,17 +7586,18 @@ const QUESTIONS = {
       "explanation": "Correct: (A) Legal immigration levels, undocumented immigrants present, and border security. Debates have returned to how many people and which categories to admit legally (as in the Immigration Act of 1965 and 1990), what to do about undocumented immigrants already living in the U.S. (as in the 1986 Immigration Reform and Control Act), and how to secure the border. These three questions structure most modern proposals, from reform bills to executive actions. The stem asks for recurring specific questions, so the answer must name concrete policy issues.\n\n(B) is wrong because tariffs concern trade policy, not immigration, and an answer limited to tariffs does not name any of the questions that structure the immigration debate.\n(C) is wrong because foreign military deployments are a separate area of policy and do not describe the recurring questions about who may enter and who may stay.\n(D) is wrong because these questions recur regularly in Congress, in presidential campaigns, and in court cases, so the claim that none structured the debate is false."
     },
     {
-      "id": "9-48",
+      "id": "9-48r",
       "topic": "9.5 Social and Political Debates",
-      "stem": "Is political polarization a recent, entirely unprecedented phenomenon with no historical antecedent in this course?",
+      "stem": "Which long-term change in the party system most contributed to the ideological sorting of Democrats and Republicans behind modern political polarization?",
       "choices": [
-        "This course has never addressed any form of political division in any period.",
-        "No prior period covered in this course featured any significant political division.",
-        "This course traced division earlier too, as with the 1896 election (Period 6).",
-        "Significant political division is understood to have begun only after the year 2000."
+        "The disappearance of third parties after the Populists, which left only one major party in most states.",
+        "The merging of the Democratic and Republican parties on economic policy after the New Deal.",
+        "The movement of many white Southern conservatives from the Democratic to the Republican Party after the civil rights legislation of the 1960s, along with the decline of liberal Northeastern Republicans.",
+        "The constitutional amendment that required all members of Congress to vote with their party's leaders."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) This course traced division earlier too, as with the 1896 election (Period 6). The 1896 contest between William McKinley and William Jennings Bryan created lasting divisions by region, class and economic outlook, and earlier eras brought other sharp divisions such as the Civil War era and the 1850s. Modern polarization has distinctive features, but not unprecedented ones. The stem asks whether it is entirely unprecedented, and the course gives clear earlier examples of deep political division.\n\n(A) is wrong because the course addressed political division in many periods, including the Federalists and Republicans, the sectional crisis, and the Gilded Age.\n(B) is wrong because earlier periods had major divisions, such as the 1860 election and the 1896 gold versus silver contest, so no earlier period was free of significant division.\n(D) is wrong because polarization did not begin only after 2000; it had been growing since the 1960s and 1970s as the parties sorted by ideology."
+      "explanation": "Correct: (C) The movement of many white Southern conservatives from the Democratic to the Republican Party after the civil rights legislation of the 1960s, along with the decline of liberal Northeastern Republicans. In the mid-twentieth century each party contained a range of views, with conservative Southern Democrats and liberal Republicans from the Northeast. After the Civil Rights Act and Voting Rights Act, many white Southerners moved toward the Republicans, while liberal Republicans became fewer. Over several decades the parties became more ideologically consistent, so there was less overlap between them and bipartisan compromise became harder. (A) is wrong because two major parties competed throughout the twentieth century, and third parties such as those of Theodore Roosevelt, Strom Thurmond, George Wallace, and Ross Perot continued to appear. (B) is wrong because the parties did not merge on economic policy; they continued to disagree over taxes, regulation, and social programs from the New Deal onward. (D) is wrong because no constitutional amendment requires members of Congress to vote with party leaders, and party-line voting rose through political changes, not law.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-49",
@@ -7582,17 +7613,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) the legal right of same-sex couples to marry. The phrase became the central slogan of the movement that won state-level victories (Massachusetts in 2004) and the Supreme Court's Obergefell decision (2015).\n\n(A) is wrong because the Equal Rights Amendment concerned equal rights regardless of sex and was proposed in 1972.\n(B) is wrong because equal pay legislation was the Equal Pay Act of 1963.\n(D) is wrong because household labor is a domestic matter, not a legal rights issue."
     },
     {
-      "id": "9-50",
+      "id": "9-50r",
       "topic": "9.5 Social and Political Debates",
-      "stem": "Why is describing a contested debate's 'genuinely different underlying values' a stronger approach than simply listing policy positions?",
+      "stem": "Supporters of same-sex marriage often framed it as a matter of equal protection and individual rights, while many opponents framed marriage in terms of religious tradition and a long-standing definition. Which federal law of the 1990s reflected the opponents' position?",
       "choices": [
-        "Policy positions and underlying values are always identical, with no distinction.",
-        "Underlying values give a fuller account than simply listing positions.",
-        "This analytical approach is never useful for historical analysis of any kind.",
-        "Underlying values bear no relationship whatsoever to specific policy positions."
+        "The Civil Rights Act of 1964, which defined marriage as between a man and a woman.",
+        "The Defense of Marriage Act (1996), which defined marriage for federal purposes as the union of one man and one woman.",
+        "The Americans with Disabilities Act (1990), which barred states from recognizing same-sex marriages.",
+        "The Equal Rights Amendment, which Congress passed in the 1990s to ban same-sex marriage."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Underlying values give a fuller account than simply listing positions. Showing why people disagree, such as the weight placed on individual choice, on respect for life, on public safety, on economic opportunity or humanitarian concerns, explains the cause of the dispute and not just what each side wants. A list of positions says only what people support, while values show the reasoning that connects those positions to different worldviews. This is the kind of analysis the exam rewards.\n\n(A) is wrong because positions and values differ; the same value can lead to different positions, and different values can lead to the same position, so they are not identical.\n(C) is wrong because the approach is valuable in historical analysis, which seeks causes and motives rather than just a catalog of what people said.\n(D) is wrong because values are what motivate policy positions, so the claim that they bear no relationship to positions contradicts how historians explain disagreement."
+      "explanation": "Correct: (B) The Defense of Marriage Act (1996), which defined marriage for federal purposes as the union of one man and one woman. President Bill Clinton signed the Defense of Marriage Act in 1996, denying federal recognition to same-sex marriages and allowing states not to recognize such marriages performed elsewhere. The Supreme Court struck down the federal definition in United States v. Windsor (2013), and in Obergefell v. Hodges (2015) it held that the Constitution guarantees same-sex couples the right to marry, a ruling based on due process and equal protection. (A) is wrong because the Civil Rights Act of 1964 banned discrimination by race, color, religion, sex, and national origin in public accommodations and employment and did not define marriage. (C) is wrong because the Americans with Disabilities Act protected people with disabilities from discrimination and had nothing to do with marriage recognition. (D) is wrong because Congress passed the Equal Rights Amendment in 1972 to guarantee equal rights regardless of sex, and it was not about banning same-sex marriage.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-51",
@@ -7608,17 +7640,18 @@ const QUESTIONS = {
       "explanation": "Correct: (A) Declining overlap between the parties compared to earlier in the century. In the mid-twentieth century both parties included liberal, moderate and conservative members, such as conservative Southern Democrats and liberal Northeastern Republicans; later realignment sorted members more cleanly by party, leaving less ideological common ground. By the early twenty-first century few Democrats were more conservative than the most liberal Republicans, so bipartisan compromise became harder. The stem asks for the general trend in overlap, which is shrinking.\n\n(B) is wrong because there was a measurable change in overlap, shown by the sorting of the parties and the decline in moderates in both of them.\n(C) is wrong because the section does describe the trend, noting that partisan division deepened and the parties moved apart.\n(D) is wrong because the overlap shrank rather than grew, with the parties becoming more ideologically distinct and more polarized over time."
     },
     {
-      "id": "9-52",
+      "id": "9-52r",
       "topic": "9.5 Social and Political Debates",
-      "stem": "Which prior unit in this course modeled the same 'disciplined neutrality' approach to a genuinely contested historical/historiographical question?",
+      "stem": "Which change in the American media landscape is commonly cited as contributing to political polarization from the late 1980s onward?",
       "choices": [
-        "Period 1's treatment of Columbus's initial transatlantic voyage.",
-        "Period 7's treatment of the atomic bomb decision's necessity.",
-        "Period 3's treatment of the Declaration of Independence's drafting.",
-        "No prior unit in this course modeled this particular analytical approach."
+        "The creation of the first national radio networks, which gave all Americans the same news.",
+        "A federal law requiring every television network to give equal time to both parties in all programming.",
+        "The decline of newspapers in favor of government-run news channels.",
+        "The growth of partisan talk radio and cable news after the FCC abandoned the Fairness Doctrine in 1987, and later of internet and social-media news sources."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) Period 7's treatment of the atomic bomb decision's necessity. That question has long divided historians, some arguing the bomb ended the war and saved lives, others emphasizing alternatives and diplomatic or Soviet factors, so it taught presenting competing views fairly.\n\n(A) is wrong because Columbus's voyage is a different kind of topic.\n(C) is wrong because the drafting of the Declaration is not a model of historiographical debate in the same way.\n(D) is wrong because the atomic bomb debate is such a precedent."
+      "correct": 3,
+      "explanation": "Correct: (D) The growth of partisan talk radio and cable news after the FCC abandoned the Fairness Doctrine in 1987, and later of internet and social-media news sources. The Fairness Doctrine had required broadcast licensees to present contrasting views on controversial issues. After the FCC dropped it in 1987, opinion-driven talk radio expanded, and cable channels such as Fox News and MSNBC appeared in 1996. Later, websites and social media let audiences choose sources that matched their views, which many scholars link to the sorting of Americans into opposing political camps. (A) is wrong because national radio networks such as NBC and CBS date from the 1920s, and a shared news source would tend to reduce polarization rather than increase it. (B) is wrong because no such law was adopted in this period; in fact the trend was the opposite, as the FCC removed the Fairness Doctrine's balance requirement. (C) is wrong because the United States did not replace newspapers with government-run news channels; American news media remained mostly private.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-53",
@@ -7647,17 +7680,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) It produced the most severe American economic downturn since the Great Depression. The Great Recession of 2007-2009 saw unemployment rise to about 10 percent, millions of foreclosures, and a sharp stock market fall. Banks failed or needed rescue, credit froze, and household wealth dropped sharply as housing values collapsed. Because of this depth, it is compared to the 1930s rather than to ordinary postwar recessions, which were milder.\n\n(A) is wrong because it was highly significant, producing about 10 percent unemployment, millions of foreclosures, and major federal rescue programs, so calling it minor ignores the evidence.\n(C) is wrong because it was a major national economic event that affected jobs, housing, banks, and retirement savings across the whole country.\n(D) is wrong because it was far deeper than most postwar recessions, which typically saw unemployment well below 10 percent, so it was not less severe than every prior one."
     },
     {
-      "id": "9-55",
+      "id": "9-55r",
       "topic": "9.6 21st Century Challenges",
-      "stem": "How did the federal government's response to the 2008 financial crisis connect to this course's recurring patterns?",
+      "stem": "Which law, enacted in 2010, responded to the 2008 financial crisis by tightening regulation of large financial institutions and creating the Consumer Financial Protection Bureau?",
       "choices": [
-        "It represented a complete reversal of every prior federal crisis-response pattern.",
-        "It continued this course's pattern of expanded federal crisis intervention.",
-        "It bore no relationship to any pattern previously established in this course.",
-        "The federal government took no significant action in response to the crisis."
+        "The Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+        "The Glass-Steagall Act.",
+        "The Gramm-Leach-Bliley Act.",
+        "The Sarbanes-Oxley Act."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) It continued this course's pattern of expanded federal crisis intervention. The government passed the Troubled Asset Relief Program in October 2008 to stabilize banks, rescued firms such as AIG, assisted automakers, and enacted the American Recovery and Reinvestment Act in 2009, echoing the New Deal and wartime mobilization. Later the Dodd-Frank Act (2010) added new financial regulation. In each case a crisis led the federal government to take on a larger role in the economy.\n\n(A) is wrong because the response followed the earlier pattern of federal action in crises rather than reversing it, as with the New Deal and wartime mobilization.\n(C) is wrong because it fits an established pattern, seen from the Constitutional Convention through the Civil War, the Depression, and the world wars.\n(D) is wrong because the federal government acted extensively, using TARP, the stimulus act, Federal Reserve lending, and the bailouts of AIG and automakers."
+      "correct": 0,
+      "explanation": "Correct: (A) The Dodd-Frank Wall Street Reform and Consumer Protection Act. After the crisis, Congress passed Dodd-Frank in July 2010 under President Obama. It created the Consumer Financial Protection Bureau, set up a council to watch for system-wide risks, required more capital and oversight for large banks, and regulated derivatives that had helped spread the crisis. It continued a long pattern in which financial panics, as in 1907 and the 1930s, led to new federal regulation. (B) is wrong because the Glass-Steagall Act of 1933 was a New Deal law that separated commercial and investment banking and created the FDIC, not a 2010 response. (C) is wrong because the Gramm-Leach-Bliley Act of 1999 repealed parts of Glass-Steagall and loosened financial regulation, which critics say helped set the stage for 2008. (D) is wrong because the Sarbanes-Oxley Act of 2002 responded to accounting scandals at companies such as Enron and WorldCom, years before the financial crisis.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-56",
@@ -7686,56 +7720,59 @@ const QUESTIONS = {
       "explanation": "Correct: (A) The Black Lives Matter movement, addressing criminal-justice disparities. It began in 2013 after the acquittal of George Zimmerman in the shooting of Trayvon Martin, grew with protests after deaths such as Michael Brown in Ferguson (2014), and reached a peak in 2020, focusing on policing and racial disparities in criminal justice. The stem's clues are the 2010s timeframe and the concern with criminal justice, which point to this movement rather than to earlier reform groups.\n\n(B) is wrong because the Farmers' Alliance organized farmers into cooperatives in the 1870s through 1890s, so it belongs to the Gilded Age and not to the 2010s.\n(C) is wrong because the Populists were an 1890s party that addressed farmers' economic grievances such as credit, railroad rates, and currency, not criminal justice.\n(D) is wrong because the Anti-Imperialist League, formed in 1898, opposed overseas expansion such as annexing the Philippines, and it was not a racial justice movement of the 2010s."
     },
     {
-      "id": "9-58",
+      "id": "9-58r",
       "topic": "9.6 21st Century Challenges",
-      "stem": "How does continued 21st century civil rights and social justice activism connect to this course's broader pattern?",
+      "stem": "Black Lives Matter activists after 2014 used mass protest and widely shared video of police encounters to draw national attention to racial disparities in policing. Which earlier development most closely resembles this strategy?",
       "choices": [
-        "Civil rights activism ended entirely after the 1960s, with no later developments.",
-        "This activism is an entirely unprecedented phenomenon with no earlier connection.",
-        "It fits this course's pattern of civil rights activism since Reconstruction.",
-        "It bears no relationship to any prior period's civil rights activity."
+        "The Niagara Movement's private petitions to state legislatures, which avoided public demonstrations.",
+        "Civil rights campaigns such as Birmingham in 1963, where televised images of police using dogs and fire hoses on demonstrators built national support for civil rights legislation.",
+        "The Farmers' Alliance cooperatives of the 1880s, which pooled crops to bargain with railroads.",
+        "The Anti-Imperialist League's pamphlets opposing the annexation of the Philippines."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) It fits this course's pattern of civil rights activism since Reconstruction. African Americans and allies pursued rights through the Reconstruction amendments, the NAACP, and the 1950s-1960s movement, and later campaigns continued to press on voting, policing and equality. Twenty-first century activism, such as Black Lives Matter, draws on those earlier traditions of protest, litigation, and organizing. The stem asks how it connects to the course's broader pattern, which is long continuity.\n\n(A) is wrong because activism continued after the 1960s, with later campaigns over voting, policing, affirmative action, and equal protection, so the claim that it ended is false.\n(B) is wrong because it has earlier roots in Reconstruction, the NAACP, and the 1960s movement, so it is not an entirely unprecedented phenomenon.\n(D) is wrong because it is connected to earlier struggles, sharing goals and methods with them, so it bears a clear relationship to prior periods' civil rights activity."
+      "correct": 1,
+      "explanation": "Correct: (B) Civil rights campaigns such as Birmingham in 1963, where televised images of police using dogs and fire hoses on demonstrators built national support for civil rights legislation. In both cases activists relied on public protest and on media images that let distant Americans see the treatment of Black citizens by police. In Birmingham, Bull Connor's use of dogs and fire hoses appeared on television and in newspapers, pressuring President Kennedy to propose the bill that became the Civil Rights Act of 1964. Black Lives Matter, which began in 2013 and grew after the 2014 Ferguson protests, used phone video and social media in a similar way. (A) is wrong because the Niagara Movement of 1905 issued public declarations demanding civil rights, and in any case private petitions without mass visibility do not match the strategy described. (C) is wrong because the Farmers' Alliance organized economic cooperatives against railroads and merchants, which is unrelated to protest against racial disparities in policing. (D) is wrong because the Anti-Imperialist League opposed overseas expansion after 1898 and did not use mass protest or images of police conduct to change domestic law.",
+      "added": "2026-11-19"
     },
     {
-      "id": "9-59",
+      "id": "9-59r",
       "topic": "9.6 21st Century Challenges",
-      "stem": "How should this section's treatment of recent civil rights activism and its surrounding debates be approached, given this section's broader guidance?",
+      "stem": "Which development followed the death of George Floyd in Minneapolis police custody in May 2020?",
       "choices": [
-        "By ignoring this topic entirely as historically insignificant.",
-        "By assuming universal agreement on every aspect of this activism's reception.",
-        "With strong, explicit advocacy for one specific settled historical verdict.",
-        "Factually, without asserting a settled verdict on ongoing debates."
+        "Congress repealed the Civil Rights Act of 1964 in response to the unrest.",
+        "Protests remained confined to Minneapolis and drew little national attention.",
+        "Large protests spread to cities across the country, and debates over police practices, training, and funding intensified at the local, state, and national levels.",
+        "The Supreme Court ruled that all police departments must be placed under federal control."
+      ],
+      "correct": 2,
+      "explanation": "Correct: (C) Large protests spread to cities across the country, and debates over police practices, training, and funding intensified at the local, state, and national levels. A bystander's video of officer Derek Chauvin kneeling on Floyd's neck spread widely, and demonstrations under the Black Lives Matter banner took place in cities and towns throughout the United States and abroad. Some cities and states changed rules on chokeholds and use of force, while others resisted calls to cut police budgets. Chauvin was convicted of murder in 2021, and the debate over policing reform continued. (A) is wrong because Congress did not repeal the Civil Rights Act of 1964, which remains in force, and the protests pushed for more civil rights protections, not fewer. (B) is wrong because the protests spread far beyond Minneapolis to hundreds of communities nationwide and received intense national and international media coverage. (D) is wrong because the Supreme Court made no such ruling; policing in the United States remains mostly under state and local control.",
+      "added": "2026-11-19"
+    },
+    {
+      "id": "9-60r",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "In National Federation of Independent Business v. Sebelius (2012), how did the Supreme Court rule on the Affordable Care Act?",
+      "choices": [
+        "It struck down the entire law as an unconstitutional expansion of federal power.",
+        "It ruled that the law violated the First Amendment's protection of religious liberty for all employers.",
+        "It held that Congress could require all states to expand Medicaid or lose all their existing Medicaid funding.",
+        "It upheld the individual mandate as a valid use of the taxing power, but held that states could not be forced to expand Medicaid."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Factually, without asserting a settled verdict on ongoing debates. Recent events lack the perspective and scholarship that come with time, so a strong response describes what happened and what people argued, using evidence, without declaring a final judgment. The section's broader guidance is to separate settled fact from ongoing debate and to present competing views evenhandedly. The stem points to that guidance, so the answer is a neutral, factual approach.\n\n(A) is wrong because the topic is historically significant, involving large protests, major policy debates, and changes in public attitudes, so it should not be ignored.\n(B) is wrong because opinions on these events are far from universal, with Americans disagreeing about causes, tactics, and policy responses, so assuming agreement would misrepresent the debate.\n(C) is wrong because advocating one settled verdict would be partisan and premature, replacing evidence and balanced analysis with a personal conclusion about events still unfolding."
-    },
-    {
-      "id": "9-60",
-      "topic": "9.6 21st Century Challenges",
-      "stem": "Why does this final unit require the most caution in this entire course about distinguishing settled fact from ongoing debate?",
-      "choices": [
-        "This unit actually requires the least caution of any unit in the entire course.",
-        "Every fact in this unit is exactly as well-established as facts from Period 1.",
-        "This unit lacks the historical distance and consensus earlier units have.",
-        "Caution about distinguishing fact from debate is irrelevant to historical study."
-      ],
-      "correct": 2,
-      "explanation": "Correct: (C) This unit lacks the historical distance and consensus earlier units have. Events of the last few decades are still unfolding, sources are incomplete, and historians have not had time to reach shared interpretations, so claims should be careful. Earlier units rest on generations of scholarship, archives, and settled debate, while recent events remain politically charged. The stem asks why this unit requires the most caution about separating settled fact from debate, and the missing distance is the reason.\n\n(A) is wrong because it is the opposite: this unit requires the most caution of any in the course, since recent events lack settled interpretations.\n(B) is wrong because Period 1 is much more settled, resting on long scholarship, so the facts of this unit are not as well established as those of the earliest period.\n(D) is wrong because distinguishing fact from debate is basic to the discipline of history, and it is more necessary, not less, for recent and contested events."
+      "explanation": "Correct: (D) It upheld the individual mandate as a valid use of the taxing power, but held that states could not be forced to expand Medicaid. Chief Justice John Roberts wrote that the requirement to buy health insurance or pay a penalty could not be justified under the Commerce Clause but was valid as a tax. The Court also ruled that threatening to withhold all existing Medicaid funds from states that refused to expand the program was coercive, which made the expansion effectively optional. Many states declined it, showing the law's contested place in federalism debates. (A) is wrong because the Court upheld most of the law, including the individual mandate, rather than striking down the entire Affordable Care Act. (B) is wrong because the 2012 ruling dealt with the mandate and Medicaid; religious-liberty challenges came later, as in Burwell v. Hobby Lobby (2014), which applied to closely held corporations. (C) is wrong because the Court ruled the opposite way, holding that threatening to remove all existing Medicaid funding was unconstitutionally coercive toward the states.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-61",
       "topic": "9.6 21st Century Challenges",
-      "stem": "List two prior examples from this course of major crises prompting expanded federal government economic role, which the 2008 financial crisis response continues.",
+      "stem": "The federal response to the 2008 financial crisis (emergency aid to financial firms through TARP, Federal Reserve lending, and the Dodd-Frank Act of 2010) most closely continued which earlier pattern of financial crises producing a lasting expansion of the federal role in banking and finance?",
       "choices": [
-        "The First Great Awakening and the later Second Great Awakening in the colonies and states, a century apart.",
-        "The Missouri Compromise and the subsequent Kansas-Nebraska Act over slavery's expansion into new territory.",
-        "The Constitutional Convention's response to the Articles' weakness, and the New Deal's Depression response.",
-        "The Spanish-American War and the earlier Mexican-American War over territory, influence, and expansion."
+        "The Panic of 1837, after which Congress rechartered a national bank to restore credit.",
+        "The depression of the 1890s, after which Congress created federal deposit insurance and the Federal Reserve.",
+        "The Panic of 1907, which led to the Federal Reserve Act (1913), and the banking collapse of the early 1930s, which led to the FDIC and the SEC.",
+        "The stagflation of the 1970s, which led Congress to sharply expand federal regulation of banks and savings and loans in the 1980s."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) the Constitutional Convention's response to the Articles' weakness and the New Deal's Depression response. The Articles of Confederation left the national government unable to tax or regulate trade, and the crisis of Shays' Rebellion (1786-87) helped lead to the stronger Constitution of 1787; the Great Depression led to the New Deal's banking regulation, public works and Social Security. Both parallel 2008's federal rescue of the financial system.\n\n(A) is wrong because the Great Awakenings were religious revivals, not government responses.\n(B) is wrong because the Missouri Compromise (1820) and Kansas-Nebraska Act (1854) concerned slavery's expansion.\n(D) is wrong because the Spanish-American and Mexican-American wars concerned territory and not an expanded federal economic role."
+      "explanation": "Correct: (C) The Panic of 1907, which led to the Federal Reserve Act (1913), and the banking collapse of the early 1930s, which led to the FDIC and the SEC. The 2008 response combined emergency rescue of financial firms with new oversight, and the closest precedents are earlier financial crises that produced lasting federal institutions. After the Panic of 1907, which J. P. Morgan's private bankers had to contain, Congress created the Federal Reserve as a lender of last resort. After thousands of bank failures in the early 1930s, the New Deal created the FDIC to insure deposits and the SEC to regulate securities markets. (A) is wrong because after the Panic of 1837 no national bank was rechartered; Van Buren instead proposed an Independent Treasury, which separated government funds from private banks. (B) is wrong because the 1890s depression produced no federal deposit insurance or central bank; the Federal Reserve came in 1913 and the FDIC in 1933. (D) is wrong because the 1980s brought deregulation of banks and savings and loans rather than expanded regulation, which contributed to the savings and loan crisis later in the decade."
     },
     {
       "id": "9-62",
@@ -7751,44 +7788,47 @@ const QUESTIONS = {
       "explanation": "Correct: (D) beginning in the 2010s. The #BlackLivesMatter hashtag arose in 2013 and the movement became prominent after protests in Ferguson, Missouri, in 2014, with a large wave of demonstrations in 2020.\n\n(A) is wrong because 'before 1900' covers abolition and Reconstruction, long before this movement.\n(B) is wrong because the 1960s were the era of the Civil Rights Movement led by groups such as SCLC and SNCC.\n(C) is wrong because the 1980s precede the movement by about three decades."
     },
     {
-      "id": "9-63",
+      "id": "9-63r",
       "topic": "9.6 21st Century Challenges",
-      "stem": "What is one of the most significant unifying threads spanning this entire nine-period course, according to this unit's closing content?",
+      "stem": "Which of the following correctly pairs a national crisis with a lasting expansion of federal economic power that it produced?",
       "choices": [
-        "A complete absence of any recurring pattern across the course's nine periods.",
-        "Crises repeatedly prompting lasting expansion of federal economic capacity.",
-        "No meaningful connection exists between any of this course's nine periods.",
-        "A consistent, unbroken decline in federal power across every one of the nine periods."
+        "The depression of the 1890s led to the creation of Social Security.",
+        "The Civil War led to the National Banking Acts, which created a system of nationally chartered banks and a uniform national currency.",
+        "The Great Depression led to the creation of the Federal Reserve System.",
+        "The 2008 financial crisis led to the creation of the Federal Deposit Insurance Corporation."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Crises repeatedly prompting lasting expansion of federal economic capacity. Examples include the Constitution after the Articles' weakness, the Civil War, the New Deal, the world wars, and the 2008 crisis, each leaving the federal government with new powers or programs. For instance, the Civil War brought the national banking system and the New Deal brought Social Security and the FDIC. The stem asks for a unifying thread across all nine periods, and this recurring cycle is the one the unit highlights.\n\n(A) is wrong because the course shows clear recurring patterns, such as crisis and federal expansion, so claiming a complete absence of any pattern is false.\n(C) is wrong because the periods are connected by causes and consequences, with each period's developments setting up the next, so there is meaningful connection among them.\n(D) is wrong because federal power has generally grown over the course of American history, rather than steadily declining in every one of the nine periods."
+      "explanation": "Correct: (B) The Civil War led to the National Banking Acts, which created a system of nationally chartered banks and a uniform national currency. To help pay for the war, Congress passed the National Banking Acts of 1863 and 1864. They created banks with federal charters, supervised by a new federal office, the Comptroller of the Currency, and backed a uniform national banknote currency. In 1865 Congress taxed state banknotes out of circulation. The war also brought greenbacks and the first federal income tax, though that tax expired in 1872. National banks and the Comptroller of the Currency still exist, so the war left a lasting increase in federal power over money and banking. (A) is wrong because Social Security was created in 1935 during the Great Depression, not in response to the depression of the 1890s, when federal relief was very limited. (C) is wrong because the Federal Reserve System was created in 1913, after the Panic of 1907, so it existed well before the Great Depression began in 1929. (D) is wrong because the FDIC was created by the Banking Act of 1933 during the Great Depression; the 2008 response raised deposit insurance limits but did not create it.",
+      "added": "2026-11-19"
     },
     {
-      "id": "9-64",
+      "id": "9-64r",
       "topic": "9.6 21st Century Challenges",
-      "stem": "Why is the 2008 financial crisis a fitting topic to close out this course's coverage of expanding federal government power?",
+      "stem": "How did the federal response to the 2008 financial crisis differ from the federal response in the first years after the 1929 crash?",
       "choices": [
-        "The 2008 crisis bears no relationship to this course's recurring theme.",
-        "It represents a complete reversal of every pattern this course has traced.",
-        "The clearest recent example of this multi-century crisis-response pattern.",
-        "Federal government power played no meaningful role in the 2008 crisis response."
+        "In 2008-2009 the Federal Reserve and Congress moved quickly to rescue major financial institutions and add stimulus, while in 1929-1932 the Federal Reserve allowed thousands of banks to fail and Hoover relied heavily on voluntary cooperation.",
+        "In 2008-2009 the government refused to aid any banks, while in 1929-1932 Hoover nationalized the banking system.",
+        "In 2008-2009 the government created the WPA and CCC, while in 1929-1932 Hoover created Social Security.",
+        "There was no difference, since both responses were limited to speeches encouraging public confidence."
+      ],
+      "correct": 0,
+      "explanation": "Correct: (A) In 2008-2009 the Federal Reserve and Congress moved quickly to rescue major financial institutions and add stimulus, while in 1929-1932 the Federal Reserve allowed thousands of banks to fail and Hoover relied heavily on voluntary cooperation. Leaders in 2008, including Federal Reserve chair Ben Bernanke, who had studied the Depression, tried to avoid earlier mistakes. Congress passed TARP in October 2008 and the stimulus in 2009, and the Fed cut rates and lent widely. After 1929, by contrast, the money supply shrank as banks failed, and Hoover's RFC came only in 1932, so the 2008 downturn, though severe, was much shallower. (B) is wrong because the 2008 government aided banks heavily through TARP and Federal Reserve lending, and Hoover never nationalized the banks. (C) is wrong because the WPA and CCC were New Deal programs of the 1930s, and Social Security was created in 1935 under Franklin Roosevelt, not Hoover. (D) is wrong because the responses differed greatly, and both involved more than speeches; Hoover created the RFC, and 2008 brought TARP, stimulus, and emergency lending.",
+      "added": "2026-11-19"
+    },
+    {
+      "id": "9-65r",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "Stretch — beyond typical AP difficulty: Compare the federal responses to the banking crisis of the early 1930s and the financial crisis of 2008. Which feature did the two responses most clearly share?",
+      "choices": [
+        "Both permanently nationalized the country's largest banks and ended private banking.",
+        "Both relied on public works programs like the WPA as their main response to banking failures.",
+        "Both combined emergency measures to stabilize banks with new long-term regulation of the financial system.",
+        "Both were passed by Republican-controlled Congresses over the objections of Democratic presidents."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The clearest recent example of this multi-century crisis-response pattern. In 2008 the federal government and the Federal Reserve bailed out banks, passed TARP and the 2009 stimulus, and increased regulation through the Dodd-Frank Act (2010), as the federal government had done during the Great Depression and the world wars. The stem asks why it suits a closing topic on expanding federal power, and the answer is that it shows the same cycle again in recent history.\n\n(A) is wrong because the crisis is closely related to the recurring theme, since it produced another large expansion of federal economic involvement.\n(B) is wrong because it followed the pattern of crisis leading to expanded federal action rather than reversing it, as with the New Deal and wartime mobilization.\n(D) is wrong because federal power was central to the response, through the Treasury's TARP, Federal Reserve lending, the stimulus act, and Dodd-Frank regulation."
-    },
-    {
-      "id": "9-65",
-      "topic": "9.6 21st Century Challenges",
-      "stretch": true,
-      "stem": "Stretch — beyond typical AP difficulty: Synthesize this ENTIRE COURSE by explaining how the pattern of 'major crisis producing expanded federal government response' first identified in Period 3 (the Constitutional Convention responding to the Articles of Confederation's weakness) recurs across at least four additional widely separated periods, and explain why recognizing this single multi-century pattern is more valuable for exam success than memorizing each individual crisis response in isolation.",
-      "choices": [
-        "This pattern appears exactly once, in Period 3, without any later recurrence in the course or in U.S. history.",
-        "It recurs in the New Deal, both World Wars, the Great Society, and the 2008 crisis response — one reusable framework beats memorizing each crisis alone.",
-        "No such recurring pattern exists in this course; each crisis response developed in total historical isolation from the rest, with no shared logic or debate.",
-        "Memorizing isolated facts is always more valuable than recognizing any recurring historical pattern in the course."
-      ],
-      "correct": 1,
-      "explanation": "Correct: (B) It recurs in the New Deal, both World Wars, the Great Society, and the 2008 crisis response, and one reusable framework beats memorizing each crisis alone. After the Constitutional Convention (1787), the Depression produced the New Deal, World War I and World War II brought mobilization and agencies that managed the economy, the Great Society responded to poverty and civil rights pressure in the 1960s, and the 2008 crisis brought TARP and the stimulus. A single pattern lets a student reason about unfamiliar prompts and organize evidence across periods, which is what DBQs and LEQs reward.\n\n(A) is wrong because the pattern recurs repeatedly, from the Civil War through the Depression, the world wars, and 2008, so it does not appear only once in Period 3.\n(C) is wrong because the course draws exactly these connections, linking each crisis response to earlier ones, so each response did not develop in total isolation.\n(D) is wrong because memorization without a framework is brittle and does not help with new prompts, whereas recognizing a pattern lets students analyze unfamiliar questions."
+      "explanation": "Correct: (C) Both combined emergency measures to stabilize banks with new long-term regulation of the financial system. In 1933 the Emergency Banking Act reopened sound banks after a national bank holiday, and Glass-Steagall, the FDIC, and the SEC added lasting regulation. In 2008 TARP and Federal Reserve lending stabilized failing institutions, and the Dodd-Frank Act of 2010 created new rules and the Consumer Financial Protection Bureau. In both eras rescue came first and reform followed, enlarging federal oversight of finance. (A) is wrong because neither response permanently nationalized major banks; the government briefly held stakes in some firms in 2008 but the banks stayed private. (B) is wrong because public works programs like the WPA addressed unemployment, not banking failures, and the 2008 response did not create a WPA-style jobs agency. (D) is wrong because the 1933 laws were passed by a Democratic Congress under Franklin Roosevelt, and Dodd-Frank was passed by a Democratic Congress under Obama.",
+      "added": "2026-11-19",
+      "stretch": true
     }
   ]
 };

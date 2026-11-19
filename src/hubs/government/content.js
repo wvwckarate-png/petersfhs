@@ -627,17 +627,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) 'Ambition must be made to counteract ambition'. In Federalist No. 51, Madison argues that since men are not angels, government must be designed so that each branch has the means and motive to resist encroachments by the others. Rather than depending on virtue, the system uses each branch's self-interest to keep the others in check, which is the logic of checks and balances.\n\n(A) is wrong because 'necessary and proper' is from Article I, Section 8, about implied congressional powers.\n(B) is wrong because 'We the People' is the opening of the Preamble.\n(D) is wrong because 'a more perfect Union' is also from the Preamble and states a goal of the Constitution, not the logic of checks and balances."
     },
     {
-      "id": "1-46",
+      "id": "1-46r",
       "topic": "1.5 Separation of Powers",
-      "stem": "A question asks you to 'identify a specific check' one branch holds over another. Which of the following would be a fully correct answer?",
+      "stem": "In 1952, during the Korean War, President Truman issued an executive order directing his secretary of commerce to seize and operate the nation's steel mills to prevent a strike. Congress had not authorized the seizure. In Youngstown Sheet & Tube Co. v. Sawyer (1952), the Supreme Court ruled 6-3 that the order was unconstitutional. Which check does this episode illustrate?",
       "choices": [
-        "'The president can veto Congress's legislation.'",
-        "'The government has checks and balances among its parts.'",
-        "'The Constitution separates powers among the branches.'",
-        "'There are three branches of government in the republic.'"
+        "Congress checking the president through its power to impeach and remove executive officials.",
+        "The judiciary checking the executive by ruling that the president's action exceeded his constitutional and statutory authority.",
+        "The president checking the judiciary by appointing new justices who would approve the seizure.",
+        "The states checking the national government by refusing to enforce a federal order under the Tenth Amendment."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) 'The president can veto Congress's legislation.' The prompt asks for a specific check, meaning a named power by which one branch limits another. The veto is exactly that.\n\n(B) is wrong because it only says that checks and balances exist, without naming a power or the branches involved.\n(C) is wrong because it restates separation of powers, which is a structure, not a particular check.\n(D) is wrong because it just states that there are three branches, which is true but not a check."
+      "correct": 1,
+      "explanation": "Correct: (B) The judiciary checking the executive by ruling that the president's action exceeded his constitutional and statutory authority. The Court held that no statute and no clause of the Constitution gave the president power to seize private property in this way. Deciding whether to take over an industry is a lawmaking choice that belongs to Congress, and the commander-in-chief power did not stretch to seizing domestic steel mills. Truman complied and returned the mills to their owners, which shows that a court ruling can limit even a wartime president. (A) is wrong because Congress did not impeach anyone; the check came from a court ruling in a lawsuit brought by the steel companies. (C) is wrong because the Court ruled against the president; the episode shows a court limiting the president, not a president reshaping the Court. (D) is wrong because the dispute was between private companies and the federal executive and was decided by federal courts; no state refused to enforce anything.",
+      "added": "2026-11-19"
     },
     {
       "id": "1-47",
@@ -2323,17 +2324,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) No, because Dobbs (2022) overturned Roe and eliminated that right. In Dobbs v. Jackson Women's Health Organization (2022), the Supreme Court upheld Mississippi's 15-week abortion limit and overruled Roe v. Wade and Planned Parenthood v. Casey, holding that the Constitution does not confer a right to abortion and that the issue returns to the states and their elected officials. The word 'still' in the stem points to the current status of Roe.\n\n(A) is wrong because a decision of the Supreme Court, not a constitutional amendment, overturned Roe; no amendment on the subject has been ratified.\n(C) is wrong because Roe is no longer in effect, having been expressly overruled by Dobbs, so it no longer remains the controlling precedent.\n(D) is wrong because Roe no longer controls in any state after Dobbs, so it is not partially in effect in half of the states."
     },
     {
-      "id": "3-41",
+      "id": "3-41r",
       "topic": "3.5 Due Process and Right to Privacy",
-      "stem": "Why does Roe v. Wade remain a required case for this course, despite being overturned?",
+      "stem": "In Dobbs v. Jackson Women's Health Organization (2022), the Supreme Court overruled Roe v. Wade (1973) and Planned Parenthood v. Casey (1992). Which statement best describes the effect of the Dobbs decision on abortion policy in the United States?",
       "choices": [
-        "The course requires it because it is still the current governing law.",
-        "It was never actually overturned by any later case.",
-        "It remains doctrinally significant, though no longer controlling law.",
-        "It is no longer relevant to the course in any way."
+        "It returned the authority to regulate or prohibit abortion to the states and their elected representatives.",
+        "It established a nationwide constitutional ban on abortion under the Fourteenth Amendment.",
+        "It held that the right to privacy protects abortion until fetal viability in every state.",
+        "It required Congress to pass a federal statute before any state could regulate abortion."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) It remains doctrinally significant, though no longer controlling law. Roe v. Wade (1973) is a required case because it illustrates how the Court recognized an unenumerated right to privacy under substantive due process, and students need to understand its reasoning to follow later developments such as Planned Parenthood v. Casey (1992) and Dobbs v. Jackson Women's Health Organization (2022). Being required for study does not make a case current law.\n\n(A) is wrong because Roe was overruled by Dobbs in 2022 and is not the current governing law, so the course does not require it for that reason.\n(B) is wrong because Dobbs expressly overruled Roe, so it is false that no later case overturned it.\n(D) is wrong because Roe is still relevant to understanding privacy, due process, and how the Court's reasoning on unenumerated rights has developed and changed over time."
+      "correct": 0,
+      "explanation": "Correct: (A) It returned the authority to regulate or prohibit abortion to the states and their elected representatives. The majority in Dobbs held that the Constitution does not confer a right to abortion, because that right is not mentioned in the text and, in the Court's view, is not deeply rooted in the nation's history and tradition as substantive due process requires. With Roe and Casey overruled, the question of whether and how to regulate abortion was returned to the people and their elected representatives, so policy now varies from state to state. (B) is wrong because Dobbs did not ban abortion anywhere; it removed a federal constitutional right and left the policy choice to the states rather than imposing a single national rule. (C) is wrong because protection of abortion until viability was the framework of Roe and Casey, and Dobbs overruled exactly that framework rather than reaffirming it. (D) is wrong because Dobbs placed no requirement on Congress; states were free to regulate abortion immediately after the decision, and many did so through their own legislatures.",
+      "added": "2026-11-19"
     },
     {
       "id": "3-42",
@@ -2622,31 +2624,32 @@ const QUESTIONS = {
       "explanation": "Correct: (B) Wisconsin v. Yoder. When someone claims a law burdens their religious practice, Yoder (1972) shows the Court's approach: weigh how serious the burden is on a sincere religious belief against how strong the state's interest is and whether it can be met without forcing the believer to act against faith. A religious objection to a public health rule (such as vaccination or mask requirements) raises the same Free Exercise balancing question. The clue words are \"religious objection\" and \"weighing religious burden against government interest.\"\n\n(A) is wrong because Brown concerns equal protection and race in schools.\n(C) is wrong because New York Times Co. v. United States concerns prior restraint of the press.\n(D) is wrong because Schenck is about speech that creates a clear and present danger, not religion."
     },
     {
-      "id": "3-64",
+      "id": "3-64r",
       "topic": "3.7 Balancing Liberty, Equality, and Order",
-      "stem": "Which of the following best summarizes a recurring theme across this entire unit?",
+      "stem": "A public high school student, angry about not making the varsity team, posts a profane message criticizing the school's athletic program on social media from a convenience store on a Saturday. A few classmates see it, but no class is interrupted. The school suspends the student from the junior varsity squad for a year. How would a court most likely balance the student's rights against the school's interest in order?",
       "choices": [
-        "Liberties and rights often conflict with other interests, resolved case by case.",
-        "Civil liberties and civil rights are identical concepts with no distinction.",
-        "The Bill of Rights has no practical relevance to modern constitutional law.",
-        "Civil liberties and civil rights are always absolute, never limited."
+        "The suspension is constitutional because students give up their First Amendment rights when they enroll in a public school.",
+        "The suspension is constitutional because Schenck v. United States allows punishment of any speech that criticizes a public institution.",
+        "The suspension raises only an Establishment Clause question, since the school is a government institution.",
+        "The suspension likely violates the First Amendment, because a school's interest in regulating off-campus speech is weaker and the post caused no substantial disruption."
       ],
-      "correct": 0,
-      "explanation": "Correct: (A) Liberties and rights often conflict with other interests, resolved case by case. The unit's cases show competing values: speech versus national security (Schenck, New York Times), religion versus state interests (Engel, Yoder), privacy versus state interests (Roe), and equality versus segregation (Brown). Courts decide these using different tests rather than a single rule.\n\n(B) is wrong because civil liberties (protections from government) and civil rights (guarantees of equal treatment) are related but distinct concepts.\n(C) is wrong because the Bill of Rights is central to modern constitutional law through incorporation.\n(D) is wrong because rights are not always absolute, as the cases show."
+      "correct": 3,
+      "explanation": "Correct: (D) The suspension likely violates the First Amendment, because a school's interest in regulating off-campus speech is weaker and the post caused no substantial disruption. Tinker v. Des Moines (1969) held that students keep their free-speech rights at school and may be punished only when their speech substantially disrupts school activities or invades the rights of others. In Mahanoy Area School District v. B.L. (2021), on facts very close to these, the Court ruled for the student, explaining that a school's interest is weaker when speech occurs off campus and outside school hours, and that no substantial disruption had occurred. (A) is wrong because Tinker rejected this view directly, stating that students do not shed their constitutional rights to freedom of speech or expression at the schoolhouse gate. (B) is wrong because Schenck's clear and present danger test concerned speech that threatened grave harms such as obstructing a wartime draft, not ordinary criticism of a school's sports program. (C) is wrong because the Establishment Clause concerns government sponsorship of religion; this dispute is about a student's own speech, so it is a Free Speech Clause question.",
+      "added": "2026-11-19"
     },
     {
       "id": "3-65",
       "topic": "3.7 Balancing Liberty, Equality, and Order",
       "stretch": true,
-      "stem": "Stretch — beyond typical AP difficulty: A state law requires public school students to salute the flag and recite a pledge, with no exemption for students whose religious beliefs prohibit this practice. Using the reasoning from Wisconsin v. Yoder AND Tinker v. Des Moines, construct an argument for why this law likely violates the students' constitutional rights.",
+      "stem": "Stretch — beyond typical AP difficulty: A state law requires every public school student to salute the flag and recite the Pledge of Allegiance each morning, with no exemption for students whose religious beliefs forbid it. Which argument most accurately explains why this law is unconstitutional?",
       "choices": [
-        "It likely violates Free Exercise (Yoder) and compelled symbolic expression rights (Tinker).",
-        "Only Tinker applies, and it has no bearing on compelled speech.",
-        "Neither case is relevant, since this involves neither education policy nor school speech.",
-        "The law is clearly constitutional under both cases, given unlimited school authority."
+        "It violates the First Amendment ban on compelled expression recognized in West Virginia v. Barnette (1943), and Tinker v. Des Moines (1969) confirms that students keep free-speech rights at school.",
+        "It is constitutional because Tinker v. Des Moines allows schools to require any expression that does not cause substantial disruption.",
+        "It violates only the Establishment Clause, as in Engel v. Vitale, because the pledge is a state-composed prayer.",
+        "It is constitutional because Minersville School District v. Gobitis (1940), which upheld a compulsory flag salute, remains controlling precedent."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) It likely violates Free Exercise (Yoder) and compelled symbolic expression rights (Tinker). Yoder (1972) shows that when a law substantially burdens sincere religious practice, the state must have a very strong interest, and the state usually fails when a narrow exemption would not harm that interest. Tinker (1969) shows that students keep their First Amendment rights, including symbolic expression, at school. Forcing a student to salute and recite a pledge against religious belief compels speech and burdens religion, with no showing of disruption.\n\n(B) is wrong because Yoder's Free Exercise reasoning also applies to a religious objection, so it is false that only Tinker is relevant; Tinker's protection of student expression also supports the compelled-speech argument.\n(C) is wrong because the scenario involves both public school policy and student expression, so both cases are relevant to the argument.\n(D) is wrong because neither case gives schools unlimited authority; Tinker limits schools to cases of substantial disruption, and Yoder requires strong justification for burdening religious practice."
+      "explanation": "Correct: (A) It violates the First Amendment ban on compelled expression recognized in West Virginia v. Barnette (1943), and Tinker v. Des Moines (1969) confirms that students keep free-speech rights at school. In West Virginia v. Barnette (1943), the Supreme Court struck down a nearly identical requirement challenged by Jehovah's Witness students, holding that the First Amendment forbids government from compelling anyone to profess a belief, so no official can prescribe what is orthodox in politics or opinion. The Court decided the case on free-speech grounds, protecting the right not to speak. Tinker (1969) reinforces the point by holding that students do not lose their First Amendment rights at the schoolhouse gate. (B) is wrong because Tinker limits when schools may punish students' own expression; it does not give schools power to force students to speak, which Barnette forbids. (C) is wrong because the Pledge is a patriotic exercise, not a state-composed prayer as in Engel, and Barnette rested on freedom of speech, not the Establishment Clause. (D) is wrong because Barnette expressly overruled Gobitis only three years after it was decided, so Gobitis is no longer good law and cannot justify the requirement."
     },
     {
       "id": "3-66",
@@ -3407,15 +3410,15 @@ const QUESTIONS = {
     {
       "id": "4-51",
       "topic": "4.5 Ideology and Party Platforms",
-      "stem": "Which of the following would be the LEAST reliable way to predict an individual's specific policy views?",
+      "stem": "Which of the following, used by itself, would be the LEAST reliable way to predict an individual's specific policy views?",
       "choices": [
-        "A detailed survey of their views across multiple specific policy areas.",
-        "Their stated ideological self-identification (liberal or conservative) alone, without any other information.",
-        "Their political party affiliation alone, without any other information.",
-        "Their geographic region of residence, considered alone."
+        "A detailed survey of their views across many specific policy areas.",
+        "Their stated ideological self-identification (liberal or conservative) alone.",
+        "The geographic region where they live, considered alone.",
+        "Their political party affiliation alone."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Their political party affiliation alone, without any other information. Party affiliation is a rough indicator because each party is a broad coalition with diverse members, so it fits individual views on specific policies least well among the single-factor choices offered. A detailed survey of actual views is the best predictor, and ideological self-identification is somewhat more specific than party alone. The question asks which is LEAST reliable, so look for the proxy that hides the most variation.\n\n(A) is wrong because directly surveying many policy areas is the most reliable method.\n(B) is wrong because ideological self-identification is imperfect but is more tied to policy views than party label alone.\n(D) is the closest alternative, since region alone is also a weak predictor, but this question is pointing at party because each party's internal diversity is so large."
+      "explanation": "Correct: (C) The geographic region where they live, considered alone. Party identification is one of the strongest single predictors of how Americans vote and what policies they support, and ideological self-identification is also closely tied to policy views. Region is much weaker: every region contains large numbers of liberals and conservatives, Democrats and Republicans, and region matters mainly because it correlates with other factors such as party, religion and urban or rural residence. A direct survey of a person's actual views is the most reliable measure of all. (A) is wrong because asking a person directly about many specific policies measures their views themselves, so it is the most reliable method rather than the least reliable. (B) is wrong because self-identified liberals and conservatives differ consistently on many issues, so ideology is an imperfect but fairly strong predictor of specific policy views. (D) is wrong because party affiliation is one of the strongest single predictors of policy views; parties are broad coalitions, but party identifiers still differ sharply and consistently."
     },
     {
       "id": "4-52",
@@ -3535,17 +3538,18 @@ const QUESTIONS = {
       "explanation": "Correct: (C) Lawmakers agreeing on the problem but split on regulation vs. market pricing. Implementation means how a goal is carried out. Here the lawmakers accept that the problem exists and want to address it, but they differ over direct regulation versus a market tool like pricing, which is a dispute about method.\n\n(A) is wrong because disagreeing over whether climate change is occurring is a dispute about the problem itself, not about implementation.\n(B) is wrong because proposing no policy has no method to debate.\n(D) is wrong because an unrelated court ruling says nothing about ideology shaping implementation."
     },
     {
-      "id": "4-61",
+      "id": "4-61r",
       "topic": "4.6 Ideology in Government Policy",
-      "stem": "Understanding the distinction between policy GOALS and policy METHODS is most useful for which of the following exam tasks?",
+      "stem": "A congressional candidate opposes federal laws that make recreational marijuana use a crime and opposes government programs that collect data on citizens' phone calls without warrants. The same candidate also opposes raising the minimum wage and wants to repeal most federal regulations on businesses. Which ideology does this platform most closely reflect?",
       "choices": [
-        "Calculating a poll's statistical margin of error precisely.",
-        "Identifying the required Supreme Court cases from Unit 3.",
-        "Memorizing the exact text of the U.S. Constitution verbatim.",
-        "Accurately analyzing a policy debate, not oversimplifying it."
+        "Liberal, because it relies on government to protect individual rights and to regulate the economy.",
+        "Conservative, because it favors free markets along with government action to uphold traditional social values.",
+        "Libertarian, because it seeks to minimize government involvement in both personal life and the economy.",
+        "Populist, because it combines government protection for workers with hostility toward economic elites."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) Accurately analyzing a policy debate, not oversimplifying it. When you can separate the goal from the method, you can recognize that two sides might share a goal but differ in how to reach it, instead of assuming one side opposes the goal. This is useful when analyzing a described debate or scenario.\n\n(A) is wrong because calculating margin of error is a statistics skill from polling.\n(B) is wrong because identifying Supreme Court cases is a separate content skill unrelated to the goal-method distinction.\n(C) is wrong because verbatim memorization of the Constitution is not what this distinction helps with."
+      "correct": 2,
+      "explanation": "Correct: (C) Libertarian, because it seeks to minimize government involvement in both personal life and the economy. Libertarians typically want government to stay out of both areas. Here the candidate wants government out of personal choices (drug laws, surveillance) and out of the economy (minimum-wage law, business regulation). The mainstream ideologies usually accept a government role in one of those areas but not the other. (A) is wrong because liberals typically support minimum-wage increases and business regulation, while this candidate opposes both. (B) is wrong because conservatives typically favor free markets but are more willing to use government to enforce social order, such as drug laws and law-enforcement surveillance, which this candidate opposes. (D) is wrong because the platform has no anti-elite or worker-protection theme; opposing a minimum-wage increase runs against the worker protections populists usually favor.",
+      "added": "2026-11-19"
     },
     {
       "id": "4-62",
@@ -3667,30 +3671,32 @@ const QUESTIONS = {
       "explanation": "Correct: (A) The invisible hand of self-interest channeled through market competition. In The Wealth of Nations (1776), Adam Smith argued that when people pursue their own interests in a competitive market, prices and competition steer resources to what others want, so society benefits without central direction. The stem's clue is \"pursuing their own self-interest in a competitive market.\"\n\n(B) is wrong because unions negotiating wages is a separate labor-market arrangement and not Smith's mechanism.\n(C) is wrong because government planning of prices and production is the opposite of Smith's argument for market coordination.\n(D) is wrong because charitable giving is voluntary generosity and not the self-interest mechanism Smith describes."
     },
     {
-      "id": "4-71",
+      "id": "4-71r",
       "topic": "4.1 Political Culture and Core Values",
-      "stem": "Why does AP Gov treat The Wealth of Nations as a Foundational Document for this unit rather than simply as outside reading on economics?",
+      "stem": "A state legislator opposes a bill that would cap gasoline prices. She argues that competition among sellers, not government, should set prices, and that people pursuing their own interests in open markets end up producing benefits for the whole society. Which core American value and source does her argument most directly reflect?",
       "choices": [
-        "It was written by a sitting member of the Continental Congress during the Revolution.",
-        "It is the canonical source for free enterprise as a core American political value.",
-        "It directly outlines the structure of the U.S. federal government and its branches.",
-        "It was cited in the majority opinion of a landmark Supreme Court case on commerce."
+        "Equality of outcome, echoing the Declaration of Independence's claim that all men are created equal.",
+        "Rule of law, echoing Madison's argument for checks and balances in Federalist No. 51.",
+        "Popular sovereignty, echoing Brutus No. 1's defense of small republics close to the people.",
+        "Free enterprise, echoing Adam Smith's argument in The Wealth of Nations."
       ],
-      "correct": 1,
-      "explanation": "Correct: (B) It is the canonical source for free enterprise as a core American political value. The AP course lists The Wealth of Nations as a Foundational Document in the political culture unit because it provides the classic argument for free enterprise and limited government interference in markets, one of the values that shape American political debates.\n\n(A) is wrong because Adam Smith was a Scottish economist and was not a member of the Continental Congress.\n(C) is wrong because the book is about economics, not the structure of the federal government.\n(D) is wrong because its place in the course is due to its ideas, not a citation in a Supreme Court majority opinion."
+      "correct": 3,
+      "explanation": "Correct: (D) Free enterprise, echoing Adam Smith's argument in The Wealth of Nations. The legislator relies on free enterprise, the belief that private ownership, voluntary exchange and competition, with limited government interference, best allocate goods and promote prosperity. Her claim that individuals seeking their own gain in competitive markets benefit society is Adam Smith's 'invisible hand' argument from The Wealth of Nations (1776), the classic statement of the case against government price-setting. (A) is wrong because her argument is about markets setting prices, not about guaranteeing equal results, and equality of outcome would more likely support government intervention than oppose it. (B) is wrong because Federalist No. 51 concerns dividing power among branches so that ambition counteracts ambition; it says nothing about letting markets rather than government set prices. (C) is wrong because Brutus No. 1 argued that a large national republic would endanger liberty; it does not address competition, prices or the benefits of self-interested exchange.",
+      "added": "2026-11-19"
     },
     {
-      "id": "4-72",
+      "id": "4-72r",
       "topic": "4.1 Political Culture and Core Values",
-      "stem": "The free enterprise value Adam Smith's argument supports reappears later in this unit as which of the following?",
+      "stem": "A state law makes it a crime for officials to accept gifts from companies seeking state contracts. When several of the governor's close allies are found to have accepted such gifts, the governor directs state prosecutors not to charge them, while prosecutions of other officials continue. Critics respond that no one, including the powerful and their friends, should be above the law. Which core American political value are the critics most directly invoking?",
       "choices": [
-        "A defining feature of the populist tradition's trade policy toward foreign imports.",
-        "The basis for greater government regulation of the economy as a whole.",
-        "The economic core of conservative ideology favoring less regulation.",
-        "The main justification for expanding the social safety net to more families."
+        "Individualism, the belief that people should be self-reliant and responsible for their own choices.",
+        "Rule of law, the principle that laws apply equally to everyone, including government officials and their allies.",
+        "Free enterprise, the belief that markets and private competition, not government, should guide economic decisions.",
+        "Equality of outcome, the belief that government should ensure people end up with similar results."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) The economic core of conservative ideology favoring less regulation. Smith's case for free markets and limited government interference reappears in the ideology section as the typical conservative preference for lower taxes, fewer regulations, and reliance on markets.\n\n(A) is wrong because populist trade policy, which can favor protecting workers from foreign imports, runs against Smith's free-trade logic rather than continuing it.\n(B) is wrong because greater regulation of the economy is the typical liberal position and the opposite of Smith's argument.\n(D) is wrong because expanding the social safety net is also a typical liberal position, not the conclusion of Smith's free enterprise argument."
+      "correct": 1,
+      "explanation": "Correct: (B) Rule of law, the principle that laws apply equally to everyone, including government officials and their allies. Rule of law means government acts under fixed, public laws that bind officials as well as ordinary citizens and are applied the same way to everyone. A governor who shields allies from a law that is still enforced against others is putting personal power above the law, which is exactly what the critics object to. (A) is wrong because individualism concerns self-reliance and personal responsibility, not whether officials apply the law evenly. (C) is wrong because the dispute is about selective prosecution, not about whether markets or government should guide the economy. (D) is wrong because the critics want the same legal standard applied to everyone, which is equal treatment under law, not equal results such as equal incomes.",
+      "added": "2026-11-19"
     }
   ],
   "5": [
@@ -4098,17 +4104,18 @@ const QUESTIONS = {
       "explanation": "Correct: (B) Divided government resulting from that specific election's results. Divided government occurs when one party controls the presidency and a different party controls at least one chamber of Congress. It is determined entirely by who wins the offices in a given election, so a single election can create it. Realignment and dealignment, by contrast, are long-term changes in party coalitions or voter attachment that show up over many elections. The clue words are \"DIRECT result of a single election.\"\n\n(A) is wrong because a decline in strong party identification over multiple decades is dealignment, a long-term trend.\n(C) is wrong because a durable shift in a group's party support is realignment, which lasts across elections.\n(D) is wrong because elections can directly produce outcomes like divided government."
     },
     {
-      "id": "5-32",
+      "id": "5-32r",
       "topic": "5.4 Party Realignment and Change",
-      "stem": "Why is it important to distinguish realignment from dealignment on the exam, rather than treating them as synonyms?",
+      "stem": "From the New Deal era through the 1950s, white voters in the South supported Democratic candidates by wide margins. After national Democratic leaders backed civil rights laws in the 1960s, white Southern support shifted toward Republicans, first in presidential races and later, over the following decades, in congressional and state elections, until Republicans became the region's dominant party. Which description best fits this change?",
       "choices": [
-        "They are actually synonyms and the distinction doesn't matter.",
-        "Because the exam never actually tests either concept directly.",
-        "Because they describe genuinely different partisan patterns.",
-        "Because only one of the two concepts has ever actually occurred in American history."
+        "A realignment that unfolded gradually across many elections rather than in a single critical election.",
+        "Dealignment, because white Southern voters abandoned both major parties and became independents.",
+        "A critical election, because the entire change took place in the single presidential election of 1964.",
+        "Divided government, because one party controlled the presidency while the other controlled Congress."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Because they describe genuinely different partisan patterns. Realignment is a durable shift in which party voter groups support, while dealignment is a decline in attachment to parties in general, with more independents and more split-ticket voting. A scenario in a question will describe one or the other, and mixing them up leads to the wrong answer.\n\n(A) is wrong because the terms are not synonyms; one describes voters switching from one party to another, and the other describes voters losing attachment to parties altogether.\n(B) is wrong because the AP course expects students to know both concepts and to apply them to scenarios, so the claim that neither is directly tested is false.\n(D) is wrong because both patterns have been discussed in American history, with realignments around critical elections such as 1932 and dealignment in more recent decades."
+      "correct": 0,
+      "explanation": "Correct: (A) A realignment that unfolded gradually across many elections rather than in a single critical election. Realignment is a durable shift of a large voting group's support from one party to the other. White Southern voters moved from the Democratic to the Republican Party and stayed there, so this is a realignment. Unlike the rapid formation of the New Deal coalition around the 1932 election, the Southern shift came in stages. Republican presidential candidates won Southern states starting in the 1960s, but Republicans did not win a majority of the region's U.S. House seats until the 1990s. (B) is wrong because these voters moved to the other major party rather than giving up party attachment altogether. (C) is wrong because 1964 was only an early step, and the shift in congressional and state races took decades. (D) is wrong because divided government describes which parties control the branches after an election, not a lasting change in which party a voting group supports.",
+      "added": "2026-11-19"
     },
     {
       "id": "5-33",
@@ -4267,17 +4274,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) Filing an amicus brief in a Supreme Court case. Litigation as an interest group tactic means using the courts, either by bringing or sponsoring lawsuits or by submitting an amicus curiae brief that gives a court the group's views on a pending case. The clue in the stem is the word 'litigation,' which points to court-based activity.\n\n(A) is wrong because a voter registration drive in a neighborhood is grassroots mobilization or electoral activity, not an effort to influence policy through the courts.\n(B) is wrong because television advertisements during an election are a media or electioneering tactic aimed at voters, not a court-based method.\n(C) is wrong because meeting a member of Congress in an office visit is direct lobbying of the legislature, which is a different tactic from litigation."
     },
     {
-      "id": "5-45",
+      "id": "5-45r",
       "topic": "5.6 Interest Groups",
-      "stem": "How does the iron triangle concept connect to material covered in Unit 2 of this course?",
+      "stem": "A farm-crop association's political action committee contributes to the campaigns of members of the House Agriculture Committee. The committee writes and protects a price-support program the growers want, and the Department of Agriculture, which administers the program, depends on that committee for its authorizations and budget while consulting closely with the growers. Which concept best describes this set of relationships?",
       "choices": [
-        "It connects exclusively to Unit 1's discussion of federalism.",
-        "It connects exclusively to Unit 3's discussion of civil liberties.",
-        "It has no connection to any other unit.",
-        "It connects directly to Unit 2's coverage of the federal bureaucracy."
+        "An issue network, because it is a loose, shifting web of many experts, advocates and officials.",
+        "An iron triangle, because a congressional committee, an executive agency and an interest group support one another.",
+        "The free rider problem, because consumers benefit from the program without paying dues to the growers' association.",
+        "Divided government, because the agency belongs to the executive branch and the committee to the legislative branch."
       ],
-      "correct": 3,
-      "explanation": "Correct: (D) It connects directly to Unit 2's coverage of the federal bureaucracy. An iron triangle includes a federal agency, so it links interest groups to the bureaucracy and to congressional committees, explaining how policy gets made in a specific area through a stable relationship among all three. Unit 2 covers Congress and the bureaucracy, so the concept bridges the units.\n\n(A) is wrong because the iron triangle is not tied to the division of power between national and state governments; it concerns relations among agencies, committees, and groups.\n(B) is wrong because it is not about civil liberties, which concern protections of individual rights covered in Unit 3, such as speech and due process.\n(C) is wrong because the concept links several parts of the course, including Congress, the bureaucracy, and interest groups, so it clearly connects to other units."
+      "correct": 1,
+      "explanation": "Correct: (B) An iron triangle, because a congressional committee, an executive agency and an interest group support one another. An iron triangle is a stable, mutually beneficial relationship among three actors: a congressional committee or subcommittee, a bureaucratic agency, and an interest group in the same policy area. Here the interest group supplies campaign money and expertise to the committee, the committee supplies favorable law and funding to the agency, and the agency administers the program in ways the group supports. Each side gains, which helps explain why such programs are hard to change. (A) is wrong because an issue network is broader and looser, with many participants who come and go; this scenario describes three fixed actors in a closed, stable relationship. (C) is wrong because the free rider problem concerns why individuals avoid paying to join a group whose benefits they get anyway; it does not describe the committee-agency-group alliance. (D) is wrong because divided government means different parties control the presidency and Congress, which the stem never mentions; every agency and committee sits in a separate branch regardless.",
+      "added": "2026-11-19"
     },
     {
       "id": "5-46",
@@ -4384,17 +4392,18 @@ const QUESTIONS = {
       "explanation": "Correct: (D) No — coordinated spending does not qualify as an independent expenditure. Independent means not coordinated with a candidate's campaign. When a corporation plans and funds an ad together with the candidate's staff, the spending is treated as an in-kind contribution to the campaign and is subject to contribution limits and the ban on corporate contributions to candidates. The stem's clue is \"coordinates directly with a candidate's campaign staff.\"\n\n(A) is wrong because nonprofit status does not remove the coordination problem.\n(B) is wrong because Citizens United did not ban corporate political spending; it protected independent spending.\n(C) is wrong because only spending that is genuinely independent is protected."
     },
     {
-      "id": "5-54",
+      "id": "5-54r",
       "topic": "5.7 Campaigns, Elections, and Campaign Finance",
-      "stem": "Why is precisely stating the holding of Citizens United v. FEC especially important on this exam?",
+      "stem": "A nonprofit corporation wants to pay for television advertisements for a film that criticizes a presidential candidate, airing them in the weeks before a primary. The money comes from the corporation's general treasury, and the group does not coordinate with any campaign. Federal law had barred such corporate 'electioneering communications' close to an election. Under Citizens United v. FEC (2010), what is the status of this spending?",
       "choices": [
-        "Because the case was decided unanimously with no dissent.",
-        "Because the case is not actually a required case for this course.",
-        "Because it is one of the exam's most frequently misstated facts.",
-        "Because the case has no bearing on any tested topic."
+        "It may be banned, because corporations have no First Amendment rights under the Constitution.",
+        "It is allowed only if the corporation first gives the money directly to the candidate's campaign committee.",
+        "It is allowed only after Congress passes a constitutional amendment authorizing corporate political speech.",
+        "It is protected political speech that the government may not ban, although disclosure and disclaimer requirements can still apply."
       ],
-      "correct": 2,
-      "explanation": "Correct: (C) Because it is one of the exam's most frequently misstated facts. Students often claim that Citizens United lets corporations give unlimited money directly to candidates, or that it eliminated all limits, when the holding is narrower: independent expenditures by corporations and unions are protected political speech, while direct contribution limits remain. Stating it precisely avoids that error.\n\n(A) is wrong because the decision was 5 to 4, with a dissent, so it was not decided unanimously.\n(B) is wrong because Citizens United v. FEC is one of the required Supreme Court cases in the AP U.S. Government and Politics course.\n(D) is wrong because the case is directly tied to the campaign finance and elections topics that the course tests, so it clearly bears on tested material."
+      "correct": 3,
+      "explanation": "Correct: (D) It is protected political speech that the government may not ban, although disclosure and disclaimer requirements can still apply. In Citizens United, the Court held 5-4 that independent political spending by corporations, and by extension unions, is political speech protected by the First Amendment, so the government may not ban it based on the speaker's corporate identity. The ruling concerned independent expenditures only, not contributions to candidates. In a separate 8-1 part of the decision, the Court upheld the law's disclaimer and disclosure requirements, so the group can still be required to identify itself. (A) is wrong because Citizens United rested on the premise that political speech does not lose First Amendment protection because the speaker is a corporation, so a ban is unconstitutional. (B) is wrong because giving money directly to a campaign is a contribution, which remains limited and banned for corporations; Citizens United protected independent spending, not coordinated contributions. (C) is wrong because the Court protected this spending under the existing First Amendment, so no constitutional amendment is needed for the corporation to spend the money.",
+      "added": "2026-11-19"
     },
     {
       "id": "5-55",

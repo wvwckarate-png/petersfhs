@@ -80,7 +80,7 @@ const QUESTIONS = {
         "Ecosystem"
       ],
       "correct": 1,
-      "explanation": "Population is correct — it refers to all individuals of ONE species in a given area. Ecosystem is too broad (multiple species plus the abiotic environment). Biome is broader still (a whole climate-defined region). Community is also too broad, since it includes multiple interacting species rather than just one."
+      "explanation": "Correct: (B) Population. It refers to all individuals of ONE species in a given area. Ecosystem is too broad (multiple species plus the abiotic environment). Biome is broader still (a whole climate-defined region). Community is also too broad, since it includes multiple interacting species rather than just one."
     },
     {
       "id": "1-2",
@@ -119,7 +119,7 @@ const QUESTIONS = {
         "The total sum of every ecosystem found across the entire planet."
       ],
       "correct": 1,
-      "explanation": "A biome is a large region defined by climate and its dominant vegetation/animal life (e.g., desert, tundra). It is not the sum of all ecosystems (that's the biosphere), not a synonym for population (individuals of one species), and it is not confined to a single specific location — the same biome type recurs across multiple, often widely separated, regions of the world."
+      "explanation": "Correct: (B) A large region defined by climate and dominant plant/animal life. A biome is a large region defined by climate and its dominant vegetation/animal life (e.g., desert, tundra). It is not the sum of all ecosystems (that's the biosphere), not a synonym for population (individuals of one species), and it is not confined to a single specific location — the same biome type recurs across multiple, often widely separated, regions of the world."
     },
     {
       "id": "1-5",
@@ -132,7 +132,7 @@ const QUESTIONS = {
         "Simply another word used interchangeably with biodiversity."
       ],
       "correct": 1,
-      "explanation": "Ecosystem services are benefits people derive from healthy ecosystems (pollination, water filtration, flood control) typically without paying for them directly. They are not a government program, not simply another word for biodiversity (a related but distinct concept describing variety of life), and — unlike the distractor claims — they are notably NOT something humans typically pay for directly, which is exactly why their economic value is often overlooked."
+      "explanation": "Correct: (B) Benefits people get from functioning ecosystems, usually free. Ecosystem services are benefits people derive from healthy ecosystems (pollination, water filtration, flood control) typically without paying for them directly. They are not a government program, not simply another word for biodiversity (a related but distinct concept describing variety of life), and — unlike the distractor claims — they are notably NOT something humans typically pay for directly, which is exactly why their economic value is often overlooked."
     },
     {
       "id": "1-6",
@@ -145,7 +145,7 @@ const QUESTIONS = {
         "A trophic level (a feeding position in a food chain)"
       ],
       "correct": 0,
-      "explanation": "Reducing storm surge damage is a regulating ecosystem service. It is not a trophic level (a feeding position like producer or consumer), not a limiting nutrient (a scarce resource capping productivity), and not a biogeochemical cycle (the pathway an element follows through an ecosystem) — none of those terms describe a direct benefit humans receive."
+      "explanation": "Correct: (A) An ecosystem service (flood and storm regulation). Reducing storm surge damage is a regulating ecosystem service. It is not a trophic level (a feeding position like producer or consumer), not a limiting nutrient (a scarce resource capping productivity), and not a biogeochemical cycle (the pathway an element follows through an ecosystem) — none of those terms describe a direct benefit humans receive."
     },
     {
       "id": "1-7",
@@ -158,7 +158,7 @@ const QUESTIONS = {
         "A city constructing a new highway."
       ],
       "correct": 1,
-      "explanation": "Wetland filtration is a genuine ecosystem service — a natural process delivering a real benefit (cleaner water) without direct payment. The other three options are all human-engineered activities (a power plant, a highway, a factory) that consume resources and produce pollution rather than a natural process providing a free benefit."
+      "explanation": "Correct: (B) Wetland vegetation filtering pollutants out of water. Wetland filtration is a genuine ecosystem service — a natural process delivering a real benefit (cleaner water) without direct payment. The other three options are all human-engineered activities (a power plant, a highway, a factory) that consume resources and produce pollution rather than a natural process providing a free benefit."
     },
     {
       "id": "1-8",
@@ -171,7 +171,7 @@ const QUESTIONS = {
         "Because ecosystem services always cost more than any artificial engineered alternative available."
       ],
       "correct": 0,
-      "explanation": "Ecosystem services matter for policy because losing them often forces society to pay for expensive artificial replacements (built flood infrastructure instead of a wetland, hand-pollination instead of insects) — revealing real economic value that market prices don't normally capture. They aren't limited to tropical regions, they aren't always MORE expensive than alternatives (often the opposite, which is the point), and they are far from merely symbolic — their loss carries real, sometimes enormous, costs."
+      "explanation": "Correct: (A) Because losing a free service can force costly artificial replacement, revealing hidden economic value. Ecosystem services matter for policy because losing them often forces society to pay for expensive artificial replacements (built flood infrastructure instead of a wetland, hand-pollination instead of insects) — revealing real economic value that market prices don't normally capture. They aren't limited to tropical regions, they aren't always MORE expensive than alternatives (often the opposite, which is the point), and they are far from merely symbolic — their loss carries real, sometimes enormous, costs."
     },
     {
       "id": "1-9",
@@ -184,7 +184,7 @@ const QUESTIONS = {
         "A community"
       ],
       "correct": 3,
-      "explanation": "Studying interacting species (fish, coral, algae, invertebrates) without measuring the abiotic environment (water chemistry, temperature) is precisely a study of a community. It is not a single population (that would mean one species only), not a biome (a whole climate region, not one reef), and not a full ecosystem, since the abiotic environment was explicitly excluded from the study."
+      "explanation": "Correct: (D) A community. Studying interacting species (fish, coral, algae, invertebrates) without measuring the abiotic environment (water chemistry, temperature) is precisely a study of a community. It is not a single population (that would mean one species only), not a biome (a whole climate region, not one reef), and not a full ecosystem, since the abiotic environment was explicitly excluded from the study."
     },
     {
       "id": "1-10",
@@ -197,7 +197,7 @@ const QUESTIONS = {
         "Ocean proximity and wind speed alone"
       ],
       "correct": 2,
-      "explanation": "Temperature and precipitation are the two climate variables that primarily determine terrestrial biome type. Soil color and elevation can shape local conditions but aren't the primary drivers recognized in biome classification. Latitude and longitude are geographic coordinates, not climate measurements themselves (though latitude correlates with temperature). Ocean proximity and wind speed can matter locally but are secondary factors, not the primary two."
+      "explanation": "Correct: (C) Temperature and precipitation. Temperature and precipitation are the two climate variables that primarily determine terrestrial biome type. Soil color and elevation can shape local conditions but aren't the primary drivers recognized in biome classification. Latitude and longitude are geographic coordinates, not climate measurements themselves (though latitude correlates with temperature). Ocean proximity and wind speed can matter locally but are secondary factors, not the primary two."
     },
     {
       "id": "1-11",
@@ -210,7 +210,7 @@ const QUESTIONS = {
         "Taiga"
       ],
       "correct": 2,
-      "explanation": "Tropical rainforest has the highest biodiversity of any terrestrial biome despite nutrient-poor soil, because nutrients are held mostly in living biomass rather than the soil. Tundra and taiga are both far less diverse due to cold, harsh climates limiting species richness. Desert biodiversity is also low, limited by scarce water availability."
+      "explanation": "Correct: (C) Tropical rainforest. Tropical rainforest has the highest biodiversity of any terrestrial biome despite nutrient-poor soil, because nutrients are held mostly in living biomass rather than the soil. Tundra and taiga are both far less diverse due to cold, harsh climates limiting species richness. Desert biodiversity is also low, limited by scarce water availability."
     },
     {
       "id": "1-12",
@@ -223,7 +223,7 @@ const QUESTIONS = {
         "Tundra"
       ],
       "correct": 3,
-      "explanation": "Tundra is defined by permafrost and a complete absence of trees, since conditions are too cold even for taiga's coniferous trees. Desert lacks permafrost and is defined instead by low precipitation. Temperate grassland has neither permafrost nor a tree-free requirement in the same defining sense. Taiga does have trees (coniferous evergreens), which distinguishes it from tundra."
+      "explanation": "Correct: (D) Tundra. Tundra is defined by permafrost and a complete absence of trees, since conditions are too cold even for taiga's coniferous trees. Desert lacks permafrost and is defined instead by low precipitation. Temperate grassland has neither permafrost nor a tree-free requirement in the same defining sense. Taiga does have trees (coniferous evergreens), which distinguishes it from tundra."
     },
     {
       "id": "1-13",
@@ -236,7 +236,7 @@ const QUESTIONS = {
         "Because most nutrients are held in living biomass rather than in the soil."
       ],
       "correct": 3,
-      "explanation": "Since rapid decomposition keeps nutrients cycling through living biomass rather than accumulating in tropical soil, removing the trees leaves nutrient-poor soil unable to sustain intensive farming for long. Rainfall is actually abundant in rainforests, not scarce. Tropical soil is warm, not cold — temperature isn't the limiting issue. And the soil is nutrient-POOR, not nutrient-rich, which is the opposite of what choice C claims."
+      "explanation": "Correct: (D) Because most nutrients are held in living biomass rather than in the soil. Since rapid decomposition keeps nutrients cycling through living biomass rather than accumulating in tropical soil, removing the trees leaves nutrient-poor soil unable to sustain intensive farming for long. Rainfall is actually abundant in rainforests, not scarce. Tropical soil is warm, not cold — temperature isn't the limiting issue. And the soil is nutrient-POOR, not nutrient-rich, which is the opposite of what choice C claims."
     },
     {
       "id": "1-14",
@@ -249,7 +249,7 @@ const QUESTIONS = {
         "Tropical rainforest"
       ],
       "correct": 2,
-      "explanation": "Temperate grassland has deep, fertile soil built up by extensive grass root systems, making it historically attractive for conversion to cropland. Tundra's thin, permafrost-limited soil and desert's dry, poor soil are both unsuitable for large-scale farming. Tropical rainforest soil, despite lush vegetation, is actually nutrient-poor once cleared, since nutrients are held in biomass rather than soil."
+      "explanation": "Correct: (C) Temperate grassland. Temperate grassland has deep, fertile soil built up by extensive grass root systems, making it historically attractive for conversion to cropland. Tundra's thin, permafrost-limited soil and desert's dry, poor soil are both unsuitable for large-scale farming. Tropical rainforest soil, despite lush vegetation, is actually nutrient-poor once cleared, since nutrients are held in biomass rather than soil."
     },
     {
       "id": "1-15",
@@ -262,7 +262,7 @@ const QUESTIONS = {
         "Tropical seasonal forest"
       ],
       "correct": 0,
-      "explanation": "Very low precipitation, extreme daily temperature swings, sparse vegetation, and low biodiversity together define a desert. Tropical seasonal forest and temperate forest both receive far more precipitation and support denser vegetation. Taiga is cold but has far less extreme daily temperature swings and denser coniferous forest cover than a desert."
+      "explanation": "Correct: (A) Desert. Very low precipitation, extreme daily temperature swings, sparse vegetation, and low biodiversity together define a desert. Tropical seasonal forest and temperate forest both receive far more precipitation and support denser vegetation. Taiga is cold but has far less extreme daily temperature swings and denser coniferous forest cover than a desert."
     },
     {
       "id": "1-16",
@@ -275,7 +275,7 @@ const QUESTIONS = {
         "No — precipitation is an equally important, independent factor."
       ],
       "correct": 3,
-      "explanation": "Latitude alone doesn't determine biome type — precipitation is an equally important, independent factor, so similar latitudes can host very different biomes (e.g., desert vs. tropical rainforest) depending on rainfall. It's incorrect to say latitude has NO relationship to biome (it correlates strongly with temperature), and it's also wrong to claim latitude alone determines biome type, whether restricted to the equator or applied everywhere — precipitation must always be considered alongside it."
+      "explanation": "Correct: (D) No — precipitation is an equally important, independent factor. Latitude alone doesn't determine biome type — precipitation is an equally important, independent factor, so similar latitudes can host very different biomes (e.g., desert vs. tropical rainforest) depending on rainfall. It's incorrect to say latitude has NO relationship to biome (it correlates strongly with temperature), and it's also wrong to claim latitude alone determines biome type, whether restricted to the equator or applied everywhere — precipitation must always be considered alongside it."
     },
     {
       "id": "1-17",
@@ -288,7 +288,7 @@ const QUESTIONS = {
         "Chaparral"
       ],
       "correct": 1,
-      "explanation": "Taiga (boreal forest) is dominated by coniferous, evergreen trees adapted to a short growing season and cold winters. Temperate deciduous forest sheds its leaves seasonally instead. Tropical rainforest has a year-round growing season with broadleaf evergreen trees. Chaparral is a shrubland biome, not forest, adapted to a Mediterranean climate with wildfire."
+      "explanation": "Correct: (B) Taiga (boreal forest). Taiga (boreal forest) is dominated by coniferous, evergreen trees adapted to a short growing season and cold winters. Temperate deciduous forest sheds its leaves seasonally instead. Tropical rainforest has a year-round growing season with broadleaf evergreen trees. Chaparral is a shrubland biome, not forest, adapted to a Mediterranean climate with wildfire."
     },
     {
       "id": "1-18",
@@ -314,7 +314,7 @@ const QUESTIONS = {
         "The zone closest to shore only."
       ],
       "correct": 1,
-      "explanation": "The photic zone is the upper, sunlit layer of water where enough light penetrates for photosynthesis. It isn't defined by shore proximity (that's closer to the littoral/intertidal concept), isn't the bottom sediment (that's the benthic zone), and is the opposite of the deep, dark aphotic zone."
+      "explanation": "Correct: (B) The upper, sunlit layer of water where photosynthesis can occur. The photic zone is the upper, sunlit layer of water where enough light penetrates for photosynthesis. It isn't defined by shore proximity (that's closer to the littoral/intertidal concept), isn't the bottom sediment (that's the benthic zone), and is the opposite of the deep, dark aphotic zone."
     },
     {
       "id": "1-20",
@@ -327,7 +327,7 @@ const QUESTIONS = {
         "Because they receive no nutrients at all, keeping competition low."
       ],
       "correct": 0,
-      "explanation": "Estuaries combine a constant nutrient supply from rivers with shallow, sunlit water, producing disproportionately high productivity for their area. In reality they're intensely CONNECTED to both river and ocean ecosystems (not isolated), they receive abundant nutrients (not none), and they occur along temperate and tropical coastlines worldwide, not exclusively in polar regions."
+      "explanation": "Correct: (A) They get constant river-borne nutrients into shallow, sunlit water. Estuaries combine a constant nutrient supply from rivers with shallow, sunlit water, producing disproportionately high productivity for their area. In reality they're intensely CONNECTED to both river and ocean ecosystems (not isolated), they receive abundant nutrients (not none), and they occur along temperate and tropical coastlines worldwide, not exclusively in polar regions."
     },
     {
       "id": "1-21",
@@ -353,7 +353,7 @@ const QUESTIONS = {
         "Never"
       ],
       "correct": 2,
-      "explanation": "A typical temperate lake turns over twice yearly — in spring and fall — as surface water passes through 4°C (its density maximum) in each direction, driving full mixing. It doesn't turn over four times (that would require passing through 4°C each season), never (stratified lakes do mix seasonally), or only once in summer (summer is actually when the lake is most stably stratified, not mixing)."
+      "explanation": "Correct: (C) Twice, in spring and fall. A typical temperate lake turns over twice yearly — in spring and fall — as surface water passes through 4°C (its density maximum) in each direction, driving full mixing. It doesn't turn over four times (that would require passing through 4°C each season), never (stratified lakes do mix seasonally), or only once in summer (summer is actually when the lake is most stably stratified, not mixing)."
     },
     {
       "id": "1-23",
@@ -366,7 +366,7 @@ const QUESTIONS = {
         "Benthic zone exclusively"
       ],
       "correct": 1,
-      "explanation": "The littoral zone is the shallow, near-shore region receiving enough light to support rooted aquatic plants. The profundal zone is the deep, often aphotic region below the limnetic zone. The limnetic zone is open water away from shore. 'Benthic zone exclusively' incorrectly limits the concept to bottom sediment, which isn't specific to the shallow, plant-supporting near-shore area described."
+      "explanation": "Correct: (B) Littoral zone. The littoral zone is the shallow, near-shore region receiving enough light to support rooted aquatic plants. The profundal zone is the deep, often aphotic region below the limnetic zone. The limnetic zone is open water away from shore. 'Benthic zone exclusively' incorrectly limits the concept to bottom sediment, which isn't specific to the shallow, plant-supporting near-shore area described."
     },
     {
       "id": "1-24",
@@ -392,7 +392,7 @@ const QUESTIONS = {
         "Because they are located far from the open ocean."
       ],
       "correct": 1,
-      "explanation": "High productivity and sheltered, shallow conditions make estuaries and coastal wetlands especially favorable for young/juvenile marine organisms. They do experience substantial environmental change (tides, salinity swings), they are NOT predator-free (predators do reach them, just with more cover available for juveniles), and many estuaries connect directly to, rather than sit far from, the open ocean."
+      "explanation": "Correct: (B) Their high productivity and sheltered, shallow water suit young organisms well. High productivity and sheltered, shallow conditions make estuaries and coastal wetlands especially favorable for young/juvenile marine organisms. They do experience substantial environmental change (tides, salinity swings), they are NOT predator-free (predators do reach them, just with more cover available for juveniles), and many estuaries connect directly to, rather than sit far from, the open ocean."
     },
     {
       "id": "1-26",
@@ -405,7 +405,7 @@ const QUESTIONS = {
         "The littoral divide"
       ],
       "correct": 1,
-      "explanation": "The thermocline is the layer separating warm surface water from cold deep water during summer stratification, resisting mixing until temperatures shift enough to trigger turnover. 'Littoral divide' and 'photic boundary' aren't standard limnology terms for this layer, and the benthic layer refers to the bottom sediment, not a water-temperature boundary."
+      "explanation": "Correct: (B) The thermocline. The thermocline is the layer separating warm surface water from cold deep water during summer stratification, resisting mixing until temperatures shift enough to trigger turnover. 'Littoral divide' and 'photic boundary' aren't standard limnology terms for this layer, and the benthic layer refers to the bottom sediment, not a water-temperature boundary."
     },
     {
       "id": "1-27",
@@ -418,7 +418,7 @@ const QUESTIONS = {
         "A deeper zone of water with insufficient light for photosynthesis to occur."
       ],
       "correct": 3,
-      "explanation": "The aphotic zone is the deeper water zone with insufficient light for photosynthesis — the opposite of the sunlit photic zone above it. It isn't defined by abundant sunlight (that's the photic zone), it occurs in both freshwater and marine systems (not freshwater exclusively), and it is not the shallow near-shore zone, which is the littoral zone instead."
+      "explanation": "Correct: (D) A deeper zone of water with insufficient light for photosynthesis to occur. The aphotic zone is the deeper water zone with insufficient light for photosynthesis — the opposite of the sunlit photic zone above it. It isn't defined by abundant sunlight (that's the photic zone), it occurs in both freshwater and marine systems (not freshwater exclusively), and it is not the shallow near-shore zone, which is the littoral zone instead."
     },
     {
       "id": "1-28",
@@ -457,7 +457,7 @@ const QUESTIONS = {
         "Infiltration increases; runoff decreases."
       ],
       "correct": 2,
-      "explanation": "Pavement is essentially impermeable, so replacing forest soil with a parking lot sharply cuts infiltration while sharply boosting runoff, since water that would have soaked in now flows across the surface instead. The two variables move in OPPOSITE directions, not the same direction (ruling out 'both decrease' or 'infiltration increases'), and the change is definitely not negligible."
+      "explanation": "Correct: (C) Infiltration decreases sharply; runoff increases sharply. Pavement is essentially impermeable, so replacing forest soil with a parking lot sharply cuts infiltration while sharply boosting runoff, since water that would have soaked in now flows across the surface instead. The two variables move in OPPOSITE directions, not the same direction (ruling out 'both decrease' or 'infiltration increases'), and the change is definitely not negligible."
     },
     {
       "id": "1-31",
@@ -483,7 +483,7 @@ const QUESTIONS = {
         "Because cities are, in general, always built at a lower elevation than surrounding areas."
       ],
       "correct": 1,
-      "explanation": "Impervious surfaces (pavement, buildings) reduce infiltration and increase runoff, sending more water into streams and rivers more quickly and raising flood risk — without requiring any change in total precipitation. Cities aren't inherently lower in elevation, urbanization clearly does affect flooding (contrary to choice A), and urban areas don't necessarily receive more total rainfall than rural ones — the flooding increase comes from surface changes, not rainfall changes."
+      "explanation": "Correct: (B) Because impervious surfaces reduce infiltration and increase runoff into waterways. Impervious surfaces (pavement, buildings) reduce infiltration and increase runoff, sending more water into streams and rivers more quickly and raising flood risk — without requiring any change in total precipitation. Cities aren't inherently lower in elevation, urbanization clearly does affect flooding (contrary to choice A), and urban areas don't necessarily receive more total rainfall than rural ones — the flooding increase comes from surface changes, not rainfall changes."
     },
     {
       "id": "1-33",
@@ -509,7 +509,7 @@ const QUESTIONS = {
         "A government agency responsible for regulating water quality."
       ],
       "correct": 1,
-      "explanation": "A watershed is the land area that drains into a particular river, lake, or other body of water. It is not a type of aquifer (an underground water-bearing formation) or a synonym for the water table (the upper surface of the saturated groundwater zone), and it's a geographic land area, not a government agency."
+      "explanation": "Correct: (B) The land area draining into a particular river, lake, or water body. A watershed is the land area that drains into a particular river, lake, or other body of water. It is not a type of aquifer (an underground water-bearing formation) or a synonym for the water table (the upper surface of the saturated groundwater zone), and it's a geographic land area, not a government agency."
     },
     {
       "id": "1-35",
@@ -535,7 +535,7 @@ const QUESTIONS = {
         "Runoff would decrease while flooding risk would increase at the same time."
       ],
       "correct": 1,
-      "explanation": "Removing forest cover reduces the roots and organic matter that support infiltration, shifting the balance toward more surface runoff and greater flooding risk. Runoff and flooding risk move in the SAME direction (both increase), not opposite directions, ruling out both the 'decrease' option and the 'runoff decreases while flooding increases' option — and deforestation clearly does affect the water cycle."
+      "explanation": "Correct: (B) Runoff and flooding risk would likely rise as infiltration drops. Removing forest cover reduces the roots and organic matter that support infiltration, shifting the balance toward more surface runoff and greater flooding risk. Runoff and flooding risk move in the SAME direction (both increase), not opposite directions, ruling out both the 'decrease' option and the 'runoff decreases while flooding increases' option — and deforestation clearly does affect the water cycle."
     },
     {
       "id": "1-37",
@@ -561,7 +561,7 @@ const QUESTIONS = {
         "It only affects the nitrogen cycle, never the carbon cycle at all."
       ],
       "correct": 1,
-      "explanation": "Burning fossil fuels releases carbon stored underground for millions of years, adding it back into the active atmospheric carbon cycle faster than natural processes like photosynthesis can remove it — the central driver of the enhanced greenhouse effect. It ADDS carbon rather than removing it, it is squarely a carbon-cycle process (not a nitrogen-cycle one), and it clearly does affect atmospheric carbon levels, contrary to choice C."
+      "explanation": "Correct: (B) It re-adds long-buried carbon faster than natural removal can offset. Burning fossil fuels releases carbon stored underground for millions of years, adding it back into the active atmospheric carbon cycle faster than natural processes like photosynthesis can remove it — the central driver of the enhanced greenhouse effect. It ADDS carbon rather than removing it, it is squarely a carbon-cycle process (not a nitrogen-cycle one), and it clearly does affect atmospheric carbon levels, contrary to choice C."
     },
     {
       "id": "1-39",
@@ -574,7 +574,7 @@ const QUESTIONS = {
         "The decomposition of dead organic matter."
       ],
       "correct": 2,
-      "explanation": "Nitrogen fixation converts unusable atmospheric N2 gas into a usable form like ammonia/ammonium, mainly via specialized bacteria. Plants absorbing nitrate is assimilation, not fixation. Converting nitrate back into N2 is denitrification — the reverse process. Decomposition of dead matter is ammonification, a different nitrogen-cycle step entirely."
+      "explanation": "Correct: (C) Converting N2 gas into a usable form like ammonium. Nitrogen fixation converts unusable atmospheric N2 gas into a usable form like ammonia/ammonium, mainly via specialized bacteria. Plants absorbing nitrate is assimilation, not fixation. Converting nitrate back into N2 is denitrification — the reverse process. Decomposition of dead matter is ammonification, a different nitrogen-cycle step entirely."
     },
     {
       "id": "1-40",
@@ -587,7 +587,7 @@ const QUESTIONS = {
         "Denitrifying bacteria exclusively"
       ],
       "correct": 1,
-      "explanation": "Rhizobium bacteria live symbiotically in legume root nodules, fixing nitrogen in exchange for habitat and nutrients from the plant. Denitrifying bacteria instead convert nitrate back to N2 gas — the opposite process. E. coli is a gut bacterium unrelated to nitrogen fixation. Nitrifying bacteria convert ammonium to nitrite/nitrate, a separate step from fixation."
+      "explanation": "Correct: (B) Rhizobium. Rhizobium bacteria live symbiotically in legume root nodules, fixing nitrogen in exchange for habitat and nutrients from the plant. Denitrifying bacteria instead convert nitrate back to N2 gas — the opposite process. E. coli is a gut bacterium unrelated to nitrogen fixation. Nitrifying bacteria convert ammonium to nitrite/nitrate, a separate step from fixation."
     },
     {
       "id": "1-41",
@@ -613,7 +613,7 @@ const QUESTIONS = {
         "The decomposition and breakdown of dead organisms by decomposers."
       ],
       "correct": 1,
-      "explanation": "Nitrification is nitrifying bacteria converting ammonium into nitrite and then nitrate, moving nitrogen further into usable forms. Decomposition of dead organisms is ammonification, a separate step. Lightning fixation is a distinct pathway of nitrogen fixation, unrelated to bacterial nitrification. Converting nitrate back to N2 is denitrification — the opposite direction."
+      "explanation": "Correct: (B) Nitrifying bacteria converting ammonium into nitrite, then nitrate. Nitrification is nitrifying bacteria converting ammonium into nitrite and then nitrate, moving nitrogen further into usable forms. Decomposition of dead organisms is ammonification, a separate step. Lightning fixation is a distinct pathway of nitrogen fixation, unrelated to bacterial nitrification. Converting nitrate back to N2 is denitrification — the opposite direction."
     },
     {
       "id": "1-43",
@@ -626,7 +626,7 @@ const QUESTIONS = {
         "The direct conversion of ammonium ions into atmospheric N2 gas."
       ],
       "correct": 0,
-      "explanation": "Ammonification is decomposers breaking down dead organisms and waste, releasing the nitrogen they contain back into the environment as ammonium. It has nothing to do with photosynthesis. N2 gas is not converted directly into nitrate — nitrogen must first be fixed into ammonia, then nitrified in a separate step. And converting ammonium into N2 gas describes denitrification, not ammonification."
+      "explanation": "Correct: (A) Decomposers breaking down waste, releasing nitrogen as ammonium. Ammonification is decomposers breaking down dead organisms and waste, releasing the nitrogen they contain back into the environment as ammonium. It has nothing to do with photosynthesis. N2 gas is not converted directly into nitrate — nitrogen must first be fixed into ammonia, then nitrified in a separate step. And converting ammonium into N2 gas describes denitrification, not ammonification."
     },
     {
       "id": "1-44",
@@ -639,7 +639,7 @@ const QUESTIONS = {
         "Neither term applies to this process"
       ],
       "correct": 2,
-      "explanation": "Converting ammonium into nitrite then nitrate is nitrification — the process nitrifying bacteria carry out to make nitrogen more biologically available. It is not denitrification, which instead converts nitrate BACK into N2 gas — the opposite direction. Since only one term correctly describes this specific process, 'both terms apply equally' and 'neither term applies' are both incorrect."
+      "explanation": "Correct: (C) Nitrification. Converting ammonium into nitrite then nitrate is nitrification — the process nitrifying bacteria carry out to make nitrogen more biologically available. It is not denitrification, which instead converts nitrate BACK into N2 gas — the opposite direction. Since only one term correctly describes this specific process, 'both terms apply equally' and 'neither term applies' are both incorrect."
     },
     {
       "id": "1-45",
@@ -652,7 +652,7 @@ const QUESTIONS = {
         "Nitrogen fixation is not actually necessary for any organism."
       ],
       "correct": 0,
-      "explanation": "Despite nitrogen gas being abundant (about 78% of the atmosphere), most organisms cannot use N2 directly in that form — fixation converts it into ammonia/ammonium, which plants and other organisms can actually use to build proteins and DNA. N2 is not toxic to organisms, it is definitely not scarce in the atmosphere, and fixation is very much necessary, since the vast majority of organisms depend on it (directly or indirectly) to access nitrogen at all."
+      "explanation": "Correct: (A) Because most organisms can't use N2 gas directly and need it converted first. Despite nitrogen gas being abundant (about 78% of the atmosphere), most organisms cannot use N2 directly in that form — fixation converts it into ammonia/ammonium, which plants and other organisms can actually use to build proteins and DNA. N2 is not toxic to organisms, it is definitely not scarce in the atmosphere, and fixation is very much necessary, since the vast majority of organisms depend on it (directly or indirectly) to access nitrogen at all."
     },
     {
       "id": "1-46",
@@ -665,7 +665,7 @@ const QUESTIONS = {
         "Volcanic ash deposition"
       ],
       "correct": 1,
-      "explanation": "Lightning provides enough energy to fix a modest but meaningful amount of atmospheric nitrogen, alongside the primary pathway of nitrogen-fixing bacteria (and, more recently, industrial Haber-Bosch fertilizer production). Glacial melting, volcanic ash, and ocean currents can move nutrients around but don't chemically fix atmospheric N2 into usable forms."
+      "explanation": "Correct: (B) Lightning. Lightning provides enough energy to fix a modest but meaningful amount of atmospheric nitrogen, alongside the primary pathway of nitrogen-fixing bacteria (and, more recently, industrial Haber-Bosch fertilizer production). Glacial melting, volcanic ash, and ocean currents can move nutrients around but don't chemically fix atmospheric N2 into usable forms."
     },
     {
       "id": "1-47",
@@ -678,7 +678,7 @@ const QUESTIONS = {
         "Phosphorus cycles exclusively through the atmosphere, unlike carbon or nitrogen."
       ],
       "correct": 0,
-      "explanation": "Unlike carbon and nitrogen, phosphorus has no significant gaseous atmospheric phase, cycling instead primarily through rock weathering, soil, and water — a much slower pathway overall. It cycles SLOWER, not faster, than carbon and nitrogen; it cycles through rock and soil, not exclusively the atmosphere (the opposite is closer to true); and phosphorus is absolutely essential to life, forming a key part of DNA, ATP, and cell membranes."
+      "explanation": "Correct: (A) Phosphorus has no atmospheric phase, cycling mainly through rock, soil, and water. Unlike carbon and nitrogen, phosphorus has no significant gaseous atmospheric phase, cycling instead primarily through rock weathering, soil, and water — a much slower pathway overall. It cycles SLOWER, not faster, than carbon and nitrogen; it cycles through rock and soil, not exclusively the atmosphere (the opposite is closer to true); and phosphorus is absolutely essential to life, forming a key part of DNA, ATP, and cell membranes."
     },
     {
       "id": "1-48",
@@ -691,7 +691,7 @@ const QUESTIONS = {
         "Through atmospheric fixation by bacteria."
       ],
       "correct": 2,
-      "explanation": "Phosphorus is released primarily through the slow weathering of phosphate-containing rock — a much slower release mechanism than carbon or nitrogen's atmospheric pathways. It isn't released through fossil fuel combustion (that's a carbon pathway), atmospheric fixation (phosphorus has no gas phase for bacteria to fix), or photosynthesis (which uses phosphorus but doesn't release it from rock)."
+      "explanation": "Correct: (C) Through the slow weathering of phosphate-containing rock. Phosphorus is released primarily through the slow weathering of phosphate-containing rock — a much slower release mechanism than carbon or nitrogen's atmospheric pathways. It isn't released through fossil fuel combustion (that's a carbon pathway), atmospheric fixation (phosphorus has no gas phase for bacteria to fix), or photosynthesis (which uses phosphorus but doesn't release it from rock)."
     },
     {
       "id": "1-49",
@@ -704,7 +704,7 @@ const QUESTIONS = {
         "Because phosphorus is the most abundant nutrient in freshwater ecosystems."
       ],
       "correct": 1,
-      "explanation": "Phosphorus cycles slowly and has no atmospheric reservoir organisms can draw extra supply from (unlike carbon via CO2 or nitrogen via fixation), so it's often in short supply relative to demand, making it the limiting nutrient. It's actually the SCARCEST nutrient in this context, not the most abundant; freshwater ecosystems do contain some phosphorus (just not enough); and phosphorus is not toxic — it's an essential nutrient, just one in short supply."
+      "explanation": "Correct: (B) Because phosphorus cycles slowly with no atmospheric reservoir to draw from. Phosphorus cycles slowly and has no atmospheric reservoir organisms can draw extra supply from (unlike carbon via CO2 or nitrogen via fixation), so it's often in short supply relative to demand, making it the limiting nutrient. It's actually the SCARCEST nutrient in this context, not the most abundant; freshwater ecosystems do contain some phosphorus (just not enough); and phosphorus is not toxic — it's an essential nutrient, just one in short supply."
     },
     {
       "id": "1-50",
@@ -717,7 +717,7 @@ const QUESTIONS = {
         "A nutrient that is found only within terrestrial ecosystems, never aquatic."
       ],
       "correct": 1,
-      "explanation": "A limiting nutrient is the one in shortest supply relative to demand, which caps overall ecosystem productivity regardless of how abundant other nutrients are. It's the SCARCEST nutrient, not the most abundant; limiting nutrients occur in both terrestrial and aquatic ecosystems, not terrestrial ones exclusively; and by definition a limiting nutrient has a major effect on productivity, not none."
+      "explanation": "Correct: (B) The scarcest nutrient relative to demand, capping ecosystem productivity. A limiting nutrient is the one in shortest supply relative to demand, which caps overall ecosystem productivity regardless of how abundant other nutrients are. It's the SCARCEST nutrient, not the most abundant; limiting nutrients occur in both terrestrial and aquatic ecosystems, not terrestrial ones exclusively; and by definition a limiting nutrient has a major effect on productivity, not none."
     },
     {
       "id": "1-51",
@@ -730,7 +730,7 @@ const QUESTIONS = {
         "This outcome suggests the lake had no aquatic life prior to the fertilizer runoff."
       ],
       "correct": 1,
-      "explanation": "A dramatic productivity surge after added phosphorus strongly suggests phosphorus was previously the limiting nutrient — removing that cap allowed algal growth to increase sharply. This clearly shows a strong relationship to algal growth (not none), it shows phosphorus was previously in SHORT supply (not excess, since excess wouldn't produce a bloom from more of the same nutrient), and lakes virtually always have some pre-existing aquatic life before a pollution event, so choice D is implausible."
+      "explanation": "Correct: (B) Phosphorus was likely the limiting nutrient, and added supply removed the growth cap. A dramatic productivity surge after added phosphorus strongly suggests phosphorus was previously the limiting nutrient — removing that cap allowed algal growth to increase sharply. This clearly shows a strong relationship to algal growth (not none), it shows phosphorus was previously in SHORT supply (not excess, since excess wouldn't produce a bloom from more of the same nutrient), and lakes virtually always have some pre-existing aquatic life before a pollution event, so choice D is implausible."
     },
     {
       "id": "1-52",
@@ -743,7 +743,7 @@ const QUESTIONS = {
         "Stratospheric ozone depletion"
       ],
       "correct": 2,
-      "explanation": "Excess phosphorus runoff (often from agricultural fertilizer) is a primary driver of cultural eutrophication and algal blooms, covered in more depth later in the course. Acid rain instead results from sulfur and nitrogen oxide air pollution, ozone depletion from chlorine/bromine-containing compounds reaching the stratosphere, and the urban heat island effect from dark, heat-absorbing urban surfaces — none connected to phosphorus runoff."
+      "explanation": "Correct: (C) Eutrophication and algal blooms. Excess phosphorus runoff (often from agricultural fertilizer) is a primary driver of cultural eutrophication and algal blooms, covered in more depth later in the course. Acid rain instead results from sulfur and nitrogen oxide air pollution, ozone depletion from chlorine/bromine-containing compounds reaching the stratosphere, and the urban heat island effect from dark, heat-absorbing urban surfaces — none connected to phosphorus runoff."
     },
     {
       "id": "1-53",
@@ -756,7 +756,7 @@ const QUESTIONS = {
         "Speed cannot be compared between different biogeochemical cycles."
       ],
       "correct": 1,
-      "explanation": "The phosphorus cycle is slower than the carbon and nitrogen cycles because it lacks the fast atmospheric gas-phase pathway that lets carbon (as CO2) and nitrogen (via fixation) move relatively quickly between reservoirs. It is not faster — phosphorus actually has no meaningful atmospheric pathway at all — it is not the same speed as the other cycles, and cycle speeds absolutely can be meaningfully compared, as this very comparison demonstrates."
+      "explanation": "Correct: (B) Slower, since it lacks a fast atmospheric pathway. The phosphorus cycle is slower than the carbon and nitrogen cycles because it lacks the fast atmospheric gas-phase pathway that lets carbon (as CO2) and nitrogen (via fixation) move relatively quickly between reservoirs. It is not faster — phosphorus actually has no meaningful atmospheric pathway at all — it is not the same speed as the other cycles, and cycle speeds absolutely can be meaningfully compared, as this very comparison demonstrates."
     },
     {
       "id": "1-54",
@@ -769,7 +769,7 @@ const QUESTIONS = {
         "It permanently leaves the biosphere and cannot be recovered."
       ],
       "correct": 0,
-      "explanation": "Decomposition releases phosphorus back into the soil (or sediment), where it can be taken up again by other organisms, continuing the cycle. It does not disappear or permanently leave the biosphere — matter doesn't vanish in a biogeochemical cycle — and it does not become a gas, since phosphorus has no significant atmospheric phase, unlike carbon or nitrogen."
+      "explanation": "Correct: (A) Released back to soil for other organisms to take up again. Decomposition releases phosphorus back into the soil (or sediment), where it can be taken up again by other organisms, continuing the cycle. It does not disappear or permanently leave the biosphere — matter doesn't vanish in a biogeochemical cycle — and it does not become a gas, since phosphorus has no significant atmospheric phase, unlike carbon or nitrogen."
     },
     {
       "id": "1-55",
@@ -782,7 +782,7 @@ const QUESTIONS = {
         "Because phosphorus affects only terrestrial ecosystems, never aquatic ones at all."
       ],
       "correct": 1,
-      "explanation": "Because phosphorus so often acts as the limiting nutrient in freshwater systems, even a modest increase in supply can trigger a disproportionately large productivity response — exactly the dynamic that makes phosphorus pollution a significant environmental concern. It's not harmless at elevated concentrations (excess phosphorus drives harmful blooms), it primarily affects AQUATIC ecosystems (the reverse of what's claimed), and it connects directly to eutrophication and other water-quality problems covered elsewhere in the course."
+      "explanation": "Correct: (B) Because as a frequent limiting nutrient, small increases can trigger large productivity jumps. Because phosphorus so often acts as the limiting nutrient in freshwater systems, even a modest increase in supply can trigger a disproportionately large productivity response — exactly the dynamic that makes phosphorus pollution a significant environmental concern. It's not harmless at elevated concentrations (excess phosphorus drives harmful blooms), it primarily affects AQUATIC ecosystems (the reverse of what's claimed), and it connects directly to eutrophication and other water-quality problems covered elsewhere in the course."
     },
     {
       "id": "1-56",
@@ -808,7 +808,7 @@ const QUESTIONS = {
         "NPP = GPP ÷ R"
       ],
       "correct": 1,
-      "explanation": "NPP = GPP − R: net primary productivity equals the total energy producers capture (GPP) minus what they use for their own respiration (R). Adding R instead of subtracting would overstate NPP; multiplying or dividing GPP by R doesn't correspond to any meaningful biological relationship between these quantities."
+      "explanation": "Correct: (B) NPP = GPP − R. NPP = GPP − R: net primary productivity equals the total energy producers capture (GPP) minus what they use for their own respiration (R). Adding R instead of subtracting would overstate NPP; multiplying or dividing GPP by R doesn't correspond to any meaningful biological relationship between these quantities."
     },
     {
       "id": "1-58",
@@ -834,7 +834,7 @@ const QUESTIONS = {
         "90%"
       ],
       "correct": 1,
-      "explanation": "The 10% rule states that, on average, about 10% of energy at one trophic level transfers to the next. 1% understates typical transfer efficiency by an order of magnitude, while 90% and 50% both dramatically overstate it — most energy at each level is lost as heat through respiration, not passed on."
+      "explanation": "Correct: (B) 10%. The 10% rule states that, on average, about 10% of energy at one trophic level transfers to the next. 1% understates typical transfer efficiency by an order of magnitude, while 90% and 50% both dramatically overstate it — most energy at each level is lost as heat through respiration, not passed on."
     },
     {
       "id": "1-60",
@@ -860,7 +860,7 @@ const QUESTIONS = {
         "50 kcal/m²/year"
       ],
       "correct": 3,
-      "explanation": "Applying the 10% rule twice — 5,000 × 0.10 = 500 (primary consumers), then 500 × 0.10 = 50 kcal/m²/year (secondary consumers). Choosing 5 kcal/m²/year mistakenly applies the rule a third time; 5,000 kcal/m²/year ignores any energy loss; 500 kcal/m²/year stops after only one transfer instead of the required two."
+      "explanation": "Correct: (D) 50 kcal/m²/year. Applying the 10% rule twice — 5,000 × 0.10 = 500 (primary consumers), then 500 × 0.10 = 50 kcal/m²/year (secondary consumers). Choosing 5 kcal/m²/year mistakenly applies the rule a third time; 5,000 kcal/m²/year ignores any energy loss; 500 kcal/m²/year stops after only one transfer instead of the required two."
     },
     {
       "id": "1-62",
@@ -873,7 +873,7 @@ const QUESTIONS = {
         "Because ecosystems are formally and legally required to limit their food chain length."
       ],
       "correct": 2,
-      "explanation": "Because only about 10% of energy transfers at each step, the energy remaining after four or five transfers becomes too small to support a viable population at a sixth trophic level — a direct ecological consequence of the 10% rule, not a coincidence. There is no 'ecosystem law' governing chain length, and decomposers act at every trophic level (breaking down dead matter throughout the food web), not only at the fifth."
+      "explanation": "Correct: (C) Because the 10% rule's energy loss leaves too little remaining beyond four or five levels. Because only about 10% of energy transfers at each step, the energy remaining after four or five transfers becomes too small to support a viable population at a sixth trophic level — a direct ecological consequence of the 10% rule, not a coincidence. There is no 'ecosystem law' governing chain length, and decomposers act at every trophic level (breaking down dead matter throughout the food web), not only at the fifth."
     },
     {
       "id": "1-63",
@@ -886,7 +886,7 @@ const QUESTIONS = {
         "NPP is always larger than GPP."
       ],
       "correct": 2,
-      "explanation": "GPP is the TOTAL energy producers capture via photosynthesis; NPP is what remains after subtracting producers' own respiration (NPP = GPP − R). Both terms apply to any ecosystem, aquatic or terrestrial, not one exclusively; NPP is always SMALLER than GPP, not larger, since respiration always consumes some energy; and the two terms are meaningfully different quantities, not interchangeable synonyms."
+      "explanation": "Correct: (C) GPP is total producer energy capture; NPP is what remains after their own respiration. GPP is the TOTAL energy producers capture via photosynthesis; NPP is what remains after subtracting producers' own respiration (NPP = GPP − R). Both terms apply to any ecosystem, aquatic or terrestrial, not one exclusively; NPP is always SMALLER than GPP, not larger, since respiration always consumes some energy; and the two terms are meaningfully different quantities, not interchangeable synonyms."
     },
     {
       "id": "1-64",
@@ -899,7 +899,7 @@ const QUESTIONS = {
         "The 10% rule's energy loss leaves too little to support many top predators."
       ],
       "correct": 3,
-      "explanation": "Since only about 10% of energy transfers at each trophic level, total available energy shrinks dramatically by the time it reaches top predators, supporting only a comparatively small population — this is why apex predators are consistently rarer than producers. Top predators, like all organisms, do require energy; there IS a consistent relationship between trophic level and typical population size (it generally decreases going up); and while reproductive rate can also play a role, the primary, energy-based explanation is the 10% rule's cumulative effect."
+      "explanation": "Correct: (D) The 10% rule's energy loss leaves too little to support many top predators. Since only about 10% of energy transfers at each trophic level, total available energy shrinks dramatically by the time it reaches top predators, supporting only a comparatively small population — this is why apex predators are consistently rarer than producers. Top predators, like all organisms, do require energy; there IS a consistent relationship between trophic level and typical population size (it generally decreases going up); and while reproductive rate can also play a role, the primary, energy-based explanation is the 10% rule's cumulative effect."
     },
     {
       "id": "1-65",
@@ -912,7 +912,7 @@ const QUESTIONS = {
         "800,000 kcal/m²/year"
       ],
       "correct": 2,
-      "explanation": "Working backward through three 10% transfers: secondary consumers need 80 ÷ 0.10 = 800 kcal/m²/year; primary consumers need 800 ÷ 0.10 = 8,000 kcal/m²/year; and producers (NPP) need 8,000 ÷ 0.10 = 80,000 kcal/m²/year. Choosing 800,000 mistakenly divides by 0.10 four times instead of three; choosing 800 or 8,000 stops the backward calculation one or two steps too early."
+      "explanation": "Correct: (C) 80,000 kcal/m²/year. Working backward through three 10% transfers: secondary consumers need 80 ÷ 0.10 = 800 kcal/m²/year; primary consumers need 800 ÷ 0.10 = 8,000 kcal/m²/year; and producers (NPP) need 8,000 ÷ 0.10 = 80,000 kcal/m²/year. Choosing 800,000 mistakenly divides by 0.10 four times instead of three; choosing 800 or 8,000 stops the backward calculation one or two steps too early."
     },
     {
       "id": "1-66",
@@ -925,7 +925,7 @@ const QUESTIONS = {
         "The biomass pyramid"
       ],
       "correct": 0,
-      "explanation": "The energy pyramid can never be inverted, since it's a direct, unavoidable consequence of the 10% rule — a rate-of-flow measurement guaranteeing less energy at each higher level. The numbers and biomass pyramids, by contrast, measure counts and standing mass rather than flow rate, and both CAN occasionally invert under specific conditions (like a single tree supporting many insects, or fast-turnover phytoplankton). So it's incorrect to say all three pyramids invert equally often."
+      "explanation": "Correct: (A) The energy pyramid. The energy pyramid can never be inverted, since it's a direct, unavoidable consequence of the 10% rule — a rate-of-flow measurement guaranteeing less energy at each higher level. The numbers and biomass pyramids, by contrast, measure counts and standing mass rather than flow rate, and both CAN occasionally invert under specific conditions (like a single tree supporting many insects, or fast-turnover phytoplankton). So it's incorrect to say all three pyramids invert equally often."
     },
     {
       "id": "1-67",
@@ -938,7 +938,7 @@ const QUESTIONS = {
         "The rate of energy flow moving through each trophic level over time."
       ],
       "correct": 2,
-      "explanation": "A biomass pyramid measures the total standing mass of organisms at each trophic level at a single point in time. It doesn't measure species count (that's species richness/diversity, a different concept), it doesn't measure energy flow rate (that's the energy pyramid), and it measures total MASS, not simply a count of individual organisms (that's the numbers pyramid)."
+      "explanation": "Correct: (C) The total mass of organisms at each level, at a single moment. A biomass pyramid measures the total standing mass of organisms at each trophic level at a single point in time. It doesn't measure species count (that's species richness/diversity, a different concept), it doesn't measure energy flow rate (that's the energy pyramid), and it measures total MASS, not simply a count of individual organisms (that's the numbers pyramid)."
     },
     {
       "id": "1-68",
@@ -951,7 +951,7 @@ const QUESTIONS = {
         "Yes, because biomass and energy are considered always exactly identical measurements."
       ],
       "correct": 1,
-      "explanation": "This does not violate the 10% rule — the underlying energy pyramid remains upright, since phytoplankton produce far more total energy over time; the inverted biomass pyramid simply reflects phytoplankton's rapid turnover (fast consumption and replacement), leaving a smaller standing-biomass snapshot despite high cumulative productivity. Biomass and energy are related but NOT identical measurements (one is a snapshot mass, the other a flow rate); the 10% rule applies to aquatic ecosystems just as it does to terrestrial ones; and since the energy pyramid stays upright, there's no actual violation of the rule."
+      "explanation": "Correct: (B) No — the energy pyramid stays upright; inversion reflects fast phytoplankton turnover. This does not violate the 10% rule — the underlying energy pyramid remains upright, since phytoplankton produce far more total energy over time; the inverted biomass pyramid simply reflects phytoplankton's rapid turnover (fast consumption and replacement), leaving a smaller standing-biomass snapshot despite high cumulative productivity. Biomass and energy are related but NOT identical measurements (one is a snapshot mass, the other a flow rate); the 10% rule applies to aquatic ecosystems just as it does to terrestrial ones; and since the energy pyramid stays upright, there's no actual violation of the rule."
     },
     {
       "id": "1-69",
@@ -964,7 +964,7 @@ const QUESTIONS = {
         "Neither pyramid type could show inversion in this scenario"
       ],
       "correct": 0,
-      "explanation": "A single tree supporting thousands of insects is a classic inverted numbers pyramid — one producer outnumbered by many individual consumers, even though the tree's total biomass and energy production still far exceed the insects' combined total. This scenario doesn't involve an inverted energy pyramid (which can never invert), and it clearly does relate to ecological pyramids, contrary to the two dismissive distractors."
+      "explanation": "Correct: (A) The numbers pyramid. A single tree supporting thousands of insects is a classic inverted numbers pyramid — one producer outnumbered by many individual consumers, even though the tree's total biomass and energy production still far exceed the insects' combined total. This scenario doesn't involve an inverted energy pyramid (which can never invert), and it clearly does relate to ecological pyramids, contrary to the two dismissive distractors."
     },
     {
       "id": "1-70",
@@ -977,7 +977,7 @@ const QUESTIONS = {
         "Turnover rate only ever affects numbers pyramids, never affects biomass pyramids."
       ],
       "correct": 2,
-      "explanation": "A high turnover rate means organisms like phytoplankton are consumed and reproduce quickly, keeping the standing biomass present at any snapshot relatively low, even though cumulative biomass and energy production over time remains large — explaining the apparent inversion. Fast turnover actually keeps standing biomass LOW, not proportionally higher, it clearly does relate to standing biomass (that's the whole mechanism), and it affects biomass pyramids directly, not just numbers pyramids."
+      "explanation": "Correct: (C) Fast turnover keeps standing biomass low despite high total output over time. A high turnover rate means organisms like phytoplankton are consumed and reproduce quickly, keeping the standing biomass present at any snapshot relatively low, even though cumulative biomass and energy production over time remains large — explaining the apparent inversion. Fast turnover actually keeps standing biomass LOW, not proportionally higher, it clearly does relate to standing biomass (that's the whole mechanism), and it affects biomass pyramids directly, not just numbers pyramids."
     },
     {
       "id": "1-71",
@@ -990,7 +990,7 @@ const QUESTIONS = {
         "The numbers pyramid"
       ],
       "correct": 1,
-      "explanation": "The energy pyramid is the direct, unavoidable consequence of the 10% rule, since energy transfer efficiency of roughly 10% guarantees the pyramid always narrows going up, with no exceptions. The numbers pyramid can sometimes invert (e.g., one tree, many insects), so it isn't an unavoidable consequence in the same strict sense, and ecological pyramids in general clearly do relate to the 10% rule, ruling out the 'none' option."
+      "explanation": "Correct: (B) The energy pyramid. The energy pyramid is the direct, unavoidable consequence of the 10% rule, since energy transfer efficiency of roughly 10% guarantees the pyramid always narrows going up, with no exceptions. The numbers pyramid can sometimes invert (e.g., one tree, many insects), so it isn't an unavoidable consequence in the same strict sense, and ecological pyramids in general clearly do relate to the 10% rule, ruling out the 'none' option."
     },
     {
       "id": "1-72",
@@ -1003,7 +1003,7 @@ const QUESTIONS = {
         "Terrestrial ecosystems bear no meaningful relationship to biomass pyramids at all."
       ],
       "correct": 1,
-      "explanation": "Most terrestrial ecosystems show upright biomass pyramids, since terrestrial plants generally lack the extremely rapid turnover that can invert a biomass pyramid in some aquatic systems with producers like phytoplankton. Terrestrial biomass pyramids are NOT always inverted — upright is the typical pattern — this scenario clearly does occur in real ecosystems (it's the common case, in fact), and terrestrial ecosystems obviously do relate to biomass pyramids."
+      "explanation": "Correct: (B) Yes — most terrestrial ecosystems show upright biomass pyramids. Most terrestrial ecosystems show upright biomass pyramids, since terrestrial plants generally lack the extremely rapid turnover that can invert a biomass pyramid in some aquatic systems with producers like phytoplankton. Terrestrial biomass pyramids are NOT always inverted — upright is the typical pattern — this scenario clearly does occur in real ecosystems (it's the common case, in fact), and terrestrial ecosystems obviously do relate to biomass pyramids."
     },
     {
       "id": "1-73",
@@ -1016,7 +1016,7 @@ const QUESTIONS = {
         "Numbers, biomass, and energy pyramids must always display exactly identical patterns in every ecosystem."
       ],
       "correct": 0,
-      "explanation": "All three observations can coexist without contradiction because they measure genuinely different properties: the numbers pyramid depends on organism count and size, the biomass pyramid depends on standing mass, and the energy pyramid depends purely on flow rate, governed by the unbreakable 10% rule. A producer population that is small in count and standing mass (like phytoplankton) can still generate a large energy flow through fast turnover and high per-individual productivity — supporting an upright energy pyramid beneath inverted numbers and biomass snapshots. The energy pyramid is NOT forced to invert by this scenario, the combination is not a measurement error (it's a well-documented real-world pattern), and the three pyramid types clearly do NOT always show identical patterns, since this very question describes a case where they diverge."
+      "explanation": "Correct: (A) No contradiction — numbers/biomass are static snapshots, independent of the energy pyramid's flow rate. All three observations can coexist without contradiction because they measure genuinely different properties: the numbers pyramid depends on organism count and size, the biomass pyramid depends on standing mass, and the energy pyramid depends purely on flow rate, governed by the unbreakable 10% rule. A producer population that is small in count and standing mass (like phytoplankton) can still generate a large energy flow through fast turnover and high per-individual productivity — supporting an upright energy pyramid beneath inverted numbers and biomass snapshots. The energy pyramid is NOT forced to invert by this scenario, the combination is not a measurement error (it's a well-documented real-world pattern), and the three pyramid types clearly do NOT always show identical patterns, since this very question describes a case where they diverge."
     },
     {
       "id": "1-74",
@@ -1029,7 +1029,7 @@ const QUESTIONS = {
         "The coral expels its symbiotic zooxanthellae under heat stress — coral bleaching."
       ],
       "correct": 3,
-      "explanation": "Coral reefs depend on a mutualistic relationship with photosynthetic zooxanthellae living in coral tissue. Heat stress causes corals to expel these algae — coral bleaching — removing both the reef's color and most of its productivity, since the zooxanthellae are the reef's primary energy source. Excess dissolved oxygen doesn't dissolve coral skeletons; this is not seasonal reproduction (bleaching is a stress response, not a reproductive cycle); and nitrogen absorption causing coral tissue to 'bloom' isn't a real phenomenon — the paling and productivity loss come specifically from losing the symbiotic algae."
+      "explanation": "Correct: (D) The coral expels its symbiotic zooxanthellae under heat stress — coral bleaching. Coral reefs depend on a mutualistic relationship with photosynthetic zooxanthellae living in coral tissue. Heat stress causes corals to expel these algae — coral bleaching — removing both the reef's color and most of its productivity, since the zooxanthellae are the reef's primary energy source. Excess dissolved oxygen doesn't dissolve coral skeletons; this is not seasonal reproduction (bleaching is a stress response, not a reproductive cycle); and nitrogen absorption causing coral tissue to 'bloom' isn't a real phenomenon — the paling and productivity loss come specifically from losing the symbiotic algae."
     },
     {
       "id": "1-75",
@@ -1042,7 +1042,7 @@ const QUESTIONS = {
         "The CO2 is converted directly into nitrate, fueling excessive algal growth instead."
       ],
       "correct": 2,
-      "explanation": "Dissolved CO2 reacts with seawater to form carbonic acid, lowering ocean pH — ocean acidification — which makes it harder for calcifying organisms like corals and mollusks to build and maintain calcium carbonate shells and skeletons. The CO2 does not simply evaporate back out with no effect (it reacts chemically and persists); it LOWERS pH, not raises it, and that change is far from meaningless for marine life; and CO2 is not converted into nitrate — that would require a completely different chemical pathway unrelated to carbon dioxide dissolution."
+      "explanation": "Correct: (C) The CO2 forms carbonic acid, lowering ocean pH and harming shell-building organisms. Dissolved CO2 reacts with seawater to form carbonic acid, lowering ocean pH — ocean acidification — which makes it harder for calcifying organisms like corals and mollusks to build and maintain calcium carbonate shells and skeletons. The CO2 does not simply evaporate back out with no effect (it reacts chemically and persists); it LOWERS pH, not raises it, and that change is far from meaningless for marine life; and CO2 is not converted into nitrate — that would require a completely different chemical pathway unrelated to carbon dioxide dissolution."
     },
     {
       "id": "1-76",
@@ -1055,7 +1055,7 @@ const QUESTIONS = {
         "Cultural service"
       ],
       "correct": 0,
-      "explanation": "Ecosystem services fall into four categories: provisioning (direct products like food or timber), regulating (processes controlling conditions, like flood control), supporting (underlying processes enabling other services, like nutrient cycling and soil formation), and cultural (nonmaterial benefits like recreation). Nutrient cycling and soil formation are classic supporting services, not direct products (provisioning), condition-control processes (regulating), or nonmaterial experiences (cultural)."
+      "explanation": "Correct: (A) Supporting service. Ecosystem services fall into four categories: provisioning (direct products like food or timber), regulating (processes controlling conditions, like flood control), supporting (underlying processes enabling other services, like nutrient cycling and soil formation), and cultural (nonmaterial benefits like recreation). Nutrient cycling and soil formation are classic supporting services, not direct products (provisioning), condition-control processes (regulating), or nonmaterial experiences (cultural)."
     },
     {
       "id": "1-77",
@@ -1068,7 +1068,7 @@ const QUESTIONS = {
         "Population"
       ],
       "correct": 0,
-      "explanation": "The biosphere is the broadest term, encompassing every region of Earth where life exists — the sum of all ecosystems combined. A community is far narrower (interacting species in one area, no abiotic environment). A biome is a single climate-defined region, not the whole planet. A population is narrower still, referring to just one species."
+      "explanation": "Correct: (A) Biosphere. The biosphere is the broadest term, encompassing every region of Earth where life exists — the sum of all ecosystems combined. A community is far narrower (interacting species in one area, no abiotic environment). A biome is a single climate-defined region, not the whole planet. A population is narrower still, referring to just one species."
     },
     {
       "id": "1-78",
@@ -1081,7 +1081,7 @@ const QUESTIONS = {
         "Lightning converting atmospheric N2 gas into usable nitrogen compounds."
       ],
       "correct": 1,
-      "explanation": "Assimilation is plants absorbing nitrate or ammonium from soil and incorporating that nitrogen into organic molecules like proteins and DNA, making it available to the food web when the plant is eaten or decomposes. Converting nitrate back to N2 is denitrification. Lightning fixing atmospheric N2 is a form of nitrogen fixation. Decomposers releasing nitrogen as ammonium is ammonification — each a distinct step from assimilation."
+      "explanation": "Correct: (B) Plants absorbing soil nitrate/ammonium and building it into organic molecules. Assimilation is plants absorbing nitrate or ammonium from soil and incorporating that nitrogen into organic molecules like proteins and DNA, making it available to the food web when the plant is eaten or decomposes. Converting nitrate back to N2 is denitrification. Lightning fixing atmospheric N2 is a form of nitrogen fixation. Decomposers releasing nitrogen as ammonium is ammonification — each a distinct step from assimilation."
     },
     {
       "id": "1-79",
@@ -1094,7 +1094,7 @@ const QUESTIONS = {
         "Neritic zone"
       ],
       "correct": 0,
-      "explanation": "The intertidal zone is the shoreline region alternately exposed to air and submerged by daily tides, forcing organisms there to tolerate highly variable temperature, salinity, and moisture. The oceanic zone is deep open water far from shore, unaffected by tidal exposure in this way. The neritic zone is shallow water over the continental shelf, but permanently submerged, not alternately exposed. The benthic zone refers to bottom sediment generally, not specifically the tidally exposed shoreline."
+      "explanation": "Correct: (A) Intertidal zone. The intertidal zone is the shoreline region alternately exposed to air and submerged by daily tides, forcing organisms there to tolerate highly variable temperature, salinity, and moisture. The oceanic zone is deep open water far from shore, unaffected by tidal exposure in this way. The neritic zone is shallow water over the continental shelf, but permanently submerged, not alternately exposed. The benthic zone refers to bottom sediment generally, not specifically the tidally exposed shoreline."
     },
     {
       "id": "1-80",
@@ -1107,7 +1107,7 @@ const QUESTIONS = {
         "Littoral zone, then benthic zone"
       ],
       "correct": 1,
-      "explanation": "The neritic zone is shallow, photic water over the continental shelf, supporting most commercial fisheries; the oceanic zone is deep, open water beyond the shelf. The littoral/benthic pairing describes near-shore and bottom-sediment zones, not the shelf/open-ocean distinction described. Intertidal and photic describe tidal exposure and light penetration, not shelf position. Reversing the order (oceanic then neritic) would swap which zone is shallow/shelf versus deep/open, contradicting the stem's description."
+      "explanation": "Correct: (B) Neritic zone, then oceanic zone. The neritic zone is shallow, photic water over the continental shelf, supporting most commercial fisheries; the oceanic zone is deep, open water beyond the shelf. The littoral/benthic pairing describes near-shore and bottom-sediment zones, not the shelf/open-ocean distinction described. Intertidal and photic describe tidal exposure and light penetration, not shelf position. Reversing the order (oceanic then neritic) would swap which zone is shallow/shelf versus deep/open, contradicting the stem's description."
     }
   ],
   "2": [
@@ -1122,7 +1122,7 @@ const QUESTIONS = {
         "Species diversity"
       ],
       "correct": 0,
-      "explanation": "Genetic diversity refers to variation in genes among individuals within a single species' population. Species diversity instead measures the variety and relative abundance of species in a community, not genes within one species. Ecosystem diversity describes the variety of ecosystem or habitat types across a region, a different level entirely. \"Habitat diversity\" is sometimes used loosely but is not a distinct standard biodiversity level — it's easily confused with ecosystem diversity, the broadest of the three recognized levels."
+      "explanation": "Correct: (A) Genetic diversity. Genetic diversity refers to variation in genes among individuals within a single species' population. Species diversity instead measures the variety and relative abundance of species in a community, not genes within one species. Ecosystem diversity describes the variety of ecosystem or habitat types across a region, a different level entirely. \"Habitat diversity\" is sometimes used loosely but is not a distinct standard biodiversity level — it's easily confused with ecosystem diversity, the broadest of the three recognized levels."
     },
     {
       "id": "2-2",
@@ -1135,7 +1135,7 @@ const QUESTIONS = {
         "Ecosystem diversity"
       ],
       "correct": 3,
-      "explanation": "Ecosystem diversity is the variety of distinct ecosystems or habitat types within a region — the broadest of the three biodiversity levels. Species diversity instead measures variety and relative abundance of species, a narrower level. Genetic diversity is variation in genes within a single species, narrower still. \"Population diversity\" is not a standard biodiversity level and is a plausible-sounding distractor rather than a recognized term."
+      "explanation": "Correct: (D) Ecosystem diversity. Ecosystem diversity is the variety of distinct ecosystems or habitat types within a region — the broadest of the three biodiversity levels. Species diversity instead measures variety and relative abundance of species, a narrower level. Genetic diversity is variation in genes within a single species, narrower still. \"Population diversity\" is not a standard biodiversity level and is a plausible-sounding distractor rather than a recognized term."
     },
     {
       "id": "2-3",
@@ -1148,7 +1148,7 @@ const QUESTIONS = {
         "The genetic variation present within a single species."
       ],
       "correct": 1,
-      "explanation": "Species richness is simply a count of the different species present. Biomass measures total organic mass, not species count. Genetic variation within one species describes genetic diversity, a different level of biodiversity. The relative abundance distribution describes species evenness, a related but distinct measure that richness alone does not capture."
+      "explanation": "Correct: (B) The number of different species present in a community. Species richness is simply a count of the different species present. Biomass measures total organic mass, not species count. Genetic variation within one species describes genetic diversity, a different level of biodiversity. The relative abundance distribution describes species evenness, a related but distinct measure that richness alone does not capture."
     },
     {
       "id": "2-4",
@@ -1213,7 +1213,7 @@ const QUESTIONS = {
         "Ecosystem diversity"
       ],
       "correct": 3,
-      "explanation": "A variety of distinct habitat/ecosystem types within one region is a direct example of ecosystem diversity, the broadest of the three recognized biodiversity levels. Species diversity concerns variety among species, not habitat types; genetic diversity concerns variation within a single species; \"biome diversity\" is not one of the three standard AP-recognized levels, though it sounds plausible."
+      "explanation": "Correct: (D) Ecosystem diversity. A variety of distinct habitat/ecosystem types within one region is a direct example of ecosystem diversity, the broadest of the three recognized biodiversity levels. Species diversity concerns variety among species, not habitat types; genetic diversity concerns variation within a single species; \"biome diversity\" is not one of the three standard AP-recognized levels, though it sounds plausible."
     },
     {
       "id": "2-9",
@@ -1317,7 +1317,7 @@ const QUESTIONS = {
         "Indicator species"
       ],
       "correct": 2,
-      "explanation": "A disproportionately large ecosystem-wide effect relative to a species' own abundance is the defining trait of a keystone species. A pioneer species instead is an early colonizer of bare or disturbed ground; an indicator species signals ecosystem health through its own condition; an endemic species is simply restricted to one location — none of these describe the cascading, outsized ecological impact described here."
+      "explanation": "Correct: (C) Keystone species. A disproportionately large ecosystem-wide effect relative to a species' own abundance is the defining trait of a keystone species. A pioneer species instead is an early colonizer of bare or disturbed ground; an indicator species signals ecosystem health through its own condition; an endemic species is simply restricted to one location — none of these describe the cascading, outsized ecological impact described here."
     },
     {
       "id": "2-17",
@@ -1330,7 +1330,7 @@ const QUESTIONS = {
         "Endemic species"
       ],
       "correct": 0,
-      "explanation": "Using a species' presence, absence, or health as a signal of broader ecosystem health (here, water quality) defines an indicator species. An endemic species is simply restricted to one location; an invasive species is a non-native species causing harm; a keystone species has an outsized ecological effect relative to its abundance — none of these describe using a species as a biological monitoring tool."
+      "explanation": "Correct: (A) Indicator species. Using a species' presence, absence, or health as a signal of broader ecosystem health (here, water quality) defines an indicator species. An endemic species is simply restricted to one location; an invasive species is a non-native species causing harm; a keystone species has an outsized ecological effect relative to its abundance — none of these describe using a species as a biological monitoring tool."
     },
     {
       "id": "2-18",
@@ -1395,7 +1395,7 @@ const QUESTIONS = {
         "An increase in the total human population living in a nearby city."
       ],
       "correct": 1,
-      "explanation": "Declining pollinator diversity directly threatens the ecosystem service of pollination, with concrete downstream consequences (reduced crop yields) — a clear, direct link between biodiversity loss and a lost ecosystem service. The other three options (emissions law, population growth, currency exchange) are social, political, or economic events with no direct ecological or biodiversity link."
+      "explanation": "Correct: (B) A decline in pollinator diversity that reduces crop pollination and lowers yields. Declining pollinator diversity directly threatens the ecosystem service of pollination, with concrete downstream consequences (reduced crop yields) — a clear, direct link between biodiversity loss and a lost ecosystem service. The other three options (emissions law, population growth, currency exchange) are social, political, or economic events with no direct ecological or biodiversity link."
     },
     {
       "id": "2-23",
@@ -1408,7 +1408,7 @@ const QUESTIONS = {
         "Birth rate and death rate"
       ],
       "correct": 2,
-      "explanation": "Island biogeography theory predicts equilibrium species richness as the balance between immigration (new species arriving) and local extinction (species already present dying out) rates. Predation and competition rates, birth and death rates, and precipitation/evaporation rates are all real ecological factors, but none are the two specific rates this theory identifies as governing equilibrium richness."
+      "explanation": "Correct: (C) Immigration rate and (local) extinction rate. Island biogeography theory predicts equilibrium species richness as the balance between immigration (new species arriving) and local extinction (species already present dying out) rates. Predation and competition rates, birth and death rates, and precipitation/evaporation rates are all real ecological factors, but none are the two specific rates this theory identifies as governing equilibrium richness."
     },
     {
       "id": "2-24",
@@ -1447,7 +1447,7 @@ const QUESTIONS = {
         "Large and close to the mainland"
       ],
       "correct": 3,
-      "explanation": "A large island (more habitat, lower extinction rates) close to the mainland (higher immigration rates) combines both factors favoring high richness, predicting the highest equilibrium richness of the four combinations. Small and/or remote islands each lose one or both advantages: remoteness lowers immigration, and small size raises extinction rates, so any combination involving either trait predicts lower richness than large-and-close."
+      "explanation": "Correct: (D) Large and close to the mainland. A large island (more habitat, lower extinction rates) close to the mainland (higher immigration rates) combines both factors favoring high richness, predicting the highest equilibrium richness of the four combinations. Small and/or remote islands each lose one or both advantages: remoteness lowers immigration, and small size raises extinction rates, so any combination involving either trait predicts lower richness than large-and-close."
     },
     {
       "id": "2-27",
@@ -1525,7 +1525,7 @@ const QUESTIONS = {
         "MacArthur and Wilson"
       ],
       "correct": 3,
-      "explanation": "The theory of island biogeography was developed by ecologists Robert MacArthur and E.O. Wilson, who modeled species richness as an equilibrium between immigration and extinction rates. Charles Darwin's major contribution was the theory of evolution by natural selection; Rachel Carson is known for Silent Spring and pesticide/conservation advocacy; Aldo Leopold pioneered the land ethic in conservation writing — none of these developed the island biogeography model specifically."
+      "explanation": "Correct: (D) MacArthur and Wilson. The theory of island biogeography was developed by ecologists Robert MacArthur and E.O. Wilson, who modeled species richness as an equilibrium between immigration and extinction rates. Charles Darwin's major contribution was the theory of evolution by natural selection; Rachel Carson is known for Silent Spring and pesticide/conservation advocacy; Aldo Leopold pioneered the land ethic in conservation writing — none of these developed the island biogeography model specifically."
     },
     {
       "id": "2-33",
@@ -1551,7 +1551,7 @@ const QUESTIONS = {
         "The exact boundary between survival and death."
       ],
       "correct": 0,
-      "explanation": "The optimal range is the specific span of conditions for a given environmental factor (like temperature) under which a species performs best — thriving in growth, reproduction, and survival. Saying a range \"applies equally to every species\" ignores that optimal ranges are species-specific. The \"exact boundary between survival and death\" instead describes the edge of the zone of intolerance. A range where a species \"cannot survive at all\" describes the zone of intolerance itself, not the optimal range."
+      "explanation": "Correct: (A) The range of conditions under which a species thrives. The optimal range is the specific span of conditions for a given environmental factor (like temperature) under which a species performs best — thriving in growth, reproduction, and survival. Saying a range \"applies equally to every species\" ignores that optimal ranges are species-specific. The \"exact boundary between survival and death\" instead describes the edge of the zone of intolerance. A range where a species \"cannot survive at all\" describes the zone of intolerance itself, not the optimal range."
     },
     {
       "id": "2-35",
@@ -1564,7 +1564,7 @@ const QUESTIONS = {
         "A term with no meaningful application to ecology, under normal conditions."
       ],
       "correct": 0,
-      "explanation": "A zone of physiological stress describes conditions outside the optimal range but still survivable — the species persists, but under stress, generally with reduced growth, reproduction, or fitness. Calling it \"a term with no meaningful application\" denies a standard, well-used ecological concept. Describing it as conditions \"where survival is impossible\" actually describes the zone of intolerance. Describing it as conditions \"where a species thrives optimally\" describes the opposite: the optimal range itself."
+      "explanation": "Correct: (A) A range of conditions where a species can survive but not thrive. A zone of physiological stress describes conditions outside the optimal range but still survivable — the species persists, but under stress, generally with reduced growth, reproduction, or fitness. Calling it \"a term with no meaningful application\" denies a standard, well-used ecological concept. Describing it as conditions \"where survival is impossible\" actually describes the zone of intolerance. Describing it as conditions \"where a species thrives optimally\" describes the opposite: the optimal range itself."
     },
     {
       "id": "2-36",
@@ -1577,7 +1577,7 @@ const QUESTIONS = {
         "The specific range of conditions where a species performs and thrives at its very best."
       ],
       "correct": 0,
-      "explanation": "The zone of intolerance describes conditions so far outside a species' tolerable range that survival isn't possible — beyond even the stressed-but-surviving zone of physiological stress. Restricting this concept to \"only plant species\" is a fabricated limitation; the concept applies to any organism. Describing it as \"where a species thrives best\" describes the opposite: the optimal range. Calling it \"a synonym for the optimal range\" confuses two opposite ends of the tolerance spectrum."
+      "explanation": "Correct: (A) The range of conditions beyond which a species cannot survive at all. The zone of intolerance describes conditions so far outside a species' tolerable range that survival isn't possible — beyond even the stressed-but-surviving zone of physiological stress. Restricting this concept to \"only plant species\" is a fabricated limitation; the concept applies to any organism. Describing it as \"where a species thrives best\" describes the opposite: the optimal range. Calling it \"a synonym for the optimal range\" confuses two opposite ends of the tolerance spectrum."
     },
     {
       "id": "2-37",
@@ -1655,7 +1655,7 @@ const QUESTIONS = {
         "A zone of physiological stress"
       ],
       "correct": 3,
-      "explanation": "A significant decline (reduced success) without complete disappearance (survival continues) is precisely the signature of a population in a zone of physiological stress — surviving, but not thriving. The optimal range would instead show a healthy, undiminished population. A zone of intolerance would mean the population disappears entirely, not merely declines. \"None of these zones\" is incorrect since the stress-zone description fits the scenario precisely."
+      "explanation": "Correct: (D) A zone of physiological stress. A significant decline (reduced success) without complete disappearance (survival continues) is precisely the signature of a population in a zone of physiological stress — surviving, but not thriving. The optimal range would instead show a healthy, undiminished population. A zone of intolerance would mean the population disappears entirely, not merely declines. \"None of these zones\" is incorrect since the stress-zone description fits the scenario precisely."
     },
     {
       "id": "2-43",
@@ -1668,7 +1668,7 @@ const QUESTIONS = {
         "The range of tolerance"
       ],
       "correct": 3,
-      "explanation": "The range of tolerance is the complete span of conditions a species can survive under — the optimal range plus the zones of physiological stress on either side, bounded by the zones of intolerance. The zone of intolerance describes only the unsurvivable extremes, not the full survivable span. A limiting factor is the specific scarce resource constraining growth (a related but distinct concept, per Liebig's Law). Carrying capacity describes a population's maximum sustainable size in an environment, not a range of environmental conditions."
+      "explanation": "Correct: (D) The range of tolerance. The range of tolerance is the complete span of conditions a species can survive under — the optimal range plus the zones of physiological stress on either side, bounded by the zones of intolerance. The zone of intolerance describes only the unsurvivable extremes, not the full survivable span. A limiting factor is the specific scarce resource constraining growth (a related but distinct concept, per Liebig's Law). Carrying capacity describes a population's maximum sustainable size in an environment, not a range of environmental conditions."
     },
     {
       "id": "2-44",
@@ -1785,7 +1785,7 @@ const QUESTIONS = {
         "A grassland with fire-tolerant root systems, seed banks, and a long history of periodic historical burns."
       ],
       "correct": 0,
-      "explanation": "A consistently humid, high-rainfall rainforest rarely experiences natural fire, making it much less likely to have evolved specific fire adaptations. Chaparral, dry pine forest, and fire-tolerant grassland all have well-documented histories of periodic natural fire and are classic examples of fire-adapted ecosystems, the opposite of what this question asks for."
+      "explanation": "Correct: (A) A tropical rainforest with high humidity, where natural fire rarely occurs. A consistently humid, high-rainfall rainforest rarely experiences natural fire, making it much less likely to have evolved specific fire adaptations. Chaparral, dry pine forest, and fire-tolerant grassland all have well-documented histories of periodic natural fire and are classic examples of fire-adapted ecosystems, the opposite of what this question asks for."
     },
     {
       "id": "2-53",
@@ -1798,7 +1798,7 @@ const QUESTIONS = {
         "This scenario has no relationship to the disturbance regime concept."
       ],
       "correct": 0,
-      "explanation": "Just as some ecosystems are fire-adapted from a long history of periodic fire, some coastal ecosystems have evolved alongside periodic hurricanes and may have adaptations (resilient root systems, disturbance-timed life cycles) supporting recovery — treating the hurricane as part of a normal disturbance regime rather than an unprecedented catastrophe. Choice C denies the stem's own premise of \"significant immediate damage.\" Choice B denies any storm effect at all. Choice D dismisses the disturbance-regime framework that directly explains this scenario."
+      "explanation": "Correct: (A) The ecosystem may have evolved adaptations supporting recovery from periodic hurricanes, like fire. Just as some ecosystems are fire-adapted from a long history of periodic fire, some coastal ecosystems have evolved alongside periodic hurricanes and may have adaptations (resilient root systems, disturbance-timed life cycles) supporting recovery — treating the hurricane as part of a normal disturbance regime rather than an unprecedented catastrophe. Choice C denies the stem's own premise of \"significant immediate damage.\" Choice B denies any storm effect at all. Choice D dismisses the disturbance-regime framework that directly explains this scenario."
     },
     {
       "id": "2-54",
@@ -1915,7 +1915,7 @@ const QUESTIONS = {
         "An open field dominated by tall grasses and scattered wildflowers."
       ],
       "correct": 1,
-      "explanation": "Lichens and mosses colonizing bare rock represent the classic pioneer-species stage at the very start of primary succession, before soil has developed enough for more complex vegetation. The other three options — old-growth forest, grassland, and shrub/small-tree community — all represent progressively later successional stages that require established soil, coming well after the earliest pioneer stage this question asks about."
+      "explanation": "Correct: (B) Lichens and mosses beginning to colonize freshly exposed volcanic rock. Lichens and mosses colonizing bare rock represent the classic pioneer-species stage at the very start of primary succession, before soil has developed enough for more complex vegetation. The other three options — old-growth forest, grassland, and shrub/small-tree community — all represent progressively later successional stages that require established soil, coming well after the earliest pioneer stage this question asks about."
     },
     {
       "id": "2-63",
@@ -1954,7 +1954,7 @@ const QUESTIONS = {
         "Topsoil reintroduction is irrelevant to succession type and only affects the site's appearance, under normal conditions."
       ],
       "correct": 2,
-      "explanation": "This scenario tests whether the underlying logic of the primary-vs-secondary distinction — presence or absence of usable soil (and its associated seed bank/microorganisms) — applies to a novel, human-engineered situation. Reintroducing stockpiled topsoil recreates the starting conditions of secondary succession rather than the bare-rock conditions of true primary succession, so treated sites are expected to recover considerably faster. Choice D wrongly reduces topsoil's role to mere appearance, ignoring its functional role in seeding recovery. Choice A incorrectly claims all mining sites default to primary succession regardless of treatment, ignoring how soil reintroduction changes the starting conditions. Choice B reverses the outcome — soil reintroduction speeds up recovery, it doesn't slow it."
+      "explanation": "Correct: (C) Reintroducing topsoil recreates secondary-succession starting conditions, speeding recovery versus bare rock. This scenario tests whether the underlying logic of the primary-vs-secondary distinction — presence or absence of usable soil (and its associated seed bank/microorganisms) — applies to a novel, human-engineered situation. Reintroducing stockpiled topsoil recreates the starting conditions of secondary succession rather than the bare-rock conditions of true primary succession, so treated sites are expected to recover considerably faster. Choice D wrongly reduces topsoil's role to mere appearance, ignoring its functional role in seeding recovery. Choice A incorrectly claims all mining sites default to primary succession regardless of treatment, ignoring how soil reintroduction changes the starting conditions. Choice B reverses the outcome — soil reintroduction speeds up recovery, it doesn't slow it."
     },
     {
       "id": "2-66",
@@ -1967,7 +1967,7 @@ const QUESTIONS = {
         "D = 1 − Σ(n/N)²"
       ],
       "correct": 3,
-      "explanation": "Simpson's Diversity Index is D = 1 − Σ(n/N)², where n is the number of individuals of a given species and N is the total number of individuals of all species combined. D = N/n and D = Σn − Σ(N)² are not meaningful diversity formulas with correct dimensional structure. D = Σ(n/N)² alone (without the \"1 −\" step) is actually a dominance measure, not the diversity index itself — a common calculation error covered elsewhere in this unit."
+      "explanation": "Correct: (D) D = 1 − Σ(n/N)². Simpson's Diversity Index is D = 1 − Σ(n/N)², where n is the number of individuals of a given species and N is the total number of individuals of all species combined. D = N/n and D = Σn − Σ(N)² are not meaningful diversity formulas with correct dimensional structure. D = Σ(n/N)² alone (without the \"1 −\" step) is actually a dominance measure, not the diversity index itself — a common calculation error covered elsewhere in this unit."
     },
     {
       "id": "2-67",
@@ -1993,7 +1993,7 @@ const QUESTIONS = {
         "0.50"
       ],
       "correct": 3,
-      "explanation": "(50/100)² + (50/100)² = 0.25 + 0.25 = 0.50, so D = 1 − 0.50 = 0.50. A result of 0.25 would come from forgetting to add both species' squared proportions together. A result of 1.00 would come from skipping the \"1 −\" step while also miscalculating the sum. A result of 0.75 doesn't correspond to any common calculation error here but represents an implausibly high value for a two-species, perfectly even community relative to the maximum possible D."
+      "explanation": "Correct: (D) 0.50. (50/100)² + (50/100)² = 0.25 + 0.25 = 0.50, so D = 1 − 0.50 = 0.50. A result of 0.25 would come from forgetting to add both species' squared proportions together. A result of 1.00 would come from skipping the \"1 −\" step while also miscalculating the sum. A result of 0.75 doesn't correspond to any common calculation error here but represents an implausibly high value for a two-species, perfectly even community relative to the maximum possible D."
     },
     {
       "id": "2-69",
@@ -2006,7 +2006,7 @@ const QUESTIONS = {
         "0.80"
       ],
       "correct": 3,
-      "explanation": "Sum of (20/100)² across all 5 species = 5 × 0.04 = 0.20, so D = 1 − 0.20 = 0.80. A result of 0.20 comes from stopping at Σ(n/N)² without subtracting from 1 — the classic \"forgot the last step\" error. A result of 0.50 doesn't match this five-species, perfectly even scenario. A result of 1.00 would only occur if Σ(n/N)² were mistakenly computed as 0, which isn't possible with real population proportions."
+      "explanation": "Correct: (D) 0.80. Sum of (20/100)² across all 5 species = 5 × 0.04 = 0.20, so D = 1 − 0.20 = 0.80. A result of 0.20 comes from stopping at Σ(n/N)² without subtracting from 1 — the classic \"forgot the last step\" error. A result of 0.50 doesn't match this five-species, perfectly even scenario. A result of 1.00 would only occur if Σ(n/N)² were mistakenly computed as 0, which isn't possible with real population proportions."
     },
     {
       "id": "2-70",
@@ -2019,7 +2019,7 @@ const QUESTIONS = {
         "1.00"
       ],
       "correct": 0,
-      "explanation": "With only one species, Σ(n/N)² = (100/100)² = 1.00, so D = 1 − 1.00 = 0.00 — the minimum possible value, correctly reflecting zero diversity. A result of 1.00 comes from stopping at Σ(n/N)² without completing the \"1 −\" subtraction. A result of 0.50 doesn't correspond to any correct calculation for a single-species community. Claiming D \"cannot be calculated\" is incorrect — the formula works perfectly well even in this simplest case."
+      "explanation": "Correct: (A) 0.00. With only one species, Σ(n/N)² = (100/100)² = 1.00, so D = 1 − 1.00 = 0.00 — the minimum possible value, correctly reflecting zero diversity. A result of 1.00 comes from stopping at Σ(n/N)² without completing the \"1 −\" subtraction. A result of 0.50 doesn't correspond to any correct calculation for a single-species community. Claiming D \"cannot be calculated\" is incorrect — the formula works perfectly well even in this simplest case."
     },
     {
       "id": "2-71",
@@ -2045,7 +2045,7 @@ const QUESTIONS = {
         "0.60"
       ],
       "correct": 0,
-      "explanation": "(60/100)² + (20/100)² + (20/100)² = 0.36 + 0.04 + 0.04 = 0.44, so D = 1 − 0.44 = 0.56. A result of 0.60 or 0.80 would come from mis-squaring or mis-summing one or more of the proportions. A result of 0.44 is Σ(n/N)² itself — the value before the final \"1 −\" subtraction, a common last-step omission error."
+      "explanation": "Correct: (A) 0.56. (60/100)² + (20/100)² + (20/100)² = 0.36 + 0.04 + 0.04 = 0.44, so D = 1 − 0.44 = 0.56. A result of 0.60 or 0.80 would come from mis-squaring or mis-summing one or more of the proportions. A result of 0.44 is Σ(n/N)² itself — the value before the final \"1 −\" subtraction, a common last-step omission error."
     },
     {
       "id": "2-73",
@@ -2058,7 +2058,7 @@ const QUESTIONS = {
         "Community P: D=0.50; Community Q: D=0.90 — richness alone determines D with no role for evenness."
       ],
       "correct": 1,
-      "explanation": "Community P: Σ(10/100)² × 10 = 10 × 0.01 = 0.10, so D = 0.90. Community Q: (40/100)²+(30/100)²+(30/100)² = 0.16+0.09+0.09 = 0.34, so D = 0.66. Both communities are internally quite even (no species dominates dramatically in either), yet Community P's much higher richness (10 species vs. 3) still produces a meaningfully higher D — richness ALSO independently contributes to D even when comparing two reasonably even communities, since Simpson's Index incorporates both components simultaneously. Choice D gets the correct D values swapped but wrongly claims richness alone determines D, ignoring evenness's role shown in earlier questions. Choice A is simply factually wrong — the two D values (0.90 vs. 0.66) are clearly not identical. Choice C incorrectly claims D can't be calculated across differing richness levels, when the formula works identically regardless of how many species are present."
+      "explanation": "Correct: (B) Community P: D=0.90; Community Q: D=0.66 — richness raises D despite both being fairly even. Community P: Σ(10/100)² × 10 = 10 × 0.01 = 0.10, so D = 0.90. Community Q: (40/100)²+(30/100)²+(30/100)² = 0.16+0.09+0.09 = 0.34, so D = 0.66. Both communities are internally quite even (no species dominates dramatically in either), yet Community P's much higher richness (10 species vs. 3) still produces a meaningfully higher D — richness ALSO independently contributes to D even when comparing two reasonably even communities, since Simpson's Index incorporates both components simultaneously. Choice D gets the correct D values swapped but wrongly claims richness alone determines D, ignoring evenness's role shown in earlier questions. Choice A is simply factually wrong — the two D values (0.90 vs. 0.66) are clearly not identical. Choice C incorrectly claims D can't be calculated across differing richness levels, when the formula works identically regardless of how many species are present."
     },
     {
       "id": "2-74",
@@ -2071,7 +2071,7 @@ const QUESTIONS = {
         "Provisioning service"
       ],
       "correct": 2,
-      "explanation": "Flood control is a natural process moderating environmental conditions, the defining feature of a regulating service. A provisioning service instead delivers direct material goods (timber, food, water); a supporting service is an underlying process enabling other services (nutrient cycling, soil formation); a cultural service provides non-material benefits (recreation, spiritual value) — none of these describe flood/storm-surge moderation."
+      "explanation": "Correct: (C) Regulating service. Flood control is a natural process moderating environmental conditions, the defining feature of a regulating service. A provisioning service instead delivers direct material goods (timber, food, water); a supporting service is an underlying process enabling other services (nutrient cycling, soil formation); a cultural service provides non-material benefits (recreation, spiritual value) — none of these describe flood/storm-surge moderation."
     },
     {
       "id": "2-75",
@@ -2084,7 +2084,7 @@ const QUESTIONS = {
         "Pollination of crops by wild bees — provisioning service"
       ],
       "correct": 2,
-      "explanation": "Nutrient cycling is an underlying process that makes other ecosystem services possible, making it a supporting service — correctly paired here. Ecotourism is actually a cultural service (a non-material, recreational benefit), not provisioning. Timber is actually a provisioning service (a direct material good), not cultural. Pollination is actually a regulating service (a natural process supporting crop production), not provisioning — each of the other three options mismatches its example with the wrong category."
+      "explanation": "Correct: (C) Nutrient cycling by soil microorganisms — supporting service. Nutrient cycling is an underlying process that makes other ecosystem services possible, making it a supporting service — correctly paired here. Ecotourism is actually a cultural service (a non-material, recreational benefit), not provisioning. Timber is actually a provisioning service (a direct material good), not cultural. Pollination is actually a regulating service (a natural process supporting crop production), not provisioning — each of the other three options mismatches its example with the wrong category."
     },
     {
       "id": "2-76",
@@ -2097,7 +2097,7 @@ const QUESTIONS = {
         "Supporting service"
       ],
       "correct": 0,
-      "explanation": "Non-material benefits to human well-being — recreation, spiritual value, aesthetic enjoyment — define cultural services, exactly what this scenario describes. A regulating service would instead involve a natural process moderating conditions (like flood control); a provisioning service would involve extracting a direct material good (like timber); a supporting service would involve an underlying ecological process (like nutrient cycling) — none of which the community is actually deriving from the forest here."
+      "explanation": "Correct: (A) Cultural service. Non-material benefits to human well-being — recreation, spiritual value, aesthetic enjoyment — define cultural services, exactly what this scenario describes. A regulating service would instead involve a natural process moderating conditions (like flood control); a provisioning service would involve extracting a direct material good (like timber); a supporting service would involve an underlying ecological process (like nutrient cycling) — none of which the community is actually deriving from the forest here."
     },
     {
       "id": "2-77",
@@ -2123,7 +2123,7 @@ const QUESTIONS = {
         "The limiting factor"
       ],
       "correct": 3,
-      "explanation": "Iron is acting as the limiting factor — the scarcest resource relative to the algae's needs, and therefore the one actually constraining growth, per Liebig's Law of the Minimum, regardless of how abundant nitrogen or light are. The zone of intolerance and optimal range describe a species' tolerance for a condition, not a resource constraint. An indicator species is an organism whose health signals ecosystem conditions — unrelated to the resource-limitation concept being tested here."
+      "explanation": "Correct: (D) The limiting factor. Iron is acting as the limiting factor — the scarcest resource relative to the algae's needs, and therefore the one actually constraining growth, per Liebig's Law of the Minimum, regardless of how abundant nitrogen or light are. The zone of intolerance and optimal range describe a species' tolerance for a condition, not a resource constraint. An indicator species is an organism whose health signals ecosystem conditions — unrelated to the resource-limitation concept being tested here."
     },
     {
       "id": "2-79",
@@ -2149,7 +2149,7 @@ const QUESTIONS = {
         "Physiological adaptation"
       ],
       "correct": 1,
-      "explanation": "Nocturnal activity is a pattern of behavior rather than a physical feature or internal biochemical process, making it a behavioral adaptation — comparable to bird migration as a behavioral response to seasonal conditions. A structural adaptation would involve a physical body feature (like large ears for heat dissipation); a physiological adaptation would involve an internal biochemical process (like concentrated urine production); dismissing it as \"not heritable\" ignores that behavioral patterns like activity timing can indeed be shaped by natural selection over generations."
+      "explanation": "Correct: (B) Behavioral adaptation. Nocturnal activity is a pattern of behavior rather than a physical feature or internal biochemical process, making it a behavioral adaptation — comparable to bird migration as a behavioral response to seasonal conditions. A structural adaptation would involve a physical body feature (like large ears for heat dissipation); a physiological adaptation would involve an internal biochemical process (like concentrated urine production); dismissing it as \"not heritable\" ignores that behavioral patterns like activity timing can indeed be shaped by natural selection over generations."
     },
     {
       "id": "2-81",
@@ -2188,7 +2188,7 @@ const QUESTIONS = {
         "Smaller patches have proportionally more boundary, exposing more habitat to harmful edge conditions."
       ],
       "correct": 3,
-      "explanation": "Smaller patches have a higher boundary-to-area ratio than one large patch of the same total area, so fragmentation sharply increases the proportion of edge habitat — this boundary zone experiences harsher, more variable conditions and greater exposure to predators, competitors, and invasive species, harming species that need stable interior conditions. Choice A denies the geometric relationship between patch size and edge proportion, which holds mathematically regardless of context. Choice C wrongly claims edge habitat requires human construction, when fragmentation itself geometrically creates edge, independent of the cause. Choice B fabricates an aquatic-only restriction; edge effects are actually a predominantly terrestrial concept in this context (forest fragmentation, wildlife corridors)."
+      "explanation": "Correct: (D) Smaller patches have proportionally more boundary, exposing more habitat to harmful edge conditions. Smaller patches have a higher boundary-to-area ratio than one large patch of the same total area, so fragmentation sharply increases the proportion of edge habitat — this boundary zone experiences harsher, more variable conditions and greater exposure to predators, competitors, and invasive species, harming species that need stable interior conditions. Choice A denies the geometric relationship between patch size and edge proportion, which holds mathematically regardless of context. Choice C wrongly claims edge habitat requires human construction, when fragmentation itself geometrically creates edge, independent of the cause. Choice B fabricates an aquatic-only restriction; edge effects are actually a predominantly terrestrial concept in this context (forest fragmentation, wildlife corridors)."
     }
   ],
   "3": [
@@ -2203,7 +2203,7 @@ const QUESTIONS = {
         "A species restricted to a single, narrow geographic range."
       ],
       "correct": 0,
-      "explanation": "A generalist has a broad diet and wide environmental tolerance, letting it succeed in many different habitat types. Restriction to a single location describes endemism, not dietary or habitat breadth; a narrow diet and specific habitat requirement is the defining trait of a specialist, the opposite pattern; and recent decline toward extinction is a conservation status unrelated to diet or habitat breadth."
+      "explanation": "Correct: (A) A species with a broad diet and wide habitat tolerance. A generalist has a broad diet and wide environmental tolerance, letting it succeed in many different habitat types. Restriction to a single location describes endemism, not dietary or habitat breadth; a narrow diet and specific habitat requirement is the defining trait of a specialist, the opposite pattern; and recent decline toward extinction is a conservation status unrelated to diet or habitat breadth."
     },
     {
       "id": "3-2",
@@ -2216,7 +2216,7 @@ const QUESTIONS = {
         "A species capable of living in essentially every biome on Earth."
       ],
       "correct": 1,
-      "explanation": "A specialist is narrowly adapted to one specific diet or habitat, such as a koala's near-total dependence on eucalyptus. Describing a species as having no environmental requirements, living in every biome, or thriving across many habitats and diets all describe a generalist's broad tolerance — the opposite pattern from a specialist."
+      "explanation": "Correct: (B) A species narrowly adapted to one specific diet or habitat. A specialist is narrowly adapted to one specific diet or habitat, such as a koala's near-total dependence on eucalyptus. Describing a species as having no environmental requirements, living in every biome, or thriving across many habitats and diets all describe a generalist's broad tolerance — the opposite pattern from a specialist."
     },
     {
       "id": "3-3",
@@ -2229,7 +2229,7 @@ const QUESTIONS = {
         "Specialists efficiently exploit their resource, edging out generalist competitors."
       ],
       "correct": 3,
-      "explanation": "A specialist's fine-tuned adaptation lets it exploit its specific resource more efficiently than a generalist competitor can, at least while conditions stay stable — a real, but narrow, competitive edge. Population size isn't determined by specialization alone, so specialists don't automatically outnumber generalists; this edge also doesn't mean specialists have no advantage anywhere else, nor that generalists are excluded entirely from environments where specialists live."
+      "explanation": "Correct: (D) Specialists efficiently exploit their resource, edging out generalist competitors. A specialist's fine-tuned adaptation lets it exploit its specific resource more efficiently than a generalist competitor can, at least while conditions stay stable — a real, but narrow, competitive edge. Population size isn't determined by specialization alone, so specialists don't automatically outnumber generalists; this edge also doesn't mean specialists have no advantage anywhere else, nor that generalists are excluded entirely from environments where specialists live."
     },
     {
       "id": "3-4",
@@ -2242,7 +2242,7 @@ const QUESTIONS = {
         "Specialists rely on a narrow resource base, with little fallback if conditions change."
       ],
       "correct": 3,
-      "explanation": "Because specialists depend so heavily on a narrow, specific resource or set of conditions, they have little ability to shift to alternatives if that resource is disrupted — unlike generalists, which can often shift diet or habitat use in response to change. This makes specialists more, not less, vulnerable, so vulnerability clearly does relate to specialization; and specialization has no consistent relationship to population size, so larger populations aren't a defining trait of specialists."
+      "explanation": "Correct: (D) Specialists rely on a narrow resource base, with little fallback if conditions change. Because specialists depend so heavily on a narrow, specific resource or set of conditions, they have little ability to shift to alternatives if that resource is disrupted — unlike generalists, which can often shift diet or habitat use in response to change. This makes specialists more, not less, vulnerable, so vulnerability clearly does relate to specialization; and specialization has no consistent relationship to population size, so larger populations aren't a defining trait of specialists."
     },
     {
       "id": "3-5",
@@ -2255,7 +2255,7 @@ const QUESTIONS = {
         "Endemic species"
       ],
       "correct": 0,
-      "explanation": "The raccoon's broad diet and ability to thrive across forests, urban areas, and suburbs is the defining pattern of a generalist. 'Endemic' describes a species restricted to one geographic area, a different concept from dietary or habitat breadth; 'keystone species' describes disproportionate ecological influence, not diet or habitat range; and 'specialist' is the opposite pattern, describing a narrow diet and habitat requirement."
+      "explanation": "Correct: (A) Generalist species. The raccoon's broad diet and ability to thrive across forests, urban areas, and suburbs is the defining pattern of a generalist. 'Endemic' describes a species restricted to one geographic area, a different concept from dietary or habitat breadth; 'keystone species' describes disproportionate ecological influence, not diet or habitat range; and 'specialist' is the opposite pattern, describing a narrow diet and habitat requirement."
     },
     {
       "id": "3-6",
@@ -2268,7 +2268,7 @@ const QUESTIONS = {
         "The panda population would likely be severely threatened, since it has little dietary fallback."
       ],
       "correct": 3,
-      "explanation": "As a specialist dependent almost entirely on bamboo, a widespread die-off would severely threaten the panda population because it lacks a realistic dietary fallback — a direct illustration of specialist vulnerability. Pandas cannot simply switch food sources (that flexibility describes a generalist), a food-source collapse would not cause the population to increase, and this scenario is a textbook application of the generalist/specialist concept, not an unrelated one."
+      "explanation": "Correct: (D) The panda population would likely be severely threatened, since it has little dietary fallback. As a specialist dependent almost entirely on bamboo, a widespread die-off would severely threaten the panda population because it lacks a realistic dietary fallback — a direct illustration of specialist vulnerability. Pandas cannot simply switch food sources (that flexibility describes a generalist), a food-source collapse would not cause the population to increase, and this scenario is a textbook application of the generalist/specialist concept, not an unrelated one."
     },
     {
       "id": "3-7",
@@ -2281,7 +2281,7 @@ const QUESTIONS = {
         "Yes, specialization is always inferior to generalism in every context."
       ],
       "correct": 2,
-      "explanation": "Specialization is not inherently disadvantageous — it can be a highly successful strategy under stable environmental conditions, allowing efficient exploitation of a specific niche; the real vulnerability appears only when conditions change faster than the specialist can adapt. This dynamic applies to both plants and animals, so it isn't plant-exclusive, and stability clearly does matter, so 'no relationship to environmental stability' and 'always inferior' both overstate the case."
+      "explanation": "Correct: (C) No — specialization can succeed under stable conditions, with more risk when conditions change. Specialization is not inherently disadvantageous — it can be a highly successful strategy under stable environmental conditions, allowing efficient exploitation of a specific niche; the real vulnerability appears only when conditions change faster than the specialist can adapt. This dynamic applies to both plants and animals, so it isn't plant-exclusive, and stability clearly does matter, so 'no relationship to environmental stability' and 'always inferior' both overstate the case."
     },
     {
       "id": "3-8",
@@ -2294,7 +2294,7 @@ const QUESTIONS = {
         "Human-caused change has no different effect on specialists compared to generalists."
       ],
       "correct": 0,
-      "explanation": "Because specialists depend on a narrow, specific set of resources, rapid change — which allows no time for gradual adaptation — can eliminate their critical resource entirely, while generalists' broader resource use gives them more options to fall back on. Specialists are not typically more numerous, since population size isn't tied to specialization; they are not immune to change; and human-caused change does affect the two groups differently, since specialists' narrow requirements make them disproportionately exposed."
+      "explanation": "Correct: (A) Rapid change can wipe out a specialist's one critical resource before it can adapt or relocate. Because specialists depend on a narrow, specific set of resources, rapid change — which allows no time for gradual adaptation — can eliminate their critical resource entirely, while generalists' broader resource use gives them more options to fall back on. Specialists are not typically more numerous, since population size isn't tied to specialization; they are not immune to change; and human-caused change does affect the two groups differently, since specialists' narrow requirements make them disproportionately exposed."
     },
     {
       "id": "3-9",
@@ -2307,7 +2307,7 @@ const QUESTIONS = {
         "Specialist — coyote (wide diet, many habitats)"
       ],
       "correct": 0,
-      "explanation": "The koala, with its near-total dependence on eucalyptus, is a classic real-world specialist. Labeling the coyote — a broad-diet, multi-habitat species — as a specialist reverses the pairing, and labeling the koala a generalist does the same in the opposite direction; both species types clearly do apply to real organisms, so choice B is also incorrect."
+      "explanation": "Correct: (A) Specialist — koala (eucalyptus-dependent). The koala, with its near-total dependence on eucalyptus, is a classic real-world specialist. Labeling the coyote — a broad-diet, multi-habitat species — as a specialist reverses the pairing, and labeling the koala a generalist does the same in the opposite direction; both species types clearly do apply to real organisms, so choice B is also incorrect."
     },
     {
       "id": "3-10",
@@ -2320,7 +2320,7 @@ const QUESTIONS = {
         "Logistic growth"
       ],
       "correct": 2,
-      "explanation": "Exponential growth assumes unlimited resources and a constant per-capita growth rate, producing the J-shaped curve. Logistic growth, by contrast, incorporates a carrying capacity limit; demographic transition describes historical shifts in human birth and death rates, not a growth-rate model; and density-dependent growth is the mechanism behind logistic growth's slowdown, not a model of unlimited growth."
+      "explanation": "Correct: (C) Exponential growth. Exponential growth assumes unlimited resources and a constant per-capita growth rate, producing the J-shaped curve. Logistic growth, by contrast, incorporates a carrying capacity limit; demographic transition describes historical shifts in human birth and death rates, not a growth-rate model; and density-dependent growth is the mechanism behind logistic growth's slowdown, not a model of unlimited growth."
     },
     {
       "id": "3-11",
@@ -2333,7 +2333,7 @@ const QUESTIONS = {
         "Neither model incorporates any limit on growth."
       ],
       "correct": 0,
-      "explanation": "Logistic growth specifically incorporates carrying capacity (K), causing growth to slow as N approaches K and producing the characteristic S-shaped curve. Exponential growth incorporates no such limit; the two models are mathematically distinct (one includes the (K−N)/K term, the other doesn't), so neither 'no model has a limit' nor 'the models are identical' is correct."
+      "explanation": "Correct: (A) Logistic growth. Logistic growth specifically incorporates carrying capacity (K), causing growth to slow as N approaches K and producing the characteristic S-shaped curve. Exponential growth incorporates no such limit; the two models are mathematically distinct (one includes the (K−N)/K term, the other doesn't), so neither 'no model has a limit' nor 'the models are identical' is correct."
     },
     {
       "id": "3-12",
@@ -2346,7 +2346,7 @@ const QUESTIONS = {
         "When N equals approximately K/2 (half of carrying capacity)"
       ],
       "correct": 3,
-      "explanation": "Logistic growth rate peaks at N = K/2, where enough individuals are present to reproduce quickly but resources aren't yet significantly limiting. Near N=0 too few individuals exist to drive fast growth, near N=K resource scarcity slows growth toward zero, and growth rate is not constant in the logistic model — it explicitly depends on N relative to K."
+      "explanation": "Correct: (D) When N equals approximately K/2 (half of carrying capacity). Logistic growth rate peaks at N = K/2, where enough individuals are present to reproduce quickly but resources aren't yet significantly limiting. Near N=0 too few individuals exist to drive fast growth, near N=K resource scarcity slows growth toward zero, and growth rate is not constant in the logistic model — it explicitly depends on N relative to K."
     },
     {
       "id": "3-13",
@@ -2359,7 +2359,7 @@ const QUESTIONS = {
         "A perfect circle"
       ],
       "correct": 1,
-      "explanation": "Exponential growth produces the classic J-shaped curve — continuously accelerating growth with no leveling off, since the model assumes no resource limitation. A flat line would indicate zero growth, an S-shape describes logistic (not exponential) growth, and a circular shape doesn't correspond to any population growth pattern."
+      "explanation": "Correct: (B) J-shaped. Exponential growth produces the classic J-shaped curve — continuously accelerating growth with no leveling off, since the model assumes no resource limitation. A flat line would indicate zero growth, an S-shape describes logistic (not exponential) growth, and a circular shape doesn't correspond to any population growth pattern."
     },
     {
       "id": "3-14",
@@ -2372,7 +2372,7 @@ const QUESTIONS = {
         "J-shaped"
       ],
       "correct": 2,
-      "explanation": "Logistic growth produces the S-shaped curve — accelerating growth similar to exponential growth at first, followed by slowing and eventual leveling off as the population nears carrying capacity. A continuously downward-sloping curve would describe decline, not growth; a J-shape describes unlimited exponential growth rather than growth that levels off; and a straight diagonal line would imply a constant absolute rate of increase, which logistic growth does not have."
+      "explanation": "Correct: (C) S-shaped. Logistic growth produces the S-shaped curve — accelerating growth similar to exponential growth at first, followed by slowing and eventual leveling off as the population nears carrying capacity. A continuously downward-sloping curve would describe decline, not growth; a J-shape describes unlimited exponential growth rather than growth that levels off; and a straight diagonal line would imply a constant absolute rate of increase, which logistic growth does not have."
     },
     {
       "id": "3-15",
@@ -2385,7 +2385,7 @@ const QUESTIONS = {
         "Zero population growth"
       ],
       "correct": 0,
-      "explanation": "A newly introduced population in an environment with abundant, largely unused resources and no sign of slowing displays exponential growth, before eventually transitioning toward logistic growth as it nears carrying capacity. Zero population growth would mean no net change, which contradicts the scenario; logistic growth requires growth to be slowing near a limit, which isn't described here; and demographic transition applies to human birth/death rate patterns, not invasive-species dynamics."
+      "explanation": "Correct: (A) Exponential growth. A newly introduced population in an environment with abundant, largely unused resources and no sign of slowing displays exponential growth, before eventually transitioning toward logistic growth as it nears carrying capacity. Zero population growth would mean no net change, which contradicts the scenario; logistic growth requires growth to be slowing near a limit, which isn't described here; and demographic transition applies to human birth/death rate patterns, not invasive-species dynamics."
     },
     {
       "id": "3-16",
@@ -2398,7 +2398,7 @@ const QUESTIONS = {
         "No — exponential growth is only realistic for a limited time, since resources eventually run short."
       ],
       "correct": 3,
-      "explanation": "Exponential growth is only realistic for a limited time in any real population, since every real environment eventually runs short of some resource — which is why logistic growth, not sustained exponential growth, is the more realistic long-term model. Exponential growth does occur, at least temporarily (so 'never occurs' is wrong); it is not exclusive to microorganisms; and it cannot continue indefinitely, since resource limits are universal."
+      "explanation": "Correct: (D) No — exponential growth is only realistic for a limited time, since resources eventually run short. Exponential growth is only realistic for a limited time in any real population, since every real environment eventually runs short of some resource — which is why logistic growth, not sustained exponential growth, is the more realistic long-term model. Exponential growth does occur, at least temporarily (so 'never occurs' is wrong); it is not exclusive to microorganisms; and it cannot continue indefinitely, since resource limits are universal."
     },
     {
       "id": "3-17",
@@ -2411,7 +2411,7 @@ const QUESTIONS = {
         "The population's total size."
       ],
       "correct": 0,
-      "explanation": "(K−N)/K represents the fraction of carrying capacity still available — as N approaches K, this fraction shrinks toward zero, which is what causes logistic growth to slow and eventually approach zero near carrying capacity. It does not represent population size (that's N itself), it isn't specifically the death rate, and it is explicitly a function of both K and N, not a constant unrelated to them."
+      "explanation": "Correct: (A) The 'unused' fraction of carrying capacity, shrinking to zero as N nears K. (K−N)/K represents the fraction of carrying capacity still available — as N approaches K, this fraction shrinks toward zero, which is what causes logistic growth to slow and eventually approach zero near carrying capacity. It does not represent population size (that's N itself), it isn't specifically the death rate, and it is explicitly a function of both K and N, not a constant unrelated to them."
     },
     {
       "id": "3-18",
@@ -2424,7 +2424,7 @@ const QUESTIONS = {
         "N is approximately zero."
       ],
       "correct": 0,
-      "explanation": "Since logistic growth rate peaks at N = K/2, a population currently growing at its fastest possible rate is most likely at approximately half of its environment's carrying capacity. A population at a very small size lacks enough individuals to drive a fast absolute growth rate, and one already near carrying capacity has already slowed due to resource limitation; this scenario is fully consistent with the logistic model, not impossible under it, since that peak-growth point is exactly what the model predicts."
+      "explanation": "Correct: (A) N is approximately equal to K/2. Since logistic growth rate peaks at N = K/2, a population currently growing at its fastest possible rate is most likely at approximately half of its environment's carrying capacity. A population at a very small size lacks enough individuals to drive a fast absolute growth rate, and one already near carrying capacity has already slowed due to resource limitation; this scenario is fully consistent with the logistic model, not impossible under it, since that peak-growth point is exactly what the model predicts."
     },
     {
       "id": "3-19",
@@ -2437,7 +2437,7 @@ const QUESTIONS = {
         "A synonym for a population's current size."
       ],
       "correct": 0,
-      "explanation": "Carrying capacity is the maximum population size that a given environment's resources — food, space, water, and other factors — can sustainably support over the long term. It is not a growth rate (that's r), not a synonym for current population size (a population can be above or below K), and it describes one species' population limit, not the total number of species an ecosystem hosts."
+      "explanation": "Correct: (A) The maximum population size an environment can sustainably support long-term. Carrying capacity is the maximum population size that a given environment's resources — food, space, water, and other factors — can sustainably support over the long term. It is not a growth rate (that's r), not a synonym for current population size (a population can be above or below K), and it describes one species' population limit, not the total number of species an ecosystem hosts."
     },
     {
       "id": "3-20",
@@ -2450,7 +2450,7 @@ const QUESTIONS = {
         "A random genetic mutation arising in one individual"
       ],
       "correct": 0,
-      "explanation": "Food competition is density-dependent — its intensity specifically scales with population density, becoming a stronger limiting effect as more individuals compete for the same food supply. A random mutation is a genetic event unrelated to density; drought and volcanic eruptions are density-independent factors, since they strike a population's survival regardless of how crowded it is."
+      "explanation": "Correct: (A) Food competition intensifying as population density increases. Food competition is density-dependent — its intensity specifically scales with population density, becoming a stronger limiting effect as more individuals compete for the same food supply. A random mutation is a genetic event unrelated to density; drought and volcanic eruptions are density-independent factors, since they strike a population's survival regardless of how crowded it is."
     },
     {
       "id": "3-21",
@@ -2463,7 +2463,7 @@ const QUESTIONS = {
         "Disease spreading more easily through a crowded population."
       ],
       "correct": 1,
-      "explanation": "A wildfire is density-independent — it affects a population's survival regardless of how crowded or sparse it was at the time. Predators keying in on abundant prey, competition for mates intensifying with population size, and disease spreading more easily in crowded populations are all density-dependent, since each effect's strength scales with population density."
+      "explanation": "Correct: (B) A severe wildfire affecting a population regardless of its current density. A wildfire is density-independent — it affects a population's survival regardless of how crowded or sparse it was at the time. Predators keying in on abundant prey, competition for mates intensifying with population size, and disease spreading more easily in crowded populations are all density-dependent, since each effect's strength scales with population density."
     },
     {
       "id": "3-22",
@@ -2476,7 +2476,7 @@ const QUESTIONS = {
         "As density rises, competition and disease intensify, slowing growth near K."
       ],
       "correct": 3,
-      "explanation": "As population density rises toward carrying capacity, density-dependent factors (competition, disease, predation) intensify, creating a negative feedback loop that slows growth — the biological mechanism behind logistic growth's mathematical slowdown near K. These factors typically slow growth rather than cause immediate extinction, they intensify (not activate) as density increases, meaning they're strongest at high, not low, population size, and by definition their strength is tied directly to population size relative to K."
+      "explanation": "Correct: (D) As density rises, competition and disease intensify, slowing growth near K. As population density rises toward carrying capacity, density-dependent factors (competition, disease, predation) intensify, creating a negative feedback loop that slows growth — the biological mechanism behind logistic growth's mathematical slowdown near K. These factors typically slow growth rather than cause immediate extinction, they intensify (not activate) as density increases, meaning they're strongest at high, not low, population size, and by definition their strength is tied directly to population size relative to K."
     },
     {
       "id": "3-23",
@@ -2489,7 +2489,7 @@ const QUESTIONS = {
         "A density-independent limiting factor"
       ],
       "correct": 3,
-      "explanation": "Since the hurricane's proportional impact is roughly similar regardless of population density, this illustrates a density-independent limiting factor — its effect doesn't scale with crowding. A density-dependent factor would show a stronger effect on the denser population specifically; the scenario clearly does illustrate a limiting factor (mortality from the hurricane); and the impact affects both sparse and dense populations similarly, not dense populations exclusively."
+      "explanation": "Correct: (D) A density-independent limiting factor. Since the hurricane's proportional impact is roughly similar regardless of population density, this illustrates a density-independent limiting factor — its effect doesn't scale with crowding. A density-dependent factor would show a stronger effect on the denser population specifically; the scenario clearly does illustrate a limiting factor (mortality from the hurricane); and the impact affects both sparse and dense populations similarly, not dense populations exclusively."
     },
     {
       "id": "3-24",
@@ -2502,7 +2502,7 @@ const QUESTIONS = {
         "Density-dependent"
       ],
       "correct": 3,
-      "explanation": "Since the infection spread dramatically faster in the denser population, this is density-dependent — disease transmission is a classic example of an effect that intensifies with population density. Disease clearly can be classified this way, so 'neither applies' is wrong; the pattern is the opposite of density-independent, where impact wouldn't differ by density; and the scenario provides exactly the comparison needed to classify it, so no additional information is required."
+      "explanation": "Correct: (D) Density-dependent. Since the infection spread dramatically faster in the denser population, this is density-dependent — disease transmission is a classic example of an effect that intensifies with population density. Disease clearly can be classified this way, so 'neither applies' is wrong; the pattern is the opposite of density-independent, where impact wouldn't differ by density; and the scenario provides exactly the comparison needed to classify it, so no additional information is required."
     },
     {
       "id": "3-25",
@@ -2515,7 +2515,7 @@ const QUESTIONS = {
         "Yes, and populations always remain above carrying capacity permanently once they exceed it."
       ],
       "correct": 1,
-      "explanation": "A population can temporarily overshoot its environment's carrying capacity, particularly when resource depletion lags behind population growth; this overshoot is often followed by a crash, as the now-depleted resource base can no longer support the excess population, sometimes even pushing the population below its original K. Overshoot does happen, so 'never' is wrong; populations do not remain above K permanently, since the crash typically brings them back down; and carrying capacity is a well-established ecological concept, not a fictional one."
+      "explanation": "Correct: (B) Yes — a population can temporarily overshoot K, often followed by a population crash. A population can temporarily overshoot its environment's carrying capacity, particularly when resource depletion lags behind population growth; this overshoot is often followed by a crash, as the now-depleted resource base can no longer support the excess population, sometimes even pushing the population below its original K. Overshoot does happen, so 'never' is wrong; populations do not remain above K permanently, since the crash typically brings them back down; and carrying capacity is a well-established ecological concept, not a fictional one."
     },
     {
       "id": "3-26",
@@ -2528,7 +2528,7 @@ const QUESTIONS = {
         "Habitat destruction reducing the usable space and resources available to the species."
       ],
       "correct": 3,
-      "explanation": "Habitat destruction directly reduces the space and resources available to a species, lowering that environment's carrying capacity for it. A decrease in the species' own population density doesn't change how much the environment could support; a new species with no resource overlap wouldn't compete for the same resources and so wouldn't affect K; and an increase in available resources would raise, not lower, carrying capacity."
+      "explanation": "Correct: (D) Habitat destruction reducing the usable space and resources available to the species. Habitat destruction directly reduces the space and resources available to a species, lowering that environment's carrying capacity for it. A decrease in the species' own population density doesn't change how much the environment could support; a new species with no resource overlap wouldn't compete for the same resources and so wouldn't affect K; and an increase in available resources would raise, not lower, carrying capacity."
     },
     {
       "id": "3-27",
@@ -2541,7 +2541,7 @@ const QUESTIONS = {
         "Density-independent factors are actually the primary mechanism behind this slowdown, not density-dependent factors at all."
       ],
       "correct": 1,
-      "explanation": "The logistic model's slowdown as N approaches K reflects density-dependent factors intensifying with population density — density-independent factors, by definition, act regardless of population size and so can't explain WHY growth specifically slows near carrying capacity. Both factor types clearly do relate to the model, so choices A and C are wrong, and it is density-dependent, not density-independent, factors that supply this mechanism."
+      "explanation": "Correct: (B) Density-dependent factors intensify near K, causing the slowdown — density-independent factors act regardless of size. The logistic model's slowdown as N approaches K reflects density-dependent factors intensifying with population density — density-independent factors, by definition, act regardless of population size and so can't explain WHY growth specifically slows near carrying capacity. Both factor types clearly do relate to the model, so choices A and C are wrong, and it is density-dependent, not density-independent, factors that supply this mechanism."
     },
     {
       "id": "3-28",
@@ -2554,7 +2554,7 @@ const QUESTIONS = {
         "Many offspring, little parental care, short lifespan, rapid maturation."
       ],
       "correct": 3,
-      "explanation": "r-selected species produce many offspring with little individual parental investment, short lifespans, and rapid maturation — a strategy often favored in unstable or unpredictable environments. Few offspring with extensive care and a long lifespan instead describes a K-selected species, the opposite pattern; a species restricted to one geographic location describes endemism, unrelated to reproductive strategy; and every species has some reproductive strategy, so 'none at all' is not possible."
+      "explanation": "Correct: (D) Many offspring, little parental care, short lifespan, rapid maturation. r-selected species produce many offspring with little individual parental investment, short lifespans, and rapid maturation — a strategy often favored in unstable or unpredictable environments. Few offspring with extensive care and a long lifespan instead describes a K-selected species, the opposite pattern; a species restricted to one geographic location describes endemism, unrelated to reproductive strategy; and every species has some reproductive strategy, so 'none at all' is not possible."
     },
     {
       "id": "3-29",
@@ -2567,7 +2567,7 @@ const QUESTIONS = {
         "A species with no relationship between offspring number and parental care."
       ],
       "correct": 0,
-      "explanation": "K-selected species produce few offspring but invest extensively in parental care for each, with long lifespans and slow maturation — a strategy favored in stable environments near carrying capacity. Many offspring with little care and rapid maturation instead describes r-selection, the opposite pattern; reproductive mode (sexual vs. asexual) is a separate concept from the r/K framework; and offspring number and parental care are, in fact, strongly related in this framework, not independent."
+      "explanation": "Correct: (A) Few offspring, extensive parental care, long lifespan, slow maturation. K-selected species produce few offspring but invest extensively in parental care for each, with long lifespans and slow maturation — a strategy favored in stable environments near carrying capacity. Many offspring with little care and rapid maturation instead describes r-selection, the opposite pattern; reproductive mode (sexual vs. asexual) is a separate concept from the r/K framework; and offspring number and parental care are, in fact, strongly related in this framework, not independent."
     },
     {
       "id": "3-30",
@@ -2580,7 +2580,7 @@ const QUESTIONS = {
         "Type II"
       ],
       "correct": 1,
-      "explanation": "Type I survivorship curves show high survival through early and mid-life with mortality concentrated in old age — typical of K-selected species like humans and large mammals. Type III shows the opposite pattern, with mortality concentrated early in life; Type II shows a roughly constant death rate at all ages rather than mortality concentrated late; and since Type I clearly matches this description, 'none of these' is incorrect."
+      "explanation": "Correct: (B) Type I. Type I survivorship curves show high survival through early and mid-life with mortality concentrated in old age — typical of K-selected species like humans and large mammals. Type III shows the opposite pattern, with mortality concentrated early in life; Type II shows a roughly constant death rate at all ages rather than mortality concentrated late; and since Type I clearly matches this description, 'none of these' is incorrect."
     },
     {
       "id": "3-31",
@@ -2593,7 +2593,7 @@ const QUESTIONS = {
         "Type I"
       ],
       "correct": 0,
-      "explanation": "Type II survivorship curves show a roughly constant death rate at every age throughout life. Type I instead shows mortality concentrated late in life, and Type III shows mortality concentrated early in life, so both are age-dependent patterns rather than a constant rate; and since Type II directly matches this description, 'none of these' is incorrect."
+      "explanation": "Correct: (A) Type II. Type II survivorship curves show a roughly constant death rate at every age throughout life. Type I instead shows mortality concentrated late in life, and Type III shows mortality concentrated early in life, so both are age-dependent patterns rather than a constant rate; and since Type II directly matches this description, 'none of these' is incorrect."
     },
     {
       "id": "3-32",
@@ -2606,7 +2606,7 @@ const QUESTIONS = {
         "Type III"
       ],
       "correct": 3,
-      "explanation": "Type III survivorship curves show very high early mortality, with the relatively few survivors then facing much lower mortality risk afterward — typical of r-selected species producing huge numbers of offspring with little parental care. Type I shows the opposite pattern, with mortality concentrated late in life; Type II shows a roughly constant death rate across all ages rather than a sharp early spike; and since Type III directly matches the description, 'none of these' is incorrect."
+      "explanation": "Correct: (D) Type III. Type III survivorship curves show very high early mortality, with the relatively few survivors then facing much lower mortality risk afterward — typical of r-selected species producing huge numbers of offspring with little parental care. Type I shows the opposite pattern, with mortality concentrated late in life; Type II shows a roughly constant death rate across all ages rather than a sharp early spike; and since Type III directly matches the description, 'none of these' is incorrect."
     },
     {
       "id": "3-33",
@@ -2619,7 +2619,7 @@ const QUESTIONS = {
         "Type II"
       ],
       "correct": 0,
-      "explanation": "Extremely high early-life (hatchling) mortality followed by much lower mortality risk for survivors is the defining pattern of a Type III curve, consistent with the sea turtle's r-selected strategy. Type I shows mortality concentrated late in life, the opposite of what's described; Type II shows a roughly constant death rate rather than a sharp early spike; and this scenario is a textbook Type III example, so it clearly does correspond to a recognized curve type."
+      "explanation": "Correct: (A) Type III. Extremely high early-life (hatchling) mortality followed by much lower mortality risk for survivors is the defining pattern of a Type III curve, consistent with the sea turtle's r-selected strategy. Type I shows mortality concentrated late in life, the opposite of what's described; Type II shows a roughly constant death rate rather than a sharp early spike; and this scenario is a textbook Type III example, so it clearly does correspond to a recognized curve type."
     },
     {
       "id": "3-34",
@@ -2632,7 +2632,7 @@ const QUESTIONS = {
         "Yes, but only for animal species, not plants."
       ],
       "correct": 2,
-      "explanation": "r-selected and K-selected are better understood as two ends of a continuum rather than two strictly separate, mutually exclusive categories — many real species display a mix of traits from both rather than a pure textbook example of either extreme. The two strategies are clearly distinct, not the same, so choice B is wrong; the continuum framework applies to plants as well as animals, not animals exclusively; and because most species fall somewhere along the spectrum, not every species fits neatly into one pure category."
+      "explanation": "Correct: (C) No — these represent two ends of a continuum, and many real species mix traits from both. r-selected and K-selected are better understood as two ends of a continuum rather than two strictly separate, mutually exclusive categories — many real species display a mix of traits from both rather than a pure textbook example of either extreme. The two strategies are clearly distinct, not the same, so choice B is wrong; the continuum framework applies to plants as well as animals, not animals exclusively; and because most species fall somewhere along the spectrum, not every species fits neatly into one pure category."
     },
     {
       "id": "3-35",
@@ -2645,7 +2645,7 @@ const QUESTIONS = {
         "Stable, predictable environments near carrying capacity."
       ],
       "correct": 1,
-      "explanation": "r-selected strategies (many offspring, rapid reproduction) tend to be favored in unstable, unpredictable environments, where rapidly capitalizing on temporarily favorable conditions before they change again provides a real reproductive advantage. Abundant, stable parental-care resources instead favor K-selection's high-investment strategy; r-selection clearly is favored under specific conditions, so 'no particular condition' is wrong; and stable, predictable environments near carrying capacity are the classic setting that favors K-selection, not r-selection."
+      "explanation": "Correct: (B) Unstable, unpredictable environments where rapid reproduction exploits brief favorable windows. r-selected strategies (many offspring, rapid reproduction) tend to be favored in unstable, unpredictable environments, where rapidly capitalizing on temporarily favorable conditions before they change again provides a real reproductive advantage. Abundant, stable parental-care resources instead favor K-selection's high-investment strategy; r-selection clearly is favored under specific conditions, so 'no particular condition' is wrong; and stable, predictable environments near carrying capacity are the classic setting that favors K-selection, not r-selection."
     },
     {
       "id": "3-36",
@@ -2658,7 +2658,7 @@ const QUESTIONS = {
         "Type I"
       ],
       "correct": 3,
-      "explanation": "This K-selected profile — few offspring, extensive parental care, long lifespan — is typically associated with a Type I survivorship curve: high survival through early and mid-life due to extensive parental protection, with mortality concentrated in old age. Type III instead describes high early mortality typical of r-selected species, and Type II describes a roughly constant death rate across all ages, neither of which fits this profile; and since Type I is a well-established match, the species clearly would display a recognizable pattern."
+      "explanation": "Correct: (D) Type I. This K-selected profile — few offspring, extensive parental care, long lifespan — is typically associated with a Type I survivorship curve: high survival through early and mid-life due to extensive parental protection, with mortality concentrated in old age. Type III instead describes high early mortality typical of r-selected species, and Type II describes a roughly constant death rate across all ages, neither of which fits this profile; and since Type I is a well-established match, the species clearly would display a recognizable pattern."
     },
     {
       "id": "3-37",
@@ -2671,7 +2671,7 @@ const QUESTIONS = {
         "Expansive (wide base, pyramid shape)"
       ],
       "correct": 3,
-      "explanation": "An expansive age structure diagram, with a wide base of young individuals narrowing toward older age groups, predicts continued rapid future growth as that large young cohort enters reproductive age. A stable/stationary (rectangular) shape instead predicts slow or near-zero growth, and a contractive (narrow-based) shape predicts future decline; since expansive clearly does predict growth, 'none of these shapes' is incorrect."
+      "explanation": "Correct: (D) Expansive (wide base, pyramid shape). An expansive age structure diagram, with a wide base of young individuals narrowing toward older age groups, predicts continued rapid future growth as that large young cohort enters reproductive age. A stable/stationary (rectangular) shape instead predicts slow or near-zero growth, and a contractive (narrow-based) shape predicts future decline; since expansive clearly does predict growth, 'none of these shapes' is incorrect."
     },
     {
       "id": "3-38",
@@ -2684,7 +2684,7 @@ const QUESTIONS = {
         "Expansive (wide base)"
       ],
       "correct": 0,
-      "explanation": "A contractive age structure diagram, with fewer young individuals than older ones, predicts future population decline, since fewer people are entering reproductive age than are currently in or past it. An expansive shape instead predicts continued rapid growth, and a stable/stationary shape predicts slow or near-zero growth; since these three shapes predict distinctly different trends, they clearly don't all predict identical growth."
+      "explanation": "Correct: (A) Contractive (narrower base than middle). A contractive age structure diagram, with fewer young individuals than older ones, predicts future population decline, since fewer people are entering reproductive age than are currently in or past it. An expansive shape instead predicts continued rapid growth, and a stable/stationary shape predicts slow or near-zero growth; since these three shapes predict distinctly different trends, they clearly don't all predict identical growth."
     },
     {
       "id": "3-39",
@@ -2697,7 +2697,7 @@ const QUESTIONS = {
         "Contractive (narrow base)"
       ],
       "correct": 0,
-      "explanation": "A stable/stationary age structure diagram, with a relatively even distribution of individuals across age groups, predicts slow or near-zero future population growth. A contractive shape instead predicts future decline, and an expansive shape predicts continued rapid growth; since stable/stationary clearly does predict slow growth, 'none of these shapes' is incorrect."
+      "explanation": "Correct: (A) Stable/stationary (roughly rectangular shape). A stable/stationary age structure diagram, with a relatively even distribution of individuals across age groups, predicts slow or near-zero future population growth. A contractive shape instead predicts future decline, and an expansive shape predicts continued rapid growth; since stable/stationary clearly does predict slow growth, 'none of these shapes' is incorrect."
     },
     {
       "id": "3-40",
@@ -2710,7 +2710,7 @@ const QUESTIONS = {
         "A large young cohort keeps driving growth even if birth rates decline starting today."
       ],
       "correct": 3,
-      "explanation": "Population momentum describes how a population with a large existing young cohort (a wide-based age structure) is essentially guaranteed substantial future growth as that cohort enters reproductive age, even if birth rates decline starting today — the existing age structure itself drives continued growth for some time regardless of policy changes. It is a well-established, specifically defined term, not meaningless; it describes continued growth rather than decline; and growth does not stop immediately when birth rates fall — that's precisely the delayed effect momentum captures."
+      "explanation": "Correct: (D) A large young cohort keeps driving growth even if birth rates decline starting today. Population momentum describes how a population with a large existing young cohort (a wide-based age structure) is essentially guaranteed substantial future growth as that cohort enters reproductive age, even if birth rates decline starting today — the existing age structure itself drives continued growth for some time regardless of policy changes. It is a well-established, specifically defined term, not meaningless; it describes continued growth rather than decline; and growth does not stop immediately when birth rates fall — that's precisely the delayed effect momentum captures."
     },
     {
       "id": "3-41",
@@ -2723,7 +2723,7 @@ const QUESTIONS = {
         "Relative age distribution, not absolute population size."
       ],
       "correct": 3,
-      "explanation": "An age structure diagram shows the relative proportion of the population in each age group — it does not directly convey the population's absolute (total) size, which must come from separate data. It does show relative distribution, so 'neither' is wrong; it does not show absolute size alone; and since it conveys proportions but not total size, it does not show both equally."
+      "explanation": "Correct: (D) Relative age distribution, not absolute population size. An age structure diagram shows the relative proportion of the population in each age group — it does not directly convey the population's absolute (total) size, which must come from separate data. It does show relative distribution, so 'neither' is wrong; it does not show absolute size alone; and since it conveys proportions but not total size, it does not show both equally."
     },
     {
       "id": "3-42",
@@ -2736,7 +2736,7 @@ const QUESTIONS = {
         "Both share a similar growth TREND, but Country B adds far more people in absolute terms."
       ],
       "correct": 3,
-      "explanation": "Since diagram shape reflects relative proportions, not absolute size, both countries share a similar predicted growth trend (continued growth, given the expansive shape) — but because Country B's starting population is ten times Country A's, the same proportional trend translates into a much larger absolute number of additional people. Diagrams can be compared across countries of different sizes for trend purposes; identical shape does not imply identical total population, since shape shows proportions, not counts; and both countries share the same growth direction, so they are not predicted to diverge into growth versus decline."
+      "explanation": "Correct: (D) Both share a similar growth TREND, but Country B adds far more people in absolute terms. Since diagram shape reflects relative proportions, not absolute size, both countries share a similar predicted growth trend (continued growth, given the expansive shape) — but because Country B's starting population is ten times Country A's, the same proportional trend translates into a much larger absolute number of additional people. Diagrams can be compared across countries of different sizes for trend purposes; identical shape does not imply identical total population, since shape shows proportions, not counts; and both countries share the same growth direction, so they are not predicted to diverge into growth versus decline."
     },
     {
       "id": "3-43",
@@ -2749,7 +2749,7 @@ const QUESTIONS = {
         "Rapid future growth"
       ],
       "correct": 2,
-      "explanation": "A roughly even distribution across all age groups is the defining feature of a stable/stationary age structure diagram, which predicts slow or near-zero future population growth. An expansive (wide-based) shape instead predicts rapid growth, and a contractive (narrow-based) shape predicts decline; since a stable diagram clearly does predict a specific trend, it does not predict 'nothing.'"
+      "explanation": "Correct: (C) Slow or near-zero future growth. A roughly even distribution across all age groups is the defining feature of a stable/stationary age structure diagram, which predicts slow or near-zero future population growth. An expansive (wide-based) shape instead predicts rapid growth, and a contractive (narrow-based) shape predicts decline; since a stable diagram clearly does predict a specific trend, it does not predict 'nothing.'"
     },
     {
       "id": "3-44",
@@ -2762,7 +2762,7 @@ const QUESTIONS = {
         "Countries never attempt to influence their birth rate through policy."
       ],
       "correct": 1,
-      "explanation": "While current population momentum (from the existing wide-based age structure) guarantees some continued growth in the near term regardless of policy, reducing birth rates today shapes the age structure of future generations, gradually reducing that momentum over a longer time horizon — a country's growth trajectory decades out is still meaningfully shaped by policies enacted today, even though near-term growth is largely already 'locked in.' Current age structure clearly does bear on future size, since that's the whole basis of momentum; such policies do have real long-term effects; and countries frequently do pursue birth-rate policy, contrary to choice D."
+      "explanation": "Correct: (B) Reducing birth rates today reshapes future age structure, gradually lowering population momentum. While current population momentum (from the existing wide-based age structure) guarantees some continued growth in the near term regardless of policy, reducing birth rates today shapes the age structure of future generations, gradually reducing that momentum over a longer time horizon — a country's growth trajectory decades out is still meaningfully shaped by policies enacted today, even though near-term growth is largely already 'locked in.' Current age structure clearly does bear on future size, since that's the whole basis of momentum; such policies do have real long-term effects; and countries frequently do pursue birth-rate policy, contrary to choice D."
     },
     {
       "id": "3-45",
@@ -2775,7 +2775,7 @@ const QUESTIONS = {
         "The oldest age group (post-reproductive)"
       ],
       "correct": 2,
-      "explanation": "The relative size of the youngest age groups — particularly those approaching or entering reproductive age — is most directly predictive of near-term future growth, since this cohort will soon determine the number of new births. The oldest, post-reproductive group has already passed its reproductive contribution and so says less about near-term growth; age structure diagrams clearly do distinguish between age groups, since that's their entire purpose; and the exact middle age group alone is less informative than the youngest cohorts for predicting near-term births."
+      "explanation": "Correct: (C) The youngest age groups, approaching or within reproductive age. The relative size of the youngest age groups — particularly those approaching or entering reproductive age — is most directly predictive of near-term future growth, since this cohort will soon determine the number of new births. The oldest, post-reproductive group has already passed its reproductive contribution and so says less about near-term growth; age structure diagrams clearly do distinguish between age groups, since that's their entire purpose; and the exact middle age group alone is less informative than the youngest cohorts for predicting near-term births."
     },
     {
       "id": "3-46",
@@ -2788,7 +2788,7 @@ const QUESTIONS = {
         "This shape indicates a population with no living individuals over age 40."
       ],
       "correct": 2,
-      "explanation": "A contractive diagram is defined by younger cohorts being smaller than middle-aged (or older) cohorts — indicating fewer people are being born than would be needed to fully replace the current population as it ages, predicting future population decline. This says nothing about a specific age cutoff for the oldest living individuals; it does not mean all cohorts are equal in size, which instead describes a stable/stationary diagram; and it describes the opposite pattern of an expansive diagram, where the oldest cohorts are smallest and youngest are largest."
+      "explanation": "Correct: (C) Younger cohorts smaller than middle-aged ones, predicting decline from incomplete replacement. A contractive diagram is defined by younger cohorts being smaller than middle-aged (or older) cohorts — indicating fewer people are being born than would be needed to fully replace the current population as it ages, predicting future population decline. This says nothing about a specific age cutoff for the oldest living individuals; it does not mean all cohorts are equal in size, which instead describes a stable/stationary diagram; and it describes the opposite pattern of an expansive diagram, where the oldest cohorts are smallest and youngest are largest."
     },
     {
       "id": "3-47",
@@ -2801,7 +2801,7 @@ const QUESTIONS = {
         "The average number of children a woman is expected to have in her lifetime."
       ],
       "correct": 3,
-      "explanation": "Total Fertility Rate (TFR) measures the average number of children a woman is expected to have over her reproductive lifetime, based on current age-specific birth rate patterns — a standard metric for comparing fertility trends across countries and time periods. It is not simply a total population count, not a measure of average lifespan (that's life expectancy), and not a measure of the youth share of the population, which is a related but distinct age-structure statistic."
+      "explanation": "Correct: (D) The average number of children a woman is expected to have in her lifetime. Total Fertility Rate (TFR) measures the average number of children a woman is expected to have over her reproductive lifetime, based on current age-specific birth rate patterns — a standard metric for comparing fertility trends across countries and time periods. It is not simply a total population count, not a measure of average lifespan (that's life expectancy), and not a measure of the youth share of the population, which is a related but distinct age-structure statistic."
     },
     {
       "id": "3-48",
@@ -2814,7 +2814,7 @@ const QUESTIONS = {
         "1.0"
       ],
       "correct": 2,
-      "explanation": "Replacement-level fertility — the TFR at which a population remains stable over time — is approximately 2.1 in most developed countries, slightly above the intuitive 2.0 to account for children who don't survive to reproductive age themselves. The other values are well above or well below this replacement level and would instead drive substantial long-term growth or decline, respectively."
+      "explanation": "Correct: (C) 2.1. Replacement-level fertility — the TFR at which a population remains stable over time — is approximately 2.1 in most developed countries, slightly above the intuitive 2.0 to account for children who don't survive to reproductive age themselves. The other values are well above or well below this replacement level and would instead drive substantial long-term growth or decline, respectively."
     },
     {
       "id": "3-49",
@@ -2853,7 +2853,7 @@ const QUESTIONS = {
         "Replacement-level fertility is actually always exactly equal to 2.0, with absolutely no exceptions ever."
       ],
       "correct": 2,
-      "explanation": "Since not every child born will survive to reproductive age and go on to have children of their own, a TFR of exactly 2.0 would actually result in a slowly declining population over time — the small buffer above 2.0 (to about 2.1 in developed countries) accounts for this reality. Replacement-level fertility is not fixed in every country, since it varies with child mortality; it has nothing to do with any preference for particular digits; and it reflects biology and demography, not a legal requirement on family size."
+      "explanation": "Correct: (C) Because not every child survives to reproductive age, requiring a buffer above 2.0. Since not every child born will survive to reproductive age and go on to have children of their own, a TFR of exactly 2.0 would actually result in a slowly declining population over time — the small buffer above 2.0 (to about 2.1 in developed countries) accounts for this reality. Replacement-level fertility is not fixed in every country, since it varies with child mortality; it has nothing to do with any preference for particular digits; and it reflects biology and demography, not a legal requirement on family size."
     },
     {
       "id": "3-52",
@@ -2866,7 +2866,7 @@ const QUESTIONS = {
         "Long-term population growth"
       ],
       "correct": 1,
-      "explanation": "A TFR of 1.5, well below the replacement level of approximately 2.1, predicts long-term population decline, all else being equal, since births are not keeping pace with the rate needed to replace the current population as it ages. A stable population would require TFR at approximately replacement level, not below it; growth would require TFR above replacement level; and TFR is, in fact, one of the primary drivers of long-term population trends, not unrelated to them."
+      "explanation": "Correct: (B) Long-term population decline. A TFR of 1.5, well below the replacement level of approximately 2.1, predicts long-term population decline, all else being equal, since births are not keeping pace with the rate needed to replace the current population as it ages. A stable population would require TFR at approximately replacement level, not below it; growth would require TFR above replacement level; and TFR is, in fact, one of the primary drivers of long-term population trends, not unrelated to them."
     },
     {
       "id": "3-53",
@@ -2879,7 +2879,7 @@ const QUESTIONS = {
         "Rapid long-term population growth"
       ],
       "correct": 1,
-      "explanation": "A TFR matching replacement-level fertility (approximately 2.1) predicts a roughly stable population size over the long term, all else being equal — births approximately balancing deaths. Rapid growth would require a TFR well above replacement level, and rapid decline would require a TFR well below it; since replacement-level TFR does predict a specific, well-established trend, it is not unrelated to population outcomes."
+      "explanation": "Correct: (B) A roughly stable population size over the long term. A TFR matching replacement-level fertility (approximately 2.1) predicts a roughly stable population size over the long term, all else being equal — births approximately balancing deaths. Rapid growth would require a TFR well above replacement level, and rapid decline would require a TFR well below it; since replacement-level TFR does predict a specific, well-established trend, it is not unrelated to population outcomes."
     },
     {
       "id": "3-54",
@@ -2892,7 +2892,7 @@ const QUESTIONS = {
         "Higher child mortality actually lowers the replacement-level fertility needed."
       ],
       "correct": 0,
-      "explanation": "Since replacement-level fertility must account for children who don't survive to reproductive age, a country with higher child mortality requires a correspondingly larger buffer above 2.0 to achieve the same long-term population stability — this is why replacement-level fertility is often meaningfully higher than 2.1 in some developing countries. Higher child mortality raises, not lowers, the fertility needed; replacement-level fertility therefore varies by country rather than staying fixed; and the concept applies just as meaningfully to developing countries as to developed ones."
+      "explanation": "Correct: (A) Higher child mortality requires a larger buffer above 2.0 to offset non-survival. Since replacement-level fertility must account for children who don't survive to reproductive age, a country with higher child mortality requires a correspondingly larger buffer above 2.0 to achieve the same long-term population stability — this is why replacement-level fertility is often meaningfully higher than 2.1 in some developing countries. Higher child mortality raises, not lowers, the fertility needed; replacement-level fertility therefore varies by country rather than staying fixed; and the concept applies just as meaningfully to developing countries as to developed ones."
     },
     {
       "id": "3-55",
@@ -2918,7 +2918,7 @@ const QUESTIONS = {
         "Very low birth rate, combined with a death rate that is instead steadily rising, causing decline."
       ],
       "correct": 1,
-      "explanation": "Stage 1 is characterized by both high birth rates AND high death rates, which roughly offset each other, resulting in slow or stable overall population growth — the historical pattern typical of pre-industrial societies. Low birth and death rates together instead describe a later, industrialized stage of slow growth; a very low birth rate paired with a rising death rate doesn't match this pre-industrial pattern at all; and a high birth rate paired with a low death rate, producing rapid growth, describes the stage right after this one, not this one itself."
+      "explanation": "Correct: (B) High birth rate, high death rate — the two roughly offset for slow, stable growth. Stage 1 is characterized by both high birth rates AND high death rates, which roughly offset each other, resulting in slow or stable overall population growth — the historical pattern typical of pre-industrial societies. Low birth and death rates together instead describe a later, industrialized stage of slow growth; a very low birth rate paired with a rising death rate doesn't match this pre-industrial pattern at all; and a high birth rate paired with a low death rate, producing rapid growth, describes the stage right after this one, not this one itself."
     },
     {
       "id": "3-57",
@@ -2931,7 +2931,7 @@ const QUESTIONS = {
         "High birth rate combined with a rapidly falling death rate, driving rapid growth."
       ],
       "correct": 3,
-      "explanation": "Stage 2 is characterized by birth rates remaining high (largely unchanged from Stage 1) while death rates fall rapidly (due to improved sanitation and medicine) — this gap between high births and falling deaths drives the rapid population growth characteristic of this stage. Birth rate falling faster than death rate instead describes a later stage in the transition; low birth and death rates together describe a much later, industrialized stage; and both rates rising simultaneously does not match any typical stage of the model."
+      "explanation": "Correct: (D) High birth rate combined with a rapidly falling death rate, driving rapid growth. Stage 2 is characterized by birth rates remaining high (largely unchanged from Stage 1) while death rates fall rapidly (due to improved sanitation and medicine) — this gap between high births and falling deaths drives the rapid population growth characteristic of this stage. Birth rate falling faster than death rate instead describes a later stage in the transition; low birth and death rates together describe a much later, industrialized stage; and both rates rising simultaneously does not match any typical stage of the model."
     },
     {
       "id": "3-58",
@@ -2944,7 +2944,7 @@ const QUESTIONS = {
         "Massive immigration from other countries."
       ],
       "correct": 1,
-      "explanation": "Stage 2's rapid growth results specifically from death rates falling sharply (due to improved sanitation and medicine) while birth rates remain high, largely unchanged from historical levels — not from any increase in birth rates themselves. The demographic transition model describes internal birth and death rate dynamics, not immigration; if both rates fell at the same pace, the gap driving growth wouldn't open up; and there is no sudden birth-rate increase built into this stage of the model."
+      "explanation": "Correct: (B) A sharp fall in death rates while birth rates stay high and largely unchanged. Stage 2's rapid growth results specifically from death rates falling sharply (due to improved sanitation and medicine) while birth rates remain high, largely unchanged from historical levels — not from any increase in birth rates themselves. The demographic transition model describes internal birth and death rate dynamics, not immigration; if both rates fell at the same pace, the gap driving growth wouldn't open up; and there is no sudden birth-rate increase built into this stage of the model."
     },
     {
       "id": "3-59",
@@ -2957,7 +2957,7 @@ const QUESTIONS = {
         "High birth rate, low death rate, rapid growth."
       ],
       "correct": 2,
-      "explanation": "Stage 4 is characterized by both low birth rates AND low death rates, resulting in slow or stable population growth — typical of many developed, industrialized nations. A high birth rate paired with a low death rate, producing rapid growth, instead describes an earlier stage; a high birth rate paired with a high death rate describes the very first stage of the model; and an extremely rapid-growth combination of very high births and very low deaths does not match this stage's slow, stable pattern."
+      "explanation": "Correct: (C) Low birth rate, low death rate, slow/stable growth. Stage 4 is characterized by both low birth rates AND low death rates, resulting in slow or stable population growth — typical of many developed, industrialized nations. A high birth rate paired with a low death rate, producing rapid growth, instead describes an earlier stage; a high birth rate paired with a high death rate describes the very first stage of the model; and an extremely rapid-growth combination of very high births and very low deaths does not match this stage's slow, stable pattern."
     },
     {
       "id": "3-60",
@@ -2970,7 +2970,7 @@ const QUESTIONS = {
         "Stage 2"
       ],
       "correct": 0,
-      "explanation": "Birth rates typically begin falling in Stage 3, often as factors like urbanization, increased women's education and workforce participation, and access to family planning start to change family size decisions — a later development than the death rate decline that characterizes Stage 2. Birth rates in the very first stage are high and stable, and in the stage right after that, birth rates remain high even as death rates fall; since birth rates clearly do fall in this stage and beyond, they do not 'never' fall in this model."
+      "explanation": "Correct: (A) Stage 3. Birth rates typically begin falling in Stage 3, often as factors like urbanization, increased women's education and workforce participation, and access to family planning start to change family size decisions — a later development than the death rate decline that characterizes Stage 2. Birth rates in the very first stage are high and stable, and in the stage right after that, birth rates remain high even as death rates fall; since birth rates clearly do fall in this stage and beyond, they do not 'never' fall in this model."
     },
     {
       "id": "3-61",
@@ -2983,7 +2983,7 @@ const QUESTIONS = {
         "Birth rate falls below replacement level, with death rate possibly rising due to aging."
       ],
       "correct": 3,
-      "explanation": "Stage 5 describes some developed nations where birth rate falls below replacement level, and the death rate may begin rising again due to an aging population structure — together predicting potential population decline, a pattern observed in some countries beyond the traditional four-stage model. Death rate does not fall to zero, which isn't biologically possible; this stage involves a low birth rate, not a very high one; and its low-birth, possibly-rising-death profile is distinct from the very first stage's high-birth, high-death profile, not identical to it."
+      "explanation": "Correct: (D) Birth rate falls below replacement level, with death rate possibly rising due to aging. Stage 5 describes some developed nations where birth rate falls below replacement level, and the death rate may begin rising again due to an aging population structure — together predicting potential population decline, a pattern observed in some countries beyond the traditional four-stage model. Death rate does not fall to zero, which isn't biologically possible; this stage involves a low birth rate, not a very high one; and its low-birth, possibly-rising-death profile is distinct from the very first stage's high-birth, high-death profile, not identical to it."
     },
     {
       "id": "3-62",
@@ -2996,7 +2996,7 @@ const QUESTIONS = {
         "No — the model describes a general pattern; countries move through stages at their own pace."
       ],
       "correct": 3,
-      "explanation": "The demographic transition model describes a general historical pattern observed across many industrializing nations, not a rigid, universal law — countries can and do move through the stages at different paces and with somewhat different specific dynamics, based on their own circumstances. The model has, in fact, been observed, with variation, in numerous real countries, not just European ones, so neither 'never observed' nor 'Europe only' is correct, and that same variation across countries rules out an exact, identical timeline for every country."
+      "explanation": "Correct: (D) No — the model describes a general pattern; countries move through stages at their own pace. The demographic transition model describes a general historical pattern observed across many industrializing nations, not a rigid, universal law — countries can and do move through the stages at different paces and with somewhat different specific dynamics, based on their own circumstances. The model has, in fact, been observed, with variation, in numerous real countries, not just European ones, so neither 'never observed' nor 'Europe only' is correct, and that same variation across countries rules out an exact, identical timeline for every country."
     },
     {
       "id": "3-63",
@@ -3009,7 +3009,7 @@ const QUESTIONS = {
         "Stage 1"
       ],
       "correct": 1,
-      "explanation": "High, unchanged birth rate combined with a recently, sharply falling death rate is precisely the defining pattern of Stage 2 — driving the rapid population growth characteristic of this stage. The very first stage instead has both birth and death rates high, with no recent death-rate drop; a later, industrialized stage has both rates low; and the stage beyond that involves a birth rate below replacement level, not a still-high one — none of these match the scenario as well as the death-rate-falling stage described here."
+      "explanation": "Correct: (B) Stage 2. High, unchanged birth rate combined with a recently, sharply falling death rate is precisely the defining pattern of Stage 2 — driving the rapid population growth characteristic of this stage. The very first stage instead has both birth and death rates high, with no recent death-rate drop; a later, industrialized stage has both rates low; and the stage beyond that involves a birth rate below replacement level, not a still-high one — none of these match the scenario as well as the death-rate-falling stage described here."
     },
     {
       "id": "3-64",
@@ -3022,7 +3022,7 @@ const QUESTIONS = {
         "Stage 1"
       ],
       "correct": 2,
-      "explanation": "Low birth rate combined with low death rate, producing slow but still positive growth, is the defining pattern of Stage 4 — distinguished from Stage 5, where birth rate falls below replacement level and growth turns negative. The very first stage instead has both rates high, and the stage right after has a high birth rate with a rapidly falling death rate; neither matches a low-low, still-slightly-positive profile as well as the stage described here."
+      "explanation": "Correct: (C) Stage 4. Low birth rate combined with low death rate, producing slow but still positive growth, is the defining pattern of Stage 4 — distinguished from Stage 5, where birth rate falls below replacement level and growth turns negative. The very first stage instead has both rates high, and the stage right after has a high birth rate with a rapidly falling death rate; neither matches a low-low, still-slightly-positive profile as well as the stage described here."
     },
     {
       "id": "3-65",
@@ -3035,7 +3035,7 @@ const QUESTIONS = {
         "The demographic transition model requires a minimum of 200 years to apply to any country."
       ],
       "correct": 2,
-      "explanation": "This scenario tests whether the demographic transition model's core LOGIC (the sequence of mechanisms — death rates fall first due to improved sanitation and medicine, birth rates fall later due to social and economic changes) can be distinguished from its historical TIMEFRAME, which was based on the specific, often slower pace of change in the countries first studied (mostly in Europe). A country that develops the underlying drivers (public health infrastructure, education, family planning) more rapidly can move through the same fundamental sequence of stages in a much shorter period — the model's validity rests on the sequence and mechanism holding, not on requiring any particular fixed number of years to complete. The scenario therefore does not contradict the model, and the country did experience a genuine demographic transition, just a compressed one; nothing in the model imposes any particular minimum required duration."
+      "explanation": "Correct: (C) The model describes the sequence of change, not a fixed timeframe, so a country can compress it if drivers develop faster. This scenario tests whether the demographic transition model's core LOGIC (the sequence of mechanisms — death rates fall first due to improved sanitation and medicine, birth rates fall later due to social and economic changes) can be distinguished from its historical TIMEFRAME, which was based on the specific, often slower pace of change in the countries first studied (mostly in Europe). A country that develops the underlying drivers (public health infrastructure, education, family planning) more rapidly can move through the same fundamental sequence of stages in a much shorter period — the model's validity rests on the sequence and mechanism holding, not on requiring any particular fixed number of years to complete. The scenario therefore does not contradict the model, and the country did experience a genuine demographic transition, just a compressed one; nothing in the model imposes any particular minimum required duration."
     },
     {
       "id": "3-66",
@@ -3074,7 +3074,7 @@ const QUESTIONS = {
         "It represents impact per unit of consumption; cleaner tech can lower T as P or A rise."
       ],
       "correct": 3,
-      "explanation": "Technology (T) represents the environmental impact generated per unit of consumption, and it can cut both ways: cleaner, more efficient technology lowers T, reducing total impact even as population or affluence rise, while dirtier, less efficient technology raises T, worsening it. T is a core, meaningful term in the equation, not an irrelevant one; consumption per capita is Affluence (A), not Technology; and T is a variable that clearly can rise or fall, not a fixed value."
+      "explanation": "Correct: (D) It represents impact per unit of consumption; cleaner tech can lower T as P or A rise. Technology (T) represents the environmental impact generated per unit of consumption, and it can cut both ways: cleaner, more efficient technology lowers T, reducing total impact even as population or affluence rise, while dirtier, less efficient technology raises T, worsening it. T is a core, meaningful term in the equation, not an irrelevant one; consumption per capita is Affluence (A), not Technology; and T is a variable that clearly can rise or fall, not a fixed value."
     },
     {
       "id": "3-69",
@@ -3100,7 +3100,7 @@ const QUESTIONS = {
         "Affluence and technology have no real effect on total environmental impact."
       ],
       "correct": 0,
-      "explanation": "This directly demonstrates the IPAT equation's core lesson: because impact is a product of population, affluence, and technology, very different combinations of these three factors can produce the same total impact — population size alone doesn't determine the outcome. Affluence and technology clearly do matter, since they're what allow the smaller country to reach the same impact; the scenario is entirely possible under IPAT's multiplicative structure; and population is evidently not the only relevant factor, since it differs between the two countries while total impact does not."
+      "explanation": "Correct: (A) Impact is the multiplicative product of P, A, and T — different combinations can yield equal totals. This directly demonstrates the IPAT equation's core lesson: because impact is a product of population, affluence, and technology, very different combinations of these three factors can produce the same total impact — population size alone doesn't determine the outcome. Affluence and technology clearly do matter, since they're what allow the smaller country to reach the same impact; the scenario is entirely possible under IPAT's multiplicative structure; and population is evidently not the only relevant factor, since it differs between the two countries while total impact does not."
     },
     {
       "id": "3-71",
@@ -3113,7 +3113,7 @@ const QUESTIONS = {
         "A synonym for the demographic transition model."
       ],
       "correct": 2,
-      "explanation": "An ecological footprint is the amount of biologically productive land and water area required to produce the resources a population consumes and absorb the waste it generates — a land-area-based measure of environmental impact, not a population count. It captures more than just carbon emissions, including food, water, materials, and waste absorption broadly, and it is an entirely separate concept from the demographic transition model, which describes birth and death rate patterns."
+      "explanation": "Correct: (C) The land and water area needed to produce a population's resources and absorb its waste. An ecological footprint is the amount of biologically productive land and water area required to produce the resources a population consumes and absorb the waste it generates — a land-area-based measure of environmental impact, not a population count. It captures more than just carbon emissions, including food, water, materials, and waste absorption broadly, and it is an entirely separate concept from the demographic transition model, which describes birth and death rate patterns."
     },
     {
       "id": "3-72",
@@ -3126,7 +3126,7 @@ const QUESTIONS = {
         "A synonym for the demographic transition model's Stage 2."
       ],
       "correct": 2,
-      "explanation": "Ecological overshoot occurs when a population's ecological footprint exceeds the available biocapacity — the biologically productive area actually available — consuming and generating waste faster than the region or planet can regenerate and absorb. The reverse relationship, biocapacity exceeding footprint, would describe sustainability, not overshoot; the term has no connection to the demographic transition model's stages; and it is, in fact, directly and specifically defined in terms of footprint and biocapacity, not unrelated to them."
+      "explanation": "Correct: (C) When ecological footprint exceeds available biocapacity, outpacing the region's ability to regenerate. Ecological overshoot occurs when a population's ecological footprint exceeds the available biocapacity — the biologically productive area actually available — consuming and generating waste faster than the region or planet can regenerate and absorb. The reverse relationship, biocapacity exceeding footprint, would describe sustainability, not overshoot; the term has no connection to the demographic transition model's stages; and it is, in fact, directly and specifically defined in terms of footprint and biocapacity, not unrelated to them."
     },
     {
       "id": "3-73",
@@ -3139,7 +3139,7 @@ const QUESTIONS = {
         "Country N may see A plateau while continuing to improve T; Country M's lower affluence likely means future pressure for A to rise."
       ],
       "correct": 3,
-      "explanation": "This question tests reasoning about the equation's future dynamics, not just a static snapshot: Country M's low current affluence likely means future pressure for A to rise as living standards improve — a normal development trajectory — and if T doesn't improve fast enough to offset that rising A, Country M's footprint could grow substantially. Country N, already at high affluence, may see A plateau, while its demonstrated capacity for efficient technology suggests more room to further reduce T, potentially shrinking its footprint further. Identical current impact therefore does not guarantee identical future impact; A and T trajectories clearly do matter to future footprint; and Country M's footprint is not guaranteed to shrink, since it could just as easily grow if affluence rises faster than technology improves."
+      "explanation": "Correct: (D) Country N may see A plateau while continuing to improve T; Country M's lower affluence likely means future pressure for A to rise. This question tests reasoning about the equation's future dynamics, not just a static snapshot: Country M's low current affluence likely means future pressure for A to rise as living standards improve — a normal development trajectory — and if T doesn't improve fast enough to offset that rising A, Country M's footprint could grow substantially. Country N, already at high affluence, may see A plateau, while its demonstrated capacity for efficient technology suggests more room to further reduce T, potentially shrinking its footprint further. Identical current impact therefore does not guarantee identical future impact; A and T trajectories clearly do matter to future footprint; and Country M's footprint is not guaranteed to shrink, since it could just as easily grow if affluence rises faster than technology improves."
     },
     {
       "id": "3-74",
@@ -3152,7 +3152,7 @@ const QUESTIONS = {
         "A below-replacement TFR always and automatically produces overall population growth, regardless of any other factor whatsoever."
       ],
       "correct": 2,
-      "explanation": "TFR, CBR, and CDR only capture natural increase (births minus deaths); a country's actual overall growth also depends on net migration, so a below-replacement TFR can still coincide with overall population growth if immigration is high enough to offset the natural decrease. Nothing in the scenario suggests the TFR figure itself is wrong; a below-replacement TFR does not produce growth on its own — by definition it implies natural decrease — and a negative crude death rate is not physically possible, since deaths cannot be negative."
+      "explanation": "Correct: (C) Net in-migration has been high enough to offset the natural decrease implied by the below-replacement TFR. TFR, CBR, and CDR only capture natural increase (births minus deaths); a country's actual overall growth also depends on net migration, so a below-replacement TFR can still coincide with overall population growth if immigration is high enough to offset the natural decrease. Nothing in the scenario suggests the TFR figure itself is wrong; a below-replacement TFR does not produce growth on its own — by definition it implies natural decrease — and a negative crude death rate is not physically possible, since deaths cannot be negative."
     },
     {
       "id": "3-75",
@@ -3165,7 +3165,7 @@ const QUESTIONS = {
         "Population and Affluence"
       ],
       "correct": 0,
-      "explanation": "Per-capita ecological footprint converts the abstract Affluence (A, consumption per person) × Technology (T, impact per unit consumed) portion of IPAT into a concrete, comparable land-area measurement — higher consumption and less efficient technology both directly increase the required land and water area. Since footprint is expressed per capita, Population (P) is already factored out and so isn't one of the two terms being expressed; and Impact is the equation's overall output, not one of its two input terms being converted here."
+      "explanation": "Correct: (A) Affluence and Technology. Per-capita ecological footprint converts the abstract Affluence (A, consumption per person) × Technology (T, impact per unit consumed) portion of IPAT into a concrete, comparable land-area measurement — higher consumption and less efficient technology both directly increase the required land and water area. Since footprint is expressed per capita, Population (P) is already factored out and so isn't one of the two terms being expressed; and Impact is the equation's overall output, not one of its two input terms being converted here."
     },
     {
       "id": "3-76",
@@ -3178,7 +3178,7 @@ const QUESTIONS = {
         "Migration has no effect on either country's total population size."
       ],
       "correct": 0,
-      "explanation": "Because TFR, CBR, and CDR only capture natural increase, two countries with identical values for those metrics can still have very different overall growth rates once net migration is factored in — Country Q's net immigration adds to its natural increase, while Country P's net emigration subtracts from its natural increase, so their overall growth diverges despite identical natural-increase inputs. Identical TFR/CBR/CDR therefore does not guarantee identical overall growth; emigration reduces, not increases, a country's overall growth; and migration clearly does affect total population size, contrary to choice D."
+      "explanation": "Correct: (A) Country Q's overall growth tends to be higher, since migration adds to its natural increase while subtracting from P's. Because TFR, CBR, and CDR only capture natural increase, two countries with identical values for those metrics can still have very different overall growth rates once net migration is factored in — Country Q's net immigration adds to its natural increase, while Country P's net emigration subtracts from its natural increase, so their overall growth diverges despite identical natural-increase inputs. Identical TFR/CBR/CDR therefore does not guarantee identical overall growth; emigration reduces, not increases, a country's overall growth; and migration clearly does affect total population size, contrary to choice D."
     }
   ],
   "4": [
@@ -3193,7 +3193,7 @@ const QUESTIONS = {
         "Daily ocean tides pulling on the crust"
       ],
       "correct": 1,
-      "explanation": "Convection currents deep within the mantle, driven by heat from Earth's interior, drag the rigid plates above them, producing plate motion. The moon's gravity drives tides, not plate motion, and is not the mechanism at work here. Ocean tides are a surface water phenomenon with no bearing on deep mantle dynamics. Surface winds act only on the atmosphere and water bodies, far too weak and too shallow to move continent-sized slabs of rock."
+      "explanation": "Correct: (B) Convection currents within the mantle. Convection currents deep within the mantle, driven by heat from Earth's interior, drag the rigid plates above them, producing plate motion. The moon's gravity drives tides, not plate motion, and is not the mechanism at work here. Ocean tides are a surface water phenomenon with no bearing on deep mantle dynamics. Surface winds act only on the atmosphere and water bodies, far too weak and too shallow to move continent-sized slabs of rock."
     },
     {
       "id": "4-2",
@@ -3206,7 +3206,7 @@ const QUESTIONS = {
         "Plates collide, producing subduction, mountain building, volcanoes, and earthquakes"
       ],
       "correct": 3,
-      "explanation": "Convergent boundaries, where plates collide, are the most geologically active of the three boundary types, producing subduction, mountain building, volcanism, and earthquakes. Sliding past each other with little vertical motion or volcanism instead describes a transform boundary. No relative motion at all describes no real boundary — plates are always moving, however slowly. Plates moving apart with new crust forming describes a divergent boundary, the opposite of what happens when plates collide."
+      "explanation": "Correct: (D) Plates collide, producing subduction, mountain building, volcanoes, and earthquakes. Convergent boundaries, where plates collide, are the most geologically active of the three boundary types, producing subduction, mountain building, volcanism, and earthquakes. Sliding past each other with little vertical motion or volcanism instead describes a transform boundary. No relative motion at all describes no real boundary — plates are always moving, however slowly. Plates moving apart with new crust forming describes a divergent boundary, the opposite of what happens when plates collide."
     },
     {
       "id": "4-3",
@@ -3219,7 +3219,7 @@ const QUESTIONS = {
         "Plates collide and one is forced beneath the other in a subduction zone"
       ],
       "correct": 0,
-      "explanation": "Divergent boundaries, where plates move apart, are associated with seafloor spreading and new crust forming as magma rises to fill the gap. Colliding with subduction describes a convergent boundary, the opposite motion. Sliding horizontally past one another describes a transform boundary, not a divergent one. And divergent boundaries are in fact defined by active crust creation, not by plates staying fixed."
+      "explanation": "Correct: (A) Plates move apart, allowing new crust to form via seafloor spreading. Divergent boundaries, where plates move apart, are associated with seafloor spreading and new crust forming as magma rises to fill the gap. Colliding with subduction describes a convergent boundary, the opposite motion. Sliding horizontally past one another describes a transform boundary, not a divergent one. And divergent boundaries are in fact defined by active crust creation, not by plates staying fixed."
     },
     {
       "id": "4-4",
@@ -3232,7 +3232,7 @@ const QUESTIONS = {
         "Significant volcanic activity with comparatively few earthquakes"
       ],
       "correct": 2,
-      "explanation": "Transform boundaries, where plates slide horizontally past one another, produce earthquakes but generally without significant volcanism, since no plate is subducted and no new magma pathway is created. New ocean basins forming describes a divergent boundary. Heavy volcanism with few earthquakes doesn't match any single boundary type well, and in any case transform boundaries are earthquake-dominated, not volcano-dominated. Mountain building via subduction describes a convergent boundary, not a transform one."
+      "explanation": "Correct: (C) Earthquakes without much volcanism, as plates slide past each other. Transform boundaries, where plates slide horizontally past one another, produce earthquakes but generally without significant volcanism, since no plate is subducted and no new magma pathway is created. New ocean basins forming describes a divergent boundary. Heavy volcanism with few earthquakes doesn't match any single boundary type well, and in any case transform boundaries are earthquake-dominated, not volcano-dominated. Mountain building via subduction describes a convergent boundary, not a transform one."
     },
     {
       "id": "4-5",
@@ -3245,7 +3245,7 @@ const QUESTIONS = {
         "An informal synonym some use for the equator and its tropical belt"
       ],
       "correct": 2,
-      "explanation": "The Ring of Fire is the horseshoe-shaped zone around the Pacific basin where a large share of the world's earthquakes and volcanoes cluster, corresponding to convergent boundaries surrounding the Pacific Plate. It is not an Atlantic weather pattern — it is a geological feature, not a meteorological one. It is unrelated to the equator, which is a line of latitude, not a tectonic feature. And it has nothing to do with atmospheric layers such as the thermosphere; 'Ring of Fire' refers to Earth's crust, not its atmosphere."
+      "explanation": "Correct: (C) A horseshoe-shaped Pacific zone with many earthquakes and volcanoes, matching plate boundaries. The Ring of Fire is the horseshoe-shaped zone around the Pacific basin where a large share of the world's earthquakes and volcanoes cluster, corresponding to convergent boundaries surrounding the Pacific Plate. It is not an Atlantic weather pattern — it is a geological feature, not a meteorological one. It is unrelated to the equator, which is a line of latitude, not a tectonic feature. And it has nothing to do with atmospheric layers such as the thermosphere; 'Ring of Fire' refers to Earth's crust, not its atmosphere."
     },
     {
       "id": "4-6",
@@ -3258,7 +3258,7 @@ const QUESTIONS = {
         "Earthquake activity only, with minimal volcanic risk"
       ],
       "correct": 2,
-      "explanation": "This describes a convergent subduction boundary, which produces both significant earthquakes (from the stress of one plate grinding beneath another) and volcanism (as the subducted plate melts at depth and rises as magma). Earthquakes with minimal volcanic risk understates the volcanism that subduction reliably generates. Neither hazard occurring is wrong because subduction is precisely the setting most associated with both hazards. Volcanic activity with minimal earthquake risk understates the earthquake activity subduction produces."
+      "explanation": "Correct: (C) Both significant earthquake activity and volcanic activity. This describes a convergent subduction boundary, which produces both significant earthquakes (from the stress of one plate grinding beneath another) and volcanism (as the subducted plate melts at depth and rises as magma). Earthquakes with minimal volcanic risk understates the volcanism that subduction reliably generates. Neither hazard occurring is wrong because subduction is precisely the setting most associated with both hazards. Volcanic activity with minimal earthquake risk understates the earthquake activity subduction produces."
     },
     {
       "id": "4-7",
@@ -3271,7 +3271,7 @@ const QUESTIONS = {
         "Convergent, since the plates there are colliding head-on"
       ],
       "correct": 1,
-      "explanation": "The San Andreas Fault is a classic transform boundary, where the Pacific and North American Plates slide horizontally past each other, producing earthquakes without major associated volcanism. It is not convergent, since the plates are not colliding or subducting there. It is not divergent, since the plates are not pulling apart or creating new crust. And since transform correctly describes it, 'none of these' is incorrect."
+      "explanation": "Correct: (B) Transform, since the plates slide horizontally past each other. The San Andreas Fault is a classic transform boundary, where the Pacific and North American Plates slide horizontally past each other, producing earthquakes without major associated volcanism. It is not convergent, since the plates are not colliding or subducting there. It is not divergent, since the plates are not pulling apart or creating new crust. And since transform correctly describes it, 'none of these' is incorrect."
     },
     {
       "id": "4-8",
@@ -3284,7 +3284,7 @@ const QUESTIONS = {
         "Transform, since the plates slide past one another there"
       ],
       "correct": 1,
-      "explanation": "The Mid-Atlantic Ridge is a textbook divergent boundary, where plates move apart and new oceanic crust forms via seafloor spreading. It is not transform, since the plates there are pulling apart rather than sliding past each other. It is very much connected to plate boundaries — it is one of the most-studied examples of one. And it is not convergent, since no collision or subduction occurs along the ridge."
+      "explanation": "Correct: (B) Divergent, since new ocean floor forms as plates pull apart. The Mid-Atlantic Ridge is a textbook divergent boundary, where plates move apart and new oceanic crust forms via seafloor spreading. It is not transform, since the plates there are pulling apart rather than sliding past each other. It is very much connected to plate boundaries — it is one of the most-studied examples of one. And it is not convergent, since no collision or subduction occurs along the ridge."
     },
     {
       "id": "4-9",
@@ -3297,7 +3297,7 @@ const QUESTIONS = {
         "Boundary stress, friction, and magma movement directly cause most seismic and volcanic activity"
       ],
       "correct": 3,
-      "explanation": "The clustering reflects real underlying physics: the stress and friction of plates colliding or sliding, and the magma generated by subduction or seafloor spreading, directly cause most of this activity. Saying earthquakes and volcanoes occur independently of tectonics ignores that plate motion is their primary driver. Calling the pattern coincidental contradicts the well-established physical mechanism linking the two. And 'unrelated' is simply false — boundaries are where the relevant stresses concentrate."
+      "explanation": "Correct: (D) Boundary stress, friction, and magma movement directly cause most seismic and volcanic activity. The clustering reflects real underlying physics: the stress and friction of plates colliding or sliding, and the magma generated by subduction or seafloor spreading, directly cause most of this activity. Saying earthquakes and volcanoes occur independently of tectonics ignores that plate motion is their primary driver. Calling the pattern coincidental contradicts the well-established physical mechanism linking the two. And 'unrelated' is simply false — boundaries are where the relevant stresses concentrate."
     },
     {
       "id": "4-10",
@@ -3310,7 +3310,7 @@ const QUESTIONS = {
         "Troposphere, the lowest atmospheric layer"
       ],
       "correct": 3,
-      "explanation": "The troposphere is the lowest atmospheric layer, closest to Earth's surface, and is where essentially all weather occurs. The stratosphere sits above it and contains the ozone layer, not the weather. The mesosphere is a colder layer further out, above the stratosphere, well above where weather forms. The thermosphere is the outermost major layer, far too high and too thin to produce weather."
+      "explanation": "Correct: (D) Troposphere, the lowest atmospheric layer. The troposphere is the lowest atmospheric layer, closest to Earth's surface, and is where essentially all weather occurs. The stratosphere sits above it and contains the ozone layer, not the weather. The mesosphere is a colder layer further out, above the stratosphere, well above where weather forms. The thermosphere is the outermost major layer, far too high and too thin to produce weather."
     },
     {
       "id": "4-11",
@@ -3323,7 +3323,7 @@ const QUESTIONS = {
         "Temperature increases steadily with altitude"
       ],
       "correct": 1,
-      "explanation": "In the troposphere, temperature decreases with increasing altitude because this layer is heated primarily from below, by energy radiating up from Earth's warmed surface. Temperature increasing with altitude instead describes the stratosphere, where ozone absorbs UV radiation. Staying constant doesn't match the troposphere's well-documented cooling trend. And the pattern is not random — it follows a predictable, measurable decline with height."
+      "explanation": "Correct: (B) Temperature decreases with altitude. In the troposphere, temperature decreases with increasing altitude because this layer is heated primarily from below, by energy radiating up from Earth's warmed surface. Temperature increasing with altitude instead describes the stratosphere, where ozone absorbs UV radiation. Staying constant doesn't match the troposphere's well-documented cooling trend. And the pattern is not random — it follows a predictable, measurable decline with height."
     },
     {
       "id": "4-12",
@@ -3336,7 +3336,7 @@ const QUESTIONS = {
         "Troposphere, the lowest atmospheric layer"
       ],
       "correct": 1,
-      "explanation": "The stratosphere contains the ozone layer, which absorbs a significant portion of incoming ultraviolet radiation. The thermosphere is far too high and thin to be where ozone concentrates. The troposphere, at the surface, is where weather occurs but not where ozone is concentrated. The mesosphere sits above the stratosphere and is known for being the coldest layer overall, not for containing ozone."
+      "explanation": "Correct: (B) Stratosphere, the second layer from the surface. The stratosphere contains the ozone layer, which absorbs a significant portion of incoming ultraviolet radiation. The thermosphere is far too high and thin to be where ozone concentrates. The troposphere, at the surface, is where weather occurs but not where ozone is concentrated. The mesosphere sits above the stratosphere and is known for being the coldest layer overall, not for containing ozone."
     },
     {
       "id": "4-13",
@@ -3349,7 +3349,7 @@ const QUESTIONS = {
         "The stratosphere's temperature is not something scientists can measure"
       ],
       "correct": 0,
-      "explanation": "Temperature increases with altitude in the stratosphere because the ozone layer absorbs UV radiation and converts it to heat, with the effect strongest near the top of the layer. It does not decrease the way the troposphere's does — that's the opposite pattern, driven by a different heating source (the surface). It does not stay constant; the warming trend is measurable and well-documented. And stratospheric temperature is in fact routinely measured by weather balloons and satellites."
+      "explanation": "Correct: (A) Temperature increases with altitude, due to ozone absorbing UV radiation. Temperature increases with altitude in the stratosphere because the ozone layer absorbs UV radiation and converts it to heat, with the effect strongest near the top of the layer. It does not decrease the way the troposphere's does — that's the opposite pattern, driven by a different heating source (the surface). It does not stay constant; the warming trend is measurable and well-documented. And stratospheric temperature is in fact routinely measured by weather balloons and satellites."
     },
     {
       "id": "4-14",
@@ -3362,7 +3362,7 @@ const QUESTIONS = {
         "Argon and oxygen, the two most abundant atmospheric gases in the lower atmosphere"
       ],
       "correct": 1,
-      "explanation": "Nitrogen (about 78%) and oxygen (about 21%) together make up roughly 99% of Earth's atmosphere by volume. Argon is only a trace gas (about 1%), so pairing it with oxygen overstates its abundance. Carbon dioxide is present in even smaller trace amounts, so both options pairing it with nitrogen or oxygen mistake a trace gas for one of the two dominant ones."
+      "explanation": "Correct: (B) Nitrogen and oxygen, together making up roughly 99% of the atmosphere. Nitrogen (about 78%) and oxygen (about 21%) together make up roughly 99% of Earth's atmosphere by volume. Argon is only a trace gas (about 1%), so pairing it with oxygen overstates its abundance. Carbon dioxide is present in even smaller trace amounts, so both options pairing it with nitrogen or oxygen mistake a trace gas for one of the two dominant ones."
     },
     {
       "id": "4-15",
@@ -3375,7 +3375,7 @@ const QUESTIONS = {
         "Less than 0.05%, a trace gas despite its outsized climate role"
       ],
       "correct": 3,
-      "explanation": "Carbon dioxide makes up less than 0.05% of the atmosphere by volume — a trace gas, despite its outsized importance for the greenhouse effect. About 5% overstates its true share by roughly a hundredfold. About 78% is actually nitrogen's share, not CO2's. About 21% is actually oxygen's share, not CO2's."
+      "explanation": "Correct: (D) Less than 0.05%, a trace gas despite its outsized climate role. Carbon dioxide makes up less than 0.05% of the atmosphere by volume — a trace gas, despite its outsized importance for the greenhouse effect. About 5% overstates its true share by roughly a hundredfold. About 78% is actually nitrogen's share, not CO2's. About 21% is actually oxygen's share, not CO2's."
     },
     {
       "id": "4-16",
@@ -3388,7 +3388,7 @@ const QUESTIONS = {
         "Because CO2 is actually the single most abundant gas in the whole atmosphere by volume"
       ],
       "correct": 2,
-      "explanation": "CO2's climate significance comes from its molecular properties — its ability to absorb and re-radiate infrared energy — not from how abundant it is, showing that atmospheric importance doesn't necessarily track with abundance. Claiming importance always correlates with abundance is exactly the assumption this question disproves. CO2 is not the most abundant gas; nitrogen and oxygen vastly exceed it. And dismissing CO2 as insignificant contradicts its well-established, measurable role in the greenhouse effect."
+      "explanation": "Correct: (C) CO2's significance comes from absorbing and re-radiating infrared energy, not its abundance. CO2's climate significance comes from its molecular properties — its ability to absorb and re-radiate infrared energy — not from how abundant it is, showing that atmospheric importance doesn't necessarily track with abundance. Claiming importance always correlates with abundance is exactly the assumption this question disproves. CO2 is not the most abundant gas; nitrogen and oxygen vastly exceed it. And dismissing CO2 as insignificant contradicts its well-established, measurable role in the greenhouse effect."
     },
     {
       "id": "4-17",
@@ -3401,7 +3401,7 @@ const QUESTIONS = {
         "Mesosphere, generally the coldest atmospheric layer overall"
       ],
       "correct": 3,
-      "explanation": "The mesosphere is generally the coldest atmospheric layer overall, with temperature dropping again after the stratosphere's warming trend below it. The thermosphere actually has very high particle temperatures (though the air is so thin this feels cold to a person), and is not the layer generally cited as coldest. The troposphere, near the surface, is comparatively warm, especially at lower altitudes. The stratosphere warms with altitude due to ozone, making it warmer than the mesosphere above it."
+      "explanation": "Correct: (D) Mesosphere, generally the coldest atmospheric layer overall. The mesosphere is generally the coldest atmospheric layer overall, with temperature dropping again after the stratosphere's warming trend below it. The thermosphere actually has very high particle temperatures (though the air is so thin this feels cold to a person), and is not the layer generally cited as coldest. The troposphere, near the surface, is comparatively warm, especially at lower altitudes. The stratosphere warms with altitude due to ozone, making it warmer than the mesosphere above it."
     },
     {
       "id": "4-18",
@@ -3414,7 +3414,7 @@ const QUESTIONS = {
         "Mesosphere, generally described as the coldest atmospheric layer"
       ],
       "correct": 2,
-      "explanation": "The thermosphere, with its very thin air and charged particles, is where the aurora occurs. The troposphere is far too low and dense for the aurora's characteristic glow to form there. The mesosphere sits below the thermosphere and is not where the aurora is generated. The stratosphere, home to the ozone layer, is likewise too low in the atmosphere for aurora formation."
+      "explanation": "Correct: (C) Thermosphere, the outermost major atmospheric layer. The thermosphere, with its very thin air and charged particles, is where the aurora occurs. The troposphere is far too low and dense for the aurora's characteristic glow to form there. The mesosphere sits below the thermosphere and is not where the aurora is generated. The stratosphere, home to the ozone layer, is likewise too low in the atmosphere for aurora formation."
     },
     {
       "id": "4-19",
@@ -3427,7 +3427,7 @@ const QUESTIONS = {
         "Uneven solar heating, which creates the pressure differences that drive air movement"
       ],
       "correct": 3,
-      "explanation": "The fundamental cause of global wind patterns is uneven solar heating, more intense at the equator than the poles, which creates pressure differences that drive air from high to low pressure. Volcanic eruptions are localized, episodic events, not a driver of persistent global circulation. Ocean currents themselves are largely wind-driven, so they can't be the sole cause of wind. And the Coriolis effect only deflects air that is already moving; it doesn't initiate that movement."
+      "explanation": "Correct: (D) Uneven solar heating, which creates the pressure differences that drive air movement. The fundamental cause of global wind patterns is uneven solar heating, more intense at the equator than the poles, which creates pressure differences that drive air from high to low pressure. Volcanic eruptions are localized, episodic events, not a driver of persistent global circulation. Ocean currents themselves are largely wind-driven, so they can't be the sole cause of wind. And the Coriolis effect only deflects air that is already moving; it doesn't initiate that movement."
     },
     {
       "id": "4-20",
@@ -3440,7 +3440,7 @@ const QUESTIONS = {
         "A term with no accepted meaning within atmospheric science"
       ],
       "correct": 2,
-      "explanation": "The Coriolis effect is a deflecting force caused by Earth's rotation that bends the path of moving air and ocean currents, though it does not itself start that motion. It is a well-established, precisely defined concept in atmospheric science, not a meaningless term. It is not the fundamental cause of air movement — that role belongs to pressure differences from uneven solar heating. And it is a distinct phenomenon from uneven solar heating, not simply another name for it."
+      "explanation": "Correct: (C) A rotation-caused force that deflects the path of moving air and ocean currents. The Coriolis effect is a deflecting force caused by Earth's rotation that bends the path of moving air and ocean currents, though it does not itself start that motion. It is a well-established, precisely defined concept in atmospheric science, not a meaningless term. It is not the fundamental cause of air movement — that role belongs to pressure differences from uneven solar heating. And it is a distinct phenomenon from uneven solar heating, not simply another name for it."
     },
     {
       "id": "4-21",
@@ -3453,7 +3453,7 @@ const QUESTIONS = {
         "To the right of its direction of travel"
       ],
       "correct": 3,
-      "explanation": "In the Northern Hemisphere, the Coriolis effect deflects moving air and ocean currents to the right of their direction of travel. Deflection to the left instead describes the Southern Hemisphere pattern. Claiming there is no deflection ignores the well-documented rightward bending seen throughout the Northern Hemisphere. And the deflection is horizontal, not vertical, so 'straight up' misrepresents the direction entirely."
+      "explanation": "Correct: (D) To the right of its direction of travel. In the Northern Hemisphere, the Coriolis effect deflects moving air and ocean currents to the right of their direction of travel. Deflection to the left instead describes the Southern Hemisphere pattern. Claiming there is no deflection ignores the well-documented rightward bending seen throughout the Northern Hemisphere. And the deflection is horizontal, not vertical, so 'straight up' misrepresents the direction entirely."
     },
     {
       "id": "4-22",
@@ -3466,7 +3466,7 @@ const QUESTIONS = {
         "The Coriolis effect produces no directional deflection in the Southern Hemisphere"
       ],
       "correct": 0,
-      "explanation": "In the Southern Hemisphere, the Coriolis effect deflects moving air and ocean currents to the left of their direction of travel, the mirror image of the Northern Hemisphere pattern. The deflection is horizontal, not downward, so 'straight down' misdescribes its direction. Claiming there's no deflection ignores the well-documented leftward bending observed south of the equator. And deflection to the right instead describes the Northern Hemisphere, not the Southern."
+      "explanation": "Correct: (A) To the left of its direction of travel. In the Southern Hemisphere, the Coriolis effect deflects moving air and ocean currents to the left of their direction of travel, the mirror image of the Northern Hemisphere pattern. The deflection is horizontal, not downward, so 'straight down' misdescribes its direction. Claiming there's no deflection ignores the well-documented leftward bending observed south of the equator. And deflection to the right instead describes the Northern Hemisphere, not the Southern."
     },
     {
       "id": "4-23",
@@ -3479,7 +3479,7 @@ const QUESTIONS = {
         "The Coriolis effect and uneven heating are entirely unrelated phenomena in the atmosphere"
       ],
       "correct": 1,
-      "explanation": "The Coriolis effect is a secondary, deflecting influence, bending air that is already moving due to pressure differences created by uneven solar heating — it does not create that initial movement itself. Calling it the fundamental, original cause reverses the actual relationship between the two forces. The two are not unrelated; the Coriolis effect acts directly on the air set in motion by uneven heating. And it applies to moving air just as much as to ocean currents, not exclusively to one or the other."
+      "explanation": "Correct: (B) It is a secondary influence; pressure differences from uneven heating are the fundamental cause. The Coriolis effect is a secondary, deflecting influence, bending air that is already moving due to pressure differences created by uneven solar heating — it does not create that initial movement itself. Calling it the fundamental, original cause reverses the actual relationship between the two forces. The two are not unrelated; the Coriolis effect acts directly on the air set in motion by uneven heating. And it applies to moving air just as much as to ocean currents, not exclusively to one or the other."
     },
     {
       "id": "4-24",
@@ -3492,7 +3492,7 @@ const QUESTIONS = {
         "A type of ocean current unrelated to atmospheric circulation, found in the deep sea"
       ],
       "correct": 2,
-      "explanation": "Hadley cells are the circulation cells nearest the equator, where warm air rises from intense equatorial heating, travels poleward at high altitude, cools, and sinks at a lower latitude. The term is well-established in atmospheric science, not meaningless. They are located near the equator, not near the poles — that's a different circulation cell entirely (the polar cell). And Hadley cells are atmospheric circulation features, not ocean currents."
+      "explanation": "Correct: (C) Equatorial cells where warm air rises, moves poleward aloft, then cools and sinks. Hadley cells are the circulation cells nearest the equator, where warm air rises from intense equatorial heating, travels poleward at high altitude, cools, and sinks at a lower latitude. The term is well-established in atmospheric science, not meaningless. They are located near the equator, not near the poles — that's a different circulation cell entirely (the polar cell). And Hadley cells are atmospheric circulation features, not ocean currents."
     },
     {
       "id": "4-25",
@@ -3505,7 +3505,7 @@ const QUESTIONS = {
         "Its path will curve toward the west, as if deflecting to the left of its northward travel"
       ],
       "correct": 0,
-      "explanation": "In the Northern Hemisphere, moving air deflects to the right of its direction of travel; for air moving north, right-of-north is east, so the path curves toward the east. A full reversal back south is far more dramatic than the gradual bending the Coriolis effect actually produces. Curving toward the west would require a leftward deflection, which describes the Southern Hemisphere, not the Northern. And a perfectly straight path ignores the Coriolis effect entirely, which is exactly the deflecting force this question tests."
+      "explanation": "Correct: (A) Its path will curve toward the east, deflecting to the right of its northward travel. In the Northern Hemisphere, moving air deflects to the right of its direction of travel; for air moving north, right-of-north is east, so the path curves toward the east. A full reversal back south is far more dramatic than the gradual bending the Coriolis effect actually produces. Curving toward the west would require a leftward deflection, which describes the Southern Hemisphere, not the Northern. And a perfectly straight path ignores the Coriolis effect entirely, which is exactly the deflecting force this question tests."
     },
     {
       "id": "4-26",
@@ -3518,7 +3518,7 @@ const QUESTIONS = {
         "Curved wind paths have no scientific explanation and remain an unsolved mystery to scientists"
       ],
       "correct": 0,
-      "explanation": "Pressure differences from uneven solar heating initially drive air from high to low pressure, but the Coriolis effect deflects this movement, bending the observed path into curved, diagonal patterns like the trade winds and westerlies. This bending isn't confined to the poles — it occurs at essentially every latitude where air moves. It is also not scientifically unexplained; the Coriolis effect is a well-understood mechanism. And real wind patterns are demonstrably not straight lines, which is the very observation this question asks students to explain."
+      "explanation": "Correct: (A) The Coriolis effect deflects pressure-driven air, bending its path into curved patterns. Pressure differences from uneven solar heating initially drive air from high to low pressure, but the Coriolis effect deflects this movement, bending the observed path into curved, diagonal patterns like the trade winds and westerlies. This bending isn't confined to the poles — it occurs at essentially every latitude where air moves. It is also not scientifically unexplained; the Coriolis effect is a well-understood mechanism. And real wind patterns are demonstrably not straight lines, which is the very observation this question asks students to explain."
     },
     {
       "id": "4-27",
@@ -3531,7 +3531,7 @@ const QUESTIONS = {
         "Volcanic activity occurring around the globe each year"
       ],
       "correct": 0,
-      "explanation": "Earth's rotation, through the Coriolis effect, combines with uneven solar heating to produce the specific, curved global wind patterns actually observed. Volcanic activity is localized and episodic, not a driver of persistent global circulation. The moon's gravitational pull governs tides, not large-scale atmospheric deflection. And Earth's magnetic field affects charged particles and compasses, not the neutral air molecules that make up wind."
+      "explanation": "Correct: (A) Earth's rotation, acting through the Coriolis effect. Earth's rotation, through the Coriolis effect, combines with uneven solar heating to produce the specific, curved global wind patterns actually observed. Volcanic activity is localized and episodic, not a driver of persistent global circulation. The moon's gravitational pull governs tides, not large-scale atmospheric deflection. And Earth's magnetic field affects charged particles and compasses, not the neutral air molecules that make up wind."
     },
     {
       "id": "4-28",
@@ -3544,7 +3544,7 @@ const QUESTIONS = {
         "The equator receives more total hours of daylight than the poles every day of the year, throughout the year"
       ],
       "correct": 2,
-      "explanation": "The key factor is sunlight angle, not distance — direct, near-perpendicular sunlight at the equator concentrates energy over a smaller area, while the same amount of sunlight spreads over a larger area at the poles due to its oblique angle. Earth's size is negligible compared to the Earth-sun distance, so the equator is not meaningfully closer to the sun than the poles. Solar intensity is, in fact, strongly determined by strike angle, contrary to that option. And daylight hours actually vary by season and latitude — poles get 24-hour daylight in their summer — so equal daily hours is not the explanation either."
+      "explanation": "Correct: (C) Direct equatorial sunlight concentrates energy over a smaller area than the same energy spread obliquely. The key factor is sunlight angle, not distance — direct, near-perpendicular sunlight at the equator concentrates energy over a smaller area, while the same amount of sunlight spreads over a larger area at the poles due to its oblique angle. Earth's size is negligible compared to the Earth-sun distance, so the equator is not meaningfully closer to the sun than the poles. Solar intensity is, in fact, strongly determined by strike angle, contrary to that option. And daylight hours actually vary by season and latitude — poles get 24-hour daylight in their summer — so equal daily hours is not the explanation either."
     },
     {
       "id": "4-29",
@@ -3557,7 +3557,7 @@ const QUESTIONS = {
         "Earth's axial tilt, approximately 23.5 degrees relative to its orbital plane"
       ],
       "correct": 3,
-      "explanation": "Earth's axial tilt, about 23.5 degrees relative to its orbital plane, is the primary cause of the seasons, angling each hemisphere toward or away from the sun at different points in the orbit. The sun's energy output is essentially constant on human timescales and doesn't drive the yearly seasonal cycle. Seasons follow a highly predictable, not random, pattern tied to Earth's position in orbit. And Earth's orbital distance from the sun changes only slightly and isn't the actual cause — Earth is even slightly closer to the sun during Northern Hemisphere winter."
+      "explanation": "Correct: (D) Earth's axial tilt, approximately 23.5 degrees relative to its orbital plane. Earth's axial tilt, about 23.5 degrees relative to its orbital plane, is the primary cause of the seasons, angling each hemisphere toward or away from the sun at different points in the orbit. The sun's energy output is essentially constant on human timescales and doesn't drive the yearly seasonal cycle. Seasons follow a highly predictable, not random, pattern tied to Earth's position in orbit. And Earth's orbital distance from the sun changes only slightly and isn't the actual cause — Earth is even slightly closer to the sun during Northern Hemisphere winter."
     },
     {
       "id": "4-30",
@@ -3570,7 +3570,7 @@ const QUESTIONS = {
         "Earth's distance from the sun has no established connection to the seasons"
       ],
       "correct": 2,
-      "explanation": "Earth is actually slightly closer to the sun during Northern Hemisphere winter, a common point of confusion that demonstrates distance is not what causes the seasons — axial tilt is. Saying Earth is closer during summer gets the actual relationship backward. Earth's orbit is elliptical, so its distance does change somewhat over the year, contrary to that option. And distance does have a documented (if minor and counterintuitive) relationship to timing, even though it isn't the seasonal driver — axial tilt fills that role."
+      "explanation": "Correct: (C) Earth is actually slightly closer to the sun during Northern Hemisphere winter. Earth is actually slightly closer to the sun during Northern Hemisphere winter, a common point of confusion that demonstrates distance is not what causes the seasons — axial tilt is. Saying Earth is closer during summer gets the actual relationship backward. Earth's orbit is elliptical, so its distance does change somewhat over the year, contrary to that option. And distance does have a documented (if minor and counterintuitive) relationship to timing, even though it isn't the seasonal driver — axial tilt fills that role."
     },
     {
       "id": "4-31",
@@ -3583,7 +3583,7 @@ const QUESTIONS = {
         "Because the Northern and Southern Hemispheres rotate in opposite directions"
       ],
       "correct": 0,
-      "explanation": "Earth's fixed axial tilt means one hemisphere is always angled more directly toward the sun (summer there) while the other is angled away (winter there) at the same moment, and this relationship flips as Earth continues its orbit. The phenomenon is real and well-documented, not nonexistent — hemispheres do experience opposite seasons. Both hemispheres rotate together as part of the same planet; they don't spin in opposite directions. And the hemispheres are not meaningfully different distances from the sun — Earth's size is negligible next to the Earth-sun distance, so distance isn't the explanation."
+      "explanation": "Correct: (A) Fixed axial tilt angles one hemisphere toward the sun while the other is angled away. Earth's fixed axial tilt means one hemisphere is always angled more directly toward the sun (summer there) while the other is angled away (winter there) at the same moment, and this relationship flips as Earth continues its orbit. The phenomenon is real and well-documented, not nonexistent — hemispheres do experience opposite seasons. Both hemispheres rotate together as part of the same planet; they don't spin in opposite directions. And the hemispheres are not meaningfully different distances from the sun — Earth's size is negligible next to the Earth-sun distance, so distance isn't the explanation."
     },
     {
       "id": "4-32",
@@ -3596,7 +3596,7 @@ const QUESTIONS = {
         "Biome distribution is entirely unrelated to temperature or solar intensity at any location"
       ],
       "correct": 2,
-      "explanation": "The equator-to-pole temperature gradient, driven directly by the sunlight angle and intensity differences covered in this section, is one of the two primary climate factors (with precipitation) shaping where terrestrial biomes occur. Biome distribution is strongly tied to temperature, not unrelated to it. Biome placement follows a predictable latitudinal pattern, not a random one — that's exactly why tropical rainforests, deserts, and tundra occur at characteristic latitudes. And this connection between solar-driven temperature gradients and biome placement is precisely the meaningful link the question asks students to draw."
+      "explanation": "Correct: (C) The equator-to-pole temperature gradient is a primary factor shaping biome distribution. The equator-to-pole temperature gradient, driven directly by the sunlight angle and intensity differences covered in this section, is one of the two primary climate factors (with precipitation) shaping where terrestrial biomes occur. Biome distribution is strongly tied to temperature, not unrelated to it. Biome placement follows a predictable latitudinal pattern, not a random one — that's exactly why tropical rainforests, deserts, and tundra occur at characteristic latitudes. And this connection between solar-driven temperature gradients and biome placement is precisely the meaningful link the question asks students to draw."
     },
     {
       "id": "4-33",
@@ -3609,7 +3609,7 @@ const QUESTIONS = {
         "Winter, when a hemisphere is tilted most directly toward the sun"
       ],
       "correct": 0,
-      "explanation": "A hemisphere experiences summer when it is tilted most directly toward the sun, receiving more direct, intense sunlight. Saying tilt has no relationship to season contradicts the entire mechanism behind seasonal change. Winter is actually when that hemisphere is tilted away from the sun, the opposite condition. And spring is a transitional season between the tilt extremes of summer and winter, not itself the point of maximum tilt toward the sun."
+      "explanation": "Correct: (A) Summer, when a hemisphere is tilted most directly toward the incoming sun. A hemisphere experiences summer when it is tilted most directly toward the sun, receiving more direct, intense sunlight. Saying tilt has no relationship to season contradicts the entire mechanism behind seasonal change. Winter is actually when that hemisphere is tilted away from the sun, the opposite condition. And spring is a transitional season between the tilt extremes of summer and winter, not itself the point of maximum tilt toward the sun."
     },
     {
       "id": "4-34",
@@ -3622,7 +3622,7 @@ const QUESTIONS = {
         "23.5 degrees"
       ],
       "correct": 3,
-      "explanation": "Earth's axial tilt is approximately 23.5 degrees relative to its orbital plane, the fixed angle underlying the seasons. 90 degrees would mean Earth's axis lies flat in its orbital plane, producing far more extreme seasonal swings than observed. 45 degrees also overstates the real tilt considerably. And 0 degrees would mean no tilt at all, which — as covered elsewhere in this section — would largely eliminate seasons rather than match Earth's actual condition."
+      "explanation": "Correct: (D) 23.5 degrees. Earth's axial tilt is approximately 23.5 degrees relative to its orbital plane, the fixed angle underlying the seasons. 90 degrees would mean Earth's axis lies flat in its orbital plane, producing far more extreme seasonal swings than observed. 45 degrees also overstates the real tilt considerably. And 0 degrees would mean no tilt at all, which — as covered elsewhere in this section — would largely eliminate seasons rather than match Earth's actual condition."
     },
     {
       "id": "4-35",
@@ -3635,7 +3635,7 @@ const QUESTIONS = {
         "Earth's distance from the sun would change dramatically as a direct result of this"
       ],
       "correct": 2,
-      "explanation": "Without axial tilt, sunlight angle at any given latitude would stay essentially constant throughout the orbit, since there would be no changing tilt-driven variation in how directly sunlight strikes each hemisphere — largely eliminating the mechanism that produces seasons. Seasons would in fact be strongly affected, not unaffected, since tilt is their primary cause. Axial tilt and orbital distance are separate properties; removing tilt wouldn't change Earth's distance from the sun. And with no tilt-driven variation at all, seasons would become far weaker, not more extreme."
+      "explanation": "Correct: (C) Sunlight angle at any given latitude would stay essentially constant year-round. Without axial tilt, sunlight angle at any given latitude would stay essentially constant throughout the orbit, since there would be no changing tilt-driven variation in how directly sunlight strikes each hemisphere — largely eliminating the mechanism that produces seasons. Seasons would in fact be strongly affected, not unaffected, since tilt is their primary cause. Axial tilt and orbital distance are separate properties; removing tilt wouldn't change Earth's distance from the sun. And with no tilt-driven variation at all, seasons would become far weaker, not more extreme."
     },
     {
       "id": "4-36",
@@ -3648,7 +3648,7 @@ const QUESTIONS = {
         "This is inaccurate — seasons come from axial tilt, and Earth is closer to the sun in Northern winter"
       ],
       "correct": 3,
-      "explanation": "This is a common misconception worth directly correcting: Earth's distance from the sun changes very little over the year and is not the cause of seasons — axial tilt is — and Earth is actually slightly closer to the sun during Northern Hemisphere winter, the opposite of what the claim assumes. The claim is not accurate; it inverts the real relationship. It can be evaluated with the physics already established in this section, regardless of location. And the claim isn't rescued by restricting it to the Southern Hemisphere either, since Earth's distance from the sun is the same for both hemispheres at any given moment — it's axial tilt, which differs by hemisphere, that actually explains the pattern."
+      "explanation": "Correct: (D) This is inaccurate — seasons come from axial tilt, and Earth is closer to the sun in Northern winter. This is a common misconception worth directly correcting: Earth's distance from the sun changes very little over the year and is not the cause of seasons — axial tilt is — and Earth is actually slightly closer to the sun during Northern Hemisphere winter, the opposite of what the claim assumes. The claim is not accurate; it inverts the real relationship. It can be evaluated with the physics already established in this section, regardless of location. And the claim isn't rescued by restricting it to the Southern Hemisphere either, since Earth's distance from the sun is the same for both hemispheres at any given moment — it's axial tilt, which differs by hemisphere, that actually explains the pattern."
     },
     {
       "id": "4-37",
@@ -3661,7 +3661,7 @@ const QUESTIONS = {
         "C horizon, made of weathered parent rock"
       ],
       "correct": 1,
-      "explanation": "The A horizon, or topsoil, is typically richest in organic matter (humus) mixed with mineral particles, making it the most fertile and agriculturally important layer. The C horizon consists of weathered parent rock, generally low in organic content. Bedrock is solid, unweathered rock, with essentially no organic matter or soil structure at all. And the O horizon, while organic, is mostly undecomposed surface litter rather than the well-developed, humus-rich layer that defines the A horizon."
+      "explanation": "Correct: (B) A horizon, commonly called topsoil. The A horizon, or topsoil, is typically richest in organic matter (humus) mixed with mineral particles, making it the most fertile and agriculturally important layer. The C horizon consists of weathered parent rock, generally low in organic content. Bedrock is solid, unweathered rock, with essentially no organic matter or soil structure at all. And the O horizon, while organic, is mostly undecomposed surface litter rather than the well-developed, humus-rich layer that defines the A horizon."
     },
     {
       "id": "4-38",
@@ -3674,7 +3674,7 @@ const QUESTIONS = {
         "B horizon, commonly called subsoil"
       ],
       "correct": 3,
-      "explanation": "The B horizon, or subsoil, accumulates minerals leached down from the A horizon above it, generally containing less organic matter than the topsoil. The O horizon sits at the surface and consists of organic litter, not leached mineral accumulation. Bedrock is unweathered solid rock, well below where leaching and accumulation occur. And the A horizon is the source layer minerals leach out of, not the layer where they accumulate."
+      "explanation": "Correct: (D) B horizon, commonly called subsoil. The B horizon, or subsoil, accumulates minerals leached down from the A horizon above it, generally containing less organic matter than the topsoil. The O horizon sits at the surface and consists of organic litter, not leached mineral accumulation. Bedrock is unweathered solid rock, well below where leaching and accumulation occur. And the A horizon is the source layer minerals leach out of, not the layer where they accumulate."
     },
     {
       "id": "4-39",
@@ -3687,7 +3687,7 @@ const QUESTIONS = {
         "O horizon, the surface organic litter layer above it all, of leaves and debris"
       ],
       "correct": 2,
-      "explanation": "The C horizon consists of weathered parent rock, an intermediate stage between solid bedrock and the fully-formed soil layers above it. The A horizon is well-developed, humus-rich topsoil, not partially weathered rock. The B horizon is subsoil enriched with leached minerals, also more developed than the C horizon. And the O horizon is organic surface litter, entirely distinct from the mineral, rock-derived material that defines the C horizon."
+      "explanation": "Correct: (C) C horizon, weathered parent rock not yet fully broken into soil. The C horizon consists of weathered parent rock, an intermediate stage between solid bedrock and the fully-formed soil layers above it. The A horizon is well-developed, humus-rich topsoil, not partially weathered rock. The B horizon is subsoil enriched with leached minerals, also more developed than the C horizon. And the O horizon is organic surface litter, entirely distinct from the mineral, rock-derived material that defines the C horizon."
     },
     {
       "id": "4-40",
@@ -3700,7 +3700,7 @@ const QUESTIONS = {
         "Because soil never actually forms naturally under any circumstances, even over long periods"
       ],
       "correct": 0,
-      "explanation": "The dramatic mismatch between slow topsoil formation and much faster potential erosion, especially where human activity accelerates it, means lost topsoil is effectively unrecoverable on any human-relevant timescale, so it's treated as non-renewable for policy purposes. Formation and erosion do not occur at the same rate — if they did, topsoil loss wouldn't be a meaningful concern at all. Topsoil is, in fact, critical to agricultural productivity and ecosystem function, not unimportant. And soil formation is a real, ongoing natural process; the issue is its slow pace relative to erosion, not its nonexistence."
+      "explanation": "Correct: (A) Soil forms extremely slowly compared to how fast erosion can strip it away, so it is unrecoverable. The dramatic mismatch between slow topsoil formation and much faster potential erosion, especially where human activity accelerates it, means lost topsoil is effectively unrecoverable on any human-relevant timescale, so it's treated as non-renewable for policy purposes. Formation and erosion do not occur at the same rate — if they did, topsoil loss wouldn't be a meaningful concern at all. Topsoil is, in fact, critical to agricultural productivity and ecosystem function, not unimportant. And soil formation is a real, ongoing natural process; the issue is its slow pace relative to erosion, not its nonexistence."
     },
     {
       "id": "4-41",
@@ -3713,7 +3713,7 @@ const QUESTIONS = {
         "Loam, a balanced mixture of sand, silt, and clay"
       ],
       "correct": 3,
-      "explanation": "Loam, a balanced mixture of sand, silt, and clay, is generally ideal for agriculture because it combines reasonable drainage with good water and nutrient retention. Pure sand drains too quickly and holds too few nutrients to be ideal on its own. Bedrock is solid rock with no soil structure at all, unsuitable for growing anything. And pure clay drains poorly and is prone to compaction, making it a poor choice despite its strong water retention."
+      "explanation": "Correct: (D) Loam, a balanced mixture of sand, silt, and clay. Loam, a balanced mixture of sand, silt, and clay, is generally ideal for agriculture because it combines reasonable drainage with good water and nutrient retention. Pure sand drains too quickly and holds too few nutrients to be ideal on its own. Bedrock is solid rock with no soil structure at all, unsuitable for growing anything. And pure clay drains poorly and is prone to compaction, making it a poor choice despite its strong water retention."
     },
     {
       "id": "4-42",
@@ -3726,7 +3726,7 @@ const QUESTIONS = {
         "Maintaining dense plant cover across a field year-round"
       ],
       "correct": 0,
-      "explanation": "Deforestation and vegetation removal accelerate erosion, since the roots and plant cover that would normally hold soil in place and reduce runoff are eliminated, leaving soil exposed to wind and water. Crop rotation with cover crops instead protects soil by keeping it covered and roots in place between main plantings. Terracing on a steep hillside is a deliberate erosion-control technique that slows water flow and reduces soil loss. And maintaining dense, year-round plant cover is one of the most effective ways to prevent erosion, not cause it."
+      "explanation": "Correct: (A) Deforestation and removal of vegetation from a slope. Deforestation and vegetation removal accelerate erosion, since the roots and plant cover that would normally hold soil in place and reduce runoff are eliminated, leaving soil exposed to wind and water. Crop rotation with cover crops instead protects soil by keeping it covered and roots in place between main plantings. Terracing on a steep hillside is a deliberate erosion-control technique that slows water flow and reduces soil loss. And maintaining dense, year-round plant cover is one of the most effective ways to prevent erosion, not cause it."
     },
     {
       "id": "4-43",
@@ -3739,7 +3739,7 @@ const QUESTIONS = {
         "The deepest, unweathered bedrock layer far below the surface of the soil profile"
       ],
       "correct": 2,
-      "explanation": "The O horizon is the uppermost soil layer, made up of organic litter like fallen leaves and decomposing plant material, sitting above the A horizon. It is not exclusive to deserts — in fact, it's typically thin or absent in arid regions with sparse vegetation and better developed in forested or grassland soils. It is distinct from, not synonymous with, the A horizon, which is the mineral-humus layer beneath it. And it is the opposite of bedrock, which is deep, unweathered rock rather than surface organic material."
+      "explanation": "Correct: (C) The surface layer of organic litter, like leaves and decomposing material. The O horizon is the uppermost soil layer, made up of organic litter like fallen leaves and decomposing plant material, sitting above the A horizon. It is not exclusive to deserts — in fact, it's typically thin or absent in arid regions with sparse vegetation and better developed in forested or grassland soils. It is distinct from, not synonymous with, the A horizon, which is the mineral-humus layer beneath it. And it is the opposite of bedrock, which is deep, unweathered rock rather than surface organic material."
     },
     {
       "id": "4-44",
@@ -3752,7 +3752,7 @@ const QUESTIONS = {
         "Soil formation is entirely random, with no identifiable contributing factors"
       ],
       "correct": 2,
-      "explanation": "Soil formation is shaped by several factors working together: climate, the parent material being weathered, topography, the organisms present, and the time available for these processes to act. It is not random — these are identifiable, well-studied factors. Temperature alone is only one component of climate, not the sole determinant of soil formation. And rainfall alone is likewise just one part of climate, not the only factor influencing how soil develops."
+      "explanation": "Correct: (C) Climate, parent material, topography, organisms, and time. Soil formation is shaped by several factors working together: climate, the parent material being weathered, topography, the organisms present, and the time available for these processes to act. It is not random — these are identifiable, well-studied factors. Temperature alone is only one component of climate, not the sole determinant of soil formation. And rainfall alone is likewise just one part of climate, not the only factor influencing how soil develops."
     },
     {
       "id": "4-45",
@@ -3765,7 +3765,7 @@ const QUESTIONS = {
         "Sand and clay have essentially identical nutrient retention properties, despite their particle sizes"
       ],
       "correct": 2,
-      "explanation": "Sand particles are relatively large, creating bigger pore spaces that allow water and its dissolved nutrients to drain through quickly rather than being retained, unlike clay's much smaller, tightly-packed particles. Particle size is in fact strongly linked to nutrient retention, since it directly determines pore size and drainage speed. Clay, not sand, is the one that generally retains more nutrients, due to its smaller particles and greater surface area. And sand and clay differ substantially in structure and retention behavior, not just in name."
+      "explanation": "Correct: (C) Sand's larger particles create bigger pores, letting water and nutrients drain through quickly. Sand particles are relatively large, creating bigger pore spaces that allow water and its dissolved nutrients to drain through quickly rather than being retained, unlike clay's much smaller, tightly-packed particles. Particle size is in fact strongly linked to nutrient retention, since it directly determines pore size and drainage speed. Clay, not sand, is the one that generally retains more nutrients, due to its smaller particles and greater surface area. And sand and clay differ substantially in structure and retention behavior, not just in name."
     },
     {
       "id": "4-46",
@@ -3778,7 +3778,7 @@ const QUESTIONS = {
         "Erosion would increase sharply at the deforested site, since no roots or cover remain to hold soil"
       ],
       "correct": 3,
-      "explanation": "The deforested hillside would see significantly increased erosion during the storm, since it lacks the roots and plant cover that would otherwise hold soil in place and slow water runoff — directly illustrating why deforestation drives accelerated erosion. This scenario is a direct, textbook application of this section's erosion concepts, not unrelated to them. Erosion would not be identical at both sites, since vegetation cover is exactly the variable that changes erosion risk. And erosion would be higher, not lower, at the deforested site, the opposite of what that option claims."
+      "explanation": "Correct: (D) Erosion would increase sharply at the deforested site, since no roots or cover remain to hold soil. The deforested hillside would see significantly increased erosion during the storm, since it lacks the roots and plant cover that would otherwise hold soil in place and slow water runoff — directly illustrating why deforestation drives accelerated erosion. This scenario is a direct, textbook application of this section's erosion concepts, not unrelated to them. Erosion would not be identical at both sites, since vegetation cover is exactly the variable that changes erosion risk. And erosion would be higher, not lower, at the deforested site, the opposite of what that option claims."
     },
     {
       "id": "4-47",
@@ -3791,7 +3791,7 @@ const QUESTIONS = {
         "Neither type of mining carries any environmental impact at all, whether on land or water"
       ],
       "correct": 0,
-      "explanation": "Surface mining methods — strip mining, mountaintop removal, open-pit mining — are generally cheaper and safer for workers than subsurface mining, but cause significantly greater destruction of surface habitat. The two methods are not identical; they differ sharply in both cost and habitat impact, which is the entire basis of the tradeoff. Neither type is impact-free — both carry real environmental consequences, just of different kinds. And subsurface mining is the method associated with less surface destruction but greater danger, the reverse of what this question describes."
+      "explanation": "Correct: (A) Surface mining, including strip mining, mountaintop removal, and open-pit methods. Surface mining methods — strip mining, mountaintop removal, open-pit mining — are generally cheaper and safer for workers than subsurface mining, but cause significantly greater destruction of surface habitat. The two methods are not identical; they differ sharply in both cost and habitat impact, which is the entire basis of the tradeoff. Neither type is impact-free — both carry real environmental consequences, just of different kinds. And subsurface mining is the method associated with less surface destruction but greater danger, the reverse of what this question describes."
     },
     {
       "id": "4-48",
@@ -3804,7 +3804,7 @@ const QUESTIONS = {
         "Both types carry essentially identical risk profiles"
       ],
       "correct": 2,
-      "explanation": "Subsurface mining generally causes less surface habitat disturbance than surface mining, but is typically more dangerous and expensive, with greater risk to underground workers. Surface mining is the method associated with lower cost and safer conditions but greater surface destruction, the opposite pairing. The two methods have clearly different, not identical, risk profiles, which is the core tradeoff this section covers. And mining is not risk-free — underground work in particular carries well-documented hazards like cave-ins and poor air quality."
+      "explanation": "Correct: (C) Subsurface, or underground, mining. Subsurface mining generally causes less surface habitat disturbance than surface mining, but is typically more dangerous and expensive, with greater risk to underground workers. Surface mining is the method associated with lower cost and safer conditions but greater surface destruction, the opposite pairing. The two methods have clearly different, not identical, risk profiles, which is the core tradeoff this section covers. And mining is not risk-free — underground work in particular carries well-documented hazards like cave-ins and poor air quality."
     },
     {
       "id": "4-49",
@@ -3817,7 +3817,7 @@ const QUESTIONS = {
         "Acid mine drainage is caused entirely by rainwater, unrelated to mining activity"
       ],
       "correct": 1,
-      "explanation": "Acid mine drainage occurs when mining exposes sulfide-containing minerals to air and water for the first time, causing them to react and form sulfuric acid, which then drains from the site. It is not exclusive to surface mines — subsurface mines expose sulfide minerals underground just as readily. Rainwater alone doesn't cause it; the acid-forming reaction specifically requires sulfide minerals that mining has newly exposed. And mining doesn't neutralize rock acidity — it's mining that typically triggers acid formation in the first place, not the reverse."
+      "explanation": "Correct: (B) Exposed sulfide minerals react with air and water to form sulfuric acid. Acid mine drainage occurs when mining exposes sulfide-containing minerals to air and water for the first time, causing them to react and form sulfuric acid, which then drains from the site. It is not exclusive to surface mines — subsurface mines expose sulfide minerals underground just as readily. Rainwater alone doesn't cause it; the acid-forming reaction specifically requires sulfide minerals that mining has newly exposed. And mining doesn't neutralize rock acidity — it's mining that typically triggers acid formation in the first place, not the reverse."
     },
     {
       "id": "4-50",
@@ -3830,7 +3830,7 @@ const QUESTIONS = {
         "It can mobilize toxic heavy metals into nearby streams and groundwater"
       ],
       "correct": 3,
-      "explanation": "Beyond lowering pH, acid mine drainage can mobilize toxic heavy metals that would otherwise remain locked within the rock, carrying both the acidity and the metals into nearby streams and groundwater. The harm extends well beyond pH alone, so that option understates the real impact. Acid drainage degrades rather than improves soil and water quality, so increased fertility is the opposite of what actually occurs. And its primary impacts are on water quality — streams and groundwater — not on air quality."
+      "explanation": "Correct: (D) It can mobilize toxic heavy metals into nearby streams and groundwater. Beyond lowering pH, acid mine drainage can mobilize toxic heavy metals that would otherwise remain locked within the rock, carrying both the acidity and the metals into nearby streams and groundwater. The harm extends well beyond pH alone, so that option understates the real impact. Acid drainage degrades rather than improves soil and water quality, so increased fertility is the opposite of what actually occurs. And its primary impacts are on water quality — streams and groundwater — not on air quality."
     },
     {
       "id": "4-51",
@@ -3843,7 +3843,7 @@ const QUESTIONS = {
         "No — sulfide minerals keep reacting for decades unless treated or the site is reclaimed"
       ],
       "correct": 3,
-      "explanation": "Acid mine drainage can persist for decades or even centuries after closure, since exposed sulfide minerals keep reacting with air and water unless the site receives active treatment or proper reclamation. It is not limited to surface mines — subsurface mines can produce equally long-lasting drainage. It does not stop after closure — that's precisely the long-term liability this question highlights. And claiming drainage always stops immediately ignores the well-documented persistence of this problem at many historic mine sites."
+      "explanation": "Correct: (D) No — sulfide minerals keep reacting for decades unless treated or the site is reclaimed. Acid mine drainage can persist for decades or even centuries after closure, since exposed sulfide minerals keep reacting with air and water unless the site receives active treatment or proper reclamation. It is not limited to surface mines — subsurface mines can produce equally long-lasting drainage. It does not stop after closure — that's precisely the long-term liability this question highlights. And claiming drainage always stops immediately ignores the well-documented persistence of this problem at many historic mine sites."
     },
     {
       "id": "4-52",
@@ -3856,7 +3856,7 @@ const QUESTIONS = {
         "The process of extracting additional minerals from an already-mined site using new methods"
       ],
       "correct": 0,
-      "explanation": "Mine reclamation refers to restoring a mining site's land contours, soil, and vegetation after operations conclude, an important part of modern mining regulation aimed at reducing long-term impacts. It is a distinct concept from acid mine drainage, which is a pollution problem, not a restoration process. It is closely tied to environmental restoration, not disconnected from it — that is its entire purpose. And it refers to restoring the land, not to further mineral extraction from the site."
+      "explanation": "Correct: (A) Restoring a mining site's land contours, soil, and vegetation after mining ends. Mine reclamation refers to restoring a mining site's land contours, soil, and vegetation after operations conclude, an important part of modern mining regulation aimed at reducing long-term impacts. It is a distinct concept from acid mine drainage, which is a pollution problem, not a restoration process. It is closely tied to environmental restoration, not disconnected from it — that is its entire purpose. And it refers to restoring the land, not to further mineral extraction from the site."
     },
     {
       "id": "4-53",
@@ -3869,7 +3869,7 @@ const QUESTIONS = {
         "Surface mining is cheaper and safer but more destructive; subsurface is safer for the surface but costlier"
       ],
       "correct": 3,
-      "explanation": "This captures the genuine tradeoff: surface mining offers lower cost and greater worker safety at the expense of more extensive habitat destruction, while subsurface mining reduces surface disturbance at the cost of greater danger and expense. Claiming surface mining is superior in every respect ignores its serious habitat costs. The two methods differ substantially, so 'no meaningful difference' misrepresents the comparison entirely. And claiming subsurface mining is superior in every respect ignores its greater danger and cost to workers."
+      "explanation": "Correct: (D) Surface mining is cheaper and safer but more destructive; subsurface is safer for the surface but costlier. This captures the genuine tradeoff: surface mining offers lower cost and greater worker safety at the expense of more extensive habitat destruction, while subsurface mining reduces surface disturbance at the cost of greater danger and expense. Claiming surface mining is superior in every respect ignores its serious habitat costs. The two methods differ substantially, so 'no meaningful difference' misrepresents the comparison entirely. And claiming subsurface mining is superior in every respect ignores its greater danger and cost to workers."
     },
     {
       "id": "4-54",
@@ -3882,7 +3882,7 @@ const QUESTIONS = {
         "Companies never factor cost or worker safety into their choice of mining method at all"
       ],
       "correct": 0,
-      "explanation": "Surface mining's lower cost and greater worker safety are real, tangible advantages that companies may weigh heavily, particularly without strong regulatory or economic incentives favoring the pricier, more dangerous subsurface alternative. Cost and safety are, in fact, central factors in real mining decisions, not ones companies ignore. Surface mining does cause meaningful habitat destruction, which is exactly the tradeoff this question is asking students to weigh. And surface mining is legal in many jurisdictions under regulation, not universally banned."
+      "explanation": "Correct: (A) Its lower cost and greater worker safety may outweigh habitat concerns where regulation is weak. Surface mining's lower cost and greater worker safety are real, tangible advantages that companies may weigh heavily, particularly without strong regulatory or economic incentives favoring the pricier, more dangerous subsurface alternative. Cost and safety are, in fact, central factors in real mining decisions, not ones companies ignore. Surface mining does cause meaningful habitat destruction, which is exactly the tradeoff this question is asking students to weigh. And surface mining is legal in many jurisdictions under regulation, not universally banned."
     },
     {
       "id": "4-55",
@@ -3895,7 +3895,7 @@ const QUESTIONS = {
         "Acid mine drainage's heavy metal contamination of streams and groundwater"
       ],
       "correct": 3,
-      "explanation": "Acid mine drainage, with its lowered pH and mobilized heavy metal contamination of streams and groundwater, is a direct water pollution issue that connects specifically to Unit 8's later coverage of aquatic pollution. Atmospheric layer composition is a separate topic within this unit, unrelated to water pollution. Plate tectonic boundary types concern crustal geology, not water contamination. And seasonal changes from axial tilt are a climate topic, with no direct link to Unit 8's water pollution content."
+      "explanation": "Correct: (D) Acid mine drainage's heavy metal contamination of streams and groundwater. Acid mine drainage, with its lowered pH and mobilized heavy metal contamination of streams and groundwater, is a direct water pollution issue that connects specifically to Unit 8's later coverage of aquatic pollution. Atmospheric layer composition is a separate topic within this unit, unrelated to water pollution. Plate tectonic boundary types concern crustal geology, not water contamination. And seasonal changes from axial tilt are a climate topic, with no direct link to Unit 8's water pollution content."
     },
     {
       "id": "4-56",
@@ -3908,7 +3908,7 @@ const QUESTIONS = {
         "Trade winds weaken"
       ],
       "correct": 3,
-      "explanation": "During El Niño, trade winds weaken, allowing warm surface water that would normally be pushed westward to instead pool in the eastern Pacific. Strengthening is the opposite pattern — that describes La Niña, not El Niño. The trade winds weaken rather than reversing into some unrelated wind system entirely. And the winds are, in fact, directly and characteristically affected during El Niño, which is the defining feature of the event."
+      "explanation": "Correct: (D) Trade winds weaken. During El Niño, trade winds weaken, allowing warm surface water that would normally be pushed westward to instead pool in the eastern Pacific. Strengthening is the opposite pattern — that describes La Niña, not El Niño. The trade winds weaken rather than reversing into some unrelated wind system entirely. And the winds are, in fact, directly and characteristically affected during El Niño, which is the defining feature of the event."
     },
     {
       "id": "4-57",
@@ -3921,7 +3921,7 @@ const QUESTIONS = {
         "Toward the eastern Pacific, pooling near South America"
       ],
       "correct": 3,
-      "explanation": "During El Niño, weakened trade winds let warm surface water shift toward the eastern Pacific, pooling near South America, rather than being pushed westward as under normal conditions. The shift stays within the Pacific basin; there is no movement of this warm water into the Atlantic. Warm water distribution does change noticeably during El Niño, which is the whole basis of the phenomenon. And a shift toward the western Pacific instead describes normal or La Niña conditions, not El Niño."
+      "explanation": "Correct: (D) Toward the eastern Pacific, pooling near South America. During El Niño, weakened trade winds let warm surface water shift toward the eastern Pacific, pooling near South America, rather than being pushed westward as under normal conditions. The shift stays within the Pacific basin; there is no movement of this warm water into the Atlantic. Warm water distribution does change noticeably during El Niño, which is the whole basis of the phenomenon. And a shift toward the western Pacific instead describes normal or La Niña conditions, not El Niño."
     },
     {
       "id": "4-58",
@@ -3934,7 +3934,7 @@ const QUESTIONS = {
         "El Niño has no measurable effect on coastal upwelling at all, in any season or any region"
       ],
       "correct": 1,
-      "explanation": "El Niño suppresses the normal upwelling of cold, nutrient-rich water along the South American coast, since the weakened trade winds that normally drive it are disrupted. El Niño does have a clear, measurable effect on upwelling — suppression, not indifference. Increased upwelling instead describes La Niña conditions, the opposite phase. And upwelling occurs regularly under normal and La Niña conditions too; it isn't unique to El Niño events."
+      "explanation": "Correct: (B) Weakened trade winds no longer drive upwelling effectively, so it is suppressed. El Niño suppresses the normal upwelling of cold, nutrient-rich water along the South American coast, since the weakened trade winds that normally drive it are disrupted. El Niño does have a clear, measurable effect on upwelling — suppression, not indifference. Increased upwelling instead describes La Niña conditions, the opposite phase. And upwelling occurs regularly under normal and La Niña conditions too; it isn't unique to El Niño events."
     },
     {
       "id": "4-59",
@@ -3947,7 +3947,7 @@ const QUESTIONS = {
         "Upwelling has no real connection to fishery productivity in this region or any other coastal region"
       ],
       "correct": 1,
-      "explanation": "Upwelled cold water carries deep-ocean nutrients that fuel high productivity at the base of the local marine food web; when El Niño suppresses this upwelling, that nutrient supply is cut off and productivity — along with dependent fish populations — declines. Upwelling and fishery productivity are in fact closely linked, which is why suppressing it has real economic consequences. Suppressed upwelling reduces, rather than boosts, fish populations, since it starves the food web of nutrients. And these fisheries are notably nutrient-dependent, which is precisely why El Niño years are associated with fishery declines."
+      "explanation": "Correct: (B) Upwelled nutrients fuel productivity at the base of the food web; without them, fish decline. Upwelled cold water carries deep-ocean nutrients that fuel high productivity at the base of the local marine food web; when El Niño suppresses this upwelling, that nutrient supply is cut off and productivity — along with dependent fish populations — declines. Upwelling and fishery productivity are in fact closely linked, which is why suppressing it has real economic consequences. Suppressed upwelling reduces, rather than boosts, fish populations, since it starves the food web of nutrients. And these fisheries are notably nutrient-dependent, which is precisely why El Niño years are associated with fishery declines."
     },
     {
       "id": "4-60",
@@ -3960,7 +3960,7 @@ const QUESTIONS = {
         "Strengthened winds and increased upwelling, roughly opposite El Niño"
       ],
       "correct": 3,
-      "explanation": "La Niña is characterized by strengthened trade winds and increased upwelling of cold, nutrient-rich water, roughly the opposite pattern from El Niño's weakened winds and suppressed upwelling. Weakened winds and suppressed upwelling instead describe El Niño, not La Niña. The two phases are distinct, near-opposite states of the same ENSO cycle, not different names for one thing. And La Niña is defined specifically by its effects on trade winds and upwelling, so it clearly has an established relationship to both."
+      "explanation": "Correct: (D) Strengthened winds and increased upwelling, roughly opposite El Niño. La Niña is characterized by strengthened trade winds and increased upwelling of cold, nutrient-rich water, roughly the opposite pattern from El Niño's weakened winds and suppressed upwelling. Weakened winds and suppressed upwelling instead describe El Niño, not La Niña. The two phases are distinct, near-opposite states of the same ENSO cycle, not different names for one thing. And La Niña is defined specifically by its effects on trade winds and upwelling, so it clearly has an established relationship to both."
     },
     {
       "id": "4-61",
@@ -3973,7 +3973,7 @@ const QUESTIONS = {
         "Yes, El Niño's effects are entirely limited to the immediate Pacific area and its coastal waters"
       ],
       "correct": 2,
-      "explanation": "ENSO events shift atmospheric circulation broadly enough to affect temperature and precipitation across many regions well beyond the Pacific, sometimes bringing drought to normally wet regions and heavy rain to normally dry ones in trackable patterns. The effects reach well beyond nations bordering the Pacific — inland and even other-continent regions are affected too. El Niño's effects are measurable and well-documented, not absent. And confining the effects to the immediate Pacific area understates the genuinely global reach ENSO has on weather patterns."
+      "explanation": "Correct: (C) No — ENSO shifts global circulation enough to alter weather in many distant regions. ENSO events shift atmospheric circulation broadly enough to affect temperature and precipitation across many regions well beyond the Pacific, sometimes bringing drought to normally wet regions and heavy rain to normally dry ones in trackable patterns. The effects reach well beyond nations bordering the Pacific — inland and even other-continent regions are affected too. El Niño's effects are measurable and well-documented, not absent. And confining the effects to the immediate Pacific area understates the genuinely global reach ENSO has on weather patterns."
     },
     {
       "id": "4-62",
@@ -3986,7 +3986,7 @@ const QUESTIONS = {
         "Trade winds have no measurable effect on surface water movement"
       ],
       "correct": 0,
-      "explanation": "Under normal conditions, trade winds push warm surface water westward across the Pacific, away from South America, which is precisely what allows cold, nutrient-rich water to upwell along the coast to replace it. The winds move water east-to-west along the equator, not northward toward the pole. Eastward, toward South America, is the pattern seen during El Niño when trade winds weaken, not the normal condition. And trade winds are in fact the primary driver of this surface water movement, not an unrelated factor."
+      "explanation": "Correct: (A) Westward, away from South America. Under normal conditions, trade winds push warm surface water westward across the Pacific, away from South America, which is precisely what allows cold, nutrient-rich water to upwell along the coast to replace it. The winds move water east-to-west along the equator, not northward toward the pole. Eastward, toward South America, is the pattern seen during El Niño when trade winds weaken, not the normal condition. And trade winds are in fact the primary driver of this surface water movement, not an unrelated factor."
     },
     {
       "id": "4-63",
@@ -3999,7 +3999,7 @@ const QUESTIONS = {
         "El Niño, since it typically brings the strongest upwelling"
       ],
       "correct": 0,
-      "explanation": "Strong upwelling of nutrient-rich water, driving increased fishery productivity, is characteristic of La Niña's strengthened trade winds and enhanced upwelling. El Niño instead suppresses upwelling and typically harms, rather than boosts, fishery productivity in this region. The scenario is realistic and well-documented during La Niña years, not impossible. And ENSO's phases have a clear, direct link to fishery output through their effect on upwelling, contrary to that option."
+      "explanation": "Correct: (A) La Niña, since strengthened trade winds drive enhanced upwelling. Strong upwelling of nutrient-rich water, driving increased fishery productivity, is characteristic of La Niña's strengthened trade winds and enhanced upwelling. El Niño instead suppresses upwelling and typically harms, rather than boosts, fishery productivity in this region. The scenario is realistic and well-documented during La Niña years, not impossible. And ENSO's phases have a clear, direct link to fishery output through their effect on upwelling, contrary to that option."
     },
     {
       "id": "4-64",
@@ -4012,7 +4012,7 @@ const QUESTIONS = {
         "A recurring climate cycle alternating warm El Niño and cool La Niña phases"
       ],
       "correct": 3,
-      "explanation": "ENSO describes a recurring, large-scale climate pattern that alternates between warm (El Niño) and cool (La Niña) phases, involving shifts in Pacific surface temperature and wind patterns. It is a repeating cycle, not a single historical event. It concerns the Pacific Ocean specifically, not the Atlantic. And it is a dynamic, alternating cycle, not a permanent, unchanging ocean state."
+      "explanation": "Correct: (D) A recurring climate cycle alternating warm El Niño and cool La Niña phases. ENSO describes a recurring, large-scale climate pattern that alternates between warm (El Niño) and cool (La Niña) phases, involving shifts in Pacific surface temperature and wind patterns. It is a repeating cycle, not a single historical event. It concerns the Pacific Ocean specifically, not the Atlantic. And it is a dynamic, alternating cycle, not a permanent, unchanging ocean state."
     },
     {
       "id": "4-65",
@@ -4025,7 +4025,7 @@ const QUESTIONS = {
         "El Niño and global wind patterns are entirely unrelated phenomena in the climate system as a whole"
       ],
       "correct": 0,
-      "explanation": "Section 4.3 establishes that wind patterns like the trade winds are driven by pressure differences from uneven solar heating, modified by the Coriolis effect. Section 4.7 shows a real-world consequence of that same wind system: when trade wind strength varies, weakening in El Niño and strengthening in La Niña, the resulting change in wind-driven surface currents directly alters where warm water pools and where upwelling occurs. Plate tectonics operates on a completely different timescale and mechanism, and does not drive ENSO. El Niño and global wind patterns are directly linked, not unrelated, since weakened trade winds are the defining feature of El Niño. And trade wind strength is precisely what governs surface water distribution across the Pacific, making that relationship central rather than absent."
+      "explanation": "Correct: (A) A change in wind strength directly reshapes downstream ocean processes, linking wind concepts to ENSO. Section 4.3 establishes that wind patterns like the trade winds are driven by pressure differences from uneven solar heating, modified by the Coriolis effect. Section 4.7 shows a real-world consequence of that same wind system: when trade wind strength varies, weakening in El Niño and strengthening in La Niña, the resulting change in wind-driven surface currents directly alters where warm water pools and where upwelling occurs. Plate tectonics operates on a completely different timescale and mechanism, and does not drive ENSO. El Niño and global wind patterns are directly linked, not unrelated, since weakened trade winds are the defining feature of El Niño. And trade wind strength is precisely what governs surface water distribution across the Pacific, making that relationship central rather than absent."
     },
     {
       "id": "4-66",
@@ -4038,7 +4038,7 @@ const QUESTIONS = {
         "Lunar gravitational pull, acting as the sole driving mechanism of all surface currents"
       ],
       "correct": 1,
-      "explanation": "Surface ocean currents are driven primarily by wind, which blows across the ocean surface and drags the water along with it, directly connecting to Section 4.3's wind content. Density differences from temperature and salinity instead drive deep ocean (thermohaline) circulation, not surface currents. Plate movement is far too slow and localized to drive ocean surface circulation. And lunar gravity drives tides, a distinct phenomenon from the persistent, wind-driven surface currents described here."
+      "explanation": "Correct: (B) Wind, blowing across the ocean surface and dragging the water along with it. Surface ocean currents are driven primarily by wind, which blows across the ocean surface and drags the water along with it, directly connecting to Section 4.3's wind content. Density differences from temperature and salinity instead drive deep ocean (thermohaline) circulation, not surface currents. Plate movement is far too slow and localized to drive ocean surface circulation. And lunar gravity drives tides, a distinct phenomenon from the persistent, wind-driven surface currents described here."
     },
     {
       "id": "4-67",
@@ -4051,7 +4051,7 @@ const QUESTIONS = {
         "Density differences from temperature and salinity — cold, salty water sinks"
       ],
       "correct": 3,
-      "explanation": "Deep ocean currents are driven by density differences from temperature and salinity, or thermohaline circulation — cold, salty water is denser and sinks, particularly in the North Atlantic, driving slow, deep global circulation. Deep currents do have a well-identified mechanism, contrary to that option. They are driven by a different mechanism than surface currents, which are wind-driven rather than density-driven. And wind acts on the ocean surface, not on water at great depth, so it cannot be what drives deep circulation."
+      "explanation": "Correct: (D) Density differences from temperature and salinity — cold, salty water sinks. Deep ocean currents are driven by density differences from temperature and salinity, or thermohaline circulation — cold, salty water is denser and sinks, particularly in the North Atlantic, driving slow, deep global circulation. Deep currents do have a well-identified mechanism, contrary to that option. They are driven by a different mechanism than surface currents, which are wind-driven rather than density-driven. And wind acts on the ocean surface, not on water at great depth, so it cannot be what drives deep circulation."
     },
     {
       "id": "4-68",
@@ -4064,7 +4064,7 @@ const QUESTIONS = {
         "A measure of atmospheric pressure, taken at sea level by weather stations"
       ],
       "correct": 1,
-      "explanation": "'Thermohaline' combines 'thermo' (temperature) and 'haline' (salinity), the two factors whose combined effect on water density drives deep ocean circulation. It is not a measure of atmospheric pressure, which is a separate meteorological concept. It does not refer to wind speed or direction, which govern surface currents rather than deep ones. And it is distinct from surface currents, which are driven by wind rather than by density differences."
+      "explanation": "Correct: (B) Temperature and salinity, the two factors driving deep ocean circulation. 'Thermohaline' combines 'thermo' (temperature) and 'haline' (salinity), the two factors whose combined effect on water density drives deep ocean circulation. It is not a measure of atmospheric pressure, which is a separate meteorological concept. It does not refer to wind speed or direction, which govern surface currents rather than deep ones. And it is distinct from surface currents, which are driven by wind rather than by density differences."
     },
     {
       "id": "4-69",
@@ -4077,7 +4077,7 @@ const QUESTIONS = {
         "A warm Gulf Stream / North Atlantic Current carries tropical heat to Western Europe, moderating its climate"
       ],
       "correct": 3,
-      "explanation": "A warm surface current, part of the Gulf Stream and North Atlantic Current system, carries significant tropical heat toward Western Europe, moderating its climate relative to eastern North American locations at similar latitude that lack this direct warm-current influence. The difference has a clear, well-established oceanographic explanation, not an unknown one. Western Europe and eastern North America sit at genuinely comparable latitudes, so latitude difference isn't the explanation. And Western Europe does experience winter weather — its climate is milder, not winterless."
+      "explanation": "Correct: (D) A warm Gulf Stream / North Atlantic Current carries tropical heat to Western Europe, moderating its climate. A warm surface current, part of the Gulf Stream and North Atlantic Current system, carries significant tropical heat toward Western Europe, moderating its climate relative to eastern North American locations at similar latitude that lack this direct warm-current influence. The difference has a clear, well-established oceanographic explanation, not an unknown one. Western Europe and eastern North America sit at genuinely comparable latitudes, so latitude difference isn't the explanation. And Western Europe does experience winter weather — its climate is milder, not winterless."
     },
     {
       "id": "4-70",
@@ -4090,7 +4090,7 @@ const QUESTIONS = {
         "Moist air releases most of its moisture on the windward side, leaving the leeward side drier"
       ],
       "correct": 3,
-      "explanation": "The rain shadow effect occurs when moisture-laden air is forced to rise over a mountain range, cooling and releasing most of its moisture as precipitation on the windward side, leaving the descending air much drier on the leeward side. Mountains clearly do affect precipitation patterns, which is the entire basis of this effect. It is a distinct concept from thermohaline circulation, which concerns deep ocean density-driven currents, not mountain precipitation. And rain shadows occur wherever moist air meets a mountain range, not only in polar regions."
+      "explanation": "Correct: (D) Moist air releases most of its moisture on the windward side, leaving the leeward side drier. The rain shadow effect occurs when moisture-laden air is forced to rise over a mountain range, cooling and releasing most of its moisture as precipitation on the windward side, leaving the descending air much drier on the leeward side. Mountains clearly do affect precipitation patterns, which is the entire basis of this effect. It is a distinct concept from thermohaline circulation, which concerns deep ocean density-driven currents, not mountain precipitation. And rain shadows occur wherever moist air meets a mountain range, not only in polar regions."
     },
     {
       "id": "4-71",
@@ -4103,7 +4103,7 @@ const QUESTIONS = {
         "Both sides are equally affected, with no meaningful difference"
       ],
       "correct": 1,
-      "explanation": "The leeward side, facing away from the prevailing wind, typically experiences the driest conditions, since moisture-laden air has already released most of its precipitation on the windward side before crossing the peaks. The two sides are not equally affected — that asymmetry is the defining feature of the rain shadow effect. The windward side instead receives the bulk of the precipitation, making it the wetter, not drier, side. And the rain shadow effect is specifically about which side ends up drier, so it clearly has a direct relationship to that outcome."
+      "explanation": "Correct: (B) The leeward side, facing away from the prevailing wind. The leeward side, facing away from the prevailing wind, typically experiences the driest conditions, since moisture-laden air has already released most of its precipitation on the windward side before crossing the peaks. The two sides are not equally affected — that asymmetry is the defining feature of the rain shadow effect. The windward side instead receives the bulk of the precipitation, making it the wetter, not drier, side. And the rain shadow effect is specifically about which side ends up drier, so it clearly has a direct relationship to that outcome."
     },
     {
       "id": "4-72",
@@ -4116,7 +4116,7 @@ const QUESTIONS = {
         "Deserts form only very far from any coastline, never near one, because moisture reaches only coasts"
       ],
       "correct": 1,
-      "explanation": "This is a classic rain shadow scenario — the mountain range, not distance from the ocean, is the key factor, since the mountains force incoming moist air to release its moisture before reaching the leeward side where the desert forms. The scenario is not only possible but a well-documented real-world pattern seen in deserts worldwide. The mountain range is, in fact, the direct cause of the desert's location, not unrelated to it. And this scenario itself shows deserts can form close to a coastline when a mountain range intervenes, contradicting that option."
+      "explanation": "Correct: (B) The rain shadow effect: mountains force moist air to drop its moisture windward, leaving the leeward side drier. This is a classic rain shadow scenario — the mountain range, not distance from the ocean, is the key factor, since the mountains force incoming moist air to release its moisture before reaching the leeward side where the desert forms. The scenario is not only possible but a well-documented real-world pattern seen in deserts worldwide. The mountain range is, in fact, the direct cause of the desert's location, not unrelated to it. And this scenario itself shows deserts can form close to a coastline when a mountain range intervenes, contradicting that option."
     },
     {
       "id": "4-73",
@@ -4129,7 +4129,7 @@ const QUESTIONS = {
         "Because thermohaline circulation is one connected global belt, disrupting sinking in one region could slow the system"
       ],
       "correct": 3,
-      "explanation": "Because deep water sinking in one location, like the North Atlantic, is the driving engine for a single connected global circulation system, disrupting that sinking (for instance, through freshwater dilution reducing salinity and density) could slow or reroute the entire system, with consequences for regions dependent on it, such as Western Europe's mild climate. Thermohaline circulation is, in fact, directly governed by salinity — that's what the 'haline' in the name refers to — so it is not independent of freshwater influx. Far from being confined to its immediate region, this circulation's global, conveyor-belt structure is exactly what allows a localized disruption to propagate worldwide. And a regional disruption's effects are not confined locally, precisely because the system is one interconnected loop rather than isolated regional currents."
+      "explanation": "Correct: (D) Because thermohaline circulation is one connected global belt, disrupting sinking in one region could slow the system. Because deep water sinking in one location, like the North Atlantic, is the driving engine for a single connected global circulation system, disrupting that sinking (for instance, through freshwater dilution reducing salinity and density) could slow or reroute the entire system, with consequences for regions dependent on it, such as Western Europe's mild climate. Thermohaline circulation is, in fact, directly governed by salinity — that's what the 'haline' in the name refers to — so it is not independent of freshwater influx. Far from being confined to its immediate region, this circulation's global, conveyor-belt structure is exactly what allows a localized disruption to propagate worldwide. And a regional disruption's effects are not confined locally, precisely because the system is one interconnected loop rather than isolated regional currents."
     },
     {
       "id": "4-74",
@@ -4142,7 +4142,7 @@ const QUESTIONS = {
         "Metamorphic rock formation"
       ],
       "correct": 3,
-      "explanation": "Metamorphic rock forms when existing rock, here sedimentary limestone, is transformed by heat and pressure without melting — marble from limestone is a classic example. This transformation is very much part of the rock cycle, not outside it. Sedimentary formation via cementation describes how loose sediment becomes rock like limestone in the first place, not the further transformation into marble. And igneous formation requires the rock to actually melt and re-solidify from magma, which doesn't happen here since the limestone is transformed without fully melting."
+      "explanation": "Correct: (D) Metamorphic rock formation. Metamorphic rock forms when existing rock, here sedimentary limestone, is transformed by heat and pressure without melting — marble from limestone is a classic example. This transformation is very much part of the rock cycle, not outside it. Sedimentary formation via cementation describes how loose sediment becomes rock like limestone in the first place, not the further transformation into marble. And igneous formation requires the rock to actually melt and re-solidify from magma, which doesn't happen here since the limestone is transformed without fully melting."
     },
     {
       "id": "4-75",
@@ -4155,7 +4155,7 @@ const QUESTIONS = {
         "This is a coincidence with no underlying atmospheric explanation, since deserts form anywhere at random"
       ],
       "correct": 0,
-      "explanation": "Air that rises and loses its moisture at the equator descends at about 30°N/S as dry, warm air, creating persistent high pressure and arid conditions — a direct atmospheric explanation for the global desert belt at this latitude. This pattern is not coincidental; it follows predictably from Hadley cell circulation. These latitudes do occasionally receive some rainfall — the pattern is one of persistent low precipitation, not absolute zero. And desert formation here is explained by descending dry air, not by distance from the ocean, which varies considerably among deserts at this latitude."
+      "explanation": "Correct: (A) Descending, dry air at the Hadley/Ferrel cell boundary creates persistent high pressure there. Air that rises and loses its moisture at the equator descends at about 30°N/S as dry, warm air, creating persistent high pressure and arid conditions — a direct atmospheric explanation for the global desert belt at this latitude. This pattern is not coincidental; it follows predictably from Hadley cell circulation. These latitudes do occasionally receive some rainfall — the pattern is one of persistent low precipitation, not absolute zero. And desert formation here is explained by descending dry air, not by distance from the ocean, which varies considerably among deserts at this latitude."
     },
     {
       "id": "4-76",
@@ -4168,7 +4168,7 @@ const QUESTIONS = {
         "Good retention and supply of nutrients like Ca2+, Mg2+, and K+ on charged surfaces"
       ],
       "correct": 3,
-      "explanation": "Cation exchange capacity measures a soil's ability to hold and supply positively-charged nutrient ions on negatively-charged clay and humus surfaces, so higher CEC generally means better nutrient retention and fertility. CEC is directly tied to nutrient availability, not unrelated to it — that's essentially its definition. CEC concerns nutrient-holding capacity on particle surfaces, not soil permeability, which is governed by pore structure instead. And high CEC is associated with better, not poorer, nutrient retention, the opposite of that option."
+      "explanation": "Correct: (D) Good retention and supply of nutrients like Ca2+, Mg2+, and K+ on charged surfaces. Cation exchange capacity measures a soil's ability to hold and supply positively-charged nutrient ions on negatively-charged clay and humus surfaces, so higher CEC generally means better nutrient retention and fertility. CEC is directly tied to nutrient availability, not unrelated to it — that's essentially its definition. CEC concerns nutrient-holding capacity on particle surfaces, not soil permeability, which is governed by pore structure instead. And high CEC is associated with better, not poorer, nutrient retention, the opposite of that option."
     },
     {
       "id": "4-77",
@@ -4181,7 +4181,7 @@ const QUESTIONS = {
         "A single, fixed point where a river meets the ocean or a larger lake"
       ],
       "correct": 2,
-      "explanation": "A watershed, or drainage basin, is the entire land area that drains precipitation and runoff into a common body of water. Its boundaries follow topography, not political borders, so defining it by state or national lines is incorrect. A watershed is an entire land area, not a single point like a river mouth. And it is a natural landscape feature, not a built structure like a dam or reservoir."
+      "explanation": "Correct: (C) The land area draining precipitation and runoff into a common body of water. A watershed, or drainage basin, is the entire land area that drains precipitation and runoff into a common body of water. Its boundaries follow topography, not political borders, so defining it by state or national lines is incorrect. A watershed is an entire land area, not a single point like a river mouth. And it is a natural landscape feature, not a built structure like a dam or reservoir."
     },
     {
       "id": "4-78",
@@ -4194,7 +4194,7 @@ const QUESTIONS = {
         "Topography — ridgelines direct water toward one drainage basin or another"
       ],
       "correct": 3,
-      "explanation": "Watershed boundaries are set by topography — ridgelines and high points direct water toward one drainage basin or another — not by political borders. Political borders are human constructs that often cut across watersheds rather than defining them. Dams and reservoirs are built within existing watersheds; they don't determine the natural boundary itself. And watersheds are, in fact, clearly bounded by topography, contrary to the claim that they have no defined boundaries."
+      "explanation": "Correct: (D) Topography — ridgelines direct water toward one drainage basin or another. Watershed boundaries are set by topography — ridgelines and high points direct water toward one drainage basin or another — not by political borders. Political borders are human constructs that often cut across watersheds rather than defining them. Dams and reservoirs are built within existing watersheds; they don't determine the natural boundary itself. And watersheds are, in fact, clearly bounded by topography, contrary to the claim that they have no defined boundaries."
     },
     {
       "id": "4-79",
@@ -4207,7 +4207,7 @@ const QUESTIONS = {
         "The pollutants are fully neutralized long before reaching any downstream location, by natural filtering"
       ],
       "correct": 0,
-      "explanation": "Because an entire watershed drains into a common body of water, pollution released anywhere within it, even far upstream, can directly affect water quality throughout the downstream system. Upstream pollution can and does travel downstream through the connected water system, so 'no effect' misstates the basic hydrology. Political borders are irrelevant to whether pollution travels downstream, since water flow follows topography, not jurisdiction. And pollutants are not reliably neutralized by distance alone; many persist and travel significant distances downstream."
+      "explanation": "Correct: (A) Downstream water quality is directly affected, since the watershed drains into one connected system. Because an entire watershed drains into a common body of water, pollution released anywhere within it, even far upstream, can directly affect water quality throughout the downstream system. Upstream pollution can and does travel downstream through the connected water system, so 'no effect' misstates the basic hydrology. Political borders are irrelevant to whether pollution travels downstream, since water flow follows topography, not jurisdiction. And pollutants are not reliably neutralized by distance alone; many persist and travel significant distances downstream."
     },
     {
       "id": "4-80",
@@ -4220,7 +4220,7 @@ const QUESTIONS = {
         "Yes, since they belong to the same country and therefore share a watershed"
       ],
       "correct": 0,
-      "explanation": "Watershed boundaries are set by topography, not political borders, so a ridgeline can separate two towns into entirely different drainage basins even though they belong to the same country. Sharing a country does not guarantee sharing a watershed, since national borders and topographic divides rarely align exactly. Watersheds are defined by topography, not by coastal distance, so that option misidentifies the determining factor. And a single country typically contains many separate watersheds, not one unified national watershed."
+      "explanation": "Correct: (A) Not necessarily — ridgelines can split two towns into different watersheds. Watershed boundaries are set by topography, not political borders, so a ridgeline can separate two towns into entirely different drainage basins even though they belong to the same country. Sharing a country does not guarantee sharing a watershed, since national borders and topographic divides rarely align exactly. Watersheds are defined by topography, not by coastal distance, so that option misidentifies the determining factor. And a single country typically contains many separate watersheds, not one unified national watershed."
     },
     {
       "id": "4-81",
@@ -4233,7 +4233,7 @@ const QUESTIONS = {
         "Tunneling underground and manually extracting solid ore with workers present at the deposit itself"
       ],
       "correct": 2,
-      "explanation": "In-situ leaching extracts minerals by pumping a chemical solution directly into an underground deposit to dissolve the target mineral in place, then pumping the resulting solution back to the surface for processing. Mountaintop removal instead physically excavates the surface, a very different, more disruptive surface mining technique. Open-pit mining also physically hauls ore to the surface, unlike in-situ leaching's chemical, non-excavation approach. And traditional underground tunneling puts workers directly at the ore face, whereas in-situ leaching avoids placing workers at the deposit at all."
+      "explanation": "Correct: (C) Pumping a chemical solution underground to dissolve the mineral, then bringing it back to the surface. In-situ leaching extracts minerals by pumping a chemical solution directly into an underground deposit to dissolve the target mineral in place, then pumping the resulting solution back to the surface for processing. Mountaintop removal instead physically excavates the surface, a very different, more disruptive surface mining technique. Open-pit mining also physically hauls ore to the surface, unlike in-situ leaching's chemical, non-excavation approach. And traditional underground tunneling puts workers directly at the ore face, whereas in-situ leaching avoids placing workers at the deposit at all."
     },
     {
       "id": "4-82",
@@ -4246,7 +4246,7 @@ const QUESTIONS = {
         "Mountaintop removal and the resulting permanent loss of surface habitat"
       ],
       "correct": 1,
-      "explanation": "Because in-situ leaching pumps a chemical solution underground, its main risk is groundwater contamination if that solution migrates outside the target ore zone, even though the method avoids surface excavation. Mountaintop removal and its habitat loss are risks of surface mining methods, not of in-situ leaching, which doesn't remove the mountaintop at all. Large-scale deforestation is likewise a surface-mining-type impact, not the primary concern with a technique that disturbs little surface area. And in-situ leaching does carry a real environmental risk, just one focused on groundwater rather than the surface."
+      "explanation": "Correct: (B) Groundwater contamination if the leaching solution migrates beyond the ore zone. Because in-situ leaching pumps a chemical solution underground, its main risk is groundwater contamination if that solution migrates outside the target ore zone, even though the method avoids surface excavation. Mountaintop removal and its habitat loss are risks of surface mining methods, not of in-situ leaching, which doesn't remove the mountaintop at all. Large-scale deforestation is likewise a surface-mining-type impact, not the primary concern with a technique that disturbs little surface area. And in-situ leaching does carry a real environmental risk, just one focused on groundwater rather than the surface."
     },
     {
       "id": "4-83",
@@ -4259,7 +4259,7 @@ const QUESTIONS = {
         "The trade winds, found nearer to the equator than this band"
       ],
       "correct": 1,
-      "explanation": "The westerlies occupy roughly the 30°–60° latitude band and blow from the west, distinguishing them from the trade winds and polar easterlies. The trade winds instead occupy roughly 0°–30° latitude and blow from the northeast or southeast, not from the west at 30°–60°. The polar easterlies occupy a higher latitude band, roughly 60°–90°, and blow from the east. And the doldrums refer to a low-wind equatorial zone, not a defined belt of consistent westward-blowing wind."
+      "explanation": "Correct: (B) The westerlies, blowing from the west across this latitude band. The westerlies occupy roughly the 30°–60° latitude band and blow from the west, distinguishing them from the trade winds and polar easterlies. The trade winds instead occupy roughly 0°–30° latitude and blow from the northeast or southeast, not from the west at 30°–60°. The polar easterlies occupy a higher latitude band, roughly 60°–90°, and blow from the east. And the doldrums refer to a low-wind equatorial zone, not a defined belt of consistent westward-blowing wind."
     },
     {
       "id": "4-84",
@@ -4272,7 +4272,7 @@ const QUESTIONS = {
         "None of these named belts occupy the 0°–30° latitude range"
       ],
       "correct": 1,
-      "explanation": "The trade winds occupy roughly 0°–30° latitude, blowing from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere. The polar easterlies occupy a much higher latitude band, roughly 60°–90°, not the equatorial zone described here. The westerlies occupy the mid-latitude band, roughly 30°–60°, distinct from the trade winds' equatorial position. And since the trade winds correctly occupy this range, 'none of these' is incorrect."
+      "explanation": "Correct: (B) The trade winds, blowing from the northeast in the Northern Hemisphere. The trade winds occupy roughly 0°–30° latitude, blowing from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere. The polar easterlies occupy a much higher latitude band, roughly 60°–90°, not the equatorial zone described here. The westerlies occupy the mid-latitude band, roughly 30°–60°, distinct from the trade winds' equatorial position. And since the trade winds correctly occupy this range, 'none of these' is incorrect."
     },
     {
       "id": "4-85",
@@ -4285,7 +4285,7 @@ const QUESTIONS = {
         "Neither property has any meaningful relationship to a soil's pore structure"
       ],
       "correct": 0,
-      "explanation": "Porosity is the percentage of soil volume made up of pore space between particles, while permeability describes how easily water and air actually move through those pores — a soil can have high porosity but low permeability if its pores are small and poorly connected. The two are related but distinct properties, not interchangeable names for the same thing. The definitions are not simply swapped either — porosity concerns space, permeability concerns flow, exactly the reverse of what that option claims. And both properties are, in fact, defined by a soil's pore structure, contrary to that option."
+      "explanation": "Correct: (A) Porosity is pore-space percentage; permeability is how easily water and air move through those pores. Porosity is the percentage of soil volume made up of pore space between particles, while permeability describes how easily water and air actually move through those pores — a soil can have high porosity but low permeability if its pores are small and poorly connected. The two are related but distinct properties, not interchangeable names for the same thing. The definitions are not simply swapped either — porosity concerns space, permeability concerns flow, exactly the reverse of what that option claims. And both properties are, in fact, defined by a soil's pore structure, contrary to that option."
     }
   ],
   "5": [
@@ -4300,7 +4300,7 @@ const QUESTIONS = {
         "Selective cutting, clear-cutting, shelterwood cutting, and reforestation practices"
       ],
       "correct": 0,
-      "explanation": "The Green Revolution's core package combined high-yield seed varieties with synthetic fertilizers, expanded irrigation, and chemical pesticides. The renewable-energy list names power sources, not agricultural inputs. The cutting-method list describes forestry harvest techniques (Section 5.5), not 1960s-era crop agriculture. And the organic/no-till list describes low-input sustainable alternatives — the opposite emphasis of the Green Revolution's heavy reliance on synthetic inputs."
+      "explanation": "Correct: (A) High-yield seed varieties, synthetic fertilizers, irrigation, and pesticides. The Green Revolution's core package combined high-yield seed varieties with synthetic fertilizers, expanded irrigation, and chemical pesticides. The renewable-energy list names power sources, not agricultural inputs. The cutting-method list describes forestry harvest techniques (Section 5.5), not 1960s-era crop agriculture. And the organic/no-till list describes low-input sustainable alternatives — the opposite emphasis of the Green Revolution's heavy reliance on synthetic inputs."
     },
     {
       "id": "5-2",
@@ -4313,7 +4313,7 @@ const QUESTIONS = {
         "It raised global food production, helping avert famine as population grew."
       ],
       "correct": 3,
-      "explanation": "The Green Revolution's central benefit was a large increase in global food production, which helped avert famine as world population surged in the mid-20th century — not a negligible effect. Far from removing the need for agrochemicals, it substantially increased reliance on synthetic fertilizer and pesticide, and it introduced real environmental costs (fossil fuel dependency, soil and water degradation) rather than eliminating them."
+      "explanation": "Correct: (D) It raised global food production, helping avert famine as population grew. The Green Revolution's central benefit was a large increase in global food production, which helped avert famine as world population surged in the mid-20th century — not a negligible effect. Far from removing the need for agrochemicals, it substantially increased reliance on synthetic fertilizer and pesticide, and it introduced real environmental costs (fossil fuel dependency, soil and water degradation) rather than eliminating them."
     },
     {
       "id": "5-3",
@@ -4326,7 +4326,7 @@ const QUESTIONS = {
         "It permanently eliminated pest and disease problems in treated crops."
       ],
       "correct": 2,
-      "explanation": "The Green Revolution's genuine ongoing costs include heavy fossil fuel dependency (for fertilizer manufacture and mechanized equipment), reduced genetic diversity in widely planted crop varieties, and soil/water degradation from intensive input use. It did not leave agriculture unaffected, it increased rather than reduced food production, and pesticide use created resistance pressure rather than eliminating pests permanently."
+      "explanation": "Correct: (C) Fossil fuel reliance, less crop diversity, and soil degradation. The Green Revolution's genuine ongoing costs include heavy fossil fuel dependency (for fertilizer manufacture and mechanized equipment), reduced genetic diversity in widely planted crop varieties, and soil/water degradation from intensive input use. It did not leave agriculture unaffected, it increased rather than reduced food production, and pesticide use created resistance pressure rather than eliminating pests permanently."
     },
     {
       "id": "5-4",
@@ -4339,7 +4339,7 @@ const QUESTIONS = {
         "Growing many different crop species together in the same field."
       ],
       "correct": 0,
-      "explanation": "Monoculture means growing a single crop species across a large area — a practice that boosts mechanized efficiency but concentrates genetic and ecological risk. It is unrelated to whether synthetic inputs are used and is not a synonym for organic farming (which is defined by input restrictions, not planting pattern); it is also the opposite of polyculture, which grows multiple species together."
+      "explanation": "Correct: (A) Growing a single crop species across a large area. Monoculture means growing a single crop species across a large area — a practice that boosts mechanized efficiency but concentrates genetic and ecological risk. It is unrelated to whether synthetic inputs are used and is not a synonym for organic farming (which is defined by input restrictions, not planting pattern); it is also the opposite of polyculture, which grows multiple species together."
     },
     {
       "id": "5-5",
@@ -4352,7 +4352,7 @@ const QUESTIONS = {
         "Monoculture inherently prevents any pest or disease outbreak from occurring."
       ],
       "correct": 0,
-      "explanation": "Because monoculture plants are nearly genetically identical, there is little natural variation for a pest or disease to fail to exploit, so a well-matched threat can devastate the entire planting at once — directly echoing Unit 2's link between genetic diversity and resilience. It is not unrelated to pest risk, it does not prevent outbreaks (uniformity increases risk, not immunity), and by definition it is low-diversity, not high-diversity, planting."
+      "explanation": "Correct: (A) High genetic uniformity lets one well-matched pest wipe out the crop. Because monoculture plants are nearly genetically identical, there is little natural variation for a pest or disease to fail to exploit, so a well-matched threat can devastate the entire planting at once — directly echoing Unit 2's link between genetic diversity and resilience. It is not unrelated to pest risk, it does not prevent outbreaks (uniformity increases risk, not immunity), and by definition it is low-diversity, not high-diversity, planting."
     },
     {
       "id": "5-6",
@@ -4365,7 +4365,7 @@ const QUESTIONS = {
         "The pest would have no effect, since monoculture provides natural resistance to it."
       ],
       "correct": 2,
-      "explanation": "With essentially no genetic variation across the uniform crop, no individual plants carry natural resistance, so a pest well-matched to this variety could devastate the whole field at once. The crop would not be only partially affected, since uniformity removes the natural buffer that diversity provides; monoculture confers no inherent resistance (uniformity is a liability, not a defense); and the scenario is a textbook genetic-diversity application, not an unrelated case."
+      "explanation": "Correct: (C) The pest could devastate the entire crop, given the lack of genetic resistance. With essentially no genetic variation across the uniform crop, no individual plants carry natural resistance, so a pest well-matched to this variety could devastate the whole field at once. The crop would not be only partially affected, since uniformity removes the natural buffer that diversity provides; monoculture confers no inherent resistance (uniformity is a liability, not a defense); and the scenario is a textbook genetic-diversity application, not an unrelated case."
     },
     {
       "id": "5-7",
@@ -4378,7 +4378,7 @@ const QUESTIONS = {
         "Neither — it brought real benefits and real, lasting costs."
       ],
       "correct": 3,
-      "explanation": "The Green Revolution is best understood as involving genuine tradeoffs: a real achievement in raising food production and averting famine, alongside lasting environmental costs like fossil fuel dependency and reduced crop genetic diversity. Calling it a pure failure ignores its documented food-production gains; calling it fictional ignores well-documented history; and calling it a pure success ignores its well-documented environmental costs."
+      "explanation": "Correct: (D) Neither — it brought real benefits and real, lasting costs. The Green Revolution is best understood as involving genuine tradeoffs: a real achievement in raising food production and averting famine, alongside lasting environmental costs like fossil fuel dependency and reduced crop genetic diversity. Calling it a pure failure ignores its documented food-production gains; calling it fictional ignores well-documented history; and calling it a pure success ignores its well-documented environmental costs."
     },
     {
       "id": "5-8",
@@ -4391,7 +4391,7 @@ const QUESTIONS = {
         "Synthetic fertilizer production has no meaningful relationship to fossil fuel use."
       ],
       "correct": 2,
-      "explanation": "Synthetic fertilizer production — particularly nitrogen fertilizer made via the Haber-Bosch process — relies significantly on fossil fuels both as an energy source for manufacturing and, in some cases, as a chemical feedstock. That dependency is not limited to irrigation pumping, is not absent, and current production is not fossil-fuel-free, even though renewable-energy alternatives are being explored."
+      "explanation": "Correct: (C) Common fertilizer production relies significantly on fossil fuels as energy and chemical input. Synthetic fertilizer production — particularly nitrogen fertilizer made via the Haber-Bosch process — relies significantly on fossil fuels both as an energy source for manufacturing and, in some cases, as a chemical feedstock. That dependency is not limited to irrigation pumping, is not absent, and current production is not fossil-fuel-free, even though renewable-energy alternatives are being explored."
     },
     {
       "id": "5-9",
@@ -4404,7 +4404,7 @@ const QUESTIONS = {
         "Diversifying crop varieties or rotating between different crops across seasons."
       ],
       "correct": 3,
-      "explanation": "Diversifying crop varieties or rotating crops introduces genetic and ecological variation that reduces the risk of a single pest or disease devastating an entire farm at once. Planting an even more uniform variety would increase, not reduce, that vulnerability; the vulnerability is very much manageable through farming practice; and dropping pest monitoring would remove an early-warning tool rather than address the underlying genetic risk."
+      "explanation": "Correct: (D) Diversifying crop varieties or rotating between different crops across seasons. Diversifying crop varieties or rotating crops introduces genetic and ecological variation that reduces the risk of a single pest or disease devastating an entire farm at once. Planting an even more uniform variety would increase, not reduce, that vulnerability; the vulnerability is very much manageable through farming practice; and dropping pest monitoring would remove an early-warning tool rather than address the underlying genetic risk."
     },
     {
       "id": "5-10",
@@ -4417,7 +4417,7 @@ const QUESTIONS = {
         "Drip irrigation, which delivers water directly to the base of each plant."
       ],
       "correct": 0,
-      "explanation": "Flood irrigation is generally the least water-efficient method, losing significant water to evaporation and runoff, though it is typically the cheapest to implement. Spray irrigation is less efficient than drip but more efficient than flooding; drip irrigation is the most efficient method, not the least; and the methods clearly differ in efficiency rather than being interchangeable."
+      "explanation": "Correct: (A) Flood irrigation. Flood irrigation is generally the least water-efficient method, losing significant water to evaporation and runoff, though it is typically the cheapest to implement. Spray irrigation is less efficient than drip but more efficient than flooding; drip irrigation is the most efficient method, not the least; and the methods clearly differ in efficiency rather than being interchangeable."
     },
     {
       "id": "5-11",
@@ -4430,7 +4430,7 @@ const QUESTIONS = {
         "Flood irrigation."
       ],
       "correct": 2,
-      "explanation": "Drip irrigation is generally the most water-efficient method, delivering water directly to plant roots and minimizing evaporation loss, though at a higher installation cost. Flood and furrow irrigation both apply water more broadly across the field, losing more to evaporation and runoff than drip; and the methods clearly differ in efficiency rather than being interchangeable."
+      "explanation": "Correct: (C) Drip irrigation, which delivers water directly to plant roots through emitters. Drip irrigation is generally the most water-efficient method, delivering water directly to plant roots and minimizing evaporation loss, though at a higher installation cost. Flood and furrow irrigation both apply water more broadly across the field, losing more to evaporation and runoff than drip; and the methods clearly differ in efficiency rather than being interchangeable."
     },
     {
       "id": "5-12",
@@ -4443,7 +4443,7 @@ const QUESTIONS = {
         "Another term commonly used to describe soil erosion by wind or water."
       ],
       "correct": 0,
-      "explanation": "Salinization is the gradual buildup of salts in soil as irrigation water — which carries small amounts of dissolved salt — evaporates and leaves those salts behind over repeated irrigation cycles, reducing fertility. It is a distinct process from erosion (physical soil loss, not salt buildup), it harms rather than improves fertility, and it has nothing to do with pest control."
+      "explanation": "Correct: (A) The buildup of salts in soil as irrigation water evaporates, lowering fertility. Salinization is the gradual buildup of salts in soil as irrigation water — which carries small amounts of dissolved salt — evaporates and leaves those salts behind over repeated irrigation cycles, reducing fertility. It is a distinct process from erosion (physical soil loss, not salt buildup), it harms rather than improves fertility, and it has nothing to do with pest control."
     },
     {
       "id": "5-13",
@@ -4456,7 +4456,7 @@ const QUESTIONS = {
         "Salinization occurs mainly in regions that receive heavy, consistent rainfall."
       ],
       "correct": 1,
-      "explanation": "Arid and semi-arid regions rely more heavily and consistently on irrigation, and lack the rainfall that could otherwise help flush accumulated salts from the soil, making salinization a particular concern there. It is not primarily a wet-climate problem (abundant rainfall tends to flush salts away), arid regions in fact depend heavily on irrigation precisely because rainfall is scarce, and climate is directly, not incidentally, tied to salinization risk."
+      "explanation": "Correct: (B) Arid regions rely more on irrigation and get less rainfall to flush salts away. Arid and semi-arid regions rely more heavily and consistently on irrigation, and lack the rainfall that could otherwise help flush accumulated salts from the soil, making salinization a particular concern there. It is not primarily a wet-climate problem (abundant rainfall tends to flush salts away), arid regions in fact depend heavily on irrigation precisely because rainfall is scarce, and climate is directly, not incidentally, tied to salinization risk."
     },
     {
       "id": "5-14",
@@ -4469,7 +4469,7 @@ const QUESTIONS = {
         "Yes, but its status as the best choice rests solely on it also being the cheapest method to install."
       ],
       "correct": 1,
-      "explanation": "Drip irrigation offers the best water efficiency, but its higher up-front installation and maintenance cost is a genuine practical barrier in some contexts, so the 'best' choice depends on weighing efficiency against cost and circumstance. It is not the cheapest method (that distinction favors flood irrigation), it does carry real downsides despite its efficiency advantage, and it is the most, not least, water-efficient method."
+      "explanation": "Correct: (B) No — drip irrigation is most water-efficient, but its higher cost can be a real barrier. Drip irrigation offers the best water efficiency, but its higher up-front installation and maintenance cost is a genuine practical barrier in some contexts, so the 'best' choice depends on weighing efficiency against cost and circumstance. It is not the cheapest method (that distinction favors flood irrigation), it does carry real downsides despite its efficiency advantage, and it is the most, not least, water-efficient method."
     },
     {
       "id": "5-15",
@@ -4482,7 +4482,7 @@ const QUESTIONS = {
         "The farm has most likely stopped applying any fertilizer to its fields."
       ],
       "correct": 1,
-      "explanation": "This is a classic salinization scenario: decades of flood irrigation, which leaves substantial water on the surface to evaporate, would be expected to cause significant salt accumulation in an arid climate, explaining the yield decline despite continued watering and fertilizer use. The scenario states fertilizer application has continued, so a stoppage doesn't fit; irrigation method is directly implicated, not irrelevant; and the problem is excess accumulated salt, not insufficient water volume."
+      "explanation": "Correct: (B) Salinization — decades of flood irrigation likely raised soil salt buildup. This is a classic salinization scenario: decades of flood irrigation, which leaves substantial water on the surface to evaporate, would be expected to cause significant salt accumulation in an arid climate, explaining the yield decline despite continued watering and fertilizer use. The scenario states fertilizer application has continued, so a stoppage doesn't fit; irrigation method is directly implicated, not irrelevant; and the problem is excess accumulated salt, not insufficient water volume."
     },
     {
       "id": "5-16",
@@ -4495,7 +4495,7 @@ const QUESTIONS = {
         "Furrow irrigation, which channels water along trenches between crop rows."
       ],
       "correct": 0,
-      "explanation": "Drip irrigation delivers water directly to plant roots through a network of tubes and emitters, minimizing surface evaporation loss. Flood irrigation instead submerges the whole field surface, furrow irrigation channels water along open trenches, and spray irrigation disperses water through the air — all three expose far more water to evaporation than drip's targeted delivery."
+      "explanation": "Correct: (A) Drip irrigation. Drip irrigation delivers water directly to plant roots through a network of tubes and emitters, minimizing surface evaporation loss. Flood irrigation instead submerges the whole field surface, furrow irrigation channels water along open trenches, and spray irrigation disperses water through the air — all three expose far more water to evaporation than drip's targeted delivery."
     },
     {
       "id": "5-17",
@@ -4508,7 +4508,7 @@ const QUESTIONS = {
         "Drip irrigation would improve efficiency but costs more to install."
       ],
       "correct": 3,
-      "explanation": "The genuine tradeoff is improved water efficiency — a real long-term benefit, especially where water is scarce or costly — weighed against a higher up-front installation cost, exactly the kind of cost-benefit decision real farmers face. Claiming no tradeoff ignores that installation cost; flood irrigation is not generally illegal; and drip irrigation improves, rather than worsens, water efficiency relative to flooding."
+      "explanation": "Correct: (D) Drip irrigation would improve efficiency but costs more to install. The genuine tradeoff is improved water efficiency — a real long-term benefit, especially where water is scarce or costly — weighed against a higher up-front installation cost, exactly the kind of cost-benefit decision real farmers face. Claiming no tradeoff ignores that installation cost; flood irrigation is not generally illegal; and drip irrigation improves, rather than worsens, water efficiency relative to flooding."
     },
     {
       "id": "5-18",
@@ -4521,7 +4521,7 @@ const QUESTIONS = {
         "Waterlogging — excess water depriving roots of oxygen."
       ],
       "correct": 3,
-      "explanation": "Waterlogging — soil saturated with excess water — is another potential consequence of over-irrigation, harming roots by depriving them of oxygen, alongside the separate long-term concern of salinization. Over-irrigation does not improve fertility, it is not consequence-free, and its effects develop gradually rather than sterilizing soil outright."
+      "explanation": "Correct: (D) Waterlogging — excess water depriving roots of oxygen. Waterlogging — soil saturated with excess water — is another potential consequence of over-irrigation, harming roots by depriving them of oxygen, alongside the separate long-term concern of salinization. Over-irrigation does not improve fertility, it is not consequence-free, and its effects develop gradually rather than sterilizing soil outright."
     },
     {
       "id": "5-19",
@@ -4534,7 +4534,7 @@ const QUESTIONS = {
         "Another term used interchangeably with biomagnification, with no meaningful distinction between them."
       ],
       "correct": 0,
-      "explanation": "Bioaccumulation is the buildup of a substance, such as a persistent pesticide, within a single organism's tissue over time, occurring when uptake outpaces elimination. It is not a pest-control technique, and it is distinct from biomagnification: bioaccumulation happens within one organism, while the trophic-level concentration increase (choice C) describes biomagnification instead."
+      "explanation": "Correct: (A) The buildup of a substance in a single organism's tissue faster than it can be eliminated. Bioaccumulation is the buildup of a substance, such as a persistent pesticide, within a single organism's tissue over time, occurring when uptake outpaces elimination. It is not a pest-control technique, and it is distinct from biomagnification: bioaccumulation happens within one organism, while the trophic-level concentration increase (choice C) describes biomagnification instead."
     },
     {
       "id": "5-20",
@@ -4547,7 +4547,7 @@ const QUESTIONS = {
         "A farming technique specifically used to increase overall crop yields."
       ],
       "correct": 0,
-      "explanation": "Biomagnification describes the increasing concentration of a persistent substance, such as certain pesticides, at each successive trophic level, since predators consume many contaminated prey and concentrate the substance further with each step up the food chain. It has nothing to do with crop yield techniques, and it is distinct from bioaccumulation, which is the single-organism buildup process described in choice C."
+      "explanation": "Correct: (A) The increasing concentration of a persistent substance at each higher trophic level. Biomagnification describes the increasing concentration of a persistent substance, such as certain pesticides, at each successive trophic level, since predators consume many contaminated prey and concentrate the substance further with each step up the food chain. It has nothing to do with crop yield techniques, and it is distinct from bioaccumulation, which is the single-organism buildup process described in choice C."
     },
     {
       "id": "5-21",
@@ -4560,7 +4560,7 @@ const QUESTIONS = {
         "Biomagnification only affects producers at the base of the food chain, never consumers."
       ],
       "correct": 2,
-      "explanation": "Top predators consume many prey organisms, each of which has already bioaccumulated the pesticide from its own diet, so repeated concentration at each trophic level gives top predators the highest cumulative tissue concentration, even without direct contact with the original contamination source. Biomagnification affects consumers most, not producers exclusively; top predators face substantial, well-documented risk; and there is no biological immunity involved."
+      "explanation": "Correct: (C) Eating many already-contaminated prey compounds concentration toward the top. Top predators consume many prey organisms, each of which has already bioaccumulated the pesticide from its own diet, so repeated concentration at each trophic level gives top predators the highest cumulative tissue concentration, even without direct contact with the original contamination source. Biomagnification affects consumers most, not producers exclusively; top predators face substantial, well-documented risk; and there is no biological immunity involved."
     },
     {
       "id": "5-22",
@@ -4573,7 +4573,7 @@ const QUESTIONS = {
         "Another term used interchangeably with monoculture farming, with no meaningful distinction."
       ],
       "correct": 1,
-      "explanation": "Integrated Pest Management combines multiple complementary strategies to reduce both total pesticide use and the rate of pest resistance development, rather than relying solely on one chemical. That is nearly the opposite of exclusive single-pesticide reliance; IPM remains widely used today rather than abandoned; and it is a pest-control philosophy, unrelated to monoculture's single-crop planting pattern."
+      "explanation": "Correct: (B) An approach combining multiple pest-control strategies rather than chemicals alone. Integrated Pest Management combines multiple complementary strategies to reduce both total pesticide use and the rate of pest resistance development, rather than relying solely on one chemical. That is nearly the opposite of exclusive single-pesticide reliance; IPM remains widely used today rather than abandoned; and it is a pest-control philosophy, unrelated to monoculture's single-crop planting pattern."
     },
     {
       "id": "5-23",
@@ -4586,7 +4586,7 @@ const QUESTIONS = {
         "No, because pesticide resistance is a theoretical idea that does not actually occur in real populations."
       ],
       "correct": 0,
-      "explanation": "Pesticide resistance is a population-level evolutionary process: repeated exposure acts as selective pressure, and genetically resistant individuals become more common across generations through natural selection — a different concept from an individual's environmental tolerance range. The equivalence does not hold for any pest type, the two concepts are not identical, and pesticide resistance is a well-documented, actively observed phenomenon in real pest populations."
+      "explanation": "Correct: (A) No — pesticide resistance is population-level natural selection, not an individual's tolerance. Pesticide resistance is a population-level evolutionary process: repeated exposure acts as selective pressure, and genetically resistant individuals become more common across generations through natural selection — a different concept from an individual's environmental tolerance range. The equivalence does not hold for any pest type, the two concepts are not identical, and pesticide resistance is a well-documented, actively observed phenomenon in real pest populations."
     },
     {
       "id": "5-24",
@@ -4599,7 +4599,7 @@ const QUESTIONS = {
         "This practice will have essentially no effect on the pest population over time."
       ],
       "correct": 2,
-      "explanation": "Routine, exclusive reliance on a single pesticide creates strong, consistent selective pressure favoring any resistant individuals, so resistance is expected to increase across successive generations, reducing long-term effectiveness — exactly what IPM strategies aim to avoid. Effectiveness does not stay constant under that pressure, the practice clearly shapes pest population genetics, and extinction of the whole pest population after one season is not a realistic outcome of routine chemical use."
+      "explanation": "Correct: (C) The pest population is likely to develop resistance, reducing the pesticide's effectiveness. Routine, exclusive reliance on a single pesticide creates strong, consistent selective pressure favoring any resistant individuals, so resistance is expected to increase across successive generations, reducing long-term effectiveness — exactly what IPM strategies aim to avoid. Effectiveness does not stay constant under that pressure, the practice clearly shapes pest population genetics, and extinction of the whole pest population after one season is not a realistic outcome of routine chemical use."
     },
     {
       "id": "5-25",
@@ -4612,7 +4612,7 @@ const QUESTIONS = {
         "Exclusive reliance on a single broad-spectrum pesticide with no other strategies involved."
       ],
       "correct": 2,
-      "explanation": "Biological control — introducing or supporting natural predators of the target pest — is a classic component strategy within Integrated Pest Management, used alongside crop rotation and targeted, minimal pesticide use. Dropping monitoring, relying on a single pesticide alone, and planting an unrotated monoculture are all practices IPM is specifically designed to move away from, not components of it."
+      "explanation": "Correct: (C) Biological control, using natural predators of the pest species. Biological control — introducing or supporting natural predators of the target pest — is a classic component strategy within Integrated Pest Management, used alongside crop rotation and targeted, minimal pesticide use. Dropping monitoring, relying on a single pesticide alone, and planting an unrotated monoculture are all practices IPM is specifically designed to move away from, not components of it."
     },
     {
       "id": "5-26",
@@ -4625,7 +4625,7 @@ const QUESTIONS = {
         "IPM is functionally identical to exclusive chemical pesticide use, just marketed under a different name."
       ],
       "correct": 1,
-      "explanation": "By combining multiple strategies and using chemical pesticides only when genuinely necessary, IPM can slow pest resistance development and reduce broader ecological harms like biomagnification risk, compared to heavy, exclusive chemical reliance. IPM does not remove the need for pest management altogether, it is a meaningfully different approach rather than chemical reliance rebranded, and its resistance- and ecology-related benefits are real and well documented."
+      "explanation": "Correct: (B) IPM combines strategies and limits routine chemical use, slowing resistance and ecological harm. By combining multiple strategies and using chemical pesticides only when genuinely necessary, IPM can slow pest resistance development and reduce broader ecological harms like biomagnification risk, compared to heavy, exclusive chemical reliance. IPM does not remove the need for pest management altogether, it is a meaningfully different approach rather than chemical reliance rebranded, and its resistance- and ecology-related benefits are real and well documented."
     },
     {
       "id": "5-27",
@@ -4638,7 +4638,7 @@ const QUESTIONS = {
         "Large fish, small fish, algae."
       ],
       "correct": 1,
-      "explanation": "Biomagnification predicts increasing concentration at each successive trophic level: algae (producers) have the lowest concentration, small fish (primary consumers, having eaten many algae) show an intermediate concentration, and large fish (secondary consumers, having eaten many already-concentrated small fish) show the highest. Reversing that order, or claiming the levels are equal, contradicts the trophic-level concentration pattern that defines biomagnification."
+      "explanation": "Correct: (B) Algae, small fish, large fish. Biomagnification predicts increasing concentration at each successive trophic level: algae (producers) have the lowest concentration, small fish (primary consumers, having eaten many algae) show an intermediate concentration, and large fish (secondary consumers, having eaten many already-concentrated small fish) show the highest. Reversing that order, or claiming the levels are equal, contradicts the trophic-level concentration pattern that defines biomagnification."
     },
     {
       "id": "5-28",
@@ -4651,7 +4651,7 @@ const QUESTIONS = {
         "A government agency responsible for regulating meat production standards."
       ],
       "correct": 0,
-      "explanation": "CAFO stands for Concentrated Animal Feeding Operation — raising large numbers of livestock in a relatively small area, using far less land per animal than extensive or free-range operations. It is not an organic-farming certification, it is essentially the opposite of free-range production, and it names a type of facility, not a regulatory agency."
+      "explanation": "Correct: (A) Concentrated Animal Feeding Operation — raising many livestock in a small area. CAFO stands for Concentrated Animal Feeding Operation — raising large numbers of livestock in a relatively small area, using far less land per animal than extensive or free-range operations. It is not an organic-farming certification, it is essentially the opposite of free-range production, and it names a type of facility, not a regulatory agency."
     },
     {
       "id": "5-29",
@@ -4664,7 +4664,7 @@ const QUESTIONS = {
         "CAFOs eliminate all waste management concerns associated with raising livestock."
       ],
       "correct": 2,
-      "explanation": "CAFOs' primary genuine benefit is significantly greater land-use efficiency, raising large numbers of animals in far less space than extensive/free-range operations require. CAFOs actually tend to rely more heavily on routine antibiotics, not less; concentrating animals concentrates waste and creates, rather than eliminates, waste management challenges; and CAFOs carry well-documented environmental impacts rather than none."
+      "explanation": "Correct: (C) CAFOs use significantly less land per animal than free-range operations. CAFOs' primary genuine benefit is significantly greater land-use efficiency, raising large numbers of animals in far less space than extensive/free-range operations require. CAFOs actually tend to rely more heavily on routine antibiotics, not less; concentrating animals concentrates waste and creates, rather than eliminates, waste management challenges; and CAFOs carry well-documented environmental impacts rather than none."
     },
     {
       "id": "5-30",
@@ -4677,7 +4677,7 @@ const QUESTIONS = {
         "Large volumes of concentrated waste create real water pollution risk."
       ],
       "correct": 3,
-      "explanation": "Concentrating large numbers of animals in a small area produces large volumes of waste in that same small footprint, creating significant water pollution risk if the waste is not properly stored and managed. CAFOs use less land per animal, not more, which is precisely what concentrates the waste problem; that concentration makes waste infrastructure more necessary, not unnecessary; and water quality is a central, not irrelevant, CAFO concern."
+      "explanation": "Correct: (D) Large volumes of concentrated waste create real water pollution risk. Concentrating large numbers of animals in a small area produces large volumes of waste in that same small footprint, creating significant water pollution risk if the waste is not properly stored and managed. CAFOs use less land per animal, not more, which is precisely what concentrates the waste problem; that concentration makes waste infrastructure more necessary, not unnecessary; and water quality is a central, not irrelevant, CAFO concern."
     },
     {
       "id": "5-31",
@@ -4690,7 +4690,7 @@ const QUESTIONS = {
         "Antibiotic use in livestock has no meaningful relationship to human public health."
       ],
       "correct": 0,
-      "explanation": "Routine antibiotic use to prevent disease in crowded CAFO conditions creates selective pressure favoring antibiotic-resistant bacteria, similar to the pesticide-resistance mechanism earlier in this unit — resistant strains can spread beyond the livestock operation and affect human health, not just livestock. Antibiotics are in fact used routinely in many CAFOs, which is precisely why the resistance concern arises in the first place."
+      "explanation": "Correct: (A) Routine antibiotic use in crowded conditions can breed antibiotic-resistant bacteria. Routine antibiotic use to prevent disease in crowded CAFO conditions creates selective pressure favoring antibiotic-resistant bacteria, similar to the pesticide-resistance mechanism earlier in this unit — resistant strains can spread beyond the livestock operation and affect human health, not just livestock. Antibiotics are in fact used routinely in many CAFOs, which is precisely why the resistance concern arises in the first place."
     },
     {
       "id": "5-32",
@@ -4703,7 +4703,7 @@ const QUESTIONS = {
         "All livestock species produce essentially identical methane emissions."
       ],
       "correct": 2,
-      "explanation": "Cattle are particularly noted for significant methane emissions, a potent greenhouse gas produced primarily by their digestive process, regardless of whether they're raised in a CAFO or a more extensive system. Chickens and fish, by contrast, do not have the same methane-generating digestive process, and livestock species clearly differ in their methane output rather than being interchangeable in this respect."
+      "explanation": "Correct: (C) Cattle. Cattle are particularly noted for significant methane emissions, a potent greenhouse gas produced primarily by their digestive process, regardless of whether they're raised in a CAFO or a more extensive system. Chickens and fish, by contrast, do not have the same methane-generating digestive process, and livestock species clearly differ in their methane output rather than being interchangeable in this respect."
     },
     {
       "id": "5-33",
@@ -4716,7 +4716,7 @@ const QUESTIONS = {
         "The 10% rule from Unit 1 has no meaningful relationship to livestock production."
       ],
       "correct": 0,
-      "explanation": "Since cattle, as primary consumers, convert only about 10% of the energy from the plants they eat into body mass, producing a given number of beef calories requires roughly ten times as many plant calories to be grown, translating into significantly more land, water, and inputs per calorie than eating plant calories directly. Beef in fact requires more, not fewer, resources per calorie; cattle convert only a small fraction, not nearly all, of consumed energy; and the 10% rule is directly, not incidentally, responsible for this land-use difference."
+      "explanation": "Correct: (A) Cattle convert about 10% of plant energy into mass, needing more land per calorie. Since cattle, as primary consumers, convert only about 10% of the energy from the plants they eat into body mass, producing a given number of beef calories requires roughly ten times as many plant calories to be grown, translating into significantly more land, water, and inputs per calorie than eating plant calories directly. Beef in fact requires more, not fewer, resources per calorie; cattle convert only a small fraction, not nearly all, of consumed energy; and the 10% rule is directly, not incidentally, responsible for this land-use difference."
     },
     {
       "id": "5-34",
@@ -4729,7 +4729,7 @@ const QUESTIONS = {
         "Extensive/free-range operations generally use much more land per animal than CAFOs."
       ],
       "correct": 3,
-      "explanation": "Extensive/free-range operations generally require significantly more land per animal than CAFOs, which concentrate large numbers of animals in a comparatively small area — precisely the land-use tradeoff CAFOs offer, at the cost of concentrated waste and related concerns. Land use is directly tied to production method, CAFOs use less land per animal (not more), and the two methods differ substantially rather than matching."
+      "explanation": "Correct: (D) Extensive/free-range operations generally use much more land per animal than CAFOs. Extensive/free-range operations generally require significantly more land per animal than CAFOs, which concentrate large numbers of animals in a comparatively small area — precisely the land-use tradeoff CAFOs offer, at the cost of concentrated waste and related concerns. Land use is directly tied to production method, CAFOs use less land per animal (not more), and the two methods differ substantially rather than matching."
     },
     {
       "id": "5-35",
@@ -4742,7 +4742,7 @@ const QUESTIONS = {
         "CAFOs offer no genuine benefits of any kind, presenting only costs to producers and the environment."
       ],
       "correct": 2,
-      "explanation": "This captures the genuine CAFO tradeoff: significant land-use efficiency gains, weighed against real concerns including concentrated waste, antibiotic resistance risk, and greenhouse gas emissions that persist regardless of method (particularly for cattle). CAFOs and extensive operations differ substantially, not identically, in their environmental profiles; CAFOs do offer the genuine land-use benefit described above; and they do not eliminate environmental concerns, since waste, resistance, and emissions risks all remain."
+      "explanation": "Correct: (C) CAFOs trade land-use efficiency for concentrated waste, antibiotic resistance, and emissions concerns. This captures the genuine CAFO tradeoff: significant land-use efficiency gains, weighed against real concerns including concentrated waste, antibiotic resistance risk, and greenhouse gas emissions that persist regardless of method (particularly for cattle). CAFOs and extensive operations differ substantially, not identically, in their environmental profiles; CAFOs do offer the genuine land-use benefit described above; and they do not eliminate environmental concerns, since waste, resistance, and emissions risks all remain."
     },
     {
       "id": "5-36",
@@ -4755,7 +4755,7 @@ const QUESTIONS = {
         "Eliminating all existing waste storage infrastructure at the facility entirely."
       ],
       "correct": 0,
-      "explanation": "Implementing proper waste storage and treatment — such as lined lagoons designed to prevent leakage, or dedicated treatment facilities — directly addresses the underlying cause of CAFO water pollution risk: large volumes of concentrated waste with inadequate containment. Adding more animals with no other change would worsen, not reduce, that risk; the risk is very much manageable through practice; and removing existing infrastructure would eliminate the very containment that limits pollution."
+      "explanation": "Correct: (A) Implementing proper waste storage, such as lined lagoons or treatment facilities. Implementing proper waste storage and treatment — such as lined lagoons designed to prevent leakage, or dedicated treatment facilities — directly addresses the underlying cause of CAFO water pollution risk: large volumes of concentrated waste with inadequate containment. Adding more animals with no other change would worsen, not reduce, that risk; the risk is very much manageable through practice; and removing existing infrastructure would eliminate the very containment that limits pollution."
     },
     {
       "id": "5-37",
@@ -4768,7 +4768,7 @@ const QUESTIONS = {
         "Clear-cutting."
       ],
       "correct": 3,
-      "explanation": "Clear-cutting removes essentially all trees from an area in a single harvest operation — the cheapest and most efficient method, but also the most ecologically disruptive. Selective cutting removes only individual trees, and shelterwood cutting removes trees gradually over a series of partial cuts, so neither matches the 'all at once' description, which rules out the claim that no method does."
+      "explanation": "Correct: (D) Clear-cutting. Clear-cutting removes essentially all trees from an area in a single harvest operation — the cheapest and most efficient method, but also the most ecologically disruptive. Selective cutting removes only individual trees, and shelterwood cutting removes trees gradually over a series of partial cuts, so neither matches the 'all at once' description, which rules out the claim that no method does."
     },
     {
       "id": "5-38",
@@ -4781,7 +4781,7 @@ const QUESTIONS = {
         "None of the listed harvesting methods leave any trees intact after harvest."
       ],
       "correct": 1,
-      "explanation": "Selective cutting removes only select individual trees, leaving most of the surrounding forest intact — a more expensive, less efficient method than clear-cutting, but one that substantially reduces habitat disruption and erosion risk. Clear-cutting, by contrast, removes essentially all trees at once, so grouping the two methods together, or claiming neither leaves trees standing, misdescribes selective cutting's defining feature."
+      "explanation": "Correct: (B) Selective cutting. Selective cutting removes only select individual trees, leaving most of the surrounding forest intact — a more expensive, less efficient method than clear-cutting, but one that substantially reduces habitat disruption and erosion risk. Clear-cutting, by contrast, removes essentially all trees at once, so grouping the two methods together, or claiming neither leaves trees standing, misdescribes selective cutting's defining feature."
     },
     {
       "id": "5-39",
@@ -4794,7 +4794,7 @@ const QUESTIONS = {
         "Removing all vegetation and roots leaves exposed soil with nothing to hold it in place."
       ],
       "correct": 3,
-      "explanation": "Since clear-cutting removes essentially all vegetation and root systems at once, the site is left with exposed, unprotected soil and no canopy to intercept rainfall, directly increasing erosion vulnerability — consistent with Unit 4's coverage of how vegetation loss accelerates erosion. Clear-cutting reduces, rather than improves, soil stability; erosion risk applies to harvested land regardless of prior harvest history; and the two are directly, not incidentally, connected."
+      "explanation": "Correct: (D) Removing all vegetation and roots leaves exposed soil with nothing to hold it in place. Since clear-cutting removes essentially all vegetation and root systems at once, the site is left with exposed, unprotected soil and no canopy to intercept rainfall, directly increasing erosion vulnerability — consistent with Unit 4's coverage of how vegetation loss accelerates erosion. Clear-cutting reduces, rather than improves, soil stability; erosion risk applies to harvested land regardless of prior harvest history; and the two are directly, not incidentally, connected."
     },
     {
       "id": "5-40",
@@ -4807,7 +4807,7 @@ const QUESTIONS = {
         "Primary succession, since all existing vegetation has been completely removed."
       ],
       "correct": 0,
-      "explanation": "Since clear-cutting removes vegetation but typically leaves the underlying soil intact, forest recovery follows secondary succession, proceeding faster than primary succession would, though full recovery to a mature forest can still take decades. Recovery does occur and is classifiable using succession theory; the determining factor is soil condition, not vegetation loss alone, so removed vegetation with intact soil still points to secondary, not primary, succession."
+      "explanation": "Correct: (A) Secondary succession, since the underlying soil generally remains intact. Since clear-cutting removes vegetation but typically leaves the underlying soil intact, forest recovery follows secondary succession, proceeding faster than primary succession would, though full recovery to a mature forest can still take decades. Recovery does occur and is classifiable using succession theory; the determining factor is soil condition, not vegetation loss alone, so removed vegetation with intact soil still points to secondary, not primary, succession."
     },
     {
       "id": "5-41",
@@ -4820,7 +4820,7 @@ const QUESTIONS = {
         "A harvesting method that removes no trees from the site whatsoever."
       ],
       "correct": 2,
-      "explanation": "Shelterwood cutting removes trees in a series of partial cuts over time, deliberately leaving some mature trees standing to naturally reseed the harvested area — an intermediate approach between clear-cutting's efficiency and selective cutting's minimal disruption. It does remove trees, just not all at once as clear-cutting does, and it is distinct from selective cutting, which targets individual trees rather than proceeding in scheduled partial-cut stages."
+      "explanation": "Correct: (C) Removing trees in partial cuts over time, leaving some mature trees to reseed. Shelterwood cutting removes trees in a series of partial cuts over time, deliberately leaving some mature trees standing to naturally reseed the harvested area — an intermediate approach between clear-cutting's efficiency and selective cutting's minimal disruption. It does remove trees, just not all at once as clear-cutting does, and it is distinct from selective cutting, which targets individual trees rather than proceeding in scheduled partial-cut stages."
     },
     {
       "id": "5-42",
@@ -4833,7 +4833,7 @@ const QUESTIONS = {
         "Selective cutting, since it leaves most root systems and canopy intact."
       ],
       "correct": 3,
-      "explanation": "Selective cutting, by leaving most of the forest's root systems and canopy intact, substantially reduces erosion risk compared to clear-cutting — a particularly important consideration on a steep, erosion-prone hillside. Harvesting methods do not produce identical erosion outcomes, erosion risk is directly shaped by which method is chosen, and clear-cutting's low cost does not offset the much greater erosion risk it would create here."
+      "explanation": "Correct: (D) Selective cutting, since it leaves most root systems and canopy intact. Selective cutting, by leaving most of the forest's root systems and canopy intact, substantially reduces erosion risk compared to clear-cutting — a particularly important consideration on a steep, erosion-prone hillside. Harvesting methods do not produce identical erosion outcomes, erosion risk is directly shaped by which method is chosen, and clear-cutting's low cost does not offset the much greater erosion risk it would create here."
     },
     {
       "id": "5-43",
@@ -4859,7 +4859,7 @@ const QUESTIONS = {
         "There is no meaningful practical value in making this kind of distinction."
       ],
       "correct": 0,
-      "explanation": "Each specific driver of deforestation involves different decision-makers, economic pressures, and intervention points — a policy effective against agricultural-driven deforestation, like certification programs, may be far less relevant to urbanization-driven loss. The drivers are not identical in their underlying causes, and that difference has real, not negligible, value for designing effective, targeted policy responses."
+      "explanation": "Correct: (A) Each driver involves different decision-makers and potential policy responses. Each specific driver of deforestation involves different decision-makers, economic pressures, and intervention points — a policy effective against agricultural-driven deforestation, like certification programs, may be far less relevant to urbanization-driven loss. The drivers are not identical in their underlying causes, and that difference has real, not negligible, value for designing effective, targeted policy responses."
     },
     {
       "id": "5-45",
@@ -4872,7 +4872,7 @@ const QUESTIONS = {
         "Neither harvesting method involves any meaningful cost considerations at all."
       ],
       "correct": 2,
-      "explanation": "Selective cutting is generally the most expensive and least efficient harvesting method, since only select trees are removed in careful, labor-intensive operations, but it causes substantially less habitat disruption and erosion risk than clear-cutting. Clear-cutting is in fact the cheaper, more efficient (but more disruptive) method, so cost is a real factor in this choice, and the two methods differ sharply rather than matching in cost and disruption."
+      "explanation": "Correct: (C) Selective cutting. Selective cutting is generally the most expensive and least efficient harvesting method, since only select trees are removed in careful, labor-intensive operations, but it causes substantially less habitat disruption and erosion risk than clear-cutting. Clear-cutting is in fact the cheaper, more efficient (but more disruptive) method, so cost is a real factor in this choice, and the two methods differ sharply rather than matching in cost and disruption."
     },
     {
       "id": "5-46",
@@ -4885,7 +4885,7 @@ const QUESTIONS = {
         "Habitat quality has no meaningful relationship to the forest's recovery stage."
       ],
       "correct": 0,
-      "explanation": "During recovery from clear-cutting, habitat quality is substantially reduced compared to the original mature forest and only gradually improves as secondary succession proceeds through its stages, with full recovery potentially taking decades. Quality does not stay flat throughout recovery, it is nowhere near the original level immediately after harvest, and it is directly tied to how far succession has progressed."
+      "explanation": "Correct: (A) Habitat quality is reduced compared to the original forest, improving as succession proceeds. During recovery from clear-cutting, habitat quality is substantially reduced compared to the original mature forest and only gradually improves as secondary succession proceeds through its stages, with full recovery potentially taking decades. Quality does not stay flat throughout recovery, it is nowhere near the original level immediately after harvest, and it is directly tied to how far succession has progressed."
     },
     {
       "id": "5-47",
@@ -4898,7 +4898,7 @@ const QUESTIONS = {
         "Urbanization increases infiltration and decreases runoff compared to undeveloped land."
       ],
       "correct": 0,
-      "explanation": "Urbanization replaces natural, permeable land cover with impervious surfaces like pavement, rooftops, and parking lots, directly decreasing infiltration and increasing runoff — the same infiltration/runoff mechanism covered in Unit 1's water cycle content. The effect is substantial, not negligible; it runs in the opposite direction (less infiltration, more runoff, not the reverse); and it affects surface runoff directly, not only groundwater."
+      "explanation": "Correct: (A) Urbanization cuts infiltration and raises runoff as pavement replaces permeable land. Urbanization replaces natural, permeable land cover with impervious surfaces like pavement, rooftops, and parking lots, directly decreasing infiltration and increasing runoff — the same infiltration/runoff mechanism covered in Unit 1's water cycle content. The effect is substantial, not negligible; it runs in the opposite direction (less infiltration, more runoff, not the reverse); and it affects surface runoff directly, not only groundwater."
     },
     {
       "id": "5-48",
@@ -4911,7 +4911,7 @@ const QUESTIONS = {
         "A term with no established or agreed-upon meaning within environmental science."
       ],
       "correct": 1,
-      "explanation": "The urban heat island effect describes cities running measurably warmer than surrounding rural areas, since pavement and buildings absorb and re-emit heat far more than natural vegetation, while reduced urban vegetation also provides less evaporative cooling. Cities run warmer, not cooler, than their surroundings; the term is a well-established concept in environmental science; and the effect occurs in inland cities as well as coastal ones."
+      "explanation": "Correct: (B) Cities run measurably warmer than rural areas, since pavement and buildings hold and re-emit heat. The urban heat island effect describes cities running measurably warmer than surrounding rural areas, since pavement and buildings absorb and re-emit heat far more than natural vegetation, while reduced urban vegetation also provides less evaporative cooling. Cities run warmer, not cooler, than their surroundings; the term is a well-established concept in environmental science; and the effect occurs in inland cities as well as coastal ones."
     },
     {
       "id": "5-49",
@@ -4924,7 +4924,7 @@ const QUESTIONS = {
         "Green roofs, which place vegetation on top of buildings."
       ],
       "correct": 1,
-      "explanation": "Rain gardens are vegetated depressions specifically designed to capture and filter stormwater runoff, allowing it to infiltrate gradually rather than flowing directly into storm drains. Retention ponds serve a similar slow-release function but at a much larger, basin scale rather than as small vegetated depressions; green roofs capture rainfall at the rooftop rather than at ground level; and permeable pavement works by letting water pass through a hard surface rather than through vegetation."
+      "explanation": "Correct: (B) Rain gardens. Rain gardens are vegetated depressions specifically designed to capture and filter stormwater runoff, allowing it to infiltrate gradually rather than flowing directly into storm drains. Retention ponds serve a similar slow-release function but at a much larger, basin scale rather than as small vegetated depressions; green roofs capture rainfall at the rooftop rather than at ground level; and permeable pavement works by letting water pass through a hard surface rather than through vegetation."
     },
     {
       "id": "5-50",
@@ -4937,7 +4937,7 @@ const QUESTIONS = {
         "Retention ponds, which hold and slowly release collected stormwater."
       ],
       "correct": 0,
-      "explanation": "Permeable pavement is specifically designed to let water infiltrate through the pavement surface itself, unlike traditional impervious pavement, which forces all precipitation into surface runoff. Green roofs and rain gardens manage runoff through vegetation rather than surface infiltration, and retention ponds collect and slowly release runoff rather than letting it pass through a surface at all."
+      "explanation": "Correct: (A) Permeable pavement. Permeable pavement is specifically designed to let water infiltrate through the pavement surface itself, unlike traditional impervious pavement, which forces all precipitation into surface runoff. Green roofs and rain gardens manage runoff through vegetation rather than surface infiltration, and retention ponds collect and slowly release runoff rather than letting it pass through a surface at all."
     },
     {
       "id": "5-51",
@@ -4950,7 +4950,7 @@ const QUESTIONS = {
         "Suburban sprawl always increases, rather than decreases, overall habitat connectivity."
       ],
       "correct": 1,
-      "explanation": "Suburban sprawl breaks up previously contiguous natural habitat into smaller, more isolated patches, functioning as 'habitat islands' under island biogeography theory, which predicts reduced species richness in each smaller, more isolated fragment. The connection is real and direct, not absent; sprawl reduces, rather than increases, habitat connectivity; and island biogeography theory is routinely applied to fragmented terrestrial habitat, not just literal islands."
+      "explanation": "Correct: (B) Sprawl fragments contiguous habitat into smaller, isolated patches — a habitat-island scenario. Suburban sprawl breaks up previously contiguous natural habitat into smaller, more isolated patches, functioning as 'habitat islands' under island biogeography theory, which predicts reduced species richness in each smaller, more isolated fragment. The connection is real and direct, not absent; sprawl reduces, rather than increases, habitat connectivity; and island biogeography theory is routinely applied to fragmented terrestrial habitat, not just literal islands."
     },
     {
       "id": "5-52",
@@ -4963,7 +4963,7 @@ const QUESTIONS = {
         "No, habitat fragmentation depends only on total developed acreage, never on the pattern of development."
       ],
       "correct": 1,
-      "explanation": "Development PATTERN matters, not just total developed acreage: low-density sprawl spread thinly across a large area can fragment far more total habitat into isolated patches than the same number of housing units concentrated densely in a smaller footprint. Pattern, not just acreage, drives fragmentation outcomes; sprawl does cause meaningful fragmentation; and this pattern-versus-acreage relationship holds generally, not only in desert biomes."
+      "explanation": "Correct: (B) Yes — thinly spread low-density sprawl can fragment more total habitat than denser development. Development PATTERN matters, not just total developed acreage: low-density sprawl spread thinly across a large area can fragment far more total habitat into isolated patches than the same number of housing units concentrated densely in a smaller footprint. Pattern, not just acreage, drives fragmentation outcomes; sprawl does cause meaningful fragmentation; and this pattern-versus-acreage relationship holds generally, not only in desert biomes."
     },
     {
       "id": "5-53",
@@ -4976,7 +4976,7 @@ const QUESTIONS = {
         "Removing all existing stormwater drainage infrastructure from the city."
       ],
       "correct": 2,
-      "explanation": "Installing green roofs and rain gardens are practical interventions that capture and slow stormwater runoff without requiring building removal, directly addressing the increased runoff volume that drives urban flooding. Adding more impervious pavement would worsen runoff and flooding; removing drainage infrastructure would remove a tool that currently helps manage floodwater; and building removal is not actually necessary, since green infrastructure offers a viable alternative."
+      "explanation": "Correct: (C) Installing green roofs and rain gardens to capture and slow runoff. Installing green roofs and rain gardens are practical interventions that capture and slow stormwater runoff without requiring building removal, directly addressing the increased runoff volume that drives urban flooding. Adding more impervious pavement would worsen runoff and flooding; removing drainage infrastructure would remove a tool that currently helps manage floodwater; and building removal is not actually necessary, since green infrastructure offers a viable alternative."
     },
     {
       "id": "5-54",
@@ -4989,7 +4989,7 @@ const QUESTIONS = {
         "They increase the speed at which stormwater reaches downstream waterways."
       ],
       "correct": 1,
-      "explanation": "Retention/detention ponds temporarily hold excess stormwater and release it slowly rather than letting it rush immediately downstream, reducing flooding risk, while also giving suspended pollutants time to settle out before the water continues on. They slow, not speed up, downstream flow; water does eventually leave the pond via that slow release rather than being permanently retained; and they serve a clear, well-defined stormwater management function."
+      "explanation": "Correct: (B) They hold excess stormwater and release it slowly, letting pollutants settle out. Retention/detention ponds temporarily hold excess stormwater and release it slowly rather than letting it rush immediately downstream, reducing flooding risk, while also giving suspended pollutants time to settle out before the water continues on. They slow, not speed up, downstream flow; water does eventually leave the pond via that slow release rather than being permanently retained; and they serve a clear, well-defined stormwater management function."
     },
     {
       "id": "5-55",
@@ -5002,7 +5002,7 @@ const QUESTIONS = {
         "Urban areas actually contain significantly more vegetation than surrounding rural areas."
       ],
       "correct": 1,
-      "explanation": "Vegetation provides a cooling effect through evapotranspiration, releasing water vapor that absorbs heat in the process; urban areas, with far less vegetation than surrounding rural or natural land, lose out on this natural cooling, compounding the direct heat absorption of pavement and buildings. Vegetation is not thermally neutral, urban areas in fact have less vegetation than rural surroundings (not more), and vegetation cools rather than heats its surroundings."
+      "explanation": "Correct: (B) Vegetation cools through evapotranspiration; less vegetation means less of this cooling. Vegetation provides a cooling effect through evapotranspiration, releasing water vapor that absorbs heat in the process; urban areas, with far less vegetation than surrounding rural or natural land, lose out on this natural cooling, compounding the direct heat absorption of pavement and buildings. Vegetation is not thermally neutral, urban areas in fact have less vegetation than rural surroundings (not more), and vegetation cools rather than heats its surroundings."
     },
     {
       "id": "5-56",
@@ -5015,7 +5015,7 @@ const QUESTIONS = {
         "Any species that migrates seasonally between two or more distinct regions."
       ],
       "correct": 1,
-      "explanation": "An invasive species is a non-native species, introduced intentionally or accidentally to a new region, that causes significant ecological or economic harm — not every introduced species becomes invasive, but those that do can cause serious disruption. The term is unrelated to endangered status, to simply occurring in multiple countries natively, and to ordinary seasonal migration within a species' native range."
+      "explanation": "Correct: (B) A non-native species causing real ecological or economic harm in its new region. An invasive species is a non-native species, introduced intentionally or accidentally to a new region, that causes significant ecological or economic harm — not every introduced species becomes invasive, but those that do can cause serious disruption. The term is unrelated to endangered status, to simply occurring in multiple countries natively, and to ordinary seasonal migration within a species' native range."
     },
     {
       "id": "5-57",
@@ -5028,7 +5028,7 @@ const QUESTIONS = {
         "Invasive species are always genetically superior to every native species they encounter."
       ],
       "correct": 0,
-      "explanation": "Invasive species frequently succeed because they've 'escaped' the predators, competitors, or diseases that regulated their population in their native range, letting them grow and spread with far less resistance than native species face. Their success reflects an ecological release, not innate genetic superiority; invasive species are typically targeted for control rather than legal protection; and the predator/competitor-release mechanism is a well-established explanation in ecology."
+      "explanation": "Correct: (A) They arrive without the predators, competitors, or diseases that checked them at home. Invasive species frequently succeed because they've 'escaped' the predators, competitors, or diseases that regulated their population in their native range, letting them grow and spread with far less resistance than native species face. Their success reflects an ecological release, not innate genetic superiority; invasive species are typically targeted for control rather than legal protection; and the predator/competitor-release mechanism is a well-established explanation in ecology."
     },
     {
       "id": "5-58",
@@ -5041,7 +5041,7 @@ const QUESTIONS = {
         "Harvesting fish faster than the population can reproduce and replace itself."
       ],
       "correct": 3,
-      "explanation": "Overfishing occurs when fish are harvested faster than the population can reproduce and replace itself. It is defined by harvest rate relative to reproductive capacity, not by targeting only non-native fish; harvesting below replacement rate is sustainable fishing, the opposite condition; and it is entirely distinct from aquaculture, which raises fish in controlled conditions rather than harvesting wild populations."
+      "explanation": "Correct: (D) Harvesting fish faster than the population can reproduce and replace itself. Overfishing occurs when fish are harvested faster than the population can reproduce and replace itself. It is defined by harvest rate relative to reproductive capacity, not by targeting only non-native fish; harvesting below replacement rate is sustainable fishing, the opposite condition; and it is entirely distinct from aquaculture, which raises fish in controlled conditions rather than harvesting wild populations."
     },
     {
       "id": "5-59",
@@ -5054,7 +5054,7 @@ const QUESTIONS = {
         "The unintended capture of non-target species during fishing operations."
       ],
       "correct": 3,
-      "explanation": "Bycatch refers to the unintended capture of non-target species during fishing operations — a significant additional source of harm to marine species beyond the direct effects of overfishing the intentionally targeted species. It is a distinct concept from overfishing itself, it describes the opposite of the intended target catch, and it names a harm, not a quota-setting method."
+      "explanation": "Correct: (D) The unintended capture of non-target species during fishing operations. Bycatch refers to the unintended capture of non-target species during fishing operations — a significant additional source of harm to marine species beyond the direct effects of overfishing the intentionally targeted species. It is a distinct concept from overfishing itself, it describes the opposite of the intended target catch, and it names a harm, not a quota-setting method."
     },
     {
       "id": "5-60",
@@ -5067,7 +5067,7 @@ const QUESTIONS = {
         "Yes, overfishing is always the sole cause behind any given fish population decline."
       ],
       "correct": 2,
-      "explanation": "While overfishing is a major driver of fish population decline, other factors — habitat destruction, pollution, climate change effects on ocean temperature and chemistry, or combinations of these — can also cause or contribute to declines, so a full analysis considers which driver(s) best explain a given case. Fish populations do decline in practice, overfishing is not always the sole explanation even when it contributes, and multi-causal declines occur in marine as well as freshwater systems."
+      "explanation": "Correct: (C) No — habitat destruction, pollution, or climate change can also drive declines. While overfishing is a major driver of fish population decline, other factors — habitat destruction, pollution, climate change effects on ocean temperature and chemistry, or combinations of these — can also cause or contribute to declines, so a full analysis considers which driver(s) best explain a given case. Fish populations do decline in practice, overfishing is not always the sole explanation even when it contributes, and multi-causal declines occur in marine as well as freshwater systems."
     },
     {
       "id": "5-61",
@@ -5080,7 +5080,7 @@ const QUESTIONS = {
         "Trophic cascades have no meaningful relationship to fishing practices or fish harvest."
       ],
       "correct": 0,
-      "explanation": "Removing a significant portion of a species from a marine food web — especially one playing an outsized ecological role — can disrupt predator-prey balance throughout the broader system, producing cascading effects on other species, conceptually similar to Unit 2's keystone species removal effects. Effects extend well beyond the targeted species, trophic cascades are directly tied to fishing pressure, and removing species tends to destabilize, not stabilize, the food web."
+      "explanation": "Correct: (A) Removing a heavily-connected species can disrupt predator-prey balance food-web-wide. Removing a significant portion of a species from a marine food web — especially one playing an outsized ecological role — can disrupt predator-prey balance throughout the broader system, producing cascading effects on other species, conceptually similar to Unit 2's keystone species removal effects. Effects extend well beyond the targeted species, trophic cascades are directly tied to fishing pressure, and removing species tends to destabilize, not stabilize, the food web."
     },
     {
       "id": "5-62",
@@ -5093,7 +5093,7 @@ const QUESTIONS = {
         "This is not an example of an invasive species, since the original introduction was intentional."
       ],
       "correct": 0,
-      "explanation": "Whether a species is classified as 'invasive' depends on whether it causes significant ecological or economic harm in its new environment — not on whether the original introduction was intentional or accidental. This scenario describes a plant introduction and spread, not a fishing practice, so it isn't overfishing; intentional introduction does not exempt a harmful species from the invasive label; and it is directly, not tangentially, an invasive-species example."
+      "explanation": "Correct: (A) This is a classic invasive species, regardless of whether the introduction was intentional. Whether a species is classified as 'invasive' depends on whether it causes significant ecological or economic harm in its new environment — not on whether the original introduction was intentional or accidental. This scenario describes a plant introduction and spread, not a fishing practice, so it isn't overfishing; intentional introduction does not exempt a harmful species from the invasive label; and it is directly, not tangentially, an invasive-species example."
     },
     {
       "id": "5-63",
@@ -5106,7 +5106,7 @@ const QUESTIONS = {
         "There is no meaningful connection between overfishing and the carrying capacity concept."
       ],
       "correct": 1,
-      "explanation": "Sustainable fishing requires harvesting at a rate the population can replace through its own reproduction, conceptually connected to Unit 3's population growth models, where sustainable harvest must respect the population's actual growth capacity rather than assuming unlimited extraction is possible. Overfishing does not raise carrying capacity; carrying capacity applies to marine as well as terrestrial populations; and the two concepts are directly, not superficially, linked."
+      "explanation": "Correct: (B) Sustainable fishing requires staying below the harvest rate a population's growth can replace. Sustainable fishing requires harvesting at a rate the population can replace through its own reproduction, conceptually connected to Unit 3's population growth models, where sustainable harvest must respect the population's actual growth capacity rather than assuming unlimited extraction is possible. Overfishing does not raise carrying capacity; carrying capacity applies to marine as well as terrestrial populations; and the two concepts are directly, not superficially, linked."
     },
     {
       "id": "5-64",
@@ -5119,7 +5119,7 @@ const QUESTIONS = {
         "Establishing catch limits based on sustainable harvest rates."
       ],
       "correct": 3,
-      "explanation": "Establishing catch limits based on sustainable harvest rates — keeping harvest below the population's capacity to reproduce and replace itself — directly addresses overfishing specifically. Reducing coastal pollution and addressing climate change both target separate, legitimate causes of fish population decline rather than overfishing itself, and all three listed approaches do have real, not negligible, effects on fish populations when applied to their respective causes."
+      "explanation": "Correct: (D) Establishing catch limits based on sustainable harvest rates. Establishing catch limits based on sustainable harvest rates — keeping harvest below the population's capacity to reproduce and replace itself — directly addresses overfishing specifically. Reducing coastal pollution and addressing climate change both target separate, legitimate causes of fish population decline rather than overfishing itself, and all three listed approaches do have real, not negligible, effects on fish populations when applied to their respective causes."
     },
     {
       "id": "5-65",
@@ -5132,7 +5132,7 @@ const QUESTIONS = {
         "This scenario has no meaningful connection to any population or ecosystem concept covered in this course."
       ],
       "correct": 0,
-      "explanation": "This is a genuine synthesis opportunity, drawing on Unit 3's population growth models (unchecked growth absent natural predators), Unit 1's trophic level and food web content (disruption of the native food web), and this unit's own invasive species and fishery-depletion content — illustrating how a single real-world problem typically spans multiple units at once. It is not confined to Unit 4's earth systems content, it clearly connects back to earlier units rather than standing alone, and it engages several core population and ecosystem concepts rather than none."
+      "explanation": "Correct: (A) This connects Unit 3 population growth, Unit 1 food webs, and this unit's fishery depletion. This is a genuine synthesis opportunity, drawing on Unit 3's population growth models (unchecked growth absent natural predators), Unit 1's trophic level and food web content (disruption of the native food web), and this unit's own invasive species and fishery-depletion content — illustrating how a single real-world problem typically spans multiple units at once. It is not confined to Unit 4's earth systems content, it clearly connects back to earlier units rather than standing alone, and it engages several core population and ecosystem concepts rather than none."
     },
     {
       "id": "5-66",
@@ -5145,7 +5145,7 @@ const QUESTIONS = {
         "The Tragedy of the Commons."
       ],
       "correct": 3,
-      "explanation": "The Tragedy of the Commons describes how individually rational self-interest — each herder maximizing their own benefit from a shared, unregulated resource — leads to collective overexploitation and degradation, even though every user would be better off with shared restraint; classic examples include overgrazed open pasture, overfished international waters, and atmospheric pollution. Biomagnification describes toxin concentration up a food chain, the Green Revolution describes a shift in crop-production technology, and IPM describes a pest-control strategy — none involve unregulated shared-resource overuse."
+      "explanation": "Correct: (D) The Tragedy of the Commons. The Tragedy of the Commons describes how individually rational self-interest — each herder maximizing their own benefit from a shared, unregulated resource — leads to collective overexploitation and degradation, even though every user would be better off with shared restraint; classic examples include overgrazed open pasture, overfished international waters, and atmospheric pollution. Biomagnification describes toxin concentration up a food chain, the Green Revolution describes a shift in crop-production technology, and IPM describes a pest-control strategy — none involve unregulated shared-resource overuse."
     },
     {
       "id": "5-67",
@@ -5158,7 +5158,7 @@ const QUESTIONS = {
         "It automatically improves soil fertility for future agricultural use of the land."
       ],
       "correct": 1,
-      "explanation": "Surface mining (e.g., strip mining, mountaintop removal) strips vegetation and topsoil over large areas, leaving exposed, unstable land vulnerable to erosion and largely unusable as habitat until active reclamation — regrading, replanting — is undertaken. It degrades rather than improves fertility, it is by definition a surface, not exclusively underground, activity, and it typically increases, not eliminates, the need for land-use regulation and oversight."
+      "explanation": "Correct: (B) It strips vegetation and topsoil over large areas, raising erosion risk and destroying habitat. Surface mining (e.g., strip mining, mountaintop removal) strips vegetation and topsoil over large areas, leaving exposed, unstable land vulnerable to erosion and largely unusable as habitat until active reclamation — regrading, replanting — is undertaken. It degrades rather than improves fertility, it is by definition a surface, not exclusively underground, activity, and it typically increases, not eliminates, the need for land-use regulation and oversight."
     },
     {
       "id": "5-68",
@@ -5171,7 +5171,7 @@ const QUESTIONS = {
         "To increase the field's overall exposure to direct sunlight."
       ],
       "correct": 1,
-      "explanation": "Contour plowing follows a sloped field's natural contours so each row acts as a small barrier to downhill water flow, slowing runoff and reducing soil erosion — alongside terracing, windbreaks, crop rotation, and no-till farming, among the sustainable practices developed to counter row-crop erosion risk. It slows, rather than speeds up, runoff; sunlight exposure is unrelated to row orientation along contours; and it addresses erosion, not irrigation needs, which remain separate."
+      "explanation": "Correct: (B) To reduce soil erosion by slowing water flow down the slope. Contour plowing follows a sloped field's natural contours so each row acts as a small barrier to downhill water flow, slowing runoff and reducing soil erosion — alongside terracing, windbreaks, crop rotation, and no-till farming, among the sustainable practices developed to counter row-crop erosion risk. It slows, rather than speeds up, runoff; sunlight exposure is unrelated to row orientation along contours; and it addresses erosion, not irrigation needs, which remain separate."
     },
     {
       "id": "5-69",
@@ -5184,7 +5184,7 @@ const QUESTIONS = {
         "Bt corn is a variety that, by its nature, cannot be grown as a monoculture planting."
       ],
       "correct": 0,
-      "explanation": "Because Bt corn continuously expresses its insecticidal protein, it creates strong, constant selective pressure on pest populations, and over generations resistant individuals become more common — the same population-level evolutionary process as conventional pesticide resistance, which is why refuge planting (non-Bt rows) is required to slow it. Resistance evolution remains a real risk, not an eliminated one; that risk is precisely the long-term concern, not a non-issue; and Bt corn can be, and often is, grown as a large-scale monoculture."
+      "explanation": "Correct: (A) Pests can evolve Bt resistance via the same selective-pressure process as pesticides. Because Bt corn continuously expresses its insecticidal protein, it creates strong, constant selective pressure on pest populations, and over generations resistant individuals become more common — the same population-level evolutionary process as conventional pesticide resistance, which is why refuge planting (non-Bt rows) is required to slow it. Resistance evolution remains a real risk, not an eliminated one; that risk is precisely the long-term concern, not a non-issue; and Bt corn can be, and often is, grown as a large-scale monoculture."
     },
     {
       "id": "5-70",
@@ -5197,7 +5197,7 @@ const QUESTIONS = {
         "It eases pressure on wild stocks but brings its own waste, disease, and feed tradeoffs."
       ],
       "correct": 3,
-      "explanation": "Aquaculture can relieve pressure on some wild fisheries, but carries its own tradeoffs: concentrated fish waste can pollute surrounding waterways (similar to the CAFO waste-concentration problem), high densities promote disease spread, and farming carnivorous species like salmon often still requires wild-caught fish for feed, only partially breaking dependence on wild stocks. Wild fishing regulation remains necessary alongside aquaculture, aquaculture does not directly grow wild populations, and it carries real environmental impacts of its own rather than none."
+      "explanation": "Correct: (D) It eases pressure on wild stocks but brings its own waste, disease, and feed tradeoffs. Aquaculture can relieve pressure on some wild fisheries, but carries its own tradeoffs: concentrated fish waste can pollute surrounding waterways (similar to the CAFO waste-concentration problem), high densities promote disease spread, and farming carnivorous species like salmon often still requires wild-caught fish for feed, only partially breaking dependence on wild stocks. Wild fishing regulation remains necessary alongside aquaculture, aquaculture does not directly grow wild populations, and it carries real environmental impacts of its own rather than none."
     },
     {
       "id": "5-71",
@@ -5210,7 +5210,7 @@ const QUESTIONS = {
         "It reduces wind speed across the field, limiting wind erosion of exposed topsoil."
       ],
       "correct": 1,
-      "explanation": "Terracing cuts a steep slope into flat, step-like platforms, allowing farming on steep land while dramatically slowing how fast water runs downhill across it, and that reduced runoff velocity is what limits the erosion a steep, un-terraced slope would otherwise suffer. Restoring soil nitrogen through alternating crops describes crop rotation, not terracing; reducing wind speed describes windbreaks, a different practice targeting a different erosion mechanism; and terracing addresses runoff erosion, not soil testing needs."
+      "explanation": "Correct: (B) It allows farming on steep land while sharply cutting the runoff velocity that drives erosion. Terracing cuts a steep slope into flat, step-like platforms, allowing farming on steep land while dramatically slowing how fast water runs downhill across it, and that reduced runoff velocity is what limits the erosion a steep, un-terraced slope would otherwise suffer. Restoring soil nitrogen through alternating crops describes crop rotation, not terracing; reducing wind speed describes windbreaks, a different practice targeting a different erosion mechanism; and terracing addresses runoff erosion, not soil testing needs."
     },
     {
       "id": "5-72",
@@ -5223,7 +5223,7 @@ const QUESTIONS = {
         "No-till farming, which leaves previous-crop root systems intact to reduce erosion from water runoff."
       ],
       "correct": 0,
-      "explanation": "Windbreaks, or shelterbelts, are rows of trees or shrubs planted along field edges specifically to reduce wind speed across the field, limiting the wind erosion that would otherwise strip away exposed topsoil. No-till farming instead targets water-runoff erosion by leaving root systems intact, and contour plowing and terracing both address downhill water flow on sloped fields rather than wind — all three are different practices aimed at water erosion, not the wind-erosion mechanism this scenario describes."
+      "explanation": "Correct: (A) Windbreaks (shelterbelts), which reduce wind erosion of exposed topsoil. Windbreaks, or shelterbelts, are rows of trees or shrubs planted along field edges specifically to reduce wind speed across the field, limiting the wind erosion that would otherwise strip away exposed topsoil. No-till farming instead targets water-runoff erosion by leaving root systems intact, and contour plowing and terracing both address downhill water flow on sloped fields rather than wind — all three are different practices aimed at water erosion, not the wind-erosion mechanism this scenario describes."
     },
     {
       "id": "5-73",
@@ -5236,7 +5236,7 @@ const QUESTIONS = {
         "It leaves soil structure and root systems intact, rather than loosening the soil like plowing."
       ],
       "correct": 3,
-      "explanation": "By planting directly into the previous crop's residue without plowing, no-till farming leaves soil structure and root systems from the prior crop intact, substantially reducing the erosion that loosened, exposed soil from conventional tillage would otherwise cause. No-till reduces, rather than increases, bare exposed soil; it typically requires less, not more, fossil fuel input than plowing; and it is distinct from legume rotation, which addresses soil nitrogen rather than tillage-driven erosion."
+      "explanation": "Correct: (D) It leaves soil structure and root systems intact, rather than loosening the soil like plowing. By planting directly into the previous crop's residue without plowing, no-till farming leaves soil structure and root systems from the prior crop intact, substantially reducing the erosion that loosened, exposed soil from conventional tillage would otherwise cause. No-till reduces, rather than increases, bare exposed soil; it typically requires less, not more, fossil fuel input than plowing; and it is distinct from legume rotation, which addresses soil nitrogen rather than tillage-driven erosion."
     },
     {
       "id": "5-74",
@@ -5249,7 +5249,7 @@ const QUESTIONS = {
         "Subsurface mining eliminates any risk of land subsidence above the mined-out tunnels."
       ],
       "correct": 1,
-      "explanation": "Subsurface mining trades footprint for depth: it disturbs a much smaller surface area than surface mining, but at the cost of higher risk to underground worker safety and the possibility of land subsidence, or surface collapse, above the mined-out tunnels. Subsidence risk is a defining tradeoff, not an eliminated one; subsurface operations are typically more, not less, costly than surface mining per unit extracted; and reclamation needs (surface stabilization, closure planning) still apply even with a smaller footprint."
+      "explanation": "Correct: (B) Subsurface mining raises worker-safety risk and can cause tunnel-area subsidence. Subsurface mining trades footprint for depth: it disturbs a much smaller surface area than surface mining, but at the cost of higher risk to underground worker safety and the possibility of land subsidence, or surface collapse, above the mined-out tunnels. Subsidence risk is a defining tradeoff, not an eliminated one; subsurface operations are typically more, not less, costly than surface mining per unit extracted; and reclamation needs (surface stabilization, closure planning) still apply even with a smaller footprint."
     },
     {
       "id": "5-75",
@@ -5262,7 +5262,7 @@ const QUESTIONS = {
         "Reclamation is rarely attempted after surface mining, since it is not typically required by law."
       ],
       "correct": 0,
-      "explanation": "Land reclamation — regrading, replacing topsoil, and replanting vegetation — is often legally required after surface mining, but even with these steps, reclaimed land frequently falls short of fully restoring the site's original ecological function or biodiversity, sometimes even decades later. Reclamation is in fact commonly legally mandated, not rare; full ecological recovery within a few years is optimistic rather than typical; and topsoil replacement remains a necessary, distinct step alongside regrading, not a redundant one."
+      "explanation": "Correct: (A) Reclamation is often legally required, but reclaimed land often doesn't fully recover its original ecology. Land reclamation — regrading, replacing topsoil, and replanting vegetation — is often legally required after surface mining, but even with these steps, reclaimed land frequently falls short of fully restoring the site's original ecological function or biodiversity, sometimes even decades later. Reclamation is in fact commonly legally mandated, not rare; full ecological recovery within a few years is optimistic rather than typical; and topsoil replacement remains a necessary, distinct step alongside regrading, not a redundant one."
     },
     {
       "id": "5-76",
@@ -5275,7 +5275,7 @@ const QUESTIONS = {
         "Permeable pavement, which lets water pass through a hard surface."
       ],
       "correct": 1,
-      "explanation": "Green roofs place vegetation directly on top of buildings, where it absorbs rainfall that would otherwise run off an ordinary rooftop, reducing the volume of stormwater reaching storm drains. Retention ponds, permeable pavement, and rain gardens all manage runoff at ground level instead, using basin storage, surface infiltration, or vegetated depressions respectively — none of them intercept rainfall at the rooftop the way green roofs do."
+      "explanation": "Correct: (B) Green roofs. Green roofs place vegetation directly on top of buildings, where it absorbs rainfall that would otherwise run off an ordinary rooftop, reducing the volume of stormwater reaching storm drains. Retention ponds, permeable pavement, and rain gardens all manage runoff at ground level instead, using basin storage, surface infiltration, or vegetated depressions respectively — none of them intercept rainfall at the rooftop the way green roofs do."
     }
   ],
   "6": [
@@ -5290,7 +5290,7 @@ const QUESTIONS = {
         "Solar power"
       ],
       "correct": 1,
-      "explanation": "Natural gas is a fossil fuel with a finite supply that forms far slower than it is consumed, making it nonrenewable. Wind, solar, and geothermal are all wrong for the same reason in reverse: each naturally replenishes on a human timescale — wind and solar draw on continuously available atmospheric and solar energy, while geothermal draws on Earth's internal heat, none of which is depleted by use."
+      "explanation": "Correct: (B) Natural gas. Natural gas is a fossil fuel with a finite supply that forms far slower than it is consumed, making it nonrenewable. Wind, solar, and geothermal are all wrong for the same reason in reverse: each naturally replenishes on a human timescale — wind and solar draw on continuously available atmospheric and solar energy, while geothermal draws on Earth's internal heat, none of which is depleted by use."
     },
     {
       "id": "6-2",
@@ -5303,7 +5303,7 @@ const QUESTIONS = {
         "Uranium (nuclear)"
       ],
       "correct": 1,
-      "explanation": "Hydroelectric power relies on the continuously replenished flow of rivers, making it renewable. Uranium (nuclear) is wrong because mineable uranium is a finite resource despite nuclear's low emissions; coal and oil are wrong for the same underlying reason — both are finite fossil fuels formed over geologic time and not naturally replenished on a human-relevant timescale."
+      "explanation": "Correct: (B) Hydroelectric. Hydroelectric power relies on the continuously replenished flow of rivers, making it renewable. Uranium (nuclear) is wrong because mineable uranium is a finite resource despite nuclear's low emissions; coal and oil are wrong for the same underlying reason — both are finite fossil fuels formed over geologic time and not naturally replenished on a human-relevant timescale."
     },
     {
       "id": "6-3",
@@ -5316,7 +5316,7 @@ const QUESTIONS = {
         "Nonrenewable, since mineable uranium supplies are finite."
       ],
       "correct": 3,
-      "explanation": "Nuclear power is nonrenewable because it depends on a finite supply of mineable uranium. The 'uranium is abundant in the crust' choice confuses total abundance with economically extractable, replenishing supply — abundance doesn't solve the finite-reserve problem. The low-emissions choice wrongly conflates emissions with renewability; these are independent properties. And nuclear power is classified under this framework just like any other energy source, so the claim that it isn't is simply incorrect."
+      "explanation": "Correct: (D) Nonrenewable, since mineable uranium supplies are finite. Nuclear power is nonrenewable because it depends on a finite supply of mineable uranium. The 'uranium is abundant in the crust' choice confuses total abundance with economically extractable, replenishing supply — abundance doesn't solve the finite-reserve problem. The low-emissions choice wrongly conflates emissions with renewability; these are independent properties. And nuclear power is classified under this framework just like any other energy source, so the claim that it isn't is simply incorrect."
     },
     {
       "id": "6-4",
@@ -5329,7 +5329,7 @@ const QUESTIONS = {
         "Yes — renewable sources have zero environmental impact by definition."
       ],
       "correct": 1,
-      "explanation": "Classifying a source as renewable addresses only whether its supply naturally replenishes — it says nothing about environmental impact, which is a separate question. The claim that no renewable source has ever been developed is factually false (wind, solar, hydro, geothermal, and biomass are all developed technologies). The claim that all renewables have zero impact by definition ignores real costs like biomass CO2 release or hydroelectric habitat disruption. And there's no basis for restricting the zero-impact guarantee to solar and wind alone — no renewable source gets an automatic pass on environmental impact."
+      "explanation": "Correct: (B) No — 'renewable' describes replenishment, not environmental impact. Classifying a source as renewable addresses only whether its supply naturally replenishes — it says nothing about environmental impact, which is a separate question. The claim that no renewable source has ever been developed is factually false (wind, solar, hydro, geothermal, and biomass are all developed technologies). The claim that all renewables have zero impact by definition ignores real costs like biomass CO2 release or hydroelectric habitat disruption. And there's no basis for restricting the zero-impact guarantee to solar and wind alone — no renewable source gets an automatic pass on environmental impact."
     },
     {
       "id": "6-5",
@@ -5342,7 +5342,7 @@ const QUESTIONS = {
         "They form from ancient organic matter over geologic time."
       ],
       "correct": 3,
-      "explanation": "Coal, oil, and natural gas form from ancient organic matter compressed over millions of years — far slower than current consumption, making the supply effectively finite. The 'illegal to extract' choice confuses legal status with resource renewability, an unrelated concept. The 'no biological process' choice is factually backwards — fossil fuels are literally defined by their biological origin. And the claim they're 'actually renewable' contradicts the basic definition of the term as it applies to a resource that takes millions of years to form."
+      "explanation": "Correct: (D) They form from ancient organic matter over geologic time. Coal, oil, and natural gas form from ancient organic matter compressed over millions of years — far slower than current consumption, making the supply effectively finite. The 'illegal to extract' choice confuses legal status with resource renewability, an unrelated concept. The 'no biological process' choice is factually backwards — fossil fuels are literally defined by their biological origin. And the claim they're 'actually renewable' contradicts the basic definition of the term as it applies to a resource that takes millions of years to form."
     },
     {
       "id": "6-6",
@@ -5355,7 +5355,7 @@ const QUESTIONS = {
         "This can't be evaluated with the concepts from this section."
       ],
       "correct": 2,
-      "explanation": "The claim is inaccurate: biomass is indeed renewable, but combustion still releases CO2, and land-use changes tied to biomass production can carry additional environmental costs — renewability and zero impact are separate properties. The 'cannot be evaluated' choice is wrong because the section's core concepts (renewable vs. impact) directly apply here. 'Always zero impact' repeats the same conflation the question is testing against. And restricting accuracy to crop-waste biomass is an arbitrary carve-out not supported by the underlying reasoning, which applies to biomass generally."
+      "explanation": "Correct: (C) Inaccurate — biomass still emits CO2 when burned. The claim is inaccurate: biomass is indeed renewable, but combustion still releases CO2, and land-use changes tied to biomass production can carry additional environmental costs — renewability and zero impact are separate properties. The 'cannot be evaluated' choice is wrong because the section's core concepts (renewable vs. impact) directly apply here. 'Always zero impact' repeats the same conflation the question is testing against. And restricting accuracy to crop-waste biomass is an arbitrary carve-out not supported by the underlying reasoning, which applies to biomass generally."
     },
     {
       "id": "6-7",
@@ -5381,7 +5381,7 @@ const QUESTIONS = {
         "It only affects an energy source's cost, never its supply sustainability."
       ],
       "correct": 0,
-      "explanation": "The renewable/nonrenewable distinction is significant because it determines whether a supply can be sustained indefinitely (renewable) or will eventually be depleted no matter how carefully it's managed (nonrenewable) — a genuinely separate consideration from environmental impact. Claiming both categories share identical supply characteristics ignores the core definitional difference. Claiming no significance at all contradicts basic energy planning logic. And restricting relevance to cost alone ignores that supply sustainability, not price, is what the classification directly addresses."
+      "explanation": "Correct: (A) It determines whether supply can be sustained indefinitely or will run out. The renewable/nonrenewable distinction is significant because it determines whether a supply can be sustained indefinitely (renewable) or will eventually be depleted no matter how carefully it's managed (nonrenewable) — a genuinely separate consideration from environmental impact. Claiming both categories share identical supply characteristics ignores the core definitional difference. Claiming no significance at all contradicts basic energy planning logic. And restricting relevance to cost alone ignores that supply sustainability, not price, is what the classification directly addresses."
     },
     {
       "id": "6-9",
@@ -5394,7 +5394,7 @@ const QUESTIONS = {
         "Nuclear"
       ],
       "correct": 0,
-      "explanation": "Wind is both renewable (continuously replenished by atmospheric circulation) and emits nothing directly during operation. Coal and natural gas are wrong on both counts — they are nonrenewable fossil fuels that release emissions when burned. Nuclear is wrong only on the renewability count — it also produces zero direct operational emissions, but relies on a finite, mineable uranium supply, so it doesn't meet both criteria."
+      "explanation": "Correct: (A) Wind. Wind is both renewable (continuously replenished by atmospheric circulation) and emits nothing directly during operation. Coal and natural gas are wrong on both counts — they are nonrenewable fossil fuels that release emissions when burned. Nuclear is wrong only on the renewability count — it also produces zero direct operational emissions, but relies on a finite, mineable uranium supply, so it doesn't meet both criteria."
     },
     {
       "id": "6-10",
@@ -5407,7 +5407,7 @@ const QUESTIONS = {
         "Coal"
       ],
       "correct": 1,
-      "explanation": "Natural gas produces the least CO2 and other pollutants per unit of energy among the three fossil fuels, which is why many regions have shifted from coal toward gas-fired generation. Oil and coal are both wrong because they produce more pollutants per unit energy than natural gas — coal especially, due to its higher carbon and sulfur content. Claiming all three produce identical emissions ignores well-documented differences in fuel chemistry and combustion byproducts."
+      "explanation": "Correct: (B) Natural gas. Natural gas produces the least CO2 and other pollutants per unit of energy among the three fossil fuels, which is why many regions have shifted from coal toward gas-fired generation. Oil and coal are both wrong because they produce more pollutants per unit energy than natural gas — coal especially, due to its higher carbon and sulfur content. Claiming all three produce identical emissions ignores well-documented differences in fuel chemistry and combustion byproducts."
     },
     {
       "id": "6-11",
@@ -5420,7 +5420,7 @@ const QUESTIONS = {
         "Coal"
       ],
       "correct": 3,
-      "explanation": "Coal produces the most CO2 and pollutants — including sulfur dioxide, particulate matter, and trace mercury — per unit of energy among the three fossil fuels, due to its carbon-dense, impurity-laden composition. Oil and natural gas are both wrong because they burn cleaner than coal per unit of energy. Claiming identical emissions across all three ignores well-documented differences in fuel composition and combustion byproducts."
+      "explanation": "Correct: (D) Coal. Coal produces the most CO2 and pollutants — including sulfur dioxide, particulate matter, and trace mercury — per unit of energy among the three fossil fuels, due to its carbon-dense, impurity-laden composition. Oil and natural gas are both wrong because they burn cleaner than coal per unit of energy. Claiming identical emissions across all three ignores well-documented differences in fuel composition and combustion byproducts."
     },
     {
       "id": "6-12",
@@ -5433,7 +5433,7 @@ const QUESTIONS = {
         "High-pressure fluid injected into shale to release gas and oil."
       ],
       "correct": 3,
-      "explanation": "Hydraulic fracturing (fracking) injects high-pressure fluid into shale rock formations, fracturing the rock to release trapped natural gas and oil otherwise inaccessible by conventional drilling. It has nothing to do with nuclear waste storage or wave-based electricity generation, and it is a distinct extraction technique, not simply another term for refining, which is the downstream process of turning crude oil into usable fuels."
+      "explanation": "Correct: (D) High-pressure fluid injected into shale to release gas and oil. Hydraulic fracturing (fracking) injects high-pressure fluid into shale rock formations, fracturing the rock to release trapped natural gas and oil otherwise inaccessible by conventional drilling. It has nothing to do with nuclear waste storage or wave-based electricity generation, and it is a distinct extraction technique, not simply another term for refining, which is the downstream process of turning crude oil into usable fuels."
     },
     {
       "id": "6-13",
@@ -5446,7 +5446,7 @@ const QUESTIONS = {
         "Potential groundwater contamination, induced seismicity, and methane leakage."
       ],
       "correct": 3,
-      "explanation": "Documented fracking risks include potential groundwater contamination, induced seismicity linked to wastewater disposal wells, and methane leakage during extraction. The claim that fracking eliminates all contamination risk compared to conventional drilling overstates its safety profile. The claim that fracking occurs only offshore is factually false — most fracking operations are land-based. And the claim of 'no documented risks' ignores substantial published research on the topic."
+      "explanation": "Correct: (D) Potential groundwater contamination, induced seismicity, and methane leakage. Documented fracking risks include potential groundwater contamination, induced seismicity linked to wastewater disposal wells, and methane leakage during extraction. The claim that fracking eliminates all contamination risk compared to conventional drilling overstates its safety profile. The claim that fracking occurs only offshore is factually false — most fracking operations are land-based. And the claim of 'no documented risks' ignores substantial published research on the topic."
     },
     {
       "id": "6-14",
@@ -5459,7 +5459,7 @@ const QUESTIONS = {
         "No, because natural gas is actually dirtier than coal in every respect."
       ],
       "correct": 1,
-      "explanation": "It is not accurate to call natural gas entirely 'clean': while it burns cleaner than coal on a per-unit-energy basis, it remains a fossil fuel that releases CO2 during combustion, and unburned methane leakage during extraction and transport is a separate, genuine climate concern. The 'zero impact' and 'no emissions' choices are both directly contradicted by natural gas's CO2 output. The 'dirtier than coal in every respect' choice overstates the comparison — natural gas is cleaner on most combustion metrics, even though it isn't impact-free."
+      "explanation": "Correct: (B) No — natural gas still releases CO2 when burned. It is not accurate to call natural gas entirely 'clean': while it burns cleaner than coal on a per-unit-energy basis, it remains a fossil fuel that releases CO2 during combustion, and unburned methane leakage during extraction and transport is a separate, genuine climate concern. The 'zero impact' and 'no emissions' choices are both directly contradicted by natural gas's CO2 output. The 'dirtier than coal in every respect' choice overstates the comparison — natural gas is cleaner on most combustion metrics, even though it isn't impact-free."
     },
     {
       "id": "6-15",
@@ -5472,7 +5472,7 @@ const QUESTIONS = {
         "Methane leakage only affects local air quality, never global climate."
       ],
       "correct": 1,
-      "explanation": "Methane released unburned into the atmosphere during extraction and transport is itself a potent greenhouse gas, so it contributes to warming through a pathway entirely separate from the CO2 released when gas is eventually burned. Restricting its effect to local air quality ignores methane's well-documented global warming potential. Claiming no climate relationship or no significance as a greenhouse gas both contradict established atmospheric science on methane's potency."
+      "explanation": "Correct: (B) Methane itself is a potent greenhouse gas once released unburned. Methane released unburned into the atmosphere during extraction and transport is itself a potent greenhouse gas, so it contributes to warming through a pathway entirely separate from the CO2 released when gas is eventually burned. Restricting its effect to local air quality ignores methane's well-documented global warming potential. Claiming no climate relationship or no significance as a greenhouse gas both contradict established atmospheric science on methane's potency."
     },
     {
       "id": "6-16",
@@ -5485,7 +5485,7 @@ const QUESTIONS = {
         "Sulfur dioxide emissions would likely increase significantly."
       ],
       "correct": 2,
-      "explanation": "Switching from coal to natural gas would likely significantly decrease sulfur dioxide emissions, since coal combustion produces far more sulfur dioxide than natural gas combustion — relevant to Unit 7's coverage of acid rain precursors. An increase or complete lack of change both contradict the well-documented difference in sulfur content between the two fuels, and claiming no relationship at all ignores the direct fuel-switching mechanism involved."
+      "explanation": "Correct: (C) Sulfur dioxide emissions would most likely decrease. Switching from coal to natural gas would likely significantly decrease sulfur dioxide emissions, since coal combustion produces far more sulfur dioxide than natural gas combustion — relevant to Unit 7's coverage of acid rain precursors. An increase or complete lack of change both contradict the well-documented difference in sulfur content between the two fuels, and claiming no relationship at all ignores the direct fuel-switching mechanism involved."
     },
     {
       "id": "6-17",
@@ -5498,7 +5498,7 @@ const QUESTIONS = {
         "Coal strip mining of near-surface coal seams."
       ],
       "correct": 1,
-      "explanation": "Hydraulic fracturing — particularly the deep-well disposal of fracking-related wastewater — has been linked to increased earthquake frequency (induced seismicity) in some regions. Conventional oil drilling and offshore drilling don't involve the high-pressure wastewater injection process responsible for induced seismicity, and coal strip mining, while environmentally disruptive in other ways, is not associated with this specific seismic risk."
+      "explanation": "Correct: (B) Hydraulic fracturing, particularly wastewater disposal wells. Injecting large volumes of wastewater deep underground raises fluid pressure along faults and can trigger earthquakes (induced seismicity). The surge of wastewater from fracking-era oil and gas production is the extraction method the AP course links to this risk. Conventional vertical drilling and offshore drilling are not the methods tied to the recent rise in induced earthquakes. Coal strip mining is environmentally disruptive in other ways but does not inject fluid at depth, so it is not associated with this seismic risk."
     },
     {
       "id": "6-18",
@@ -5511,7 +5511,7 @@ const QUESTIONS = {
         "Mercury"
       ],
       "correct": 3,
-      "explanation": "Trace mercury naturally present in coal deposits is released during combustion, making it a pollutant particularly associated with coal rather than oil or natural gas. Oxygen, water vapor, and nitrogen gas are all wrong because each is either a normal atmospheric constituent or a benign combustion product, not a toxic heavy metal of specific environmental concern."
+      "explanation": "Correct: (D) Mercury. Trace mercury naturally present in coal deposits is released during combustion, making it a pollutant particularly associated with coal rather than oil or natural gas. Oxygen, water vapor, and nitrogen gas are all wrong because each is either a normal atmospheric constituent or a benign combustion product, not a toxic heavy metal of specific environmental concern."
     },
     {
       "id": "6-19",
@@ -5524,7 +5524,7 @@ const QUESTIONS = {
         "Solar radiation absorption."
       ],
       "correct": 2,
-      "explanation": "Nuclear power plants generate heat through nuclear fission — splitting uranium atoms in a controlled chain reaction. Combustion of uranium is wrong because uranium isn't burned; the energy comes from splitting atomic nuclei, not a chemical reaction. Solar radiation absorption describes solar power, not nuclear. And the hydrogen-oxygen reaction describes a hydrogen fuel cell, an entirely different technology."
+      "explanation": "Correct: (C) Nuclear fission — splitting uranium atoms. Nuclear power plants generate heat through nuclear fission — splitting uranium atoms in a controlled chain reaction. Combustion of uranium is wrong because uranium isn't burned; the energy comes from splitting atomic nuclei, not a chemical reaction. Solar radiation absorption describes solar power, not nuclear. And the hydrogen-oxygen reaction describes a hydrogen fuel cell, an entirely different technology."
     },
     {
       "id": "6-20",
@@ -5537,7 +5537,7 @@ const QUESTIONS = {
         "No direct carbon emissions, plus high energy density."
       ],
       "correct": 3,
-      "explanation": "Nuclear power's genuine benefits are essentially zero direct carbon emissions during operation and very high energy density compared to fossil fuels. The claim of significant direct emissions is factually backwards — this is precisely nuclear's advantage. The 'zero risk' claim ignores real, if historically rare, accident risk. And the 'no radioactive waste' claim ignores the well-documented, ongoing challenge of storing spent nuclear fuel."
+      "explanation": "Correct: (D) No direct carbon emissions, plus high energy density. Nuclear power's genuine benefits are essentially zero direct carbon emissions during operation and very high energy density compared to fossil fuels. The claim of significant direct emissions is factually backwards — this is precisely nuclear's advantage. The 'zero risk' claim ignores real, if historically rare, accident risk. And the 'no radioactive waste' claim ignores the well-documented, ongoing challenge of storing spent nuclear fuel."
     },
     {
       "id": "6-21",
@@ -5550,7 +5550,7 @@ const QUESTIONS = {
         "Nuclear power has no genuine costs or risks of any kind."
       ],
       "correct": 2,
-      "explanation": "Nuclear power's genuine costs include the ongoing challenge of safely storing radioactive waste — some of which stays hazardous for thousands of years — and the risk, though historically rare, of a serious accident. The claim it can't generate meaningful electricity is false; nuclear supplies substantial baseload power worldwide. Claiming no risks at all ignores documented waste and accident concerns. And claiming it always exceeds coal's emissions reverses the actual comparison — nuclear's direct emissions are far lower than coal's."
+      "explanation": "Correct: (C) Storing long-lived radioactive waste, and rare accident risk. Nuclear power's genuine costs include the ongoing challenge of safely storing radioactive waste — some of which stays hazardous for thousands of years — and the risk, though historically rare, of a serious accident. The claim it can't generate meaningful electricity is false; nuclear supplies substantial baseload power worldwide. Claiming no risks at all ignores documented waste and accident concerns. And claiming it always exceeds coal's emissions reverses the actual comparison — nuclear's direct emissions are far lower than coal's."
     },
     {
       "id": "6-22",
@@ -5563,7 +5563,7 @@ const QUESTIONS = {
         "No — serious accidents are rare given nuclear power's global scale."
       ],
       "correct": 3,
-      "explanation": "Serious nuclear accidents have been historically rare relative to the total scale of global nuclear generation, even though events like Chernobyl and Fukushima show their potential consequences can be severe. The 'fewer than five plants' restriction is an arbitrary, unsupported qualifier. Claiming accidents occur 'constantly and routinely' overstates their actual frequency. And claiming they've never occurred contradicts well-documented historical events."
+      "explanation": "Correct: (D) No — serious accidents are rare given nuclear power's global scale. Serious nuclear accidents have been historically rare relative to the total scale of global nuclear generation, even though events like Chernobyl and Fukushima show their potential consequences can be severe. The 'fewer than five plants' restriction is an arbitrary, unsupported qualifier. Claiming accidents occur 'constantly and routinely' overstates their actual frequency. And claiming they've never occurred contradicts well-documented historical events."
     },
     {
       "id": "6-23",
@@ -5576,7 +5576,7 @@ const QUESTIONS = {
         "Low emissions and renewability are often wrongly assumed to always go together."
       ],
       "correct": 3,
-      "explanation": "Because low emissions are casually associated with renewable sources, nuclear power's low direct emissions can create confusion about its classification — but renewability (does the resource replenish?) and emissions level are independent properties, and nuclear remains nonrenewable despite its low emissions. Calling nuclear 'genuinely renewable' is incorrect given its dependence on finite, mineable uranium. Claiming it has high direct emissions is factually wrong — its operational emissions are low. And while emissions and classification are indeed unrelated in general, that broader point doesn't explain why confusion specifically arises for nuclear, making it an incomplete answer here."
+      "explanation": "Correct: (D) Low emissions and renewability are often wrongly assumed to always go together. Because low emissions are casually associated with renewable sources, nuclear power's low direct emissions can create confusion about its classification — but renewability (does the resource replenish?) and emissions level are independent properties, and nuclear remains nonrenewable despite its low emissions. Calling nuclear 'genuinely renewable' is incorrect given its dependence on finite, mineable uranium. Claiming it has high direct emissions is factually wrong — its operational emissions are low. And while emissions and classification are indeed unrelated in general, that broader point doesn't explain why confusion specifically arises for nuclear, making it an incomplete answer here."
     },
     {
       "id": "6-24",
@@ -5589,7 +5589,7 @@ const QUESTIONS = {
         "Events that have never actually occurred"
       ],
       "correct": 1,
-      "explanation": "Chernobyl (1986) and Fukushima (2011) are the two most commonly cited examples of serious nuclear accidents, each with significant, long-lasting consequences. The other choices are wrong because they either describe events unrelated to nuclear power, deny that any such accidents occurred (contradicted by the historical record), or misattribute the events to solar power instead of nuclear."
+      "explanation": "Correct: (B) Chernobyl and Fukushima. Chernobyl (1986) and Fukushima (2011) are the two most commonly cited examples of serious nuclear accidents, each with significant, long-lasting consequences. The other choices are wrong because they either describe events unrelated to nuclear power, deny that any such accidents occurred (contradicted by the historical record), or misattribute the events to solar power instead of nuclear."
     },
     {
       "id": "6-25",
@@ -5602,7 +5602,7 @@ const QUESTIONS = {
         "Land use against noise pollution, the same tradeoff as wind power."
       ],
       "correct": 1,
-      "explanation": "The core nuclear tradeoff is reduced carbon emissions weighed against the challenge of safely storing long-lived radioactive waste and accepting a small but serious accident risk. The 'increased emissions vs. reduced costs' choice misstates nuclear's actual emissions profile. The land-use/noise tradeoff describes wind power's considerations, not nuclear's distinct set of concerns. And claiming no meaningful tradeoffs ignores the real costs and benefits involved."
+      "explanation": "Correct: (B) Reduced emissions against waste storage and accident risk. The core nuclear tradeoff is reduced carbon emissions weighed against the challenge of safely storing long-lived radioactive waste and accepting a small but serious accident risk. The 'increased emissions vs. reduced costs' choice misstates nuclear's actual emissions profile. The land-use/noise tradeoff describes wind power's considerations, not nuclear's distinct set of concerns. And claiming no meaningful tradeoffs ignores the real costs and benefits involved."
     },
     {
       "id": "6-26",
@@ -5615,7 +5615,7 @@ const QUESTIONS = {
         "Nuclear waste becomes completely safe within a few days of being removed from the reactor."
       ],
       "correct": 1,
-      "explanation": "Some nuclear waste remains radioactive and hazardous for thousands of years — a timescale far beyond typical human institutional planning horizons — making secure, long-term storage a genuinely difficult, unresolved challenge. Claiming no relationship to storage planning contradicts this core issue. Claiming waste becomes safe within days badly understates radioactive decay timescales for long-lived isotopes. And claiming it isn't hazardous at all contradicts basic nuclear physics and public health guidance."
+      "explanation": "Correct: (B) Some waste stays hazardous for thousands of years, requiring secure long-term storage. Some nuclear waste remains radioactive and hazardous for thousands of years — a timescale far beyond typical human institutional planning horizons — making secure, long-term storage a genuinely difficult, unresolved challenge. Claiming no relationship to storage planning contradicts this core issue. Claiming waste becomes safe within days badly understates radioactive decay timescales for long-lived isotopes. And claiming it isn't hazardous at all contradicts basic nuclear physics and public health guidance."
     },
     {
       "id": "6-27",
@@ -5628,7 +5628,7 @@ const QUESTIONS = {
         "Nuclear fuel has extremely high energy density versus fossil fuels."
       ],
       "correct": 3,
-      "explanation": "Nuclear fuel offers extremely high energy density — a small amount of uranium produces an enormous amount of energy relative to an equivalent mass of coal, oil, or natural gas, one of nuclear's biggest advantages. Claiming energy density is irrelevant ignores a key comparison point between these technologies. Claiming nuclear has lower energy density reverses the actual relationship. And claiming identical energy density ignores the vast difference between nuclear fission and chemical combustion as energy-release mechanisms."
+      "explanation": "Correct: (D) Nuclear fuel has extremely high energy density versus fossil fuels. Nuclear fuel offers extremely high energy density — a small amount of uranium produces an enormous amount of energy relative to an equivalent mass of coal, oil, or natural gas, one of nuclear's biggest advantages. Claiming energy density is irrelevant ignores a key comparison point between these technologies. Claiming nuclear has lower energy density reverses the actual relationship. And claiming identical energy density ignores the vast difference between nuclear fission and chemical combustion as energy-release mechanisms."
     },
     {
       "id": "6-28",
@@ -5641,7 +5641,7 @@ const QUESTIONS = {
         "Intermittency — neither generates constantly, so backup storage is needed."
       ],
       "correct": 3,
-      "explanation": "Intermittency is the central shared challenge for solar and wind — solar doesn't generate at night or under heavy cloud cover, and wind doesn't generate during low or excessive wind speeds — requiring backup power or storage to reliably meet demand. Neither source requires uranium mining, which is specific to nuclear power. Neither produces significant direct carbon emissions during operation. And both are capable of generating substantial electricity, contrary to the claim that neither can."
+      "explanation": "Correct: (D) Intermittency — neither generates constantly, so backup storage is needed. Intermittency is the central shared challenge for solar and wind — solar doesn't generate at night or under heavy cloud cover, and wind doesn't generate during low or excessive wind speeds — requiring backup power or storage to reliably meet demand. Neither source requires uranium mining, which is specific to nuclear power. Neither produces significant direct carbon emissions during operation. And both are capable of generating substantial electricity, contrary to the claim that neither can."
     },
     {
       "id": "6-29",
@@ -5654,7 +5654,7 @@ const QUESTIONS = {
         "Bird and bat mortality from turbine blade collisions."
       ],
       "correct": 3,
-      "explanation": "Bird and bat mortality from collisions with turbine blades is a specific, well-documented wind power concern, alongside noise and aesthetics. Wind turbines don't produce direct carbon emissions during operation, so that choice is wrong. They also don't require mining radioactive material — that's a nuclear power concern. And significant water pollution isn't a documented wind power issue in the way it might be for, say, coal ash disposal."
+      "explanation": "Correct: (D) Bird and bat mortality from turbine blade collisions. Bird and bat mortality from collisions with turbine blades is a specific, well-documented wind power concern, alongside noise and aesthetics. Wind turbines don't produce direct carbon emissions during operation, so that choice is wrong. They also don't require mining radioactive material — that's a nuclear power concern. And significant water pollution isn't a documented wind power issue in the way it might be for, say, coal ash disposal."
     },
     {
       "id": "6-30",
@@ -5667,7 +5667,7 @@ const QUESTIONS = {
         "No, because wind has a larger land footprint than any other source."
       ],
       "correct": 2,
-      "explanation": "Wind power's ability to share land with agricultural use gives it a relatively low DIRECT footprint, but it isn't literally zero — turbines occupy specific locations and require supporting infrastructure like access roads and transmission lines. 'Zero land use impact' overstates this benefit. 'Larger footprint than any other source' overstates it in the opposite direction — wind's footprint is comparatively low, just not nonexistent. And most wind farms are land-based, not exclusively offshore, so that claim is also incorrect."
+      "explanation": "Correct: (C) No — turbines occupy sites and need supporting infrastructure. Wind power's ability to share land with agricultural use gives it a relatively low DIRECT footprint, but it isn't literally zero — turbines occupy specific locations and require supporting infrastructure like access roads and transmission lines. 'Zero land use impact' overstates this benefit. 'Larger footprint than any other source' overstates it in the opposite direction — wind's footprint is comparatively low, just not nonexistent. And most wind farms are land-based, not exclusively offshore, so that claim is also incorrect."
     },
     {
       "id": "6-31",
@@ -5680,7 +5680,7 @@ const QUESTIONS = {
         "Reducing the total number of solar panels and wind turbines installed."
       ],
       "correct": 2,
-      "explanation": "Large-scale battery storage helps address intermittency by capturing excess electricity generated during high-output periods for release during low-output periods, smoothing the mismatch between generation and demand. Reducing installed capacity would worsen, not fix, the underlying supply gap. Claiming intermittency has no technological solution ignores battery storage and grid-scale approaches already in use. And eliminating storage infrastructure would remove the very tool that helps address the problem."
+      "explanation": "Correct: (C) Battery storage, capturing excess generation for later use. Large-scale battery storage helps address intermittency by capturing excess electricity generated during high-output periods for release during low-output periods, smoothing the mismatch between generation and demand. Reducing installed capacity would worsen, not fix, the underlying supply gap. Claiming intermittency has no technological solution ignores battery storage and grid-scale approaches already in use. And eliminating storage infrastructure would remove the very tool that helps address the problem."
     },
     {
       "id": "6-32",
@@ -5693,7 +5693,7 @@ const QUESTIONS = {
         "No — manufacturing panels has real costs beyond zero operational emissions."
       ],
       "correct": 3,
-      "explanation": "While solar's operational emissions are genuinely zero, manufacturing panels involves real environmental costs — energy and material inputs, and mining for certain components — so a full life-cycle view shows some impact. Claiming solar produces significant operational emissions is factually wrong. Claiming zero impact at every stage ignores the manufacturing costs. And claiming manufacturing needs no energy or materials contradicts basic industrial reality."
+      "explanation": "Correct: (D) No — manufacturing panels has real costs beyond zero operational emissions. While solar's operational emissions are genuinely zero, manufacturing panels involves real environmental costs — energy and material inputs, and mining for certain components — so a full life-cycle view shows some impact. Claiming solar produces significant operational emissions is factually wrong. Claiming zero impact at every stage ignores the manufacturing costs. And claiming manufacturing needs no energy or materials contradicts basic industrial reality."
     },
     {
       "id": "6-33",
@@ -5706,7 +5706,7 @@ const QUESTIONS = {
         "Developing offshore wind farms, away from land competition."
       ],
       "correct": 3,
-      "explanation": "Offshore wind farms let a region with strong wind resources but limited land capture that resource without competing with land-based uses — a real, deployed strategy in coastal regions. Claiming wind can't be deployed anywhere with limited land ignores this offshore alternative. Building turbines underground isn't a real wind power configuration; turbines need to be above ground to capture wind. And abandoning wind power entirely ignores the viable offshore option."
+      "explanation": "Correct: (D) Developing offshore wind farms, away from land competition. Offshore wind farms let a region with strong wind resources but limited land capture that resource without competing with land-based uses — a real, deployed strategy in coastal regions. Claiming wind can't be deployed anywhere with limited land ignores this offshore alternative. Building turbines underground isn't a real wind power configuration; turbines need to be above ground to capture wind. And abandoning wind power entirely ignores the viable offshore option."
     },
     {
       "id": "6-34",
@@ -5719,7 +5719,7 @@ const QUESTIONS = {
         "A method for storing solar energy underground in tanks."
       ],
       "correct": 0,
-      "explanation": "Distributed generation refers to smaller-scale installations, like rooftop solar panels, spread across many individual locations rather than concentrated in one place — this can reduce the land-use concern associated with large, centralized solar installations. It's directly related to solar power, so 'no relationship' is wrong. It doesn't describe underground energy storage. And it's essentially the opposite of a single, massive, centralized facility, which is the alternative model distributed generation is often contrasted with."
+      "explanation": "Correct: (A) Smaller installations like rooftop panels spread across sites. Distributed generation refers to smaller-scale installations, like rooftop solar panels, spread across many individual locations rather than concentrated in one place — this can reduce the land-use concern associated with large, centralized solar installations. It's directly related to solar power, so 'no relationship' is wrong. It doesn't describe underground energy storage. And it's essentially the opposite of a single, massive, centralized facility, which is the alternative model distributed generation is often contrasted with."
     },
     {
       "id": "6-35",
@@ -5732,7 +5732,7 @@ const QUESTIONS = {
         "Diversification always increases cost with no offsetting benefit."
       ],
       "correct": 1,
-      "explanation": "Diversifying across sources with different generation patterns — pairing intermittent sources like solar and wind with a reliable baseload source — reduces the system's vulnerability to any single source's intermittency, improving overall grid reliability. Claiming no practical benefit ignores this risk-spreading effect. Relying on exactly one source is the opposite of the diversification strategy that improves reliability. And while diversification can involve added coordination cost, it isn't accurate to say there's 'no offsetting benefit' — the reliability gain is precisely the offsetting benefit."
+      "explanation": "Correct: (B) Complementary sources plus a baseload one cut vulnerability. Diversifying across sources with different generation patterns — pairing intermittent sources like solar and wind with a reliable baseload source — reduces the system's vulnerability to any single source's intermittency, improving overall grid reliability. Claiming no practical benefit ignores this risk-spreading effect. Relying on exactly one source is the opposite of the diversification strategy that improves reliability. And while diversification can involve added coordination cost, it isn't accurate to say there's 'no offsetting benefit' — the reliability gain is precisely the offsetting benefit."
     },
     {
       "id": "6-36",
@@ -5758,7 +5758,7 @@ const QUESTIONS = {
         "Reliable generation with no emissions, plus flood control."
       ],
       "correct": 3,
-      "explanation": "Hydroelectric power provides reliable, constant ('baseload') electricity with no direct combustion emissions, and dams can also offer flood control benefits downstream. Claiming no relationship to river ecosystems ignores hydro's fundamental dependence on river flow. Claiming it needs no infrastructure ignores the dams, turbines, and transmission systems required. And it involves no combustion at all, so it produces no direct combustion emissions, contradicting that choice."
+      "explanation": "Correct: (D) Reliable generation with no emissions, plus flood control. Hydroelectric power provides reliable, constant ('baseload') electricity with no direct combustion emissions, and dams can also offer flood control benefits downstream. Claiming no relationship to river ecosystems ignores hydro's fundamental dependence on river flow. Claiming it needs no infrastructure ignores the dams, turbines, and transmission systems required. And it involves no combustion at all, so it produces no direct combustion emissions, contradicting that choice."
     },
     {
       "id": "6-38",
@@ -5771,7 +5771,7 @@ const QUESTIONS = {
         "Hydroelectric dams always increase fish populations, no downsides."
       ],
       "correct": 0,
-      "explanation": "Hydroelectric dams carry real environmental costs: blocking fish migration routes (a particular concern for species like salmon), altering downstream sediment and flow patterns, and displacing communities in the flooded reservoir area. Claiming no environmental costs ignores these well-documented impacts. Claiming dams always help fish populations reverses the actual migration-blocking effect. And claiming hydro emits more than coal ignores that hydro involves no combustion at all."
+      "explanation": "Correct: (A) Blocking fish migration and displacing nearby communities. Hydroelectric dams carry real environmental costs: blocking fish migration routes (a particular concern for species like salmon), altering downstream sediment and flow patterns, and displacing communities in the flooded reservoir area. Claiming no environmental costs ignores these well-documented impacts. Claiming dams always help fish populations reverses the actual migration-blocking effect. And claiming hydro emits more than coal ignores that hydro involves no combustion at all."
     },
     {
       "id": "6-39",
@@ -5784,7 +5784,7 @@ const QUESTIONS = {
         "Decomposing flooded vegetation in the reservoir releases methane."
       ],
       "correct": 3,
-      "explanation": "Decomposing organic matter — vegetation flooded when the reservoir was created — can release methane, a genuine emissions source separate from combustion. Claiming dams never release any greenhouse gases contradicts this documented mechanism. Claiming it's a myth ignores real scientific measurements, particularly in large tropical reservoirs. And attributing the methane to dam concrete misidentifies the actual source, which is decomposing biological material, not construction material."
+      "explanation": "Correct: (D) Decomposing flooded vegetation in the reservoir releases methane. Decomposing organic matter — vegetation flooded when the reservoir was created — can release methane, a genuine emissions source separate from combustion. Claiming dams never release any greenhouse gases contradicts this documented mechanism. Claiming it's a myth ignores real scientific measurements, particularly in large tropical reservoirs. And attributing the methane to dam concrete misidentifies the actual source, which is decomposing biological material, not construction material."
     },
     {
       "id": "6-40",
@@ -5797,7 +5797,7 @@ const QUESTIONS = {
         "Geothermal power can only be deployed in desert regions, where the ground is hottest."
       ],
       "correct": 0,
-      "explanation": "Geothermal power's major limitation is geographic — it's only practically viable where sufficient accessible underground heat exists, typically near tectonic plate boundaries, connecting to Unit 4's plate tectonics content. Restricting viability to deserts specifically is incorrect; the limiting factor is geothermal activity, not aridity. Claiming no geographic relationship contradicts the core limitation. And claiming it can be deployed anywhere ignores this well-documented geographic constraint."
+      "explanation": "Correct: (A) Viable only where underground heat is accessible, often near plate boundaries. Geothermal power's major limitation is geographic — it's only practically viable where sufficient accessible underground heat exists, typically near tectonic plate boundaries, connecting to Unit 4's plate tectonics content. Restricting viability to deserts specifically is incorrect; the limiting factor is geothermal activity, not aridity. Claiming no geographic relationship contradicts the core limitation. And claiming it can be deployed anywhere ignores this well-documented geographic constraint."
     },
     {
       "id": "6-41",
@@ -5810,7 +5810,7 @@ const QUESTIONS = {
         "Iceland has no relationship to any tectonic plate boundary."
       ],
       "correct": 0,
-      "explanation": "Iceland sits directly along the Mid-Atlantic Ridge — a divergent plate boundary from Unit 4 — giving it intense underlying volcanic and geothermal activity and exceptionally accessible underground heat, making geothermal power both practical and widely used there. The claim that geothermal isn't used in Iceland is factually false. Attributing suitability to cold climate rather than geology misidentifies the actual mechanism — geothermal heat comes from Earth's interior, not the surface climate. And Iceland's position directly on a plate boundary is precisely why it's so well suited."
+      "explanation": "Correct: (A) Iceland sits on the volcanically active Mid-Atlantic Ridge. Iceland sits directly along the Mid-Atlantic Ridge — a divergent plate boundary from Unit 4 — giving it intense underlying volcanic and geothermal activity and exceptionally accessible underground heat, making geothermal power both practical and widely used there. The claim that geothermal isn't used in Iceland is factually false. Attributing suitability to cold climate rather than geology misidentifies the actual mechanism — geothermal heat comes from Earth's interior, not the surface climate. And Iceland's position directly on a plate boundary is precisely why it's so well suited."
     },
     {
       "id": "6-42",
@@ -5823,7 +5823,7 @@ const QUESTIONS = {
         "Wind power only"
       ],
       "correct": 0,
-      "explanation": "Hydroelectric and geothermal power can both reliably provide constant, baseload generation, unlike the intermittent output of solar and wind. Restricting the answer to wind or solar alone is wrong because neither can provide constant generation on its own. And claiming no energy source can provide constant generation ignores hydro and geothermal's well-documented baseload capability."
+      "explanation": "Correct: (A) Hydroelectric and geothermal power. Hydroelectric and geothermal power can both reliably provide constant, baseload generation, unlike the intermittent output of solar and wind. Restricting the answer to wind or solar alone is wrong because neither can provide constant generation on its own. And claiming no energy source can provide constant generation ignores hydro and geothermal's well-documented baseload capability."
     },
     {
       "id": "6-43",
@@ -5836,7 +5836,7 @@ const QUESTIONS = {
         "Displacement of the local community and disruption of the fish species' migration route."
       ],
       "correct": 3,
-      "explanation": "This scenario raises two distinct concerns: displacement of the local community from the flooded area, and disruption of the migratory fish species' spawning route — both well-documented hydroelectric impacts. Claiming the project affects only fish, or only the community, misses one of the two genuine concerns present. And claiming no specific concerns exist ignores both documented impacts."
+      "explanation": "Correct: (D) Displacement of the local community and disruption of the fish species' migration route. This scenario raises two distinct concerns: displacement of the local community from the flooded area, and disruption of the migratory fish species' spawning route — both well-documented hydroelectric impacts. Claiming the project affects only fish, or only the community, misses one of the two genuine concerns present. And claiming no specific concerns exist ignores both documented impacts."
     },
     {
       "id": "6-44",
@@ -5849,7 +5849,7 @@ const QUESTIONS = {
         "Hydroelectric power cannot be classified using this framework."
       ],
       "correct": 2,
-      "explanation": "Hydroelectric power is renewable because river flow is continuously replenished by the water cycle (precipitation and runoff) on a human-relevant timescale. Claiming it's nonrenewable due to silting confuses a dam's operational lifespan with the underlying water resource's renewability — the river itself keeps flowing regardless of a specific dam's condition. Claiming it can't be classified under this framework ignores that it clearly fits the renewable category. And it has no relationship to uranium mining, which is a nuclear power concern."
+      "explanation": "Correct: (C) Renewable, since river flow is replenished by the water cycle. Hydroelectric power is renewable because river flow is continuously replenished by the water cycle (precipitation and runoff) on a human-relevant timescale. Claiming it's nonrenewable due to silting confuses a dam's operational lifespan with the underlying water resource's renewability — the river itself keeps flowing regardless of a specific dam's condition. Claiming it can't be classified under this framework ignores that it clearly fits the renewable category. And it has no relationship to uranium mining, which is a nuclear power concern."
     },
     {
       "id": "6-45",
@@ -5862,7 +5862,7 @@ const QUESTIONS = {
         "Hydroelectric power always has significant direct combustion emissions."
       ],
       "correct": 1,
-      "explanation": "While hydroelectric power involves no combustion, decomposing organic matter in some reservoirs — particularly large tropical reservoirs with substantial flooded vegetation — can release genuinely significant methane emissions, making a blanket 'zero emissions' claim inaccurate. Attributing emissions to construction concrete misidentifies the source. Claiming significant combustion emissions is wrong since hydro involves no combustion at all. And claiming the zero-emissions description is fully accurate ignores the documented reservoir methane pathway."
+      "explanation": "Correct: (B) Large tropical reservoirs can release significant methane. While hydroelectric power involves no combustion, decomposing organic matter in some reservoirs — particularly large tropical reservoirs with substantial flooded vegetation — can release genuinely significant methane emissions, making a blanket 'zero emissions' claim inaccurate. Attributing emissions to construction concrete misidentifies the source. Claiming significant combustion emissions is wrong since hydro involves no combustion at all. And claiming the zero-emissions description is fully accurate ignores the documented reservoir methane pathway."
     },
     {
       "id": "6-46",
@@ -5888,7 +5888,7 @@ const QUESTIONS = {
         "Biomass energy has no relationship to carbon at all."
       ],
       "correct": 2,
-      "explanation": "Biomass's theoretical carbon neutrality rests on the CO2 released during combustion having been recently absorbed from the atmosphere by the growing plant material — unlike fossil fuels, which release carbon stored underground for millions of years, adding 'new' carbon to the active cycle. Claiming biomass releases no CO2 is factually wrong; it does release CO2, just recently cycled CO2. Claiming no relationship to carbon at all ignores the entire basis of the concept. And the claim about solar-powered equipment describes an unrelated, irrelevant production detail that doesn't establish carbon neutrality."
+      "explanation": "Correct: (C) The CO2 released was recently absorbed by the plant itself. Biomass's theoretical carbon neutrality rests on the CO2 released during combustion having been recently absorbed from the atmosphere by the growing plant material — unlike fossil fuels, which release carbon stored underground for millions of years, adding 'new' carbon to the active cycle. Claiming biomass releases no CO2 is factually wrong; it does release CO2, just recently cycled CO2. Claiming no relationship to carbon at all ignores the entire basis of the concept. And the claim about solar-powered equipment describes an unrelated, irrelevant production detail that doesn't establish carbon neutrality."
     },
     {
       "id": "6-48",
@@ -5901,7 +5901,7 @@ const QUESTIONS = {
         "The claim never holds true under any circumstances."
       ],
       "correct": 0,
-      "explanation": "Biomass's carbon-neutral claim depends on harvested material being replaced by new growth that reabsorbs an equivalent amount of CO2, without land-use changes that would offset the benefit. Restricting the claim to fossil-derived biomass doesn't make sense, since biomass by definition comes from organic matter, not fossil sources. Claiming it holds automatically ignores this regrowth condition. And claiming it never holds true overstates the case — under proper regrowth practices, the claim can hold."
+      "explanation": "Correct: (A) Only if regrowth reabsorbs an equivalent amount of carbon. Biomass's carbon-neutral claim depends on harvested material being replaced by new growth that reabsorbs an equivalent amount of CO2, without land-use changes that would offset the benefit. Restricting the claim to fossil-derived biomass doesn't make sense, since biomass by definition comes from organic matter, not fossil sources. Claiming it holds automatically ignores this regrowth condition. And claiming it never holds true overstates the case — under proper regrowth practices, the claim can hold."
     },
     {
       "id": "6-49",
@@ -5914,7 +5914,7 @@ const QUESTIONS = {
         "Water"
       ],
       "correct": 3,
-      "explanation": "Hydrogen fuel cells combine hydrogen and oxygen to produce electricity, with water as the only byproduct at the point of use. Methane and carbon dioxide are combustion-related byproducts of fossil fuels, not fuel cells. Sulfur dioxide is a coal-combustion byproduct — none of these apply to the hydrogen-oxygen reaction inside a fuel cell."
+      "explanation": "Correct: (D) Water. Hydrogen fuel cells combine hydrogen and oxygen to produce electricity, with water as the only byproduct at the point of use. Methane and carbon dioxide are combustion-related byproducts of fossil fuels, not fuel cells. Sulfur dioxide is a coal-combustion byproduct — none of these apply to the hydrogen-oxygen reaction inside a fuel cell."
     },
     {
       "id": "6-50",
@@ -5927,7 +5927,7 @@ const QUESTIONS = {
         "Fuel cells produce significant emissions directly at the point of use."
       ],
       "correct": 2,
-      "explanation": "Hydrogen doesn't occur naturally in usable form and must be produced, typically requiring energy input — if that energy comes from fossil fuels (currently common), the overall process carries substantial upstream emissions despite zero point-of-use emissions. Claiming production always uses renewable energy is factually wrong; fossil-fuel-generated hydrogen remains common today. Claiming no relationship to production source ignores exactly the dependency the question describes. And fuel cells genuinely produce zero emissions at the point of use — their limitation lies upstream, not at that stage."
+      "explanation": "Correct: (C) Producing hydrogen often draws on fossil-fuel-generated energy. Hydrogen doesn't occur naturally in usable form and must be produced, typically requiring energy input — if that energy comes from fossil fuels (currently common), the overall process carries substantial upstream emissions despite zero point-of-use emissions. Claiming production always uses renewable energy is factually wrong; fossil-fuel-generated hydrogen remains common today. Claiming no relationship to production source ignores exactly the dependency the question describes. And fuel cells genuinely produce zero emissions at the point of use — their limitation lies upstream, not at that stage."
     },
     {
       "id": "6-51",
@@ -5940,7 +5940,7 @@ const QUESTIONS = {
         "Yes, this practice is fully carbon neutral regardless of replanting."
       ],
       "correct": 0,
-      "explanation": "Without replanting, this practice would NOT be carbon neutral — the released CO2 has no offsetting future absorption from regrowth, so it functions similarly to a fossil fuel emission despite technically being biomass. Claiming all biomass combustion is automatically carbon neutral ignores the regrowth condition established earlier in this unit. Claiming the scenario can't be evaluated ignores that the carbon neutrality concept directly applies here. And claiming it's fully carbon neutral 'regardless of replanting' contradicts the core condition on which the claim depends."
+      "explanation": "Correct: (A) No — unreplanted CO2 acts like a fossil fuel emission. Without replanting, this practice would NOT be carbon neutral — the released CO2 has no offsetting future absorption from regrowth, so it functions similarly to a fossil fuel emission despite technically being biomass. Claiming all biomass combustion is automatically carbon neutral ignores the regrowth condition established earlier in this unit. Claiming the scenario can't be evaluated ignores that the carbon neutrality concept directly applies here. And claiming it's fully carbon neutral 'regardless of replanting' contradicts the core condition on which the claim depends."
     },
     {
       "id": "6-52",
@@ -5953,7 +5953,7 @@ const QUESTIONS = {
         "No — its true emissions depend on how the hydrogen fuel was produced."
       ],
       "correct": 3,
-      "explanation": "It would be inaccurate to call this vehicle fully 'emission-free' without qualification — while tailpipe emissions are genuinely zero, the vehicle's true overall emissions profile depends on the hydrogen production source, which can carry substantial upstream emissions if fossil-fuel-generated electricity was used. Claiming hydrogen production never requires energy is false — producing usable hydrogen always requires an energy input. Claiming zero tailpipe emissions makes it fully emission-free ignores this upstream dependency. And the vehicle does have zero tailpipe emissions, so claiming otherwise is directly contradicted by the stem."
+      "explanation": "Correct: (D) No — its true emissions depend on how the hydrogen fuel was produced. It would be inaccurate to call this vehicle fully 'emission-free' without qualification — while tailpipe emissions are genuinely zero, the vehicle's true overall emissions profile depends on the hydrogen production source, which can carry substantial upstream emissions if fossil-fuel-generated electricity was used. Claiming hydrogen production never requires energy is false — producing usable hydrogen always requires an energy input. Claiming zero tailpipe emissions makes it fully emission-free ignores this upstream dependency. And the vehicle does have zero tailpipe emissions, so claiming otherwise is directly contradicted by the stem."
     },
     {
       "id": "6-53",
@@ -5966,7 +5966,7 @@ const QUESTIONS = {
         "Upstream emissions are always negligible and therefore irrelevant."
       ],
       "correct": 1,
-      "explanation": "As illustrated by hydrogen fuel cells and biomass, point-of-use emissions can be zero while substantial emissions occur earlier in the process — fossil-fuel-generated hydrogen production, for instance, or biomass burned without adequate regrowth — so a complete evaluation requires considering the full life cycle. Claiming point-of-use data is always complete ignores this upstream gap. Claiming point-of-use emissions have no relationship to true impact overcorrects — they're part of the picture, just not the whole picture. And claiming upstream emissions are always negligible directly contradicts the fossil-fuel-hydrogen scenario just described."
+      "explanation": "Correct: (B) Zero point-of-use emissions can hide substantial upstream emissions. As illustrated by hydrogen fuel cells and biomass, point-of-use emissions can be zero while substantial emissions occur earlier in the process — fossil-fuel-generated hydrogen production, for instance, or biomass burned without adequate regrowth — so a complete evaluation requires considering the full life cycle. Claiming point-of-use data is always complete ignores this upstream gap. Claiming point-of-use emissions have no relationship to true impact overcorrects — they're part of the picture, just not the whole picture. And claiming upstream emissions are always negligible directly contradicts the fossil-fuel-hydrogen scenario just described."
     },
     {
       "id": "6-54",
@@ -5979,7 +5979,7 @@ const QUESTIONS = {
         "Producing the hydrogen using electricity generated from renewable sources like solar or wind."
       ],
       "correct": 3,
-      "explanation": "Producing hydrogen using electricity from renewable sources like solar or wind would make the overall process (production plus point-of-use) genuinely low-emissions — illustrating that the technology's true climate benefit depends on the specific production source used. Claiming the production source has no bearing on overall emissions directly contradicts this dependency. Claiming fuel cells are 'always' low-emissions regardless of source ignores that fossil-fuel-generated hydrogen carries substantial upstream emissions. And producing hydrogen from a coal-fired plant would produce the opposite result — high upstream emissions, not low."
+      "explanation": "Correct: (D) Producing the hydrogen using electricity generated from renewable sources like solar or wind. Producing hydrogen using electricity from renewable sources like solar or wind would make the overall process (production plus point-of-use) genuinely low-emissions — illustrating that the technology's true climate benefit depends on the specific production source used. Claiming the production source has no bearing on overall emissions directly contradicts this dependency. Claiming fuel cells are 'always' low-emissions regardless of source ignores that fossil-fuel-generated hydrogen carries substantial upstream emissions. And producing hydrogen from a coal-fired plant would produce the opposite result — high upstream emissions, not low."
     },
     {
       "id": "6-55",
@@ -5992,7 +5992,7 @@ const QUESTIONS = {
         "Both technologies are always equally harmful as burning coal."
       ],
       "correct": 0,
-      "explanation": "The shared lesson is that neither technology's environmental benefit is automatic — biomass's carbon neutrality depends on actual regrowth practices, and hydrogen fuel cells' overall cleanliness depends on the production energy source — both require examining specific conditions rather than assuming a blanket label. Claiming both are 'always' equally harmful as coal ignores the conditions under which they can be genuinely clean. Claiming both are 'always' fully clean ignores the conditions under which they aren't. And claiming neither relates to environmental impact contradicts the entire section's focus."
+      "explanation": "Correct: (A) True impact depends on conditions, not the technology category. The shared lesson is that neither technology's environmental benefit is automatic — biomass's carbon neutrality depends on actual regrowth practices, and hydrogen fuel cells' overall cleanliness depends on the production energy source — both require examining specific conditions rather than assuming a blanket label. Claiming both are 'always' equally harmful as coal ignores the conditions under which they can be genuinely clean. Claiming both are 'always' fully clean ignores the conditions under which they aren't. And claiming neither relates to environmental impact contradicts the entire section's focus."
     },
     {
       "id": "6-56",
@@ -6005,7 +6005,7 @@ const QUESTIONS = {
         "A measure of how much energy a nuclear plant produces."
       ],
       "correct": 2,
-      "explanation": "'Negawatts' captures the idea that a unit of energy demand avoided through efficiency accomplishes the same practical goal as a unit of new supply — but typically at lower cost and without new generation infrastructure or environmental footprint. It has nothing to do with measuring nuclear plant output or nighttime solar generation (solar produces nothing at night by definition). And the term is a well-established piece of energy policy vocabulary, not a meaningless phrase."
+      "explanation": "Correct: (C) Avoided demand that functions like new supply, but cheaper. 'Negawatts' captures the idea that a unit of energy demand avoided through efficiency accomplishes the same practical goal as a unit of new supply — but typically at lower cost and without new generation infrastructure or environmental footprint. It has nothing to do with measuring nuclear plant output or nighttime solar generation (solar produces nothing at night by definition). And the term is a well-established piece of energy policy vocabulary, not a meaningless phrase."
     },
     {
       "id": "6-57",
@@ -6018,7 +6018,7 @@ const QUESTIONS = {
         "Increasing overall electricity consumption with no other changes."
       ],
       "correct": 0,
-      "explanation": "Replacing incandescent bulbs with more efficient LED bulbs is a classic efficiency measure — it accomplishes the same lighting task using significantly less electricity. Increasing overall consumption is the opposite of an efficiency measure. Removing insulation would increase, not decrease, the energy needed for heating and cooling. And building a new coal plant addresses supply, not the demand-reduction goal that defines efficiency measures."
+      "explanation": "Correct: (A) Replacing incandescent bulbs with more efficient LED bulbs. Replacing incandescent bulbs with more efficient LED bulbs is a classic efficiency measure — it accomplishes the same lighting task using significantly less electricity. Increasing overall consumption is the opposite of an efficiency measure. Removing insulation would increase, not decrease, the energy needed for heating and cooling. And building a new coal plant addresses supply, not the demand-reduction goal that defines efficiency measures."
     },
     {
       "id": "6-58",
@@ -6031,7 +6031,7 @@ const QUESTIONS = {
         "Energy conservation has no relationship to overall system costs."
       ],
       "correct": 2,
-      "explanation": "Avoiding the need for a unit of energy is very often cheaper than building new generation capacity to supply that same unit, regardless of the specific technology chosen — making efficiency frequently the most cost-effective lever for reducing energy-related impact. Claiming efficiency always costs more reverses this typical relationship. Claiming power plants are free to build ignores substantial construction and operating costs. And claiming no relationship to system costs ignores efficiency's direct cost-avoidance mechanism."
+      "explanation": "Correct: (C) Avoiding demand is often cheaper than building capacity to meet it. Avoiding the need for a unit of energy is very often cheaper than building new generation capacity to supply that same unit, regardless of the specific technology chosen — making efficiency frequently the most cost-effective lever for reducing energy-related impact. Claiming efficiency always costs more reverses this typical relationship. Claiming power plants are free to build ignores substantial construction and operating costs. And claiming no relationship to system costs ignores efficiency's direct cost-avoidance mechanism."
     },
     {
       "id": "6-59",
@@ -6044,7 +6044,7 @@ const QUESTIONS = {
         "This program would only affect water usage, not energy usage."
       ],
       "correct": 2,
-      "explanation": "Improved insulation reduces the energy needed for heating and cooling — less heat escapes in winter, less enters in summer — directly lowering overall demand, a classic conservation measure. Claiming it only affects water usage misidentifies what insulation controls. Claiming demand would increase reverses the actual, well-documented effect. And claiming no relationship to energy demand ignores the basic thermal mechanism insulation relies on."
+      "explanation": "Correct: (C) Demand would likely decrease, since insulation cuts heating needs. Improved insulation reduces the energy needed for heating and cooling — less heat escapes in winter, less enters in summer — directly lowering overall demand, a classic conservation measure. Claiming it only affects water usage misidentifies what insulation controls. Claiming demand would increase reverses the actual, well-documented effect. And claiming no relationship to energy demand ignores the basic thermal mechanism insulation relies on."
     },
     {
       "id": "6-60",
@@ -6057,7 +6057,7 @@ const QUESTIONS = {
         "No — efficiency is often the most cost-effective lever available."
       ],
       "correct": 3,
-      "explanation": "Energy conservation should not be dismissed as merely symbolic — it's frequently the single most cost-effective and fastest-to-implement strategy for reducing energy-related impact, since it requires no new infrastructure, land use, or resource extraction. Claiming conservation always costs more reverses the typical cost relationship. Claiming it has no meaningful impact contradicts the significant demand reductions efficiency measures achieve. And the 'only because renewables are expensive' framing misattributes conservation's advantage to a comparison it doesn't actually depend on."
+      "explanation": "Correct: (D) No — efficiency is often the most cost-effective lever available. Energy conservation should not be dismissed as merely symbolic — it's frequently the single most cost-effective and fastest-to-implement strategy for reducing energy-related impact, since it requires no new infrastructure, land use, or resource extraction. Claiming conservation always costs more reverses the typical cost relationship. Claiming it has no meaningful impact contradicts the significant demand reductions efficiency measures achieve. And the 'only because renewables are expensive' framing misattributes conservation's advantage to a comparison it doesn't actually depend on."
     },
     {
       "id": "6-61",
@@ -6070,7 +6070,7 @@ const QUESTIONS = {
         "The efficiency program would likely cost more, with no offsetting gain."
       ],
       "correct": 0,
-      "explanation": "The efficiency program could plausibly reduce demand enough to reduce or eliminate the need for the new plant altogether, typically at lower total cost, while also avoiding the plant's ongoing fuel costs and emissions — the 'negawatt' cost-effectiveness principle in action. Claiming the program costs more with no offsetting benefit ignores this avoided-capacity savings. Claiming no meaningful difference between the options ignores the cost and emissions gap. And claiming a new plant has zero cost and zero emissions is simply false — construction, fuel, and combustion emissions are all real costs."
+      "explanation": "Correct: (A) The efficiency program can cut new-capacity needs at lower total cost. The efficiency program could plausibly reduce demand enough to reduce or eliminate the need for the new plant altogether, typically at lower total cost, while also avoiding the plant's ongoing fuel costs and emissions — the 'negawatt' cost-effectiveness principle in action. Claiming the program costs more with no offsetting benefit ignores this avoided-capacity savings. Claiming no meaningful difference between the options ignores the cost and emissions gap. And claiming a new plant has zero cost and zero emissions is simply false — construction, fuel, and combustion emissions are all real costs."
     },
     {
       "id": "6-62",
@@ -6083,7 +6083,7 @@ const QUESTIONS = {
         "Installing more efficient appliances throughout a household."
       ],
       "correct": 2,
-      "explanation": "Building a new power plant is a SUPPLY-side response to rising demand, not a conservation or efficiency measure — efficiency measures specifically reduce the energy needed in the first place rather than add new generation capacity. Vehicle fuel efficiency standards, building insulation, and efficient appliances are all classic demand-reduction measures, which is why each of those three IS correctly classified as conservation/efficiency."
+      "explanation": "Correct: (C) Building an entirely new coal-fired power plant to meet demand. Building a new power plant is a SUPPLY-side response to rising demand, not a conservation or efficiency measure — efficiency measures specifically reduce the energy needed in the first place rather than add new generation capacity. Vehicle fuel efficiency standards, building insulation, and efficient appliances are all classic demand-reduction measures, which is why each of those three IS correctly classified as conservation/efficiency."
     },
     {
       "id": "6-63",
@@ -6096,7 +6096,7 @@ const QUESTIONS = {
         "There is no difference in implementation speed between approaches."
       ],
       "correct": 1,
-      "explanation": "Efficiency improvements — like replacing light bulbs or adding insulation — can often be implemented more quickly, at smaller scale, and at lower individual cost than large new generation infrastructure projects, which typically require lengthy planning, permitting, and construction. Claiming new infrastructure can be built in a single day badly understates real-world construction timelines. Claiming no difference in speed ignores this scale and permitting gap. And claiming efficiency always takes longer reverses the typical relationship."
+      "explanation": "Correct: (B) Efficiency measures deploy faster, at smaller scale, than new plants. Efficiency improvements — like replacing light bulbs or adding insulation — can often be implemented more quickly, at smaller scale, and at lower individual cost than large new generation infrastructure projects, which typically require lengthy planning, permitting, and construction. Claiming new infrastructure can be built in a single day badly understates real-world construction timelines. Claiming no difference in speed ignores this scale and permitting gap. And claiming efficiency always takes longer reverses the typical relationship."
     },
     {
       "id": "6-64",
@@ -6109,7 +6109,7 @@ const QUESTIONS = {
         "Yes, but only when implemented at very large scale."
       ],
       "correct": 0,
-      "explanation": "Energy conservation is fundamentally different from an energy SOURCE — rather than providing a new way to generate energy, as solar, wind, or nuclear power do, it reduces the total energy needed to accomplish a task, addressing the demand side rather than the supply side. Scale doesn't change this fundamental distinction, so the 'only at large scale' qualifier is wrong. Calling conservation itself a generation type misclassifies its role entirely. And conservation is deeply related to energy systems — it's the demand-side complement to supply-side generation — so claiming no relationship is incorrect."
+      "explanation": "Correct: (A) No — conservation cuts demand rather than adding new generation. Energy conservation is fundamentally different from an energy SOURCE — rather than providing a new way to generate energy, as solar, wind, or nuclear power do, it reduces the total energy needed to accomplish a task, addressing the demand side rather than the supply side. Scale doesn't change this fundamental distinction, so the 'only at large scale' qualifier is wrong. Calling conservation itself a generation type misclassifies its role entirely. And conservation is deeply related to energy systems — it's the demand-side complement to supply-side generation — so claiming no relationship is incorrect."
     },
     {
       "id": "6-65",
@@ -6122,7 +6122,7 @@ const QUESTIONS = {
         "Front-loaded reductions beat the same total spread evenly over time."
       ],
       "correct": 3,
-      "explanation": "Even with identical total 10-year benefit, front-loaded reductions (like the efficiency option's rapid early impact) provide greater cumulative environmental benefit than the same total spread evenly, because environmental harms such as greenhouse gas accumulation are cumulative over time — avoiding emissions earlier means less total accumulated impact throughout the period, compared to a scenario where equivalent avoided emissions are still 'ramping up' during those same early years. Claiming timing has no bearing, or that identical totals mean no meaningful difference, both ignore this cumulative-impact reasoning. And prioritizing solar simply because it's newer technology isn't a substantive reason tied to the actual environmental math the scenario is testing."
+      "explanation": "Correct: (D) Front-loaded reductions beat the same total spread evenly over time. Even with identical total 10-year benefit, front-loaded reductions (like the efficiency option's rapid early impact) provide greater cumulative environmental benefit than the same total spread evenly, because environmental harms such as greenhouse gas accumulation are cumulative over time — avoiding emissions earlier means less total accumulated impact throughout the period, compared to a scenario where equivalent avoided emissions are still 'ramping up' during those same early years. Claiming timing has no bearing, or that identical totals mean no meaningful difference, both ignore this cumulative-impact reasoning. And prioritizing solar simply because it's newer technology isn't a substantive reason tied to the actual environmental math the scenario is testing."
     },
     {
       "id": "6-66",
@@ -6148,7 +6148,7 @@ const QUESTIONS = {
         "30:1"
       ],
       "correct": 1,
-      "explanation": "EROI = energy obtained ÷ energy invested = 30 ÷ 2 = 15:1. The 32:1 option incorrectly adds the two values instead of dividing them. The 30:1 option ignores the energy invested entirely, treating the ratio as if 0 energy were invested. And 2:1 incorrectly inverts the ratio (dividing input by output instead of output by input)."
+      "explanation": "Correct: (B) 15:1. EROI = energy obtained ÷ energy invested = 30 ÷ 2 = 15:1. The 32:1 option incorrectly adds the two values instead of dividing them. The 30:1 option ignores the energy invested entirely, treating the ratio as if 0 energy were invested. And 2:1 incorrectly inverts the ratio (dividing input by output instead of output by input)."
     },
     {
       "id": "6-68",
@@ -6161,7 +6161,7 @@ const QUESTIONS = {
         "EROI never changes for any energy source over time."
       ],
       "correct": 1,
-      "explanation": "As the easily accessible portion of a reserve is depleted, extracting the remaining, harder-to-reach fuel requires more energy input per unit obtained, reducing EROI even though the resource's classification hasn't changed. Claiming EROI has no relationship to extraction difficulty ignores this direct mechanism. Claiming EROI never changes contradicts well-documented declining trends in mature fields. And claiming EROI always increases over time reverses the typical depletion-driven trend."
+      "explanation": "Correct: (B) Depleted easy reserves need more energy-intensive extraction. As the easily accessible portion of a reserve is depleted, extracting the remaining, harder-to-reach fuel requires more energy input per unit obtained, reducing EROI even though the resource's classification hasn't changed. Claiming EROI has no relationship to extraction difficulty ignores this direct mechanism. Claiming EROI never changes contradicts well-documented declining trends in mature fields. And claiming EROI always increases over time reverses the typical depletion-driven trend."
     },
     {
       "id": "6-69",
@@ -6174,7 +6174,7 @@ const QUESTIONS = {
         "40 kg"
       ],
       "correct": 1,
-      "explanation": "40 years ÷ 20-year half-life = 2 half-lives. N(t) = 80 × (0.5)² = 80 × 0.25 = 20 kg. The 10 kg option incorrectly applies a third half-life. The 40 kg option only accounts for a single half-life instead of two. And 0 kg incorrectly treats the two half-lives as removing 100% of the material (a linear-decay error), when decay is actually exponential."
+      "explanation": "Correct: (B) 20 kg. 40 years ÷ 20-year half-life = 2 half-lives. N(t) = 80 × (0.5)² = 80 × 0.25 = 20 kg. The 10 kg option incorrectly applies a third half-life. The 40 kg option only accounts for a single half-life instead of two. And 0 kg incorrectly treats the two half-lives as removing 100% of the material (a linear-decay error), when decay is actually exponential."
     },
     {
       "id": "6-70",
@@ -6187,7 +6187,7 @@ const QUESTIONS = {
         "Decay follows no predictable mathematical pattern at all."
       ],
       "correct": 2,
-      "explanation": "Radioactive decay is exponential — each half-life removes half of whatever quantity is still remaining at that point, not a fixed amount of the original starting quantity, which is why the remaining amount approaches but never mathematically reaches zero. There's no special linear exception for short-half-life isotopes — all radioactive decay follows the same exponential pattern. The 'fixed amount' description is the classic linear-decay misconception this question tests against. And decay does follow a precise, well-established mathematical pattern, contrary to the 'no predictable pattern' claim."
+      "explanation": "Correct: (C) Exponential — half of whatever remains is lost each half-life. Radioactive decay is exponential — each half-life removes half of whatever quantity is still remaining at that point, not a fixed amount of the original starting quantity, which is why the remaining amount approaches but never mathematically reaches zero. There's no special linear exception for short-half-life isotopes — all radioactive decay follows the same exponential pattern. The 'fixed amount' description is the classic linear-decay misconception this question tests against. And decay does follow a precise, well-established mathematical pattern, contrary to the 'no predictable pattern' claim."
     },
     {
       "id": "6-71",
@@ -6200,7 +6200,7 @@ const QUESTIONS = {
         "Radioactive decay cannot be calculated using half-life at all."
       ],
       "correct": 2,
-      "explanation": "This is the classic linear-vs-exponential decay error: the student treated 2 half-lives as removing 50%+50%=100% of the original amount, but decay is exponential — the second half-life only removes half of what remained AFTER the first half-life. The correct calculation is 100 × (0.5)² = 25 kg remaining, not 0 kg. Claiming half-life can't be used to calculate this at all ignores the standard exponential decay formula. And claiming the answer would only work for a different isotope misses that the error is mathematical, not isotope-specific — it would recur with any isotope calculated the same (incorrect) way."
+      "explanation": "Correct: (C) The student wrongly treated decay as linear, not exponential. This is the classic linear-vs-exponential decay error: the student treated 2 half-lives as removing 50%+50%=100% of the original amount, but decay is exponential — the second half-life only removes half of what remained AFTER the first half-life. The correct calculation is 100 × (0.5)² = 25 kg remaining, not 0 kg. Claiming half-life can't be used to calculate this at all ignores the standard exponential decay formula. And claiming the answer would only work for a different isotope misses that the error is mathematical, not isotope-specific — it would recur with any isotope calculated the same (incorrect) way."
     },
     {
       "id": "6-72",
@@ -6213,7 +6213,7 @@ const QUESTIONS = {
         "Long half-lives have no relationship to waste storage planning."
       ],
       "correct": 1,
-      "explanation": "Because decay is exponential and the remaining quantity never mathematically reaches exactly zero, an isotope with a very long half-life remains meaningfully radioactive for a correspondingly extended period, explaining why Section 6.3's nuclear waste storage challenge requires planning on timescales vastly exceeding ordinary human institutional horizons. Claiming half-life has no bearing on hazard duration, or no relationship to storage planning, both contradict this direct link. And claiming long-half-life materials become safe almost immediately is the opposite of what a long half-life actually means."
+      "explanation": "Correct: (B) Decay never reaches zero, so long half-lives stay hazardous longest. Because decay is exponential and the remaining quantity never mathematically reaches exactly zero, an isotope with a very long half-life remains meaningfully radioactive for a correspondingly extended period, explaining why Section 6.3's nuclear waste storage challenge requires planning on timescales vastly exceeding ordinary human institutional horizons. Claiming half-life has no bearing on hazard duration, or no relationship to storage planning, both contradict this direct link. And claiming long-half-life materials become safe almost immediately is the opposite of what a long half-life actually means."
     },
     {
       "id": "6-73",
@@ -6226,7 +6226,7 @@ const QUESTIONS = {
         "More input per barrel is now needed; EROI would approach 1:1."
       ],
       "correct": 3,
-      "explanation": "This question tests extrapolating the EROI concept to its logical endpoint: a declining EROI trend, even with constant production volume, indicates the energy INPUT required per unit of oil extracted has risen substantially — consistent with depletion of easily accessible oil requiring increasingly energy-intensive extraction of what remains. If this trend continued indefinitely, EROI would approach and eventually fall below 1:1 — the point at which extracting the oil consumes more energy than the oil itself provides, making further extraction pointless from a net-energy perspective, regardless of the oil's market price. This distinguishes EROI (a physical energy accounting concept) from market price (an economic concept) — a field can remain profitable in dollar terms even as its EROI declines toward this physical limit. Claiming EROI should rebound automatically ignores that depletion trends don't reverse without a change in extraction technology. Claiming the scenario is impossible contradicts real-world declining-EROI fields. And claiming EROI has no relationship to extraction difficulty directly contradicts EROI's definition as an energy-input-to-output ratio."
+      "explanation": "Correct: (D) More input per barrel is now needed; EROI would approach 1:1. This question tests extrapolating the EROI concept to its logical endpoint: a declining EROI trend, even with constant production volume, indicates the energy INPUT required per unit of oil extracted has risen substantially — consistent with depletion of easily accessible oil requiring increasingly energy-intensive extraction of what remains. If this trend continued indefinitely, EROI would approach and eventually fall below 1:1 — the point at which extracting the oil consumes more energy than the oil itself provides, making further extraction pointless from a net-energy perspective, regardless of the oil's market price. This distinguishes EROI (a physical energy accounting concept) from market price (an economic concept) — a field can remain profitable in dollar terms even as its EROI declines toward this physical limit. Claiming EROI should rebound automatically ignores that depletion trends don't reverse without a change in extraction technology. Claiming the scenario is impossible contradicts real-world declining-EROI fields. And claiming EROI has no relationship to extraction difficulty directly contradicts EROI's definition as an energy-input-to-output ratio."
     },
     {
       "id": "6-74",
@@ -6239,7 +6239,7 @@ const QUESTIONS = {
         "Developed countries consume more per capita and lean on fossil fuels."
       ],
       "correct": 3,
-      "explanation": "Developed countries typically consume much more energy per capita and lean on fossil fuels and, in some cases, nuclear power, while many developing countries still depend substantially on biomass — fuelwood, charcoal, crop residue, dung — for basic household needs like cooking and heating. The reverse claim (developing countries consuming more per capita) contradicts well-documented per-capita consumption data. Claiming an identical energy mix ignores this well-documented contrast. And the fuelwood/nuclear pairing swaps the actual dominant sources for each group."
+      "explanation": "Correct: (D) Developed countries consume more per capita and lean on fossil fuels. Developed countries typically consume much more energy per capita and lean on fossil fuels and, in some cases, nuclear power, while many developing countries still depend substantially on biomass — fuelwood, charcoal, crop residue, dung — for basic household needs like cooking and heating. The reverse claim (developing countries consuming more per capita) contradicts well-documented per-capita consumption data. Claiming an identical energy mix ignores this well-documented contrast. And the fuelwood/nuclear pairing swaps the actual dominant sources for each group."
     },
     {
       "id": "6-75",
@@ -6252,7 +6252,7 @@ const QUESTIONS = {
         "Groundwater contamination and induced seismicity."
       ],
       "correct": 0,
-      "explanation": "Fuelwood is a renewable but often unsustainably harvested household energy source — heavy reliance on it can contribute to local deforestation, and burning it in open fires or inefficient stoves is linked to indoor air pollution and associated health concerns. Ocean acidification and coral bleaching relate to CO2 absorption by oceans, not household fuel burning. Groundwater contamination and induced seismicity are fracking-related concerns. And reservoir methane and fish migration disruption are hydroelectric dam concerns — none of these three pairs apply to fuelwood use."
+      "explanation": "Correct: (A) Local deforestation and indoor air pollution from open fires. Fuelwood is a renewable but often unsustainably harvested household energy source — heavy reliance on it can contribute to local deforestation, and burning it in open fires or inefficient stoves is linked to indoor air pollution and associated health concerns. Ocean acidification and coral bleaching relate to CO2 absorption by oceans, not household fuel burning. Groundwater contamination and induced seismicity are fracking-related concerns. And reservoir methane and fish migration disruption are hydroelectric dam concerns — none of these three pairs apply to fuelwood use."
     },
     {
       "id": "6-76",
@@ -6278,7 +6278,7 @@ const QUESTIONS = {
         "Indoor air pollution from household fuel burning in poorly ventilated homes."
       ],
       "correct": 2,
-      "explanation": "Oil extraction and transport carries a distinct risk not shared by coal or piped natural gas: oil spills. Events like the 2010 Deepwater Horizon offshore drilling accident and the 1989 Exxon Valdez tanker spill released large volumes of crude oil into marine and terrestrial ecosystems. Induced seismicity is a fracking-related risk, not specific to oil spills. Sulfur dioxide emissions are a coal-combustion concern. And indoor air pollution from household fuel burning relates to biomass/fuelwood use, not oil extraction and transport."
+      "explanation": "Correct: (C) Spills from offshore drilling or tanker and pipeline failures. Oil extraction and transport carries a distinct risk not shared by coal or piped natural gas: oil spills. Events like the 2010 Deepwater Horizon offshore drilling accident and the 1989 Exxon Valdez tanker spill released large volumes of crude oil into marine and terrestrial ecosystems. Induced seismicity is a fracking-related risk, not specific to oil spills. Sulfur dioxide emissions are a coal-combustion concern. And indoor air pollution from household fuel burning relates to biomass/fuelwood use, not oil extraction and transport."
     },
     {
       "id": "6-78",
@@ -6291,7 +6291,7 @@ const QUESTIONS = {
         "They store long-lived radioactive waste after it leaves the reactor."
       ],
       "correct": 0,
-      "explanation": "Control rods, made of neutron-absorbing material, are inserted or withdrawn from the reactor core to regulate the rate of the fission chain reaction. Slowing neutrons to sustain the reaction is the moderator's job, not the control rods'. Carrying heat away to generate steam is the coolant's function. And storing waste after it leaves the reactor is a separate waste-management process unrelated to the in-core control rods."
+      "explanation": "Correct: (A) Inserted or withdrawn to regulate fission by absorbing neutrons. Control rods, made of neutron-absorbing material, are inserted or withdrawn from the reactor core to regulate the rate of the fission chain reaction. Slowing neutrons to sustain the reaction is the moderator's job, not the control rods'. Carrying heat away to generate steam is the coolant's function. And storing waste after it leaves the reactor is a separate waste-management process unrelated to the in-core control rods."
     },
     {
       "id": "6-79",
@@ -6304,7 +6304,7 @@ const QUESTIONS = {
         "The moderator carries heat to generate steam; the coolant absorbs neutrons to stop the reaction."
       ],
       "correct": 1,
-      "explanation": "The moderator (often water) slows the neutrons released by fission so they can sustain the chain reaction efficiently, while the coolant (typically water) carries the heat produced by fission away from the core to generate the steam that drives the turbine — two distinct components with two distinct functions, alongside the control rods that regulate reaction rate. Option D swaps these two functions. Option A denies any distinction, which is incorrect — moderator and coolant serve different purposes even when both happen to be water. Option C misattributes both functions to the wrong components entirely — neither stores spent fuel nor directly regulates fission rate (that's the control rods' job)."
+      "explanation": "Correct: (B) The moderator slows neutrons to sustain the reaction; the coolant carries heat to the turbine. The moderator (often water) slows the neutrons released by fission so they can sustain the chain reaction efficiently, while the coolant (typically water) carries the heat produced by fission away from the core to generate the steam that drives the turbine — two distinct components with two distinct functions, alongside the control rods that regulate reaction rate. Option D swaps these two functions. Option A denies any distinction, which is incorrect — moderator and coolant serve different purposes even when both happen to be water. Option C misattributes both functions to the wrong components entirely — neither stores spent fuel nor directly regulates fission rate (that's the control rods' job)."
     }
   ],
   "7": [
@@ -6345,7 +6345,7 @@ const QUESTIONS = {
         "Ground-level ozone"
       ],
       "correct": 1,
-      "explanation": "Sulfur dioxide (SO2) is emitted directly from sources like coal combustion, making it a primary pollutant. Ground-level ozone and PAN are both secondary pollutants, formed through atmospheric reactions involving NOx and VOCs rather than being released directly -- so 'none of these' is also incorrect, since SO2 qualifies."
+      "explanation": "Correct: (B) Sulfur dioxide (SO2). Sulfur dioxide (SO2) is emitted directly from sources like coal combustion, making it a primary pollutant. Ground-level ozone and PAN are both secondary pollutants, formed through atmospheric reactions involving NOx and VOCs rather than being released directly -- so 'none of these' is also incorrect, since SO2 qualifies."
     },
     {
       "id": "7-4",
@@ -6358,7 +6358,7 @@ const QUESTIONS = {
         "Secondary pollutants have no primary pollutant precursors of any kind driving their formation."
       ],
       "correct": 2,
-      "explanation": "A secondary pollutant has no single direct emission source to regulate -- it forms from a chemical reaction between primary pollutants -- so effective control means reducing those primary precursors (e.g., NOx and VOCs for ozone). This is not necessarily easier than controlling primary pollutants (B), and it is false that secondary pollutants lack primary precursors (D) or are uncontrollable altogether (A) -- regulating precursors is a well-established control strategy."
+      "explanation": "Correct: (C) It forms via atmospheric reactions, so control requires cutting its primary precursors. A secondary pollutant has no single direct emission source to regulate -- it forms from a chemical reaction between primary pollutants -- so effective control means reducing those primary precursors (e.g., NOx and VOCs for ozone). This is not necessarily easier than controlling primary pollutants (B), and it is false that secondary pollutants lack primary precursors (D) or are uncontrollable altogether (A) -- regulating precursors is a well-established control strategy."
     },
     {
       "id": "7-5",
@@ -6371,7 +6371,7 @@ const QUESTIONS = {
         "The NOx here is primary; the ozone is secondary."
       ],
       "correct": 3,
-      "explanation": "The NOx is released directly from the factory, making it a primary pollutant; the ozone forms afterward through a reaction with VOCs and sunlight, making it secondary. Calling both secondary (A) ignores that NOx is directly emitted; calling both primary (C) ignores that ozone forms via a later reaction; and reversing the classification (B) swaps which pollutant is emitted directly versus formed through chemistry."
+      "explanation": "Correct: (D) The NOx here is primary; the ozone is secondary. The NOx is released directly from the factory, making it a primary pollutant; the ozone forms afterward through a reaction with VOCs and sunlight, making it secondary. Calling both secondary (A) ignores that NOx is directly emitted; calling both primary (C) ignores that ozone forms via a later reaction; and reversing the classification (B) swaps which pollutant is emitted directly versus formed through chemistry."
     },
     {
       "id": "7-6",
@@ -6384,7 +6384,7 @@ const QUESTIONS = {
         "Ground-level ozone formation, which is itself a secondary pollutant process."
       ],
       "correct": 1,
-      "explanation": "Vehicle exhaust and industrial solvents are common VOC sources; these VOCs then react with NOx in sunlight to form secondary pollutants like ground-level ozone. Ocean currents and stratospheric UV absorption are unrelated physical processes, not VOC sources, and ozone formation is the downstream reaction VOCs feed into, not a source of VOCs itself."
+      "explanation": "Correct: (B) Vehicle exhaust and industrial solvents, both major VOC contributors. Vehicle exhaust and industrial solvents are common VOC sources; these VOCs then react with NOx in sunlight to form secondary pollutants like ground-level ozone. Ocean currents and stratospheric UV absorption are unrelated physical processes, not VOC sources, and ozone formation is the downstream reaction VOCs feed into, not a source of VOCs itself."
     },
     {
       "id": "7-7",
@@ -6397,7 +6397,7 @@ const QUESTIONS = {
         "Secondary -- it forms only through atmospheric chemical reactions, never direct release."
       ],
       "correct": 0,
-      "explanation": "Particulate matter is generally a primary pollutant -- emitted directly from combustion and industrial sources -- though some PM does form secondarily from gas-phase reactions. It is not classified as a greenhouse gas rather than a pollutant (B); it is not exclusively secondary (D), since most PM is directly emitted; and it clearly fits within the primary/secondary framework (C)."
+      "explanation": "Correct: (A) Primary, since it is emitted directly from sources like combustion and industry. Particulate matter is generally a primary pollutant -- emitted directly from combustion and industrial sources -- though some PM does form secondarily from gas-phase reactions. It is not classified as a greenhouse gas rather than a pollutant (B); it is not exclusively secondary (D), since most PM is directly emitted; and it clearly fits within the primary/secondary framework (C)."
     },
     {
       "id": "7-8",
@@ -6410,7 +6410,7 @@ const QUESTIONS = {
         "There is no effective strategy for reducing any secondary pollutant."
       ],
       "correct": 2,
-      "explanation": "Ground-level ozone forms when NOx and VOCs react in sunlight, so reducing those precursor emissions is the effective control strategy. There is no direct ozone 'source' to regulate (B), since ozone forms secondarily; strategies do exist for secondary pollutants (D); and increasing precursor emissions (A) would worsen, not reduce, ozone formation."
+      "explanation": "Correct: (C) Reducing NOx and VOC emissions, ozone's two primary precursors. Ground-level ozone forms when NOx and VOCs react in sunlight, so reducing those precursor emissions is the effective control strategy. There is no direct ozone 'source' to regulate (B), since ozone forms secondarily; strategies do exist for secondary pollutants (D); and increasing precursor emissions (A) would worsen, not reduce, ozone formation."
     },
     {
       "id": "7-9",
@@ -6423,7 +6423,7 @@ const QUESTIONS = {
         "A primary pollutant, released directly from the vehicle's exhaust."
       ],
       "correct": 3,
-      "explanation": "CO is emitted directly from vehicle exhaust, making it a primary pollutant. It is not confined to the stratosphere (A) -- CO is a surface-level concern; it does not form through an atmospheric reaction like a secondary pollutant would (C); and since it clearly meets the primary pollutant definition, B is incorrect."
+      "explanation": "Correct: (D) A primary pollutant, released directly from the vehicle's exhaust. CO is emitted directly from vehicle exhaust, making it a primary pollutant. It is not confined to the stratosphere (A) -- CO is a surface-level concern; it does not form through an atmospheric reaction like a secondary pollutant would (C); and since it clearly meets the primary pollutant definition, B is incorrect."
     },
     {
       "id": "7-10",
@@ -6436,7 +6436,7 @@ const QUESTIONS = {
         "Nitrogen oxides (NOx) and volatile organic compounds (VOCs)."
       ],
       "correct": 3,
-      "explanation": "Photochemical smog forms when NOx and VOCs, largely from vehicle exhaust and industrial emissions, react in sunlight. Oxygen and nitrogen gas are inert components of ordinary air; CO2 and methane are greenhouse gases involved in climate rather than smog chemistry; and SO2 and mercury are acid-rain- and toxin-related coal pollutants, not smog precursors."
+      "explanation": "Correct: (D) Nitrogen oxides (NOx) and volatile organic compounds (VOCs). Photochemical smog forms when NOx and VOCs, largely from vehicle exhaust and industrial emissions, react in sunlight. Oxygen and nitrogen gas are inert components of ordinary air; CO2 and methane are greenhouse gases involved in climate rather than smog chemistry; and SO2 and mercury are acid-rain- and toxin-related coal pollutants, not smog precursors."
     },
     {
       "id": "7-11",
@@ -6449,7 +6449,7 @@ const QUESTIONS = {
         "Complete darkness, with no light present at all."
       ],
       "correct": 2,
-      "explanation": "Sunlight supplies the energy for the NOx-VOC reaction that produces ground-level ozone and other smog components, which is why smog is worse on sunny days. Darkness (D) would halt this photochemical reaction rather than enable it, and high winds or freezing temperatures aren't required inputs for the reaction itself."
+      "explanation": "Correct: (C) Sunlight, which drives the NOx-VOC reaction. Sunlight supplies the energy for the NOx-VOC reaction that produces ground-level ozone and other smog components, which is why smog is worse on sunny days. Darkness (D) would halt this photochemical reaction rather than enable it, and high winds or freezing temperatures aren't required inputs for the reaction itself."
     },
     {
       "id": "7-12",
@@ -6462,7 +6462,7 @@ const QUESTIONS = {
         "Overcast days consistently have far higher vehicle traffic than sunny days."
       ],
       "correct": 1,
-      "explanation": "Because sunlight is a required input for the NOx-VOC reaction, the more intense sunlight of hot, sunny days drives smog formation more vigorously than the weaker light of overcast days. Sunlight is directly, not tangentially, related to smog (A); traffic differences (D) aren't the explanation for this sunlight-driven pattern; and smog formation depends on sunlight, not cold temperatures (C)."
+      "explanation": "Correct: (B) Sunlight drives the reaction, so more intense sunlight speeds it up. Because sunlight is a required input for the NOx-VOC reaction, the more intense sunlight of hot, sunny days drives smog formation more vigorously than the weaker light of overcast days. Sunlight is directly, not tangentially, related to smog (A); traffic differences (D) aren't the explanation for this sunlight-driven pattern; and smog formation depends on sunlight, not cold temperatures (C)."
     },
     {
       "id": "7-13",
@@ -6475,7 +6475,7 @@ const QUESTIONS = {
         "Los Angeles receives essentially no sunlight for most of the year."
       ],
       "correct": 0,
-      "explanation": "Los Angeles combines abundant sunshine (driving the photochemical reaction) with heavy vehicle traffic (supplying NOx and VOC precursors), historically producing severe smog. In reality Los Angeles is known for abundant sunshine, not its absence (D); it has notably heavy, not low, traffic (B); and smog formation is fundamentally tied to both factors, contradicting C."
+      "explanation": "Correct: (A) Abundant sunshine combined with heavy vehicle traffic favors smog formation. Los Angeles combines abundant sunshine (driving the photochemical reaction) with heavy vehicle traffic (supplying NOx and VOC precursors), historically producing severe smog. In reality Los Angeles is known for abundant sunshine, not its absence (D); it has notably heavy, not low, traffic (B); and smog formation is fundamentally tied to both factors, contradicting C."
     },
     {
       "id": "7-14",
@@ -6488,7 +6488,7 @@ const QUESTIONS = {
         "No -- ground-level ozone is harmful, while stratospheric ozone is protective."
       ],
       "correct": 3,
-      "explanation": "Ground-level and stratospheric ozone are chemically the same molecule (O3) but represent opposite concerns: ground-level ozone is a harmful smog component, while stratospheric ozone protects life by absorbing UV radiation -- so they are not identical concerns (B, C), and ground-level ozone is a real, measurable pollutant, not a myth (A)."
+      "explanation": "Correct: (D) No -- ground-level ozone is harmful, while stratospheric ozone is protective. Ground-level and stratospheric ozone are chemically the same molecule (O3) but represent opposite concerns: ground-level ozone is a harmful smog component, while stratospheric ozone protects life by absorbing UV radiation -- so they are not identical concerns (B, C), and ground-level ozone is a real, measurable pollutant, not a myth (A)."
     },
     {
       "id": "7-15",
@@ -6501,7 +6501,7 @@ const QUESTIONS = {
         "Smog levels would likely decrease, since fewer precursors remain to react."
       ],
       "correct": 3,
-      "explanation": "Since NOx and VOCs are the raw materials for the photochemical reaction that forms smog, cutting their emissions reduces the material available to react, so smog levels would be expected to decrease -- not increase (A) or stay unchanged (C). Emission controls are directly, not tangentially, related to smog levels (B)."
+      "explanation": "Correct: (D) Smog levels would likely decrease, since fewer precursors remain to react. Since NOx and VOCs are the raw materials for the photochemical reaction that forms smog, cutting their emissions reduces the material available to react, so smog levels would be expected to decrease -- not increase (A) or stay unchanged (C). Emission controls are directly, not tangentially, related to smog levels (B)."
     },
     {
       "id": "7-16",
@@ -6514,7 +6514,7 @@ const QUESTIONS = {
         "Stratospheric ozone, found in the upper atmosphere where it absorbs ultraviolet light."
       ],
       "correct": 2,
-      "explanation": "Ground-level ozone is the key harmful, secondary-pollutant component of photochemical smog, formed via the NOx-VOC reaction in sunlight. Nitrogen gas and water vapor are inert or benign atmospheric constituents unrelated to smog, and stratospheric ozone is a distinct, beneficial layer in the upper atmosphere rather than a smog component."
+      "explanation": "Correct: (C) Ground-level ozone, the smog component formed by reactions in sunlight. Ground-level ozone is the key harmful, secondary-pollutant component of photochemical smog, formed via the NOx-VOC reaction in sunlight. Nitrogen gas and water vapor are inert or benign atmospheric constituents unrelated to smog, and stratospheric ozone is a distinct, beneficial layer in the upper atmosphere rather than a smog component."
     },
     {
       "id": "7-17",
@@ -6553,7 +6553,7 @@ const QUESTIONS = {
         "Warm air sitting above cooler surface air, the reverse of the normal pattern."
       ],
       "correct": 3,
-      "explanation": "A thermal inversion is a layer of warm air sitting above cooler surface air -- the reverse of the troposphere's normal decreasing-with-altitude pattern. It is not another name for smog (A), which is a pollutant mixture, not a temperature structure; it occurs in the troposphere, not the stratosphere (C); and it is the reverse of, not identical to, the normal pattern (B)."
+      "explanation": "Correct: (D) Warm air sitting above cooler surface air, the reverse of the normal pattern. A thermal inversion is a layer of warm air sitting above cooler surface air -- the reverse of the troposphere's normal decreasing-with-altitude pattern. It is not another name for smog (A), which is a pollutant mixture, not a temperature structure; it occurs in the troposphere, not the stratosphere (C); and it is the reverse of, not identical to, the normal pattern (B)."
     },
     {
       "id": "7-20",
@@ -6566,7 +6566,7 @@ const QUESTIONS = {
         "Thermal inversions have no established relationship to pollutant dispersal."
       ],
       "correct": 0,
-      "explanation": "Because the warm air aloft is less dense than the cool surface air, it acts as a 'lid' that blocks the surface air -- and pollutants within it -- from rising and dispersing normally. Inversions are directly tied to dispersal (contradicting D); they aren't confined to nighttime pollution-free hours (C); and warm air is actually less dense, not denser, than cool air (B)."
+      "explanation": "Correct: (A) The less-dense warm air above acts like a 'lid' over the cooler surface air below. Because the warm air aloft is less dense than the cool surface air, it acts as a 'lid' that blocks the surface air -- and pollutants within it -- from rising and dispersing normally. Inversions are directly tied to dispersal (contradicting D); they aren't confined to nighttime pollution-free hours (C); and warm air is actually less dense, not denser, than cool air (B)."
     },
     {
       "id": "7-21",
@@ -6579,7 +6579,7 @@ const QUESTIONS = {
         "Temperature increases steadily with altitude."
       ],
       "correct": 1,
-      "explanation": "Under normal conditions, tropospheric temperature decreases with altitude (as covered in Unit 4) -- a thermal inversion specifically reverses this by placing warm air above cool air. Temperature change is not random (A) or constant (C), and it decreases rather than increases with altitude under normal conditions (D), which is exactly why an inversion (where it increases) is notable."
+      "explanation": "Correct: (B) Temperature decreases with altitude under normal tropospheric conditions. Under normal conditions, tropospheric temperature decreases with altitude (as covered in Unit 4) -- a thermal inversion specifically reverses this by placing warm air above cool air. Temperature change is not random (A) or constant (C), and it decreases rather than increases with altitude under normal conditions (D), which is exactly why an inversion (where it increases) is notable."
     },
     {
       "id": "7-22",
@@ -6592,7 +6592,7 @@ const QUESTIONS = {
         "Valleys never experience thermal inversions under any conditions."
       ],
       "correct": 1,
-      "explanation": "Surrounding mountains can physically block the horizontal dispersal of cool, pollutant-laden surface air, compounding the inversion's vertical trapping and worsening air quality. Valleys are actually especially prone to inversions, not immune (D); mountains clearly do affect air quality in this scenario (C); and they compound rather than eliminate inversions (A)."
+      "explanation": "Correct: (B) Mountains can trap pollutant-laden air horizontally, compounding the effect. Surrounding mountains can physically block the horizontal dispersal of cool, pollutant-laden surface air, compounding the inversion's vertical trapping and worsening air quality. Valleys are actually especially prone to inversions, not immune (D); mountains clearly do affect air quality in this scenario (C); and they compound rather than eliminate inversions (A)."
     },
     {
       "id": "7-23",
@@ -6605,7 +6605,7 @@ const QUESTIONS = {
         "Pollution concentration would remain completely unaffected by the inversion."
       ],
       "correct": 1,
-      "explanation": "Since the inversion blocks the normal dispersal mechanism, pollutants continue accumulating with nowhere to disperse, so concentration would be expected to build up over the multi-day event -- not stay unaffected (D) or decrease (A). The scenario is a direct, textbook application of inversion effects, contradicting C."
+      "explanation": "Correct: (B) Pollution would likely build up and increase, since dispersal is blocked. Since the inversion blocks the normal dispersal mechanism, pollutants continue accumulating with nowhere to disperse, so concentration would be expected to build up over the multi-day event -- not stay unaffected (D) or decrease (A). The scenario is a direct, textbook application of inversion effects, contradicting C."
     },
     {
       "id": "7-24",
@@ -6618,7 +6618,7 @@ const QUESTIONS = {
         "A city on flat, open terrain with strong regional winds."
       ],
       "correct": 0,
-      "explanation": "A mountain-valley city with limited wind is most vulnerable, since the surrounding terrain compounds the inversion's vertical trapping by also blocking horizontal dispersal. Flat, open terrain with strong winds (D) would allow much better dispersal even during an inversion, so the two locations are not equally vulnerable (C), and location clearly does affect severity (B)."
+      "explanation": "Correct: (A) A city located in a mountain valley with limited regional wind. A mountain-valley city with limited wind is most vulnerable, since the surrounding terrain compounds the inversion's vertical trapping by also blocking horizontal dispersal. Flat, open terrain with strong winds (D) would allow much better dispersal even during an inversion, so the two locations are not equally vulnerable (C), and location clearly does affect severity (B)."
     },
     {
       "id": "7-25",
@@ -6631,7 +6631,7 @@ const QUESTIONS = {
         "It changes concentration by blocking dispersal, not creating pollution."
       ],
       "correct": 3,
-      "explanation": "A thermal inversion doesn't generate new pollution -- it changes the CONCENTRATION of existing pollution by blocking normal dispersal, letting already-emitted pollutants build up near the surface. It clearly does affect concentration (contradicting B); it affects both primary and secondary pollutants, not just secondary ones (C); and it traps rather than creates pollution (A)."
+      "explanation": "Correct: (D) It changes concentration by blocking dispersal, not creating pollution. A thermal inversion doesn't generate new pollution -- it changes the CONCENTRATION of existing pollution by blocking normal dispersal, letting already-emitted pollutants build up near the surface. It clearly does affect concentration (contradicting B); it affects both primary and secondary pollutants, not just secondary ones (C); and it traps rather than creates pollution (A)."
     },
     {
       "id": "7-26",
@@ -6644,7 +6644,7 @@ const QUESTIONS = {
         "Thermal inversions have no established relationship to weather conditions."
       ],
       "correct": 2,
-      "explanation": "Because inversions are driven by specific, temporary weather setups (like calm, clear nights), they break down once conditions change -- such as increased wind or daytime solar heating -- restoring the normal temperature pattern. They are weather-driven, not weather-independent (D); they occur far more often than once a century (B); and they end rather than persist permanently (A)."
+      "explanation": "Correct: (C) Temporary weather conditions drive them, and they end once conditions change. Because inversions are driven by specific, temporary weather setups (like calm, clear nights), they break down once conditions change -- such as increased wind or daytime solar heating -- restoring the normal temperature pattern. They are weather-driven, not weather-independent (D); they occur far more often than once a century (B); and they end rather than persist permanently (A)."
     },
     {
       "id": "7-27",
@@ -6657,7 +6657,7 @@ const QUESTIONS = {
         "Methane and nitrogen gas, common atmospheric constituents with no link to acidity."
       ],
       "correct": 2,
-      "explanation": "SO2 and NOx, primarily from fossil fuel combustion (especially coal), react with atmospheric water vapor to form sulfuric and nitric acid, which fall as acid rain. Ozone and argon, methane and nitrogen gas, and CO2/oxygen are all unrelated to this specific acid-forming chemistry, even though several are common atmospheric or combustion-related gases."
+      "explanation": "Correct: (C) Sulfur dioxide (SO2) and nitrogen oxides (NOx), from fossil fuel combustion. SO2 and NOx, primarily from fossil fuel combustion (especially coal), react with atmospheric water vapor to form sulfuric and nitric acid, which fall as acid rain. Ozone and argon, methane and nitrogen gas, and CO2/oxygen are all unrelated to this specific acid-forming chemistry, even though several are common atmospheric or combustion-related gases."
     },
     {
       "id": "7-28",
@@ -6683,7 +6683,7 @@ const QUESTIONS = {
         "No, because acid rain never actually registers a pH below 7."
       ],
       "correct": 2,
-      "explanation": "Since normal rain is naturally slightly acidic (~pH 5.6) due to dissolved CO2, 'acid rain' specifically means precipitation significantly more acidic than that baseline -- not simply any pH under the neutral value of 7 (A). Acid rain does register well below pH 7 (contradicting D), and the classification isn't season-dependent (B)."
+      "explanation": "Correct: (C) No -- unpolluted rain is already naturally slightly acidic. Since normal rain is naturally slightly acidic (~pH 5.6) due to dissolved CO2, 'acid rain' specifically means precipitation significantly more acidic than that baseline -- not simply any pH under the neutral value of 7 (A). Acid rain does register well below pH 7 (contradicting D), and the classification isn't season-dependent (B)."
     },
     {
       "id": "7-30",
@@ -6709,7 +6709,7 @@ const QUESTIONS = {
         "The population would be unaffected, since fish have no meaningful pH tolerance range."
       ],
       "correct": 0,
-      "explanation": "A species with a narrow pH tolerance range has little buffer against environmental change -- a moderate pH shift from acid rain could push conditions into a zone of physiological stress, causing decline, not growth (C) or no effect (D). This is a direct application of Unit 2's range-of-tolerance concept, not an unrelated scenario (B)."
+      "explanation": "Correct: (A) The population would likely decline, given its narrow tolerance range. A species with a narrow pH tolerance range has little buffer against environmental change -- a moderate pH shift from acid rain could push conditions into a zone of physiological stress, causing decline, not growth (C) or no effect (D). This is a direct application of Unit 2's range-of-tolerance concept, not an unrelated scenario (B)."
     },
     {
       "id": "7-32",
@@ -6722,7 +6722,7 @@ const QUESTIONS = {
         "Acid rain has no measurable effect on forest ecosystems."
       ],
       "correct": 1,
-      "explanation": "Acid rain causes documented forest damage through direct foliage damage and leaching of soil nutrients, weakening trees and leaving them more vulnerable to disease and pests. It does not boost growth (A), it does have measurable effects (contradicting D), and its impacts extend to terrestrial ecosystems, not just aquatic ones (C)."
+      "explanation": "Correct: (B) Direct foliage damage and soil nutrient leaching, weakening trees. Acid rain causes documented forest damage through direct foliage damage and leaching of soil nutrients, weakening trees and leaving them more vulnerable to disease and pests. It does not boost growth (A), it does have measurable effects (contradicting D), and its impacts extend to terrestrial ecosystems, not just aquatic ones (C)."
     },
     {
       "id": "7-33",
@@ -6735,7 +6735,7 @@ const QUESTIONS = {
         "Both natural gas and coal produce essentially identical SO2 emissions."
       ],
       "correct": 2,
-      "explanation": "Coal combustion is most strongly associated with significant SO2 emissions among fossil fuels, due to its comparatively high sulfur content -- directly connecting to Unit 6's coverage of coal's high pollutant output. Natural gas produces far less SO2 (contradicting A), the two fuels are not equivalent emitters (D), and coal's SO2 output is far from negligible (contradicting B)."
+      "explanation": "Correct: (C) Coal, due to its comparatively high sulfur content among fossil fuels. Coal combustion is most strongly associated with significant SO2 emissions among fossil fuels, due to its comparatively high sulfur content -- directly connecting to Unit 6's coverage of coal's high pollutant output. Natural gas produces far less SO2 (contradicting A), the two fuels are not equivalent emitters (D), and coal's SO2 output is far from negligible (contradicting B)."
     },
     {
       "id": "7-34",
@@ -6748,7 +6748,7 @@ const QUESTIONS = {
         "Acid rain changes water pH, and species vary in how much shift they can tolerate."
       ],
       "correct": 3,
-      "explanation": "Because acid rain's primary aquatic effect is changing water pH, and species have specific ranges of tolerance for pH just as for temperature, this connects directly to Unit 2's range of tolerance concept. Range of tolerance applies to multiple factors, not temperature alone (B); acid rain does affect aquatic species (contradicting C); and the connection is direct, not absent (A)."
+      "explanation": "Correct: (D) Acid rain changes water pH, and species vary in how much shift they can tolerate. Because acid rain's primary aquatic effect is changing water pH, and species have specific ranges of tolerance for pH just as for temperature, this connects directly to Unit 2's range of tolerance concept. Range of tolerance applies to multiple factors, not temperature alone (B); acid rain does affect aquatic species (contradicting C); and the connection is direct, not absent (A)."
     },
     {
       "id": "7-35",
@@ -6761,7 +6761,7 @@ const QUESTIONS = {
         "SO2 and NOx react with water vapor to form sulfuric and nitric acid."
       ],
       "correct": 3,
-      "explanation": "The precise chemistry is SO2 and NOx reacting with atmospheric water vapor to form sulfuric acid and nitric acid, which then fall as acid precipitation. CO2 and oxygen (B) aren't the acid-forming reactants here, the process is a specific chemical reaction, not an unexplained phenomenon (A), and ozone plays no role in this particular reaction (C)."
+      "explanation": "Correct: (D) SO2 and NOx react with water vapor to form sulfuric and nitric acid. The precise chemistry is SO2 and NOx reacting with atmospheric water vapor to form sulfuric acid and nitric acid, which then fall as acid precipitation. CO2 and oxygen (B) aren't the acid-forming reactants here, the process is a specific chemical reaction, not an unexplained phenomenon (A), and ozone plays no role in this particular reaction (C)."
     },
     {
       "id": "7-36",
@@ -6800,7 +6800,7 @@ const QUESTIONS = {
         "Poor ventilation has no established relationship to indoor pollutant concentration."
       ],
       "correct": 1,
-      "explanation": "Poor ventilation limits exchange with the much larger, constantly mixing volume of outdoor air, so pollutants accumulate and concentrate indoors -- this is why poorly ventilated spaces like basements are particular concerns. Ventilation clearly affects concentration (contradicting D); poor ventilation traps, rather than eliminates, pollutants (C); and pollutants are actually a bigger issue in poorly, not well, ventilated spaces (A)."
+      "explanation": "Correct: (B) Poor ventilation lets pollutants accumulate and concentrate indoors. Poor ventilation limits exchange with the much larger, constantly mixing volume of outdoor air, so pollutants accumulate and concentrate indoors -- this is why poorly ventilated spaces like basements are particular concerns. Ventilation clearly affects concentration (contradicting D); poor ventilation traps, rather than eliminates, pollutants (C); and pollutants are actually a bigger issue in poorly, not well, ventilated spaces (A)."
     },
     {
       "id": "7-39",
@@ -6813,7 +6813,7 @@ const QUESTIONS = {
         "No, outdoor air pollution is always the greater concern in every circumstance."
       ],
       "correct": 0,
-      "explanation": "Indoor air pollution, particularly from radon, can pose a genuinely significant health risk in some circumstances despite receiving considerably less regulatory attention than outdoor air quality -- so it is not always the lesser concern (D), it is a real phenomenon (contradicting C), and the risk comes from genuinely indoor sources, not an outdoor origin (B)."
+      "explanation": "Correct: (A) Yes -- indoor pollution, particularly radon, can pose a significant risk. Indoor air pollution, particularly from radon, can pose a genuinely significant health risk in some circumstances despite receiving considerably less regulatory attention than outdoor air quality -- so it is not always the lesser concern (D), it is a real phenomenon (contradicting C), and the risk comes from genuinely indoor sources, not an outdoor origin (B)."
     },
     {
       "id": "7-40",
@@ -6826,7 +6826,7 @@ const QUESTIONS = {
         "Radon, a naturally occurring radioactive gas that seeps up from soil and rock."
       ],
       "correct": 1,
-      "explanation": "Carbon monoxide, produced by faulty combustion appliances like a malfunctioning furnace, is especially dangerous because it is odorless, giving no natural warning even at fatal concentrations. VOCs, radon, and asbestos are all real indoor hazards, but none is specifically tied to faulty combustion appliances the way CO is."
+      "explanation": "Correct: (B) Carbon monoxide, produced by faulty combustion appliances. Carbon monoxide, produced by faulty combustion appliances like a malfunctioning furnace, is especially dangerous because it is odorless, giving no natural warning even at fatal concentrations. VOCs, radon, and asbestos are all real indoor hazards, but none is specifically tied to faulty combustion appliances the way CO is."
     },
     {
       "id": "7-41",
@@ -6839,7 +6839,7 @@ const QUESTIONS = {
         "Ground-level ozone, an outdoor secondary pollutant."
       ],
       "correct": 1,
-      "explanation": "Asbestos, a historically common building material, causes severe lung disease including mesothelioma when its fibers are disturbed and inhaled -- a significant concern in older buildings. Radon is a soil gas, not a building material; ground-level ozone is an outdoor pollutant; and carbon monoxide is a gas, not a fibrous material -- none matches the 'disturbed fibers' mechanism described."
+      "explanation": "Correct: (B) Asbestos, a historically common insulation and building material. Asbestos, a historically common building material, causes severe lung disease including mesothelioma when its fibers are disturbed and inhaled -- a significant concern in older buildings. Radon is a soil gas, not a building material; ground-level ozone is an outdoor pollutant; and carbon monoxide is a gas, not a fibrous material -- none matches the 'disturbed fibers' mechanism described."
     },
     {
       "id": "7-42",
@@ -6852,7 +6852,7 @@ const QUESTIONS = {
         "Radon still poses a genuine hazard, regardless of its natural origin."
       ],
       "correct": 3,
-      "explanation": "Radon's natural origin has no bearing on its hazard -- it's colorless, odorless, and accumulates in poorly ventilated indoor spaces regardless of source, posing a genuine lung cancer risk. Natural origin doesn't make a substance harmless (B), non-human sources can absolutely pose risks (contradicting C), and radon's risk is well-documented, not negligible (A)."
+      "explanation": "Correct: (D) Radon still poses a genuine hazard, regardless of its natural origin. Radon's natural origin has no bearing on its hazard -- it's colorless, odorless, and accumulates in poorly ventilated indoor spaces regardless of source, posing a genuine lung cancer risk. Natural origin doesn't make a substance harmless (B), non-human sources can absolutely pose risks (contradicting C), and radon's risk is well-documented, not negligible (A)."
     },
     {
       "id": "7-43",
@@ -6865,7 +6865,7 @@ const QUESTIONS = {
         "Ground-level ozone, an outdoor secondary pollutant."
       ],
       "correct": 1,
-      "explanation": "Radon is the colorless, odorless, radioactive gas requiring specific testing to detect, and basements are a common accumulation point due to proximity to soil/rock and often limited ventilation. Sulfur dioxide is an acid rain precursor rather than a basement-accumulating gas, asbestos is a fibrous material rather than a gas, and ground-level ozone is an outdoor pollutant, not one that seeps up from a basement."
+      "explanation": "Correct: (B) Radon, which requires a specific test kit to detect. Radon is the colorless, odorless, radioactive gas requiring specific testing to detect, and basements are a common accumulation point due to proximity to soil/rock and often limited ventilation. Sulfur dioxide is an acid rain precursor rather than a basement-accumulating gas, asbestos is a fibrous material rather than a gas, and ground-level ozone is an outdoor pollutant, not one that seeps up from a basement."
     },
     {
       "id": "7-44",
@@ -6891,7 +6891,7 @@ const QUESTIONS = {
         "The Clean Water Act, which governs surface water pollution, not air quality."
       ],
       "correct": 2,
-      "explanation": "The Clean Air Act is the primary U.S. federal law regulating air pollution, establishing air quality standards and regulating emissions from stationary and mobile sources. The Safe Drinking Water Act and Clean Water Act instead govern water quality, and the Endangered Species Act governs species protection -- none targets air pollution directly."
+      "explanation": "Correct: (C) The Clean Air Act, the principal U.S. federal law regulating air pollution. The Clean Air Act is the primary U.S. federal law regulating air pollution, establishing air quality standards and regulating emissions from stationary and mobile sources. The Safe Drinking Water Act and Clean Water Act instead govern water quality, and the Endangered Species Act governs species protection -- none targets air pollution directly."
     },
     {
       "id": "7-46",
@@ -6904,7 +6904,7 @@ const QUESTIONS = {
         "National Acid Rain Quality Standards, covering rainfall chemistry only."
       ],
       "correct": 1,
-      "explanation": "NAAQS stands for National Ambient Air Quality Standards, established under the Clean Air Act for criteria pollutants including SO2, NOx, CO, particulate matter, and ground-level ozone. The other expansions describe plausible-sounding but nonexistent programs -- NAAQS is not specific to acid rain, a North American survey, or automobiles alone."
+      "explanation": "Correct: (B) National Ambient Air Quality Standards, covering the criteria pollutants. NAAQS stands for National Ambient Air Quality Standards, established under the Clean Air Act for criteria pollutants including SO2, NOx, CO, particulate matter, and ground-level ozone. The other expansions describe plausible-sounding but nonexistent programs -- NAAQS is not specific to acid rain, a North American survey, or automobiles alone."
     },
     {
       "id": "7-47",
@@ -6930,7 +6930,7 @@ const QUESTIONS = {
         "A fixed tax applied equally to every SO2 source regardless of emission level."
       ],
       "correct": 0,
-      "explanation": "A cap-and-trade system for SO2 emissions set an overall emissions cap while letting individual sources trade allowances, reducing acid-rain-causing pollution cost-effectively. This is a market mechanism, not a coal ban (C), a flat tax (D), or an absence of regulation (B) -- all of which lack the trading flexibility that made this approach notably cost-effective."
+      "explanation": "Correct: (A) A cap-and-trade system for sulfur dioxide emissions. A cap-and-trade system for SO2 emissions set an overall emissions cap while letting individual sources trade allowances, reducing acid-rain-causing pollution cost-effectively. This is a market mechanism, not a coal ban (C), a flat tax (D), or an absence of regulation (B) -- all of which lack the trading flexibility that made this approach notably cost-effective."
     },
     {
       "id": "7-49",
@@ -6956,7 +6956,7 @@ const QUESTIONS = {
         "A catalytic converter, fitted to vehicle exhaust systems."
       ],
       "correct": 3,
-      "explanation": "A catalytic converter reduces NOx and other pollutant emissions from vehicle exhaust, connecting directly to this unit's photochemical smog content by cutting a key precursor. A cap-and-trade allowance is a market mechanism, not a device; a radon mitigation system addresses an unrelated indoor gas; and a scrubber targets power plant, not vehicle, emissions."
+      "explanation": "Correct: (D) A catalytic converter, fitted to vehicle exhaust systems. A catalytic converter reduces NOx and other pollutant emissions from vehicle exhaust, connecting directly to this unit's photochemical smog content by cutting a key precursor. A cap-and-trade allowance is a market mechanism, not a device; a radon mitigation system addresses an unrelated indoor gas; and a scrubber targets power plant, not vehicle, emissions."
     },
     {
       "id": "7-51",
@@ -6969,7 +6969,7 @@ const QUESTIONS = {
         "Catalytic converters only affect indoor air quality, not outdoor smog."
       ],
       "correct": 0,
-      "explanation": "Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting D); they reduce rather than increase NOx (contradicting C); and the connection is direct, not absent (B)."
+      "explanation": "Correct: (A) Catalytic converters cut NOx, a primary precursor of ozone/smog. Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting D); they reduce rather than increase NOx (contradicting C); and the connection is direct, not absent (B)."
     },
     {
       "id": "7-52",
@@ -6982,7 +6982,7 @@ const QUESTIONS = {
         "Yes, but only for pollutants found indoors, not outdoors."
       ],
       "correct": 1,
-      "explanation": "Effective control requires targeting specific pollutants with specific technologies at their specific sources -- scrubbers for SO2, catalytic converters for vehicle NOx/CO -- rather than one universal fix (contradicting C). This isn't limited to indoor pollutants (D), and multiple effective technologies clearly do exist (contradicting A)."
+      "explanation": "Correct: (B) No -- different pollutants generally require different technologies. Effective control requires targeting specific pollutants with specific technologies at their specific sources -- scrubbers for SO2, catalytic converters for vehicle NOx/CO -- rather than one universal fix (contradicting C). This isn't limited to indoor pollutants (D), and multiple effective technologies clearly do exist (contradicting A)."
     },
     {
       "id": "7-53",
@@ -7008,7 +7008,7 @@ const QUESTIONS = {
         "Different pollutants have no meaningful relationship to different sources or control needs."
       ],
       "correct": 0,
-      "explanation": "Because different pollutants (primary vs. secondary, and different specific primary pollutants) come from different sources and require different control technologies, a comprehensive strategy typically needs multiple targeted approaches working together -- not a single universal strategy (B, C), and pollutant source/control needs clearly do vary (contradicting D)."
+      "explanation": "Correct: (A) Different pollutants need different control technologies, requiring multiple approaches. Because different pollutants (primary vs. secondary, and different specific primary pollutants) come from different sources and require different control technologies, a comprehensive strategy typically needs multiple targeted approaches working together -- not a single universal strategy (B, C), and pollutant source/control needs clearly do vary (contradicting D)."
     },
     {
       "id": "7-55",
@@ -7021,7 +7021,7 @@ const QUESTIONS = {
         "It sets air quality standards and regulates emission sources broadly."
       ],
       "correct": 3,
-      "explanation": "The Clean Air Act establishes NAAQS for criteria pollutants, regulates both stationary and mobile emission sources, and has used market-based mechanisms like cap-and-trade -- a comprehensive framework. It does address vehicle emissions (contradicting B), it targets outdoor air quality broadly (contradicting C), and it covers multiple pollutants, not just one (contradicting A)."
+      "explanation": "Correct: (D) It sets air quality standards and regulates emission sources broadly. The Clean Air Act establishes NAAQS for criteria pollutants, regulates both stationary and mobile emission sources, and has used market-based mechanisms like cap-and-trade -- a comprehensive framework. It does address vehicle emissions (contradicting B), it targets outdoor air quality broadly (contradicting C), and it covers multiple pollutants, not just one (contradicting A)."
     },
     {
       "id": "7-56",
@@ -7034,7 +7034,7 @@ const QUESTIONS = {
         "Ozone concentrations are entirely unrelated to NOx and VOC emission levels."
       ],
       "correct": 2,
-      "explanation": "This tests recognition that secondary pollutant formation is often nonlinear: ground-level ozone depends on the specific ratio and interaction between NOx and VOC concentrations, not simply their combined total, so cutting both by the same percentage doesn't guarantee a proportional ozone cut -- the underlying chemistry can respond disproportionately depending on which precursor is more limiting. This contradicts the assumption that precursor cuts translate one-to-one into pollutant cuts (B), the clear dependence of ozone on these precursors (D), and the assumption that only measurement error could explain the pattern (A) -- a more sophisticated application of the primary/secondary relationship than the unit's core examples require."
+      "explanation": "Correct: (C) Ozone formation is nonlinear, depending on the NOx-to-VOC ratio, not just total cuts. This tests recognition that secondary pollutant formation is often nonlinear: ground-level ozone depends on the specific ratio and interaction between NOx and VOC concentrations, not simply their combined total, so cutting both by the same percentage doesn't guarantee a proportional ozone cut -- the underlying chemistry can respond disproportionately depending on which precursor is more limiting. This contradicts the assumption that precursor cuts translate one-to-one into pollutant cuts (B), the clear dependence of ozone on these precursors (D), and the assumption that only measurement error could explain the pattern (A) -- a more sophisticated application of the primary/secondary relationship than the unit's core examples require."
     },
     {
       "id": "7-57",
@@ -7047,7 +7047,7 @@ const QUESTIONS = {
         "Ground-level ozone, a secondary pollutant formed later from other exhaust gases."
       ],
       "correct": 2,
-      "explanation": "Nitrogen oxides and particulate matter emitted directly from the truck's exhaust are primary pollutants, coming straight from an identifiable source. Ozone and PAN, by contrast, are secondary pollutants that form later through atmospheric reactions, and since NOx and PM do qualify, 'none of these' is incorrect."
+      "explanation": "Correct: (C) Nitrogen oxides and particulate matter, both released directly from the tailpipe. Nitrogen oxides and particulate matter emitted directly from the truck's exhaust are primary pollutants, coming straight from an identifiable source. Ozone and PAN, by contrast, are secondary pollutants that form later through atmospheric reactions, and since NOx and PM do qualify, 'none of these' is incorrect."
     },
     {
       "id": "7-58",
@@ -7060,7 +7060,7 @@ const QUESTIONS = {
         "Setting a direct emissions limit on the secondary pollutant itself, measured at its 'source.'"
       ],
       "correct": 2,
-      "explanation": "Since a secondary pollutant has no single direct source, effective regulation targets its primary precursors instead, reducing the raw material available for the reaction that forms it. There is no direct 'source' of a secondary pollutant to regulate (D); secondary pollutants can be reduced through precursor control (contradicting A); and increasing, not decreasing, primary emissions would worsen the problem (contradicting B)."
+      "explanation": "Correct: (C) Setting emissions limits on the primary pollutant precursors that react to form it. Since a secondary pollutant has no single direct source, effective regulation targets its primary precursors instead, reducing the raw material available for the reaction that forms it. There is no direct 'source' of a secondary pollutant to regulate (D); secondary pollutants can be reduced through precursor control (contradicting A); and increasing, not decreasing, primary emissions would worsen the problem (contradicting B)."
     },
     {
       "id": "7-59",
@@ -7073,7 +7073,7 @@ const QUESTIONS = {
         "Photochemical smog cannot form without heavy vehicle traffic under any circumstances."
       ],
       "correct": 1,
-      "explanation": "Since smog requires both NOx and VOCs reacting in sunlight, and vehicle traffic (a common NOx source) is low here, the NOx is more likely coming from industrial or other non-vehicle sources -- illustrating that vehicles aren't the only possible NOx source. This contradicts the idea that heavy traffic is required (D) or that VOCs alone suffice without NOx (C); the scenario is realistic, not impossible (A)."
+      "explanation": "Correct: (B) The NOx driving this smog likely comes from industrial, non-vehicle sources. Since smog requires both NOx and VOCs reacting in sunlight, and vehicle traffic (a common NOx source) is low here, the NOx is more likely coming from industrial or other non-vehicle sources -- illustrating that vehicles aren't the only possible NOx source. This contradicts the idea that heavy traffic is required (D) or that VOCs alone suffice without NOx (C); the scenario is realistic, not impossible (A)."
     },
     {
       "id": "7-60",
@@ -7086,7 +7086,7 @@ const QUESTIONS = {
         "Spring, due to increased rainfall alone."
       ],
       "correct": 1,
-      "explanation": "Winter would generally have the lowest smog levels among the options, since weaker, less abundant sunlight provides less energy to drive the NOx-VOC reaction, even with unchanged emissions. Rainfall alone (D) isn't the key seasonal driver of smog chemistry, smog levels clearly do vary by season given sunlight differences (contradicting A), and summer (C) would actually have the highest, not lowest, smog levels."
+      "explanation": "Correct: (B) Winter, due to weaker and less abundant sunlight. Winter would generally have the lowest smog levels among the options, since weaker, less abundant sunlight provides less energy to drive the NOx-VOC reaction, even with unchanged emissions. Rainfall alone (D) isn't the key seasonal driver of smog chemistry, smog levels clearly do vary by season given sunlight differences (contradicting A), and summer (C) would actually have the highest, not lowest, smog levels."
     },
     {
       "id": "7-61",
@@ -7099,7 +7099,7 @@ const QUESTIONS = {
         "Thermal inversions form with equal likelihood under any weather condition."
       ],
       "correct": 1,
-      "explanation": "Clear skies and calm winds, especially overnight, let the ground radiate heat away efficiently, cooling surface air rapidly while air aloft stays comparatively warm -- a classic inversion setup. Heavy rain and strong winds (C) tend to mix the atmosphere and prevent inversions; inversions aren't limited to hot, humid conditions (A); and they don't occur with equal likelihood under every condition (D), since calm, clear weather specifically favors them."
+      "explanation": "Correct: (B) Clear skies and calm winds overnight allow rapid surface cooling. Clear skies and calm winds, especially overnight, let the ground radiate heat away efficiently, cooling surface air rapidly while air aloft stays comparatively warm -- a classic inversion setup. Heavy rain and strong winds (C) tend to mix the atmosphere and prevent inversions; inversions aren't limited to hot, humid conditions (A); and they don't occur with equal likelihood under every condition (D), since calm, clear weather specifically favors them."
     },
     {
       "id": "7-62",
@@ -7112,7 +7112,7 @@ const QUESTIONS = {
         "Thermal inversions end only after exactly 24 hours, regardless of conditions."
       ],
       "correct": 0,
-      "explanation": "An inversion typically ends when weather conditions change -- increased wind can mix the air layers, or daytime solar heating can warm the surface enough to eliminate the temperature layering, restoring normal circulation. Inversions do end (contradicting C); they end through natural weather changes, not human intervention (B); and their duration depends on conditions, not a fixed 24-hour clock (D)."
+      "explanation": "Correct: (A) A change in weather, like more wind or solar heating, ends the layering. An inversion typically ends when weather conditions change -- increased wind can mix the air layers, or daytime solar heating can warm the surface enough to eliminate the temperature layering, restoring normal circulation. Inversions do end (contradicting C); they end through natural weather changes, not human intervention (B); and their duration depends on conditions, not a fixed 24-hour clock (D)."
     },
     {
       "id": "7-63",
@@ -7125,7 +7125,7 @@ const QUESTIONS = {
         "Acid snow, fog, and the dry deposition of acidic particles onto surfaces."
       ],
       "correct": 3,
-      "explanation": "Acid deposition can occur not just as liquid rain but also as acid snow, acid fog, and dry deposition of acidic particles settling onto surfaces -- 'acid rain' is often shorthand for this broader category. It isn't limited to gas alone (A) or excluded from solid/gaseous forms (B), and liquid rain is not the only possible form (C)."
+      "explanation": "Correct: (D) Acid snow, fog, and the dry deposition of acidic particles onto surfaces. Acid deposition can occur not just as liquid rain but also as acid snow, acid fog, and dry deposition of acidic particles settling onto surfaces -- 'acid rain' is often shorthand for this broader category. It isn't limited to gas alone (A) or excluded from solid/gaseous forms (B), and liquid rain is not the only possible form (C)."
     },
     {
       "id": "7-64",
@@ -7138,7 +7138,7 @@ const QUESTIONS = {
         "Older homes are always legally required to have asbestos removed before any sale."
       ],
       "correct": 2,
-      "explanation": "Because asbestos was a commonly used building material before its serious health risks were fully recognized and regulated, older homes are more likely to contain it in materials like insulation or flooring. Removal isn't always legally mandated before sale (D), asbestos risk clearly does relate to building age (contradicting B), and it is older, not newer, construction that is more likely to contain it (contradicting A)."
+      "explanation": "Correct: (C) Asbestos was commonly used before its risks were fully recognized. Because asbestos was a commonly used building material before its serious health risks were fully recognized and regulated, older homes are more likely to contain it in materials like insulation or flooring. Removal isn't always legally mandated before sale (D), asbestos risk clearly does relate to building age (contradicting B), and it is older, not newer, construction that is more likely to contain it (contradicting A)."
     },
     {
       "id": "7-65",
@@ -7151,7 +7151,7 @@ const QUESTIONS = {
         "A scrubber (technology-based) versus a cap-and-trade system (market-based)."
       ],
       "correct": 3,
-      "explanation": "A scrubber is technology-based -- a device directly removing a pollutant at its source -- while cap-and-trade is market-based, using tradeable allowances within an emissions cap to create economic incentives rather than mandating a specific device. The two approaches are meaningfully distinct (contradicting B); a catalytic converter is itself technology-based, not market-based (contradicting A); and the Clean Air Act has in fact used both approaches (contradicting C)."
+      "explanation": "Correct: (D) A scrubber (technology-based) versus a cap-and-trade system (market-based). A scrubber is technology-based -- a device directly removing a pollutant at its source -- while cap-and-trade is market-based, using tradeable allowances within an emissions cap to create economic incentives rather than mandating a specific device. The two approaches are meaningfully distinct (contradicting B); a catalytic converter is itself technology-based, not market-based (contradicting A); and the Clean Air Act has in fact used both approaches (contradicting C)."
     },
     {
       "id": "7-66",
@@ -7164,7 +7164,7 @@ const QUESTIONS = {
         "Increased lung capacity and reduced cardiovascular risk over time."
       ],
       "correct": 1,
-      "explanation": "Chronic high noise exposure is linked to hearing loss, elevated stress hormones, sleep disruption, and cardiovascular effects -- real physiological harm, not improved sleep or lung function (A, D). Noise is recognized as a genuine pollutant with measurable health effects, contradicting C, even though it doesn't linger in the environment like a chemical pollutant does."
+      "explanation": "Correct: (B) Hearing loss, elevated stress hormones, sleep disruption, and heart effects. Chronic high noise exposure is linked to hearing loss, elevated stress hormones, sleep disruption, and cardiovascular effects -- real physiological harm, not improved sleep or lung function (A, D). Noise is recognized as a genuine pollutant with measurable health effects, contradicting C, even though it doesn't linger in the environment like a chemical pollutant does."
     },
     {
       "id": "7-67",
@@ -7177,7 +7177,7 @@ const QUESTIONS = {
         "Species with no reliance on sound for any behavior whatsoever."
       ],
       "correct": 1,
-      "explanation": "Species that depend on sound for communication, mating calls, and predator/prey detection -- such as many birds, marine mammals, and amphibians -- are especially vulnerable to noise pollution masking these behaviors. Species with no sound reliance (D) wouldn't be affected this way, underground species (C) aren't uniquely implicated, and plants (A) don't rely on sound-based behavior at all."
+      "explanation": "Correct: (B) Species that rely heavily on sound, such as birds and marine mammals. Species that depend on sound for communication, mating calls, and predator/prey detection -- such as many birds, marine mammals, and amphibians -- are especially vulnerable to noise pollution masking these behaviors. Species with no sound reliance (D) wouldn't be affected this way, underground species (C) aren't uniquely implicated, and plants (A) don't rely on sound-based behavior at all."
     },
     {
       "id": "7-68",
@@ -7190,7 +7190,7 @@ const QUESTIONS = {
         "Increasing the number of highway lanes with no additional noise controls."
       ],
       "correct": 1,
-      "explanation": "Sound barriers along highways and stricter zoning that separates noise sources from residential areas are established, legitimate mitigation strategies. Removing speed limits (C) or adding lanes without noise controls (D) would likely worsen noise, and relocation (A) isn't the only option, since barriers and zoning can effectively mitigate impact without displacing residents."
+      "explanation": "Correct: (B) Installing sound barriers and using stricter noise zoning near housing. Sound barriers along highways and stricter zoning that separates noise sources from residential areas are established, legitimate mitigation strategies. Removing speed limits (C) or adding lanes without noise controls (D) would likely worsen noise, and relocation (A) isn't the only option, since barriers and zoning can effectively mitigate impact without displacing residents."
     }
   ],
   "8": [
@@ -7231,7 +7231,7 @@ const QUESTIONS = {
         "RCRA"
       ],
       "correct": 0,
-      "explanation": "The Clean Water Act is the primary U.S. law regulating pollutant discharges into water bodies, historically most effective against point sources. The Clean Air Act (C) governs atmospheric emissions, not water discharges. RCRA (D) governs hazardous solid waste management, not water pollutant discharge. The Endangered Species Act (B) protects threatened species and habitat, not pollution discharge generally."
+      "explanation": "Correct: (A) The Clean Water Act. The Clean Water Act is the primary U.S. law regulating pollutant discharges into water bodies, historically most effective against point sources. The Clean Air Act (C) governs atmospheric emissions, not water discharges. RCRA (D) governs hazardous solid waste management, not water pollutant discharge. The Endangered Species Act (B) protects threatened species and habitat, not pollution discharge generally."
     },
     {
       "id": "8-4",
@@ -7790,7 +7790,7 @@ const QUESTIONS = {
         "Monitoring is required only for landfills that accept hazardous waste, never ordinary municipal waste."
       ],
       "correct": 2,
-      "explanation": "Even a properly lined and closed landfill can potentially develop issues over time, such as liner degradation or unexpected leaks, so long-term monitoring helps detect and address any leachate escape before it causes significant groundwater contamination; waste continues decomposing and generating leachate for years after closure. Choice D incorrectly restricts this requirement to hazardous-waste landfills, when ordinary municipal landfills require monitoring too. Choice A is wrong; leachate production continues for years as buried waste keeps decomposing. Choice B directly contradicts standard landfill regulatory practice, which requires ongoing post-closure monitoring."
+      "explanation": "Correct: (C) Even a well-lined landfill can develop leaks over time, and monitoring catches leachate escape early. Even a properly lined and closed landfill can potentially develop issues over time, such as liner degradation or unexpected leaks, so long-term monitoring helps detect and address any leachate escape before it causes significant groundwater contamination; waste continues decomposing and generating leachate for years after closure. Choice D incorrectly restricts this requirement to hazardous-waste landfills, when ordinary municipal landfills require monitoring too. Choice A is wrong; leachate production continues for years as buried waste keeps decomposing. Choice B directly contradicts standard landfill regulatory practice, which requires ongoing post-closure monitoring."
     },
     {
       "id": "8-47",
@@ -8037,7 +8037,7 @@ const QUESTIONS = {
         "LD50 only measures acute toxicity; Chemical Y's high LD50 masks its endocrine-disrupting risk at far lower doses."
       ],
       "correct": 3,
-      "explanation": "This question tests whether students can apply the Section 8.3/8.7 lesson that endocrine disruptors violate the typical dose-response assumption. LD50 measures only acute lethal toxicity from a single dose: Chemical Y's much higher LD50 (5000 mg/kg) makes it look far safer than Chemical X (LD50 50 mg/kg) by that single measure alone, but Chemical Y's endocrine-disrupting effects occur at concentrations 1000 times below its own LD50, so realistic environmental exposure could cause significant reproductive harm from Chemical Y long before exposure ever approached acutely lethal levels. Choice A wrongly assumes lower LD50 always means more dangerous overall, ignoring Chemical Y's low-dose endocrine risk. Choice B overstates LD50's scope; it captures acute lethality only, not chronic or low-dose effects. Choice C incorrectly reverses the actual concern — endocrine-disrupting harm is precisely dangerous because it occurs well BELOW the LD50 threshold, not above it."
+      "explanation": "Correct: (D) LD50 only measures acute toxicity; Chemical Y's high LD50 masks its endocrine-disrupting risk at far lower doses. This question tests whether students can apply the Section 8.3/8.7 lesson that endocrine disruptors violate the typical dose-response assumption. LD50 measures only acute lethal toxicity from a single dose: Chemical Y's much higher LD50 (5000 mg/kg) makes it look far safer than Chemical X (LD50 50 mg/kg) by that single measure alone, but Chemical Y's endocrine-disrupting effects occur at concentrations 1000 times below its own LD50, so realistic environmental exposure could cause significant reproductive harm from Chemical Y long before exposure ever approached acutely lethal levels. Choice A wrongly assumes lower LD50 always means more dangerous overall, ignoring Chemical Y's low-dose endocrine risk. Choice B overstates LD50's scope; it captures acute lethality only, not chronic or low-dose effects. Choice C incorrectly reverses the actual concern — endocrine-disrupting harm is precisely dangerous because it occurs well BELOW the LD50 threshold, not above it."
     },
     {
       "id": "8-66",
@@ -8156,7 +8156,7 @@ const QUESTIONS = {
         "Each chlorine atom reacts with exactly one ozone molecule and then becomes chemically inert."
       ],
       "correct": 2,
-      "explanation": "Chlorine acts catalytically: it breaks down an ozone molecule but is regenerated in the reaction cycle rather than consumed, letting one atom destroy tens of thousands of ozone molecules over its atmospheric lifetime. The other choices wrongly assume the chlorine atom is used up or inert after a single reaction, or that it does not react with ozone at all."
+      "explanation": "Correct: (C) The chlorine atom acts as a catalyst, repeatedly destroying ozone without being consumed. Chlorine acts catalytically: it breaks down an ozone molecule but is regenerated in the reaction cycle rather than consumed, letting one atom destroy tens of thousands of ozone molecules over its atmospheric lifetime. The other choices wrongly assume the chlorine atom is used up or inert after a single reaction, or that it does not react with ozone at all."
     },
     {
       "id": "9-3",
@@ -8169,7 +8169,7 @@ const QUESTIONS = {
         "No meaningful change at all in surface UV exposure levels."
       ],
       "correct": 2,
-      "explanation": "A thinner ozone layer absorbs less UV radiation, so more reaches the surface, raising skin cancer and cataract risk in humans and harming UV-sensitive organisms like phytoplankton. The 'decreased' and 'no change' options reverse or ignore this relationship, and ground-level ozone pollution (Unit 7) is a separate phenomenon involving a different atmospheric layer."
+      "explanation": "Correct: (C) Increased UV radiation at the surface, raising skin cancer risk. A thinner ozone layer absorbs less UV radiation, so more reaches the surface, raising skin cancer and cataract risk in humans and harming UV-sensitive organisms like phytoplankton. The 'decreased' and 'no change' options reverse or ignore this relationship, and ground-level ozone pollution (Unit 7) is a separate phenomenon involving a different atmospheric layer."
     },
     {
       "id": "9-4",
@@ -8182,7 +8182,7 @@ const QUESTIONS = {
         "The Clean Air Act, a U.S. domestic law"
       ],
       "correct": 0,
-      "explanation": "The Montreal Protocol (1987) is the international agreement that phased out CFCs and other ozone-depleting substances, a required document for this course. The Clean Air Act is a U.S. domestic law, CITES regulates international species trade, and the Kyoto Protocol addresses greenhouse gases -- none of these target ozone-depleting substances."
+      "explanation": "Correct: (A) The Montreal Protocol. The Montreal Protocol (1987) is the international agreement that phased out CFCs and other ozone-depleting substances, a required document for this course. The Clean Air Act is a U.S. domestic law, CITES regulates international species trade, and the Kyoto Protocol addresses greenhouse gases -- none of these target ozone-depleting substances."
     },
     {
       "id": "9-5",
@@ -8195,7 +8195,7 @@ const QUESTIONS = {
         "It was never ratified by any country, so its effect cannot be assessed."
       ],
       "correct": 1,
-      "explanation": "The Montreal Protocol achieved near-universal ratification and measurably reduced ozone-depleting substances, with documented gradual ozone layer recovery, making it one of the most successful environmental treaties in history. The other choices are factually wrong: it was ratified nearly universally, its effects are well documented, and those effects were positive, not negligible."
+      "explanation": "Correct: (B) Widely considered one of the most successful environmental treaties in history. The Montreal Protocol achieved near-universal ratification and measurably reduced ozone-depleting substances, with documented gradual ozone layer recovery, making it one of the most successful environmental treaties in history. The other choices are factually wrong: it was ratified nearly universally, its effects are well documented, and those effects were positive, not negligible."
     },
     {
       "id": "9-6",
@@ -8208,7 +8208,7 @@ const QUESTIONS = {
         "Yes, these two terms describe an identical environmental concern in every respect."
       ],
       "correct": 2,
-      "explanation": "Ground-level ozone (Unit 7) and stratospheric ozone (this unit) involve the same O3 molecule but in opposite roles: too much ozone near the surface is a harmful pollutant, while too little ozone in the stratosphere removes a protective UV shield. They are not the same concern, ground-level ozone is a real and well-documented pollutant, and the distinction holds year-round, not seasonally."
+      "explanation": "Correct: (C) No -- they are opposite concerns involving the same molecule in different atmospheric layers. Ground-level ozone (Unit 7) and stratospheric ozone (this unit) involve the same O3 molecule but in opposite roles: too much ozone near the surface is a harmful pollutant, while too little ozone in the stratosphere removes a protective UV shield. They are not the same concern, ground-level ozone is a real and well-documented pollutant, and the distinction holds year-round, not seasonally."
     },
     {
       "id": "9-7",
@@ -8221,7 +8221,7 @@ const QUESTIONS = {
         "Another name for ground-level ozone pollution occurring over Antarctica."
       ],
       "correct": 1,
-      "explanation": "The Antarctic ozone hole is a seasonal, localized area of especially severe stratospheric ozone thinning -- a regional, seasonal intensification of the broader global depletion trend, not a separate phenomenon. It is not permanent or global, it involves stratospheric rather than ground-level ozone, and it occurs in the stratosphere, not the troposphere."
+      "explanation": "Correct: (B) A seasonal, localized area of especially severe ozone thinning over Antarctica. The Antarctic ozone hole is a seasonal, localized area of especially severe stratospheric ozone thinning -- a regional, seasonal intensification of the broader global depletion trend, not a separate phenomenon. It is not permanent or global, it involves stratospheric rather than ground-level ozone, and it occurs in the stratosphere, not the troposphere."
     },
     {
       "id": "9-8",
@@ -8234,7 +8234,7 @@ const QUESTIONS = {
         "Phytoplankton are broadly unaffected by any environmental or atmospheric change."
       ],
       "correct": 2,
-      "explanation": "Phytoplankton are UV-sensitive and form the base of many marine food webs, so increased UV exposure from ozone depletion can harm them directly and cascade up through the food web (connecting to Unit 1's trophic level content). The other choices incorrectly claim phytoplankton are unaffected by UV or environmental change, or that they are freshwater-only, when they are in fact marine, UV-sensitive, and ecologically foundational."
+      "explanation": "Correct: (C) As UV-sensitive base organisms of marine food webs, they are harmed by more UV exposure. Phytoplankton are UV-sensitive and form the base of many marine food webs, so increased UV exposure from ozone depletion can harm them directly and cascade up through the food web (connecting to Unit 1's trophic level content). The other choices incorrectly claim phytoplankton are unaffected by UV or environmental change, or that they are freshwater-only, when they are in fact marine, UV-sensitive, and ecologically foundational."
     },
     {
       "id": "9-9",
@@ -8247,7 +8247,7 @@ const QUESTIONS = {
         "The Montreal Protocol intentionally increased CFC production to test recovery."
       ],
       "correct": 1,
-      "explanation": "The Montreal Protocol's phase-out of CFC production directly reduced ozone-depleting substances in the atmosphere, and the ozone layer is documented to be gradually recovering as a result. It did not increase CFC production, its effects are measurable rather than negligible, and it targeted ozone-depleting substances specifically, not greenhouse gases (that is the Kyoto Protocol's role)."
+      "explanation": "Correct: (B) The Montreal Protocol's CFC phase-out led to a gradually recovering ozone layer. The Montreal Protocol's phase-out of CFC production directly reduced ozone-depleting substances in the atmosphere, and the ozone layer is documented to be gradually recovering as a result. It did not increase CFC production, its effects are measurable rather than negligible, and it targeted ozone-depleting substances specifically, not greenhouse gases (that is the Kyoto Protocol's role)."
     },
     {
       "id": "9-10",
@@ -8260,7 +8260,7 @@ const QUESTIONS = {
         "A process caused entirely by human industrial activity, with no natural component."
       ],
       "correct": 1,
-      "explanation": "The natural greenhouse effect is a naturally occurring atmospheric process in which certain gases absorb and re-radiate infrared (heat) energy, warming Earth's surface and making it habitable. It is not human-caused, it is beneficial rather than harmful (it predates humans and sustains life), and it is unrelated to ozone depletion, which involves UV absorption, not heat trapping."
+      "explanation": "Correct: (B) A natural process where gases absorb and re-radiate infrared energy, warming the surface. The natural greenhouse effect is a naturally occurring atmospheric process in which certain gases absorb and re-radiate infrared (heat) energy, warming Earth's surface and making it habitable. It is not human-caused, it is beneficial rather than harmful (it predates humans and sustains life), and it is unrelated to ozone depletion, which involves UV absorption, not heat trapping."
     },
     {
       "id": "9-11",
@@ -8273,7 +8273,7 @@ const QUESTIONS = {
         "Another name for the natural greenhouse effect, with no meaningful distinction."
       ],
       "correct": 1,
-      "explanation": "The enhanced (anthropogenic) greenhouse effect is human activity, especially fossil fuel combustion, adding greenhouse gases beyond the natural baseline, intensifying warming beyond historical norms. It is human-driven rather than purely natural, it is genuinely distinct from the natural greenhouse effect (not a synonym), and it is fundamentally about greenhouse gases, not unrelated to them."
+      "explanation": "Correct: (B) Human fossil fuel combustion adding extra greenhouse gases, intensifying the effect. The enhanced (anthropogenic) greenhouse effect is human activity, especially fossil fuel combustion, adding greenhouse gases beyond the natural baseline, intensifying warming beyond historical norms. It is human-driven rather than purely natural, it is genuinely distinct from the natural greenhouse effect (not a synonym), and it is fundamentally about greenhouse gases, not unrelated to them."
     },
     {
       "id": "9-12",
@@ -8286,7 +8286,7 @@ const QUESTIONS = {
         "No -- the natural greenhouse effect is essential to habitability."
       ],
       "correct": 3,
-      "explanation": "The natural greenhouse effect is essential to life on Earth, keeping the surface warm enough to be habitable; the environmental concern is specifically the ENHANCED, human-caused intensification of this process, not the natural process itself. It has a strong scientific basis, it does provide a major benefit (habitability), and eliminating it entirely would make Earth uninhabitably cold, not solve any problem."
+      "explanation": "Correct: (D) No -- the natural greenhouse effect is essential to habitability. The natural greenhouse effect is essential to life on Earth, keeping the surface warm enough to be habitable; the environmental concern is specifically the ENHANCED, human-caused intensification of this process, not the natural process itself. It has a strong scientific basis, it does provide a major benefit (habitability), and eliminating it entirely would make Earth uninhabitably cold, not solve any problem."
     },
     {
       "id": "9-13",
@@ -8299,7 +8299,7 @@ const QUESTIONS = {
         "Nitrogen gas (N2), the most abundant atmospheric gas"
       ],
       "correct": 0,
-      "explanation": "Carbon dioxide is a major greenhouse gas, alongside methane, water vapor, and nitrous oxide. Nitrogen and oxygen make up most of the atmosphere by volume but are not significant greenhouse gases, and argon is an inert noble gas that does not absorb infrared radiation the way greenhouse gases do."
+      "explanation": "Correct: (A) Carbon dioxide (CO2). Carbon dioxide is a major greenhouse gas, alongside methane, water vapor, and nitrous oxide. Nitrogen and oxygen make up most of the atmosphere by volume but are not significant greenhouse gases, and argon is an inert noble gas that does not absorb infrared radiation the way greenhouse gases do."
     },
     {
       "id": "9-14",
@@ -8312,7 +8312,7 @@ const QUESTIONS = {
         "Composting organic waste in home gardens"
       ],
       "correct": 2,
-      "explanation": "Fossil fuel combustion is the human activity most significantly associated with the enhanced greenhouse effect, releasing CO2 that had been stored underground for millions of years back into active atmospheric circulation. Wind turbines and solar panels generate low-carbon electricity rather than driving emissions, and composting is a minor source compared to the scale of fossil fuel use."
+      "explanation": "Correct: (C) Fossil fuel combustion. Fossil fuel combustion is the human activity most significantly associated with the enhanced greenhouse effect, releasing CO2 that had been stored underground for millions of years back into active atmospheric circulation. Wind turbines and solar panels generate low-carbon electricity rather than driving emissions, and composting is a minor source compared to the scale of fossil fuel use."
     },
     {
       "id": "9-15",
@@ -8325,7 +8325,7 @@ const QUESTIONS = {
         "Direct reflection of all incoming sunlight straight back to space."
       ],
       "correct": 1,
-      "explanation": "Greenhouse gases warm Earth's surface by absorbing and re-radiating infrared (heat) energy that would otherwise escape to space, trapping heat within the atmosphere. This mechanism does not block all solar radiation, it is not energy-independent, and it does not simply reflect sunlight -- reflection describes albedo, a different process."
+      "explanation": "Correct: (B) Absorption and re-radiation of infrared (heat) energy. Greenhouse gases warm Earth's surface by absorbing and re-radiating infrared (heat) energy that would otherwise escape to space, trapping heat within the atmosphere. This mechanism does not block all solar radiation, it is not energy-independent, and it does not simply reflect sunlight -- reflection describes albedo, a different process."
     },
     {
       "id": "9-16",
@@ -8338,7 +8338,7 @@ const QUESTIONS = {
         "The greenhouse effect has no natural component and only exists because of humans."
       ],
       "correct": 0,
-      "explanation": "This is a common misconception worth directly correcting: the greenhouse effect is a natural process that predates human civilization and sustains life; the human-caused problem is specifically the enhanced, intensified version of it. The statement is therefore inaccurate as a whole, and narrowing it to methane alone does not fix the underlying error about the process being purely modern and human-made."
+      "explanation": "Correct: (A) Inaccurate -- the greenhouse effect is a natural process that predates humans. This is a common misconception worth directly correcting: the greenhouse effect is a natural process that predates human civilization and sustains life; the human-caused problem is specifically the enhanced, intensified version of it. The statement is therefore inaccurate as a whole, and narrowing it to methane alone does not fix the underlying error about the process being purely modern and human-made."
     },
     {
       "id": "9-17",
@@ -8351,7 +8351,7 @@ const QUESTIONS = {
         "Exactly identical to current average temperatures."
       ],
       "correct": 2,
-      "explanation": "Without any greenhouse effect, Earth's surface would be significantly colder than today, likely too cold to support most current life, underscoring why the natural greenhouse effect is essential rather than simply harmful. Temperature is directly tied to the greenhouse effect (not unrelated to it), removing it would cool the planet rather than warm it, and the result would differ sharply from current conditions, not match them."
+      "explanation": "Correct: (C) Significantly colder than current temperatures, likely too cold to support most current life. Without any greenhouse effect, Earth's surface would be significantly colder than today, likely too cold to support most current life, underscoring why the natural greenhouse effect is essential rather than simply harmful. Temperature is directly tied to the greenhouse effect (not unrelated to it), removing it would cool the planet rather than warm it, and the result would differ sharply from current conditions, not match them."
     },
     {
       "id": "9-18",
@@ -8364,7 +8364,7 @@ const QUESTIONS = {
         "Timing carries no relevance for distinguishing these two related concepts."
       ],
       "correct": 1,
-      "explanation": "The natural greenhouse effect has existed for the vast majority of Earth's history, long before humans, while the enhanced greenhouse effect refers specifically to the more recent intensification driven by human activity, especially since industrialization. Timing is in fact central to the distinction, the enhanced effect could not predate the natural one it intensifies, and the two clearly did not begin at the same moment."
+      "explanation": "Correct: (B) The natural effect has existed for most of Earth's history. The natural greenhouse effect has existed for the vast majority of Earth's history, long before humans, while the enhanced greenhouse effect refers specifically to the more recent intensification driven by human activity, especially since industrialization. Timing is in fact central to the distinction, the enhanced effect could not predate the natural one it intensifies, and the two clearly did not begin at the same moment."
     },
     {
       "id": "9-19",
@@ -8377,7 +8377,7 @@ const QUESTIONS = {
         "Trapped ancient air bubbles within ice cores preserve atmospheric samples."
       ],
       "correct": 3,
-      "explanation": "As snow accumulates into ice over time, it traps tiny air bubbles containing samples of the atmosphere from when each layer formed, letting scientists directly measure historical CO2 concentrations going back hundreds of thousands of years. Ice cores extend far beyond a ten-year window, they reveal atmospheric composition (not just precipitation), and CO2 measurement is one of their central, well-established uses."
+      "explanation": "Correct: (D) Trapped ancient air bubbles within ice cores preserve atmospheric samples. As snow accumulates into ice over time, it traps tiny air bubbles containing samples of the atmosphere from when each layer formed, letting scientists directly measure historical CO2 concentrations going back hundreds of thousands of years. Ice cores extend far beyond a ten-year window, they reveal atmospheric composition (not just precipitation), and CO2 measurement is one of their central, well-established uses."
     },
     {
       "id": "9-20",
@@ -8390,7 +8390,7 @@ const QUESTIONS = {
         "Since approximately 1750, at the start of the Industrial Revolution."
       ],
       "correct": 2,
-      "explanation": "Direct thermometer-based temperature records extending back to roughly 1880 show a clear overall warming trend, one of several independent lines of evidence for climate change. Widespread instrumental records do not extend as far back as 1750, they clearly do exist (contrary to that option), and they cover far more than just the last few years."
+      "explanation": "Correct: (C) Since approximately 1880. Direct thermometer-based temperature records extending back to roughly 1880 show a clear overall warming trend, one of several independent lines of evidence for climate change. Widespread instrumental records do not extend as far back as 1750, they clearly do exist (contrary to that option), and they cover far more than just the last few years."
     },
     {
       "id": "9-21",
@@ -8403,7 +8403,7 @@ const QUESTIONS = {
         "Shifts in the timing of species' seasonal behaviors."
       ],
       "correct": 3,
-      "explanation": "Phenological evidence refers specifically to shifts in the TIMING of seasonal biological events, such as earlier spring flowering or migration -- a distinct line of evidence from direct physical measurements. Temperature records, sea level measurements, and ice core data are all physical/chemical measurements rather than biological timing shifts, so they do not qualify as phenological evidence."
+      "explanation": "Correct: (D) Shifts in the timing of species' seasonal behaviors. Phenological evidence refers specifically to shifts in the TIMING of seasonal biological events, such as earlier spring flowering or migration -- a distinct line of evidence from direct physical measurements. Temperature records, sea level measurements, and ice core data are all physical/chemical measurements rather than biological timing shifts, so they do not qualify as phenological evidence."
     },
     {
       "id": "9-22",
@@ -8416,7 +8416,7 @@ const QUESTIONS = {
         "Because each line is measured through a different, independent method, unlikely to share the same error."
       ],
       "correct": 3,
-      "explanation": "Since ice cores, thermometer records, glacial retreat, sea level measurements, and species behavior shifts are measured through entirely independent methods, their convergence on the same warming conclusion is unlikely to result from a shared error or coincidence, which is exactly what gives scientists high confidence. The evidence lines actually agree rather than contradict, multiple evidence types are valid (not just ice cores), and a single source alone would leave more room for an alternative explanation."
+      "explanation": "Correct: (D) Because each line is measured through a different, independent method, unlikely to share the same error. Since ice cores, thermometer records, glacial retreat, sea level measurements, and species behavior shifts are measured through entirely independent methods, their convergence on the same warming conclusion is unlikely to result from a shared error or coincidence, which is exactly what gives scientists high confidence. The evidence lines actually agree rather than contradict, multiple evidence types are valid (not just ice cores), and a single source alone would leave more room for an alternative explanation."
     },
     {
       "id": "9-23",
@@ -8429,7 +8429,7 @@ const QUESTIONS = {
         "Explaining how multiple independent evidence types converge on the same conclusion."
       ],
       "correct": 1,
-      "explanation": "Naming only a single evidence type without elaboration is the weaker response, since this unit specifically rewards demonstrating awareness of multiple independent lines of evidence and how they converge, not citing just one data source. Describing methodology in detail, explaining convergence, and naming three lines with brief explanation all demonstrate the broader, stronger understanding this unit expects."
+      "explanation": "Correct: (B) Naming only a single evidence type without further elaboration or additional evidence types. Naming only a single evidence type without elaboration is the weaker response, since this unit specifically rewards demonstrating awareness of multiple independent lines of evidence and how they converge, not citing just one data source. Describing methodology in detail, explaining convergence, and naming three lines with brief explanation all demonstrate the broader, stronger understanding this unit expects."
     },
     {
       "id": "9-24",
@@ -8442,7 +8442,7 @@ const QUESTIONS = {
         "A single anecdotal report of one unusually warm day."
       ],
       "correct": 2,
-      "explanation": "Documented glacial and ice sheet retreat, tracked through repeated photography, satellite imagery, and direct measurement, is a physical, directly observable line of evidence distinct from temperature records or ice core data. A single anecdotal report and a hypothetical scenario are not systematic physical evidence, and since glacial retreat itself qualifies, the 'none of these' option is incorrect."
+      "explanation": "Correct: (C) Documented glacial and ice sheet retreat over recent decades. Documented glacial and ice sheet retreat, tracked through repeated photography, satellite imagery, and direct measurement, is a physical, directly observable line of evidence distinct from temperature records or ice core data. A single anecdotal report and a hypothetical scenario are not systematic physical evidence, and since glacial retreat itself qualifies, the 'none of these' option is incorrect."
     },
     {
       "id": "9-25",
@@ -8455,7 +8455,7 @@ const QUESTIONS = {
         "Isotope ratios can only reveal information about future climate, not the past."
       ],
       "correct": 1,
-      "explanation": "Certain isotope ratios within the ice itself allow scientists to reconstruct historical temperature, complementing the CO2 concentration data from trapped air bubbles and allowing direct comparison of past CO2 and temperature within the same core. Isotope ratios are not used for sea level measurement, they are clearly related to climate evidence, and they reconstruct past conditions rather than predicting the future."
+      "explanation": "Correct: (B) Certain isotope ratios within the ice reconstruct historical temperature. Certain isotope ratios within the ice itself allow scientists to reconstruct historical temperature, complementing the CO2 concentration data from trapped air bubbles and allowing direct comparison of past CO2 and temperature within the same core. Isotope ratios are not used for sea level measurement, they are clearly related to climate evidence, and they reconstruct past conditions rather than predicting the future."
     },
     {
       "id": "9-26",
@@ -8468,7 +8468,7 @@ const QUESTIONS = {
         "Single pieces of evidence are always more reliable than combined, multiple lines of evidence."
       ],
       "correct": 2,
-      "explanation": "A single piece of evidence could potentially be explained by measurement error, a localized anomaly, or an alternative explanation specific to that method; when independent methods all converge on the same conclusion, those narrower explanations are ruled out, strengthening confidence. This means multiple lines are more reliable, not less, there is a meaningful difference in reliability, and scientists routinely do rely on convergent multiple evidence in practice."
+      "explanation": "Correct: (C) A single piece of evidence could reflect measurement error or a method-specific anomaly. A single piece of evidence could potentially be explained by measurement error, a localized anomaly, or an alternative explanation specific to that method; when independent methods all converge on the same conclusion, those narrower explanations are ruled out, strengthening confidence. This means multiple lines are more reliable, not less, there is a meaningful difference in reliability, and scientists routinely do rely on convergent multiple evidence in practice."
     },
     {
       "id": "9-27",
@@ -8481,7 +8481,7 @@ const QUESTIONS = {
         "Climate change evidence rests entirely on a single, unverifiable data source."
       ],
       "correct": 0,
-      "explanation": "This section's core lesson is that confidence in observed climate change rests on the convergence of multiple independent lines of physical evidence, not a single source and not purely theoretical modeling. Evidence does exist and is extensive, it includes substantial physical observational data beyond models, and it draws on several independent sources rather than one unverifiable one."
+      "explanation": "Correct: (A) Multiple independent lines of evidence, such as ice cores and temperature records, converge on the same conclusion. This section's core lesson is that confidence in observed climate change rests on the convergence of multiple independent lines of physical evidence, not a single source and not purely theoretical modeling. Evidence does exist and is extensive, it includes substantial physical observational data beyond models, and it draws on several independent sources rather than one unverifiable one."
     },
     {
       "id": "9-28",
@@ -8494,7 +8494,7 @@ const QUESTIONS = {
         "Volcanic activity and plate tectonic shifts along mid-ocean ridges."
       ],
       "correct": 1,
-      "explanation": "Sea level rise is driven primarily by thermal expansion (warming water expanding in volume) and melting land-based ice (which adds genuinely new water to the ocean). Melting sea ice does not add new water since it is already floating and displaces its own mass, and volcanic activity, salinity changes, and wind speed are not primary drivers of the observed trend."
+      "explanation": "Correct: (B) Thermal expansion of warming ocean water and melting land-based ice. Sea level rise is driven primarily by thermal expansion (warming water expanding in volume) and melting land-based ice (which adds genuinely new water to the ocean). Melting sea ice does not add new water since it is already floating and displaces its own mass, and volcanic activity, salinity changes, and wind speed are not primary drivers of the observed trend."
     },
     {
       "id": "9-29",
@@ -8507,7 +8507,7 @@ const QUESTIONS = {
         "Yes, melting sea ice is the primary driver of observed sea level rise around the world and its coasts."
       ],
       "correct": 2,
-      "explanation": "Melting sea ice does not significantly contribute to sea level rise, since floating ice already displaces a volume of water equal to its own mass -- similar to an ice cube melting in a full glass without causing an overflow. Sea ice does melt (that claim is false), it is not the primary driver (thermal expansion and land ice melt are), and this holds regardless of season."
+      "explanation": "Correct: (C) No -- floating sea ice already displaces its own mass of water, so melting it adds little to sea level. Melting sea ice does not significantly contribute to sea level rise, since floating ice already displaces a volume of water equal to its own mass -- similar to an ice cube melting in a full glass without causing an overflow. Sea ice does melt (that claim is false), it is not the primary driver (thermal expansion and land ice melt are), and this holds regardless of season."
     },
     {
       "id": "9-30",
@@ -8520,7 +8520,7 @@ const QUESTIONS = {
         "Yes, but its effect on sea level is identical to that of melting sea ice."
       ],
       "correct": 0,
-      "explanation": "Melting land-based ice, such as Greenland's ice sheet, does contribute to sea level rise because that ice was not already part of the ocean's water volume, so its melting adds genuinely new water. This is the reverse of sea ice's effect (not identical to it, and not something sea ice alone accounts for), and land ice clearly does have a relationship to sea level."
+      "explanation": "Correct: (A) Yes -- land ice is not already displacing ocean water. Melting land-based ice, such as Greenland's ice sheet, does contribute to sea level rise because that ice was not already part of the ocean's water volume, so its melting adds genuinely new water. This is the reverse of sea ice's effect (not identical to it, and not something sea ice alone accounts for), and land ice clearly does have a relationship to sea level."
     },
     {
       "id": "9-31",
@@ -8533,7 +8533,7 @@ const QUESTIONS = {
         "The physical shrinking of ice sheets and glaciers purely from heat exposure."
       ],
       "correct": 0,
-      "explanation": "Thermal expansion refers to water expanding slightly in volume as it warms, contributing to sea level rise even without any additional water volume being added, simply because existing water takes up more space when heated. It is distinct from ice sheet shrinking (which is melting, a separate mechanism), it is not a synonym for land ice melt, and it clearly does relate to sea level."
+      "explanation": "Correct: (A) Water expanding slightly in volume as it warms. Thermal expansion refers to water expanding slightly in volume as it warms, contributing to sea level rise even without any additional water volume being added, simply because existing water takes up more space when heated. It is distinct from ice sheet shrinking (which is melting, a separate mechanism), it is not a synonym for land ice melt, and it clearly does relate to sea level."
     },
     {
       "id": "9-32",
@@ -8546,7 +8546,7 @@ const QUESTIONS = {
         "Warmer ocean surface temperatures provide more energy to fuel storm intensification."
       ],
       "correct": 3,
-      "explanation": "Warmer ocean surface temperatures provide more energy available to fuel storm intensification, which is why a warming climate is generally associated with more intense hurricanes, even if total frequency does not necessarily rise uniformly. Warming does relate to hurricane strength, it tends to increase rather than reduce intensity, and hurricanes require warm, not cold, ocean water to form and strengthen."
+      "explanation": "Correct: (D) Warmer ocean surface temperatures provide more energy to fuel storm intensification. Warmer ocean surface temperatures provide more energy available to fuel storm intensification, which is why a warming climate is generally associated with more intense hurricanes, even if total frequency does not necessarily rise uniformly. Warming does relate to hurricane strength, it tends to increase rather than reduce intensity, and hurricanes require warm, not cold, ocean water to form and strengthen."
     },
     {
       "id": "9-33",
@@ -8559,7 +8559,7 @@ const QUESTIONS = {
         "This claim is accurate as stated."
       ],
       "correct": 2,
-      "explanation": "This is one of the most frequently tested misconceptions in this unit: melting sea ice does not significantly raise sea level, since it already displaces its own mass in ocean water; thermal expansion and melting land ice are the actual primary drivers. The claim is not accurate overall or regionally, and the unit's concepts (sea ice vs. land ice) directly address this scenario."
+      "explanation": "Correct: (C) Inaccurate -- floating sea ice already displaces its own mass in water. This is one of the most frequently tested misconceptions in this unit: melting sea ice does not significantly raise sea level, since it already displaces its own mass in ocean water; thermal expansion and melting land ice are the actual primary drivers. The claim is not accurate overall or regionally, and the unit's concepts (sea ice vs. land ice) directly address this scenario."
     },
     {
       "id": "9-34",
@@ -8572,7 +8572,7 @@ const QUESTIONS = {
         "Melting sea ice directly and immediately causes ocean acidification in the surrounding waters."
       ],
       "correct": 2,
-      "explanation": "While melting sea ice does not significantly raise sea level, it remains a genuine concern for other reasons: loss of habitat for ice-dependent species like polar bears, and reduced surface reflectivity (albedo) as white ice gives way to darker open water that absorbs more solar energy, potentially accelerating warming. It does not directly cause acidification (a separate CO2-driven process, Section 9.5), it does not meaningfully cool the region, and it is not concern-free."
+      "explanation": "Correct: (C) Loss of habitat for species like polar bears, and reduced albedo. While melting sea ice does not significantly raise sea level, it remains a genuine concern for other reasons: loss of habitat for ice-dependent species like polar bears, and reduced surface reflectivity (albedo) as white ice gives way to darker open water that absorbs more solar energy, potentially accelerating warming. It does not directly cause acidification (a separate CO2-driven process, Section 9.5), it does not meaningfully cool the region, and it is not concern-free."
     },
     {
       "id": "9-35",
@@ -8585,7 +8585,7 @@ const QUESTIONS = {
         "All regions experience identical precipitation shifts under a changing climate."
       ],
       "correct": 1,
-      "explanation": "Since agricultural planning (Unit 5) has historically depended on relatively stable, predictable seasonal precipitation, climate-driven shifts (more frequent droughts in some regions, heavier events in others) can significantly disrupt planting and harvest timing. Precipitation shifts clearly do affect agriculture, they vary regionally rather than uniformly, and they affect terrestrial systems directly, not just oceans."
+      "explanation": "Correct: (B) Agriculture depends on stable seasonal precipitation. Since agricultural planning (Unit 5) has historically depended on relatively stable, predictable seasonal precipitation, climate-driven shifts (more frequent droughts in some regions, heavier events in others) can significantly disrupt planting and harvest timing. Precipitation shifts clearly do affect agriculture, they vary regionally rather than uniformly, and they affect terrestrial systems directly, not just oceans."
     },
     {
       "id": "9-36",
@@ -8598,7 +8598,7 @@ const QUESTIONS = {
         "'Thermal expansion and melting land-based ice, not sea ice, drive sea level rise.'"
       ],
       "correct": 3,
-      "explanation": "The most precise, exam-rewarded description specifically distinguishes thermal expansion and melting LAND ice as the actual drivers, explicitly noting sea ice melting does not significantly contribute. A vague 'melting ice causes it' answer misses this distinction, 'only sea ice' reverses the correct mechanism entirely, and 'no identifiable cause' ignores well-established science."
+      "explanation": "Correct: (D) 'Thermal expansion and melting land-based ice, not sea ice, drive sea level rise.' The most precise, exam-rewarded description specifically distinguishes thermal expansion and melting LAND ice as the actual drivers, explicitly noting sea ice melting does not significantly contribute. A vague 'melting ice causes it' answer misses this distinction, 'only sea ice' reverses the correct mechanism entirely, and 'no identifiable cause' ignores well-established science."
     },
     {
       "id": "9-37",
@@ -8611,7 +8611,7 @@ const QUESTIONS = {
         "Sea ice loss has no relationship to any other climate process, so removing it changes nothing else in the model."
       ],
       "correct": 2,
-      "explanation": "This question tests whether students can distinguish a direct effect from an indirect pathway: while sea ice melting should not be directly counted as a sea-level-rise contributor, its loss still reduces albedo (more solar absorption), which can accelerate the regional warming that drives thermal expansion and land ice melt, the two mechanisms that DO matter directly. So sea ice loss is not irrelevant to the model (as choices B and D wrongly claim), and simply subtracting its direct contribution without accounting for this indirect pathway, as choice A assumes, could understate long-term risk rather than correctly reduce it."
+      "explanation": "Correct: (C) Sea ice loss reduces albedo, which can accelerate the warming that drives thermal expansion and land ice melt. This question tests whether students can distinguish a direct effect from an indirect pathway: while sea ice melting should not be directly counted as a sea-level-rise contributor, its loss still reduces albedo (more solar absorption), which can accelerate the regional warming that drives thermal expansion and land ice melt, the two mechanisms that DO matter directly. So sea ice loss is not irrelevant to the model (as choices B and D wrongly claim), and simply subtracting its direct contribution without accounting for this indirect pathway, as choice A assumes, could understate long-term risk rather than correctly reduce it."
     },
     {
       "id": "9-38",
@@ -8624,7 +8624,7 @@ const QUESTIONS = {
         "Ocean warming has no clearly established scientific cause or mechanism."
       ],
       "correct": 0,
-      "explanation": "Ocean warming results from oceans absorbing excess heat trapped in the atmosphere by the enhanced greenhouse effect -- a distinct mechanism from ocean acidification (CO2 absorption forming carbonic acid), even though both share the same root cause of rising atmospheric CO2. It has a well-established cause, and it is driven by rising, not decreasing, greenhouse gas concentrations."
+      "explanation": "Correct: (A) Oceans absorbing excess heat trapped by the enhanced greenhouse effect. Ocean warming results from oceans absorbing excess heat trapped in the atmosphere by the enhanced greenhouse effect -- a distinct mechanism from ocean acidification (CO2 absorption forming carbonic acid), even though both share the same root cause of rising atmospheric CO2. It has a well-established cause, and it is driven by rising, not decreasing, greenhouse gas concentrations."
     },
     {
       "id": "9-39",
@@ -8637,7 +8637,7 @@ const QUESTIONS = {
         "Oceans directly absorbing atmospheric CO2, forming carbonic acid that lowers pH."
       ],
       "correct": 3,
-      "explanation": "Ocean acidification results from oceans directly absorbing atmospheric CO2, which forms carbonic acid and lowers ocean pH, making it harder for calcifying organisms to build shells and skeletons. Dissolved oxygen decline and mid-ocean ridge volcanism are not the driving mechanism, and heat absorption describes ocean warming, a distinct process with a different mechanism."
+      "explanation": "Correct: (D) Oceans directly absorbing atmospheric CO2, forming carbonic acid that lowers pH. Ocean acidification results from oceans directly absorbing atmospheric CO2, which forms carbonic acid and lowers ocean pH, making it harder for calcifying organisms to build shells and skeletons. Dissolved oxygen decline and mid-ocean ridge volcanism are not the driving mechanism, and heat absorption describes ocean warming, a distinct process with a different mechanism."
     },
     {
       "id": "9-40",
@@ -8650,7 +8650,7 @@ const QUESTIONS = {
         "Coral turning white after expelling symbiotic algae due to unusually warm water -- caused by ocean WARMING."
       ],
       "correct": 3,
-      "explanation": "Coral bleaching occurs when unusually warm water causes coral to expel their symbiotic algae (zooxanthellae), which normally provide nutrients and color -- a WARMING effect, not an acidification effect. It is not caused by low pH, it can be reversible if stress subsides and the coral survives, and it is very much related to one of these two ocean processes (warming)."
+      "explanation": "Correct: (D) Coral turning white after expelling symbiotic algae due to unusually warm water -- caused by ocean WARMING. Coral bleaching occurs when unusually warm water causes coral to expel their symbiotic algae (zooxanthellae), which normally provide nutrients and color -- a WARMING effect, not an acidification effect. It is not caused by low pH, it can be reversible if stress subsides and the coral survives, and it is very much related to one of these two ocean processes (warming)."
     },
     {
       "id": "9-41",
@@ -8663,7 +8663,7 @@ const QUESTIONS = {
         "Ocean warming, through its effect on metabolic rates."
       ],
       "correct": 2,
-      "explanation": "Ocean acidification specifically impairs calcifying organisms, since lower pH makes it chemically harder to build and maintain calcium carbonate shells and skeletons -- a distinct mechanism from ocean warming's coral bleaching effect. Warming's primary direct effect is bleaching, not calcification; calcification is affected (not unaffected by either process); and the two processes act through different mechanisms, not an identical one."
+      "explanation": "Correct: (C) Ocean acidification. Ocean acidification specifically impairs calcifying organisms, since lower pH makes it chemically harder to build and maintain calcium carbonate shells and skeletons -- a distinct mechanism from ocean warming's coral bleaching effect. Warming's primary direct effect is bleaching, not calcification; calcification is affected (not unaffected by either process); and the two processes act through different mechanisms, not an identical one."
     },
     {
       "id": "9-42",
@@ -8676,7 +8676,7 @@ const QUESTIONS = {
         "No, ocean acidification is actually caused by declining atmospheric CO2 levels."
       ],
       "correct": 2,
-      "explanation": "Both ocean warming and acidification share the same underlying root cause, rising atmospheric CO2, but operate through different mechanisms: heat absorption and trapping for warming, versus direct CO2 chemical absorption and carbonic acid formation for acidification. Their causes are related, not unrelated; acidification is driven by rising (not declining) CO2; and this relationship applies to oceans specifically, not freshwater systems."
+      "explanation": "Correct: (C) Yes -- both are driven by rising atmospheric CO2. Both ocean warming and acidification share the same underlying root cause, rising atmospheric CO2, but operate through different mechanisms: heat absorption and trapping for warming, versus direct CO2 chemical absorption and carbonic acid formation for acidification. Their causes are related, not unrelated; acidification is driven by rising (not declining) CO2; and this relationship applies to oceans specifically, not freshwater systems."
     },
     {
       "id": "9-43",
@@ -8689,7 +8689,7 @@ const QUESTIONS = {
         "Both effects are caused exclusively by acidification, with warming playing no role in either."
       ],
       "correct": 1,
-      "explanation": "Bleaching is a warming-driven process (heat stress causing expulsion of symbiotic algae), while reduced calcification is an acidification-driven process (impaired shell/skeleton formation from lower pH) -- two distinct mechanisms affecting the same reef simultaneously. Swapping the causes, or attributing both effects to only one process, misassigns each effect to the wrong underlying mechanism."
+      "explanation": "Correct: (B) Bleaching is caused by warming; reduced calcification is caused by acidification. Bleaching is a warming-driven process (heat stress causing expulsion of symbiotic algae), while reduced calcification is an acidification-driven process (impaired shell/skeleton formation from lower pH) -- two distinct mechanisms affecting the same reef simultaneously. Swapping the causes, or attributing both effects to only one process, misassigns each effect to the wrong underlying mechanism."
     },
     {
       "id": "9-44",
@@ -8702,7 +8702,7 @@ const QUESTIONS = {
         "Ocean warming is not actually a real, scientifically documented phenomenon."
       ],
       "correct": 1,
-      "explanation": "While both processes share the same root cause (rising CO2), they involve different mechanisms -- atmospheric heat trapping and ocean heat absorption for warming, versus direct chemical CO2 dissolution and carbonic acid formation for acidification -- and cause different specific effects. Both processes are real and well-documented, and treating them as identical, rather than merely related, obscures this important mechanistic distinction."
+      "explanation": "Correct: (B) Despite sharing a root cause, they operate through different mechanisms and effects. While both processes share the same root cause (rising CO2), they involve different mechanisms -- atmospheric heat trapping and ocean heat absorption for warming, versus direct chemical CO2 dissolution and carbonic acid formation for acidification -- and cause different specific effects. Both processes are real and well-documented, and treating them as identical, rather than merely related, obscures this important mechanistic distinction."
     },
     {
       "id": "9-45",
@@ -8715,7 +8715,7 @@ const QUESTIONS = {
         "Only organisms living exclusively in freshwater environments, never marine ones."
       ],
       "correct": 2,
-      "explanation": "Calcifying organisms -- including corals, shellfish, and some plankton -- are most directly threatened by ocean acidification, since they rely on calcium carbonate, harder to form and maintain under lower pH, for their shells and skeletons. Shell-less organisms are not the ones acidification most directly threatens, calcification is a marine (not freshwater) concern here, and calcifying organisms are, by definition, in direct contact with ocean water."
+      "explanation": "Correct: (C) Calcifying organisms, including corals, shellfish, and some plankton. Calcifying organisms -- including corals, shellfish, and some plankton -- are most directly threatened by ocean acidification, since they rely on calcium carbonate, harder to form and maintain under lower pH, for their shells and skeletons. Shell-less organisms are not the ones acidification most directly threatens, calcification is a marine (not freshwater) concern here, and calcifying organisms are, by definition, in direct contact with ocean water."
     },
     {
       "id": "9-46",
@@ -8728,7 +8728,7 @@ const QUESTIONS = {
         "A description of coral bleaching resulting from unusually warm water."
       ],
       "correct": 2,
-      "explanation": "Since the question specifically asks about ACIDIFICATION, the directly relevant answer addresses impaired calcification from lower pH -- not bleaching (a warming effect), sea level rise (a thermal expansion/land ice effect), or hurricane intensity (also a warming effect), even though all of these can co-occur on the same reef."
+      "explanation": "Correct: (C) A description of impaired calcium carbonate shell/skeleton formation due to lower pH. Since the question specifically asks about ACIDIFICATION, the directly relevant answer addresses impaired calcification from lower pH -- not bleaching (a warming effect), sea level rise (a thermal expansion/land ice effect), or hurricane intensity (also a warming effect), even though all of these can co-occur on the same reef."
     },
     {
       "id": "9-47",
@@ -8741,7 +8741,7 @@ const QUESTIONS = {
         "Range shifts occur randomly, with no consistent directional pattern."
       ],
       "correct": 1,
-      "explanation": "Many species shift their range toward the poles and to higher elevations in a warming climate, tracking the environmental conditions within their range of tolerance as those conditions shift. Range shifts are directional, not random; species do commonly shift range; and the direction is toward the poles/higher elevation (cooler areas), not toward the equator or lower elevation."
+      "explanation": "Correct: (B) Toward the poles and to higher elevations. Many species shift their range toward the poles and to higher elevations in a warming climate, tracking the environmental conditions within their range of tolerance as those conditions shift. Range shifts are directional, not random; species do commonly shift range; and the direction is toward the poles/higher elevation (cooler areas), not toward the equator or lower elevation."
     },
     {
       "id": "9-48",
@@ -8754,7 +8754,7 @@ const QUESTIONS = {
         "A term with no established connection to climate change biology or to species interactions."
       ],
       "correct": 1,
-      "explanation": "A phenological mismatch occurs when the timing of a species' seasonal behaviors (migration, breeding, flowering) falls out of sync with the timing of food availability or a dependent species, since different species may respond to changing conditions at different rates. It is directly tied to climate change, it concerns TIMING rather than appearance, and it is a distinct concept from a range shift, which concerns WHERE a species lives, not when it acts."
+      "explanation": "Correct: (B) A mismatch between the timing of a species' seasonal behaviors and the timing of food availability. A phenological mismatch occurs when the timing of a species' seasonal behaviors (migration, breeding, flowering) falls out of sync with the timing of food availability or a dependent species, since different species may respond to changing conditions at different rates. It is directly tied to climate change, it concerns TIMING rather than appearance, and it is a distinct concept from a range shift, which concerns WHERE a species lives, not when it acts."
     },
     {
       "id": "9-49",
@@ -8767,7 +8767,7 @@ const QUESTIONS = {
         "Tolerance range has no established relationship to climate change vulnerability."
       ],
       "correct": 0,
-      "explanation": "A narrow range of environmental tolerance (Unit 2) predicts greater climate vulnerability, since even a modest climate shift can push conditions outside what a narrow-tolerance species can survive. A wide tolerance range instead provides a buffer, so it predicts lower vulnerability, and tolerance range clearly is relevant, even though other factors like genetic diversity can matter too."
+      "explanation": "Correct: (A) A narrow range of environmental tolerance. A narrow range of environmental tolerance (Unit 2) predicts greater climate vulnerability, since even a modest climate shift can push conditions outside what a narrow-tolerance species can survive. A wide tolerance range instead provides a buffer, so it predicts lower vulnerability, and tolerance range clearly is relevant, even though other factors like genetic diversity can matter too."
     },
     {
       "id": "9-50",
@@ -8780,7 +8780,7 @@ const QUESTIONS = {
         "Specialist/generalist status has no established relationship to climate vulnerability."
       ],
       "correct": 2,
-      "explanation": "Being a specialist (Unit 3), with a narrow diet or habitat requirement, predicts greater climate vulnerability, since a specialist has less flexibility to adjust to changing conditions than a generalist with a broader range of usable resources. A generalist's flexibility instead lowers vulnerability, and specialist/generalist status is a well-established predictor, even though reproductive strategy can be a relevant factor too."
+      "explanation": "Correct: (C) Being a specialist with a narrow diet or habitat requirement. Being a specialist (Unit 3), with a narrow diet or habitat requirement, predicts greater climate vulnerability, since a specialist has less flexibility to adjust to changing conditions than a generalist with a broader range of usable resources. A generalist's flexibility instead lowers vulnerability, and specialist/generalist status is a well-established predictor, even though reproductive strategy can be a relevant factor too."
     },
     {
       "id": "9-51",
@@ -8793,7 +8793,7 @@ const QUESTIONS = {
         "It would need to move to progressively higher elevation to track suitable conditions."
       ],
       "correct": 3,
-      "explanation": "A species confined to a mountaintop faces severe risk because, as temperatures rise, it would need to move to progressively higher elevation to track its tolerable range, but having nowhere higher to go, it risks local extinction as conditions shift beyond what it can survive. This is a genuine and well-documented elevated risk (not absent or generic), and mountaintop species are frequently specialists with narrow tolerance, not generalists."
+      "explanation": "Correct: (D) It would need to move to progressively higher elevation to track suitable conditions. A species confined to a mountaintop faces severe risk because, as temperatures rise, it would need to move to progressively higher elevation to track its tolerable range, but having nowhere higher to go, it risks local extinction as conditions shift beyond what it can survive. This is a genuine and well-documented elevated risk (not absent or generic), and mountaintop species are frequently specialists with narrow tolerance, not generalists."
     },
     {
       "id": "9-52",
@@ -8806,7 +8806,7 @@ const QUESTIONS = {
         "Climate change has no established relationship to invasive species dynamics in any region of the world's ecosystems."
       ],
       "correct": 2,
-      "explanation": "As climate conditions shift, newly favorable conditions in a region may be better exploited by a generalist or invasive species than by a narrowly adapted native specialist, potentially giving invasive species a competitive edge. Climate change does affect invasive species dynamics (contrary to two of the options), and it does not uniformly eliminate invasive species; it can just as easily favor them. Note: invasive species is introduced in Unit 5 (5.7) and revisited here in the context of climate change -- see Section 9.6 of the guide for the general mechanism (lack of natural predators/controls, rapid reproduction) independent of climate change."
+      "explanation": "Correct: (C) Changing conditions can create favorable conditions that an invasive generalist can exploit better than a specialist. As climate conditions shift, newly favorable conditions in a region may be better exploited by a generalist or invasive species than by a narrowly adapted native specialist, potentially giving invasive species a competitive edge. Climate change does affect invasive species dynamics (contrary to two of the options), and it does not uniformly eliminate invasive species; it can just as easily favor them. Note: invasive species is introduced in Unit 5 (5.7) and revisited here in the context of climate change -- see Section 9.6 of the guide for the general mechanism (lack of natural predators/controls, rapid reproduction) independent of climate change."
     },
     {
       "id": "9-53",
@@ -8819,7 +8819,7 @@ const QUESTIONS = {
         "Climate change has no established relationship to species vulnerability at all."
       ],
       "correct": 0,
-      "explanation": "Climate change vulnerability varies significantly based on specific species characteristics -- tolerance range width (Unit 2), specialist vs. generalist status (Unit 3), and migration ability (including barriers like habitat fragmentation, Unit 2's island biogeography) -- rather than being uniform. Vulnerability is not unrelated to climate change, it is not determined by body size alone, and it is clearly not identical across all species."
+      "explanation": "Correct: (A) Vulnerability varies based on characteristics like tolerance range width. Climate change vulnerability varies significantly based on specific species characteristics -- tolerance range width (Unit 2), specialist vs. generalist status (Unit 3), and migration ability (including barriers like habitat fragmentation, Unit 2's island biogeography) -- rather than being uniform. Vulnerability is not unrelated to climate change, it is not determined by body size alone, and it is clearly not identical across all species."
     },
     {
       "id": "9-54",
@@ -8832,7 +8832,7 @@ const QUESTIONS = {
         "A phenological mismatch between the bird and its food source."
       ],
       "correct": 3,
-      "explanation": "Since the two species use different environmental cues (day length vs. temperature) to time their seasonal behavior, a warming climate that shifts temperature-driven timing earlier, without necessarily shifting day-length-driven timing, can create a phenological mismatch, leaving the bird arriving after its food source's peak availability has passed. This scenario is a direct application of this section's core concept, the two species are not guaranteed to stay synchronized, and the bird's day-length cue does not automatically track the insect's temperature cue."
+      "explanation": "Correct: (D) A phenological mismatch between the bird and its food source. Since the two species use different environmental cues (day length vs. temperature) to time their seasonal behavior, a warming climate that shifts temperature-driven timing earlier, without necessarily shifting day-length-driven timing, can create a phenological mismatch, leaving the bird arriving after its food source's peak availability has passed. This scenario is a direct application of this section's core concept, the two species are not guaranteed to stay synchronized, and the bird's day-length cue does not automatically track the insect's temperature cue."
     },
     {
       "id": "9-55",
@@ -8845,7 +8845,7 @@ const QUESTIONS = {
         "A generalist species with a broad geographic range, wide environmental tolerance, and few migration barriers."
       ],
       "correct": 3,
-      "explanation": "The generalist species with broad tolerance, wide range, and few migration barriers would have the lowest climate vulnerability, since it has both a larger buffer against changing conditions and greater ability to shift its range if needed -- the opposite profile from the highly vulnerable, isolated mountaintop specialist. These two profiles are not equivalent, and this section's concepts (tolerance range, specialist/generalist status, migration ability) do allow this kind of vulnerability comparison."
+      "explanation": "Correct: (D) A generalist species with a broad geographic range, wide environmental tolerance, and few migration barriers. The generalist species with broad tolerance, wide range, and few migration barriers would have the lowest climate vulnerability, since it has both a larger buffer against changing conditions and greater ability to shift its range if needed -- the opposite profile from the highly vulnerable, isolated mountaintop specialist. These two profiles are not equivalent, and this section's concepts (tolerance range, specialist/generalist status, migration ability) do allow this kind of vulnerability comparison."
     },
     {
       "id": "9-56",
@@ -8858,7 +8858,7 @@ const QUESTIONS = {
         "An agreement regulating international trade in endangered species and their products, signed in 1973."
       ],
       "correct": 2,
-      "explanation": "The Kyoto Protocol (1997) was the first major international treaty to set binding greenhouse gas emission reduction targets, specifically for developed (industrialized) countries, a required document for this course. It is international rather than domestic, it addresses greenhouse gases rather than ozone (that is the Montreal Protocol's role), and it targets emissions rather than species trade (that is CITES's role)."
+      "explanation": "Correct: (C) The first major international treaty to set binding greenhouse gas reduction targets, for developed nations. The Kyoto Protocol (1997) was the first major international treaty to set binding greenhouse gas emission reduction targets, specifically for developed (industrialized) countries, a required document for this course. It is international rather than domestic, it addresses greenhouse gases rather than ozone (that is the Montreal Protocol's role), and it targets emissions rather than species trade (that is CITES's role)."
     },
     {
       "id": "9-57",
@@ -8871,7 +8871,7 @@ const QUESTIONS = {
         "Lesser challenges -- the Kyoto Protocol was in fact even more widely successful than the Montreal Protocol overall."
       ],
       "correct": 1,
-      "explanation": "The Kyoto Protocol faced greater challenges with participation and enforcement than the Montreal Protocol, illustrating that climate mitigation has generally proven a more complex international coordination challenge than ozone protection, given the broader range of economic sectors and countries involved. Both treaties did face real challenges (not none), Kyoto's difficulties were greater rather than lesser, and the two treaties' outcomes were meaningfully different, not identical."
+      "explanation": "Correct: (B) Greater challenges -- the Kyoto Protocol's binding targets faced more participation and enforcement difficulties. The Kyoto Protocol faced greater challenges with participation and enforcement than the Montreal Protocol, illustrating that climate mitigation has generally proven a more complex international coordination challenge than ozone protection, given the broader range of economic sectors and countries involved. Both treaties did face real challenges (not none), Kyoto's difficulties were greater rather than lesser, and the two treaties' outcomes were meaningfully different, not identical."
     },
     {
       "id": "9-58",
@@ -8884,7 +8884,7 @@ const QUESTIONS = {
         "Stratospheric ozone-depleting substances such as CFCs, halons, and other industrial chemicals."
       ],
       "correct": 2,
-      "explanation": "CITES (Convention on International Trade in Endangered Species) specifically regulates international trade in endangered species and their derived products, aiming to prevent trade from driving further population decline. Greenhouse gas emissions fall under the Kyoto Protocol, ozone-depleting substances fall under the Montreal Protocol, and domestic U.S. habitat protection falls under the Endangered Species Act."
+      "explanation": "Correct: (C) International trade in endangered species and products derived from them. CITES (Convention on International Trade in Endangered Species) specifically regulates international trade in endangered species and their derived products, aiming to prevent trade from driving further population decline. Greenhouse gas emissions fall under the Kyoto Protocol, ozone-depleting substances fall under the Montreal Protocol, and domestic U.S. habitat protection falls under the Endangered Species Act."
     },
     {
       "id": "9-59",
@@ -8897,7 +8897,7 @@ const QUESTIONS = {
         "Domestic (U.S.) legal protection for threatened and endangered species."
       ],
       "correct": 3,
-      "explanation": "The Endangered Species Act provides domestic (U.S.) legal protection for threatened and endangered species, including habitat protection provisions, a genuinely different mechanism from CITES's trade-focused international framework. International trade regulation is CITES's role, emission targets belong to the Kyoto Protocol, and the CFC phase-out belongs to the Montreal Protocol."
+      "explanation": "Correct: (D) Domestic (U.S.) legal protection for threatened and endangered species. The Endangered Species Act provides domestic (U.S.) legal protection for threatened and endangered species, including habitat protection provisions, a genuinely different mechanism from CITES's trade-focused international framework. International trade regulation is CITES's role, emission targets belong to the Kyoto Protocol, and the CFC phase-out belongs to the Montreal Protocol."
     },
     {
       "id": "9-60",
@@ -8910,7 +8910,7 @@ const QUESTIONS = {
         "CITES."
       ],
       "correct": 3,
-      "explanation": "CITES is most directly relevant to illegal international trade or trafficking of an endangered species, since it specifically regulates international trade in endangered species and their products. The Montreal Protocol concerns ozone-depleting substances, the Endangered Species Act is a domestic (not international-trade-focused) law, and the Kyoto Protocol concerns greenhouse gas emissions -- none address international trafficking directly."
+      "explanation": "Correct: (D) CITES. CITES is most directly relevant to illegal international trade or trafficking of an endangered species, since it specifically regulates international trade in endangered species and their products. The Montreal Protocol concerns ozone-depleting substances, the Endangered Species Act is a domestic (not international-trade-focused) law, and the Kyoto Protocol concerns greenhouse gas emissions -- none address international trafficking directly."
     },
     {
       "id": "9-61",
@@ -8923,7 +8923,7 @@ const QUESTIONS = {
         "The Kyoto Protocol, a greenhouse gas treaty."
       ],
       "correct": 1,
-      "explanation": "The Endangered Species Act is most directly relevant to domestic habitat loss within the United States, since it includes habitat protection provisions that CITES's trade-focused framework does not directly address. The Kyoto Protocol and Montreal Protocol address greenhouse gases and ozone-depleting substances respectively, not domestic habitat loss, and CITES governs international trade rather than in-country habitat protection."
+      "explanation": "Correct: (B) The Endangered Species Act. The Endangered Species Act is most directly relevant to domestic habitat loss within the United States, since it includes habitat protection provisions that CITES's trade-focused framework does not directly address. The Kyoto Protocol and Montreal Protocol address greenhouse gases and ozone-depleting substances respectively, not domestic habitat loss, and CITES governs international trade rather than in-country habitat protection."
     },
     {
       "id": "9-62",
@@ -8936,7 +8936,7 @@ const QUESTIONS = {
         "No, because only one of these two pieces of legislation actually exists in practice today."
       ],
       "correct": 2,
-      "explanation": "CITES and the Endangered Species Act are two distinct required pieces of legislation addressing biodiversity protection through genuinely different mechanisms -- CITES targets international trade specifically, while the Endangered Species Act provides broader domestic protection including habitat provisions. Both do exist as real, separate laws, and neither one addresses greenhouse gas emissions at all."
+      "explanation": "Correct: (C) No -- CITES regulates trade, while the Endangered Species Act provides broader domestic protection. CITES and the Endangered Species Act are two distinct required pieces of legislation addressing biodiversity protection through genuinely different mechanisms -- CITES targets international trade specifically, while the Endangered Species Act provides broader domestic protection including habitat provisions. Both do exist as real, separate laws, and neither one addresses greenhouse gas emissions at all."
     },
     {
       "id": "9-63",
@@ -8949,7 +8949,7 @@ const QUESTIONS = {
         "Different agreements address different problems with different economic stakes and participants."
       ],
       "correct": 3,
-      "explanation": "Different international agreements address genuinely different specific problems (CFCs vs. greenhouse gases, for instance) with different economic stakes and ranges of participating countries and industries -- the documented contrast between the Montreal Protocol's relative success and the Kyoto Protocol's greater challenges directly illustrates why a one-size-fits-all assumption is inaccurate. Agreements clearly have differed in effectiveness and are not identical, so treating the assumption as generally accurate is incorrect."
+      "explanation": "Correct: (D) Different agreements address different problems with different economic stakes and participants. Different international agreements address genuinely different specific problems (CFCs vs. greenhouse gases, for instance) with different economic stakes and ranges of participating countries and industries -- the documented contrast between the Montreal Protocol's relative success and the Kyoto Protocol's greater challenges directly illustrates why a one-size-fits-all assumption is inaccurate. Agreements clearly have differed in effectiveness and are not identical, so treating the assumption as generally accurate is incorrect."
     },
     {
       "id": "9-64",
@@ -8975,7 +8975,7 @@ const QUESTIONS = {
         "None of this course's required legislation has any relevance to this multi-threat scenario."
       ],
       "correct": 1,
-      "explanation": "This question requires synthesizing across multiple required documents rather than treating any one as complete: CITES targets the international trade threat, the Endangered Species Act targets the domestic habitat threat, but the climate-driven range-shift threat operates through global greenhouse gas emissions pushing the species' tolerance zone to shift faster than it can track, a pathway that connects instead to the Kyoto Protocol's mitigation framework. Neither the Endangered Species Act nor the Kyoto Protocol alone covers all three threats, and all three pieces of legislation are in fact relevant, each to a different piece of the problem."
+      "explanation": "Correct: (B) CITES addresses only the trade threat, leaving the other two threats unaddressed by that law alone. This question requires synthesizing across multiple required documents rather than treating any one as complete: CITES targets the international trade threat, the Endangered Species Act targets the domestic habitat threat, but the climate-driven range-shift threat operates through global greenhouse gas emissions pushing the species' tolerance zone to shift faster than it can track, a pathway that connects instead to the Kyoto Protocol's mitigation framework. Neither the Endangered Species Act nor the Kyoto Protocol alone covers all three threats, and all three pieces of legislation are in fact relevant, each to a different piece of the problem."
     },
     {
       "id": "9-66",
@@ -8988,7 +8988,7 @@ const QUESTIONS = {
         "Methane's warming effect is more intense in the near term but shorter-lived."
       ],
       "correct": 3,
-      "explanation": "GWP compares a gas's heat-trapping ability per unit mass to CO2 over a set time horizon. Methane's GWP is much higher than CO2's, meaning it traps far more heat per molecule, but its atmospheric lifetime (roughly a decade) is much shorter than CO2's (centuries), so methane's impact is intense but short-lived while CO2's weaker per-molecule effect is compounded by its persistence and abundance. The gases are neither equally potent/long-lived, nor is methane the weaker per-molecule gas, nor is methane's effect negligible."
+      "explanation": "Correct: (D) Methane's warming effect is more intense in the near term but shorter-lived. GWP compares a gas's heat-trapping ability per unit mass to CO2 over a set time horizon. Methane's GWP is much higher than CO2's, meaning it traps far more heat per molecule, but its atmospheric lifetime (roughly a decade) is much shorter than CO2's (centuries), so methane's impact is intense but short-lived while CO2's weaker per-molecule effect is compounded by its persistence and abundance. The gases are neither equally potent/long-lived, nor is methane the weaker per-molecule gas, nor is methane's effect negligible."
     },
     {
       "id": "9-67",
@@ -9014,7 +9014,7 @@ const QUESTIONS = {
         "An invasive species, defined by the ecological or economic harm it causes."
       ],
       "correct": 1,
-      "explanation": "A non-native species that persists without causing significant ecological or economic harm is called a naturalized species, distinct from an invasive species, which specifically causes such harm. A keystone species is defined by its disproportionate ecological influence (not by being non-native), and an endemic species is native and geographically restricted, the opposite of the non-native species described here."
+      "explanation": "Correct: (B) A naturalized species. A non-native species that persists without causing significant ecological or economic harm is called a naturalized species, distinct from an invasive species, which specifically causes such harm. A keystone species is defined by its disproportionate ecological influence (not by being non-native), and an endemic species is native and geographically restricted, the opposite of the non-native species described here."
     },
     {
       "id": "9-69",
@@ -9027,7 +9027,7 @@ const QUESTIONS = {
         "There is no such thing as a natural background extinction rate to compare against."
       ],
       "correct": 2,
-      "explanation": "Current species extinction rates are estimated to be far above the natural background rate, the rate at which species would go extinct without human influence, driven primarily by human-caused factors such as habitat destruction, invasive species, population growth, pollution, climate change, and overharvesting (HIPPCO). Rates are not equal to or below the background rate, and a background rate is in fact a well-established scientific reference point."
+      "explanation": "Correct: (C) Far above the natural background rate. Current species extinction rates are estimated to be far above the natural background rate, the rate at which species would go extinct without human influence, driven primarily by human-caused factors such as habitat destruction, invasive species, population growth, pollution, climate change, and overharvesting (HIPPCO). Rates are not equal to or below the background rate, and a background rate is in fact a well-established scientific reference point."
     },
     {
       "id": "9-70",
@@ -9040,7 +9040,7 @@ const QUESTIONS = {
         "Argon, an inert noble gas"
       ],
       "correct": 0,
-      "explanation": "Nitrous oxide (N2O), like methane, has a substantially higher GWP than CO2 per unit mass. Oxygen and nitrogen gas are abundant atmospheric gases but are not significant greenhouse gases, and argon is an inert noble gas that does not absorb infrared radiation, so none of these three are assigned meaningful GWP values."
+      "explanation": "Correct: (A) Nitrous oxide (N2O). Nitrous oxide (N2O), like methane, has a substantially higher GWP than CO2 per unit mass. Oxygen and nitrogen gas are abundant atmospheric gases but are not significant greenhouse gases, and argon is an inert noble gas that does not absorb infrared radiation, so none of these three are assigned meaningful GWP values."
     },
     {
       "id": "9-71",
@@ -9053,7 +9053,7 @@ const QUESTIONS = {
         "Direct measurements showing a rising sea level trend over recent decades."
       ],
       "correct": 3,
-      "explanation": "Direct sea level measurements showing a rising trend over recent decades form one of the independent lines of physical evidence for climate change, alongside ice core data, temperature records, glacial/ice sheet retreat, and phenology. A single anecdotal report and an unverified model projection are not direct physical measurement evidence, and an acidification-chemistry estimate addresses a related but separate process, not a direct sea level measurement."
+      "explanation": "Correct: (D) Direct measurements showing a rising sea level trend over recent decades. Direct sea level measurements showing a rising trend over recent decades form one of the independent lines of physical evidence for climate change, alongside ice core data, temperature records, glacial/ice sheet retreat, and phenology. A single anecdotal report and an unverified model projection are not direct physical measurement evidence, and an acidification-chemistry estimate addresses a related but separate process, not a direct sea level measurement."
     },
     {
       "id": "9-72",
@@ -9066,7 +9066,7 @@ const QUESTIONS = {
         "Assisted migration."
       ],
       "correct": 3,
-      "explanation": "Deliberately relocating individuals of a species to a more climatically suitable habitat, when the species cannot shift its range on its own quickly enough, is called assisted migration. Captive breeding instead involves breeding in a controlled setting for eventual reintroduction, while biomagnification and bioaccumulation are toxicology concepts describing how substances concentrate in organisms and food chains, unrelated to relocating a species for climate adaptation."
+      "explanation": "Correct: (D) Assisted migration. Deliberately relocating individuals of a species to a more climatically suitable habitat, when the species cannot shift its range on its own quickly enough, is called assisted migration. Captive breeding instead involves breeding in a controlled setting for eventual reintroduction, while biomagnification and bioaccumulation are toxicology concepts describing how substances concentrate in organisms and food chains, unrelated to relocating a species for climate adaptation."
     }
   ]
 };

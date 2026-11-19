@@ -144,7 +144,7 @@ const QUESTIONS = {
         "ΔU = Q, since no work is done in this process."
       ],
       "correct": 2,
-      "explanation": "For an ideal gas, internal energy depends only on temperature, and isothermal means T doesn't change, so ΔU = 0 regardless of anything else. From ΔU = Q + W, 0 = Q + W, so work done ON the gas is −Q; since Q is positive (absorbed), the gas does positive work on its surroundings equal in magnitude to Q. Choice D assumes no work occurs, effectively treating this expansion like a constant-volume (isochoric) process. Choice A assumes any expansion must lower internal energy, ignoring that U depends only on T — and T is unchanged here. Choice B gets the direction of the work backwards, describing the gas doing work “on itself” rather than on its surroundings, and misassigns ΔU = Q instead of zero."
+      "explanation": "Correct: (C) ΔU = 0; work done on the surroundings equals Q. For an ideal gas, internal energy depends only on temperature, and isothermal means T doesn't change, so ΔU = 0 regardless of anything else. From ΔU = Q + W, 0 = Q + W, so work done ON the gas is −Q; since Q is positive (absorbed), the gas does positive work on its surroundings equal in magnitude to Q. Choice D assumes no work occurs, effectively treating this expansion like a constant-volume (isochoric) process. Choice A assumes any expansion must lower internal energy, ignoring that U depends only on T — and T is unchanged here. Choice B gets the direction of the work backwards, describing the gas doing work “on itself” rather than on its surroundings, and misassigns ΔU = Q instead of zero."
     },
     {
       "id": "9-8",
@@ -313,7 +313,7 @@ const QUESTIONS = {
         "The block and water end up at the same temperature, but do not necessarily undergo the same temperature change."
       ],
       "correct": 3,
-      "explanation": "Thermal equilibrium means, by definition, the block and water end up at the same final temperature; what's conserved is energy (heat lost by the block equals heat gained by the water). But Q = mcΔT for each object, and mass/specific heat generally differ, so matching Q values does NOT mean matching ΔT values. Choice B wrongly assumes equal final temperatures forces equal ΔT, ignoring that ΔT also depends on each object's own initial temperature, mass, and specific heat. Choice C reverses which quantity is guaranteed — final temperature is fixed by equilibrium, not ΔT. Choice A overcorrects: while ΔT isn't guaranteed equal, the final temperature and the heat exchanged ARE both constrained by equilibrium and energy conservation."
+      "explanation": "Correct: (D) The block and water end up at the same temperature, but do not necessarily undergo the same temperature change. Thermal equilibrium means, by definition, the block and water end up at the same final temperature; what's conserved is energy (heat lost by the block equals heat gained by the water). But Q = mcΔT for each object, and mass/specific heat generally differ, so matching Q values does NOT mean matching ΔT values. Choice B wrongly assumes equal final temperatures forces equal ΔT, ignoring that ΔT also depends on each object's own initial temperature, mass, and specific heat. Choice C reverses which quantity is guaranteed — final temperature is fixed by equilibrium, not ΔT. Choice A overcorrects: while ΔT isn't guaranteed equal, the final temperature and the heat exchanged ARE both constrained by equilibrium and energy conservation."
     },
     {
       "id": "9-21",
@@ -969,7 +969,7 @@ const QUESTIONS = {
         "ΔU is positive, Q is positive, W is negative."
       ],
       "correct": 1,
-      "explanation": "Since temperature decreases and internal energy of an ideal gas depends only on temperature, ΔU must be negative — certain without any numbers. Compression means positive work is done ON the gas (W positive); since ΔU = Q+W is negative while W is positive, Q must be negative enough to make the sum negative, consistent with the gas actively losing heat even as it's compressed. Choice D reverses the signs across the board — since temperature explicitly decreases, ΔU cannot be positive. Choice C gets ΔU's sign right but mismanages W's sign; compression should do positive work ON the gas, not negative. Choice A overlooks that the sign of ΔU is already fully determined just from knowing temperature decreases, with no numerical values required."
+      "explanation": "Correct: (B) ΔU is negative, Q is negative, W is positive. Since temperature decreases and internal energy of an ideal gas depends only on temperature, ΔU must be negative — certain without any numbers. Compression means positive work is done ON the gas (W positive); since ΔU = Q+W is negative while W is positive, Q must be negative enough to make the sum negative, consistent with the gas actively losing heat even as it's compressed. Choice D reverses the signs across the board — since temperature explicitly decreases, ΔU cannot be positive. Choice C gets ΔU's sign right but mismanages W's sign; compression should do positive work ON the gas, not negative. Choice A overlooks that the sign of ΔU is already fully determined just from knowing temperature decreases, with no numerical values required."
     },
     {
       "id": "9-55",
@@ -1116,7 +1116,7 @@ const QUESTIONS = {
         "The calculated value will be too low."
       ],
       "correct": 3,
-      "explanation": "Some of the heat the sample released also went into warming the calorimeter cup, not just the water; if the calculation only accounts for heat gained by the water, it underestimates the total heat that left the sample, and since that underestimated heat is what's divided to solve for specific heat, the calculated value comes out too low. Choice B has the bias backwards: underestimating the true heat released pushes the computed c down, not up. Choice A overlooks that the cup genuinely absorbs some of the sample's heat in reality, so omitting it necessarily changes the result rather than leaving it untouched. Choice C is wrong because the direction of the bias isn't tied to the sign of ΔT — ignoring a real heat sink always means underestimating total heat, producing an unambiguous low bias regardless of heating or cooling."
+      "explanation": "Correct: (D) The calculated value will be too low. Some of the heat the sample released also went into warming the calorimeter cup, not just the water; if the calculation only accounts for heat gained by the water, it underestimates the total heat that left the sample, and since that underestimated heat is what's divided to solve for specific heat, the calculated value comes out too low. Choice B has the bias backwards: underestimating the true heat released pushes the computed c down, not up. Choice A overlooks that the cup genuinely absorbs some of the sample's heat in reality, so omitting it necessarily changes the result rather than leaving it untouched. Choice C is wrong because the direction of the bias isn't tied to the sign of ΔT — ignoring a real heat sink always means underestimating total heat, producing an unambiguous low bias regardless of heating or cooling."
     },
     {
       "id": "9-63",
@@ -1129,7 +1129,7 @@ const QUESTIONS = {
         "Ice spontaneously forms from liquid water at room temperature."
       ],
       "correct": 0,
-      "explanation": "Choices B, C, and D all describe spontaneous decreases in entropy, forbidden by the second law for an isolated system, while mixed gases not spontaneously un-mixing is simply the normal, expected (entropy-consistent) behavior. Choice B directly violates the second law: heat only flows hot-to-cold spontaneously; forcing the reverse requires external work, as in a refrigerator. Choice C describes particles spontaneously becoming more confined without any energy input — a spontaneous entropy decrease, which the second law forbids. Choice D describes molecules spontaneously becoming more ordered (lower entropy) at room temperature with no external cooling process, which cannot happen spontaneously."
+      "explanation": "Correct: (A) Mixed gases do not spontaneously separate back into pure components. Choices B, C, and D all describe spontaneous decreases in entropy, forbidden by the second law for an isolated system, while mixed gases not spontaneously un-mixing is simply the normal, expected (entropy-consistent) behavior. Choice B directly violates the second law: heat only flows hot-to-cold spontaneously; forcing the reverse requires external work, as in a refrigerator. Choice C describes particles spontaneously becoming more confined without any energy input — a spontaneous entropy decrease, which the second law forbids. Choice D describes molecules spontaneously becoming more ordered (lower entropy) at room temperature with no external cooling process, which cannot happen spontaneously."
     },
     {
       "id": "9-64",
@@ -1227,7 +1227,7 @@ const QUESTIONS = {
         "The forces are equal in magnitude, by Newton's third law."
       ],
       "correct": 3,
-      "explanation": "Correct: the forces are equal in magnitude. The two spheres exert an action-reaction pair on each other, and Newton's third law says such a pair always has equal magnitude and opposite direction. Coulomb's law agrees: F = k|q<sub>A</sub>q<sub>B</sub>|/r<sup>2</sup> is symmetric in the two charges, so the same product and the same r give the same F for both. The charges being −10 μC and −40 μC does not matter for the comparison.\n\n(A) is wrong because the distance is the same for both forces, so it cancels from the comparison and is not needed.\n(B) is wrong because it assumes the bigger charge feels less force, but force is not split by charge size.\n(C) is wrong because it assumes the larger charge feels more force, which would violate Newton's third law."
+      "explanation": "Correct: (D) The forces are equal in magnitude. The two spheres exert an action-reaction pair on each other, and Newton's third law says such a pair always has equal magnitude and opposite direction. Coulomb's law agrees: F = k|q<sub>A</sub>q<sub>B</sub>|/r<sup>2</sup> is symmetric in the two charges, so the same product and the same r give the same F for both. The charges being −10 μC and −40 μC does not matter for the comparison.\n\n(A) is wrong because the distance is the same for both forces, so it cancels from the comparison and is not needed.\n(B) is wrong because it assumes the bigger charge feels less force, but force is not split by charge size.\n(C) is wrong because it assumes the larger charge feels more force, which would violate Newton's third law."
     },
     {
       "id": "10-2",
@@ -1240,7 +1240,7 @@ const QUESTIONS = {
         "Neutral, since the rod never touched the sphere."
       ],
       "correct": 0,
-      "explanation": "Correct: positive, opposite in sign to the rod. Clue words are 'never touching' and 'grounded while the rod is still in place', which describe charging by induction. The negative rod repels the sphere's free electrons toward the side away from the rod. The ground wire lets those electrons flow off the sphere into the ground. When the wire is removed with the rod still there, the sphere is trapped with a deficit of electrons, and it stays net positive after the rod is taken away.\n\n(B) is wrong because a conductor reaches equilibrium almost instantly, so waiting longer changes nothing.\n(C) is wrong because negative would be the result of conduction (touching), not induction.\n(D) is wrong because charge can be redistributed and removed by the rod's field without any contact."
+      "explanation": "Correct: (A) Positive, opposite in sign to the rod. Clue words are 'never touching' and 'grounded while the rod is still in place', which describe charging by induction. The negative rod repels the sphere's free electrons toward the side away from the rod. The ground wire lets those electrons flow off the sphere into the ground. When the wire is removed with the rod still there, the sphere is trapped with a deficit of electrons, and it stays net positive after the rod is taken away.\n\n(B) is wrong because a conductor reaches equilibrium almost instantly, so waiting longer changes nothing.\n(C) is wrong because negative would be the result of conduction (touching), not induction.\n(D) is wrong because charge can be redistributed and removed by the rod's field without any contact."
     },
     {
       "id": "10-3",
@@ -1253,7 +1253,7 @@ const QUESTIONS = {
         "There are no charges anywhere in the system."
       ],
       "correct": 0,
-      "explanation": "Correct: a test charge there would feel zero net electric force. The electric field is defined as force per unit charge, E = F/q, so E = 0 at a point means F = qE = 0 for any charge placed there. This says nothing else about the surroundings; the contributions from different charges just cancel as vectors at that one point.\n\n(B) is wrong because potential is a scalar that depends on the sum of kq/r terms, and it can be nonzero where the field is zero (for example the midpoint between two equal positive charges).\n(C) is wrong because the charges do not need to be equidistant; two unequal charges can cancel at unequal distances.\n(D) is wrong because charges can exist elsewhere in the system, with their fields canceling at that point."
+      "explanation": "Correct: (A) A test charge there would feel zero net electric force. The electric field is defined as force per unit charge, E = F/q, so E = 0 at a point means F = qE = 0 for any charge placed there. This says nothing else about the surroundings; the contributions from different charges just cancel as vectors at that one point.\n\n(B) is wrong because potential is a scalar that depends on the sum of kq/r terms, and it can be nonzero where the field is zero (for example the midpoint between two equal positive charges).\n(C) is wrong because the charges do not need to be equidistant; two unequal charges can cancel at unequal distances.\n(D) is wrong because charges can exist elsewhere in the system, with their fields canceling at that point."
     },
     {
       "id": "10-4",
@@ -1266,7 +1266,7 @@ const QUESTIONS = {
         "The midpoint between the two charges."
       ],
       "correct": 2,
-      "explanation": "Correct: a point between the charges, closer to +Q. Both charges are positive, so on the line between them their fields point in opposite directions and can cancel. Set kQ/x<sup>2</sup> = k(2Q)/(d−x)<sup>2</sup>, where x is the distance from +Q. This gives (d−x) = √2 x, so x = d/(1+√2) ≈ 0.41d, which is nearer the smaller charge. The smaller charge must be closer so that its weaker field, at short range, matches the stronger charge's field at long range.\n\n(A) is wrong because near +2Q the larger charge's field would dominate even more.\n(B) is wrong because like charges give cancellation between them, since the fields oppose there.\n(D) is wrong because at the midpoint the +2Q field is twice as large, so the net field points toward +Q and is not zero."
+      "explanation": "Correct: (C) A point between the charges, closer to +Q. Both charges are positive, so on the line between them their fields point in opposite directions and can cancel. Set kQ/x<sup>2</sup> = k(2Q)/(d−x)<sup>2</sup>, where x is the distance from +Q. This gives (d−x) = √2 x, so x = d/(1+√2) ≈ 0.41d, which is nearer the smaller charge. The smaller charge must be closer so that its weaker field, at short range, matches the stronger charge's field at long range.\n\n(A) is wrong because near +2Q the larger charge's field would dominate even more.\n(B) is wrong because like charges give cancellation between them, since the fields oppose there.\n(D) is wrong because at the midpoint the +2Q field is twice as large, so the net field points toward +Q and is not zero."
     },
     {
       "id": "10-5",
@@ -1279,7 +1279,7 @@ const QUESTIONS = {
         "The potential cannot be determined without knowing the exact distances."
       ],
       "correct": 1,
-      "explanation": "Correct: negative, the sum of the two negative potentials. Electric potential is a scalar, so V = kq<sub>1</sub>/r<sub>1</sub> + kq<sub>2</sub>/r<sub>2</sub>, added with signs. Each −6 μC charge at the same distance r gives −kq/r, so the total is −2k(6 x 10<sup>-6</sup>)/r, which is negative. Direction and the opposite sides do not matter for a scalar.\n\n(A) is wrong because potentials are added, not multiplied, so two negatives do not make a positive.\n(C) is wrong because cancellation happens for vectors like field, but these two potentials have the same sign and add.\n(D) is wrong because the sign is fixed by the charges, and equal distances are given, so the total is simply twice one contribution."
+      "explanation": "Correct: (B) Negative, the sum of the two negative potentials. Electric potential is a scalar, so V = kq<sub>1</sub>/r<sub>1</sub> + kq<sub>2</sub>/r<sub>2</sub>, added with signs. Each −6 μC charge at the same distance r gives −kq/r, so the total is −2k(6 x 10<sup>-6</sup>)/r, which is negative. Direction and the opposite sides do not matter for a scalar.\n\n(A) is wrong because potentials are added, not multiplied, so two negatives do not make a positive.\n(C) is wrong because cancellation happens for vectors like field, but these two potentials have the same sign and add.\n(D) is wrong because the sign is fixed by the charges, and equal distances are given, so the total is simply twice one contribution."
     },
     {
       "id": "10-6",
@@ -1292,7 +1292,7 @@ const QUESTIONS = {
         "They are always perpendicular at every point."
       ],
       "correct": 3,
-      "explanation": "Correct: they are always perpendicular. Along an equipotential surface the potential does not change, so moving a charge along it requires zero work. Work is W = F·d·cosθ, and for it to be zero for every displacement along the surface, the electric force (and therefore the field) must be perpendicular to the surface. So field lines cross equipotentials at 90° everywhere.\n\n(A) is wrong because field lines never cross equipotential lines at any angle other than 90°, and strength does not create exceptions.\n(B) is wrong because parallel would mean the field has a component along the equipotential, which would change the potential.\n(C) is wrong because the relationship is fixed by the definition of potential, so it is required."
+      "explanation": "Correct: (D) They are always perpendicular. Along an equipotential surface the potential does not change, so moving a charge along it requires zero work. Work is W = F·d·cosθ, and for it to be zero for every displacement along the surface, the electric force (and therefore the field) must be perpendicular to the surface. So field lines cross equipotentials at 90° everywhere.\n\n(A) is wrong because field lines never cross equipotential lines at any angle other than 90°, and strength does not create exceptions.\n(B) is wrong because parallel would mean the field has a component along the equipotential, which would change the potential.\n(C) is wrong because the relationship is fixed by the definition of potential, so it is required."
     },
     {
       "id": "10-7",
@@ -1305,7 +1305,7 @@ const QUESTIONS = {
         "The charge drops to zero, since a dielectric is an insulating material that cannot carry charge."
       ],
       "correct": 2,
-      "explanation": "Correct: the charge increases. A dielectric raises the capacitance, C = κε<sub>0</sub>A/d with κ > 1. The battery stays connected, so ΔV is held constant, and Q = CΔV rises because C rose. The battery supplies extra charge to the plates to keep the voltage fixed.\n\n(A) is wrong because although the dielectric weakens the field inside it, the plates hold more charge, not less.\n(B) is wrong because C changes when the dielectric goes in, so Q = CΔV cannot stay the same at fixed ΔV.\n(D) is wrong because the dielectric does not discharge the plates; it only polarizes and is not an electrical path between them."
+      "explanation": "Correct: (C) The charge increases. A dielectric raises the capacitance, C = κε<sub>0</sub>A/d with κ > 1. The battery stays connected, so ΔV is held constant, and Q = CΔV rises because C rose. The battery supplies extra charge to the plates to keep the voltage fixed.\n\n(A) is wrong because although the dielectric weakens the field inside it, the plates hold more charge, not less.\n(B) is wrong because C changes when the dielectric goes in, so Q = CΔV cannot stay the same at fixed ΔV.\n(D) is wrong because the dielectric does not discharge the plates; it only polarizes and is not an electrical path between them."
     },
     {
       "id": "10-8",
@@ -1318,7 +1318,7 @@ const QUESTIONS = {
         "It cannot be determined without knowing the distance traveled."
       ],
       "correct": 2,
-      "explanation": "Correct: the kinetic energy increases. The work done by the field is W = −qΔV = ΔK. Here ΔV = 50 − 200 = −150 V and q = +e = 1.6 x 10<sup>-19</sup> C, so ΔK = −(1.6 x 10<sup>-19</sup>)(−150) = +2.4 x 10<sup>-17</sup> J, which equals 150 eV. A positive charge speeds up as it moves toward lower potential, like a mass falling to lower height.\n\n(A) is wrong because potential difference is exactly what sets the energy change.\n(B) is wrong because it reverses the sign; moving to lower potential would reduce the energy of a negative charge, not a positive one.\n(D) is wrong because only the potential difference between start and end matters, not the path length."
+      "explanation": "Correct: (C) The kinetic energy increases. The work done by the field is W = −qΔV = ΔK. Here ΔV = 50 − 200 = −150 V and q = +e = 1.6 x 10<sup>-19</sup> C, so ΔK = −(1.6 x 10<sup>-19</sup>)(−150) = +2.4 x 10<sup>-17</sup> J, which equals 150 eV. A positive charge speeds up as it moves toward lower potential, like a mass falling to lower height.\n\n(A) is wrong because potential difference is exactly what sets the energy change.\n(B) is wrong because it reverses the sign; moving to lower potential would reduce the energy of a negative charge, not a positive one.\n(D) is wrong because only the potential difference between start and end matters, not the path length."
     },
     {
       "id": "10-9",
@@ -1331,7 +1331,7 @@ const QUESTIONS = {
         "It doubles in magnitude, while remaining negative in sign."
       ],
       "correct": 1,
-      "explanation": "Correct: the magnitude is cut in half and stays negative. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r, which is negative for opposite signs and proportional to 1/r. Doubling r gives U' = kq<sub>1</sub>q<sub>2</sub>/(2r) = U/2, still negative, so it is half as negative (it rises toward zero).\n\n(A) is wrong because it doubles the magnitude and flips the sign, but neither follows from U ∝ 1/r with fixed charges.\n(C) is wrong because the magnitude is halved correctly but the sign cannot change when the charge signs do not change.\n(D) is wrong because it treats U as proportional to r instead of 1/r."
+      "explanation": "Correct: (B) The magnitude is cut in half and stays negative. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r, which is negative for opposite signs and proportional to 1/r. Doubling r gives U' = kq<sub>1</sub>q<sub>2</sub>/(2r) = U/2, still negative, so it is half as negative (it rises toward zero).\n\n(A) is wrong because it doubles the magnitude and flips the sign, but neither follows from U ∝ 1/r with fixed charges.\n(C) is wrong because the magnitude is halved correctly but the sign cannot change when the charge signs do not change.\n(D) is wrong because it treats U as proportional to r instead of 1/r."
     },
     {
       "id": "10-10",
@@ -1344,7 +1344,7 @@ const QUESTIONS = {
         "The angle cannot be determined without knowing the object's charge-to-mass ratio numerically."
       ],
       "correct": 0,
-      "explanation": "Correct: a nonzero angle fixed by the ratio qE to mg. Three forces act on the object: weight mg down, electric force qE horizontal (positive charge, so along the field), and string tension along the string. For equilibrium the vertical component of tension balances mg, T cosθ = mg, and the horizontal component balances qE, T sinθ = qE. Dividing gives tanθ = qE/(mg).\n\n(B) is wrong because the electric force is also present, so the string tilts.\n(C) is wrong because 90° would need gravity to be zero; mg always pulls it down so tanθ is finite.\n(D) is wrong because the angle depends on qE/mg, which can be written symbolically, and no separate numerical charge-to-mass value is needed to say it is nonzero and set by that ratio."
+      "explanation": "Correct: (A) A nonzero angle fixed by the ratio qE to mg. Three forces act on the object: weight mg down, electric force qE horizontal (positive charge, so along the field), and string tension along the string. For equilibrium the vertical component of tension balances mg, T cosθ = mg, and the horizontal component balances qE, T sinθ = qE. Dividing gives tanθ = qE/(mg).\n\n(B) is wrong because the electric force is also present, so the string tilts.\n(C) is wrong because 90° would need gravity to be zero; mg always pulls it down so tanθ is finite.\n(D) is wrong because the angle depends on qE/mg, which can be written symbolically, and no separate numerical charge-to-mass value is needed to say it is nonzero and set by that ratio."
     },
     {
       "id": "10-11",
@@ -1357,7 +1357,7 @@ const QUESTIONS = {
         "0.06 N"
       ],
       "correct": 1,
-      "explanation": "Correct: 0.6 N. Use Coulomb's law F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup>. Convert μC to C: F = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)(3.0 x 10<sup>-6</sup>)/(0.30)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(6.0 x 10<sup>-12</sup>)/0.090 = 0.054/0.090 = 0.60 N. Both charges are positive so the force is repulsive, but only the magnitude is asked.\n\n(A) is wrong because 60 N is 100 times too large, as if r = 0.030 m had been used.\n(C) is wrong because 6 N is 10 times too large, from a power-of-ten slip in the unit conversion.\n(D) is wrong because 0.06 N is 10 times too small, from another power-of-ten slip such as dividing by 0.9 instead of 0.09."
+      "explanation": "Correct: (B) 0.6 N. Use Coulomb's law F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup>. Convert μC to C: F = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)(3.0 x 10<sup>-6</sup>)/(0.30)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(6.0 x 10<sup>-12</sup>)/0.090 = 0.054/0.090 = 0.60 N. Both charges are positive so the force is repulsive, but only the magnitude is asked.\n\n(A) is wrong because 60 N is 100 times too large, as if r = 0.030 m had been used.\n(C) is wrong because 6 N is 10 times too large, from a power-of-ten slip in the unit conversion.\n(D) is wrong because 0.06 N is 10 times too small, from another power-of-ten slip such as dividing by 0.9 instead of 0.09."
     },
     {
       "id": "10-12",
@@ -1370,7 +1370,7 @@ const QUESTIONS = {
         "9"
       ],
       "correct": 1,
-      "explanation": "Correct: 1/9. Coulomb's law is F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>, an inverse-square law. If r becomes 3r, then F' = kq<sub>1</sub>q<sub>2</sub>/(3r)<sup>2</sup> = F/9. The charges are unchanged, so only the r<sup>2</sup> factor matters.\n\n(A) is wrong because the force decreases with distance, not increases.\n(C) is wrong because 1/3 applies the factor to r once, as if F ∝ 1/r, forgetting to square it.\n(D) is wrong because 9 gets the square right but uses the wrong direction, as if the force grew with distance."
+      "explanation": "Correct: (B) 1/9. Coulomb's law is F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>, an inverse-square law. If r becomes 3r, then F' = kq<sub>1</sub>q<sub>2</sub>/(3r)<sup>2</sup> = F/9. The charges are unchanged, so only the r<sup>2</sup> factor matters.\n\n(A) is wrong because the force decreases with distance, not increases.\n(C) is wrong because 1/3 applies the factor to r once, as if F ∝ 1/r, forgetting to square it.\n(D) is wrong because 9 gets the square right but uses the wrong direction, as if the force grew with distance."
     },
     {
       "id": "10-13",
@@ -1383,7 +1383,7 @@ const QUESTIONS = {
         "4F"
       ],
       "correct": 1,
-      "explanation": "Correct: F. Originally F = kQ<sup>2</sup>/r<sup>2</sup>. With both charges doubled the numerator becomes k(2Q)(2Q) = 4kQ<sup>2</sup>, and doubling the distance makes the denominator (2r)<sup>2</sup> = 4r<sup>2</sup>. So F' = 4kQ<sup>2</sup>/4r<sup>2</sup> = F, because the factor of 4 on top and bottom cancel.\n\n(A) is wrong because F/4 counts only the distance change and ignores the doubled charges.\n(C) is wrong because F/16 divides by 4 for the distance and again by 4 in the wrong direction for the charge, treating a bigger charge as weakening the force.\n(D) is wrong because 4F counts only the doubled charges and ignores the doubled distance."
+      "explanation": "Correct: (B) F. Originally F = kQ<sup>2</sup>/r<sup>2</sup>. With both charges doubled the numerator becomes k(2Q)(2Q) = 4kQ<sup>2</sup>, and doubling the distance makes the denominator (2r)<sup>2</sup> = 4r<sup>2</sup>. So F' = 4kQ<sup>2</sup>/4r<sup>2</sup> = F, because the factor of 4 on top and bottom cancel.\n\n(A) is wrong because F/4 counts only the distance change and ignores the doubled charges.\n(C) is wrong because F/16 divides by 4 for the distance and again by 4 in the wrong direction for the charge, treating a bigger charge as weakening the force.\n(D) is wrong because 4F counts only the doubled charges and ignores the doubled distance."
     },
     {
       "id": "10-14",
@@ -1396,7 +1396,7 @@ const QUESTIONS = {
         "kQ²/d²"
       ],
       "correct": 3,
-      "explanation": "Correct: kQ<sup>2</sup>/d<sup>2</sup>. Treat the force on the middle +Q as a vector sum along the line. The +Q at x = 0 pushes it in the +x direction with F<sub>1</sub> = kQ<sup>2</sup>/d<sup>2</sup>. The +2Q at x = 2d pushes it in the −x direction with F<sub>2</sub> = k(2Q)(Q)/d<sup>2</sup> = 2kQ<sup>2</sup>/d<sup>2</sup>. Net = 2kQ<sup>2</sup>/d<sup>2</sup> − kQ<sup>2</sup>/d<sup>2</sup> = kQ<sup>2</sup>/d<sup>2</sup>, toward −x.\n\n(A) is wrong because it adds the magnitudes even though the forces point opposite ways.\n(B) is wrong because the forces would cancel only if the outer charges were equal, but one is twice as large.\n(C) is wrong because it counts only the force from the +2Q charge and leaves out the opposing force from the +Q at x = 0."
+      "explanation": "Correct: (D) KQ<sup>2</sup>/d<sup>2</sup>. Treat the force on the middle +Q as a vector sum along the line. The +Q at x = 0 pushes it in the +x direction with F<sub>1</sub> = kQ<sup>2</sup>/d<sup>2</sup>. The +2Q at x = 2d pushes it in the −x direction with F<sub>2</sub> = k(2Q)(Q)/d<sup>2</sup> = 2kQ<sup>2</sup>/d<sup>2</sup>. Net = 2kQ<sup>2</sup>/d<sup>2</sup> − kQ<sup>2</sup>/d<sup>2</sup> = kQ<sup>2</sup>/d<sup>2</sup>, toward −x.\n\n(A) is wrong because it adds the magnitudes even though the forces point opposite ways.\n(B) is wrong because the forces would cancel only if the outer charges were equal, but one is twice as large.\n(C) is wrong because it counts only the force from the +2Q charge and leaves out the opposing force from the +Q at x = 0."
     },
     {
       "id": "10-15",
@@ -1409,7 +1409,7 @@ const QUESTIONS = {
         "0.56 N"
       ],
       "correct": 0,
-      "explanation": "Correct: 5.6 N. Use F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup> with the magnitudes: F = (9.0 x 10<sup>9</sup>)(5.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/(0.20)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(2.5 x 10<sup>-11</sup>)/0.040 = 0.225/0.040 = 5.6 N. The opposite signs mean the force is attractive, but the size depends only on the magnitudes.\n\n(B) is wrong because 2.8 N is half the right value, from dropping a factor of 2 in the arithmetic.\n(C) is wrong because 11 N is double the right value, from a doubled numerator.\n(D) is wrong because 0.56 N is a power-of-ten slip in the conversion or division."
+      "explanation": "Correct: (A) 5.6 N. Use F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup> with the magnitudes: F = (9.0 x 10<sup>9</sup>)(5.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/(0.20)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(2.5 x 10<sup>-11</sup>)/0.040 = 0.225/0.040 = 5.6 N. The opposite signs mean the force is attractive, but the size depends only on the magnitudes.\n\n(B) is wrong because 2.8 N is half the right value, from dropping a factor of 2 in the arithmetic.\n(C) is wrong because 11 N is double the right value, from a doubled numerator.\n(D) is wrong because 0.56 N is a power-of-ten slip in the conversion or division."
     },
     {
       "id": "10-16",
@@ -1422,7 +1422,7 @@ const QUESTIONS = {
         "A"
       ],
       "correct": 1,
-      "explanation": "A gives a factor of 2 (one charge doubles). B gives a factor of 4 (both charges in the numerator double: 2×2). C gives a factor of 4 (halving r squares to a factor of 4 via the inverse-square law). D combines both effects multiplicatively: 4 (from doubling both charges) × 4 (from halving the distance) = 16, the largest of the four. Any answer other than D underestimates the effect of combining changes — when multiple variables change together, their factors multiply rather than simply adding."
+      "explanation": "Correct: (B) D. A gives a factor of 2 (one charge doubles). B gives a factor of 4 (both charges in the numerator double: 2×2). C gives a factor of 4 (halving r squares to a factor of 4 via the inverse-square law). D combines both effects multiplicatively: 4 (from doubling both charges) × 4 (from halving the distance) = 16, the largest of the four. Any answer other than D underestimates the effect of combining changes — when multiple variables change together, their factors multiply rather than simply adding."
     },
     {
       "id": "10-17",
@@ -1435,7 +1435,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Correct: it decreases. Each sphere is in equilibrium under three forces: weight mg down, the horizontal Coulomb repulsion F<sub>e</sub>, and string tension. Balancing components gives T cosθ = mg and T sinθ = F<sub>e</sub>, so tanθ = F<sub>e</sub>/(mg). With the charges and separation unchanged, F<sub>e</sub> is unchanged, and doubling m halves the ratio, so tanθ and θ decrease. The strings hang closer to vertical because gravity now wins more of the balance.\n\n(B) is wrong because a heavier sphere is pulled down harder, which reduces the tilt rather than increasing it.\n(C) is wrong because the new ratio F<sub>e</sub>/(2mg) is known relative to the old one, so the direction of change is determinable.\n(D) is wrong because θ depends on the ratio of F<sub>e</sub> to mg, so changing m changes θ."
+      "explanation": "Correct: (A) It decreases. Each sphere is in equilibrium under three forces: weight mg down, the horizontal Coulomb repulsion F<sub>e</sub>, and string tension. Balancing components gives T cosθ = mg and T sinθ = F<sub>e</sub>, so tanθ = F<sub>e</sub>/(mg). With the charges and separation unchanged, F<sub>e</sub> is unchanged, and doubling m halves the ratio, so tanθ and θ decrease. The strings hang closer to vertical because gravity now wins more of the balance.\n\n(B) is wrong because a heavier sphere is pulled down harder, which reduces the tilt rather than increasing it.\n(C) is wrong because the new ratio F<sub>e</sub>/(2mg) is known relative to the old one, so the direction of change is determinable.\n(D) is wrong because θ depends on the ratio of F<sub>e</sub> to mg, so changing m changes θ."
     },
     {
       "id": "10-67",
@@ -1574,7 +1574,7 @@ const QUESTIONS = {
         "+6e and 0."
       ],
       "correct": 0,
-      "explanation": "Correct: +3e on each sphere. Identical conductors share their total charge equally when they touch, because charge moves freely until each has the same potential. Total charge is conserved: (+8e) + (−2e) = +6e. Splitting evenly gives +6e/2 = +3e on each sphere after separation.\n\n(B) is wrong because contact lets charge flow, so the spheres do not keep their original charges.\n(C) is wrong because +4e and +2e do add to +6e, but identical conductors cannot hold unequal shares at equilibrium.\n(D) is wrong because +6e and 0 also total +6e but puts all the charge on one sphere, which is not an equal split."
+      "explanation": "Correct: (A) +3e on each sphere. Identical conductors share their total charge equally when they touch, because charge moves freely until each has the same potential. Total charge is conserved: (+8e) + (−2e) = +6e. Splitting evenly gives +6e/2 = +3e on each sphere after separation.\n\n(B) is wrong because contact lets charge flow, so the spheres do not keep their original charges.\n(C) is wrong because +4e and +2e do add to +6e, but identical conductors cannot hold unequal shares at equilibrium.\n(D) is wrong because +6e and 0 also total +6e but puts all the charge on one sphere, which is not an equal split."
     },
     {
       "id": "10-19",
@@ -1600,7 +1600,7 @@ const QUESTIONS = {
         "Charging by friction between the balloon and the surrounding air."
       ],
       "correct": 2,
-      "explanation": "Correct: polarization of the wall's molecules, with no net charge transfer. A wall that is an insulator has no free electrons to flow through it, so induction as in a conductor cannot happen. The negative balloon pushes electron clouds in the nearby wall molecules slightly away and the positive sides slightly closer. The positive side is nearer to the balloon, so the attraction is stronger than the repulsion and the balloon sticks.\n\n(A) is wrong because induction in the conducting sense needs free electrons moving through the material.\n(B) is wrong because conduction means actual charge transfer on contact, but the wall stays neutral overall here.\n(D) is wrong because friction with air only helps explain how the balloon got charged, not why it sticks to the wall."
+      "explanation": "Correct: (C) Polarization of the wall's molecules, with no net charge transfer. A wall that is an insulator has no free electrons to flow through it, so induction as in a conductor cannot happen. The negative balloon pushes electron clouds in the nearby wall molecules slightly away and the positive sides slightly closer. The positive side is nearer to the balloon, so the attraction is stronger than the repulsion and the balloon sticks.\n\n(A) is wrong because induction in the conducting sense needs free electrons moving through the material.\n(B) is wrong because conduction means actual charge transfer on contact, but the wall stays neutral overall here.\n(D) is wrong because friction with air only helps explain how the balloon got charged, not why it sticks to the wall."
     },
     {
       "id": "10-21",
@@ -1613,7 +1613,7 @@ const QUESTIONS = {
         "Negative, the same sign as the rod."
       ],
       "correct": 2,
-      "explanation": "Correct: positive, opposite in sign to the rod. Induction always leaves the object with a charge opposite to the rod's sign. With a positive rod the conductor's electrons are attracted near, then extra electrons come up from ground and it ends negative. Swapping to a negative rod repels electrons away, they go to ground, and the conductor is left with a deficit, so it ends positive.\n\n(A) is wrong because the grounding step makes a permanent change in net charge.\n(B) is wrong because the sign of the final charge depends on the rod's sign, not on how strongly it is charged.\n(D) is wrong because same-sign charging would be conduction, not induction."
+      "explanation": "Correct: (C) Positive, opposite in sign to the rod. Induction always leaves the object with a charge opposite to the rod's sign. With a positive rod the conductor's electrons are attracted near, then extra electrons come up from ground and it ends negative. Swapping to a negative rod repels electrons away, they go to ground, and the conductor is left with a deficit, so it ends positive.\n\n(A) is wrong because the grounding step makes a permanent change in net charge.\n(B) is wrong because the sign of the final charge depends on the rod's sign, not on how strongly it is charged.\n(D) is wrong because same-sign charging would be conduction, not induction."
     },
     {
       "id": "10-22",
@@ -1626,7 +1626,7 @@ const QUESTIONS = {
         "A wooden ruler"
       ],
       "correct": 0,
-      "explanation": "Correct: a copper sphere. A conductor has free (delocalized) electrons that move easily throughout the material. Excess charge repels itself and spreads quickly over the surface. Copper is a metal, so it fits.\n\n(B) is wrong because rubber is an insulator whose electrons stay bound to atoms, so charge stays where it was placed.\n(C) is wrong because glass is also an insulator and holds charge in place.\n(D) is wrong because wood is an insulator in this setting and does not let charge spread across the surface."
+      "explanation": "Correct: (A) A copper sphere. A conductor has free (delocalized) electrons that move easily throughout the material. Excess charge repels itself and spreads quickly over the surface. Copper is a metal, so it fits.\n\n(B) is wrong because rubber is an insulator whose electrons stay bound to atoms, so charge stays where it was placed.\n(C) is wrong because glass is also an insulator and holds charge in place.\n(D) is wrong because wood is an insulator in this setting and does not let charge spread across the surface."
     },
     {
       "id": "10-23",
@@ -1639,7 +1639,7 @@ const QUESTIONS = {
         "Charge flows between the objects until they reach the same electric potential."
       ],
       "correct": 2,
-      "explanation": "Charging by friction works by transferring electrons from one material to the other, with the direction set by the two materials' relative tendency to hold electrons; the rod ends up with a surplus (negative) and the wool a matching deficit (positive), conserving total charge across the whole system — Choice C. Choice B wrongly denies any charge transfer, when polarization alone can't leave one object permanently negative and the other permanently positive without contact. Choice D describes what happens when two conductors are connected, not the friction mechanism, which doesn't require or produce equal potentials. Choice A wrongly invokes a ground connection that isn't part of this scenario at all — nothing here is grounded."
+      "explanation": "Correct: (C) Electrons transfer from the wool to the rod, conserving total charge. Charging by friction works by transferring electrons from one material to the other, with the direction set by the two materials' relative tendency to hold electrons; the rod ends up with a surplus (negative) and the wool a matching deficit (positive), conserving total charge across the whole system — Choice C. Choice B wrongly denies any charge transfer, when polarization alone can't leave one object permanently negative and the other permanently positive without contact. Choice D describes what happens when two conductors are connected, not the friction mechanism, which doesn't require or produce equal potentials. Choice A wrongly invokes a ground connection that isn't part of this scenario at all — nothing here is grounded."
     },
     {
       "id": "10-24",
@@ -1652,7 +1652,7 @@ const QUESTIONS = {
         "2.9 × 10⁵ N/C"
       ],
       "correct": 2,
-      "explanation": "Correct: 1.44 x 10<sup>5</sup> N/C. The field of a point charge is E = kq/r<sup>2</sup>. Substituting: E = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)/(0.50)<sup>2</sup> = 3.6 x 10<sup>4</sup>/0.25 = 1.44 x 10<sup>5</sup> N/C. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m<sup>2</sup> = N/C.\n\n(A) is wrong because 5.8 x 10<sup>5</sup> is four times too big, which would come from squaring the distance twice or using r = 0.25 m.\n(B) is wrong because 7.2 x 10<sup>4</sup> comes from dividing by r = 0.50 without squaring it.\n(D) is wrong because 2.9 x 10<sup>5</sup> is about twice the right value, from dividing by 0.125 instead of 0.25."
+      "explanation": "Correct: (C) 1.44 x 10<sup>5</sup> N/C. The field of a point charge is E = kq/r<sup>2</sup>. Substituting: E = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)/(0.50)<sup>2</sup> = 3.6 x 10<sup>4</sup>/0.25 = 1.44 x 10<sup>5</sup> N/C. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m<sup>2</sup> = N/C.\n\n(A) is wrong because 5.8 x 10<sup>5</sup> is four times too big, which would come from squaring the distance twice or using r = 0.25 m.\n(B) is wrong because 7.2 x 10<sup>4</sup> comes from dividing by r = 0.50 without squaring it.\n(D) is wrong because 2.9 x 10<sup>5</sup> is about twice the right value, from dividing by 0.125 instead of 0.25."
     },
     {
       "id": "10-25",
@@ -1665,7 +1665,7 @@ const QUESTIONS = {
         "2.0 × 10⁴ N/C, same direction as the force"
       ],
       "correct": 2,
-      "explanation": "Correct: 2.0 x 10<sup>4</sup> N/C, opposite direction to the force. The field is the force per unit charge, E = F/q. The magnitude is E = 0.060 N/(3.0 x 10<sup>-6</sup> C) = 2.0 x 10<sup>4</sup> N/C. The charge is negative, so the force on it points opposite to the field, which means the field points opposite to the force.\n\n(A) is wrong because 5.0 x 10<sup>-5</sup> is q/F inverted, and the direction is also wrong.\n(B) is wrong because it has the inverted ratio q/F = 3.0 x 10<sup>-6</sup>/0.060, which does not have field units.\n(D) is wrong because the magnitude is right but a negative charge feels force against the field, so the directions are opposite, not the same."
+      "explanation": "Correct: (C) 2.0 x 10<sup>4</sup> N/C, opposite direction to the force. The field is the force per unit charge, E = F/q. The magnitude is E = 0.060 N/(3.0 x 10<sup>-6</sup> C) = 2.0 x 10<sup>4</sup> N/C. The charge is negative, so the force on it points opposite to the field, which means the field points opposite to the force.\n\n(A) is wrong because 5.0 x 10<sup>-5</sup> is q/F inverted, and the direction is also wrong.\n(B) is wrong because it has the inverted ratio q/F = 3.0 x 10<sup>-6</sup>/0.060, which does not have field units.\n(D) is wrong because the magnitude is right but a negative charge feels force against the field, so the directions are opposite, not the same."
     },
     {
       "id": "10-26",
@@ -1691,7 +1691,7 @@ const QUESTIONS = {
         "It does not accelerate."
       ],
       "correct": 0,
-      "explanation": "Correct: −x. The force on a charge in a field is F = qE. For a negative q the force is opposite to E. The field is along +x, so the force and the initial acceleration (a = F/m) are along −x.\n\n(B) is wrong because +x is the direction a positive charge would accelerate.\n(C) is wrong because there is no y-component in the field, so there is no y-component of force.\n(D) is wrong because a nonzero field acting on a nonzero charge gives a nonzero force, so the charge accelerates."
+      "explanation": "Correct: (A) −x. The force on a charge in a field is F = qE. For a negative q the force is opposite to E. The field is along +x, so the force and the initial acceleration (a = F/m) are along −x.\n\n(B) is wrong because +x is the direction a positive charge would accelerate.\n(C) is wrong because there is no y-component in the field, so there is no y-component of force.\n(D) is wrong because a nonzero field acting on a nonzero charge gives a nonzero force, so the charge accelerates."
     },
     {
       "id": "10-28",
@@ -1704,7 +1704,7 @@ const QUESTIONS = {
         "A = B = C"
       ],
       "correct": 1,
-      "explanation": "Correct: A > B > C. For a point charge E = kq/r<sup>2</sup>, so the field falls with the square of the distance. With distances r, 2r, 3r the fields are in the ratio 1 : 1/4 : 1/9, so E<sub>A</sub> = kq/r<sup>2</sup> > E<sub>B</sub> = kq/4r<sup>2</sup> > E<sub>C</sub> = kq/9r<sup>2</sup>. The closest point has the strongest field.\n\n(A) is wrong because it puts the middle distance first, which doesn't match any monotonic falloff.\n(C) is wrong because it reverses the order, as if the field grew with distance.\n(D) is wrong because the field depends on distance, so the three points differ."
+      "explanation": "Correct: (B) A > B > C. For a point charge E = kq/r<sup>2</sup>, so the field falls with the square of the distance. With distances r, 2r, 3r the fields are in the ratio 1 : 1/4 : 1/9, so E<sub>A</sub> = kq/r<sup>2</sup> > E<sub>B</sub> = kq/4r<sup>2</sup> > E<sub>C</sub> = kq/9r<sup>2</sup>. The closest point has the strongest field.\n\n(A) is wrong because it puts the middle distance first, which doesn't match any monotonic falloff.\n(C) is wrong because it reverses the order, as if the field grew with distance.\n(D) is wrong because the field depends on distance, so the three points differ."
     },
     {
       "id": "10-29",
@@ -1717,7 +1717,7 @@ const QUESTIONS = {
         "They are perpendicular to each other."
       ],
       "correct": 0,
-      "explanation": "Correct: they point in the same direction and add. At the midpoint the field from +Q points away from +Q, which is toward −Q. The field from −Q points toward −Q, so it is also toward −Q. Both are along the line joining the charges and both point the same way, so the magnitudes add.\n\n(B) is wrong because cancellation at the midpoint is what happens with two like charges, not opposite ones.\n(C) is wrong because every charge produces a field at every point, including the −Q.\n(D) is wrong because both fields lie along the same line, so they cannot be perpendicular."
+      "explanation": "Correct: (A) They point in the same direction and add. At the midpoint the field from +Q points away from +Q, which is toward −Q. The field from −Q points toward −Q, so it is also toward −Q. Both are along the line joining the charges and both point the same way, so the magnitudes add.\n\n(B) is wrong because cancellation at the midpoint is what happens with two like charges, not opposite ones.\n(C) is wrong because every charge produces a field at every point, including the −Q.\n(D) is wrong because both fields lie along the same line, so they cannot be perpendicular."
     },
     {
       "id": "10-30",
@@ -1743,7 +1743,7 @@ const QUESTIONS = {
         "The measured field is smaller with the larger test charge."
       ],
       "correct": 2,
-      "explanation": "Correct: the measured field is the same either way. The electric field is defined as E = F/q, the force per unit test charge. A larger test charge feels proportionally more force (F = qE), so the ratio F/q is unchanged. That is why E is a property of the source charges and the point in space, not of the test charge (assuming the test charge is small enough not to disturb the source).\n\n(A) is wrong because the comparison needs no value of the source charge, only the definition of E.\n(B) is wrong because it confuses the larger force with a larger field.\n(D) is wrong because the larger charge does not make the ratio smaller; both F and q scale together."
+      "explanation": "Correct: (C) The measured field is the same either way. The electric field is defined as E = F/q, the force per unit test charge. A larger test charge feels proportionally more force (F = qE), so the ratio F/q is unchanged. That is why E is a property of the source charges and the point in space, not of the test charge (assuming the test charge is small enough not to disturb the source).\n\n(A) is wrong because the comparison needs no value of the source charge, only the definition of E.\n(B) is wrong because it confuses the larger force with a larger field.\n(D) is wrong because the larger charge does not make the ratio smaller; both F and q scale together."
     },
     {
       "id": "10-77",
@@ -1854,7 +1854,7 @@ const QUESTIONS = {
         "0.045 J"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.225 J. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r. Substituting: U = (9.0 x 10<sup>9</sup>)(3.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/0.60 = (9.0 x 10<sup>9</sup>)(1.5 x 10<sup>-11</sup>)/0.60 = 0.135/0.60 = 0.225 J. It is positive because the charges are like charges.\n\n(A) is wrong because 1.35 J is ten times the numerator 0.135 and also ignores dividing by r, a power-of-ten slip.\n(B) is wrong because 2.25 J is ten times the right answer, from a power-of-ten error in the conversion from μC.\n(D) is wrong because 0.045 J is one third of 0.135, from dividing by 3 instead of by 0.60."
+      "explanation": "Correct: (C) 0.225 J. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r. Substituting: U = (9.0 x 10<sup>9</sup>)(3.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/0.60 = (9.0 x 10<sup>9</sup>)(1.5 x 10<sup>-11</sup>)/0.60 = 0.135/0.60 = 0.225 J. It is positive because the charges are like charges.\n\n(A) is wrong because 1.35 J is ten times the numerator 0.135 and also ignores dividing by r, a power-of-ten slip.\n(B) is wrong because 2.25 J is ten times the right answer, from a power-of-ten error in the conversion from μC.\n(D) is wrong because 0.045 J is one third of 0.135, from dividing by 3 instead of by 0.60."
     },
     {
       "id": "10-33",
@@ -1867,7 +1867,7 @@ const QUESTIONS = {
         "Both decrease."
       ],
       "correct": 1,
-      "explanation": "Correct: KE increases; PE decreases. Two like charges repel, so the fixed charge's force on the moving charge points along its motion and does positive work on it. That work speeds it up, so kinetic energy rises. The system's potential energy U = kq<sub>1</sub>q<sub>2</sub>/r falls as r grows. With no outside forces, total energy is conserved: the drop in U equals the gain in KE.\n\n(A) is wrong because it has both energies changing the wrong way, as if the charge slowed down while moving away.\n(C) is wrong because KE and PE cannot both rise in an isolated system without external work.\n(D) is wrong because both cannot fall, since energy would disappear."
+      "explanation": "Correct: (B) KE increases; PE decreases. Two like charges repel, so the fixed charge's force on the moving charge points along its motion and does positive work on it. That work speeds it up, so kinetic energy rises. The system's potential energy U = kq<sub>1</sub>q<sub>2</sub>/r falls as r grows. With no outside forces, total energy is conserved: the drop in U equals the gain in KE.\n\n(A) is wrong because it has both energies changing the wrong way, as if the charge slowed down while moving away.\n(C) is wrong because KE and PE cannot both rise in an isolated system without external work.\n(D) is wrong because both cannot fall, since energy would disappear."
     },
     {
       "id": "10-34",
@@ -1893,7 +1893,7 @@ const QUESTIONS = {
         "−0.36 J"
       ],
       "correct": 0,
-      "explanation": "Correct: −0.18 J. For two point charges U = kq<sub>1</sub>q<sub>2</sub>/r, keeping the signs. U = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)(−2.0 x 10<sup>-6</sup>)/0.40 = (9.0 x 10<sup>9</sup>)(−8.0 x 10<sup>-12</sup>)/0.40 = −0.072/0.40 = −0.18 J. Opposite charges attract, so the system's energy is below zero, the value at infinite separation.\n\n(B) is wrong because 0.36 J drops the sign and also doubles the magnitude.\n(C) is wrong because it has the right size but drops the negative sign.\n(D) is wrong because it has the right sign but is twice the right size, a factor-of-2 slip."
+      "explanation": "Correct: (A) −0.18 J. For two point charges U = kq<sub>1</sub>q<sub>2</sub>/r, keeping the signs. U = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)(−2.0 x 10<sup>-6</sup>)/0.40 = (9.0 x 10<sup>9</sup>)(−8.0 x 10<sup>-12</sup>)/0.40 = −0.072/0.40 = −0.18 J. Opposite charges attract, so the system's energy is below zero, the value at infinite separation.\n\n(B) is wrong because 0.36 J drops the sign and also doubles the magnitude.\n(C) is wrong because it has the right size but drops the negative sign.\n(D) is wrong because it has the right sign but is twice the right size, a factor-of-2 slip."
     },
     {
       "id": "10-36",
@@ -1906,7 +1906,7 @@ const QUESTIONS = {
         "Positive"
       ],
       "correct": 3,
-      "explanation": "Correct: positive. Like charges repel, so to bring them together from infinity the agent must push against the repulsive force. The agent's force points along the displacement, so W<sub>agent</sub> = +ΔU = kq<sub>1</sub>q<sub>2</sub>/d > 0. Because the motion is slow (ΔKE = 0), all this work is stored as potential energy.\n\n(A) is wrong because the repulsion has to be overcome, so work is needed.\n(B) is wrong because the sign depends only on whether the pair attracts or repels, not on which charge is moved.\n(C) is wrong because negative work would mean the repulsion pushed the agent along, which is the opposite of the situation."
+      "explanation": "Correct: (D) Positive. Like charges repel, so to bring them together from infinity the agent must push against the repulsive force. The agent's force points along the displacement, so W<sub>agent</sub> = +ΔU = kq<sub>1</sub>q<sub>2</sub>/d > 0. Because the motion is slow (ΔKE = 0), all this work is stored as potential energy.\n\n(A) is wrong because the repulsion has to be overcome, so work is needed.\n(B) is wrong because the sign depends only on whether the pair attracts or repels, not on which charge is moved.\n(C) is wrong because negative work would mean the repulsion pushed the agent along, which is the opposite of the situation."
     },
     {
       "id": "10-37",
@@ -1919,7 +1919,7 @@ const QUESTIONS = {
         "Negative"
       ],
       "correct": 3,
-      "explanation": "Correct: negative. Opposite charges attract, so left alone they would speed up toward each other. To bring them together slowly with no change in kinetic energy, the agent must hold them back: its force points against the displacement. So W<sub>agent</sub> = ΔU = kq<sub>1</sub>q<sub>2</sub>/d, which is negative because q<sub>1</sub>q<sub>2</sub> < 0. The system's energy drops from 0 at infinity to a negative value.\n\n(A) is wrong because positive work would be needed to pull the charges apart, not bring them together.\n(B) is wrong because the agent still has to counter the attractive force.\n(C) is wrong because the sign depends on attraction versus repulsion, not on which charge moves."
+      "explanation": "Correct: (D) Negative. Opposite charges attract, so left alone they would speed up toward each other. To bring them together slowly with no change in kinetic energy, the agent must hold them back: its force points against the displacement. So W<sub>agent</sub> = ΔU = kq<sub>1</sub>q<sub>2</sub>/d, which is negative because q<sub>1</sub>q<sub>2</sub> < 0. The system's energy drops from 0 at infinity to a negative value.\n\n(A) is wrong because positive work would be needed to pull the charges apart, not bring them together.\n(B) is wrong because the agent still has to counter the attractive force.\n(C) is wrong because the sign depends on attraction versus repulsion, not on which charge moves."
     },
     {
       "id": "10-38",
@@ -1932,7 +1932,7 @@ const QUESTIONS = {
         "PE decreases; external agent does positive work."
       ],
       "correct": 1,
-      "explanation": "Correct: PE increases; the external agent does positive work. The charges are both positive, so they repel. Moving +2Q from 0.80 m to 0.20 m brings them closer against that repulsion. U = k(Q)(2Q)/r grows as r shrinks, going from 2kQ<sup>2</sup>/0.80 to 2kQ<sup>2</sup>/0.20, a four-fold increase. The agent supplies that energy, so W<sub>agent</sub> = ΔU > 0.\n\n(A) is wrong because PE rises correctly, but the agent's work equals ΔU, so it cannot be negative.\n(C) is wrong because it has the PE falling and the work negative, but closer like charges store energy.\n(D) is wrong because the PE does not decrease for like charges brought closer."
+      "explanation": "Correct: (B) PE increases; the external agent does positive work. The charges are both positive, so they repel. Moving +2Q from 0.80 m to 0.20 m brings them closer against that repulsion. U = k(Q)(2Q)/r grows as r shrinks, going from 2kQ<sup>2</sup>/0.80 to 2kQ<sup>2</sup>/0.20, a four-fold increase. The agent supplies that energy, so W<sub>agent</sub> = ΔU > 0.\n\n(A) is wrong because PE rises correctly, but the agent's work equals ΔU, so it cannot be negative.\n(C) is wrong because it has the PE falling and the work negative, but closer like charges store energy.\n(D) is wrong because the PE does not decrease for like charges brought closer."
     },
     {
       "id": "10-86",
@@ -1959,7 +1959,7 @@ const QUESTIONS = {
         "−5.4 × 10⁴ V"
       ],
       "correct": 2,
-      "explanation": "Correct: −2.16 x 10<sup>5</sup> V. The potential of a point charge is V = kq/r, which keeps the sign of q. V = (9.0 x 10<sup>9</sup>)(−6.0 x 10<sup>-6</sup>)/0.25 = (−5.4 x 10<sup>4</sup>)/0.25 = −2.16 x 10<sup>5</sup> V. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m = J/C = V.\n\n(A) is wrong because it is the numerator kq without dividing by r, and without the sign.\n(B) is wrong because the size is right but the sign is wrong, since a negative charge gives negative potential.\n(D) is wrong because it has the right sign but stops at kq = −5.4 x 10<sup>4</sup> without dividing by r."
+      "explanation": "Correct: (C) −2.16 x 10<sup>5</sup> V. The potential of a point charge is V = kq/r, which keeps the sign of q. V = (9.0 x 10<sup>9</sup>)(−6.0 x 10<sup>-6</sup>)/0.25 = (−5.4 x 10<sup>4</sup>)/0.25 = −2.16 x 10<sup>5</sup> V. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m = J/C = V.\n\n(A) is wrong because it is the numerator kq without dividing by r, and without the sign.\n(B) is wrong because the size is right but the sign is wrong, since a negative charge gives negative potential.\n(D) is wrong because it has the right sign but stops at kq = −5.4 x 10<sup>4</sup> without dividing by r."
     },
     {
       "id": "10-40",
@@ -1972,7 +1972,7 @@ const QUESTIONS = {
         "A large positive value"
       ],
       "correct": 0,
-      "explanation": "Correct: zero. Electric potential is a scalar, and contributions add algebraically with their signs. At P the +2.0 μC charge gives +kq/r and the −2.0 μC charge gives −kq/r, since the distance r is the same. They sum to zero.\n\n(B) is wrong because that would need two negative charges, not one of each sign.\n(C) is wrong because the equal distances make the two terms cancel for any value of r.\n(D) is wrong because that would need two positive charges, not opposite ones."
+      "explanation": "Correct: (A) Zero. Electric potential is a scalar, and contributions add algebraically with their signs. At P the +2.0 μC charge gives +kq/r and the −2.0 μC charge gives −kq/r, since the distance r is the same. They sum to zero.\n\n(B) is wrong because that would need two negative charges, not one of each sign.\n(C) is wrong because the equal distances make the two terms cancel for any value of r.\n(D) is wrong because that would need two positive charges, not opposite ones."
     },
     {
       "id": "10-41",
@@ -1986,7 +1986,7 @@ const QUESTIONS = {
         "Yes, but only if there is just a single point charge in the system."
       ],
       "correct": 0,
-      "explanation": "Correct: yes. Potential is a scalar sum, so +kQ/r and −kQ/r cancel to V = 0 at the midpoint of a +Q and −Q pair. The field is a vector sum, and at that midpoint both fields point toward −Q, so they add to E = 2kQ/(d/2)<sup>2</sup> = 8kQ/d<sup>2</sup>, not zero. E is related to the slope of V (E = −dV/dx), not to the value of V, so V = 0 does not force E = 0.\n\n(B) is wrong because the zero of V is only a choice of where V crosses zero, and the slope can be nonzero there.\n(C) is wrong because E and V are not proportional; E depends on the rate of change of V.\n(D) is wrong because a single point charge never has V = 0 at a finite distance, so the case needs at least two charges."
+      "explanation": "Correct: (A) Yes. Potential is a scalar sum, so +kQ/r and −kQ/r cancel to V = 0 at the midpoint of a +Q and −Q pair. The field is a vector sum, and at that midpoint both fields point toward −Q, so they add to E = 2kQ/(d/2)<sup>2</sup> = 8kQ/d<sup>2</sup>, not zero. E is related to the slope of V (E = −dV/dx), not to the value of V, so V = 0 does not force E = 0.\n\n(B) is wrong because the zero of V is only a choice of where V crosses zero, and the slope can be nonzero there.\n(C) is wrong because E and V are not proportional; E depends on the rate of change of V.\n(D) is wrong because a single point charge never has V = 0 at a finite distance, so the case needs at least two charges."
     },
     {
       "id": "10-42",
@@ -1999,7 +1999,7 @@ const QUESTIONS = {
         "1.0 × 10⁵ V"
       ],
       "correct": 2,
-      "explanation": "Correct: 3.1 x 10<sup>5</sup> V. Potential is a scalar, so add each charge's kq/r. Each +2.0 μC gives V = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)/0.17 = 1.8 x 10<sup>4</sup>/0.17 ≈ 1.06 x 10<sup>5</sup> V, or about 1.04 x 10<sup>5</sup> V using the exact distance 0.30/√3 = 0.173 m. Three equal contributions give V ≈ 3.1 x 10<sup>5</sup> V. All three are positive, so none cancel.\n\n(A) is wrong because 2.1 x 10<sup>5</sup> V includes only two charges.\n(B) is wrong because 9.4 x 10<sup>5</sup> V is about three times too large, as if the triple was applied twice.\n(D) is wrong because 1.0 x 10<sup>5</sup> V is only one charge's contribution."
+      "explanation": "Correct: (C) 3.1 x 10<sup>5</sup> V. Potential is a scalar, so add each charge's kq/r. Each +2.0 μC gives V = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)/0.17 = 1.8 x 10<sup>4</sup>/0.17 ≈ 1.06 x 10<sup>5</sup> V, or about 1.04 x 10<sup>5</sup> V using the exact distance 0.30/√3 = 0.173 m. Three equal contributions give V ≈ 3.1 x 10<sup>5</sup> V. All three are positive, so none cancel.\n\n(A) is wrong because 2.1 x 10<sup>5</sup> V includes only two charges.\n(B) is wrong because 9.4 x 10<sup>5</sup> V is about three times too large, as if the triple was applied twice.\n(D) is wrong because 1.0 x 10<sup>5</sup> V is only one charge's contribution."
     },
     {
       "id": "10-43",
@@ -2012,7 +2012,7 @@ const QUESTIONS = {
         "Zero, by definition."
       ],
       "correct": 3,
-      "explanation": "Correct: zero, by definition. On an equipotential surface ΔV = 0 between any two points, and the work done by the electric force is W = −qΔV = 0. This holds for any path along the surface and any distance moved, because the electric force is perpendicular to the surface so F·d = 0.\n\n(A) is wrong because positive work would require a potential drop along the path.\n(B) is wrong because the work done by the electric force depends on the potential difference, not on speed.\n(C) is wrong because negative work would require a potential rise along the path."
+      "explanation": "Correct: (D) Zero, by definition. On an equipotential surface ΔV = 0 between any two points, and the work done by the electric force is W = −qΔV = 0. This holds for any path along the surface and any distance moved, because the electric force is perpendicular to the surface so F·d = 0.\n\n(A) is wrong because positive work would require a potential drop along the path.\n(B) is wrong because the work done by the electric force depends on the potential difference, not on speed.\n(C) is wrong because negative work would require a potential rise along the path."
     },
     {
       "id": "10-44",
@@ -2051,7 +2051,7 @@ const QUESTIONS = {
         "1.5 × 10⁵ V/m"
       ],
       "correct": 2,
-      "explanation": "Correct: 1.5 x 10<sup>4</sup> V/m. The field between parallel plates is uniform with magnitude E = ΔV/d. E = 300 V/0.020 m = 1.5 x 10<sup>4</sup> V/m, which is the same as N/C.\n\n(A) is wrong because 6.0 x 10<sup>4</sup> V/m is four times too large, not from the correct division.\n(B) is wrong because 6.0 x 10<sup>3</sup> V/m comes from multiplying 300 x 0.020 = 6.0 and misplacing a decimal, not dividing.\n(D) is wrong because 1.5 x 10<sup>5</sup> V/m is ten times too large, a decimal-place slip on the 0.020 m."
+      "explanation": "Correct: (C) 1.5 x 10<sup>4</sup> V/m. The field between parallel plates is uniform with magnitude E = ΔV/d. E = 300 V/0.020 m = 1.5 x 10<sup>4</sup> V/m, which is the same as N/C.\n\n(A) is wrong because 6.0 x 10<sup>4</sup> V/m is four times too large, not from the correct division.\n(B) is wrong because 6.0 x 10<sup>3</sup> V/m comes from multiplying 300 x 0.020 = 6.0 and misplacing a decimal, not dividing.\n(D) is wrong because 1.5 x 10<sup>5</sup> V/m is ten times too large, a decimal-place slip on the 0.020 m."
     },
     {
       "id": "10-47",
@@ -2064,7 +2064,7 @@ const QUESTIONS = {
         "480 μC"
       ],
       "correct": 2,
-      "explanation": "Correct: 48 μC. Capacitance is defined by C = Q/ΔV, so Q = CΔV. Q = (4.0 x 10<sup>-6</sup> F)(12 V) = 4.8 x 10<sup>-5</sup> C = 48 μC. Units: F x V = C.\n\n(A) is wrong because 0.33 μC is 4.0/12, dividing C by ΔV instead of multiplying.\n(B) is wrong because 3.0 μC is 12/4.0, dividing ΔV by C instead of multiplying.\n(D) is wrong because 480 μC is ten times too large, a decimal-place slip."
+      "explanation": "Correct: (C) 48 μC. Capacitance is defined by C = Q/ΔV, so Q = CΔV. Q = (4.0 x 10<sup>-6</sup> F)(12 V) = 4.8 x 10<sup>-5</sup> C = 48 μC. Units: F x V = C.\n\n(A) is wrong because 0.33 μC is 4.0/12, dividing C by ΔV instead of multiplying.\n(B) is wrong because 3.0 μC is 12/4.0, dividing ΔV by C instead of multiplying.\n(D) is wrong because 480 μC is ten times too large, a decimal-place slip."
     },
     {
       "id": "10-48",
@@ -2077,7 +2077,7 @@ const QUESTIONS = {
         "0.25 μF"
       ],
       "correct": 2,
-      "explanation": "Correct: 4.0 μF. Capacitance is defined as C = Q/ΔV, the charge stored per volt. C = (2.0 x 10<sup>-4</sup> C)/(50 V) = 4.0 x 10<sup>-6</sup> F = 4.0 μF.\n\n(A) is wrong because 25 μF is 50/2, which divides the voltage by the coefficient 2.0 and ignores the power of ten on the charge.\n(B) is wrong because 100 μF is 50 x 2.0, which multiplies the numbers instead of dividing the charge by the voltage.\n(D) is wrong because 0.25 μF is 1/4.0 with the units dropped; the correct ratio is Q/ΔV, which gives 4.0 μF."
+      "explanation": "Correct: (C) 4.0 μF. Capacitance is defined as C = Q/ΔV, the charge stored per volt. C = (2.0 x 10<sup>-4</sup> C)/(50 V) = 4.0 x 10<sup>-6</sup> F = 4.0 μF.\n\n(A) is wrong because 25 μF is 50/2, which divides the voltage by the coefficient 2.0 and ignores the power of ten on the charge.\n(B) is wrong because 100 μF is 50 x 2.0, which multiplies the numbers instead of dividing the charge by the voltage.\n(D) is wrong because 0.25 μF is 1/4.0 with the units dropped; the correct ratio is Q/ΔV, which gives 4.0 μF."
     },
     {
       "id": "10-49",
@@ -2090,7 +2090,7 @@ const QUESTIONS = {
         "3.0 × 10⁻² J"
       ],
       "correct": 3,
-      "explanation": "Correct: 3.0 x 10<sup>-2</sup> J. The energy stored in a capacitor is U = ½CΔV<sup>2</sup>. U = ½(6.0 x 10<sup>-6</sup> F)(100 V)<sup>2</sup> = ½(6.0 x 10<sup>-6</sup>)(10<sup>4</sup>) = 3.0 x 10<sup>-2</sup> J = 0.030 J.\n\n(A) is wrong because 3.0 x 10<sup>-4</sup> J uses ½CΔV with ΔV not squared.\n(B) is wrong because 6.0 x 10<sup>-3</sup> J is not the result of any single correct step; dropping the ½ would give 6.0 x 10<sup>-2</sup> J, so this is a power-of-ten slip.\n(C) is wrong because 6.0 x 10<sup>-1</sup> J is 20 times the correct value, a power-of-ten slip on top of dropping the ½."
+      "explanation": "Correct: (D) 3.0 x 10<sup>-2</sup> J. The energy stored in a capacitor is U = ½CΔV<sup>2</sup>. U = ½(6.0 x 10<sup>-6</sup> F)(100 V)<sup>2</sup> = ½(6.0 x 10<sup>-6</sup>)(10<sup>4</sup>) = 3.0 x 10<sup>-2</sup> J = 0.030 J.\n\n(A) is wrong because 3.0 x 10<sup>-4</sup> J uses ½CΔV with ΔV not squared.\n(B) is wrong because 6.0 x 10<sup>-3</sup> J is not the result of any single correct step; dropping the ½ would give 6.0 x 10<sup>-2</sup> J, so this is a power-of-ten slip.\n(C) is wrong because 6.0 x 10<sup>-1</sup> J is 20 times the correct value, a power-of-ten slip on top of dropping the ½."
     },
     {
       "id": "10-50",
@@ -2103,7 +2103,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Correct: it doubles. For a parallel plate capacitor C = κε<sub>0</sub>A/d, so C is directly proportional to the plate area. Doubling A doubles C. The voltage is held fixed, so Q = CΔV doubles as well.\n\n(B) is wrong because charge is proportional to area, not to its square.\n(C) is wrong because a larger plate area holds more charge for the same voltage, not less.\n(D) is wrong because area appears in the capacitance and so changes the charge at fixed ΔV."
+      "explanation": "Correct: (A) It doubles. For a parallel plate capacitor C = κε<sub>0</sub>A/d, so C is directly proportional to the plate area. Doubling A doubles C. The voltage is held fixed, so Q = CΔV doubles as well.\n\n(B) is wrong because charge is proportional to area, not to its square.\n(C) is wrong because a larger plate area holds more charge for the same voltage, not less.\n(D) is wrong because area appears in the capacitance and so changes the charge at fixed ΔV."
     },
     {
       "id": "10-51",
@@ -2116,7 +2116,7 @@ const QUESTIONS = {
         "Charge stays constant; capacitance increases; voltage decreases."
       ],
       "correct": 2,
-      "explanation": "Correct: charge stays constant; capacitance decreases; voltage increases. Once the battery is disconnected, the plates are isolated and the charge on them has nowhere to go, so Q = Q<sub>0</sub>. Increasing d lowers C = κε<sub>0</sub>A/d. Then ΔV = Q/C must rise since Q is fixed and C fell.\n\n(A) is wrong because it says the charge decreases, but no path exists for it to leave.\n(B) is wrong because charge can't increase without a battery to supply it, and C does change when d changes.\n(D) is wrong because moving the plates farther apart lowers capacitance rather than raising it, and the voltage would then rise, not fall."
+      "explanation": "Correct: (C) Charge stays constant; capacitance decreases; voltage increases. Once the battery is disconnected, the plates are isolated and the charge on them has nowhere to go, so Q = Q<sub>0</sub>. Increasing d lowers C = κε<sub>0</sub>A/d. Then ΔV = Q/C must rise since Q is fixed and C fell.\n\n(A) is wrong because it says the charge decreases, but no path exists for it to leave.\n(B) is wrong because charge can't increase without a battery to supply it, and C does change when d changes.\n(D) is wrong because moving the plates farther apart lowers capacitance rather than raising it, and the voltage would then rise, not fall."
     },
     {
       "id": "10-52",
@@ -2155,7 +2155,7 @@ const QUESTIONS = {
         "The dielectric decreases the distance between the plates."
       ],
       "correct": 0,
-      "explanation": "The dielectric's molecules polarize in the field between the plates, creating an internal field that partially opposes the plates' own field; a weaker net field for the same charge means a lower voltage, and since C = Q/ΔV, a lower ΔV for the same Q means higher capacitance — Choice A. Choice B wrongly assumes the dielectric supplies its own charge, when the plates' charge is unchanged; only the field and voltage between them change. Choice C invents a change to plate area, which the dielectric doesn't affect at all. Choice D invents a change to plate separation, which likewise isn't altered by inserting a dielectric — only the material filling the existing gap changes."
+      "explanation": "Correct: (A) The dielectric polarizes, which lowers the voltage needed for a given charge. The dielectric's molecules polarize in the field between the plates, creating an internal field that partially opposes the plates' own field; a weaker net field for the same charge means a lower voltage, and since C = Q/ΔV, a lower ΔV for the same Q means higher capacitance — Choice A. Choice B wrongly assumes the dielectric supplies its own charge, when the plates' charge is unchanged; only the field and voltage between them change. Choice C invents a change to plate area, which the dielectric doesn't affect at all. Choice D invents a change to plate separation, which likewise isn't altered by inserting a dielectric — only the material filling the existing gap changes."
     },
     {
       "id": "10-84",
@@ -2196,7 +2196,7 @@ const QUESTIONS = {
         "8.0 × 10⁻¹⁷ J"
       ],
       "correct": 3,
-      "explanation": "Correct: 8.0 x 10<sup>-17</sup> J. The electric force does work W = |q|ΔV on the electron, and starting from rest this becomes its kinetic energy. K = (1.6 x 10<sup>-19</sup> C)(500 V) = 8.0 x 10<sup>-17</sup> J, which is 500 eV.\n\n(A) is wrong because 8.0 x 10<sup>-14</sup> J is a thousand times too large, a power-of-ten error.\n(B) is wrong because 1.6 x 10<sup>-16</sup> J is double the right value, from a stray factor of 2.\n(C) is wrong because 3.2 x 10<sup>-17</sup> J is not |q|ΔV; it is a multiplication slip."
+      "explanation": "Correct: (D) 8.0 x 10<sup>-17</sup> J. The electric force does work W = |q|ΔV on the electron, and starting from rest this becomes its kinetic energy. K = (1.6 x 10<sup>-19</sup> C)(500 V) = 8.0 x 10<sup>-17</sup> J, which is 500 eV.\n\n(A) is wrong because 8.0 x 10<sup>-14</sup> J is a thousand times too large, a power-of-ten error.\n(B) is wrong because 1.6 x 10<sup>-16</sup> J is double the right value, from a stray factor of 2.\n(C) is wrong because 3.2 x 10<sup>-17</sup> J is not |q|ΔV; it is a multiplication slip."
     },
     {
       "id": "10-56",
@@ -2209,7 +2209,7 @@ const QUESTIONS = {
         "Same force; electron has much greater acceleration."
       ],
       "correct": 3,
-      "explanation": "Correct: same force; the electron has a much greater acceleration. The force in a uniform field is F = |q|E. The proton and electron both have charge of magnitude e, so the magnitudes of the forces are equal. Acceleration is a = F/m. The electron's mass (9.11 x 10<sup>-31</sup> kg) is about 1/1836 of the proton's (1.67 x 10<sup>-27</sup> kg), so its acceleration is about 1800 times greater, in the opposite direction.\n\n(A) is wrong because equal forces on unequal masses do not give equal accelerations.\n(B) is wrong because the force depends on charge, not mass, so it is the same on both.\n(C) is wrong because the proton does not feel more force, and the lighter electron has the larger acceleration."
+      "explanation": "Correct: (D) Same force; the electron has a much greater acceleration. The force in a uniform field is F = |q|E. The proton and electron both have charge of magnitude e, so the magnitudes of the forces are equal. Acceleration is a = F/m. The electron's mass (9.11 x 10<sup>-31</sup> kg) is about 1/1836 of the proton's (1.67 x 10<sup>-27</sup> kg), so its acceleration is about 1800 times greater, in the opposite direction.\n\n(A) is wrong because equal forces on unequal masses do not give equal accelerations.\n(B) is wrong because the force depends on charge, not mass, so it is the same on both.\n(C) is wrong because the proton does not feel more force, and the lighter electron has the larger acceleration."
     },
     {
       "id": "10-57",
@@ -2222,7 +2222,7 @@ const QUESTIONS = {
         "3.0 × 10⁻⁴ J"
       ],
       "correct": 2,
-      "explanation": "Correct: +1.2 x 10<sup>-4</sup> J. The work done by the electric force is W = −qΔV = −q(V<sub>f</sub> − V<sub>i</sub>). W = −(2.0 x 10<sup>-6</sup> C)(90 − 150) V = −(2.0 x 10<sup>-6</sup>)(−60) = +1.2 x 10<sup>-4</sup> J. A positive charge moving to lower potential gains kinetic energy, so the field does positive work.\n\n(A) is wrong because it has the right size but the wrong sign, as if the charge moved uphill.\n(B) is wrong because 3.0 x 10<sup>-4</sup> J is q times 150 V, using the starting potential instead of the change, and also has the wrong sign.\n(D) is wrong because 3.0 x 10<sup>-4</sup> J is q x 150 V, using the potential itself instead of the potential difference of 60 V."
+      "explanation": "Correct: (C) +1.2 x 10<sup>-4</sup> J. The work done by the electric force is W = −qΔV = −q(V<sub>f</sub> − V<sub>i</sub>). W = −(2.0 x 10<sup>-6</sup> C)(90 − 150) V = −(2.0 x 10<sup>-6</sup>)(−60) = +1.2 x 10<sup>-4</sup> J. A positive charge moving to lower potential gains kinetic energy, so the field does positive work.\n\n(A) is wrong because it has the right size but the wrong sign, as if the charge moved uphill.\n(B) is wrong because 3.0 x 10<sup>-4</sup> J is q times 150 V, using the starting potential instead of the change, and also has the wrong sign.\n(D) is wrong because 3.0 x 10<sup>-4</sup> J is q x 150 V, using the potential itself instead of the potential difference of 60 V."
     },
     {
       "id": "10-58",
@@ -2235,7 +2235,7 @@ const QUESTIONS = {
         "It moved perpendicular to the field at every single instant."
       ],
       "correct": 2,
-      "explanation": "Correct: it started and ended at points of equal electric potential. With only the electric force acting, the work-energy theorem gives ΔK = W = −qΔV. If ΔK = 0 and the charge q is nonzero, then ΔV = 0, so the start and end points have the same potential. The path in between can be anything.\n\n(A) is wrong because the field can change along the path as long as the net potential change is zero.\n(B) is wrong because with q = 0 there would be no electric force at all, which contradicts the setup.\n(D) is wrong because moving perpendicular at every instant is only one way to keep KE constant; the particle could wander and return to the same potential."
+      "explanation": "Correct: (C) It started and ended at points of equal electric potential. With only the electric force acting, the work-energy theorem gives ΔK = W = −qΔV. If ΔK = 0 and the charge q is nonzero, then ΔV = 0, so the start and end points have the same potential. The path in between can be anything.\n\n(A) is wrong because the field can change along the path as long as the net potential change is zero.\n(B) is wrong because with q = 0 there would be no electric force at all, which contradicts the setup.\n(D) is wrong because moving perpendicular at every instant is only one way to keep KE constant; the particle could wander and return to the same potential."
     },
     {
       "id": "10-59",
@@ -2248,7 +2248,7 @@ const QUESTIONS = {
         "4.4 × 10⁴ m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: 4.4 x 10<sup>5</sup> m/s. The electric force does work qΔV, which becomes kinetic energy: ½mv<sup>2</sup> = qΔV. So K = (1.6 x 10<sup>-19</sup>)(1000) = 1.6 x 10<sup>-16</sup> J, and v = √(2K/m) = √(2(1.6 x 10<sup>-16</sup>)/(1.67 x 10<sup>-27</sup>)) = √(1.9 x 10<sup>11</sup>) = 4.4 x 10<sup>5</sup> m/s.\n\n(A) is wrong because 4.4 x 10<sup>7</sup> m/s is 100 times too large, a power-of-ten slip.\n(B) is wrong because 1.9 x 10<sup>6</sup> m/s is not a correct step; it comes from mishandling the square root of a number like 1.9 x 10<sup>11</sup>.\n(D) is wrong because 4.4 x 10<sup>4</sup> m/s is ten times too small, a slip in the exponent under the root."
+      "explanation": "Correct: (C) 4.4 x 10<sup>5</sup> m/s. The electric force does work qΔV, which becomes kinetic energy: ½mv<sup>2</sup> = qΔV. So K = (1.6 x 10<sup>-19</sup>)(1000) = 1.6 x 10<sup>-16</sup> J, and v = √(2K/m) = √(2(1.6 x 10<sup>-16</sup>)/(1.67 x 10<sup>-27</sup>)) = √(1.9 x 10<sup>11</sup>) = 4.4 x 10<sup>5</sup> m/s.\n\n(A) is wrong because 4.4 x 10<sup>7</sup> m/s is 100 times too large, a power-of-ten slip.\n(B) is wrong because 1.9 x 10<sup>6</sup> m/s is not a correct step; it comes from mishandling the square root of a number like 1.9 x 10<sup>11</sup>.\n(D) is wrong because 4.4 x 10<sup>4</sup> m/s is ten times too small, a slip in the exponent under the root."
     },
     {
       "id": "10-60",
@@ -2262,7 +2262,7 @@ const QUESTIONS = {
         "It cannot be determined without knowing the relative force magnitudes."
       ],
       "correct": 3,
-      "explanation": "Gravity pulls the particle down regardless of charge, but the electric force on a negative charge in a downward field points upward (opposite the field) — so the two forces oppose each other, and without knowing which is larger (qE or mg), the net direction genuinely can't be determined, Choice D. Choice B wrongly assumes gravity always wins, which isn't guaranteed — a strong enough field could dominate instead. Choice C makes the opposite unjustified assumption, that electric forces are always stronger, which also isn't guaranteed for arbitrary field and mass values. Choice A wrongly assumes the two opposing forces must exactly balance, when nothing in the problem states their magnitudes are equal."
+      "explanation": "Correct: (D) It cannot be determined without knowing the relative force magnitudes. Gravity pulls the particle down regardless of charge, but the electric force on a negative charge in a downward field points upward (opposite the field) — so the two forces oppose each other, and without knowing which is larger (qE or mg), the net direction genuinely can't be determined, Choice D. Choice B wrongly assumes gravity always wins, which isn't guaranteed — a strong enough field could dominate instead. Choice C makes the opposite unjustified assumption, that electric forces are always stronger, which also isn't guaranteed for arbitrary field and mass values. Choice A wrongly assumes the two opposing forces must exactly balance, when nothing in the problem states their magnitudes are equal."
     },
     {
       "id": "10-61",
@@ -2276,7 +2276,7 @@ const QUESTIONS = {
         "W<sub>battery</sub> is always zero once the capacitor is fully charged."
       ],
       "correct": 2,
-      "explanation": "The battery moves total charge Q through a constant potential difference 𝓔, doing work W = Q𝓔; but the capacitor only stores ½Q𝓔, since its own voltage rises gradually from 0 to 𝓔 as it charges rather than jumping there instantly — the other half is dissipated as heat in the circuit's resistance, Choice C. Choice A correctly identifies the stored energy as ½Q𝓔 but wrongly claims that's also the full battery work, missing the heat loss entirely. Choice B correctly computes the battery's total work as Q𝓔 but wrongly assumes none of it is lost, contradicting the fact that the capacitor only ends up storing half. Choice D misunderstands the question — the battery's work was already done DURING the charging process; asking about it 'once fully charged' doesn't make it retroactively zero."
+      "explanation": "Correct: (C) W<sub>battery</sub> = Q𝓔 — twice the stored energy, with the rest lost as heat. The battery moves total charge Q through a constant potential difference 𝓔, doing work W = Q𝓔; but the capacitor only stores ½Q𝓔, since its own voltage rises gradually from 0 to 𝓔 as it charges rather than jumping there instantly — the other half is dissipated as heat in the circuit's resistance, Choice C. Choice A correctly identifies the stored energy as ½Q𝓔 but wrongly claims that's also the full battery work, missing the heat loss entirely. Choice B correctly computes the battery's total work as Q𝓔 but wrongly assumes none of it is lost, contradicting the fact that the capacitor only ends up storing half. Choice D misunderstands the question — the battery's work was already done DURING the charging process; asking about it 'once fully charged' doesn't make it retroactively zero."
     },
     {
       "id": "10-87",
@@ -2317,7 +2317,7 @@ const QUESTIONS = {
         "External work is positive; ΔU is negative; V at the final location is negative."
       ],
       "correct": 1,
-      "explanation": "Bringing a +q in from far away toward a fixed +Q must be done against repulsion, so the external agent does positive work, the potential energy rises (ΔU > 0, since the work goes directly into raising U), and the potential at the final location due to +Q is positive at any finite distance. Choice A treats the interaction as if it were attractive, giving negative work and a negative ΔU (it does keep V positive). Choice C gets the signs of both the work and V wrong, and its work and ΔU signs contradict each other. Choice D correctly identifies positive work but then flips both ΔU and V to negative, breaking the link between doing positive work against repulsion and both U and V increasing."
+      "explanation": "Correct: (B) External work is positive; ΔU is positive; V at the final location is positive. Bringing a +q in from far away toward a fixed +Q must be done against repulsion, so the external agent does positive work, the potential energy rises (ΔU > 0, since the work goes directly into raising U), and the potential at the final location due to +Q is positive at any finite distance. Choice A treats the interaction as if it were attractive, giving negative work and a negative ΔU (it does keep V positive). Choice C gets the signs of both the work and V wrong, and its work and ΔU signs contradict each other. Choice D correctly identifies positive work but then flips both ΔU and V to negative, breaking the link between doing positive work against repulsion and both U and V increasing."
     },
     {
       "id": "10-64",
@@ -2330,7 +2330,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Correct: it doubles. The potential of a point charge is V = kq/r, directly proportional to q at a fixed r. Replacing +Q by +2Q at the same location gives V' = k(2Q)/r = 2V.\n\n(B) is wrong because quadrupling would need V ∝ q<sup>2</sup>, but V is linear in q.\n(C) is wrong because a larger charge gives a larger potential, not a smaller one.\n(D) is wrong because the source charge appears directly in V = kq/r."
+      "explanation": "Correct: (A) It doubles. The potential of a point charge is V = kq/r, directly proportional to q at a fixed r. Replacing +Q by +2Q at the same location gives V' = k(2Q)/r = 2V.\n\n(B) is wrong because quadrupling would need V ∝ q<sup>2</sup>, but V is linear in q.\n(C) is wrong because a larger charge gives a larger potential, not a smaller one.\n(D) is wrong because the source charge appears directly in V = kq/r."
     },
     {
       "id": "10-65",
@@ -2356,7 +2356,7 @@ const QUESTIONS = {
         "+12 μC on the first sphere, 0 on the second."
       ],
       "correct": 0,
-      "explanation": "Correct: +6 μC on each sphere. When the identical conductors touch, charge moves until they are at the same potential, which for identical spheres means equal charges. The total is conserved: +12 μC + 0 = +12 μC, shared equally gives +6 μC each.\n\n(B) is wrong because touching does not neutralize both; only equal and opposite charges would cancel, and charge is conserved.\n(C) is wrong because +12 μC on each would total +24 μC, creating charge.\n(D) is wrong because it assumes nothing moves, but conductors in contact share charge freely."
+      "explanation": "Correct: (A) +6 μC on each sphere. When the identical conductors touch, charge moves until they are at the same potential, which for identical spheres means equal charges. The total is conserved: +12 μC + 0 = +12 μC, shared equally gives +6 μC each.\n\n(B) is wrong because touching does not neutralize both; only equal and opposite charges would cancel, and charge is conserved.\n(C) is wrong because +12 μC on each would total +24 μC, creating charge.\n(D) is wrong because it assumes nothing moves, but conductors in contact share charge freely."
     },
     {
       "id": "10-76",
@@ -2385,7 +2385,7 @@ const QUESTIONS = {
         "20 C"
       ],
       "correct": 3,
-      "explanation": "Q = 20 C, from Q = It = (4.0)(5.0). 0.8 C comes from dividing instead of multiplying (I/t = 4.0/5.0). 5.0 C just restates the time value and ignores the current entirely. 80 C comes from multiplying by 20 (mistaking 4.0 × 5.0 as needing an extra factor, e.g. confusing it with I²t or a unit slip)."
+      "explanation": "Correct: (D) 20 C. Q = 20 C, from Q = It = (4.0)(5.0). 0.8 C comes from dividing instead of multiplying (I/t = 4.0/5.0). 5.0 C just restates the time value and ignores the current entirely. 80 C comes from multiplying by 20 (mistaking 4.0 × 5.0 as needing an extra factor, e.g. confusing it with I²t or a unit slip)."
     },
     {
       "id": "11-2",
@@ -2424,7 +2424,7 @@ const QUESTIONS = {
         "120 C"
       ],
       "correct": 2,
-      "explanation": "Q = 60 C. Convert first: 2.0 min = 120 s, then Q = It = (0.50)(120) = 60 C. 1.0 C comes from forgetting to convert minutes to seconds and using Q = It = (0.50)(2.0) directly. 30 C uses only 60 s, treating 2.0 minutes as 1.0 minute. 120 C comes from converting minutes to seconds correctly but then forgetting to multiply by the 0.50 A current, using only the time in seconds."
+      "explanation": "Correct: (C) 60 C. Q = 60 C. Convert first: 2.0 min = 120 s, then Q = It = (0.50)(120) = 60 C. 1.0 C comes from forgetting to convert minutes to seconds and using Q = It = (0.50)(2.0) directly. 30 C uses only 60 s, treating 2.0 minutes as 1.0 minute. 120 C comes from converting minutes to seconds correctly but then forgetting to multiply by the 0.50 A current, using only the time in seconds."
     },
     {
       "id": "11-5",
@@ -2438,7 +2438,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Drift velocity is cut in half: from I = nqAv<sub>d</sub>, with I, n, and q unchanged, v<sub>d</sub> ∝ 1/A, so doubling A halves v<sub>d</sub> — like the same volume flow rate spreading more slowly through a wider pipe. \"It doubles\" and \"it quadruples\" both mistakenly treat v<sub>d</sub> as directly (or even more strongly) proportional to A rather than inversely proportional. \"Stays the same\" wrongly assumes current alone determines drift velocity without accounting for how it's distributed across a larger cross-section."
+      "explanation": "Correct: (A) It is cut in half. Drift velocity is cut in half: from I = nqAv<sub>d</sub>, with I, n, and q unchanged, v<sub>d</sub> ∝ 1/A, so doubling A halves v<sub>d</sub> — like the same volume flow rate spreading more slowly through a wider pipe. \"It doubles\" and \"it quadruples\" both mistakenly treat v<sub>d</sub> as directly (or even more strongly) proportional to A rather than inversely proportional. \"Stays the same\" wrongly assumes current alone determines drift velocity without accounting for how it's distributed across a larger cross-section."
     },
     {
       "id": "11-6",
@@ -2451,7 +2451,7 @@ const QUESTIONS = {
         "40 s"
       ],
       "correct": 0,
-      "explanation": "t = 400 s, from t = Q/I = 100/0.25. 25 s comes from multiplying instead of dividing (100 × 0.25). 40 s comes from inverting the ratio (0.25/100 misapplied, or dividing 10/0.25 with a digit error). 100 s comes from ignoring the 0.25 A current altogether and just restating the charge value."
+      "explanation": "Correct: (A) 400 s. t = 400 s, from t = Q/I = 100/0.25. 25 s comes from multiplying instead of dividing (100 × 0.25). 40 s comes from inverting the ratio (0.25/100 misapplied, or dividing 10/0.25 with a digit error). 100 s comes from ignoring the 0.25 A current altogether and just restating the charge value."
     },
     {
       "id": "11-66",
@@ -2517,7 +2517,7 @@ const QUESTIONS = {
         "Neither — this behavior is impossible."
       ],
       "correct": 0,
-      "explanation": "Series: both bulbs share one loop with no alternate path, so removing either breaks current for both. \"Parallel\" describes the opposite behavior — in parallel, each bulb has its own independent branch, so removing one wouldn't affect the other. \"Neither\" wrongly assumes this dependent behavior can't occur, when it's exactly what defines a series connection. \"Depends on voltage\" misidentifies the cause — this outcome is determined by the wiring topology, not by any voltage value."
+      "explanation": "Correct: (A) Series. Series: both bulbs share one loop with no alternate path, so removing either breaks current for both. \"Parallel\" describes the opposite behavior — in parallel, each bulb has its own independent branch, so removing one wouldn't affect the other. \"Neither\" wrongly assumes this dependent behavior can't occur, when it's exactly what defines a series connection. \"Depends on voltage\" misidentifies the cause — this outcome is determined by the wiring topology, not by any voltage value."
     },
     {
       "id": "11-11",
@@ -2530,7 +2530,7 @@ const QUESTIONS = {
         "Neither — this behavior is impossible."
       ],
       "correct": 1,
-      "explanation": "Parallel: each bulb has its own complete branch back to the battery, so removing one leaves the other's voltage and current unchanged. \"Series\" describes the opposite behavior, where removing either bulb breaks the shared loop for both. \"Neither\" wrongly rules out this independent behavior, when it's exactly what parallel wiring produces. \"Depends on voltage\" again misattributes the cause to voltage rather than to the circuit's topology."
+      "explanation": "Correct: (B) Parallel. Parallel: each bulb has its own complete branch back to the battery, so removing one leaves the other's voltage and current unchanged. \"Series\" describes the opposite behavior, where removing either bulb breaks the shared loop for both. \"Neither\" wrongly rules out this independent behavior, when it's exactly what parallel wiring produces. \"Depends on voltage\" again misattributes the cause to voltage rather than to the circuit's topology."
     },
     {
       "id": "11-12",
@@ -2543,7 +2543,7 @@ const QUESTIONS = {
         "Cannot be determined"
       ],
       "correct": 2,
-      "explanation": "Decrease: adding series resistance raises total R, and at constant V, I = V/R falls. \"Increase\" confuses the series case with what happens when a resistor is instead added in parallel. \"Stay the same\" incorrectly assumes total resistance is unaffected by adding a second resistor. \"Cannot be determined\" overlooks that an ideal battery's fixed voltage, combined with the definite increase in series resistance, is enough information to determine the direction of change."
+      "explanation": "Correct: (C) Decrease. Decrease: adding series resistance raises total R, and at constant V, I = V/R falls. \"Increase\" confuses the series case with what happens when a resistor is instead added in parallel. \"Stay the same\" incorrectly assumes total resistance is unaffected by adding a second resistor. \"Cannot be determined\" overlooks that an ideal battery's fixed voltage, combined with the definite increase in series resistance, is enough information to determine the direction of change."
     },
     {
       "id": "11-13",
@@ -2556,7 +2556,7 @@ const QUESTIONS = {
         "Cannot be determined"
       ],
       "correct": 0,
-      "explanation": "Increase: a parallel resistor opens an additional current path, lowering total resistance, so at constant V the battery supplies more total current. \"Decrease\" confuses this with the series case, where adding resistance raises total R. \"Stay the same\" wrongly assumes the extra path doesn't change the overall resistance the battery sees. \"Cannot be determined\" again overlooks that constant voltage plus a known decrease in total resistance is sufficient to determine the direction of change."
+      "explanation": "Correct: (A) Increase. Increase: a parallel resistor opens an additional current path, lowering total resistance, so at constant V the battery supplies more total current. \"Decrease\" confuses this with the series case, where adding resistance raises total R. \"Stay the same\" wrongly assumes the extra path doesn't change the overall resistance the battery sees. \"Cannot be determined\" again overlooks that constant voltage plus a known decrease in total resistance is sufficient to determine the direction of change."
     },
     {
       "id": "11-14",
@@ -2569,7 +2569,7 @@ const QUESTIONS = {
         "Each bulb is now brighter than before."
       ],
       "correct": 0,
-      "explanation": "Each bulb is dimmer: the added series resistance raises total R, lowering the shared current and thus each bulb's power. \"Brighter\" describes what would happen if the bulb were instead added in parallel, which increases total current. \"Exactly as bright\" wrongly assumes adding a resistor in series doesn't change the current at all. \"One brighter, one dimmer\" mistakenly imagines the two bulbs behave asymmetrically, when in a single series loop they carry the identical current and therefore dim by the same amount."
+      "explanation": "Correct: (A) Each bulb is now dimmer than before. Each bulb is dimmer: the added series resistance raises total R, lowering the shared current and thus each bulb's power. \"Brighter\" describes what would happen if the bulb were instead added in parallel, which increases total current. \"Exactly as bright\" wrongly assumes adding a resistor in series doesn't change the current at all. \"One brighter, one dimmer\" mistakenly imagines the two bulbs behave asymmetrically, when in a single series loop they carry the identical current and therefore dim by the same amount."
     },
     {
       "id": "11-67",
@@ -2652,7 +2652,7 @@ const QUESTIONS = {
         "9R"
       ],
       "correct": 2,
-      "explanation": "3R, since R = ρℓ/A makes resistance directly proportional to length. \"R/3\" inverts the relationship, treating length as if it were in the denominator like area is. \"R\" wrongly assumes resistance is unaffected by a length change. \"9R\" mistakenly squares the tripling factor, as if length appeared as ℓ² rather than ℓ¹ in the formula."
+      "explanation": "Correct: (C) 3R. 3R, since R = ρℓ/A makes resistance directly proportional to length. \"R/3\" inverts the relationship, treating length as if it were in the denominator like area is. \"R\" wrongly assumes resistance is unaffected by a length change. \"9R\" mistakenly squares the tripling factor, as if length appeared as ℓ² rather than ℓ¹ in the formula."
     },
     {
       "id": "11-16",
@@ -2665,7 +2665,7 @@ const QUESTIONS = {
         "4R"
       ],
       "correct": 1,
-      "explanation": "R/4, since area sits in the denominator of R = ρℓ/A, so quadrupling A cuts resistance to one-fourth. \"R/2\" is what you would get from only doubling the area, not quadrupling it. \"2R\" and \"4R\" both invert the relationship entirely, treating an area increase as increasing resistance rather than decreasing it."
+      "explanation": "Correct: (B) R/4. R/4, since area sits in the denominator of R = ρℓ/A, so quadrupling A cuts resistance to one-fourth. \"R/2\" is what you would get from only doubling the area, not quadrupling it. \"2R\" and \"4R\" both invert the relationship entirely, treating an area increase as increasing resistance rather than decreasing it."
     },
     {
       "id": "11-17",
@@ -2678,7 +2678,7 @@ const QUESTIONS = {
         "R<sub>B</sub> = R<sub>A</sub>/2"
       ],
       "correct": 0,
-      "explanation": "R<sub>B</sub> = R<sub>A</sub>/4, since A = πd²/4 means doubling diameter quadruples area, and resistance is inversely proportional to area. \"2R<sub>A</sub>\" and \"R<sub>A</sub>/2\" both scale resistance directly with diameter rather than with diameter squared, forgetting that area depends on d². \"4R<sub>A</sub>\" gets the factor of 4 right but inverts the direction, treating a larger cross-section as increasing resistance instead of decreasing it."
+      "explanation": "Correct: (A) R<sub>B</sub> = R<sub>A</sub>/4. R<sub>B</sub> = R<sub>A</sub>/4, since A = πd²/4 means doubling diameter quadruples area, and resistance is inversely proportional to area. \"2R<sub>A</sub>\" and \"R<sub>A</sub>/2\" both scale resistance directly with diameter rather than with diameter squared, forgetting that area depends on d². \"4R<sub>A</sub>\" gets the factor of 4 right but inverts the direction, treating a larger cross-section as increasing resistance instead of decreasing it."
     },
     {
       "id": "11-18",
@@ -2691,7 +2691,7 @@ const QUESTIONS = {
         "32 Ω"
       ],
       "correct": 1,
-      "explanation": "R = 20 Ω, from R = V/I = 8.0/0.40. 3.2 Ω comes from multiplying V and I together instead of dividing. 5.0 Ω and 32 Ω do not come from any single correct step; inverting the ratio gives I/V = 0.050, not 5.0. The correct operation is V divided by I."
+      "explanation": "Correct: (B) 20 Ω. R = 20 Ω, from R = V/I = 8.0/0.40. 3.2 Ω comes from multiplying V and I together instead of dividing. 5.0 Ω and 32 Ω do not come from any single correct step; inverting the ratio gives I/V = 0.050, not 5.0. The correct operation is V divided by I."
     },
     {
       "id": "11-19",
@@ -2717,7 +2717,7 @@ const QUESTIONS = {
         "The wire made of Material A."
       ],
       "correct": 3,
-      "explanation": "Material A, since resistivity sits directly in the numerator of R = ρℓ/A, and with ℓ and A equal, higher ρ means higher R. \"Material B\" reverses the relationship, treating lower resistivity as producing higher resistance. \"Equal resistance\" wrongly assumes resistivity doesn't matter as long as geometry is the same, ignoring that ρ is itself a factor in the formula. \"Cannot be determined\" overlooks that only the comparison (A higher than B), not the exact values, is needed to answer a comparative question."
+      "explanation": "Correct: (D) The wire made of Material A. Material A, since resistivity sits directly in the numerator of R = ρℓ/A, and with ℓ and A equal, higher ρ means higher R. \"Material B\" reverses the relationship, treating lower resistivity as producing higher resistance. \"Equal resistance\" wrongly assumes resistivity doesn't matter as long as geometry is the same, ignoring that ρ is itself a factor in the formula. \"Cannot be determined\" overlooks that only the comparison (A higher than B), not the exact values, is needed to answer a comparative question."
     },
     {
       "id": "11-21",
@@ -2731,7 +2731,7 @@ const QUESTIONS = {
         "2R"
       ],
       "correct": 1,
-      "explanation": "4R: doubling length doubles R, and independently halving area doubles R again, for a combined factor of 4. \"R\" wrongly assumes the two effects cancel, as if lengthening and thinning had opposite and equal impacts on resistance — they actually reinforce each other since both changes increase R. \"2R\" accounts for only one of the two effects (typically just the length doubling) and misses that the area also shrank. \"8R\" over-applies the combination, e.g. mistakenly cubing a factor instead of multiplying two independent factors of 2."
+      "explanation": "Correct: (B) 4R. 4R: doubling length doubles R, and independently halving area doubles R again, for a combined factor of 4. \"R\" wrongly assumes the two effects cancel, as if lengthening and thinning had opposite and equal impacts on resistance — they actually reinforce each other since both changes increase R. \"2R\" accounts for only one of the two effects (typically just the length doubling) and misses that the area also shrank. \"8R\" over-applies the combination, e.g. mistakenly cubing a factor instead of multiplying two independent factors of 2."
     },
     {
       "id": "11-22",
@@ -2744,7 +2744,7 @@ const QUESTIONS = {
         "The current increases."
       ],
       "correct": 1,
-      "explanation": "The current decreases, since higher resistivity raises R, and at constant V, I = V/R falls as R rises. \"Increases\" reverses the relationship between resistance and current. \"Stays the same\" wrongly assumes current is unaffected by a resistivity change even though voltage is fixed. \"Becomes zero\" overstates the effect — resistivity increasing doesn't cut off the circuit entirely, it just reduces the current by some finite amount."
+      "explanation": "Correct: (B) The current decreases. The current decreases, since higher resistivity raises R, and at constant V, I = V/R falls as R rises. \"Increases\" reverses the relationship between resistance and current. \"Stays the same\" wrongly assumes current is unaffected by a resistivity change even though voltage is fixed. \"Becomes zero\" overstates the effect — resistivity increasing doesn't cut off the circuit entirely, it just reduces the current by some finite amount."
     },
     {
       "id": "11-23",
@@ -2757,7 +2757,7 @@ const QUESTIONS = {
         "Doubling the length only, with area and resistivity unchanged."
       ],
       "correct": 1,
-      "explanation": "Doubling both length and area together, since R = ρ(2ℓ)/(2A) = ρℓ/A = R — the two factors of 2 cancel. \"Doubling the length only\" changes only the numerator, doubling R on its own. \"Doubling the resistivity only\" also changes only the numerator, again doubling R. \"Halving the cross-sectional area only\" changes only the denominator, doubling R as well — each of these single changes, unlike the paired change, leaves nothing to cancel it out."
+      "explanation": "Correct: (B) Doubling both the length and the cross-sectional area. Doubling both length and area together, since R = ρ(2ℓ)/(2A) = ρℓ/A = R — the two factors of 2 cancel. \"Doubling the length only\" changes only the numerator, doubling R on its own. \"Doubling the resistivity only\" also changes only the numerator, again doubling R. \"Halving the cross-sectional area only\" changes only the denominator, doubling R as well — each of these single changes, unlike the paired change, leaves nothing to cancel it out."
     },
     {
       "id": "11-24",
@@ -2770,7 +2770,7 @@ const QUESTIONS = {
         "The resistivity ρ."
       ],
       "correct": 0,
-      "explanation": "The resistance R, since V = IR means slope = ΔV/ΔI = R directly for this axis arrangement. \"Conductance 1/R\" would be the slope if the axes were swapped (I vs. V instead of V vs. I). \"Power P\" confuses slope with the area under an I–V-type curve, or with a different quantity computed from V and I together, not their ratio. \"Resistivity ρ\" confuses a bulk material property (which also depends on the wire's geometry) with the resistance value this particular graph actually reveals."
+      "explanation": "Correct: (A) The resistance R. The resistance R, since V = IR means slope = ΔV/ΔI = R directly for this axis arrangement. \"Conductance 1/R\" would be the slope if the axes were swapped (I vs. V instead of V vs. I). \"Power P\" confuses slope with the area under an I–V-type curve, or with a different quantity computed from V and I together, not their ratio. \"Resistivity ρ\" confuses a bulk material property (which also depends on the wire's geometry) with the resistance value this particular graph actually reveals."
     },
     {
       "id": "11-73",
@@ -2825,7 +2825,7 @@ const QUESTIONS = {
         "135 Ω"
       ],
       "correct": 1,
-      "explanation": "R = 5.0 Ω, from P = I²R rearranged to R = P/I² = 45/9.0. 1.7 Ω comes from forgetting to square the current, computing 45/(3.0 × something) incorrectly or inverting a step. 15 Ω comes from dividing P by I without squaring (45/3.0). 135 Ω comes from multiplying P by I instead of dividing by I²."
+      "explanation": "Correct: (B) 5.0 Ω. R = 5.0 Ω, from P = I²R rearranged to R = P/I² = 45/9.0. 1.7 Ω comes from forgetting to square the current, computing 45/(3.0 × something) incorrectly or inverting a step. 15 Ω comes from dividing P by I without squaring (45/3.0). 135 Ω comes from multiplying P by I instead of dividing by I²."
     },
     {
       "id": "11-26",
@@ -2838,7 +2838,7 @@ const QUESTIONS = {
         "24 W"
       ],
       "correct": 2,
-      "explanation": "P = 6.0 W, from P = IV = (0.50)(12). 1.5 W does not follow from P = IV; it is four times too small. 12 W comes from ignoring the current and restating the voltage. 24 W comes from dividing V by I instead of multiplying (12/0.50)."
+      "explanation": "Correct: (C) 6.0 W. P = 6.0 W, from P = IV = (0.50)(12). 1.5 W does not follow from P = IV; it is four times too small. 12 W comes from ignoring the current and restating the voltage. 24 W comes from dividing V by I instead of multiplying (12/0.50)."
     },
     {
       "id": "11-27",
@@ -2851,7 +2851,7 @@ const QUESTIONS = {
         "40 W"
       ],
       "correct": 1,
-      "explanation": "P = 4.0 W, from P = V²/R = 400/100. 0.2 W is V/R = 20/100, which is the current in amps, not a power. 2.0 W does not come from any correct step; it is a factor of 2 too small. 40 W is ten times too large (it is what V²/R would give if R were 10 Ω)."
+      "explanation": "Correct: (B) 4.0 W. P = 4.0 W, from P = V²/R = 400/100. 0.2 W is V/R = 20/100, which is the current in amps, not a power. 2.0 W does not come from any correct step; it is a factor of 2 too small. 40 W is ten times too large (it is what V²/R would give if R were 10 Ω)."
     },
     {
       "id": "11-28",
@@ -2864,7 +2864,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing the battery's voltage."
       ],
       "correct": 0,
-      "explanation": "R₂: in series both resistors share the same current, so P = I²R makes the larger resistance dissipate more power. \"R₁\" reverses this, perhaps by incorrectly applying the parallel-circuit rule (P = V²/R, smaller R dissipates more) to a series circuit. \"Equal power\" wrongly assumes shared current means shared power, ignoring that R also enters the power formula. \"Cannot be determined\" overlooks that the ratio of powers in series depends only on the resistance ratio, not on the specific voltage."
+      "explanation": "Correct: (A) R₂. R₂: in series both resistors share the same current, so P = I²R makes the larger resistance dissipate more power. \"R₁\" reverses this, perhaps by incorrectly applying the parallel-circuit rule (P = V²/R, smaller R dissipates more) to a series circuit. \"Equal power\" wrongly assumes shared current means shared power, ignoring that R also enters the power formula. \"Cannot be determined\" overlooks that the ratio of powers in series depends only on the resistance ratio, not on the specific voltage."
     },
     {
       "id": "11-29",
@@ -2877,7 +2877,7 @@ const QUESTIONS = {
         "They dissipate equal power."
       ],
       "correct": 2,
-      "explanation": "R₁: in parallel both resistors share the same voltage, so P = V²/R makes the smaller resistance dissipate more power. \"R₂\" reverses this, applying the series-circuit rule (larger R dissipates more) to a parallel circuit instead. \"Equal power\" wrongly assumes shared voltage means shared power, ignoring that R also enters the formula. \"Cannot be determined\" overlooks that the ratio of powers in parallel depends only on the resistance ratio, not on the specific voltage."
+      "explanation": "Correct: (C) R₁. R₁: in parallel both resistors share the same voltage, so P = V²/R makes the smaller resistance dissipate more power. \"R₂\" reverses this, applying the series-circuit rule (larger R dissipates more) to a parallel circuit instead. \"Equal power\" wrongly assumes shared voltage means shared power, ignoring that R also enters the formula. \"Cannot be determined\" overlooks that the ratio of powers in parallel depends only on the resistance ratio, not on the specific voltage."
     },
     {
       "id": "11-30",
@@ -2890,7 +2890,7 @@ const QUESTIONS = {
         "The 60 W bulb."
       ],
       "correct": 1,
-      "explanation": "The 40 W bulb: using R = V²/P with V fixed, resistance is inversely related to rated power, so the lower-power bulb has higher resistance. \"The 60 W bulb\" assumes higher power means higher resistance, backwards from the actual inverse relationship. \"Equal resistance\" wrongly assumes the rated power values don't affect resistance as long as voltage is the same. \"Cannot be determined\" overlooks that R = V²/P only needs the ratio of powers (since voltage is stated to be equal), not its exact value."
+      "explanation": "Correct: (B) The 40 W bulb. The 40 W bulb: using R = V²/P with V fixed, resistance is inversely related to rated power, so the lower-power bulb has higher resistance. \"The 60 W bulb\" assumes higher power means higher resistance, backwards from the actual inverse relationship. \"Equal resistance\" wrongly assumes the rated power values don't affect resistance as long as voltage is the same. \"Cannot be determined\" overlooks that R = V²/P only needs the ratio of powers (since voltage is stated to be equal), not its exact value."
     },
     {
       "id": "11-31",
@@ -2903,7 +2903,7 @@ const QUESTIONS = {
         "15 W"
       ],
       "correct": 1,
-      "explanation": "30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R<sub>total</sub> drops to half of one bulb's rated power. \"15 W\" is the power of each bulb alone (each has 60 V across 240 Ω), not the total for the pair. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
+      "explanation": "Correct: (B) 30 W. 30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R<sub>total</sub> drops to half of one bulb's rated power. \"15 W\" is the power of each bulb alone (each has 60 V across 240 Ω), not the total for the pair. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
     },
     {
       "id": "11-32",
@@ -2916,7 +2916,7 @@ const QUESTIONS = {
         "P"
       ],
       "correct": 2,
-      "explanation": "2P: adding a parallel resistor halves total resistance while V stays fixed, and since P = V²/R, halving R doubles P. \"P/2\" reverses the relationship, treating the added parallel path as reducing rather than increasing total power draw. \"P\" wrongly assumes total power is unaffected by adding a second current path. \"4P\" over-applies the effect, perhaps squaring the halving of resistance instead of using it directly in P = V²/R."
+      "explanation": "Correct: (C) 2P. 2P: adding a parallel resistor halves total resistance while V stays fixed, and since P = V²/R, halving R doubles P. \"P/2\" reverses the relationship, treating the added parallel path as reducing rather than increasing total power draw. \"P\" wrongly assumes total power is unaffected by adding a second current path. \"4P\" over-applies the effect, perhaps squaring the halving of resistance instead of using it directly in P = V²/R."
     },
     {
       "id": "11-33",
@@ -2942,7 +2942,7 @@ const QUESTIONS = {
         "6.7 Ω"
       ],
       "correct": 0,
-      "explanation": "20 Ω, since series resistances simply add: 4.0 + 6.0 + 10. 0.05 Ω is 1/20, the reciprocal of the series sum. 6.7 Ω is 20/3, the sum divided by the number of resistors (an average). Neither is a parallel result either (the parallel formula would give about 1.9 Ω, and it does not apply to a series circuit anyway). 240 Ω comes from multiplying the three resistances together instead of adding them."
+      "explanation": "Correct: (A) 20 Ω. 20 Ω, since series resistances simply add: 4.0 + 6.0 + 10. 0.05 Ω is 1/20, the reciprocal of the series sum. 6.7 Ω is 20/3, the sum divided by the number of resistors (an average). Neither is a parallel result either (the parallel formula would give about 1.9 Ω, and it does not apply to a series circuit anyway). 240 Ω comes from multiplying the three resistances together instead of adding them."
     },
     {
       "id": "11-35",
@@ -2955,7 +2955,7 @@ const QUESTIONS = {
         "2.0 Ω"
       ],
       "correct": 1,
-      "explanation": "4.0 Ω, since two identical resistors R in parallel always give R/2: 1/R<sub>p</sub> = 1/8.0 + 1/8.0. \"2.0 Ω\" over-halves, perhaps mistakenly dividing by 4 instead of 2, or confusing this with a three-resistor case. \"8.0 Ω\" wrongly treats the parallel combination as unchanged from a single resistor, forgetting the second branch lowers resistance. \"16 Ω\" mistakenly adds the resistors as if they were in series instead of parallel."
+      "explanation": "Correct: (B) 4.0 Ω. 4.0 Ω, since two identical resistors R in parallel always give R/2: 1/R<sub>p</sub> = 1/8.0 + 1/8.0. \"2.0 Ω\" over-halves, perhaps mistakenly dividing by 4 instead of 2, or confusing this with a three-resistor case. \"8.0 Ω\" wrongly treats the parallel combination as unchanged from a single resistor, forgetting the second branch lowers resistance. \"16 Ω\" mistakenly adds the resistors as if they were in series instead of parallel."
     },
     {
       "id": "11-36",
@@ -2981,7 +2981,7 @@ const QUESTIONS = {
         "2.5 Ω"
       ],
       "correct": 2,
-      "explanation": "10 Ω: the parallel pair reduces to 10/2 = 5.0 Ω, then adding the series 5.0 Ω gives 5.0 + 5.0 = 10 Ω. \"2.5 Ω\" comes from correctly halving the parallel pair but then also halving the series resistor's contribution instead of adding it. \"7.5 Ω\" comes from skipping the parallel reduction and instead averaging the 10 Ω pair with the 5.0 Ω series resistor. \"15 Ω\" comes from adding all three individual resistances (5.0 + 10 + 10) as if everything were in series, ignoring the parallel pairing."
+      "explanation": "Correct: (C) 10 Ω. 10 Ω: the parallel pair reduces to 10/2 = 5.0 Ω, then adding the series 5.0 Ω gives 5.0 + 5.0 = 10 Ω. \"2.5 Ω\" comes from correctly halving the parallel pair but then also halving the series resistor's contribution instead of adding it. \"7.5 Ω\" comes from skipping the parallel reduction and instead averaging the 10 Ω pair with the 5.0 Ω series resistor. \"15 Ω\" comes from adding all three individual resistances (5.0 + 10 + 10) as if everything were in series, ignoring the parallel pairing."
     },
     {
       "id": "11-38",
@@ -2994,7 +2994,7 @@ const QUESTIONS = {
         "6.0 A"
       ],
       "correct": 0,
-      "explanation": "2.0 A: the parallel pair gives R<sub>p</sub> = 2.0 Ω (1/R<sub>p</sub> = 1/6.0 + 1/3.0), total resistance is 4.0 + 2.0 = 6.0 Ω, and I = 12/6.0 = 2.0 A. \"0.5 A\" comes from inverting the final step (6.0/12 instead of 12/6.0). \"3.0 A\" comes from skipping the parallel reduction and using only the 4.0 Ω series resistor as total resistance (12/4.0). \"6.0 A\" comes from treating the parallel pair as if it simply added to give a much smaller total resistance, or from a division error in the last step."
+      "explanation": "Correct: (A) 2.0 A. 2.0 A: the parallel pair gives R<sub>p</sub> = 2.0 Ω (1/R<sub>p</sub> = 1/6.0 + 1/3.0), total resistance is 4.0 + 2.0 = 6.0 Ω, and I = 12/6.0 = 2.0 A. \"0.5 A\" comes from inverting the final step (6.0/12 instead of 12/6.0). \"3.0 A\" comes from skipping the parallel reduction and using only the 4.0 Ω series resistor as total resistance (12/4.0). \"6.0 A\" comes from treating the parallel pair as if it simply added to give a much smaller total resistance, or from a division error in the last step."
     },
     {
       "id": "11-39",
@@ -3007,7 +3007,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing the current."
       ],
       "correct": 1,
-      "explanation": "The largest resistor: with the same current I through every series resistor, V = IR makes the largest R produce the largest drop. \"Smallest resistance\" reverses this relationship. \"Equal voltage drops\" wrongly imports the parallel-circuit property (equal voltage) into a series circuit, where it's actually current that's shared, not voltage. \"Cannot be determined\" overlooks that the comparison only requires knowing the current is the same for all resistors, not its specific value."
+      "explanation": "Correct: (B) The resistor with the largest resistance. The largest resistor: with the same current I through every series resistor, V = IR makes the largest R produce the largest drop. \"Smallest resistance\" reverses this relationship. \"Equal voltage drops\" wrongly imports the parallel-circuit property (equal voltage) into a series circuit, where it's actually current that's shared, not voltage. \"Cannot be determined\" overlooks that the comparison only requires knowing the current is the same for all resistors, not its specific value."
     },
     {
       "id": "11-40",
@@ -3020,7 +3020,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing the total current."
       ],
       "correct": 0,
-      "explanation": "The smallest resistor: with the same voltage V across every parallel branch, I = V/R makes the smallest R carry the most current. \"Largest resistance\" reverses this relationship. \"Equal current\" wrongly imports the series-circuit property (equal current) into a parallel circuit, where it's actually voltage that's shared. \"Cannot be determined\" overlooks that the comparison only requires knowing the voltage is shared, not the specific total current."
+      "explanation": "Correct: (A) The resistor with the smallest resistance. The smallest resistor: with the same voltage V across every parallel branch, I = V/R makes the smallest R carry the most current. \"Largest resistance\" reverses this relationship. \"Equal current\" wrongly imports the series-circuit property (equal current) into a parallel circuit, where it's actually voltage that's shared. \"Cannot be determined\" overlooks that the comparison only requires knowing the voltage is shared, not the specific total current."
     },
     {
       "id": "11-41",
@@ -3033,7 +3033,7 @@ const QUESTIONS = {
         "R/4"
       ],
       "correct": 0,
-      "explanation": "R: each series branch is 2R, and two identical 2R branches in parallel give (2R)/2 = R. \"R/4\" over-applies the parallel reduction, perhaps treating all four resistors as directly parallel to each other rather than as two series pairs. \"R/2\" applies the correct parallel-halving step to a single R instead of to the 2R branch value. \"2R\" stops after computing the series branch value and forgets to apply the parallel combination of the two branches."
+      "explanation": "Correct: (A) R. R: each series branch is 2R, and two identical 2R branches in parallel give (2R)/2 = R. \"R/4\" over-applies the parallel reduction, perhaps treating all four resistors as directly parallel to each other rather than as two series pairs. \"R/2\" applies the correct parallel-halving step to a single R instead of to the 2R branch value. \"2R\" stops after computing the series branch value and forgets to apply the parallel combination of the two branches."
     },
     {
       "id": "11-42",
@@ -3046,7 +3046,7 @@ const QUESTIONS = {
         "R' > R''"
       ],
       "correct": 3,
-      "explanation": "R' > R'': series addition always raises total resistance (R' > R) while parallel addition always lowers it (R'' < R), so the series result must exceed the parallel result regardless of the specific resistance values. \"R' < R''\" reverses which connection increases versus decreases resistance. \"R' = R''\" wrongly assumes the two wiring methods have the same effect on total resistance. \"Cannot be determined\" overlooks that the general direction of each effect (series always up, parallel always down) is enough to settle the comparison without needing exact numbers."
+      "explanation": "Correct: (D) R' > R'' R' > R'': series addition always raises total resistance (R' > R) while parallel addition always lowers it (R'' < R), so the series result must exceed the parallel result regardless of the specific resistance values. \"R' < R''\" reverses which connection increases versus decreases resistance. \"R' = R''\" wrongly assumes the two wiring methods have the same effect on total resistance. \"Cannot be determined\" overlooks that the general direction of each effect (series always up, parallel always down) is enough to settle the comparison without needing exact numbers."
     },
     {
       "id": "11-43",
@@ -3059,7 +3059,7 @@ const QUESTIONS = {
         "3.0 A"
       ],
       "correct": 3,
-      "explanation": "3.0 A: each parallel branch has the full 24 V across it, so I = V/R = 24/8.0 = 3.0 A directly. \"1.0 A\" comes from using the 24 Ω resistor's value in the denominator (24/24) instead of the 8.0 Ω one being asked about. \"4.0 A\" is the total battery current (24 V / 6.0 Ω equivalent resistance), not the current in the 8.0 Ω branch. \"6.0 A\" is just the equivalent resistance, 6.0 Ω, reported as if it were a current."
+      "explanation": "Correct: (D) 3.0 A. 3.0 A: each parallel branch has the full 24 V across it, so I = V/R = 24/8.0 = 3.0 A directly. \"1.0 A\" comes from using the 24 Ω resistor's value in the denominator (24/24) instead of the 8.0 Ω one being asked about. \"4.0 A\" is the total battery current (24 V / 6.0 Ω equivalent resistance), not the current in the 8.0 Ω branch. \"6.0 A\" is just the equivalent resistance, 6.0 Ω, reported as if it were a current."
     },
     {
       "id": "11-44",
@@ -3072,7 +3072,7 @@ const QUESTIONS = {
         "Kirchhoff's Loop rule and junction rule, used together."
       ],
       "correct": 3,
-      "explanation": "Kirchhoff's Loop rule and junction rule together, since a genuinely multi-loop, multi-source network can't be reduced branch by branch. \"Ohm's Law alone\" underestimates the problem — Ohm's Law relates V, I, and R for a single element but can't by itself resolve a network with multiple independent loops and sources. \"Only the power equations\" confuses energy-dissipation relationships with the current-solving tools actually needed; power equations don't provide independent equations for the unknown currents. \"Capacitor equations from Unit 10\" misapplies tools for an entirely different circuit element (capacitance) to a resistor network problem."
+      "explanation": "Correct: (D) Kirchhoff's Loop rule and junction rule, used together. Kirchhoff's Loop rule and junction rule together, since a genuinely multi-loop, multi-source network can't be reduced branch by branch. \"Ohm's Law alone\" underestimates the problem — Ohm's Law relates V, I, and R for a single element but can't by itself resolve a network with multiple independent loops and sources. \"Only the power equations\" confuses energy-dissipation relationships with the current-solving tools actually needed; power equations don't provide independent equations for the unknown currents. \"Capacitor equations from Unit 10\" misapplies tools for an entirely different circuit element (capacitance) to a resistor network problem."
     },
     {
       "id": "11-45",
@@ -3086,7 +3086,7 @@ const QUESTIONS = {
         "II > I > III"
       ],
       "correct": 1,
-      "explanation": "Series (16 Ω) > R₁ alone (4.0 Ω) > Parallel (3.0 Ω). \"III > I > II\" mistakenly assumes disconnecting R₂ leaves a higher resistance than adding R₂ in series, when adding any resistor in series can only raise resistance further above R₁ alone. \"I > II > III\" gets the series term right but wrongly assumes the parallel combination (3.0 Ω) is between series and R₁ alone, missing the key fact that a parallel combination is always less than the smallest individual resistor in the group — here dropping below R₁'s own 4.0 Ω. \"II > I > III\" reverses the top two entirely, treating parallel combination as larger than series, which is never true for two positive resistors."
+      "explanation": "Correct: (B) I > III > II. Series (16 Ω) > R₁ alone (4.0 Ω) > Parallel (3.0 Ω). \"III > I > II\" mistakenly assumes disconnecting R₂ leaves a higher resistance than adding R₂ in series, when adding any resistor in series can only raise resistance further above R₁ alone. \"I > II > III\" gets the series term right but wrongly assumes the parallel combination (3.0 Ω) is between series and R₁ alone, missing the key fact that a parallel combination is always less than the smallest individual resistor in the group — here dropping below R₁'s own 4.0 Ω. \"II > I > III\" reverses the top two entirely, treating parallel combination as larger than series, which is never true for two positive resistors."
     },
     {
       "id": "11-69",
@@ -3169,7 +3169,7 @@ const QUESTIONS = {
         "Conservation of momentum."
       ],
       "correct": 2,
-      "explanation": "Conservation of energy: potential is well-defined at every point, so traveling around a closed loop and returning to the start means the net change in potential is exactly zero. \"Conservation of charge\" is the principle behind the junction rule instead, not the loop rule. \"Conservation of momentum\" and \"Newton's third law\" are mechanics principles with no direct role in why potential returns to its starting value around a closed electrical loop."
+      "explanation": "Correct: (C) Conservation of energy. Conservation of energy: potential is well-defined at every point, so traveling around a closed loop and returning to the start means the net change in potential is exactly zero. \"Conservation of charge\" is the principle behind the junction rule instead, not the loop rule. \"Conservation of momentum\" and \"Newton's third law\" are mechanics principles with no direct role in why potential returns to its starting value around a closed electrical loop."
     },
     {
       "id": "11-47",
@@ -3182,7 +3182,7 @@ const QUESTIONS = {
         "0.5 A"
       ],
       "correct": 1,
-      "explanation": "2.0 A: the battery's rise must equal the sum of the drops, 10 = I(2.0) + I(3.0) = I(5.0), so I = 10/5.0. \"0.5 A\" comes from inverting the final division (5.0/10). \"5.0 A\" comes from correctly adding the resistors to get 5.0 Ω but then forgetting to divide the voltage by it, instead just restating that sum. \"10 A\" comes from ignoring the resistors entirely and dividing voltage by an assumed resistance of 1 Ω."
+      "explanation": "Correct: (B) 2.0 A. 2.0 A: the battery's rise must equal the sum of the drops, 10 = I(2.0) + I(3.0) = I(5.0), so I = 10/5.0. \"0.5 A\" comes from inverting the final division (5.0/10). \"5.0 A\" comes from correctly adding the resistors to get 5.0 Ω but then forgetting to divide the voltage by it, instead just restating that sum. \"10 A\" comes from ignoring the resistors entirely and dividing voltage by an assumed resistance of 1 Ω."
     },
     {
       "id": "11-48",
@@ -3195,7 +3195,7 @@ const QUESTIONS = {
         "6.0 Ω"
       ],
       "correct": 2,
-      "explanation": "10 Ω: 20 = (1.0)(4.0) + (1.0)(6.0) + (1.0)(R), so R = 20 − 10 = 10 Ω. \"4.0 Ω\" and \"6.0 Ω\" both come from mistakenly assuming the unknown resistor equals one of the given resistors rather than solving the loop equation. \"20 Ω\" comes from forgetting to subtract the known resistors' voltage drops and treating the full battery voltage as dropping entirely across R alone."
+      "explanation": "Correct: (C) 10 Ω. 10 Ω: 20 = (1.0)(4.0) + (1.0)(6.0) + (1.0)(R), so R = 20 − 10 = 10 Ω. \"4.0 Ω\" and \"6.0 Ω\" both come from mistakenly assuming the unknown resistor equals one of the given resistors rather than solving the loop equation. \"20 Ω\" comes from forgetting to subtract the known resistors' voltage drops and treating the full battery voltage as dropping entirely across R alone."
     },
     {
       "id": "11-49",
@@ -3208,7 +3208,7 @@ const QUESTIONS = {
         "rise; drop"
       ],
       "correct": 3,
-      "explanation": "Rise; drop: moving − to + inside a battery gains potential, while moving through a resistor with the current always loses potential. \"Drop; rise\" reverses both conventions. \"Rise; rise\" gets the battery right but wrongly treats a resistor crossing as also gaining potential, ignoring that current only flows from high to low potential through a resistor. \"Drop; drop\" gets the resistor right but wrongly treats the battery's − to + crossing as losing potential instead of gaining it."
+      "explanation": "Correct: (D) rise; drop. Rise; drop: moving − to + inside a battery gains potential, while moving through a resistor with the current always loses potential. \"Drop; rise\" reverses both conventions. \"Rise; rise\" gets the battery right but wrongly treats a resistor crossing as also gaining potential, ignoring that current only flows from high to low potential through a resistor. \"Drop; drop\" gets the resistor right but wrongly treats the battery's − to + crossing as losing potential instead of gaining it."
     },
     {
       "id": "11-50",
@@ -3221,7 +3221,7 @@ const QUESTIONS = {
         "0.5 A"
       ],
       "correct": 1,
-      "explanation": "2.0 A: opposing EMFs subtract, giving a net EMF of 12 − 6.0 = 6.0 V, then I = 6.0/3.0 = 2.0 A. \"0.5 A\" comes from inverting the final division (3.0/6.0). \"3.0 A\" does not come from a single standard step; the larger EMF alone would give 12/3.0 = 4.0 A. \"6.0 A\" comes from adding the two EMFs instead of subtracting them: (12 + 6.0)/3.0 = 6.0 A."
+      "explanation": "Correct: (B) 2.0 A. 2.0 A: opposing EMFs subtract, giving a net EMF of 12 − 6.0 = 6.0 V, then I = 6.0/3.0 = 2.0 A. \"0.5 A\" comes from inverting the final division (3.0/6.0). \"3.0 A\" does not come from a single standard step; the larger EMF alone would give 12/3.0 = 4.0 A. \"6.0 A\" comes from adding the two EMFs instead of subtracting them: (12 + 6.0)/3.0 = 6.0 A."
     },
     {
       "id": "11-51",
@@ -3235,7 +3235,7 @@ const QUESTIONS = {
         "12 W delivered by the 12 V battery; 24 W absorbed by the 6.0 V battery."
       ],
       "correct": 1,
-      "explanation": "24 W delivered; 12 W absorbed, from P = IV applied to each battery: (2.0)(12) = 24 W delivered by the stronger battery, and (2.0)(6.0) = 12 W absorbed by the weaker one as it's charged backward. \"12 W delivered; 24 W absorbed\" swaps which battery is which, treating the weaker 6.0 V source as if it were doing the delivering. \"6.0 W delivered; 3.0 W absorbed\" corresponds to a current of 0.50 A, only one quarter of the true 2.0 A. \"18 W delivered; 18 W absorbed\" comes from averaging the two batteries' voltages instead of applying P = IV separately to each one."
+      "explanation": "Correct: (B) 24 W delivered by the 12 V battery; 12 W absorbed by the 6.0 V battery. 24 W delivered; 12 W absorbed, from P = IV applied to each battery: (2.0)(12) = 24 W delivered by the stronger battery, and (2.0)(6.0) = 12 W absorbed by the weaker one as it's charged backward. \"12 W delivered; 24 W absorbed\" swaps which battery is which, treating the weaker 6.0 V source as if it were doing the delivering. \"6.0 W delivered; 3.0 W absorbed\" corresponds to a current of 0.50 A, only one quarter of the true 2.0 A. \"18 W delivered; 18 W absorbed\" comes from averaging the two batteries' voltages instead of applying P = IV separately to each one."
     },
     {
       "id": "11-52",
@@ -3249,7 +3249,7 @@ const QUESTIONS = {
         "1"
       ],
       "correct": 2,
-      "explanation": "3: you need as many independent equations as unknowns, so 3 unknown currents require 3 independent equations (typically some mix of loop-rule and junction-rule equations). \"1\" and \"2\" both underestimate how many independent relationships are needed to pin down three separate unknowns, leaving the system underdetermined. \"6\" overestimates, perhaps by double-counting equations (e.g. writing both a loop equation and its algebraic rearrangement as if they were independent) when only 3 truly independent ones exist."
+      "explanation": "Correct: (C) 3. 3: you need as many independent equations as unknowns, so 3 unknown currents require 3 independent equations (typically some mix of loop-rule and junction-rule equations). \"1\" and \"2\" both underestimate how many independent relationships are needed to pin down three separate unknowns, leaving the system underdetermined. \"6\" overestimates, perhaps by double-counting equations (e.g. writing both a loop equation and its algebraic rearrangement as if they were independent) when only 3 truly independent ones exist."
     },
     {
       "id": "11-53",
@@ -3262,7 +3262,7 @@ const QUESTIONS = {
         "It would produce no solvable equation at all, so no current could be found."
       ],
       "correct": 2,
-      "explanation": "A negative current: the correct equation 𝓔 − IR = 0 gives I = 𝓔/R, but flipping the sign gives 𝓔 + IR = 0, solving to I = −𝓔/R — same magnitude, wrong sign, misread as the wrong direction. \"Still correct\" wrongly assumes sign errors are harmless as long as you take the magnitude at the end, ignoring that the sign is what tells you the current's direction. \"Twice the correct value\" mistakes what a sign flip does to the answer, when it actually preserves magnitude and only flips the sign. \"No solvable equation\" is incorrect — the flipped equation is still perfectly solvable, it just gives a physically misleading (backwards) answer rather than no answer at all."
+      "explanation": "Correct: (C) It would give a negative value for the current, wrongly suggesting the opposite direction. A negative current: the correct equation 𝓔 − IR = 0 gives I = 𝓔/R, but flipping the sign gives 𝓔 + IR = 0, solving to I = −𝓔/R — same magnitude, wrong sign, misread as the wrong direction. \"Still correct\" wrongly assumes sign errors are harmless as long as you take the magnitude at the end, ignoring that the sign is what tells you the current's direction. \"Twice the correct value\" mistakes what a sign flip does to the answer, when it actually preserves magnitude and only flips the sign. \"No solvable equation\" is incorrect — the flipped equation is still perfectly solvable, it just gives a physically misleading (backwards) answer rather than no answer at all."
     },
     {
       "id": "11-80",
@@ -3303,7 +3303,7 @@ const QUESTIONS = {
         "2.0 A"
       ],
       "correct": 0,
-      "explanation": "3.0 A: current in equals current out, 5.0 = 2.0 + I₂, so I₂ = 3.0 A. \"2.0 A\" mistakenly assumes both departing wires must carry equal current. \"5.0 A\" ignores the other departing wire's 2.0 A entirely and just restates the incoming current. \"7.0 A\" comes from adding the two given values (5.0 + 2.0) instead of subtracting."
+      "explanation": "Correct: (A) 3.0 A. 3.0 A: current in equals current out, 5.0 = 2.0 + I₂, so I₂ = 3.0 A. \"2.0 A\" mistakenly assumes both departing wires must carry equal current. \"5.0 A\" ignores the other departing wire's 2.0 A entirely and just restates the incoming current. \"7.0 A\" comes from adding the two given values (5.0 + 2.0) instead of subtracting."
     },
     {
       "id": "11-55",
@@ -3316,7 +3316,7 @@ const QUESTIONS = {
         "1.5 A"
       ],
       "correct": 0,
-      "explanation": "6.5 A: total in equals total out, so 2.0 + 3.0 + 1.5 = 6.5 A. \"1.5 A\" mistakenly restates only the last incoming value instead of summing all three. \"3.5 A\" comes from adding only two of the three incoming currents (2.0 + 1.5) and missing the third. \"5.0 A\" comes from adding only two of the three incoming currents in a different pairing (3.0 + 2.0) and missing the 1.5 A branch."
+      "explanation": "Correct: (A) 6.5 A. 6.5 A: total in equals total out, so 2.0 + 3.0 + 1.5 = 6.5 A. \"1.5 A\" mistakenly restates only the last incoming value instead of summing all three. \"3.5 A\" comes from adding only two of the three incoming currents (2.0 + 1.5) and missing the third. \"5.0 A\" comes from adding only two of the three incoming currents in a different pairing (3.0 + 2.0) and missing the 1.5 A branch."
     },
     {
       "id": "11-56",
@@ -3329,7 +3329,7 @@ const QUESTIONS = {
         "Conservation of momentum."
       ],
       "correct": 0,
-      "explanation": "Conservation of charge: charge can't appear or vanish at a junction, so total charge in must equal total charge out over any interval. \"Conservation of energy\" is instead the principle behind the loop rule, not the junction rule. \"Conservation of momentum\" is a mechanics principle unrelated to how current splits or combines at a junction. \"Ohm's Law\" relates voltage, current, and resistance for a single element — it doesn't explain why currents must balance at a junction at all."
+      "explanation": "Correct: (A) Conservation of charge. Conservation of charge: charge can't appear or vanish at a junction, so total charge in must equal total charge out over any interval. \"Conservation of energy\" is instead the principle behind the loop rule, not the junction rule. \"Conservation of momentum\" is a mechanics principle unrelated to how current splits or combines at a junction. \"Ohm's Law\" relates voltage, current, and resistance for a single element — it doesn't explain why currents must balance at a junction at all."
     },
     {
       "id": "11-57",
@@ -3342,7 +3342,7 @@ const QUESTIONS = {
         "4.0 A"
       ],
       "correct": 2,
-      "explanation": "3.0 A: R<sub>p</sub> = 3.0 Ω gives V = (4.0)(3.0) = 12 V, and I₄ = V/R = 12/4.0 = 3.0 A. \"1.0 A\" comes from mistakenly using the 12 Ω resistor's value in place of the 4.0 Ω one in the final division. \"4.0 A\" mistakenly assumes the smaller resistor carries the entire total current, ignoring that the 12 Ω branch also carries some current. \"12 A\" comes from restating the shared voltage value instead of dividing it by the resistance to get current."
+      "explanation": "Correct: (C) 3.0 A. 3.0 A: R<sub>p</sub> = 3.0 Ω gives V = (4.0)(3.0) = 12 V, and I₄ = V/R = 12/4.0 = 3.0 A. \"1.0 A\" comes from mistakenly using the 12 Ω resistor's value in place of the 4.0 Ω one in the final division. \"4.0 A\" mistakenly assumes the smaller resistor carries the entire total current, ignoring that the 12 Ω branch also carries some current. \"12 A\" comes from restating the shared voltage value instead of dividing it by the resistance to get current."
     },
     {
       "id": "11-58",
@@ -3355,7 +3355,7 @@ const QUESTIONS = {
         "I₁ − I₂ = I₃ − I₄"
       ],
       "correct": 0,
-      "explanation": "I₁ + I₂ = I₃ + I₄: sum of currents in equals sum of currents out. \"I₁ = I₂ = I₃ = I₄\" wrongly assumes all four currents must be individually equal, rather than just their two-sided sums. \"I₁ − I₂ = I₃ − I₄\" incorrectly subtracts currents that are both flowing in the same direction (both in, or both out) as if they opposed each other. \"I₁I₂ = I₃I₄\" mistakenly multiplies currents together instead of summing them, which has no physical basis in charge conservation."
+      "explanation": "Correct: (A) I₁ + I₂ = I₃ + I₄. I₁ + I₂ = I₃ + I₄: sum of currents in equals sum of currents out. \"I₁ = I₂ = I₃ = I₄\" wrongly assumes all four currents must be individually equal, rather than just their two-sided sums. \"I₁ − I₂ = I₃ − I₄\" incorrectly subtracts currents that are both flowing in the same direction (both in, or both out) as if they opposed each other. \"I₁I₂ = I₃I₄\" mistakenly multiplies currents together instead of summing them, which has no physical basis in charge conservation."
     },
     {
       "id": "11-59",
@@ -3368,7 +3368,7 @@ const QUESTIONS = {
         "It depends on whether the battery is ideal or has some internal resistance."
       ],
       "correct": 1,
-      "explanation": "No: by the junction rule, the sum of all branch currents equals the total current entering the parallel section, so no single branch can exceed that total. \"Yes, if very low resistance\" mistakenly assumes a low-resistance branch could somehow draw more current than what's actually supplied, rather than just a larger share of it. \"Yes, if the branch contains a capacitor\" incorrectly imagines a capacitor could inject extra current into a branch beyond what the junction rule allows. \"Depends on whether the battery is ideal\" misidentifies the source of the constraint — the junction rule (charge conservation) holds regardless of the battery's internal resistance or idealness."
+      "explanation": "Correct: (B) No — the junction rule guarantees no single branch exceeds the total current. No: by the junction rule, the sum of all branch currents equals the total current entering the parallel section, so no single branch can exceed that total. \"Yes, if very low resistance\" mistakenly assumes a low-resistance branch could somehow draw more current than what's actually supplied, rather than just a larger share of it. \"Yes, if the branch contains a capacitor\" incorrectly imagines a capacitor could inject extra current into a branch beyond what the junction rule allows. \"Depends on whether the battery is ideal\" misidentifies the source of the constraint — the junction rule (charge conservation) holds regardless of the battery's internal resistance or idealness."
     },
     {
       "id": "11-60",
@@ -3381,7 +3381,7 @@ const QUESTIONS = {
         "Current oscillates between zero and a maximum value."
       ],
       "correct": 1,
-      "explanation": "Current starts at a maximum and decreases toward zero: an uncharged capacitor initially behaves like a plain wire, but as charge builds up it becomes progressively harder to add more, so current tapers off. \"Starts at zero and increases\" reverses the actual behavior — the capacitor offers the least opposition when uncharged, not the most. \"Stays constant\" wrongly treats the capacitor like a fixed resistor rather than an element whose opposition to charge flow changes as it charges. \"Oscillates\" incorrectly imports AC or LC-circuit behavior into a simple DC RC charging process, which has no mechanism to oscillate."
+      "explanation": "Correct: (B) Current starts at a maximum and decreases toward zero. Current starts at a maximum and decreases toward zero: an uncharged capacitor initially behaves like a plain wire, but as charge builds up it becomes progressively harder to add more, so current tapers off. \"Starts at zero and increases\" reverses the actual behavior — the capacitor offers the least opposition when uncharged, not the most. \"Stays constant\" wrongly treats the capacitor like a fixed resistor rather than an element whose opposition to charge flow changes as it charges. \"Oscillates\" incorrectly imports AC or LC-circuit behavior into a simple DC RC charging process, which has no mechanism to oscillate."
     },
     {
       "id": "11-61",
@@ -3394,7 +3394,7 @@ const QUESTIONS = {
         "Capacitor: full battery voltage. Resistor: zero."
       ],
       "correct": 1,
-      "explanation": "Capacitor: zero. Resistor: full battery voltage — an uncharged capacitor has no separated charge yet, so by the loop rule all the battery's voltage appears across the resistor. \"Capacitor: full, resistor: zero\" describes the opposite, long-time-later situation instead of the initial instant. \"Both share equally\" wrongly assumes a 50/50 split regardless of the capacitor's actual (zero) charge state at that moment. \"Both zero\" ignores that the loop rule requires the battery's voltage to appear somewhere in the loop — it can't simply vanish."
+      "explanation": "Correct: (B) Capacitor: zero. Resistor: full battery voltage. Capacitor: zero. Resistor: full battery voltage — an uncharged capacitor has no separated charge yet, so by the loop rule all the battery's voltage appears across the resistor. \"Capacitor: full, resistor: zero\" describes the opposite, long-time-later situation instead of the initial instant. \"Both share equally\" wrongly assumes a 50/50 split regardless of the capacitor's actual (zero) charge state at that moment. \"Both zero\" ignores that the loop rule requires the battery's voltage to appear somewhere in the loop — it can't simply vanish."
     },
     {
       "id": "11-62",
@@ -3407,7 +3407,7 @@ const QUESTIONS = {
         "Capacitor: half the battery voltage. Current: half its initial value."
       ],
       "correct": 0,
-      "explanation": "Capacitor: full battery voltage. Current: zero — once fully charged, no more current flows, so the resistor has zero drop and the entire battery voltage sits across the capacitor. \"Capacitor: zero, current: maximum\" describes the opposite, initial-instant situation instead of the long-time limit. \"Half voltage, half current\" wrongly assumes the charging process settles at some halfway equilibrium rather than approaching full charge and zero current. \"Full voltage, current unchanged\" gets the capacitor voltage right but wrongly assumes current stays at its initial maximum instead of decaying to zero as the capacitor charges."
+      "explanation": "Correct: (A) Capacitor: full battery voltage. Current: zero. Capacitor: full battery voltage. Current: zero — once fully charged, no more current flows, so the resistor has zero drop and the entire battery voltage sits across the capacitor. \"Capacitor: zero, current: maximum\" describes the opposite, initial-instant situation instead of the long-time limit. \"Half voltage, half current\" wrongly assumes the charging process settles at some halfway equilibrium rather than approaching full charge and zero current. \"Full voltage, current unchanged\" gets the capacitor voltage right but wrongly assumes current stays at its initial maximum instead of decaying to zero as the capacitor charges."
     },
     {
       "id": "11-63",
@@ -3433,7 +3433,7 @@ const QUESTIONS = {
         "There is no current during discharge, only during charging."
       ],
       "correct": 1,
-      "explanation": "Opposite direction: during charging the battery pushes charge onto the plates one way, but during discharge the capacitor itself drives that stored charge back out through the resistor the way it came, reversing the current's direction. \"Same direction\" wrongly assumes the current direction is fixed by the resistor alone rather than by which element (battery or capacitor) is doing the driving. \"No current during discharge\" ignores that a capacitor discharging through a resistor does drive a real, measurable (decaying) current. \"Depends on R and C\" misattributes the direction to the circuit's time constant, when R and C only affect how fast the discharge happens, not which way the current flows."
+      "explanation": "Correct: (B) Current flows in the opposite direction during discharge compared to charging. Opposite direction: during charging the battery pushes charge onto the plates one way, but during discharge the capacitor itself drives that stored charge back out through the resistor the way it came, reversing the current's direction. \"Same direction\" wrongly assumes the current direction is fixed by the resistor alone rather than by which element (battery or capacitor) is doing the driving. \"No current during discharge\" ignores that a capacitor discharging through a resistor does drive a real, measurable (decaying) current. \"Depends on R and C\" misattributes the direction to the circuit's time constant, when R and C only affect how fast the discharge happens, not which way the current flows."
     },
     {
       "id": "11-65",
@@ -3765,7 +3765,7 @@ const QUESTIONS = {
         "Opposite directions, equal radii."
       ],
       "correct": 1,
-      "explanation": "Opposite directions, very different radii. The opposite charge signs (proton positive, electron negative) guarantee opposite curving directions. But the proton is about 1800 times more massive than the electron, and since r = mv/(qB) depends on mass directly, that inertia difference gives the proton a vastly larger radius. Choice C gets the curving direction wrong — opposite charges must curve opposite ways, not the same way — and also wrongly assumes equal radii despite the huge mass difference. Choice D gets the direction right but wrongly assumes equal radii, ignoring the mass term entirely. Choice A gets the radii difference right but the curving direction wrong."
+      "explanation": "Correct: (B) Opposite directions, very different radii. Opposite directions, very different radii. The opposite charge signs (proton positive, electron negative) guarantee opposite curving directions. But the proton is about 1800 times more massive than the electron, and since r = mv/(qB) depends on mass directly, that inertia difference gives the proton a vastly larger radius. Choice C gets the curving direction wrong — opposite charges must curve opposite ways, not the same way — and also wrongly assumes equal radii despite the huge mass difference. Choice D gets the direction right but wrongly assumes equal radii, ignoring the mass term entirely. Choice A gets the radii difference right but the curving direction wrong."
     },
     {
       "id": "12-21",
@@ -3844,7 +3844,7 @@ const QUESTIONS = {
         "Equal radii, since charge magnitude is equal."
       ],
       "correct": 0,
-      "explanation": "The proton's radius is much larger. Rewriting r = mv/(qB) in terms of kinetic energy (v = √(2KE/m)) gives r = √(2mKE)/(qB), so r ∝ √m when KE and q are equal — the far more massive proton ends up with the larger radius, by a factor of √(m<sub>proton</sub>/m<sub>electron</sub>) ≈ 43. Choice B wrongly assumes equal kinetic energy implies equal radius, ignoring that r also depends on mass once v is eliminated in favor of KE. Choice C gets the mass dependence backwards, giving the electron the larger radius when it's actually the less massive particle and should have the smaller one. Choice D focuses on the wrong variable — charge magnitude being equal doesn't make the radii equal, since mass still differs enormously."
+      "explanation": "Correct: (A) The proton's radius is much larger, by a factor of √(m<sub>proton</sub>/m<sub>electron</sub>). The proton's radius is much larger. Rewriting r = mv/(qB) in terms of kinetic energy (v = √(2KE/m)) gives r = √(2mKE)/(qB), so r ∝ √m when KE and q are equal — the far more massive proton ends up with the larger radius, by a factor of √(m<sub>proton</sub>/m<sub>electron</sub>) ≈ 43. Choice B wrongly assumes equal kinetic energy implies equal radius, ignoring that r also depends on mass once v is eliminated in favor of KE. Choice C gets the mass dependence backwards, giving the electron the larger radius when it's actually the less massive particle and should have the smaller one. Choice D focuses on the wrong variable — charge magnitude being equal doesn't make the radii equal, since mass still differs enormously."
     },
     {
       "id": "12-78",
@@ -4018,7 +4018,7 @@ const QUESTIONS = {
         "It depends on the wires' exact separation distance."
       ],
       "correct": 0,
-      "explanation": "Attract. Wire 1 creates a field that circles around it; at Wire 2's location that field has a specific direction (via the grip rule), and applying F = IL × B to Wire 2 sitting in that field shows the force pulls Wire 2 toward Wire 1. Choice C wrongly imports the like-charges-repel intuition from electrostatics, which is exactly backwards for parallel currents — same-direction currents attract, unlike same-sign charges. Choice B is wrong because the wires clearly do interact — each carries current through the other's field, producing a real, nonzero force. Choice D is wrong because separation distance affects only the force's magnitude (through B ∝ 1/r), not whether the wires attract or repel — the direction is fixed by the current orientations alone."
+      "explanation": "Correct: (A) Attract — Wire 1's field pulls Wire 2 toward it. Attract. Wire 1 creates a field that circles around it; at Wire 2's location that field has a specific direction (via the grip rule), and applying F = IL × B to Wire 2 sitting in that field shows the force pulls Wire 2 toward Wire 1. Choice C wrongly imports the like-charges-repel intuition from electrostatics, which is exactly backwards for parallel currents — same-direction currents attract, unlike same-sign charges. Choice B is wrong because the wires clearly do interact — each carries current through the other's field, producing a real, nonzero force. Choice D is wrong because separation distance affects only the force's magnitude (through B ∝ 1/r), not whether the wires attract or repel — the direction is fixed by the current orientations alone."
     },
     {
       "id": "12-35",
@@ -4136,7 +4136,7 @@ const QUESTIONS = {
         "They are always exactly equal for the same current."
       ],
       "correct": 1,
-      "explanation": "The loop's center field is stronger. A looped wire concentrates the magnetic contribution from every point along its length toward the same central location, where they add constructively — a straight wire's field at a given point only benefits from the nearby portions of wire, without that same focusing effect. Choice C wrongly assumes an infinite extent automatically makes the field stronger; what matters is how the contributions from different wire segments combine at the point of interest, and the loop's geometry combines them more favorably. Choice D wrongly claims equality with no justification — the two geometries produce genuinely different field strengths. Choice A is wrong because resistivity affects how much current can flow for a given voltage, but for a SPECIFIED current (as given here), the field depends on geometry, not on the wire's resistive properties."
+      "explanation": "Correct: (B) The loop's center field is stronger, since every wire segment's contribution adds there. The loop's center field is stronger. A looped wire concentrates the magnetic contribution from every point along its length toward the same central location, where they add constructively — a straight wire's field at a given point only benefits from the nearby portions of wire, without that same focusing effect. Choice C wrongly assumes an infinite extent automatically makes the field stronger; what matters is how the contributions from different wire segments combine at the point of interest, and the loop's geometry combines them more favorably. Choice D wrongly claims equality with no justification — the two geometries produce genuinely different field strengths. Choice A is wrong because resistivity affects how much current can flow for a given voltage, but for a SPECIFIED current (as given here), the field depends on geometry, not on the wire's resistive properties."
     },
     {
       "id": "12-44",
@@ -4150,7 +4150,7 @@ const QUESTIONS = {
         "Nonzero, directed radially, pushing the particle either toward or away from the wire."
       ],
       "correct": 1,
-      "explanation": "Nonzero, directed parallel to the wire. The wire's field circles around it (tangential to circles centered on the wire), while the particle's velocity is radial — radial and tangential directions are always perpendicular, so sinθ = 1 and a genuine force exists, with magnitude qvB; since F must be perpendicular to both v (radial) and B (tangential), the only direction left is along the wire. Choice A wrongly assumes 'pointing at the source' means zero force, but what matters for F = qvBsinθ is the angle between v and B, not between v and the wire's location — and that angle is 90° here. Choice D wrongly directs the force radially, which is actually the direction of v itself, not a direction perpendicular to both v and B as the force must be. Choice C is wrong because the force's direction (along the wire) doesn't depend on the starting distance at all — only its magnitude would, through B's 1/r dependence."
+      "explanation": "Correct: (B) Nonzero, and directed parallel to the wire itself. Nonzero, directed parallel to the wire. The wire's field circles around it (tangential to circles centered on the wire), while the particle's velocity is radial — radial and tangential directions are always perpendicular, so sinθ = 1 and a genuine force exists, with magnitude qvB; since F must be perpendicular to both v (radial) and B (tangential), the only direction left is along the wire. Choice A wrongly assumes 'pointing at the source' means zero force, but what matters for F = qvBsinθ is the angle between v and B, not between v and the wire's location — and that angle is 90° here. Choice D wrongly directs the force radially, which is actually the direction of v itself, not a direction perpendicular to both v and B as the force must be. Choice C is wrong because the force's direction (along the wire) doesn't depend on the starting distance at all — only its magnitude would, through B's 1/r dependence."
     },
     {
       "id": "12-83",
@@ -4413,7 +4413,7 @@ const QUESTIONS = {
         "No current is induced, since the ring itself isn't a closed circuit with a battery."
       ],
       "correct": 0,
-      "explanation": "Yes, current is induced, and it slows the fall — electromagnetic braking. As the ring falls into a region of different field strength, the changing flux induces a current; by Lenz's Law, that current creates a force opposing the change causing it, which manifests as an upward drag slowing the fall. Choice D is wrong because a closed conducting loop doesn't need a battery to carry induced current — a changing flux alone is sufficient to drive current around any closed conducting path, battery or not. Choice C gets the effect backwards: Lenz's Law guarantees the induced effect OPPOSES the motion causing it, so the current can only slow the fall, never speed it up. Choice B wrongly claims no mechanical effect, when the induced current interacting with the field produces a genuine retarding force (F = IL × B) on the ring."
+      "explanation": "Correct: (A) A current is induced; Lenz's Law makes it slow the fall below free-fall. Yes, current is induced, and it slows the fall — electromagnetic braking. As the ring falls into a region of different field strength, the changing flux induces a current; by Lenz's Law, that current creates a force opposing the change causing it, which manifests as an upward drag slowing the fall. Choice D is wrong because a closed conducting loop doesn't need a battery to carry induced current — a changing flux alone is sufficient to drive current around any closed conducting path, battery or not. Choice C gets the effect backwards: Lenz's Law guarantees the induced effect OPPOSES the motion causing it, so the current can only slow the fall, never speed it up. Choice B wrongly claims no mechanical effect, when the induced current interacting with the field produces a genuine retarding force (F = IL × B) on the ring."
     },
     {
       "id": "12-63",
@@ -4662,7 +4662,7 @@ const QUESTIONS = {
         "70°"
       ],
       "correct": 2,
-      "explanation": "35°. The law of reflection states θᵢ = θᵣ, both measured from the normal, so the reflection angle simply equals the given 35° — no further calculation needed. 17.5° comes from mistakenly halving the incidence angle; 55° is the complement (90° − 35°), as if the angle had been measured from the mirror surface instead of the normal; 70° doubles the incidence angle, confusing it with the total angular deflection between the incoming and outgoing rays."
+      "explanation": "Correct: (C) 35°. 35°. The law of reflection states θᵢ = θᵣ, both measured from the normal, so the reflection angle simply equals the given 35° — no further calculation needed. 17.5° comes from mistakenly halving the incidence angle; 55° is the complement (90° − 35°), as if the angle had been measured from the mirror surface instead of the normal; 70° doubles the incidence angle, confusing it with the total angular deflection between the incoming and outgoing rays."
     },
     {
       "id": "13-2",
@@ -4675,7 +4675,7 @@ const QUESTIONS = {
         "70°"
       ],
       "correct": 3,
-      "explanation": "70°. Since the mirror surface and its normal are perpendicular, an angle from the surface and the corresponding angle from the normal always sum to 90°: 90° − 20° = 70°. 20° comes from using the surface angle directly as the incidence angle, without converting to the normal reference; 45° assumes the surface and normal angles must split the difference evenly; 90° effectively treats the ray as striking along the normal itself, ignoring the given 20° entirely. Always confirm which reference line an angle is measured from before applying the law of reflection."
+      "explanation": "Correct: (D) 70°. 70°. Since the mirror surface and its normal are perpendicular, an angle from the surface and the corresponding angle from the normal always sum to 90°: 90° − 20° = 70°. 20° comes from using the surface angle directly as the incidence angle, without converting to the normal reference; 45° assumes the surface and normal angles must split the difference evenly; 90° effectively treats the ray as striking along the normal itself, ignoring the given 20° entirely. Always confirm which reference line an angle is measured from before applying the law of reflection."
     },
     {
       "id": "13-3",
@@ -4688,7 +4688,7 @@ const QUESTIONS = {
         "2.0 m"
       ],
       "correct": 1,
-      "explanation": "4.0 m. A plane mirror's image forms exactly as far behind the mirror as the object is in front (2.0 m behind), so the total object-to-image span is 2.0 + 2.0 = 4.0 m. 1.0 m mistakenly halves the object distance; 2.0 m just repeats the object distance and forgets to add the image's distance behind the mirror; 8.0 m doubles the correct answer, as if the image sat twice as far behind the mirror as the object is in front."
+      "explanation": "Correct: (B) 4.0 m. 4.0 m. A plane mirror's image forms exactly as far behind the mirror as the object is in front (2.0 m behind), so the total object-to-image span is 2.0 + 2.0 = 4.0 m. 1.0 m mistakenly halves the object distance; 2.0 m just repeats the object distance and forgets to add the image's distance behind the mirror; 8.0 m doubles the correct answer, as if the image sat twice as far behind the mirror as the object is in front."
     },
     {
       "id": "13-4",
@@ -4701,7 +4701,7 @@ const QUESTIONS = {
         "Real, inverted, magnified"
       ],
       "correct": 2,
-      "explanation": "Virtual, upright, same size — always, for any object distance, with no calculation needed. 'Real, inverted, magnified' describes a curved (concave) mirror's image for an object between f and 2f, not a flat mirror. 'Real, upright, reduced' is not a combination any mirror can actually produce — real images are always inverted. 'Virtual, inverted, magnified' is likewise physically impossible — virtual images are always upright, never inverted."
+      "explanation": "Correct: (C) Virtual, upright, same size. Virtual, upright, same size — always, for any object distance, with no calculation needed. 'Real, inverted, magnified' describes a curved (concave) mirror's image for an object between f and 2f, not a flat mirror. 'Real, upright, reduced' is not a combination any mirror can actually produce — real images are always inverted. 'Virtual, inverted, magnified' is likewise physically impossible — virtual images are always upright, never inverted."
     },
     {
       "id": "13-5",
@@ -4715,7 +4715,7 @@ const QUESTIONS = {
         "The final direction depends entirely on the initial angle of incidence."
       ],
       "correct": 1,
-      "explanation": "It exits parallel to the original ray, but reversed in sense, regardless of entry angle — the working principle of a corner reflector. Tracing the two sequential 90°-mirror bounces shows the angular effects always cancel to a clean 180° reversal. 'Perpendicular to its original direction' would only happen for a single mirror bounce, not two in sequence. 'Along the same exact path' describes normal (0°) incidence on a single mirror, not this corner geometry. 'Depends entirely on the initial angle' is the tempting assumption for a two-bounce problem, but the whole point of a right-angle corner reflector is that the geometry cancels the angle dependence out."
+      "explanation": "Correct: (B) It exits parallel to its original direction, but reversed 180° in sense. It exits parallel to the original ray, but reversed in sense, regardless of entry angle — the working principle of a corner reflector. Tracing the two sequential 90°-mirror bounces shows the angular effects always cancel to a clean 180° reversal. 'Perpendicular to its original direction' would only happen for a single mirror bounce, not two in sequence. 'Along the same exact path' describes normal (0°) incidence on a single mirror, not this corner geometry. 'Depends entirely on the initial angle' is the tempting assumption for a two-bounce problem, but the whole point of a right-angle corner reflector is that the geometry cancels the angle dependence out."
     },
     {
       "id": "13-6",
@@ -4729,7 +4729,7 @@ const QUESTIONS = {
         "5°"
       ],
       "correct": 1,
-      "explanation": "20° — twice the mirror's rotation, not the same amount. Rotating a mirror by θ shifts its normal by θ, which shifts BOTH the incidence and reflection angles by θ relative to the original setup, doubling the total deflection to 2θ. '10°' assumes the reflected ray shifts by the same angle the mirror rotates, missing that doubling. '5°' halves the rotation instead of doubling it. The claim that the reflected ray 'doesn't change' misapplies the law of reflection — the law itself is unaffected by orientation, but the normal direction it's measured from absolutely does move when the mirror rotates."
+      "explanation": "Correct: (B) 20°. 20° — twice the mirror's rotation, not the same amount. Rotating a mirror by θ shifts its normal by θ, which shifts BOTH the incidence and reflection angles by θ relative to the original setup, doubling the total deflection to 2θ. '10°' assumes the reflected ray shifts by the same angle the mirror rotates, missing that doubling. '5°' halves the rotation instead of doubling it. The claim that the reflected ray 'doesn't change' misapplies the law of reflection — the law itself is unaffected by orientation, but the normal direction it's measured from absolutely does move when the mirror rotates."
     },
     {
       "id": "13-7",
@@ -4742,7 +4742,7 @@ const QUESTIONS = {
         "0°; the ray passes through the mirror without reflecting."
       ],
       "correct": 0,
-      "explanation": "0° angle of incidence; the ray reflects straight back along its own path, since a ray traveling along the normal has no angle relative to that reference line. '90°; reflects along the surface' confuses the normal-referenced angle (0°) with the surface-referenced angle (which would be 90° here) — wrong reference line. '45°; reflects at a right angle' invents an unrelated deflection with no basis in this single-mirror, normal-incidence geometry. '0°; passes through without reflecting' gets the angle right but forgets that a mirror reflects light rather than transmitting it — that behavior belongs to a lens or window, not a mirror."
+      "explanation": "Correct: (A) 0°; the ray reflects straight back along its own path. 0° angle of incidence; the ray reflects straight back along its own path, since a ray traveling along the normal has no angle relative to that reference line. '90°; reflects along the surface' confuses the normal-referenced angle (0°) with the surface-referenced angle (which would be 90° here) — wrong reference line. '45°; reflects at a right angle' invents an unrelated deflection with no basis in this single-mirror, normal-incidence geometry. '0°; passes through without reflecting' gets the angle right but forgets that a mirror reflects light rather than transmitting it — that behavior belongs to a lens or window, not a mirror."
     },
     {
       "id": "13-8",
@@ -4755,7 +4755,7 @@ const QUESTIONS = {
         "Smooth surfaces cause specular reflection; rough surfaces cause diffuse reflection."
       ],
       "correct": 3,
-      "explanation": "Specular vs. diffuse reflection. A smooth mirror reflects parallel incoming rays as parallel outgoing rays (specular reflection), preserving a coherent image. A rough wall obeys the law of reflection at every microscopic point too, but those countless points are tilted every which way, scattering the reflected light in all directions (diffuse reflection) and destroying any organized image — no law of physics is violated. 'The wall absorbs all incoming light' is wrong: matte surfaces still reflect plenty of light, just diffusely rather than specularly (that's how we see them at all). 'The law only applies to mirrors' and 'rough surfaces reflect at a different angle' both incorrectly claim the law of reflection itself fails for non-mirror surfaces — it holds at every point, smooth or rough; only the organization of the reflected rays differs."
+      "explanation": "Correct: (D) Smooth surfaces cause specular reflection; rough surfaces cause diffuse reflection. Specular vs. diffuse reflection. A smooth mirror reflects parallel incoming rays as parallel outgoing rays (specular reflection), preserving a coherent image. A rough wall obeys the law of reflection at every microscopic point too, but those countless points are tilted every which way, scattering the reflected light in all directions (diffuse reflection) and destroying any organized image — no law of physics is violated. 'The wall absorbs all incoming light' is wrong: matte surfaces still reflect plenty of light, just diffusely rather than specularly (that's how we see them at all). 'The law only applies to mirrors' and 'rough surfaces reflect at a different angle' both incorrectly claim the law of reflection itself fails for non-mirror surfaces — it holds at every point, smooth or rough; only the organization of the reflected rays differs."
     },
     {
       "id": "13-9",
@@ -4769,7 +4769,7 @@ const QUESTIONS = {
         "1.0 m/s"
       ],
       "correct": 1,
-      "explanation": "2.0 m/s. The image sits as far behind the mirror as the person is in front, so as the person approaches at 1.0 m/s, their image also approaches the mirror at 1.0 m/s from the far side — the two close the gap between themselves at a combined 2.0 m/s. '1.0 m/s' only counts the person's own motion and forgets the image is approaching too. '0.5 m/s' incorrectly treats the image as stationary and halves the person's speed instead of doubling it. '4.0 m/s' doubles the correct combined rate, as if both the person's and image's speeds needed doubling rather than just summing."
+      "explanation": "Correct: (B) 2.0 m/s. 2.0 m/s. The image sits as far behind the mirror as the person is in front, so as the person approaches at 1.0 m/s, their image also approaches the mirror at 1.0 m/s from the far side — the two close the gap between themselves at a combined 2.0 m/s. '1.0 m/s' only counts the person's own motion and forgets the image is approaching too. '0.5 m/s' incorrectly treats the image as stationary and halves the person's speed instead of doubling it. '4.0 m/s' doubles the correct combined rate, as if both the person's and image's speeds needed doubling rather than just summing."
     },
     {
       "id": "13-10",
@@ -4782,7 +4782,7 @@ const QUESTIONS = {
         "At least twice the person's height."
       ],
       "correct": 2,
-      "explanation": "Half the person's height, positioned with its center at the midpoint between the eyes and the floor — and this holds regardless of viewing distance. 'Exactly the person's full height' is the intuitive but incorrect guess; tracing the reflection geometry for rays from the feet and the top of the head shows only half the height is actually needed. 'At least twice the person's height' overcorrects in the opposite direction. 'It depends entirely on distance' seems reasonable since farther objects usually look smaller, but for a plane mirror the required height is a fixed geometric fraction that cancels the viewing distance out entirely."
+      "explanation": "Correct: (C) Exactly half the person's height, positioned appropriately. Half the person's height, positioned with its center at the midpoint between the eyes and the floor — and this holds regardless of viewing distance. 'Exactly the person's full height' is the intuitive but incorrect guess; tracing the reflection geometry for rays from the feet and the top of the head shows only half the height is actually needed. 'At least twice the person's height' overcorrects in the opposite direction. 'It depends entirely on distance' seems reasonable since farther objects usually look smaller, but for a plane mirror the required height is a fixed geometric fraction that cancels the viewing distance out entirely."
     },
     {
       "id": "13-66",
@@ -4823,7 +4823,7 @@ const QUESTIONS = {
         "24 cm"
       ],
       "correct": 3,
-      "explanation": "sᵢ = 24 cm. Using 1/sₒ + 1/sᵢ = 1/f: 1/40 + 1/sᵢ = 1/15, so 1/sᵢ = 1/15 − 1/40 = 8/120 − 3/120 = 5/120, giving sᵢ = 24 cm (real image, in front of the mirror). '12 cm' mistakenly reports the focal length itself as the image distance. '30 cm' and '60 cm' both come from mishandling the reciprocal arithmetic — for instance, combining the raw distances (40 and 15) directly instead of properly combining their reciprocals — rather than solving 1/sᵢ correctly."
+      "explanation": "Correct: (D) 24 cm. sᵢ = 24 cm. Using 1/sₒ + 1/sᵢ = 1/f: 1/40 + 1/sᵢ = 1/15, so 1/sᵢ = 1/15 − 1/40 = 8/120 − 3/120 = 5/120, giving sᵢ = 24 cm (real image, in front of the mirror). '12 cm' mistakenly reports the focal length itself as the image distance. '30 cm' and '60 cm' both come from mishandling the reciprocal arithmetic — for instance, combining the raw distances (40 and 15) directly instead of properly combining their reciprocals — rather than solving 1/sᵢ correctly."
     },
     {
       "id": "13-12",
@@ -4836,7 +4836,7 @@ const QUESTIONS = {
         "0.6"
       ],
       "correct": 1,
-      "explanation": "M = −0.6. Using M = −sᵢ/sₒ = −24/40 = −0.6; the negative sign means inverted, and a magnitude below 1 means reduced. '−1.67' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '0.6' has the right magnitude but drops the negative sign, missing that this image is inverted. '1.67' combines both errors — the inverted ratio and the missing sign."
+      "explanation": "Correct: (B) −0.6. M = −0.6. Using M = −sᵢ/sₒ = −24/40 = −0.6; the negative sign means inverted, and a magnitude below 1 means reduced. '−1.67' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '0.6' has the right magnitude but drops the negative sign, missing that this image is inverted. '1.67' combines both errors — the inverted ratio and the missing sign."
     },
     {
       "id": "13-13",
@@ -4849,7 +4849,7 @@ const QUESTIONS = {
         "40 cm"
       ],
       "correct": 2,
-      "explanation": "Undefined — no image forms. Plugging in: 1/20 + 1/sᵢ = 1/20 gives 1/sᵢ = 0, so sᵢ is infinite — reflected rays emerge parallel and never converge, which is exactly why the focal point is such a special location. '0 cm' wrongly assumes the image forms right at the mirror's surface. '20 cm' mistakes the image distance for the focal length itself, since the object happens to sit at f. '40 cm' confuses this with the 2f (center-of-curvature) case, doubling the focal length instead of recognizing the equation breaks down here."
+      "explanation": "Correct: (C) Undefined — no image forms. Undefined — no image forms. Plugging in: 1/20 + 1/sᵢ = 1/20 gives 1/sᵢ = 0, so sᵢ is infinite — reflected rays emerge parallel and never converge, which is exactly why the focal point is such a special location. '0 cm' wrongly assumes the image forms right at the mirror's surface. '20 cm' mistakes the image distance for the focal length itself, since the object happens to sit at f. '40 cm' confuses this with the 2f (center-of-curvature) case, doubling the focal length instead of recognizing the equation breaks down here."
     },
     {
       "id": "13-14",
@@ -4862,7 +4862,7 @@ const QUESTIONS = {
         "−24 cm"
       ],
       "correct": 3,
-      "explanation": "sᵢ = −24 cm. Using 1/8.0 + 1/sᵢ = 1/12: 1/sᵢ = 1/12 − 1/8.0 = 2/24 − 3/24 = −1/24, giving sᵢ = −24 cm — negative, so virtual, behind the mirror. '−8 cm' mistakenly reports the (negated) object distance instead of solving the mirror equation. '24 cm' has the correct magnitude but drops the negative sign, missing that the object sits inside f and must produce a virtual image. '8 cm' repeats the object distance outright, with neither the correct magnitude nor sign."
+      "explanation": "Correct: (D) −24 cm. sᵢ = −24 cm. Using 1/8.0 + 1/sᵢ = 1/12: 1/sᵢ = 1/12 − 1/8.0 = 2/24 − 3/24 = −1/24, giving sᵢ = −24 cm — negative, so virtual, behind the mirror. '−8 cm' mistakenly reports the (negated) object distance instead of solving the mirror equation. '24 cm' has the correct magnitude but drops the negative sign, missing that the object sits inside f and must produce a virtual image. '8 cm' repeats the object distance outright, with neither the correct magnitude nor sign."
     },
     {
       "id": "13-15",
@@ -4875,7 +4875,7 @@ const QUESTIONS = {
         "−0.33"
       ],
       "correct": 2,
-      "explanation": "M = 3.0. Using M = −sᵢ/sₒ = −(−24)/8.0 = 3.0 — positive means upright, magnitude above 1 means magnified. '−3.0' has the right magnitude but the wrong sign, missing that the two negatives (the formula's minus sign and sᵢ's negative value) cancel to give a positive result. '0.33' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '−0.33' combines both the inverted ratio and the sign error."
+      "explanation": "Correct: (C) 3.0. M = 3.0. Using M = −sᵢ/sₒ = −(−24)/8.0 = 3.0 — positive means upright, magnitude above 1 means magnified. '−3.0' has the right magnitude but the wrong sign, missing that the two negatives (the formula's minus sign and sᵢ's negative value) cancel to give a positive result. '0.33' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '−0.33' combines both the inverted ratio and the sign error."
     },
     {
       "id": "13-16",
@@ -4888,7 +4888,7 @@ const QUESTIONS = {
         "No image forms at this distance"
       ],
       "correct": 1,
-      "explanation": "Real, inverted, same size (M = −1 exactly) — a special boundary case worth memorizing on its own. At sₒ = 2f, the mirror equation always gives sᵢ = 2f as well, so |M| = sᵢ/sₒ = 1. 'Virtual, upright, magnified' describes the very different object-inside-f case (like a dentist's mirror), not this one. 'Real, upright, reduced' isn't a combination any mirror can produce — real images are always inverted, never upright. 'No image forms at this distance' confuses the center-of-curvature (2f) case with the true no-image special case, which happens only when the object sits exactly at f."
+      "explanation": "Correct: (B) Real, inverted, same size. Real, inverted, same size (M = −1 exactly) — a special boundary case worth memorizing on its own. At sₒ = 2f, the mirror equation always gives sᵢ = 2f as well, so |M| = sᵢ/sₒ = 1. 'Virtual, upright, magnified' describes the very different object-inside-f case (like a dentist's mirror), not this one. 'Real, upright, reduced' isn't a combination any mirror can produce — real images are always inverted, never upright. 'No image forms at this distance' confuses the center-of-curvature (2f) case with the true no-image special case, which happens only when the object sits exactly at f."
     },
     {
       "id": "13-17",
@@ -4901,7 +4901,7 @@ const QUESTIONS = {
         "25 cm"
       ],
       "correct": 0,
-      "explanation": "sᵢ = −6.0 cm. Using 1/15 + 1/sᵢ = 1/(−10): 1/sᵢ = −1/10 − 1/15 = −3/30 − 2/30 = −5/30, giving sᵢ = −6.0 cm — virtual, as always for a convex mirror. '−25 cm' comes from mishandling the reciprocal combination. '6.0 cm' has the right magnitude but drops the negative sign, forgetting that a convex mirror can never produce a real image. '25 cm' compounds both the magnitude and sign errors."
+      "explanation": "Correct: (A) −6.0 cm. sᵢ = −6.0 cm. Using 1/15 + 1/sᵢ = 1/(−10): 1/sᵢ = −1/10 − 1/15 = −3/30 − 2/30 = −5/30, giving sᵢ = −6.0 cm — virtual, as always for a convex mirror. '−25 cm' comes from mishandling the reciprocal combination. '6.0 cm' has the right magnitude but drops the negative sign, forgetting that a convex mirror can never produce a real image. '25 cm' compounds both the magnitude and sign errors."
     },
     {
       "id": "13-18",
@@ -4914,7 +4914,7 @@ const QUESTIONS = {
         "Because f is always negative for a convex mirror, so 1/si comes out negative."
       ],
       "correct": 3,
-      "explanation": "It's guaranteed by the mirror equation itself. Since f is always negative for a convex mirror, 1/sᵢ = 1/f − 1/sₒ is negative minus a positive quantity — always negative, for any positive object distance — and a negative sᵢ always means virtual. This matches the physical picture: convex mirrors spread reflected rays apart rather than converging them to a real point. 'Convex mirrors don't actually reflect light' is simply false — they reflect just as much light as any mirror, just divergently. 'The object distance is always greater than f' is beside the point: the virtual-image guarantee holds for every object distance, not because of any particular so-vs-f relationship. 'This is simply a rule to memorize' dismisses a result that actually follows directly and unavoidably from the mirror equation."
+      "explanation": "Correct: (D) Because f is always negative for a convex mirror, so 1/si comes out negative. It's guaranteed by the mirror equation itself. Since f is always negative for a convex mirror, 1/sᵢ = 1/f − 1/sₒ is negative minus a positive quantity — always negative, for any positive object distance — and a negative sᵢ always means virtual. This matches the physical picture: convex mirrors spread reflected rays apart rather than converging them to a real point. 'Convex mirrors don't actually reflect light' is simply false — they reflect just as much light as any mirror, just divergently. 'The object distance is always greater than f' is beside the point: the virtual-image guarantee holds for every object distance, not because of any particular so-vs-f relationship. 'This is simply a rule to memorize' dismisses a result that actually follows directly and unavoidably from the mirror equation."
     },
     {
       "id": "13-19",
@@ -4927,7 +4927,7 @@ const QUESTIONS = {
         "12 cm"
       ],
       "correct": 3,
-      "explanation": "f = 12 cm. Since M = −sᵢ/sₒ = −2.0, sᵢ = 2.0 × 18 = 36 cm. Then 1/18 + 1/36 = 2/36 + 1/36 = 3/36 = 1/12, giving f = 12 cm. '6.0 cm' halves the correct focal length. '9.0 cm' comes from a slip in combining the reciprocals of 18 and 36. '24 cm' doubles the correct answer, confusing the focal length with another quantity in the problem (24 cm is exactly double f, but that's not what the problem asks for)."
+      "explanation": "Correct: (D) 12 cm. f = 12 cm. Since M = −sᵢ/sₒ = −2.0, sᵢ = 2.0 × 18 = 36 cm. Then 1/18 + 1/36 = 2/36 + 1/36 = 3/36 = 1/12, giving f = 12 cm. '6.0 cm' halves the correct focal length. '9.0 cm' comes from a slip in combining the reciprocals of 18 and 36. '24 cm' doubles the correct answer, confusing the focal length with another quantity in the problem (24 cm is exactly double f, but that's not what the problem asks for)."
     },
     {
       "id": "13-20",
@@ -4940,7 +4940,7 @@ const QUESTIONS = {
         "The vertex of the mirror"
       ],
       "correct": 1,
-      "explanation": "The focal point. A parallel ray always reflects through f — the defining property of a focusing mirror, and the first of the three principal rays used for hand-tracing images. 'The center of curvature' swaps this rule with the different ray-through-center-of-curvature rule (which reflects straight back, not through f). 'The vertex of the mirror' names the mirror's own central point, which has no special role in this particular ray rule. 'It doesn't pass through any special point' incorrectly denies the entire basis of ray-tracing for curved mirrors."
+      "explanation": "Correct: (B) The focal point. The focal point. A parallel ray always reflects through f — the defining property of a focusing mirror, and the first of the three principal rays used for hand-tracing images. 'The center of curvature' swaps this rule with the different ray-through-center-of-curvature rule (which reflects straight back, not through f). 'The vertex of the mirror' names the mirror's own central point, which has no special role in this particular ray rule. 'It doesn't pass through any special point' incorrectly denies the entire basis of ray-tracing for curved mirrors."
     },
     {
       "id": "13-21",
@@ -4953,7 +4953,7 @@ const QUESTIONS = {
         "Parallel to the principal axis, after the reflection"
       ],
       "correct": 0,
-      "explanation": "Straight back along its own path. A ray through the center of curvature strikes the mirror's surface exactly perpendicular to that curved surface (0° incidence), so by the law of reflection it retraces its own path exactly. 'Parallel to the principal axis, after the reflection' is the reverse of a DIFFERENT principal ray (the one entering parallel to the axis, which then reflects through f). 'Through the focal point, on the far side of the mirror' names the rule for yet another principal ray, not this one. 'Perpendicular to its incoming path, after the reflection' invents a 90° deflection that has no basis in this geometry."
+      "explanation": "Correct: (A) Straight back along its own incoming path. Straight back along its own path. A ray through the center of curvature strikes the mirror's surface exactly perpendicular to that curved surface (0° incidence), so by the law of reflection it retraces its own path exactly. 'Parallel to the principal axis, after the reflection' is the reverse of a DIFFERENT principal ray (the one entering parallel to the axis, which then reflects through f). 'Through the focal point, on the far side of the mirror' names the rule for yet another principal ray, not this one. 'Perpendicular to its incoming path, after the reflection' invents a 90° deflection that has no basis in this geometry."
     },
     {
       "id": "13-22",
@@ -4966,7 +4966,7 @@ const QUESTIONS = {
         "The image alternates repeatedly between growing and shrinking as the object moves."
       ],
       "correct": 0,
-      "explanation": "The image grows steadily larger throughout, becoming very large as the object nears f. Far away, the image is tiny; at exactly 2f, it matches the object's size; between f and 2f, it's magnified; and right at f, it grows without bound (where no proper image forms at all). 'The image shrinks steadily' has the trend exactly backwards — image size increases, not decreases, as the object approaches f. 'The image size stays constant' ignores the mirror equation's strong dependence on object distance. 'The image alternates between growing and shrinking' invents a back-and-forth pattern that doesn't match the single, steadily increasing trend the equation actually produces."
+      "explanation": "Correct: (A) The image grows steadily larger throughout, becoming very large near f. The image grows steadily larger throughout, becoming very large as the object nears f. Far away, the image is tiny; at exactly 2f, it matches the object's size; between f and 2f, it's magnified; and right at f, it grows without bound (where no proper image forms at all). 'The image shrinks steadily' has the trend exactly backwards — image size increases, not decreases, as the object approaches f. 'The image size stays constant' ignores the mirror equation's strong dependence on object distance. 'The image alternates between growing and shrinking' invents a back-and-forth pattern that doesn't match the single, steadily increasing trend the equation actually produces."
     },
     {
       "id": "13-23",
@@ -4979,7 +4979,7 @@ const QUESTIONS = {
         "12.5 cm"
       ],
       "correct": 1,
-      "explanation": "sᵢ = −25 cm. As sₒ → ∞, 1/sₒ → 0, leaving 1/sᵢ = 1/f directly — the image forms right at the focal point, a limiting case that applies to any mirror or lens. '25 cm' has the right magnitude but drops the negative sign, forgetting a convex mirror's image must be virtual. '−12.5 cm' keeps the correct sign but mistakenly halves the focal length. '12.5 cm' combines both errors — halving the magnitude and dropping the sign."
+      "explanation": "Correct: (B) −25 cm. sᵢ = −25 cm. As sₒ → ∞, 1/sₒ → 0, leaving 1/sᵢ = 1/f directly — the image forms right at the focal point, a limiting case that applies to any mirror or lens. '25 cm' has the right magnitude but drops the negative sign, forgetting a convex mirror's image must be virtual. '−12.5 cm' keeps the correct sign but mistakenly halves the focal length. '12.5 cm' combines both errors — halving the magnitude and dropping the sign."
     },
     {
       "id": "13-24",
@@ -4992,7 +4992,7 @@ const QUESTIONS = {
         "The opposite side from the object"
       ],
       "correct": 2,
-      "explanation": "The same side as the object. Light physically reflects back off a mirror and converges in front of it, the same side the object sits on. 'The opposite side' describes lenses instead, where light passes through and a real image forms on the far side — the key sign-convention difference between mirrors and lenses. 'Neither — images form exactly at the surface' is never true; a real image always forms some distance away from the mirror, not right at it. 'It depends on the object's distance' is wrong — the side is fixed for every real-image case with a concave mirror, regardless of how far the object sits."
+      "explanation": "Correct: (C) The same side as the object. The same side as the object. Light physically reflects back off a mirror and converges in front of it, the same side the object sits on. 'The opposite side' describes lenses instead, where light passes through and a real image forms on the far side — the key sign-convention difference between mirrors and lenses. 'Neither — images form exactly at the surface' is never true; a real image always forms some distance away from the mirror, not right at it. 'It depends on the object's distance' is wrong — the side is fixed for every real-image case with a concave mirror, regardless of how far the object sits."
     },
     {
       "id": "13-25",
@@ -5005,7 +5005,7 @@ const QUESTIONS = {
         "25 cm"
       ],
       "correct": 0,
-      "explanation": "f ≈ 16.7 cm. Using 1/50 + 1/25 = 1/f: 1/50 + 2/50 = 3/50, so f = 50/3 ≈ 16.7 cm. '12.5 cm' comes from a slip in combining the two reciprocals. '25 cm' mistakenly reports the image distance itself as the focal length. '37.5 cm' looks like an averaging-style error rather than a correct reciprocal combination of 50 and 25."
+      "explanation": "Correct: (A) 16.7 cm. f ≈ 16.7 cm. Using 1/50 + 1/25 = 1/f: 1/50 + 2/50 = 3/50, so f = 50/3 ≈ 16.7 cm. '12.5 cm' comes from a slip in combining the two reciprocals. '25 cm' mistakenly reports the image distance itself as the focal length. '37.5 cm' looks like an averaging-style error rather than a correct reciprocal combination of 50 and 25."
     },
     {
       "id": "13-26",
@@ -5018,7 +5018,7 @@ const QUESTIONS = {
         "s<sub>o</sub> = f"
       ],
       "correct": 1,
-      "explanation": "sₒ = 2f. This is the reverse of the 'object at 2f gives unity magnification' fact — a real, inverted, same-size image only occurs at the mirror's center of curvature. 'f/2' halves the correct distance. 'f' confuses this with the entirely different focal-point case, where no image forms at all rather than a same-size one. '4f' doubles the correct answer, well beyond where the mirror equation actually places this condition."
+      "explanation": "Correct: (B) s<sub>o</sub> = 2f. sₒ = 2f. This is the reverse of the 'object at 2f gives unity magnification' fact — a real, inverted, same-size image only occurs at the mirror's center of curvature. 'f/2' halves the correct distance. 'f' confuses this with the entirely different focal-point case, where no image forms at all rather than a same-size one. '4f' doubles the correct answer, well beyond where the mirror equation actually places this condition."
     },
     {
       "id": "13-27",
@@ -5031,7 +5031,7 @@ const QUESTIONS = {
         "Concave mirrors converge rays to real points; convex mirrors only diverge them from virtual points."
       ],
       "correct": 3,
-      "explanation": "Real vs. virtual reference points. A concave mirror's focal point and center of curvature are real locations in front of the mirror where rays genuinely converge. A convex mirror's equivalent points are virtual, behind the mirror — rays only appear to diverge from them, traced with dashed construction lines since no real light reaches back there. 'Concave mirrors don't have a focal point at all' is simply false — concave mirrors are defined by having a real, converging focal point. 'Convex mirrors require four principal rays' invents an extra ray; both mirror types use the same three principal rays, just with different (real vs. virtual) reference points. 'There is no meaningful difference' ignores exactly the real-vs-virtual distinction this question is testing."
+      "explanation": "Correct: (D) Concave mirrors converge rays to real points; convex mirrors only diverge them from virtual points. Real vs. virtual reference points. A concave mirror's focal point and center of curvature are real locations in front of the mirror where rays genuinely converge. A convex mirror's equivalent points are virtual, behind the mirror — rays only appear to diverge from them, traced with dashed construction lines since no real light reaches back there. 'Concave mirrors don't have a focal point at all' is simply false — concave mirrors are defined by having a real, converging focal point. 'Convex mirrors require four principal rays' invents an extra ray; both mirror types use the same three principal rays, just with different (real vs. virtual) reference points. 'There is no meaningful difference' ignores exactly the real-vs-virtual distinction this question is testing."
     },
     {
       "id": "13-28",
@@ -5044,7 +5044,7 @@ const QUESTIONS = {
         "11.25 cm; real, upright, reduced"
       ],
       "correct": 1,
-      "explanation": "22.5 cm; real, inverted, reduced. Using 1/45 + 1/sᵢ = 1/15: 1/sᵢ = 1/15 − 1/45 = 3/45 − 1/45 = 2/45, giving sᵢ = 22.5 cm (real). M = −22.5/45 = −0.5 (inverted, reduced) — consistent with the object sitting beyond 2f (30 cm). '22.5 cm; virtual, upright, magnified' gets the correct distance but swaps in the image type from the very different object-inside-f case. '45 cm; real, inverted, same size' mistakes the object distance itself for the image distance and wrongly assumes M = −1, which only happens when sₒ = 2f, not 45 cm here. '11.25 cm; real, upright, reduced' halves the correct image distance and, separately, wrongly claims upright — a real image from a concave mirror is always inverted."
+      "explanation": "Correct: (B) 22.5 cm; real, inverted, reduced. 22.5 cm; real, inverted, reduced. Using 1/45 + 1/sᵢ = 1/15: 1/sᵢ = 1/15 − 1/45 = 3/45 − 1/45 = 2/45, giving sᵢ = 22.5 cm (real). M = −22.5/45 = −0.5 (inverted, reduced) — consistent with the object sitting beyond 2f (30 cm). '22.5 cm; virtual, upright, magnified' gets the correct distance but swaps in the image type from the very different object-inside-f case. '45 cm; real, inverted, same size' mistakes the object distance itself for the image distance and wrongly assumes M = −1, which only happens when sₒ = 2f, not 45 cm here. '11.25 cm; real, upright, reduced' halves the correct image distance and, separately, wrongly claims upright — a real image from a concave mirror is always inverted."
     },
     {
       "id": "13-29",
@@ -5057,7 +5057,7 @@ const QUESTIONS = {
         "Beyond 2f, far from the mirror"
       ],
       "correct": 2,
-      "explanation": "Inside the focal length. This is the one concave-mirror configuration — object closer than the focal point — that produces a magnified, upright, VIRTUAL image, matching how a dentist's or magnifying mirror is actually used. 'Outside the focal length but inside 2f' instead produces a real, magnified, but inverted image — useless for seeing an upright view. 'Exactly at 2f' produces a real, same-size, inverted image, not a magnified upright one. 'Beyond 2f' produces a small, real, inverted image — the opposite of what a dentist's mirror shows."
+      "explanation": "Correct: (C) Inside the focal length (s<sub>o</sub> < f). Inside the focal length. This is the one concave-mirror configuration — object closer than the focal point — that produces a magnified, upright, VIRTUAL image, matching how a dentist's or magnifying mirror is actually used. 'Outside the focal length but inside 2f' instead produces a real, magnified, but inverted image — useless for seeing an upright view. 'Exactly at 2f' produces a real, same-size, inverted image, not a magnified upright one. 'Beyond 2f' produces a small, real, inverted image — the opposite of what a dentist's mirror shows."
     },
     {
       "id": "13-30",
@@ -5070,7 +5070,7 @@ const QUESTIONS = {
         "They produce equal-magnitude images."
       ],
       "correct": 2,
-      "explanation": "The concave mirror produces the larger image. For the concave mirror: 1/40 + 1/sᵢ = 1/20 gives sᵢ = 40 cm, so |M| = 40/40 = 1.0. For the convex mirror: 1/40 + 1/sᵢ = 1/(−20) gives sᵢ ≈ −13.3 cm, so |M| ≈ 13.3/40 ≈ 0.33 — roughly three times smaller. 'The convex mirror produces the larger image' has the comparison backwards. 'They produce equal-magnitude images' wrongly assumes that matching |f| values must give matching image sizes. 'This cannot be determined' is wrong — both mirror equations are fully solvable with the given information."
+      "explanation": "Correct: (C) The concave mirror produces the larger image. The concave mirror produces the larger image. For the concave mirror: 1/40 + 1/sᵢ = 1/20 gives sᵢ = 40 cm, so |M| = 40/40 = 1.0. For the convex mirror: 1/40 + 1/sᵢ = 1/(−20) gives sᵢ ≈ −13.3 cm, so |M| ≈ 13.3/40 ≈ 0.33 — roughly three times smaller. 'The convex mirror produces the larger image' has the comparison backwards. 'They produce equal-magnitude images' wrongly assumes that matching |f| values must give matching image sizes. 'This cannot be determined' is wrong — both mirror equations are fully solvable with the given information."
     },
     {
       "id": "13-68",
@@ -5153,7 +5153,7 @@ const QUESTIONS = {
         "22°"
       ],
       "correct": 1,
-      "explanation": "θ₂ ≈ 33°. Using Snell's Law: (1.00)(sin 50°) = (1.4)(sinθ₂), so sinθ₂ = 0.766/1.4 ≈ 0.547, giving θ₂ ≈ 33° — bent toward the normal, since the ray enters a denser material. '22°' comes from a slip in the sine arithmetic. '50°' simply repeats the incidence angle, as if no bending occurred at all. '71°' bends the ray the wrong way, away from the normal, as though it were exiting into a less dense medium instead of entering a denser one."
+      "explanation": "Correct: (B) 33°. θ₂ ≈ 33°. Using Snell's Law: (1.00)(sin 50°) = (1.4)(sinθ₂), so sinθ₂ = 0.766/1.4 ≈ 0.547, giving θ₂ ≈ 33° — bent toward the normal, since the ray enters a denser material. '22°' comes from a slip in the sine arithmetic. '50°' simply repeats the incidence angle, as if no bending occurred at all. '71°' bends the ray the wrong way, away from the normal, as though it were exiting into a less dense medium instead of entering a denser one."
     },
     {
       "id": "13-32",
@@ -5166,7 +5166,7 @@ const QUESTIONS = {
         "34°"
       ],
       "correct": 3,
-      "explanation": "θ₂ ≈ 34°. Using Snell's Law: (1.33)(sin 25°) = (1.00)(sinθ₂), so sinθ₂ = 1.33(0.4226) ≈ 0.562, giving θ₂ ≈ 34° — bent away from the normal, exiting into less-dense air. '19°' comes from a slip in the sine arithmetic. '25°' just restates the incidence angle, as if no bending occurred. '48°' overshoots the correct refraction angle, bending more than the actual index ratio allows."
+      "explanation": "Correct: (D) 34°. θ₂ ≈ 34°. Using Snell's Law: (1.33)(sin 25°) = (1.00)(sinθ₂), so sinθ₂ = 1.33(0.4226) ≈ 0.562, giving θ₂ ≈ 34° — bent away from the normal, exiting into less-dense air. '19°' comes from a slip in the sine arithmetic. '25°' just restates the incidence angle, as if no bending occurred. '48°' overshoots the correct refraction angle, bending more than the actual index ratio allows."
     },
     {
       "id": "13-33",
@@ -5179,7 +5179,7 @@ const QUESTIONS = {
         "Toward the normal"
       ],
       "correct": 3,
-      "explanation": "Toward the normal. Going from a less dense medium (n = 1.2) into a more dense one (n = 1.6) always bends light toward the normal, regardless of the specific incidence angle. 'Away from the normal' has the direction exactly backwards for this less-to-more-dense transition. 'It doesn't bend at all' ignores the index mismatch entirely — any change in n causes bending (except at 0° incidence). 'Cannot be determined without the incidence angle' is wrong: the DIRECTION of bending depends only on which way the density is changing, not on the specific angle (though the exact size of the bend does)."
+      "explanation": "Correct: (D) Toward the normal. Toward the normal. Going from a less dense medium (n = 1.2) into a more dense one (n = 1.6) always bends light toward the normal, regardless of the specific incidence angle. 'Away from the normal' has the direction exactly backwards for this less-to-more-dense transition. 'It doesn't bend at all' ignores the index mismatch entirely — any change in n causes bending (except at 0° incidence). 'Cannot be determined without the incidence angle' is wrong: the DIRECTION of bending depends only on which way the density is changing, not on the specific angle (though the exact size of the bend does)."
     },
     {
       "id": "13-34",
@@ -5192,7 +5192,7 @@ const QUESTIONS = {
         "1.5 × 10⁸ m/s"
       ],
       "correct": 3,
-      "explanation": "v = 1.5×10⁸ m/s. Using n = c/v, solve for v = c/n = (3.0×10⁸)/2.0 = 1.5×10⁸ m/s. '3.0×10⁸ m/s' just reports c itself, forgetting to divide by n at all. '6.0×10⁸ m/s' multiplies by n instead of dividing, giving a speed faster than light in vacuum — physically impossible. '1.5×10⁹ m/s' has the right digits but an order-of-magnitude slip in the exponent."
+      "explanation": "Correct: (D) 1.5 × 10⁸ m/s. v = 1.5×10⁸ m/s. Using n = c/v, solve for v = c/n = (3.0×10⁸)/2.0 = 1.5×10⁸ m/s. '3.0×10⁸ m/s' just reports c itself, forgetting to divide by n at all. '6.0×10⁸ m/s' multiplies by n instead of dividing, giving a speed faster than light in vacuum — physically impossible. '1.5×10⁹ m/s' has the right digits but an order-of-magnitude slip in the exponent."
     },
     {
       "id": "13-35",
@@ -5205,7 +5205,7 @@ const QUESTIONS = {
         "0.67"
       ],
       "correct": 1,
-      "explanation": "n = 1.5. Using n = c/v = (3.0×10⁸)/(2.0×10⁸) = 1.5. '0.67' inverts the ratio (v/c instead of c/v) — that would actually be 1/n, not n itself. '2.0' comes from misreading the given speed as the index, or mixing up which value is c and which is v. '6.0' multiplies the coefficients instead of dividing, treating 3.0×2.0 as the answer."
+      "explanation": "Correct: (B) 1.5. n = 1.5. Using n = c/v = (3.0×10⁸)/(2.0×10⁸) = 1.5. '0.67' inverts the ratio (v/c instead of c/v) — that would actually be 1/n, not n itself. '2.0' comes from misreading the given speed as the index, or mixing up which value is c and which is v. '6.0' multiplies the coefficients instead of dividing, treating 3.0×2.0 as the answer."
     },
     {
       "id": "13-36",
@@ -5218,7 +5218,7 @@ const QUESTIONS = {
         "36.9°"
       ],
       "correct": 0,
-      "explanation": "θ<sub>c</sub> ≈ 48.6°. Using sinθ_c = n₂/n₁ = 1.2/1.6 = 0.75, so θ<sub>c</sub> = sin⁻¹(0.75) ≈ 48.6°. '36.9°' comes from using the inverse ratio n₁/n₂ instead of n₂/n₁. '41.8°' is the critical angle for a different index ratio entirely (like a glass-air boundary with n = 1.5), mistakenly carried over to this problem's numbers. '53.1°' is the complement of the correct angle (90° − 36.9°), suggesting a mixed-up reference line."
+      "explanation": "Correct: (A) 48.6°. θ<sub>c</sub> ≈ 48.6°. Using sinθ_c = n₂/n₁ = 1.2/1.6 = 0.75, so θ<sub>c</sub> = sin⁻¹(0.75) ≈ 48.6°. '36.9°' comes from using the inverse ratio n₁/n₂ instead of n₂/n₁. '41.8°' is the critical angle for a different index ratio entirely (like a glass-air boundary with n = 1.5), mistakenly carried over to this problem's numbers. '53.1°' is the complement of the correct angle (90° − 36.9°), suggesting a mixed-up reference line."
     },
     {
       "id": "13-37",
@@ -5231,7 +5231,7 @@ const QUESTIONS = {
         "No — TIR requires going from a denser into a less-dense medium; this is the reverse direction."
       ],
       "correct": 3,
-      "explanation": "No, it's impossible in this direction. Total internal reflection requires n₁ > n₂ (going from denser into less dense). Here, air (less dense) enters glass (more dense) — the reverse — so no critical angle even exists, and TIR cannot happen no matter how large the incidence angle is. 'Yes, at any angle beyond a specific critical angle' wrongly assumes a critical angle exists here at all; it only exists going the other way, glass into air. 'Yes, but only for angles less than 45°' invents an unrelated cutoff angle with no basis in this index pair. 'It depends on the specific wavelength' misattributes the requirement — TIR's possibility depends on the direction of the index change, not on wavelength."
+      "explanation": "Correct: (D) No — TIR requires going from a denser into a less-dense medium; this is the reverse direction. No, it's impossible in this direction. Total internal reflection requires n₁ > n₂ (going from denser into less dense). Here, air (less dense) enters glass (more dense) — the reverse — so no critical angle even exists, and TIR cannot happen no matter how large the incidence angle is. 'Yes, at any angle beyond a specific critical angle' wrongly assumes a critical angle exists here at all; it only exists going the other way, glass into air. 'Yes, but only for angles less than 45°' invents an unrelated cutoff angle with no basis in this index pair. 'It depends on the specific wavelength' misattributes the requirement — TIR's possibility depends on the direction of the index change, not on wavelength."
     },
     {
       "id": "13-38",
@@ -5244,7 +5244,7 @@ const QUESTIONS = {
         "The light splits evenly between refracting out and reflecting back into the glass."
       ],
       "correct": 1,
-      "explanation": "Total internal reflection. Since 45° exceeds the critical angle of 41.8° for this glass-air boundary, no refracted ray can exist — all the light reflects back into the glass. 'The light refracts out into the air as normal' ignores that the angle has exceeded the critical angle, past which refraction becomes impossible. 'The light splits evenly between refracting and reflecting' describes ordinary partial reflection below the critical angle, not what happens once TIR kicks in. 'The light is completely absorbed' is wrong — TIR means the light is entirely reflected, not absorbed; none of its energy is lost at the boundary."
+      "explanation": "Correct: (B) Total internal reflection occurs — 100% of the light reflects back into the glass. Total internal reflection. Since 45° exceeds the critical angle of 41.8° for this glass-air boundary, no refracted ray can exist — all the light reflects back into the glass. 'The light refracts out into the air as normal' ignores that the angle has exceeded the critical angle, past which refraction becomes impossible. 'The light splits evenly between refracting and reflecting' describes ordinary partial reflection below the critical angle, not what happens once TIR kicks in. 'The light is completely absorbed' is wrong — TIR means the light is entirely reflected, not absorbed; none of its energy is lost at the boundary."
     },
     {
       "id": "13-39",
@@ -5257,7 +5257,7 @@ const QUESTIONS = {
         "The exiting ray's direction depends on the glass's thickness."
       ],
       "correct": 2,
-      "explanation": "Parallel to the original ray, but laterally displaced. The entry refraction (air to glass) and exit refraction (glass back to air) involve the same pair of media in reverse, so their angular effects exactly cancel — the ray emerges in its original direction, just shifted sideways by an amount depending on the glass's thickness. 'Perpendicular to the original ray' invents a 90° change with no basis in this geometry. 'Continues at the same angle it had inside the glass' confuses the ray's angle while still inside the block with its final direction after exiting — those aren't the same. 'Depends on the glass's thickness' correctly identifies that thickness affects the SIDEWAYS SHIFT, but incorrectly extends that to the ray's final direction, which stays parallel regardless of thickness."
+      "explanation": "Correct: (C) The exiting ray is parallel to the original ray, though laterally shifted. Parallel to the original ray, but laterally displaced. The entry refraction (air to glass) and exit refraction (glass back to air) involve the same pair of media in reverse, so their angular effects exactly cancel — the ray emerges in its original direction, just shifted sideways by an amount depending on the glass's thickness. 'Perpendicular to the original ray' invents a 90° change with no basis in this geometry. 'Continues at the same angle it had inside the glass' confuses the ray's angle while still inside the block with its final direction after exiting — those aren't the same. 'Depends on the glass's thickness' correctly identifies that thickness affects the SIDEWAYS SHIFT, but incorrectly extends that to the ray's final direction, which stays parallel regardless of thickness."
     },
     {
       "id": "13-40",
@@ -5270,7 +5270,7 @@ const QUESTIONS = {
         "0.57"
       ],
       "correct": 0,
-      "explanation": "n₂ ≈ 1.03. At the critical angle, sinθ_c = n₂/n₁, so n₂ = n₁sinθ_c = (1.8)(sin 35°) = (1.8)(0.574) ≈ 1.03. '0.57' comes from inverting the relationship (effectively computing n₁/n₂ instead of solving for n₂). '1.8' just restates n₁ directly, forgetting to multiply by sin 35° at all. '3.14' is an unrelated value, suggesting a stray mix-up with π rather than the sine of 35°."
+      "explanation": "Correct: (A) 1.03. n₂ ≈ 1.03. At the critical angle, sinθ_c = n₂/n₁, so n₂ = n₁sinθ_c = (1.8)(sin 35°) = (1.8)(0.574) ≈ 1.03. '0.57' comes from inverting the relationship (effectively computing n₁/n₂ instead of solving for n₂). '1.8' just restates n₁ directly, forgetting to multiply by sin 35° at all. '3.14' is an unrelated value, suggesting a stray mix-up with π rather than the sine of 35°."
     },
     {
       "id": "13-41",
@@ -5283,7 +5283,7 @@ const QUESTIONS = {
         "Water > air > glass"
       ],
       "correct": 2,
-      "explanation": "Air > water > glass. Since v = c/n, speed and index of refraction are inversely related — the smallest n (air) gives the fastest light, and the largest n (glass) gives the slowest. 'Glass > water > air' has the entire ranking exactly backwards. 'Water > air > glass' correctly identifies glass as slowest but swaps the relative order of water and air, since air actually has the smaller index and thus the faster speed. 'All three are equal, since c is a universal constant' confuses c (the speed of light in VACUUM specifically) with the speed of light inside a material, which is always slower and different for each medium."
+      "explanation": "Correct: (C) Air > water > glass. Air > water > glass. Since v = c/n, speed and index of refraction are inversely related — the smallest n (air) gives the fastest light, and the largest n (glass) gives the slowest. 'Glass > water > air' has the entire ranking exactly backwards. 'Water > air > glass' correctly identifies glass as slowest but swaps the relative order of water and air, since air actually has the smaller index and thus the faster speed. 'All three are equal, since c is a universal constant' confuses c (the speed of light in VACUUM specifically) with the speed of light inside a material, which is always slower and different for each medium."
     },
     {
       "id": "13-42",
@@ -5296,7 +5296,7 @@ const QUESTIONS = {
         "The pool bottom is actually reflecting a virtual image of itself back up to the eye from the surface."
       ],
       "correct": 2,
-      "explanation": "Refraction plus our brain's assumption of straight-line light travel. Light from the pool bottom refracts away from the normal as it exits water into air; since our visual system assumes light travels in perfectly straight lines, tracing the refracted ray backward (rather than its actual bent path) places the apparent source closer to the surface than the real bottom. 'Water absorbs some light, making the bottom appear closer' misattributes the effect to absorption, which dims the image but has nothing to do with its apparent depth. 'The pool bottom is reflecting a virtual image of itself' invents an unrelated reflection mechanism instead of refraction. 'This is an optical illusion unrelated to refraction' denies the very refraction effect the question is testing."
+      "explanation": "Correct: (C) Light from the pool bottom refracts away from the normal exiting into air, making the bottom look closer. Refraction plus our brain's assumption of straight-line light travel. Light from the pool bottom refracts away from the normal as it exits water into air; since our visual system assumes light travels in perfectly straight lines, tracing the refracted ray backward (rather than its actual bent path) places the apparent source closer to the surface than the real bottom. 'Water absorbs some light, making the bottom appear closer' misattributes the effect to absorption, which dims the image but has nothing to do with its apparent depth. 'The pool bottom is reflecting a virtual image of itself' invents an unrelated reflection mechanism instead of refraction. 'This is an optical illusion unrelated to refraction' denies the very refraction effect the question is testing."
     },
     {
       "id": "13-43",
@@ -5309,7 +5309,7 @@ const QUESTIONS = {
         "54.6°"
       ],
       "correct": 0,
-      "explanation": "θ₁ ≈ 33.2°. Using Snell's Law: (1.00)sinθ₁ = (1.6)(sin 20°) = (1.6)(0.342) ≈ 0.547, giving θ₁ = sin⁻¹(0.547) ≈ 33.2°. '12.5°' comes from a slip in the inverse-sine step. '20°' just reports the given refraction angle back unchanged, as if solving 'backward' weren't necessary. '54.6°' overshoots, suggesting the indices were swapped (n₁ and n₂ reversed) before solving."
+      "explanation": "Correct: (A) 33.2°. θ₁ ≈ 33.2°. Using Snell's Law: (1.00)sinθ₁ = (1.6)(sin 20°) = (1.6)(0.342) ≈ 0.547, giving θ₁ = sin⁻¹(0.547) ≈ 33.2°. '12.5°' comes from a slip in the inverse-sine step. '20°' just reports the given refraction angle back unchanged, as if solving 'backward' weren't necessary. '54.6°' overshoots, suggesting the indices were swapped (n₁ and n₂ reversed) before solving."
     },
     {
       "id": "13-44",
@@ -5322,7 +5322,7 @@ const QUESTIONS = {
         "Cannot be determined without exact speed values"
       ],
       "correct": 0,
-      "explanation": "n<sub>A</sub> < n<sub>B</sub> < n<sub>C</sub>. Speed and index of refraction are inversely related (n = c/v) — the material where light moves fastest (A) has the smallest n, and the slowest material (C) has the largest n. 'n<sub>A</sub> > n<sub>B</sub> > n<sub>C</sub>' has the entire ranking backwards. 'n<sub>A</sub> = n<sub>B</sub> = n<sub>C</sub>' ignores that different speeds necessarily mean different indices. 'Cannot be determined without exact speed values' is wrong — the inverse relationship between speed and index means the RANKING can be found from the speed ranking alone, without needing exact numbers."
+      "explanation": "Correct: (A) n<sub>A</sub> < n<sub>B</sub> < n<sub>C</sub>. n<sub>A</sub> < n<sub>B</sub> < n<sub>C</sub>. Speed and index of refraction are inversely related (n = c/v) — the material where light moves fastest (A) has the smallest n, and the slowest material (C) has the largest n. 'n<sub>A</sub> > n<sub>B</sub> > n<sub>C</sub>' has the entire ranking backwards. 'n<sub>A</sub> = n<sub>B</sub> = n<sub>C</sub>' ignores that different speeds necessarily mean different indices. 'Cannot be determined without exact speed values' is wrong — the inverse relationship between speed and index means the RANKING can be found from the speed ranking alone, without needing exact numbers."
     },
     {
       "id": "13-45",
@@ -5335,7 +5335,7 @@ const QUESTIONS = {
         "Because no material lets light travel faster than c, so v ≤ c and n = c/v ≥ 1 always."
       ],
       "correct": 3,
-      "explanation": "It follows directly from n = c/v combined with the fact that nothing travels faster than light in vacuum. Since v can never exceed c, the ratio c/v can never fall below 1 — n = 1 only in true vacuum, and n > 1 for every real material. 'Because n is defined as always positive by convention' wrongly treats this as an arbitrary labeling choice rather than a result forced by physics. 'Because light always slows down when passing through any boundary' overstates the reasoning — the real constraint is that v can never exceed c, not simply a general claim about slowing at boundaries. 'Because the human eye cannot perceive n values less than 1' is an irrelevant appeal to perception; n ≥ 1 is a physical fact independent of anyone observing it."
+      "explanation": "Correct: (D) Because no material lets light travel faster than c, so v ≤ c and n = c/v ≥ 1 always. It follows directly from n = c/v combined with the fact that nothing travels faster than light in vacuum. Since v can never exceed c, the ratio c/v can never fall below 1 — n = 1 only in true vacuum, and n > 1 for every real material. 'Because n is defined as always positive by convention' wrongly treats this as an arbitrary labeling choice rather than a result forced by physics. 'Because light always slows down when passing through any boundary' overstates the reasoning — the real constraint is that v can never exceed c, not simply a general claim about slowing at boundaries. 'Because the human eye cannot perceive n values less than 1' is an irrelevant appeal to perception; n ≥ 1 is a physical fact independent of anyone observing it."
     },
     {
       "id": "13-46",
@@ -5349,7 +5349,7 @@ const QUESTIONS = {
         "30° at the first face (no bending); no TIR at the second face, since the light meets it head on."
       ],
       "correct": 0,
-      "explanation": "19.5° at the first face; TIR occurs at the second. First: sinθ₂ = (1.00/1.5)(sin 30°) = (0.667)(0.5) ≈ 0.333, giving θ₂ ≈ 19.5°. Second: the critical angle for a glass-to-air boundary with n = 1.5 is sin⁻¹(1.00/1.5) ≈ 41.8°; since the ray strikes this face at 50°, well beyond that critical angle, total internal reflection occurs and none of the light exits. The '19.5°... no TIR' choice gets the first-face refraction right but wrongly concludes no TIR, ignoring that 50° exceeds the 41.8° critical angle. The '45°... yes, TIR' choice gets the correct TIR conclusion but the wrong first-face angle — 45° doesn't come from applying Snell's Law to this geometry at all. 'No bending at the first face' incorrectly assumes light passes straight through without refracting on entering the glass, and, as a consequence, also wrongly denies TIR at the second face."
+      "explanation": "Correct: (A) 19.5° at the first face; yes, TIR occurs at the second face (50° exceeds the ≈41.8° critical angle). 19.5° at the first face; TIR occurs at the second. First: sinθ₂ = (1.00/1.5)(sin 30°) = (0.667)(0.5) ≈ 0.333, giving θ₂ ≈ 19.5°. Second: the critical angle for a glass-to-air boundary with n = 1.5 is sin⁻¹(1.00/1.5) ≈ 41.8°; since the ray strikes this face at 50°, well beyond that critical angle, total internal reflection occurs and none of the light exits. The '19.5°... no TIR' choice gets the first-face refraction right but wrongly concludes no TIR, ignoring that 50° exceeds the 41.8° critical angle. The '45°... yes, TIR' choice gets the correct TIR conclusion but the wrong first-face angle — 45° doesn't come from applying Snell's Law to this geometry at all. 'No bending at the first face' incorrectly assumes light passes straight through without refracting on entering the glass, and, as a consequence, also wrongly denies TIR at the second face."
     },
     {
       "id": "13-47",
@@ -5362,7 +5362,7 @@ const QUESTIONS = {
         "False — this ratio instead gives the material's density, not its index of refraction."
       ],
       "correct": 2,
-      "explanation": "True. Snell's Law with n₁ = 1 (vacuum) gives sinθ₁ = n₂sinθ₂, which rearranges directly to n₂ = sinθ₁/sinθ₂ — this is literally the standard experimental method for measuring index of refraction. 'False — index of refraction can only be measured using the critical angle' wrongly rules out this direct Snell's-Law method, which works perfectly well and doesn't require finding a critical angle at all. 'True, but only for incidence angles less than 45°' invents a restriction Snell's Law doesn't actually impose — the relationship holds at any incidence angle. 'False — this ratio instead gives the material's density' confuses index of refraction with an entirely different physical quantity."
+      "explanation": "Correct: (C) True — this follows directly from Snell's Law with n₁ = 1 for vacuum. True. Snell's Law with n₁ = 1 (vacuum) gives sinθ₁ = n₂sinθ₂, which rearranges directly to n₂ = sinθ₁/sinθ₂ — this is literally the standard experimental method for measuring index of refraction. 'False — index of refraction can only be measured using the critical angle' wrongly rules out this direct Snell's-Law method, which works perfectly well and doesn't require finding a critical angle at all. 'True, but only for incidence angles less than 45°' invents a restriction Snell's Law doesn't actually impose — the relationship holds at any incidence angle. 'False — this ratio instead gives the material's density' confuses index of refraction with an entirely different physical quantity."
     },
     {
       "id": "13-73",
@@ -5417,7 +5417,7 @@ const QUESTIONS = {
         "7.5 cm"
       ],
       "correct": 0,
-      "explanation": "sᵢ = 20 cm. Using 1/30 + 1/sᵢ = 1/12: 1/sᵢ = 1/12 − 1/30 = 5/60 − 2/60 = 3/60 = 1/20, giving sᵢ = 20 cm — a real image, on the opposite side of the lens from the object. '7.5 cm' comes from an inversion-style slip in the reciprocal arithmetic. '36 cm' and '60 cm' each result from mishandling the combination of 1/12 and 1/30 rather than correctly subtracting the reciprocals."
+      "explanation": "Correct: (A) 20 cm. sᵢ = 20 cm. Using 1/30 + 1/sᵢ = 1/12: 1/sᵢ = 1/12 − 1/30 = 5/60 − 2/60 = 3/60 = 1/20, giving sᵢ = 20 cm — a real image, on the opposite side of the lens from the object. '7.5 cm' comes from an inversion-style slip in the reciprocal arithmetic. '36 cm' and '60 cm' each result from mishandling the combination of 1/12 and 1/30 rather than correctly subtracting the reciprocals."
     },
     {
       "id": "13-49",
@@ -5430,7 +5430,7 @@ const QUESTIONS = {
         "1.5"
       ],
       "correct": 1,
-      "explanation": "M = −0.667. Using M = −sᵢ/sₒ = −20/30 ≈ −0.667 — inverted, reduced. '0.667' has the right magnitude but drops the negative sign, missing that this image is inverted. '−1.5' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ) while keeping the correct sign. '1.5' combines both the inverted ratio and the missing sign."
+      "explanation": "Correct: (B) −0.667. M = −0.667. Using M = −sᵢ/sₒ = −20/30 ≈ −0.667 — inverted, reduced. '0.667' has the right magnitude but drops the negative sign, missing that this image is inverted. '−1.5' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ) while keeping the correct sign. '1.5' combines both the inverted ratio and the missing sign."
     },
     {
       "id": "13-50",
@@ -5443,7 +5443,7 @@ const QUESTIONS = {
         "−6 cm"
       ],
       "correct": 0,
-      "explanation": "sᵢ = −30 cm. Using 1/10 + 1/sᵢ = 1/15: 1/sᵢ = 1/15 − 1/10 = 2/30 − 3/30 = −1/30, giving sᵢ = −30 cm — virtual, on the SAME side as the object (exactly how a converging lens works as a magnifying glass). '−6 cm' mistakenly reports the (negated) object distance instead of solving the lens equation. '30 cm' has the right magnitude but drops the negative sign, missing that an object inside f must produce a virtual image. '6 cm' compounds both errors, with neither the correct magnitude nor sign."
+      "explanation": "Correct: (A) −30 cm. sᵢ = −30 cm. Using 1/10 + 1/sᵢ = 1/15: 1/sᵢ = 1/15 − 1/10 = 2/30 − 3/30 = −1/30, giving sᵢ = −30 cm — virtual, on the SAME side as the object (exactly how a converging lens works as a magnifying glass). '−6 cm' mistakenly reports the (negated) object distance instead of solving the lens equation. '30 cm' has the right magnitude but drops the negative sign, missing that an object inside f must produce a virtual image. '6 cm' compounds both errors, with neither the correct magnitude nor sign."
     },
     {
       "id": "13-51",
@@ -5456,7 +5456,7 @@ const QUESTIONS = {
         "−3.0"
       ],
       "correct": 0,
-      "explanation": "M = 3.0. Using M = −sᵢ/sₒ = −(−30)/10 = 3.0 — upright, magnified, the classic magnifying-glass result for an object inside a converging lens's focal length. '−3.0' has the right magnitude but the wrong sign, missing that the formula's minus sign and sᵢ's negative value cancel to give a positive (upright) result. '0.33' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '−0.33' combines both the inverted ratio and the sign error."
+      "explanation": "Correct: (A) 3.0. M = 3.0. Using M = −sᵢ/sₒ = −(−30)/10 = 3.0 — upright, magnified, the classic magnifying-glass result for an object inside a converging lens's focal length. '−3.0' has the right magnitude but the wrong sign, missing that the formula's minus sign and sᵢ's negative value cancel to give a positive (upright) result. '0.33' inverts the ratio (sₒ/sᵢ instead of sᵢ/sₒ). '−0.33' combines both the inverted ratio and the sign error."
     },
     {
       "id": "13-52",
@@ -5469,7 +5469,7 @@ const QUESTIONS = {
         "The same side as the object"
       ],
       "correct": 0,
-      "explanation": "The opposite side. Light physically passes through a lens and converges on the far side from the object — the direct contrast to a mirror, where a real image forms on the SAME side as the object. 'The same side as the object' swaps in the mirror rule instead of the lens rule. 'Neither — real images always form exactly at the lens' is never true; a real image forms some distance from the lens, not right at its surface. 'It depends on whether the lens is converging or diverging' is beside the point — a diverging lens never forms a real image at all, and for a converging lens the far-side rule always holds."
+      "explanation": "Correct: (A) The opposite side from the object. The opposite side. Light physically passes through a lens and converges on the far side from the object — the direct contrast to a mirror, where a real image forms on the SAME side as the object. 'The same side as the object' swaps in the mirror rule instead of the lens rule. 'Neither — real images always form exactly at the lens' is never true; a real image forms some distance from the lens, not right at its surface. 'It depends on whether the lens is converging or diverging' is beside the point — a diverging lens never forms a real image at all, and for a converging lens the far-side rule always holds."
     },
     {
       "id": "13-53",
@@ -5482,7 +5482,7 @@ const QUESTIONS = {
         "−10.3 cm"
       ],
       "correct": 3,
-      "explanation": "sᵢ ≈ −10.3 cm. Using 1/24 + 1/sᵢ = 1/(−18): 1/sᵢ = −1/18 − 1/24 = −4/72 − 3/72 = −7/72, giving sᵢ ≈ −10.3 cm — virtual, as always for a diverging lens. '−42 cm' comes from mishandling the reciprocal combination of 18 and 24. '10.3 cm' has the right magnitude but drops the negative sign, forgetting a diverging lens can never form a real image. '42 cm' compounds both the magnitude and sign errors."
+      "explanation": "Correct: (D) −10.3 cm. sᵢ ≈ −10.3 cm. Using 1/24 + 1/sᵢ = 1/(−18): 1/sᵢ = −1/18 − 1/24 = −4/72 − 3/72 = −7/72, giving sᵢ ≈ −10.3 cm — virtual, as always for a diverging lens. '−42 cm' comes from mishandling the reciprocal combination of 18 and 24. '10.3 cm' has the right magnitude but drops the negative sign, forgetting a diverging lens can never form a real image. '42 cm' compounds both the magnitude and sign errors."
     },
     {
       "id": "13-54",
@@ -5495,7 +5495,7 @@ const QUESTIONS = {
         "Because the object is always placed beyond 2f for a diverging lens, whatever the object distance used."
       ],
       "correct": 2,
-      "explanation": "It's guaranteed by the lens equation itself — the exact parallel to the convex-mirror case. With f always negative, 1/sᵢ = 1/f − 1/sₒ is always negative for any positive object distance, so sᵢ always comes out negative (virtual). This matches the physical picture: a diverging lens spreads parallel rays apart rather than converging them anywhere real. 'Diverging lenses actually don't refract light at all' is simply false — they refract light just as much as any lens, just divergently. 'The object is always placed beyond 2f' is beside the point — the virtual-image guarantee holds for every object distance. 'This is an arbitrary rule with no underlying mathematical basis, adopted only by convention for the equation' dismisses a result that follows directly and unavoidably from the lens equation."
+      "explanation": "Correct: (C) Because f is always negative for a diverging lens, so 1/si comes out negative. It's guaranteed by the lens equation itself — the exact parallel to the convex-mirror case. With f always negative, 1/sᵢ = 1/f − 1/sₒ is always negative for any positive object distance, so sᵢ always comes out negative (virtual). This matches the physical picture: a diverging lens spreads parallel rays apart rather than converging them anywhere real. 'Diverging lenses actually don't refract light at all' is simply false — they refract light just as much as any lens, just divergently. 'The object is always placed beyond 2f' is beside the point — the virtual-image guarantee holds for every object distance. 'This is an arbitrary rule with no underlying mathematical basis, adopted only by convention for the equation' dismisses a result that follows directly and unavoidably from the lens equation."
     },
     {
       "id": "13-55",
@@ -5508,7 +5508,7 @@ const QUESTIONS = {
         "10 cm"
       ],
       "correct": 1,
-      "explanation": "f = 15 cm. Since |M| = sᵢ/sₒ = 3.0, sᵢ = 3.0 × 20 = 60 cm. Then 1/20 + 1/60 = 3/60 + 1/60 = 4/60 = 1/15, giving f = 15 cm. '5.0 cm' and '10 cm' both come from mishandling the reciprocal combination of 1/20 and 1/60 rather than correctly adding them. '45 cm' looks like a slip that stops partway through the calculation (e.g., 60 − sₒ) rather than completing the reciprocal-sum step."
+      "explanation": "Correct: (B) 15 cm. f = 15 cm. Since |M| = sᵢ/sₒ = 3.0, sᵢ = 3.0 × 20 = 60 cm. Then 1/20 + 1/60 = 3/60 + 1/60 = 4/60 = 1/15, giving f = 15 cm. '5.0 cm' and '10 cm' both come from mishandling the reciprocal combination of 1/20 and 1/60 rather than correctly adding them. '45 cm' looks like a slip that stops partway through the calculation (e.g., 60 − sₒ) rather than completing the reciprocal-sum step."
     },
     {
       "id": "13-56",
@@ -5521,7 +5521,7 @@ const QUESTIONS = {
         "It continues parallel forever, never converging after the lens"
       ],
       "correct": 1,
-      "explanation": "The far focal point, on the side opposite the entering ray. A parallel incoming ray always bends to pass through the focal point on the far side of a converging lens — the direct lens analog of the concave mirror's equivalent rule. 'The near focal point, same side as the entering ray' swaps in the wrong focal point; the parallel-ray rule specifically involves the FAR one. 'The exact geometric center of the lens itself, without bending' names the reference point for a different principal ray (the undeviated-through-the-center rule), not this one. 'It continues parallel forever, never converging after the lens' contradicts the entire defining behavior of a converging lens, whose whole purpose is to bend parallel rays toward a focus."
+      "explanation": "Correct: (B) The far focal point, on the side opposite the entering ray. The far focal point, on the side opposite the entering ray. A parallel incoming ray always bends to pass through the focal point on the far side of a converging lens — the direct lens analog of the concave mirror's equivalent rule. 'The near focal point, same side as the entering ray' swaps in the wrong focal point; the parallel-ray rule specifically involves the FAR one. 'The exact geometric center of the lens itself, without bending' names the reference point for a different principal ray (the undeviated-through-the-center rule), not this one. 'It continues parallel forever, never converging after the lens' contradicts the entire defining behavior of a converging lens, whose whole purpose is to bend parallel rays toward a focus."
     },
     {
       "id": "13-57",
@@ -5534,7 +5534,7 @@ const QUESTIONS = {
         "It passes straight through, undeviated."
       ],
       "correct": 3,
-      "explanation": "It passes straight through, undeviated. At the lens's exact center, the front and back surfaces are essentially parallel over that tiny region, so the lens behaves locally like a thin flat piece of glass — the entry and exit refractions cancel, leaving the ray's direction unchanged. 'It bends sharply toward the near focal point' describes a different principal ray's behavior, not this one. 'It reflects back the way it came' invents a reflection outcome that belongs to a mirror, not a lens, which transmits rather than reflects light. 'It splits into two separate rays' has no physical basis — a single ray through the center produces a single, undeviated ray on the far side."
+      "explanation": "Correct: (D) It passes straight through, undeviated. It passes straight through, undeviated. At the lens's exact center, the front and back surfaces are essentially parallel over that tiny region, so the lens behaves locally like a thin flat piece of glass — the entry and exit refractions cancel, leaving the ray's direction unchanged. 'It bends sharply toward the near focal point' describes a different principal ray's behavior, not this one. 'It reflects back the way it came' invents a reflection outcome that belongs to a mirror, not a lens, which transmits rather than reflects light. 'It splits into two separate rays' has no physical basis — a single ray through the center produces a single, undeviated ray on the far side."
     },
     {
       "id": "13-58",
@@ -5547,7 +5547,7 @@ const QUESTIONS = {
         "16.7 cm; real, upright, reduced"
       ],
       "correct": 1,
-      "explanation": "33.3 cm; real, inverted, reduced. Using 1/50 + 1/sᵢ = 1/20: 1/sᵢ = 1/20 − 1/50 = 5/100 − 2/100 = 3/100, giving sᵢ ≈ 33.3 cm (real). M = −33.3/50 ≈ −0.667 (inverted, reduced) — the object sits beyond 2f (40 cm), consistent with this outcome. '33.3 cm; virtual, upright, magnified' gets the correct distance but swaps in the image type from the very different object-inside-f case. '50 cm; real, inverted, same size' mistakes the object distance itself for the image distance and wrongly assumes M = −1, which only happens at sₒ = 2f, not 50 cm. '16.7 cm; real, upright, reduced' comes from a reciprocal-arithmetic slip and, separately, wrongly claims upright — a real image from a converging lens is always inverted."
+      "explanation": "Correct: (B) 33.3 cm; real, inverted, reduced. 33.3 cm; real, inverted, reduced. Using 1/50 + 1/sᵢ = 1/20: 1/sᵢ = 1/20 − 1/50 = 5/100 − 2/100 = 3/100, giving sᵢ ≈ 33.3 cm (real). M = −33.3/50 ≈ −0.667 (inverted, reduced) — the object sits beyond 2f (40 cm), consistent with this outcome. '33.3 cm; virtual, upright, magnified' gets the correct distance but swaps in the image type from the very different object-inside-f case. '50 cm; real, inverted, same size' mistakes the object distance itself for the image distance and wrongly assumes M = −1, which only happens at sₒ = 2f, not 50 cm. '16.7 cm; real, upright, reduced' comes from a reciprocal-arithmetic slip and, separately, wrongly claims upright — a real image from a converging lens is always inverted."
     },
     {
       "id": "13-59",
@@ -5560,7 +5560,7 @@ const QUESTIONS = {
         "Both produce a real, inverted, reduced image."
       ],
       "correct": 3,
-      "explanation": "Both produce a real, inverted, reduced image. Since mirrors and lenses share the same governing equation, the general trend of image type as a function of object distance (relative to f and 2f) matches between the two, even though the specific side convention for where a real image forms differs. 'The lens produces a virtual image while the mirror produces a real image' invents a reality difference that doesn't exist for an object placed beyond 2f — both produce real images here. 'The lens produces an upright image while the mirror produces an inverted image' invents an orientation difference that also doesn't exist — both are inverted here. 'There is no meaningful parallel' denies the shared-equation relationship this question is specifically testing."
+      "explanation": "Correct: (D) Both produce a real, inverted, reduced image. Both produce a real, inverted, reduced image. Since mirrors and lenses share the same governing equation, the general trend of image type as a function of object distance (relative to f and 2f) matches between the two, even though the specific side convention for where a real image forms differs. 'The lens produces a virtual image while the mirror produces a real image' invents a reality difference that doesn't exist for an object placed beyond 2f — both produce real images here. 'The lens produces an upright image while the mirror produces an inverted image' invents an orientation difference that also doesn't exist — both are inverted here. 'There is no meaningful parallel' denies the shared-equation relationship this question is specifically testing."
     },
     {
       "id": "13-60",
@@ -5573,7 +5573,7 @@ const QUESTIONS = {
         "Exactly at the focal point (s<sub>i</sub> = f)"
       ],
       "correct": 3,
-      "explanation": "At the focal point. As sₒ → ∞, 1/sₒ → 0, leaving 1/sᵢ = 1/f directly, so sᵢ = f exactly — precisely why a camera's image sensor sits at the lens's focal length. 'At twice the focal length' confuses this with the unrelated 2f (unity-magnification) special case. 'At the lens itself' ignores that the image still forms a focal-length's distance away, not right at the lens surface. 'Depends on the object's exact brightness' invents an irrelevant factor — brightness affects image intensity, not its location, which is governed purely by the lens equation."
+      "explanation": "Correct: (D) Exactly at the focal point (s<sub>i</sub> = f). At the focal point. As sₒ → ∞, 1/sₒ → 0, leaving 1/sᵢ = 1/f directly, so sᵢ = f exactly — precisely why a camera's image sensor sits at the lens's focal length. 'At twice the focal length' confuses this with the unrelated 2f (unity-magnification) special case. 'At the lens itself' ignores that the image still forms a focal-length's distance away, not right at the lens surface. 'Depends on the object's exact brightness' invents an irrelevant factor — brightness affects image intensity, not its location, which is governed purely by the lens equation."
     },
     {
       "id": "13-61",
@@ -5586,7 +5586,7 @@ const QUESTIONS = {
         "They reverse direction entirely."
       ],
       "correct": 1,
-      "explanation": "They emerge parallel; no proper image forms. This is the lens analog of the concave-mirror-at-f case — the one special location where the equation breaks down (1/sᵢ comes out to zero, meaning sᵢ is infinite). 'They converge to a point immediately after the lens' contradicts what the lens equation actually predicts at this exact object distance. 'They diverge as if from a virtual point behind the lens' describes a diverging lens's typical behavior, not a converging lens with the object at its own focal point. 'They reverse direction entirely' invents an outcome with no basis in this refraction geometry."
+      "explanation": "Correct: (B) They emerge parallel to each other; no image forms. They emerge parallel; no proper image forms. This is the lens analog of the concave-mirror-at-f case — the one special location where the equation breaks down (1/sᵢ comes out to zero, meaning sᵢ is infinite). 'They converge to a point immediately after the lens' contradicts what the lens equation actually predicts at this exact object distance. 'They diverge as if from a virtual point behind the lens' describes a diverging lens's typical behavior, not a converging lens with the object at its own focal point. 'They reverse direction entirely' invents an outcome with no basis in this refraction geometry."
     },
     {
       "id": "13-62",
@@ -5599,7 +5599,7 @@ const QUESTIONS = {
         "This cannot be determined without more information."
       ],
       "correct": 0,
-      "explanation": "The converging lens produces the larger image. For the converging lens: 1/30 + 1/sᵢ = 1/15 gives sᵢ = 30 cm, so |M| = 30/30 = 1.0. For the diverging lens: 1/30 + 1/sᵢ = 1/(−15) gives sᵢ = −10 cm, so |M| = 10/30 ≈ 0.33. This mirrors the identical comparison for concave vs. convex mirrors — same governing equation, same directional outcome. 'The diverging lens produces the larger image' has the comparison backwards. 'They produce equal-magnitude images' wrongly assumes matching |f| magnitudes must give matching image sizes. 'This cannot be determined' is wrong — both lens equations are fully solvable with the given information."
+      "explanation": "Correct: (A) The converging lens produces the larger image. The converging lens produces the larger image. For the converging lens: 1/30 + 1/sᵢ = 1/15 gives sᵢ = 30 cm, so |M| = 30/30 = 1.0. For the diverging lens: 1/30 + 1/sᵢ = 1/(−15) gives sᵢ = −10 cm, so |M| = 10/30 ≈ 0.33. This mirrors the identical comparison for concave vs. convex mirrors — same governing equation, same directional outcome. 'The diverging lens produces the larger image' has the comparison backwards. 'They produce equal-magnitude images' wrongly assumes matching |f| magnitudes must give matching image sizes. 'This cannot be determined' is wrong — both lens equations are fully solvable with the given information."
     },
     {
       "id": "13-63",
@@ -5612,7 +5612,7 @@ const QUESTIONS = {
         "The image stays at a fixed location but changes size."
       ],
       "correct": 2,
-      "explanation": "The image moves farther away and grows larger. As the object approaches the lens (from far away toward f, while remaining outside f), the real image on the opposite side moves progressively farther from the lens and increases in size — the identical directional trend concave mirrors follow, since both share the same governing equation. 'The image moves closer to the lens and shrinks' reverses both trends. 'The image stays at a fixed location but changes size' ignores that the equation strongly ties image location to object distance. 'The image alternates between real and virtual' invents a switch that doesn't happen here; as long as the object stays outside f, the image remains real throughout."
+      "explanation": "Correct: (C) The image moves farther from the lens and grows larger. The image moves farther away and grows larger. As the object approaches the lens (from far away toward f, while remaining outside f), the real image on the opposite side moves progressively farther from the lens and increases in size — the identical directional trend concave mirrors follow, since both share the same governing equation. 'The image moves closer to the lens and shrinks' reverses both trends. 'The image stays at a fixed location but changes size' ignores that the equation strongly ties image location to object distance. 'The image alternates between real and virtual' invents a switch that doesn't happen here; as long as the object stays outside f, the image remains real throughout."
     },
     {
       "id": "13-64",
@@ -5625,7 +5625,7 @@ const QUESTIONS = {
         "25 cm"
       ],
       "correct": 2,
-      "explanation": "sₒ = 50 cm = 2f. Just as with a concave mirror, a converging lens produces a real, same-size (|M| = 1) image only when the object sits at exactly twice the focal length. '12.5 cm' halves the focal length instead of doubling it. '25 cm' mistakes the focal length itself for the answer, confusing this with the different focal-point (no-image) special case. '100 cm' quadruples the focal length (4f), overshooting the correct 2f condition."
+      "explanation": "Correct: (C) 50 cm. sₒ = 50 cm = 2f. Just as with a concave mirror, a converging lens produces a real, same-size (|M| = 1) image only when the object sits at exactly twice the focal length. '12.5 cm' halves the focal length instead of doubling it. '25 cm' mistakes the focal length itself for the answer, confusing this with the different focal-point (no-image) special case. '100 cm' quadruples the focal length (4f), overshooting the correct 2f condition."
     },
     {
       "id": "13-65",
@@ -5638,7 +5638,7 @@ const QUESTIONS = {
         "No — only the mirror has a valid 'through the center' rule; lenses have no equivalent rule at all."
       ],
       "correct": 2,
-      "explanation": "They're different rules that happen to look similar. For a mirror, a ray through the center of curvature hits the curved surface exactly perpendicular (0° incidence), reflecting straight back. For a lens, a ray through the lens's own center passes through undeviated because the lens behaves like a flat, parallel-faced piece of glass at that exact spot, with entry and exit refractions canceling. Both give an easy straight-through-or-straight-back ray, but for genuinely different physical reasons. 'Yes, both rely on the ray reflecting straight back on itself' is only true for the mirror — the lens ray doesn't reflect at all, it passes straight through. 'Yes, both rely on the lens or mirror being infinitely thin' invents an unrelated 'infinitely thin' requirement; the mirror rule depends on perpendicular incidence at a curved surface, not thinness. 'Only the mirror has a valid rule; lenses have no equivalent' incorrectly denies that lenses have their own distinct (if differently-reasoned) center rule."
+      "explanation": "Correct: (C) No — the mirror relies on perpendicular incidence at the curved surface; the lens acts locally like flat glass. They're different rules that happen to look similar. For a mirror, a ray through the center of curvature hits the curved surface exactly perpendicular (0° incidence), reflecting straight back. For a lens, a ray through the lens's own center passes through undeviated because the lens behaves like a flat, parallel-faced piece of glass at that exact spot, with entry and exit refractions canceling. Both give an easy straight-through-or-straight-back ray, but for genuinely different physical reasons. 'Yes, both rely on the ray reflecting straight back on itself' is only true for the mirror — the lens ray doesn't reflect at all, it passes straight through. 'Yes, both rely on the lens or mirror being infinitely thin' invents an unrelated 'infinitely thin' requirement; the mirror rule depends on perpendicular incidence at a curved surface, not thinness. 'Only the mirror has a valid rule; lenses have no equivalent' incorrectly denies that lenses have their own distinct (if differently-reasoned) center rule."
     },
     {
       "id": "13-76",
@@ -5709,7 +5709,7 @@ const QUESTIONS = {
         "There is no fixed relationship between the two directions"
       ],
       "correct": 1,
-      "explanation": "Perpendicular — waves on a string and light are classic transverse waves, oscillating at 90° to travel. 'Parallel' describes a longitudinal wave like sound instead. 'No fixed relationship' is wrong because every wave type has a definite, unchanging geometric relationship between oscillation and travel direction. 'Depends on amplitude' confuses amplitude (how far the medium moves) with the fixed direction it moves in, which amplitude never affects."
+      "explanation": "Correct: (B) Perpendicular to the direction of travel. Perpendicular — waves on a string and light are classic transverse waves, oscillating at 90° to travel. 'Parallel' describes a longitudinal wave like sound instead. 'No fixed relationship' is wrong because every wave type has a definite, unchanging geometric relationship between oscillation and travel direction. 'Depends on amplitude' confuses amplitude (how far the medium moves) with the fixed direction it moves in, which amplitude never affects."
     },
     {
       "id": "14-2",
@@ -5722,7 +5722,7 @@ const QUESTIONS = {
         "There is no fixed relationship"
       ],
       "correct": 0,
-      "explanation": "Parallel — sound is the classic longitudinal wave, with air molecules compressing and expanding along the same line the wave travels. 'Perpendicular' describes a transverse wave instead. 'No fixed relationship' is wrong since the parallel geometry is fixed for any longitudinal wave. 'Depends on frequency' wrongly ties a fixed geometric property to a wave characteristic that has no bearing on it."
+      "explanation": "Correct: (A) Parallel to the direction of travel. Parallel — sound is the classic longitudinal wave, with air molecules compressing and expanding along the same line the wave travels. 'Perpendicular' describes a transverse wave instead. 'No fixed relationship' is wrong since the parallel geometry is fixed for any longitudinal wave. 'Depends on frequency' wrongly ties a fixed geometric property to a wave characteristic that has no bearing on it."
     },
     {
       "id": "14-3",
@@ -5761,7 +5761,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 2,
-      "explanation": "Since v = fλ and speed is fixed by the medium, doubling f requires λ to be cut in half to keep the product constant. 'It doubles' incorrectly assumes f and λ move together, when they're inversely related here. 'Quadruples' compounds that same error. 'Stays the same' wrongly assumes wavelength is independent of frequency at fixed speed, when v = fλ ties them directly together."
+      "explanation": "Correct: (C) It is cut in half. Since v = fλ and speed is fixed by the medium, doubling f requires λ to be cut in half to keep the product constant. 'It doubles' incorrectly assumes f and λ move together, when they're inversely related here. 'Quadruples' compounds that same error. 'Stays the same' wrongly assumes wavelength is independent of frequency at fixed speed, when v = fλ ties them directly together."
     },
     {
       "id": "14-6",
@@ -5924,7 +5924,7 @@ const QUESTIONS = {
         "The wave's frequency, a source-controlled property"
       ],
       "correct": 2,
-      "explanation": "Speed is set by the medium the wave travels through. 'Frequency' and 'period' both wrongly assign speed to a source-controlled property that can change (via λ) while speed itself stays fixed for that medium. 'Amplitude' wrongly assumes a louder or larger-displacement wave moves faster, when amplitude has no effect on wave speed at all."
+      "explanation": "Correct: (C) Properties of the medium: density, tension, elasticity. Speed is set by the medium the wave travels through. 'Frequency' and 'period' both wrongly assign speed to a source-controlled property that can change (via λ) while speed itself stays fixed for that medium. 'Amplitude' wrongly assumes a louder or larger-displacement wave moves faster, when amplitude has no effect on wave speed at all."
     },
     {
       "id": "14-11",
@@ -5937,7 +5937,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 2,
-      "explanation": "Wave speed depends on the medium's properties, not amplitude at all — a louder and quieter sound of the same frequency travel through air at identical speed. 'Doubles' and 'quadruples' wrongly assume amplitude drives speed directly (or through some squared relationship, confusing it with intensity). 'Cut in half' makes the same category error in the opposite direction."
+      "explanation": "Correct: (C) It stays the same. Wave speed depends on the medium's properties, not amplitude at all — a louder and quieter sound of the same frequency travel through air at identical speed. 'Doubles' and 'quadruples' wrongly assume amplitude drives speed directly (or through some squared relationship, confusing it with intensity). 'Cut in half' makes the same category error in the opposite direction."
     },
     {
       "id": "14-12",
@@ -5950,7 +5950,7 @@ const QUESTIONS = {
         "0.20 Hz and 5.0 s"
       ],
       "correct": 1,
-      "explanation": "f = cycles/time = 15/3.0 = 5.0 Hz, and T = 1/f = 0.20 s. '0.20 Hz and 5.0 s' swaps frequency and period with each other. '45 Hz and 0.022 s' comes from multiplying cycles by time (15×3.0) instead of dividing. '15 Hz and 0.067 s' mistakes the raw cycle count itself for the frequency, ignoring the 3.0 s time interval entirely."
+      "explanation": "Correct: (B) 5.0 Hz and 0.20 s. f = cycles/time = 15/3.0 = 5.0 Hz, and T = 1/f = 0.20 s. '0.20 Hz and 5.0 s' swaps frequency and period with each other. '45 Hz and 0.022 s' comes from multiplying cycles by time (15×3.0) instead of dividing. '15 Hz and 0.067 s' mistakes the raw cycle count itself for the frequency, ignoring the 3.0 s time interval entirely."
     },
     {
       "id": "14-76",
@@ -6005,7 +6005,7 @@ const QUESTIONS = {
         "Split into two smaller pulses"
       ],
       "correct": 1,
-      "explanation": "A free end can move freely, so it simply follows the incoming pulse's displacement and sends back a matching, non-inverted pulse. 'Inverted' describes the fixed-end case instead, where a reaction force flips the pulse. 'Split into two pulses' and 'completely absorbed' both describe outcomes that don't occur at an idealized free end, which reflects the full pulse rather than dividing or absorbing it."
+      "explanation": "Correct: (B) Upright, same orientation as the original. A free end can move freely, so it simply follows the incoming pulse's displacement and sends back a matching, non-inverted pulse. 'Inverted' describes the fixed-end case instead, where a reaction force flips the pulse. 'Split into two pulses' and 'completely absorbed' both describe outcomes that don't occur at an idealized free end, which reflects the full pulse rather than dividing or absorbing it."
     },
     {
       "id": "14-14",
@@ -6018,7 +6018,7 @@ const QUESTIONS = {
         "Completely absorbed, with no reflection occurring"
       ],
       "correct": 0,
-      "explanation": "The fixed end cannot move, so by Newton's third law it exerts an equal and opposite reaction force on the string, sending back an inverted pulse. 'Upright, same orientation' describes the free-end case instead. 'Split into two pulses' and 'completely absorbed' both describe outcomes that don't happen at an idealized fixed end, which reflects the entire pulse rather than dividing or absorbing it."
+      "explanation": "Correct: (A) Inverted, with a 180° phase shift. The fixed end cannot move, so by Newton's third law it exerts an equal and opposite reaction force on the string, sending back an inverted pulse. 'Upright, same orientation' describes the free-end case instead. 'Split into two pulses' and 'completely absorbed' both describe outcomes that don't happen at an idealized fixed end, which reflects the entire pulse rather than dividing or absorbing it."
     },
     {
       "id": "14-15",
@@ -6031,7 +6031,7 @@ const QUESTIONS = {
         "This is simply an empirical rule with no deeper explanation."
       ],
       "correct": 1,
-      "explanation": "When the incoming pulse tries to displace the fixed end, the end can't move, so by Newton's third law it pushes back on the string with an equal and opposite force, launching an inverted reflected pulse. 'Absorbs half the energy' wrongly invokes energy loss rather than a force-based mechanism, and an idealized fixed end reflects all the energy back. 'Only reflects specific wavelengths' is false — a fixed end reflects pulses of any wavelength the same way. 'No deeper explanation' overlooks the clear Newton's-third-law mechanism at work."
+      "explanation": "Correct: (B) Newton's third law: the fixed end pushes back, inverting the pulse. When the incoming pulse tries to displace the fixed end, the end can't move, so by Newton's third law it pushes back on the string with an equal and opposite force, launching an inverted reflected pulse. 'Absorbs half the energy' wrongly invokes energy loss rather than a force-based mechanism, and an idealized fixed end reflects all the energy back. 'Only reflects specific wavelengths' is false — a fixed end reflects pulses of any wavelength the same way. 'No deeper explanation' overlooks the clear Newton's-third-law mechanism at work."
     },
     {
       "id": "14-16",
@@ -6044,7 +6044,7 @@ const QUESTIONS = {
         "About 25%"
       ],
       "correct": 1,
-      "explanation": "For genuinely unpolarized (randomly oriented) light, on average half of the amplitude components already align with the filter's transmission axis, letting roughly half the intensity through. 'About 100%' wrongly assumes the filter does nothing to unpolarized light. 'About 25%' and 'about 0%' both apply the strong attenuation appropriate to a second, mismatched filter — not the first filter acting on unpolarized light."
+      "explanation": "Correct: (B) About 50%. For genuinely unpolarized (randomly oriented) light, on average half of the amplitude components already align with the filter's transmission axis, letting roughly half the intensity through. 'About 100%' wrongly assumes the filter does nothing to unpolarized light. 'About 25%' and 'about 0%' both apply the strong attenuation appropriate to a second, mismatched filter — not the first filter acting on unpolarized light."
     },
     {
       "id": "14-17",
@@ -6057,7 +6057,7 @@ const QUESTIONS = {
         "About 100%, as if the second filter had no effect"
       ],
       "correct": 2,
-      "explanation": "A filter perpendicular to the light's existing polarization direction blocks it almost completely — the effect used when two polarized-sunglasses lenses stacked at 90° go dark. 'About 100%' wrongly assumes perpendicular alignment has no effect. 'About 50%' is the fraction for the FIRST filter acting on unpolarized light, not a second filter at 90° to already-polarized light. 'About 25%' would only apply near a 60° mismatch, not a full 90° one."
+      "explanation": "Correct: (C) Essentially none, about 0%. A filter perpendicular to the light's existing polarization direction blocks it almost completely — the effect used when two polarized-sunglasses lenses stacked at 90° go dark. 'About 100%' wrongly assumes perpendicular alignment has no effect. 'About 50%' is the fraction for the FIRST filter acting on unpolarized light, not a second filter at 90° to already-polarized light. 'About 25%' would only apply near a 60° mismatch, not a full 90° one."
     },
     {
       "id": "14-18",
@@ -6070,7 +6070,7 @@ const QUESTIONS = {
         "Sound waves and light waves"
       ],
       "correct": 0,
-      "explanation": "Light and string waves are both transverse, and polarization only applies to transverse waves, since it restricts the direction of a perpendicular oscillation. The other two pairs both wrongly include sound, which is longitudinal and has no perpendicular oscillation to restrict. 'None can be polarized' is false, since light and string waves both can be."
+      "explanation": "Correct: (A) Light waves and waves on a string. Light and string waves are both transverse, and polarization only applies to transverse waves, since it restricts the direction of a perpendicular oscillation. The other two pairs both wrongly include sound, which is longitudinal and has no perpendicular oscillation to restrict. 'None can be polarized' is false, since light and string waves both can be."
     },
     {
       "id": "14-79",
@@ -6125,7 +6125,7 @@ const QUESTIONS = {
         "Visible light < radio waves < X-rays"
       ],
       "correct": 0,
-      "explanation": "The standard EM spectrum ordering by increasing frequency: radio waves (longest wavelength, lowest frequency) < visible light < X-rays (among the shortest wavelengths, highest frequencies). 'X-rays < visible light < radio waves' reverses the entire ordering. The other two options each misplace one wave, swapping radio waves and X-rays' relative positions incorrectly."
+      "explanation": "Correct: (A) Radio waves < visible light < X-rays. The standard EM spectrum ordering by increasing frequency: radio waves (longest wavelength, lowest frequency) < visible light < X-rays (among the shortest wavelengths, highest frequencies). 'X-rays < visible light < radio waves' reverses the entire ordering. The other two options each misplace one wave, swapping radio waves and X-rays' relative positions incorrectly."
     },
     {
       "id": "14-20",
@@ -6138,7 +6138,7 @@ const QUESTIONS = {
         "5.0 × 10⁻⁵ m"
       ],
       "correct": 0,
-      "explanation": "λ = c/f = (3.0×10⁸)/(6.0×10¹⁴) = 5.0×10⁻⁷ m, falling in the visible range (roughly green light at 500 nm). The other three answers are each off by one or two powers of ten from a slipped decimal or exponent in the division, landing outside the visible spectrum."
+      "explanation": "Correct: (A) 5.0 × 10⁻⁷ m. λ = c/f = (3.0×10⁸)/(6.0×10¹⁴) = 5.0×10⁻⁷ m, falling in the visible range (roughly green light at 500 nm). The other three answers are each off by one or two powers of ten from a slipped decimal or exponent in the division, landing outside the visible spectrum."
     },
     {
       "id": "14-21",
@@ -6151,7 +6151,7 @@ const QUESTIONS = {
         "The radio wave travels faster."
       ],
       "correct": 1,
-      "explanation": "All electromagnetic waves travel at precisely c in vacuum, regardless of frequency — only wavelength and frequency differ across the spectrum. 'Gamma ray faster' wrongly assumes higher frequency means higher speed, confusing frequency with speed. 'Radio wave faster' makes the same error in reverse. 'Cannot be determined' wrongly implies speed depends on frequency information that, in vacuum, it never does."
+      "explanation": "Correct: (B) They travel at exactly the same speed. All electromagnetic waves travel at precisely c in vacuum, regardless of frequency — only wavelength and frequency differ across the spectrum. 'Gamma ray faster' wrongly assumes higher frequency means higher speed, confusing frequency with speed. 'Radio wave faster' makes the same error in reverse. 'Cannot be determined' wrongly implies speed depends on frequency information that, in vacuum, it never does."
     },
     {
       "id": "14-22",
@@ -6177,7 +6177,7 @@ const QUESTIONS = {
         "They have equal photon energy, since both travel at speed c in a vacuum and so have the same energy"
       ],
       "correct": 1,
-      "explanation": "Since E = hf, and gamma rays sit at the extreme high-frequency end of the spectrum while radio waves sit at the low-frequency end, gamma ray photons carry vastly more energy — this is why gamma rays damage tissue while radio waves are essentially harmless. 'Radio waves higher energy' backwards-links longer wavelength to higher energy, when longer wavelength means lower frequency and thus lower energy. 'Equal energy' wrongly conflates the shared speed c with photon energy, which depends on frequency, not speed. 'Cannot be compared' is wrong since photon energy depends on frequency, not amplitude."
+      "explanation": "Correct: (B) Gamma ray photons have far higher energy, since E = hf and gamma rays have far higher frequency. Since E = hf, and gamma rays sit at the extreme high-frequency end of the spectrum while radio waves sit at the low-frequency end, gamma ray photons carry vastly more energy — this is why gamma rays damage tissue while radio waves are essentially harmless. 'Radio waves higher energy' backwards-links longer wavelength to higher energy, when longer wavelength means lower frequency and thus lower energy. 'Equal energy' wrongly conflates the shared speed c with photon energy, which depends on frequency, not speed. 'Cannot be compared' is wrong since photon energy depends on frequency, not amplitude."
     },
     {
       "id": "14-24",
@@ -6190,7 +6190,7 @@ const QUESTIONS = {
         "Cannot be determined without more information."
       ],
       "correct": 2,
-      "explanation": "Since c = fλ and c is fixed in vacuum, an increase in f must be matched by a proportional decrease in λ. 'It increases' wrongly assumes f and λ rise together, when they're inversely related. 'Stays the same' wrongly treats λ as independent of f, ignoring that their product must equal the fixed constant c. 'Cannot be determined' overlooks that c = fλ fully determines the relationship with no additional information needed."
+      "explanation": "Correct: (C) It decreases. Since c = fλ and c is fixed in vacuum, an increase in f must be matched by a proportional decrease in λ. 'It increases' wrongly assumes f and λ rise together, when they're inversely related. 'Stays the same' wrongly treats λ as independent of f, ignoring that their product must equal the fixed constant c. 'Cannot be determined' overlooks that c = fλ fully determines the relationship with no additional information needed."
     },
     {
       "id": "14-82",
@@ -6217,7 +6217,7 @@ const QUESTIONS = {
         "Cannot be determined without the car's exact speed"
       ],
       "correct": 1,
-      "explanation": "Motion of the source toward the observer compresses the sound waves in front of it, shortening the effective wavelength and raising the observed frequency. 'Lower' describes the receding-source case instead. 'Exactly the same' ignores the Doppler effect altogether. 'Cannot be determined' is wrong because the direction of the shift (higher) is fixed by the direction of motion alone — only the exact amount of the shift needs the speed."
+      "explanation": "Correct: (B) Higher. Motion of the source toward the observer compresses the sound waves in front of it, shortening the effective wavelength and raising the observed frequency. 'Lower' describes the receding-source case instead. 'Exactly the same' ignores the Doppler effect altogether. 'Cannot be determined' is wrong because the direction of the shift (higher) is fixed by the direction of motion alone — only the exact amount of the shift needs the speed."
     },
     {
       "id": "14-26",
@@ -6230,7 +6230,7 @@ const QUESTIONS = {
         "Exactly the same"
       ],
       "correct": 1,
-      "explanation": "Motion of the source away from the observer stretches the sound waves out behind it, lengthening the effective wavelength and lowering the observed frequency. 'Higher' describes the approaching-source case instead. 'Exactly the same' ignores the Doppler effect altogether. 'Cannot be determined' is wrong since the direction of the shift (lower) is set by the direction of motion alone — only the exact amount needs the speed."
+      "explanation": "Correct: (B) Lower. Motion of the source away from the observer stretches the sound waves out behind it, lengthening the effective wavelength and lowering the observed frequency. 'Higher' describes the approaching-source case instead. 'Exactly the same' ignores the Doppler effect altogether. 'Cannot be determined' is wrong since the direction of the shift (lower) is set by the direction of motion alone — only the exact amount needs the speed."
     },
     {
       "id": "14-27",
@@ -6243,7 +6243,7 @@ const QUESTIONS = {
         "Exactly the same, since only source motion causes a Doppler shift"
       ],
       "correct": 2,
-      "explanation": "The same directional rule applies regardless of which object moves — motion toward always raises the observed frequency, whether it's the source or, as here, the listener doing the approaching. 'Lower' reverses the correct direction. 'Exactly the same, since only source motion causes a shift' is a common misconception — observer motion causes a Doppler shift too, through the (v + v<sub>observer</sub>) term in the numerator. 'Cannot be determined' wrongly implies the direction of the shift (higher) requires speed information, when only its exact size does."
+      "explanation": "Correct: (C) Higher. The same directional rule applies regardless of which object moves — motion toward always raises the observed frequency, whether it's the source or, as here, the listener doing the approaching. 'Lower' reverses the correct direction. 'Exactly the same, since only source motion causes a shift' is a common misconception — observer motion causes a Doppler shift too, through the (v + v<sub>observer</sub>) term in the numerator. 'Cannot be determined' wrongly implies the direction of the shift (higher) requires speed information, when only its exact size does."
     },
     {
       "id": "14-28",
@@ -6257,7 +6257,7 @@ const QUESTIONS = {
         "The two-cars-moving scenario produces a SMALLER frequency shift than the single-mover scenario."
       ],
       "correct": 3,
-      "explanation": "In f' = f(v + v<sub>o</sub>)/(v − v<sub>s</sub>), source motion enters the denominator (v − v<sub>s</sub>) while observer motion enters the numerator (v + v<sub>o</sub>); the denominator's effect grows nonlinearly with v<sub>s</sub> while the numerator's effect is only linear in v<sub>o</sub>. So concentrating the full closing speed into source motion alone produces a larger shift than splitting it between source and observer — e.g., at v = 340 m/s with a 30 m/s total closing speed, all-source gives f' ≈ 1.097f versus a 15/15 split giving f' ≈ 1.092f. 'LARGER' reverses this comparison. 'Identical, since only relative speed matters' is the tempting but incorrect assumption that the Doppler formula is symmetric in source and observer speed — it isn't. 'No shift unless the source alone moves' is simply false, since observer motion alone also produces a shift."
+      "explanation": "Correct: (D) The two-cars-moving scenario produces a SMALLER frequency shift than the single-mover scenario. In f' = f(v + v<sub>o</sub>)/(v − v<sub>s</sub>), source motion enters the denominator (v − v<sub>s</sub>) while observer motion enters the numerator (v + v<sub>o</sub>); the denominator's effect grows nonlinearly with v<sub>s</sub> while the numerator's effect is only linear in v<sub>o</sub>. So concentrating the full closing speed into source motion alone produces a larger shift than splitting it between source and observer — e.g., at v = 340 m/s with a 30 m/s total closing speed, all-source gives f' ≈ 1.097f versus a 15/15 split giving f' ≈ 1.092f. 'LARGER' reverses this comparison. 'Identical, since only relative speed matters' is the tempting but incorrect assumption that the Doppler formula is symmetric in source and observer speed — it isn't. 'No shift unless the source alone moves' is simply false, since observer motion alone also produces a shift."
     },
     {
       "id": "14-29",
@@ -6270,7 +6270,7 @@ const QUESTIONS = {
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v − v<sub>source</sub>) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 368 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz does not come from any correct Doppler step; it overstates the shift. The correct source-motion form is v/(v − v<sub>source</sub>)."
+      "explanation": "Correct: (C) 439 Hz. f' = f·v/(v − v<sub>source</sub>) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 368 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz does not come from any correct Doppler step; it overstates the shift. The correct source-motion form is v/(v − v<sub>source</sub>)."
     },
     {
       "id": "14-30",
@@ -6283,7 +6283,7 @@ const QUESTIONS = {
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v + v<sub>source</sub>) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz does not come from any correct Doppler step; it has the wrong direction and size of shift for a receding source."
+      "explanation": "Correct: (C) 368 Hz. f' = f·v/(v + v<sub>source</sub>) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz does not come from any correct Doppler step; it has the wrong direction and size of shift for a receding source."
     },
     {
       "id": "14-31",
@@ -6296,7 +6296,7 @@ const QUESTIONS = {
         "471 Hz"
       ],
       "correct": 1,
-      "explanation": "f' = f(v + v<sub>observer</sub>)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz does not come from any correct step; the shift from a 20 m/s observer is only about +29 Hz."
+      "explanation": "Correct: (B) 529 Hz. f' = f(v + v<sub>observer</sub>)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz does not come from any correct step; the shift from a 20 m/s observer is only about +29 Hz."
     },
     {
       "id": "14-32",
@@ -6309,7 +6309,7 @@ const QUESTIONS = {
         "Yes, but only if their shared speed exceeds the speed of sound."
       ],
       "correct": 1,
-      "explanation": "The Doppler effect fundamentally depends on the RELATIVE velocity between source and observer; moving together with zero relative motion produces no compression or stretching of the waves between them, so no shift occurs. 'Yes, proportional to shared speed' wrongly treats motion relative to the ground (or medium) as what matters, rather than motion relative to each other. 'Yes, but only above the speed of sound' invents a threshold condition that doesn't apply here. 'Physically impossible' is simply false — a source and observer traveling together, like two cars in the same lane at the same speed, is an entirely ordinary situation."
+      "explanation": "Correct: (B) No shift, since it depends on relative motion, and there is none here. The Doppler effect fundamentally depends on the RELATIVE velocity between source and observer; moving together with zero relative motion produces no compression or stretching of the waves between them, so no shift occurs. 'Yes, proportional to shared speed' wrongly treats motion relative to the ground (or medium) as what matters, rather than motion relative to each other. 'Yes, but only above the speed of sound' invents a threshold condition that doesn't apply here. 'Physically impossible' is simply false — a source and observer traveling together, like two cars in the same lane at the same speed, is an entirely ordinary situation."
     },
     {
       "id": "14-33",
@@ -6322,7 +6322,7 @@ const QUESTIONS = {
         "This effect only applies to sound waves, not light."
       ],
       "correct": 1,
-      "explanation": "A source (the galaxy) moving away stretches the effective wavelength observed, and since red sits at the long-wavelength end of the visible spectrum, this lengthening is called a redshift — direct evidence for the expanding universe. 'Loses energy through space, unrelated to motion' invents an unrelated mechanism instead of the actual velocity-based Doppler cause. 'Red light travels faster' is false — all visible light travels at the same speed c in vacuum, regardless of color. 'Only applies to sound' is wrong since the Doppler effect applies to any wave, light included."
+      "explanation": "Correct: (B) The galaxy's recession stretches the light, like a receding sound source's pitch drop. A source (the galaxy) moving away stretches the effective wavelength observed, and since red sits at the long-wavelength end of the visible spectrum, this lengthening is called a redshift — direct evidence for the expanding universe. 'Loses energy through space, unrelated to motion' invents an unrelated mechanism instead of the actual velocity-based Doppler cause. 'Red light travels faster' is false — all visible light travels at the same speed c in vacuum, regardless of color. 'Only applies to sound' is wrong since the Doppler effect applies to any wave, light included."
     },
     {
       "id": "14-83",
@@ -6349,7 +6349,7 @@ const QUESTIONS = {
         "Neither — no interference occurs here"
       ],
       "correct": 1,
-      "explanation": "A path difference of a whole number of wavelengths (here, 3λ) means the waves arrive perfectly in phase, reinforcing each other. 'Destructive' would apply to a half-integer path difference instead. 'Neither, no interference occurs' is wrong — any two overlapping waves interfere, and here that interference happens to be fully constructive. 'Cannot be determined' is wrong because it's the path difference measured IN wavelengths (3λ), already given, that decides constructive versus destructive — the actual wavelength value cancels out."
+      "explanation": "Correct: (B) Constructive. A path difference of a whole number of wavelengths (here, 3λ) means the waves arrive perfectly in phase, reinforcing each other. 'Destructive' would apply to a half-integer path difference instead. 'Neither, no interference occurs' is wrong — any two overlapping waves interfere, and here that interference happens to be fully constructive. 'Cannot be determined' is wrong because it's the path difference measured IN wavelengths (3λ), already given, that decides constructive versus destructive — the actual wavelength value cancels out."
     },
     {
       "id": "14-35",
@@ -6362,7 +6362,7 @@ const QUESTIONS = {
         "Cannot be determined without the wavelength's exact value"
       ],
       "correct": 2,
-      "explanation": "A path difference of a half-integer number of wavelengths (here, 1.5λ) means the waves arrive exactly out of phase, canceling each other. 'Constructive' would apply to a whole-number path difference instead. 'Neither, no interference occurs' is wrong — the waves do interfere, and here it's fully destructive. 'Cannot be determined' is wrong since the path difference measured in wavelengths (1.5λ) already fixes the outcome, with no need for the actual wavelength value."
+      "explanation": "Correct: (C) Destructive. A path difference of a half-integer number of wavelengths (here, 1.5λ) means the waves arrive exactly out of phase, canceling each other. 'Constructive' would apply to a whole-number path difference instead. 'Neither, no interference occurs' is wrong — the waves do interfere, and here it's fully destructive. 'Cannot be determined' is wrong since the path difference measured in wavelengths (1.5λ) already fixes the outcome, with no need for the actual wavelength value."
     },
     {
       "id": "14-36",
@@ -6375,7 +6375,7 @@ const QUESTIONS = {
         "180 Hz"
       ],
       "correct": 1,
-      "explanation": "f₁ = nv/(2L) with n = 1: f₁ = (1)(60)/(2×3.0) = 60/6.0 = 10 Hz. 5.0 Hz comes from using 4L in the denominator instead of 2L (the closed-pipe formula, not the fixed-fixed string formula). 20 Hz comes from forgetting the factor of 2 and using v/L directly. 180 Hz comes from multiplying v by L instead of dividing."
+      "explanation": "Correct: (B) 10 Hz. f₁ = nv/(2L) with n = 1: f₁ = (1)(60)/(2×3.0) = 60/6.0 = 10 Hz. 5.0 Hz comes from using 4L in the denominator instead of 2L (the closed-pipe formula, not the fixed-fixed string formula). 20 Hz comes from forgetting the factor of 2 and using v/L directly. 180 Hz comes from multiplying v by L instead of dividing."
     },
     {
       "id": "14-37",
@@ -6388,7 +6388,7 @@ const QUESTIONS = {
         "80 Hz"
       ],
       "correct": 0,
-      "explanation": "f₄ = nv/(2L) with n = 4: f₄ = (4)(60)/6.0 = 40 Hz, exactly four times the fundamental (10 Hz) found in the prior question, since harmonic frequencies are whole-number multiples of the fundamental. 10 Hz mistakenly reuses the fundamental itself without multiplying by n = 4. 20 Hz applies only n = 2 instead of n = 4. 80 Hz comes from doubling the correct answer, effectively treating this as the eighth harmonic instead of the fourth."
+      "explanation": "Correct: (A) 40 Hz. f₄ = nv/(2L) with n = 4: f₄ = (4)(60)/6.0 = 40 Hz, exactly four times the fundamental (10 Hz) found in the prior question, since harmonic frequencies are whole-number multiples of the fundamental. 10 Hz mistakenly reuses the fundamental itself without multiplying by n = 4. 20 Hz applies only n = 2 instead of n = 4. 80 Hz comes from doubling the correct answer, effectively treating this as the eighth harmonic instead of the fourth."
     },
     {
       "id": "14-38",
@@ -6401,7 +6401,7 @@ const QUESTIONS = {
         "It oscillates with maximum amplitude."
       ],
       "correct": 1,
-      "explanation": "Nodes are, by definition, the points where the standing wave pattern never moves at all, at any instant — the location of perfect destructive interference between the two opposite-traveling component waves. 'Maximum amplitude' describes an antinode instead, the polar opposite of a node. 'Half the maximum amplitude' invents an intermediate value that doesn't apply to a true node. 'Depends on the harmonic' is wrong — a node's displacement is zero regardless of which harmonic number produced the pattern."
+      "explanation": "Correct: (B) It is always exactly zero. Nodes are, by definition, the points where the standing wave pattern never moves at all, at any instant — the location of perfect destructive interference between the two opposite-traveling component waves. 'Maximum amplitude' describes an antinode instead, the polar opposite of a node. 'Half the maximum amplitude' invents an intermediate value that doesn't apply to a true node. 'Depends on the harmonic' is wrong — a node's displacement is zero regardless of which harmonic number produced the pattern."
     },
     {
       "id": "14-39",
@@ -6414,7 +6414,7 @@ const QUESTIONS = {
         "3 nodes, 2 antinodes"
       ],
       "correct": 3,
-      "explanation": "For a string fixed at both ends, there are always n antinodes and (n+1) nodes, since the two fixed endpoints each count as a node. For n = 2, that's 2 antinodes and 3 nodes. '2 nodes, 2 antinodes' forgets to count both fixed endpoints as nodes. '2 nodes, 3 antinodes' swaps the node and antinode counts. '3 nodes, 3 antinodes' correctly counts the nodes but wrongly adds an extra antinode that this harmonic doesn't have."
+      "explanation": "Correct: (D) 3 nodes, 2 antinodes. For a string fixed at both ends, there are always n antinodes and (n+1) nodes, since the two fixed endpoints each count as a node. For n = 2, that's 2 antinodes and 3 nodes. '2 nodes, 2 antinodes' forgets to count both fixed endpoints as nodes. '2 nodes, 3 antinodes' swaps the node and antinode counts. '3 nodes, 3 antinodes' correctly counts the nodes but wrongly adds an extra antinode that this harmonic doesn't have."
     },
     {
       "id": "14-40",
@@ -6427,7 +6427,7 @@ const QUESTIONS = {
         "0.90 m"
       ],
       "correct": 1,
-      "explanation": "λ<sub>n</sub> = 2L/n with n = 1: λ₁ = 2(0.90)/1 = 1.8 m — the fundamental wavelength is always twice the string's length for a string fixed at both ends. 0.45 m comes from dividing L by 2 instead of multiplying. 0.90 m mistakes the string's length itself for its wavelength. 3.6 m comes from doubling the correct answer, effectively using 4L instead of 2L."
+      "explanation": "Correct: (B) 1.8 m. λ<sub>n</sub> = 2L/n with n = 1: λ₁ = 2(0.90)/1 = 1.8 m — the fundamental wavelength is always twice the string's length for a string fixed at both ends. 0.45 m comes from dividing L by 2 instead of multiplying. 0.90 m mistakes the string's length itself for its wavelength. 3.6 m comes from doubling the correct answer, effectively using 4L instead of 2L."
     },
     {
       "id": "14-41",
@@ -6440,7 +6440,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 2,
-      "explanation": "Since f<sub>n</sub> = nv/(2L), a higher wave speed v (with n and L fixed) directly raises the frequency — exactly why tightening a guitar string raises its pitch. 'It decreases' has the relationship backwards, treating higher speed as lowering frequency. 'Stays the same' wrongly ignores v's role in the formula altogether. 'Cannot be determined' is wrong because the direction of the change (an increase) follows from v increasing alone — the exact tension value isn't needed to know which way f moves."
+      "explanation": "Correct: (C) It increases. Since f<sub>n</sub> = nv/(2L), a higher wave speed v (with n and L fixed) directly raises the frequency — exactly why tightening a guitar string raises its pitch. 'It decreases' has the relationship backwards, treating higher speed as lowering frequency. 'Stays the same' wrongly ignores v's role in the formula altogether. 'Cannot be determined' is wrong because the direction of the change (an increase) follows from v increasing alone — the exact tension value isn't needed to know which way f moves."
     },
     {
       "id": "14-42",
@@ -6453,7 +6453,7 @@ const QUESTIONS = {
         "Neither — equal distances always produce silence"
       ],
       "correct": 1,
-      "explanation": "At a point equidistant from both speakers, the path difference is exactly zero — a whole number of wavelengths (0×λ) — so the in-phase waves arrive perfectly in sync and reinforce each other. 'Destructive' would require a half-integer wavelength path difference, not zero. 'Equal distances always produce silence' has it backwards — equal distance produces the strongest reinforcement, not cancellation. 'Cannot be determined' is wrong since a zero path difference is constructive regardless of the specific wavelength involved."
+      "explanation": "Correct: (B) Constructive. At a point equidistant from both speakers, the path difference is exactly zero — a whole number of wavelengths (0×λ) — so the in-phase waves arrive perfectly in sync and reinforce each other. 'Destructive' would require a half-integer wavelength path difference, not zero. 'Equal distances always produce silence' has it backwards — equal distance produces the strongest reinforcement, not cancellation. 'Cannot be determined' is wrong since a zero path difference is constructive regardless of the specific wavelength involved."
     },
     {
       "id": "14-43",
@@ -6466,7 +6466,7 @@ const QUESTIONS = {
         "A pure tone shifted to a different frequency, higher in pitch."
       ],
       "correct": 2,
-      "explanation": "A path difference of half a wavelength satisfies the destructive interference condition exactly, so the waves arrive out of phase and largely cancel — the same principle behind active noise-canceling headphones. 'Significantly louder' describes the equidistant, constructive case instead. 'Normal volume, unaffected' wrongly assumes the second speaker has no interference effect at all. 'Shifted to a different frequency' confuses interference (which changes amplitude/loudness) with an effect like the Doppler shift, which changes frequency — path difference does neither to frequency."
+      "explanation": "Correct: (C) Sound much quieter, or even near-silent, due to destructive interference. A path difference of half a wavelength satisfies the destructive interference condition exactly, so the waves arrive out of phase and largely cancel — the same principle behind active noise-canceling headphones. 'Significantly louder' describes the equidistant, constructive case instead. 'Normal volume, unaffected' wrongly assumes the second speaker has no interference effect at all. 'Shifted to a different frequency' confuses interference (which changes amplitude/loudness) with an effect like the Doppler shift, which changes frequency — path difference does neither to frequency."
     },
     {
       "id": "14-44",
@@ -6479,7 +6479,7 @@ const QUESTIONS = {
         "The wave is completely blocked by the opening, and none passes."
       ],
       "correct": 0,
-      "explanation": "When the opening is much larger than the wavelength, the wave passes through with little bending around the edges, producing a comparatively sharp-edged pattern. 'Significant spreading' describes the opposite case, where the opening is comparable to or smaller than the wavelength. 'Completely blocked' is wrong — a large opening lets the wave through freely. 'Frequency changes' is wrong because diffraction bends a wave's path, it doesn't alter its frequency."
+      "explanation": "Correct: (A) Minimal spreading; the wave travels mostly straight through. When the opening is much larger than the wavelength, the wave passes through with little bending around the edges, producing a comparatively sharp-edged pattern. 'Significant spreading' describes the opposite case, where the opening is comparable to or smaller than the wavelength. 'Completely blocked' is wrong — a large opening lets the wave through freely. 'Frequency changes' is wrong because diffraction bends a wave's path, it doesn't alter its frequency."
     },
     {
       "id": "14-45",
@@ -6492,7 +6492,7 @@ const QUESTIONS = {
         "The wave is completely blocked by the opening, and none passes through at all."
       ],
       "correct": 0,
-      "explanation": "When the wavelength is comparable to (or larger than) the opening, the wave bends and spreads noticeably, with the opening effectively acting like a new point source. 'Minimal spreading' describes the opposite case of a much-larger opening instead. 'Completely blocked' is wrong — the wave still passes through, just spread widely rather than blocked. 'Speed changes' is wrong since diffraction affects a wave's direction of spread, not its propagation speed through the same medium."
+      "explanation": "Correct: (A) Significant — the wave spreads out substantially, bending around the opening's edges. When the wavelength is comparable to (or larger than) the opening, the wave bends and spreads noticeably, with the opening effectively acting like a new point source. 'Minimal spreading' describes the opposite case of a much-larger opening instead. 'Completely blocked' is wrong — the wave still passes through, just spread widely rather than blocked. 'Speed changes' is wrong since diffraction affects a wave's direction of spread, not its propagation speed through the same medium."
     },
     {
       "id": "14-46",
@@ -6505,7 +6505,7 @@ const QUESTIONS = {
         "Both diffract equally, since they're both visible light."
       ],
       "correct": 1,
-      "explanation": "Diffraction increases as wavelength becomes more comparable to the size of the opening, so red light's longer wavelength makes it spread out more than blue light through the same slit. 'Blue light diffracts more' wrongly ties diffraction to frequency directly rather than to wavelength being large relative to the opening. 'Both diffract equally' ignores that their differing wavelengths do produce measurably different diffraction. 'Neither diffracts noticeably' wrongly assumes the slit must be everyday-sized — a sufficiently narrow slit makes diffraction significant for both colors."
+      "explanation": "Correct: (B) Red light diffracts more, since it has the longer wavelength. Diffraction increases as wavelength becomes more comparable to the size of the opening, so red light's longer wavelength makes it spread out more than blue light through the same slit. 'Blue light diffracts more' wrongly ties diffraction to frequency directly rather than to wavelength being large relative to the opening. 'Both diffract equally' ignores that their differing wavelengths do produce measurably different diffraction. 'Neither diffracts noticeably' wrongly assumes the slit must be everyday-sized — a sufficiently narrow slit makes diffraction significant for both colors."
     },
     {
       "id": "14-47",
@@ -6518,7 +6518,7 @@ const QUESTIONS = {
         "This has nothing to do with diffraction — it's purely due to reflection off nearby walls."
       ],
       "correct": 1,
-      "explanation": "Sound wavelengths (centimeters to meters) are comparable to everyday openings like doorways and corners, so sound diffracts substantially around them; visible light's ~500 nm wavelength is many orders of magnitude smaller, so it barely bends and casts a sharp shadow instead. 'Sound travels faster than light' is factually backwards — light is vastly faster than sound — and speed isn't what explains the bending anyway. 'Light is absorbed by air around corners' invents an unrelated absorption mechanism rather than the actual diffraction difference. 'Purely due to reflection, nothing to do with diffraction' dismisses diffraction, which is in fact the key mechanism, though reflection can contribute in some real rooms."
+      "explanation": "Correct: (B) Sound diffracts substantially around corners; light's much smaller wavelength barely bends at all. Sound wavelengths (centimeters to meters) are comparable to everyday openings like doorways and corners, so sound diffracts substantially around them; visible light's ~500 nm wavelength is many orders of magnitude smaller, so it barely bends and casts a sharp shadow instead. 'Sound travels faster than light' is factually backwards — light is vastly faster than sound — and speed isn't what explains the bending anyway. 'Light is absorbed by air around corners' invents an unrelated absorption mechanism rather than the actual diffraction difference. 'Purely due to reflection, nothing to do with diffraction' dismisses diffraction, which is in fact the key mechanism, though reflection can contribute in some real rooms."
     },
     {
       "id": "14-48",
@@ -6531,7 +6531,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 2,
-      "explanation": "A smaller opening relative to a fixed wavelength means the wavelength becomes MORE comparable to (or exceeds) the opening size, which is exactly the condition that produces more diffraction. 'It decreases' has the relationship backwards. 'Stays the same' wrongly ignores that the opening-to-wavelength ratio is what controls diffraction amount. 'Cannot be determined' is wrong because the direction of the change (an increase) follows just from the opening shrinking relative to a fixed wavelength — the exact wavelength value isn't needed."
+      "explanation": "Correct: (C) It increases. A smaller opening relative to a fixed wavelength means the wavelength becomes MORE comparable to (or exceeds) the opening size, which is exactly the condition that produces more diffraction. 'It decreases' has the relationship backwards. 'Stays the same' wrongly ignores that the opening-to-wavelength ratio is what controls diffraction amount. 'Cannot be determined' is wrong because the direction of the change (an increase) follows just from the opening shrinking relative to a fixed wavelength — the exact wavelength value isn't needed."
     },
     {
       "id": "14-49",
@@ -6544,7 +6544,7 @@ const QUESTIONS = {
         "The light wave, since it has a much higher frequency than the radio wave"
       ],
       "correct": 1,
-      "explanation": "The radio wave's 1 m wavelength is comparable to (even larger than) the 10 cm obstacle, causing substantial bending around it, while the light wave's 500 nm wavelength is far smaller, producing a sharp shadow with negligible bending. 'The light wave, due to higher frequency' wrongly ties diffraction to frequency rather than to wavelength relative to obstacle size. 'Both diffract equally, since both are EM waves' ignores that diffraction depends on wavelength-to-obstacle ratio, not on being electromagnetic. 'Neither diffracts, obstacle is opaque to both' misapplies opacity — diffraction is about bending around an obstacle's edges, which doesn't require the obstacle to be transparent."
+      "explanation": "Correct: (B) The radio wave, whose wavelength is much larger relative to the obstacle. The radio wave's 1 m wavelength is comparable to (even larger than) the 10 cm obstacle, causing substantial bending around it, while the light wave's 500 nm wavelength is far smaller, producing a sharp shadow with negligible bending. 'The light wave, due to higher frequency' wrongly ties diffraction to frequency rather than to wavelength relative to obstacle size. 'Both diffract equally, since both are EM waves' ignores that diffraction depends on wavelength-to-obstacle ratio, not on being electromagnetic. 'Neither diffracts, obstacle is opaque to both' misapplies opacity — diffraction is about bending around an obstacle's edges, which doesn't require the obstacle to be transparent."
     },
     {
       "id": "14-88",
@@ -6627,7 +6627,7 @@ const QUESTIONS = {
         "0.26°"
       ],
       "correct": 3,
-      "explanation": "dsinθ = mλ gives sinθ = (1)(450×10⁻⁹)/(0.10×10⁻³) = 4.5×10⁻³, so θ = sin⁻¹(4.5×10⁻³) ≈ 0.26°. 0.13° comes from a factor-of-2 slip (halving the correct ratio). 0.52° comes from doubling the correct ratio, effectively using m = 2 instead of m = 1. 1.0° is about four times too large and does not come from a correct step (it would need m = 4)."
+      "explanation": "Correct: (D) 0.26°. dsinθ = mλ gives sinθ = (1)(450×10⁻⁹)/(0.10×10⁻³) = 4.5×10⁻³, so θ = sin⁻¹(4.5×10⁻³) ≈ 0.26°. 0.13° comes from a factor-of-2 slip (halving the correct ratio). 0.52° comes from doubling the correct ratio, effectively using m = 2 instead of m = 1. 1.0° is about four times too large and does not come from a correct step (it would need m = 4)."
     },
     {
       "id": "14-51",
@@ -6640,7 +6640,7 @@ const QUESTIONS = {
         "0.26°"
       ],
       "correct": 2,
-      "explanation": "sinθ = mλ/d = (2)(450×10⁻⁹)/(0.10×10⁻³) = 9.0×10⁻³, giving θ ≈ 0.52° — almost exactly double the m = 1 angle from the previous question, since sinθ scales directly with m at these small angles. 0.26° mistakenly reuses the m = 1 angle without accounting for m = 2. 0.78° comes from using m = 3 instead of m = 2. 1.0° corresponds to about m = 4, not m = 2."
+      "explanation": "Correct: (C) 0.52°. sinθ = mλ/d = (2)(450×10⁻⁹)/(0.10×10⁻³) = 9.0×10⁻³, giving θ ≈ 0.52° — almost exactly double the m = 1 angle from the previous question, since sinθ scales directly with m at these small angles. 0.26° mistakenly reuses the m = 1 angle without accounting for m = 2. 0.78° comes from using m = 3 instead of m = 2. 1.0° corresponds to about m = 4, not m = 2."
     },
     {
       "id": "14-52",
@@ -6653,7 +6653,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Since sinθ = mλ/d, increasing d in the denominator decreases sinθ and therefore θ — wider slit spacing compresses the fringe pattern together. 'It increases' has the relationship backwards. 'Stays the same' wrongly ignores d's role in the formula. 'Cannot be determined without knowing m' is wrong because the direction of the change (a decrease) holds for any fixed value of m — only the exact size of the change would depend on which m is chosen, not its direction."
+      "explanation": "Correct: (A) It decreases. Since sinθ = mλ/d, increasing d in the denominator decreases sinθ and therefore θ — wider slit spacing compresses the fringe pattern together. 'It increases' has the relationship backwards. 'Stays the same' wrongly ignores d's role in the formula. 'Cannot be determined without knowing m' is wrong because the direction of the change (a decrease) holds for any fixed value of m — only the exact size of the change would depend on which m is chosen, not its direction."
     },
     {
       "id": "14-53",
@@ -6666,7 +6666,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing m."
       ],
       "correct": 2,
-      "explanation": "Since sinθ = mλ/d, a longer wavelength directly increases sinθ and therefore θ — the opposite effect from increasing slit separation. 'It decreases' has the relationship backwards. 'Stays the same' wrongly ignores λ's role in the formula. 'Cannot be determined without knowing m' is wrong because the direction of the change (an increase) holds for any fixed m — only the exact size of the shift would depend on which m is chosen."
+      "explanation": "Correct: (C) It increases. Since sinθ = mλ/d, a longer wavelength directly increases sinθ and therefore θ — the opposite effect from increasing slit separation. 'It decreases' has the relationship backwards. 'Stays the same' wrongly ignores λ's role in the formula. 'Cannot be determined without knowing m' is wrong because the direction of the change (an increase) holds for any fixed m — only the exact size of the shift would depend on which m is chosen."
     },
     {
       "id": "14-54",
@@ -6679,7 +6679,7 @@ const QUESTIONS = {
         "The two waves have traveled equal path lengths, arriving perfectly in phase."
       ],
       "correct": 3,
-      "explanation": "The central bright fringe sits at the point of zero path difference — equidistant from both slits — which is why it's typically the brightest fringe in the whole pattern. 'Half a wavelength path difference' describes a destructive, dark point instead, not the central maximum. 'Only light from one slit reaches this point' is wrong — light from both slits reaches every point on the screen; it's the phase relationship that differs. 'Completely out of phase' is the opposite of the actual, perfectly-in-phase condition at the center."
+      "explanation": "Correct: (D) The two waves have traveled equal path lengths, arriving perfectly in phase. The central bright fringe sits at the point of zero path difference — equidistant from both slits — which is why it's typically the brightest fringe in the whole pattern. 'Half a wavelength path difference' describes a destructive, dark point instead, not the central maximum. 'Only light from one slit reaches this point' is wrong — light from both slits reaches every point on the screen; it's the phase relationship that differs. 'Completely out of phase' is the opposite of the actual, perfectly-in-phase condition at the center."
     },
     {
       "id": "14-55",
@@ -6692,7 +6692,7 @@ const QUESTIONS = {
         "690 nm"
       ],
       "correct": 3,
-      "explanation": "λ = dsinθ/m = (8.0×10⁻⁶)(sin 15°)/3 = (8.0×10⁻⁶)(0.259)/3 ≈ 6.9×10⁻⁷ m = 690 nm. 2100 nm forgets to divide by m at all (it is just d sin θ). 230 nm divides by m twice (an extra factor of 3). 1400 nm is twice the correct value and does not follow from the equation."
+      "explanation": "Correct: (D) 690 nm. λ = dsinθ/m = (8.0×10⁻⁶)(sin 15°)/3 = (8.0×10⁻⁶)(0.259)/3 ≈ 6.9×10⁻⁷ m = 690 nm. 2100 nm forgets to divide by m at all (it is just d sin θ). 230 nm divides by m twice (an extra factor of 3). 1400 nm is twice the correct value and does not follow from the equation."
     },
     {
       "id": "14-56",
@@ -6705,7 +6705,7 @@ const QUESTIONS = {
         "Same angles, but much sharper and narrower, with darker regions between."
       ],
       "correct": 3,
-      "explanation": "Fringes still appear at the same angles, still given by dsinθ = mλ, but with many slits requiring precise alignment across all of them, the bright fringes become much sharper and the dark regions between them more distinct. 'Completely different angles' is wrong — the underlying dsinθ = mλ condition is unchanged by adding more slits. 'No distinct fringes, just uniform brightness' is the opposite of reality — more slits sharpen the fringes rather than washing them out. 'Only works for a single wavelength' is false; a grating still diffracts any wavelength according to the same formula, just with sharper results."
+      "explanation": "Correct: (D) Same angles, but much sharper and narrower, with darker regions between. Fringes still appear at the same angles, still given by dsinθ = mλ, but with many slits requiring precise alignment across all of them, the bright fringes become much sharper and the dark regions between them more distinct. 'Completely different angles' is wrong — the underlying dsinθ = mλ condition is unchanged by adding more slits. 'No distinct fringes, just uniform brightness' is the opposite of reality — more slits sharpen the fringes rather than washing them out. 'Only works for a single wavelength' is false; a grating still diffracts any wavelength according to the same formula, just with sharper results."
     },
     {
       "id": "14-57",
@@ -6719,7 +6719,7 @@ const QUESTIONS = {
         "Yes, but from different parts of the SAME slit interfering, not two separate slits."
       ],
       "correct": 3,
-      "explanation": "Single-slit diffraction produces its own bright/dark pattern from many secondary wavelets across the SAME single opening interfering with each other, distinct from double-slit interference between light emerging from two physically separate slits. 'Cause is identical, two separate slits' wrongly imports the double-slit mechanism into a setup that only has one opening. 'Uniform brightness, no fringe pattern' is factually wrong — single-slit diffraction does produce a distinct central maximum with dimmer side fringes. 'Only for wavelength longer than the slit width' invents an unnecessary restriction — single-slit diffraction fringes occur across a range of wavelength-to-width ratios, not only that extreme case."
+      "explanation": "Correct: (D) Yes, but from different parts of the SAME slit interfering, not two separate slits. Single-slit diffraction produces its own bright/dark pattern from many secondary wavelets across the SAME single opening interfering with each other, distinct from double-slit interference between light emerging from two physically separate slits. 'Cause is identical, two separate slits' wrongly imports the double-slit mechanism into a setup that only has one opening. 'Uniform brightness, no fringe pattern' is factually wrong — single-slit diffraction does produce a distinct central maximum with dimmer side fringes. 'Only for wavelength longer than the slit width' invents an unnecessary restriction — single-slit diffraction fringes occur across a range of wavelength-to-width ratios, not only that extreme case."
     },
     {
       "id": "14-93",
@@ -6830,7 +6830,7 @@ const QUESTIONS = {
         "300 nm"
       ],
       "correct": 3,
-      "explanation": "Path difference = 2t = 2(150 nm) = 300 nm, since light crosses the film's thickness twice — once down to the bottom surface, once back up. 75 nm comes from halving the thickness instead of doubling it. 150 nm mistakes the film's thickness itself for the round-trip path difference. 600 nm comes from doubling the correct answer, effectively using 4t instead of 2t."
+      "explanation": "Correct: (D) 300 nm. Path difference = 2t = 2(150 nm) = 300 nm, since light crosses the film's thickness twice — once down to the bottom surface, once back up. 75 nm comes from halving the thickness instead of doubling it. 150 nm mistakes the film's thickness itself for the round-trip path difference. 600 nm comes from doubling the correct answer, effectively using 4t instead of 2t."
     },
     {
       "id": "14-59",
@@ -6843,7 +6843,7 @@ const QUESTIONS = {
         "90° phase shift"
       ],
       "correct": 2,
-      "explanation": "Reflecting into a higher-index (optically denser) medium always introduces a 180° phase flip, just like a wave pulse reflecting off a fixed string end. 'No shift, like a free end' describes the opposite boundary case, going into a lower-index medium instead. '90° phase shift' invents a value that doesn't occur at either type of boundary in this context. 'Depends on the exact wavelength' is wrong — this phase shift is a fixed 180° or 0°, determined by the direction of the index change, not by wavelength."
+      "explanation": "Correct: (C) 180° phase shift, the same behavior as reflection off a fixed end. Reflecting into a higher-index (optically denser) medium always introduces a 180° phase flip, just like a wave pulse reflecting off a fixed string end. 'No shift, like a free end' describes the opposite boundary case, going into a lower-index medium instead. '90° phase shift' invents a value that doesn't occur at either type of boundary in this context. 'Depends on the exact wavelength' is wrong — this phase shift is a fixed 180° or 0°, determined by the direction of the index change, not by wavelength."
     },
     {
       "id": "14-60",
@@ -6856,7 +6856,7 @@ const QUESTIONS = {
         "The phase shift depends on the exact wavelength"
       ],
       "correct": 0,
-      "explanation": "Reflecting into a lower-index (optically less dense) medium never introduces a phase flip, just like a wave pulse reflecting off a free string end. '180° shift, like a fixed end' describes the opposite boundary case, going into a higher-index medium instead. '90° phase shift' invents a value that doesn't occur at either type of boundary here. 'Depends on the exact wavelength' is wrong — the shift is fixed at 0° or 180° by the direction of the index change alone."
+      "explanation": "Correct: (A) No phase shift, the same behavior as reflection off a free end. Reflecting into a lower-index (optically less dense) medium never introduces a phase flip, just like a wave pulse reflecting off a free string end. '180° shift, like a fixed end' describes the opposite boundary case, going into a higher-index medium instead. '90° phase shift' invents a value that doesn't occur at either type of boundary here. 'Depends on the exact wavelength' is wrong — the shift is fixed at 0° or 180° by the direction of the index change alone."
     },
     {
       "id": "14-61",
@@ -6869,7 +6869,7 @@ const QUESTIONS = {
         "Only the top surface shifts (higher index); the bottom does not (lower index)."
       ],
       "correct": 3,
-      "explanation": "Air (n = 1.0) to oil (n = 1.4) goes into a HIGHER index — a 180° shift; oil (n = 1.4) to water (n = 1.33) goes into a LOWER index — no shift. 'Both surfaces shift' wrongly ignores that the oil-to-water step decreases the index, so that reflection doesn't shift. 'Neither surface shifts' wrongly ignores that the air-to-oil step increases the index, so that reflection does shift. 'Only the bottom surface shifts' has the two surfaces' behavior exactly backwards — it's the top surface that shifts, not the bottom."
+      "explanation": "Correct: (D) Only the top surface shifts (higher index); the bottom does not (lower index). Air (n = 1.0) to oil (n = 1.4) goes into a HIGHER index — a 180° shift; oil (n = 1.4) to water (n = 1.33) goes into a LOWER index — no shift. 'Both surfaces shift' wrongly ignores that the oil-to-water step decreases the index, so that reflection doesn't shift. 'Neither surface shifts' wrongly ignores that the air-to-oil step increases the index, so that reflection does shift. 'Only the bottom surface shifts' has the two surfaces' behavior exactly backwards — it's the top surface that shifts, not the bottom."
     },
     {
       "id": "14-62",
@@ -6882,7 +6882,7 @@ const QUESTIONS = {
         "t = mλ_film"
       ],
       "correct": 1,
-      "explanation": "2t = mλ<sub>film</sub>, a whole number of wavelengths — when both surfaces either shift together or don't shift at all, their phase effects either cancel out or don't factor in, leaving the ordinary constructive condition intact. '2t = (m + ½)λ<sub>film</sub>' is the condition for the MISMATCHED case instead, where the extra half-wavelength swap applies. '2t = mλ<sub>film</sub>/2' introduces an extra, unjustified factor of one-half into the formula. 't = mλ<sub>film</sub>' drops the essential factor of 2 that accounts for the round-trip path through the film."
+      "explanation": "Correct: (B) 2t = mλ_film. 2t = mλ<sub>film</sub>, a whole number of wavelengths — when both surfaces either shift together or don't shift at all, their phase effects either cancel out or don't factor in, leaving the ordinary constructive condition intact. '2t = (m + ½)λ<sub>film</sub>' is the condition for the MISMATCHED case instead, where the extra half-wavelength swap applies. '2t = mλ<sub>film</sub>/2' introduces an extra, unjustified factor of one-half into the formula. 't = mλ<sub>film</sub>' drops the essential factor of 2 that accounts for the round-trip path through the film."
     },
     {
       "id": "14-63",
@@ -6895,7 +6895,7 @@ const QUESTIONS = {
         "2t = 2mλ_film"
       ],
       "correct": 1,
-      "explanation": "2t = (m + ½)λ<sub>film</sub> — the single unmatched 180° shift adds an extra half-wavelength to the bookkeeping, swapping which path differences count as constructive versus destructive compared to the matched case. '2t = mλ<sub>film</sub>' is the MATCHED-case condition instead, missing the needed half-wavelength offset. '2t = 2mλ<sub>film</sub>' introduces an unjustified extra factor of 2 on m. 't = (m + ½)λ<sub>film</sub>' drops the factor of 2 that accounts for the round-trip path through the film."
+      "explanation": "Correct: (B) 2t = (m + ½)λ_film. 2t = (m + ½)λ<sub>film</sub> — the single unmatched 180° shift adds an extra half-wavelength to the bookkeeping, swapping which path differences count as constructive versus destructive compared to the matched case. '2t = mλ<sub>film</sub>' is the MATCHED-case condition instead, missing the needed half-wavelength offset. '2t = 2mλ<sub>film</sub>' introduces an unjustified extra factor of 2 on m. 't = (m + ½)λ<sub>film</sub>' drops the factor of 2 that accounts for the round-trip path through the film."
     },
     {
       "id": "14-64",
@@ -6909,7 +6909,7 @@ const QUESTIONS = {
         "70 nm"
       ],
       "correct": 2,
-      "explanation": "First convert to the wavelength inside the film: λ<sub>film</sub> = λ<sub>vacuum</sub>/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ<sub>film</sub> with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm does not come from any correct step; skipping the index conversion and using 500 nm directly would give 125 nm. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ<sub>film</sub> itself for the answer, skipping the mismatched-condition calculation entirely."
+      "explanation": "Correct: (C) 94 nm. First convert to the wavelength inside the film: λ<sub>film</sub> = λ<sub>vacuum</sub>/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ<sub>film</sub> with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm does not come from any correct step; skipping the index conversion and using 500 nm directly would give 125 nm. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ<sub>film</sub> itself for the answer, skipping the mismatched-condition calculation entirely."
     },
     {
       "id": "14-65",
@@ -6922,7 +6922,7 @@ const QUESTIONS = {
         "The soap molecules themselves are colored and simply reflect different colors at random."
       ],
       "correct": 1,
-      "explanation": "Since the constructive-interference condition (2t = mλ<sub>film</sub> or (m + ½)λ<sub>film</sub>, depending on the phase-shift situation) depends directly on thickness t, different wavelengths satisfy it at different thicknesses — so different colors appear brightest at different points on the film's slightly uneven surface, producing the familiar swirling rainbow pattern. 'Different colors travel at different speeds in the film' invents a dispersion-based explanation rather than the actual thickness-dependence mechanism. 'Soap molecules are colored, reflecting at random' incorrectly attributes the effect to pigment rather than interference — soap is colorless. 'Caused by diffraction, not interference, nothing to do with thickness' misidentifies both the mechanism (it is interference) and dismisses thickness, which is precisely the variable driving the color variation."
+      "explanation": "Correct: (B) Varying film thickness makes each color's constructive condition hit at a different spot. Since the constructive-interference condition (2t = mλ<sub>film</sub> or (m + ½)λ<sub>film</sub>, depending on the phase-shift situation) depends directly on thickness t, different wavelengths satisfy it at different thicknesses — so different colors appear brightest at different points on the film's slightly uneven surface, producing the familiar swirling rainbow pattern. 'Different colors travel at different speeds in the film' invents a dispersion-based explanation rather than the actual thickness-dependence mechanism. 'Soap molecules are colored, reflecting at random' incorrectly attributes the effect to pigment rather than interference — soap is colorless. 'Caused by diffraction, not interference, nothing to do with thickness' misidentifies both the mechanism (it is interference) and dismisses thickness, which is precisely the variable driving the color variation."
     },
     {
       "id": "14-100",
@@ -6977,7 +6977,7 @@ const QUESTIONS = {
         "340 Hz"
       ],
       "correct": 1,
-      "explanation": "For a pipe open at both ends, both ends are antinodes and the math matches a string fixed at both ends: f₁ = v/(2L) = 340/(2×1.7) = 340/3.4 = 100 Hz. 50 Hz comes from mistakenly using the closed-pipe formula v/(4L) for this open-open pipe. 200 Hz comes from forgetting the factor of 2 and using v/L directly. 340 Hz mistakes the raw speed of sound itself for the frequency, ignoring the pipe length entirely."
+      "explanation": "Correct: (B) 100 Hz. For a pipe open at both ends, both ends are antinodes and the math matches a string fixed at both ends: f₁ = v/(2L) = 340/(2×1.7) = 340/3.4 = 100 Hz. 50 Hz comes from mistakenly using the closed-pipe formula v/(4L) for this open-open pipe. 200 Hz comes from forgetting the factor of 2 and using v/L directly. 340 Hz mistakes the raw speed of sound itself for the frequency, ignoring the pipe length entirely."
     },
     {
       "id": "14-67",
@@ -6990,7 +6990,7 @@ const QUESTIONS = {
         "50 Hz"
       ],
       "correct": 3,
-      "explanation": "A closed pipe has a node at the closed end and an antinode at the open end, giving f₁ = v/(4L) = 340/(4×1.7) = 340/6.8 = 50 Hz — exactly half the open-open pipe's fundamental (100 Hz) for the same length, since the closed end forces a longer effective wavelength (4L instead of 2L). 25 Hz comes from an extra unintended factor of 2 (using 8L instead of 4L). 100 Hz comes from mistakenly using the open-pipe formula v/(2L) for this closed pipe. 200 Hz comes from forgetting the factor of 4 and using v/L directly."
+      "explanation": "Correct: (D) 50 Hz. A closed pipe has a node at the closed end and an antinode at the open end, giving f₁ = v/(4L) = 340/(4×1.7) = 340/6.8 = 50 Hz — exactly half the open-open pipe's fundamental (100 Hz) for the same length, since the closed end forces a longer effective wavelength (4L instead of 2L). 25 Hz comes from an extra unintended factor of 2 (using 8L instead of 4L). 100 Hz comes from mistakenly using the open-pipe formula v/(2L) for this closed pipe. 200 Hz comes from forgetting the factor of 4 and using v/L directly."
     },
     {
       "id": "14-68",
@@ -7003,7 +7003,7 @@ const QUESTIONS = {
         "240 Hz, the fourth harmonic (n = 4)"
       ],
       "correct": 0,
-      "explanation": "A closed pipe supports ONLY odd harmonics (n = 1, 3, 5...), so the first allowed harmonic above the fundamental is n = 3: f₃ = 3(60) = 180 Hz. '120 Hz, n = 2' describes a standing-wave pattern that simply cannot exist in a closed pipe, since even harmonics are forbidden there. '240 Hz, n = 4' makes the same even-harmonic error one step further out. '300 Hz, n = 5' correctly stays on an odd harmonic but skips past n = 3, which is the actual next allowed harmonic above the fundamental."
+      "explanation": "Correct: (A) 180 Hz, the third harmonic (n = 3). A closed pipe supports ONLY odd harmonics (n = 1, 3, 5...), so the first allowed harmonic above the fundamental is n = 3: f₃ = 3(60) = 180 Hz. '120 Hz, n = 2' describes a standing-wave pattern that simply cannot exist in a closed pipe, since even harmonics are forbidden there. '240 Hz, n = 4' makes the same even-harmonic error one step further out. '300 Hz, n = 5' correctly stays on an odd harmonic but skips past n = 3, which is the actual next allowed harmonic above the fundamental."
     },
     {
       "id": "14-84",
@@ -7100,7 +7100,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "It doubles. Photon energy is E = hf, a direct proportionality — doubling frequency doubles energy, with no other complications. \"Cut in half\" inverts this direct relationship (that's how energy responds to a doubled *wavelength*, not frequency). \"Quadruples\" wrongly assumes E ∝ f² and squares the factor of two instead of applying it directly. \"Stays the same\" ignores that E = hf depends on frequency at all."
+      "explanation": "Correct: (D) It doubles. It doubles. Photon energy is E = hf, a direct proportionality — doubling frequency doubles energy, with no other complications. \"Cut in half\" inverts this direct relationship (that's how energy responds to a doubled *wavelength*, not frequency). \"Quadruples\" wrongly assumes E ∝ f² and squares the factor of two instead of applying it directly. \"Stays the same\" ignores that E = hf depends on frequency at all."
     },
     {
       "id": "15-4",
@@ -7113,7 +7113,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 2,
-      "explanation": "It's cut in half. Photon energy is E = hc/λ, with wavelength in the denominator — doubling wavelength halves energy. \"Doubles\" treats wavelength like frequency, assuming a direct rather than inverse relationship. \"Quadruples\" compounds that same direct-proportion mistake with an extra squaring. \"Stays the same\" ignores that E depends on λ at all."
+      "explanation": "Correct: (C) It is cut in half. It's cut in half. Photon energy is E = hc/λ, with wavelength in the denominator — doubling wavelength halves energy. \"Doubles\" treats wavelength like frequency, assuming a direct rather than inverse relationship. \"Quadruples\" compounds that same direct-proportion mistake with an extra squaring. \"Stays the same\" ignores that E depends on λ at all."
     },
     {
       "id": "15-5",
@@ -7139,7 +7139,7 @@ const QUESTIONS = {
         "The baseball has no de Broglie wavelength at all — matter waves don't apply to it."
       ],
       "correct": 1,
-      "explanation": "The baseball's wavelength is vastly, immeasurably smaller. Since λ = h/p = h/(mv), and the baseball's mass dwarfs the electron's by many orders of magnitude, its wavelength becomes utterly negligible — this is exactly why everyday macroscopic objects never display noticeable wave behavior, even though technically every moving object has some de Broglie wavelength. \"Vastly larger\" inverts the mass relationship (mass sits in the denominator of λ = h/mv, so more mass means a *shorter* wavelength). \"Equal wavelengths\" ignores mass entirely and focuses only on the equal speed. \"No de Broglie wavelength at all\" wrongly assumes matter waves only apply to quantum-scale particles."
+      "explanation": "Correct: (B) The baseball's wavelength is vastly smaller than the electron's. The baseball's wavelength is vastly, immeasurably smaller. Since λ = h/p = h/(mv), and the baseball's mass dwarfs the electron's by many orders of magnitude, its wavelength becomes utterly negligible — this is exactly why everyday macroscopic objects never display noticeable wave behavior, even though technically every moving object has some de Broglie wavelength. \"Vastly larger\" inverts the mass relationship (mass sits in the denominator of λ = h/mv, so more mass means a *shorter* wavelength). \"Equal wavelengths\" ignores mass entirely and focuses only on the equal speed. \"No de Broglie wavelength at all\" wrongly assumes matter waves only apply to quantum-scale particles."
     },
     {
       "id": "15-7",
@@ -7152,7 +7152,7 @@ const QUESTIONS = {
         "Double-slit interference"
       ],
       "correct": 3,
-      "explanation": "Double-slit interference. Bright and dark interference fringes are a purely wave-based phenomenon, requiring light to combine via superposition — direct evidence for light's wave behavior. The photoelectric effect and Compton scattering are both classic evidence for light's *particle* nature instead, not its wave nature. Blackbody radiation motivated Planck's quantized-energy proposal, which is again evidence pointing toward particle-like packets, not waves."
+      "explanation": "Correct: (D) Double-slit interference. Double-slit interference. Bright and dark interference fringes are a purely wave-based phenomenon, requiring light to combine via superposition — direct evidence for light's wave behavior. The photoelectric effect and Compton scattering are both classic evidence for light's *particle* nature instead, not its wave nature. Blackbody radiation motivated Planck's quantized-energy proposal, which is again evidence pointing toward particle-like packets, not waves."
     },
     {
       "id": "15-8",
@@ -7165,7 +7165,7 @@ const QUESTIONS = {
         "Diffraction around an obstacle"
       ],
       "correct": 1,
-      "explanation": "The photoelectric effect. Electrons are ejected only above a threshold frequency, regardless of light intensity — this behavior only makes sense if light delivers energy in discrete packets (photons), not as a continuous wave. Double-slit interference, thin film interference, and diffraction around an obstacle are all wave phenomena instead — each relies on superposition or bending around edges, behaviors a stream of independent particles wouldn't produce."
+      "explanation": "Correct: (B) The photoelectric effect. The photoelectric effect. Electrons are ejected only above a threshold frequency, regardless of light intensity — this behavior only makes sense if light delivers energy in discrete packets (photons), not as a continuous wave. Double-slit interference, thin film interference, and diffraction around an obstacle are all wave phenomena instead — each relies on superposition or bending around edges, behaviors a stream of independent particles wouldn't produce."
     },
     {
       "id": "15-66",
@@ -7231,7 +7231,7 @@ const QUESTIONS = {
         "There is no required relationship between them."
       ],
       "correct": 0,
-      "explanation": "They must be exactly equal. An atom can only absorb a photon whose energy precisely matches an available energy level gap — a photon with even slightly more or less energy simply passes through without being absorbed at all. \"Must exceed\" confuses this bound-state absorption with the photoelectric effect, where ejecting a *free* electron only requires *at least* the work function. \"Anywhere close\" and \"no required relationship\" both ignore that energy levels are quantized, treating the absorption process as if it were continuous rather than an exact-match requirement."
+      "explanation": "Correct: (A) The photon's energy must exactly equal the energy difference. They must be exactly equal. An atom can only absorb a photon whose energy precisely matches an available energy level gap — a photon with even slightly more or less energy simply passes through without being absorbed at all. \"Must exceed\" confuses this bound-state absorption with the photoelectric effect, where ejecting a *free* electron only requires *at least* the work function. \"Anywhere close\" and \"no required relationship\" both ignore that energy levels are quantized, treating the absorption process as if it were continuous rather than an exact-match requirement."
     },
     {
       "id": "15-13",
@@ -7257,7 +7257,7 @@ const QUESTIONS = {
         "This depends on the photon's intensity, not just its energy."
       ],
       "correct": 2,
-      "explanation": "No, it passes through unabsorbed. Absorption requires an exact match between photon energy and an available energy gap — being close isn't sufficient, no matter how small the mismatch. \"Partial absorption\" incorrectly assumes an electron can absorb only a fraction of a photon's energy; photons are absorbed whole or not at all. \"Jumps to the nearest level anyway\" ignores that quantized levels require an exact energy match, not just proximity. \"Depends on intensity\" confuses intensity (which controls the *rate* of photons arriving) with whether an individual photon's energy matches a gap, which it does not here."
+      "explanation": "Correct: (C) No — its energy doesn't match any available energy gap, so it passes through unabsorbed. No, it passes through unabsorbed. Absorption requires an exact match between photon energy and an available energy gap — being close isn't sufficient, no matter how small the mismatch. \"Partial absorption\" incorrectly assumes an electron can absorb only a fraction of a photon's energy; photons are absorbed whole or not at all. \"Jumps to the nearest level anyway\" ignores that quantized levels require an exact energy match, not just proximity. \"Depends on intensity\" confuses intensity (which controls the *rate* of photons arriving) with whether an individual photon's energy matches a gap, which it does not here."
     },
     {
       "id": "15-15",
@@ -7270,7 +7270,7 @@ const QUESTIONS = {
         "No, the electron can never absorb another photon under any circumstances at all, at any energy."
       ],
       "correct": 0,
-      "explanation": "No further bound transition, but ionization is possible. With no higher bound level available, the electron can't make another bound-to-bound jump — but a sufficiently energetic photon can still be absorbed if it provides enough energy to fully eject the electron from the atom (ionization), a qualitatively different process from a simple level-to-level transition. \"Yes, it can always absorb any photon and stay bound\" ignores that there's no higher bound level left to jump to. \"No, never again under any circumstances\" wrongly rules out ionization entirely. \"Depends only on wavelength, not energy\" is a false distinction, since wavelength and energy describe the same photon property (E = hc/λ) and always move together."
+      "explanation": "Correct: (A) No further bound-to-bound jump is possible, but a high-energy photon could ionize it entirely. No further bound transition, but ionization is possible. With no higher bound level available, the electron can't make another bound-to-bound jump — but a sufficiently energetic photon can still be absorbed if it provides enough energy to fully eject the electron from the atom (ionization), a qualitatively different process from a simple level-to-level transition. \"Yes, it can always absorb any photon and stay bound\" ignores that there's no higher bound level left to jump to. \"No, never again under any circumstances\" wrongly rules out ionization entirely. \"Depends only on wavelength, not energy\" is a false distinction, since wavelength and energy describe the same photon property (E = hc/λ) and always move together."
     },
     {
       "id": "15-16",
@@ -7283,7 +7283,7 @@ const QUESTIONS = {
         "Cannot be determined"
       ],
       "correct": 2,
-      "explanation": "4.0 eV. The electron needs exactly enough energy to bridge the gap from −4.0 eV up to the 0 eV ionization threshold — any less, and it remains bound; any photon energy at or above 4.0 eV can ionize it (with energy above 4.0 eV giving the freed electron leftover kinetic energy). Choice A (0 eV) mistakes the ionization threshold's own energy value for the energy needed to *reach* it. Choice B (8.0 eV) doubles the actual 4.0 eV gap. Choice D claims it can't be determined, but the gap is directly given by the two stated energy levels."
+      "explanation": "Correct: (C) 4.0 eV. 4.0 eV. The electron needs exactly enough energy to bridge the gap from −4.0 eV up to the 0 eV ionization threshold — any less, and it remains bound; any photon energy at or above 4.0 eV can ionize it (with energy above 4.0 eV giving the freed electron leftover kinetic energy). Choice A (0 eV) mistakes the ionization threshold's own energy value for the energy needed to *reach* it. Choice B (8.0 eV) doubles the actual 4.0 eV gap. Choice D claims it can't be determined, but the gap is directly given by the two stated energy levels."
     },
     {
       "id": "15-67",
@@ -7406,7 +7406,7 @@ const QUESTIONS = {
         "No effect at all — the gas is too cool to interact with the light."
       ],
       "correct": 2,
-      "explanation": "Dark absorption lines, at hydrogen's characteristic wavelengths. The cool gas absorbs photons of exactly those energies from the star's continuous spectrum as the light passes through, removing them and leaving dark gaps at precisely hydrogen's known spectral positions. \"Bright lines\" would only occur if the gas were itself emitting toward the observer, not absorbing from a background source. \"No effect at all\" wrongly assumes a cool gas can't absorb light — coolness relative to the star doesn't prevent absorption from a passing continuous spectrum. \"Uniform dimming\" ignores that absorption is wavelength-specific, not a blanket reduction across the whole spectrum."
+      "explanation": "Correct: (C) Dark absorption lines, at exactly those same wavelengths. Dark absorption lines, at hydrogen's characteristic wavelengths. The cool gas absorbs photons of exactly those energies from the star's continuous spectrum as the light passes through, removing them and leaving dark gaps at precisely hydrogen's known spectral positions. \"Bright lines\" would only occur if the gas were itself emitting toward the observer, not absorbing from a background source. \"No effect at all\" wrongly assumes a cool gas can't absorb light — coolness relative to the star doesn't prevent absorption from a passing continuous spectrum. \"Uniform dimming\" ignores that absorption is wavelength-specific, not a blanket reduction across the whole spectrum."
     },
     {
       "id": "15-20",
@@ -7419,7 +7419,7 @@ const QUESTIONS = {
         "Each element has a unique set of quantized electron energy levels, giving it distinct photon wavelengths."
       ],
       "correct": 3,
-      "explanation": "Unique energy level structures. Since photon wavelengths emitted or absorbed correspond directly to specific energy GAPS between an atom's levels, and no two elements share identical energy level structures, no two elements produce identical spectral line patterns — each is as unique as a fingerprint. \"Different color naturally\" describes an effect rather than the underlying cause, and isn't even generally true (most elements have no single characteristic color to the eye). \"Different amounts of ambient heat absorbed\" has nothing to do with an atom's fixed, intrinsic energy-level structure. \"Purely a labeling convention\" denies that there's any real physical basis for the differences, when in fact quantized energy levels are the physical cause."
+      "explanation": "Correct: (D) Each element has a unique set of quantized electron energy levels, giving it distinct photon wavelengths. Unique energy level structures. Since photon wavelengths emitted or absorbed correspond directly to specific energy GAPS between an atom's levels, and no two elements share identical energy level structures, no two elements produce identical spectral line patterns — each is as unique as a fingerprint. \"Different color naturally\" describes an effect rather than the underlying cause, and isn't even generally true (most elements have no single characteristic color to the eye). \"Different amounts of ambient heat absorbed\" has nothing to do with an atom's fixed, intrinsic energy-level structure. \"Purely a labeling convention\" denies that there's any real physical basis for the differences, when in fact quantized energy levels are the physical cause."
     },
     {
       "id": "15-21",
@@ -7432,7 +7432,7 @@ const QUESTIONS = {
         "They measure only the star's overall color and total brightness, nothing more specific."
       ],
       "correct": 0,
-      "explanation": "Matching spectral fingerprints. By comparing the specific wavelengths present in a star's absorption or emission lines to the catalogued, unique spectral signatures of known elements, astronomers can identify which elements are present — all without ever physically sampling the star itself. \"Color and brightness only\" is far too crude to identify specific elements. \"Temperature and a universal formula\" describes how astronomers infer a star's overall temperature from its blackbody spectral shape, not how they identify which elements are present. \"Direct sampling\" is impossible at interstellar distances — the whole point of spectroscopy is that it works without ever touching the star."
+      "explanation": "Correct: (A) They compare the star's spectral line wavelengths to known elemental fingerprints from Earth labs. Matching spectral fingerprints. By comparing the specific wavelengths present in a star's absorption or emission lines to the catalogued, unique spectral signatures of known elements, astronomers can identify which elements are present — all without ever physically sampling the star itself. \"Color and brightness only\" is far too crude to identify specific elements. \"Temperature and a universal formula\" describes how astronomers infer a star's overall temperature from its blackbody spectral shape, not how they identify which elements are present. \"Direct sampling\" is impossible at interstellar distances — the whole point of spectroscopy is that it works without ever touching the star."
     },
     {
       "id": "15-22",
@@ -7445,7 +7445,7 @@ const QUESTIONS = {
         "A spectrum containing only a single, super-intense spectral line at the longest wavelength."
       ],
       "correct": 2,
-      "explanation": "A continuous, smooth spectrum. If energy levels could take any value rather than being restricted to discrete steps, electrons could emit photons of any energy at all, producing a smooth rainbow rather than distinct lines — the sharp-line spectra we actually observe are direct evidence that energy levels really are quantized. \"Identical to the actual sharp-line spectrum\" contradicts the premise, since real atoms DO have discrete levels while this question asks about a hypothetical continuous case. \"No spectrum at all\" is wrong — the atom could still emit light, just at any energy rather than only certain ones. \"A single super-intense line\" misunderstands that a continuous range of possible energies would spread emission across all wavelengths, not concentrate it into one."
+      "explanation": "Correct: (C) A continuous spectrum — a smooth rainbow of all wavelengths, not distinct lines. A continuous, smooth spectrum. If energy levels could take any value rather than being restricted to discrete steps, electrons could emit photons of any energy at all, producing a smooth rainbow rather than distinct lines — the sharp-line spectra we actually observe are direct evidence that energy levels really are quantized. \"Identical to the actual sharp-line spectrum\" contradicts the premise, since real atoms DO have discrete levels while this question asks about a hypothetical continuous case. \"No spectrum at all\" is wrong — the atom could still emit light, just at any energy rather than only certain ones. \"A single super-intense line\" misunderstands that a continuous range of possible energies would spread emission across all wavelengths, not concentrate it into one."
     },
     {
       "id": "15-23",
@@ -7459,7 +7459,7 @@ const QUESTIONS = {
         "Intensity differences are purely due to instrument calibration errors, not real physics at the atomic level at all."
       ],
       "correct": 0,
-      "explanation": "Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact."
+      "explanation": "Correct: (A) Different starting populations make the same transitions occur at different relative frequencies. Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact."
     },
     {
       "id": "15-73",
@@ -7486,7 +7486,7 @@ const QUESTIONS = {
         "It shifts to shorter wavelengths."
       ],
       "correct": 3,
-      "explanation": "Shifts to shorter wavelengths (higher frequency, higher energy). This is why a heated metal shifts from dull red, through orange and yellow, toward white as its temperature climbs — the peak of its emission is moving toward shorter wavelengths. \"Shifts to longer wavelengths\" inverts Wien's law, treating hotter as if it meant longer peak wavelength. \"Stays the same\" ignores that the peak wavelength depends on temperature at all. \"Becomes undefined\" is wrong — the blackbody spectrum remains a well-defined curve with a clear peak at every nonzero temperature."
+      "explanation": "Correct: (D) It shifts to shorter wavelengths. Shifts to shorter wavelengths (higher frequency, higher energy). This is why a heated metal shifts from dull red, through orange and yellow, toward white as its temperature climbs — the peak of its emission is moving toward shorter wavelengths. \"Shifts to longer wavelengths\" inverts Wien's law, treating hotter as if it meant longer peak wavelength. \"Stays the same\" ignores that the peak wavelength depends on temperature at all. \"Becomes undefined\" is wrong — the blackbody spectrum remains a well-defined curve with a clear peak at every nonzero temperature."
     },
     {
       "id": "15-25",
@@ -7499,7 +7499,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 1,
-      "explanation": "It increases, and quite dramatically — a hotter object radiates significantly more total electromagnetic energy across its whole spectrum than a cooler one. \"Decreases\" inverts the Stefan-Boltzmann relationship, where radiated power actually grows steeply (as T⁴) with temperature. \"Stays the same\" ignores this strong temperature dependence entirely. \"Becomes zero\" is wrong — radiated power never vanishes for any object above absolute zero; it only grows as temperature rises."
+      "explanation": "Correct: (B) It increases. It increases, and quite dramatically — a hotter object radiates significantly more total electromagnetic energy across its whole spectrum than a cooler one. \"Decreases\" inverts the Stefan-Boltzmann relationship, where radiated power actually grows steeply (as T⁴) with temperature. \"Stays the same\" ignores this strong temperature dependence entirely. \"Becomes zero\" is wrong — radiated power never vanishes for any object above absolute zero; it only grows as temperature rises."
     },
     {
       "id": "15-26",
@@ -7512,7 +7512,7 @@ const QUESTIONS = {
         "They have equal peak wavelengths."
       ],
       "correct": 2,
-      "explanation": "The blue star's peak wavelength is shorter. Blue light itself has a shorter wavelength than red light, and hotter objects peak at shorter wavelengths — both facts point the same direction, consistently identifying the hotter star as blue and the cooler star as red. \"Blue star's peak wavelength is longer\" inverts both relationships at once. \"Equal peak wavelengths\" ignores that different temperatures necessarily produce different peak wavelengths (Wien's law). \"Cannot be determined without size\" is a distractor — peak wavelength depends only on temperature, not on the star's physical size."
+      "explanation": "Correct: (C) The blue star's peak wavelength is shorter. The blue star's peak wavelength is shorter. Blue light itself has a shorter wavelength than red light, and hotter objects peak at shorter wavelengths — both facts point the same direction, consistently identifying the hotter star as blue and the cooler star as red. \"Blue star's peak wavelength is longer\" inverts both relationships at once. \"Equal peak wavelengths\" ignores that different temperatures necessarily produce different peak wavelengths (Wien's law). \"Cannot be determined without size\" is a distractor — peak wavelength depends only on temperature, not on the star's physical size."
     },
     {
       "id": "15-27",
@@ -7525,7 +7525,7 @@ const QUESTIONS = {
         "Classical physics predicted no radiation at all from any object, regardless of temperature or material."
       ],
       "correct": 0,
-      "explanation": "The 'ultraviolet catastrophe.' Classical physics, treating energy as continuously variable, predicted intensity should keep increasing without limit at short wavelengths — a prediction wildly at odds with real measurements. Planck's proposal that energy is emitted and absorbed only in discrete chunks (quanta, hf) resolved this contradiction and matched the observed spectrum, marking the historical birth of quantum theory. \"Predicted no radiation at all\" gets the failure backwards — the actual problem was predicting *too much* radiation at short wavelengths, not none. \"Couldn't account for temperature dependence\" is wrong — classical theory did include temperature; its failure was specifically in the short-wavelength behavior. \"Never actually a problem\" denies the well-documented historical crisis that motivated quantum theory in the first place."
+      "explanation": "Correct: (A) Classical predictions had radiated intensity increasing without bound at short wavelengths. The 'ultraviolet catastrophe.' Classical physics, treating energy as continuously variable, predicted intensity should keep increasing without limit at short wavelengths — a prediction wildly at odds with real measurements. Planck's proposal that energy is emitted and absorbed only in discrete chunks (quanta, hf) resolved this contradiction and matched the observed spectrum, marking the historical birth of quantum theory. \"Predicted no radiation at all\" gets the failure backwards — the actual problem was predicting *too much* radiation at short wavelengths, not none. \"Couldn't account for temperature dependence\" is wrong — classical theory did include temperature; its failure was specifically in the short-wavelength behavior. \"Never actually a problem\" denies the well-documented historical crisis that motivated quantum theory in the first place."
     },
     {
       "id": "15-28",
@@ -7538,7 +7538,7 @@ const QUESTIONS = {
         "Yes — everyday objects simply peak in the infrared, invisible to human eyes."
       ],
       "correct": 3,
-      "explanation": "Yes, universally. Every object above absolute zero radiates across a spectrum of wavelengths — objects at everyday, room-like temperatures simply peak in the infrared range, which human eyes can't detect, so we don't perceive them as 'glowing' even though they are indeed continuously radiating energy. \"Only objects hot enough to glow visibly\" mistakes visibility for the actual criterion, when every object with nonzero temperature radiates regardless of whether we can see it. \"Only metals emit\" wrongly restricts blackbody radiation to one class of material. \"Only stars and astronomical objects\" ignores that blackbody radiation is a universal thermal property, including for everyday objects and even the human body."
+      "explanation": "Correct: (D) Yes — everyday objects simply peak in the infrared, invisible to human eyes. Yes, universally. Every object above absolute zero radiates across a spectrum of wavelengths — objects at everyday, room-like temperatures simply peak in the infrared range, which human eyes can't detect, so we don't perceive them as 'glowing' even though they are indeed continuously radiating energy. \"Only objects hot enough to glow visibly\" mistakes visibility for the actual criterion, when every object with nonzero temperature radiates regardless of whether we can see it. \"Only metals emit\" wrongly restricts blackbody radiation to one class of material. \"Only stars and astronomical objects\" ignores that blackbody radiation is a universal thermal property, including for everyday objects and even the human body."
     },
     {
       "id": "15-29",
@@ -7552,7 +7552,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ<sub>peak</sub> ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one."
+      "explanation": "Correct: (C) It roughly halves. It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ<sub>peak</sub> ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one."
     },
     {
       "id": "15-74",
@@ -7634,7 +7634,7 @@ const QUESTIONS = {
         "No electrons are ejected at all, since photon energy is below the work function."
       ],
       "correct": 3,
-      "explanation": "No electrons are ejected. Since the photon energy (2.0 eV) is less than the work function (3.0 eV), no single photon carries enough energy to eject an electron — there's no such thing as a negative kinetic energy, so 'zero ejection' is the only physically sensible outcome here, not a negative K<sub>max</sub>. Choice A applies the K<sub>max</sub> = hf − φ formula mechanically without recognizing that a negative result actually signals no ejection at all. Choice B invents a 'partial ejection with reduced K<sub>max</sub>' outcome that has no basis in the physics — a given electron is either ejected or it isn't. Choice C forgets to subtract the work function, reporting the raw photon energy instead."
+      "explanation": "Correct: (D) No electrons are ejected at all, since photon energy is below the work function. No electrons are ejected. Since the photon energy (2.0 eV) is less than the work function (3.0 eV), no single photon carries enough energy to eject an electron — there's no such thing as a negative kinetic energy, so 'zero ejection' is the only physically sensible outcome here, not a negative K<sub>max</sub>. Choice A applies the K<sub>max</sub> = hf − φ formula mechanically without recognizing that a negative result actually signals no ejection at all. Choice B invents a 'partial ejection with reduced K<sub>max</sub>' outcome that has no basis in the physics — a given electron is either ejected or it isn't. Choice C forgets to subtract the work function, reporting the raw photon energy instead."
     },
     {
       "id": "15-32",
@@ -7673,7 +7673,7 @@ const QUESTIONS = {
         "It becomes undefined."
       ],
       "correct": 2,
-      "explanation": "Unchanged. Maximum kinetic energy depends only on frequency, via K<sub>max</sub> = hf − φ — intensity has no place in that equation at all. Increasing intensity increases the NUMBER of electrons ejected per second (more photons arriving), not the maximum energy each individual electron carries. \"Increases proportionally with intensity\" confuses the electron ejection rate (which does scale with intensity) with K<sub>max</sub> (which doesn't). \"Decreases\" has no basis in the photoelectric equation whatsoever. \"Becomes undefined\" is wrong — K<sub>max</sub> remains perfectly well-defined at any intensity."
+      "explanation": "Correct: (C) It stays unchanged. Unchanged. Maximum kinetic energy depends only on frequency, via K<sub>max</sub> = hf − φ — intensity has no place in that equation at all. Increasing intensity increases the NUMBER of electrons ejected per second (more photons arriving), not the maximum energy each individual electron carries. \"Increases proportionally with intensity\" confuses the electron ejection rate (which does scale with intensity) with K<sub>max</sub> (which doesn't). \"Decreases\" has no basis in the photoelectric equation whatsoever. \"Becomes undefined\" is wrong — K<sub>max</sub> remains perfectly well-defined at any intensity."
     },
     {
       "id": "15-35",
@@ -7686,7 +7686,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 2,
-      "explanation": "It increases, directly and linearly. Since K<sub>max</sub> = hf − φ, a higher frequency directly raises K<sub>max</sub> — this is the one variable that DOES control maximum kinetic energy, in contrast to intensity. \"Stays unchanged\" contradicts the direct dependence of K<sub>max</sub> on frequency. \"Decreases\" inverts that direct relationship. \"Becomes undefined\" is wrong — K<sub>max</sub> remains well-defined at any frequency above threshold."
+      "explanation": "Correct: (C) It increases. It increases, directly and linearly. Since K<sub>max</sub> = hf − φ, a higher frequency directly raises K<sub>max</sub> — this is the one variable that DOES control maximum kinetic energy, in contrast to intensity. \"Stays unchanged\" contradicts the direct dependence of K<sub>max</sub> on frequency. \"Decreases\" inverts that direct relationship. \"Becomes undefined\" is wrong — K<sub>max</sub> remains well-defined at any frequency above threshold."
     },
     {
       "id": "15-36",
@@ -7699,7 +7699,7 @@ const QUESTIONS = {
         "Metal B's electrons have higher K<sub>max</sub>."
       ],
       "correct": 3,
-      "explanation": "Metal B's electrons have higher K<sub>max</sub>. Using K<sub>max</sub> = hf − φ with the same hf for both: the metal with the SMALLER work function (Metal B) has less energy 'spent' overcoming the binding, leaving more left over as kinetic energy. \"Metal A's electrons have higher K<sub>max</sub>\" inverts this relationship — a *higher* work function means *more* energy is used freeing the electron, leaving *less* kinetic energy, not more. \"Both equal\" ignores that work function also enters the K<sub>max</sub> equation, not just frequency. \"Cannot be determined without the exact frequency\" is a distractor — frequency is already stated to be equal, so it isn't the missing piece."
+      "explanation": "Correct: (D) Metal B's electrons have higher K<sub>max</sub>. Metal B's electrons have higher K<sub>max</sub>. Using K<sub>max</sub> = hf − φ with the same hf for both: the metal with the SMALLER work function (Metal B) has less energy 'spent' overcoming the binding, leaving more left over as kinetic energy. \"Metal A's electrons have higher K<sub>max</sub>\" inverts this relationship — a *higher* work function means *more* energy is used freeing the electron, leaving *less* kinetic energy, not more. \"Both equal\" ignores that work function also enters the K<sub>max</sub> equation, not just frequency. \"Cannot be determined without the exact frequency\" is a distractor — frequency is already stated to be equal, so it isn't the missing piece."
     },
     {
       "id": "15-37",
@@ -7725,7 +7725,7 @@ const QUESTIONS = {
         "Slope = φ; x-intercept = h/e."
       ],
       "correct": 1,
-      "explanation": "Slope = h/e; x-intercept = threshold frequency. Rearranging qV<sub>stop</sub> = hf − φ into V<sub>stop</sub> = (h/e)f − (φ/e) gives a linear equation, where the slope directly yields Planck's constant divided by elementary charge, and the x-intercept (where V<sub>stop</sub> = 0) is exactly the threshold frequency. Choice D swaps which quantity comes from which feature of the graph, misassigning slope = φ and x-intercept = h/e. Choice C inverts the slope's ratio (e/h instead of h/e) and again misidentifies the x-intercept as φ. Choice A wrongly dismisses the slope, which is actually the most information-rich feature of this classic linear-graph analysis, the same style used throughout this course to extract physical constants from experimental data."
+      "explanation": "Correct: (B) Slope = h/e; x-intercept = threshold frequency. Slope = h/e; x-intercept = threshold frequency. Rearranging qV<sub>stop</sub> = hf − φ into V<sub>stop</sub> = (h/e)f − (φ/e) gives a linear equation, where the slope directly yields Planck's constant divided by elementary charge, and the x-intercept (where V<sub>stop</sub> = 0) is exactly the threshold frequency. Choice D swaps which quantity comes from which feature of the graph, misassigning slope = φ and x-intercept = h/e. Choice C inverts the slope's ratio (e/h instead of h/e) and again misidentifies the x-intercept as φ. Choice A wrongly dismisses the slope, which is actually the most information-rich feature of this classic linear-graph analysis, the same style used throughout this course to extract physical constants from experimental data."
     },
     {
       "id": "15-39",
@@ -7738,7 +7738,7 @@ const QUESTIONS = {
         "The more intense trial requires a lower stopping voltage."
       ],
       "correct": 0,
-      "explanation": "Unchanged. Stopping voltage depends only on K<sub>max</sub> (via qV<sub>stop</sub> = K<sub>max</sub>), and K<sub>max</sub> depends only on frequency, not intensity. A more intense light source ejects more electrons per second (more current), but the maximum kinetic energy of even the fastest electron — and thus the voltage needed to stop it — stays exactly the same. Choices B and D both wrongly assume intensity affects K<sub>max</sub> (in opposite directions), when intensity doesn't appear in the K<sub>max</sub> equation at all. Choice C is wrong because electrons are still ejected with unchanged K<sub>max</sub>, so a (still identical) stopping voltage certainly exists."
+      "explanation": "Correct: (A) The stopping voltage required is unchanged. Unchanged. Stopping voltage depends only on K<sub>max</sub> (via qV<sub>stop</sub> = K<sub>max</sub>), and K<sub>max</sub> depends only on frequency, not intensity. A more intense light source ejects more electrons per second (more current), but the maximum kinetic energy of even the fastest electron — and thus the voltage needed to stop it — stays exactly the same. Choices B and D both wrongly assume intensity affects K<sub>max</sub> (in opposite directions), when intensity doesn't appear in the K<sub>max</sub> equation at all. Choice C is wrong because electrons are still ejected with unchanged K<sub>max</sub>, so a (still identical) stopping voltage certainly exists."
     },
     {
       "id": "15-40",
@@ -7751,7 +7751,7 @@ const QUESTIONS = {
         "The wavelength is unchanged."
       ],
       "correct": 0,
-      "explanation": "Longer wavelength, lower energy. The photon transfers some of its energy and momentum to the electron during the collision, leaving the scattered photon with less energy — and correspondingly, via E = hc/λ, a longer wavelength than it started with. \"Shorter wavelength (higher energy)\" inverts the actual energy transfer — the photon *loses* energy to the electron, which lengthens rather than shortens its wavelength. \"Unchanged\" ignores that any energy is transferred during the collision at all. \"Depends only on the electron's initial speed\" is wrong — the wavelength shift depends on the scattering angle, with the electron typically treated as initially at rest."
+      "explanation": "Correct: (A) The scattered photon has a longer wavelength (lower energy). Longer wavelength, lower energy. The photon transfers some of its energy and momentum to the electron during the collision, leaving the scattered photon with less energy — and correspondingly, via E = hc/λ, a longer wavelength than it started with. \"Shorter wavelength (higher energy)\" inverts the actual energy transfer — the photon *loses* energy to the electron, which lengthens rather than shortens its wavelength. \"Unchanged\" ignores that any energy is transferred during the collision at all. \"Depends only on the electron's initial speed\" is wrong — the wavelength shift depends on the scattering angle, with the electron typically treated as initially at rest."
     },
     {
       "id": "15-41",
@@ -7764,7 +7764,7 @@ const QUESTIONS = {
         "That light travels slower inside matter than in vacuum."
       ],
       "correct": 0,
-      "explanation": "Photon momentum. Treating the photon-electron interaction as a genuine two-particle collision — with both momentum AND energy conserved — is exactly what's needed to correctly predict the observed wavelength shift, providing strong evidence that photons carry real momentum, not just energy. \"Light travels slower in matter\" is unrelated — Compton scattering involves free electrons, not propagation through a medium. \"Electrons have no mass\" actually contradicts the collision picture, which requires the electron to have real mass and momentum to exchange. \"Light cannot interact with individual particles\" is directly disproven by the fact that Compton scattering IS such an interaction."
+      "explanation": "Correct: (A) That photons carry real, quantifiable momentum, not just energy. Photon momentum. Treating the photon-electron interaction as a genuine two-particle collision — with both momentum AND energy conserved — is exactly what's needed to correctly predict the observed wavelength shift, providing strong evidence that photons carry real momentum, not just energy. \"Light travels slower in matter\" is unrelated — Compton scattering involves free electrons, not propagation through a medium. \"Electrons have no mass\" actually contradicts the collision picture, which requires the electron to have real mass and momentum to exchange. \"Light cannot interact with individual particles\" is directly disproven by the fact that Compton scattering IS such an interaction."
     },
     {
       "id": "15-42",
@@ -7777,7 +7777,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 1,
-      "explanation": "It increases. The electron gains kinetic energy from the collision, consistent with the photon losing energy (and gaining wavelength) as it transfers some of its energy and momentum to the electron. \"It decreases\" is wrong — the electron starts essentially at rest, so it can only gain energy from the interaction, not lose energy it never had. \"Stays the same\" ignores that energy is transferred from the photon to the electron during the collision. \"Becomes exactly zero\" contradicts the fact that the electron picks up real kinetic energy, not none at all."
+      "explanation": "Correct: (B) It increases. It increases. The electron gains kinetic energy from the collision, consistent with the photon losing energy (and gaining wavelength) as it transfers some of its energy and momentum to the electron. \"It decreases\" is wrong — the electron starts essentially at rest, so it can only gain energy from the interaction, not lose energy it never had. \"Stays the same\" ignores that energy is transferred from the photon to the electron during the collision. \"Becomes exactly zero\" contradicts the fact that the electron picks up real kinetic energy, not none at all."
     },
     {
       "id": "15-43",
@@ -7790,7 +7790,7 @@ const QUESTIONS = {
         "Conservation of energy only, with momentum ignored entirely."
       ],
       "correct": 0,
-      "explanation": "Both energy and momentum together. Compton scattering is analyzed exactly like any two-particle collision from earlier mechanics work, just with a photon as one of the 'particles' — both conservation laws must be satisfied simultaneously to correctly predict the outcome. \"Charge only\" isn't the relevant tool here since neither particle's charge changes in this interaction. \"Energy only\" leaves the problem underdetermined; momentum conservation is also required to pin down the wavelength shift. \"Angular momentum only\" doesn't apply — this is analyzed as a linear collision, not through rotational quantities."
+      "explanation": "Correct: (A) Conservation of both energy AND momentum, simultaneously. Both energy and momentum together. Compton scattering is analyzed exactly like any two-particle collision from earlier mechanics work, just with a photon as one of the 'particles' — both conservation laws must be satisfied simultaneously to correctly predict the outcome. \"Charge only\" isn't the relevant tool here since neither particle's charge changes in this interaction. \"Energy only\" leaves the problem underdetermined; momentum conservation is also required to pin down the wavelength shift. \"Angular momentum only\" doesn't apply — this is analyzed as a linear collision, not through rotational quantities."
     },
     {
       "id": "15-44",
@@ -7803,7 +7803,7 @@ const QUESTIONS = {
         "Neither model — Compton scattering is unrelated to light's fundamental nature."
       ],
       "correct": 2,
-      "explanation": "Primarily the particle model. Treating the photon as a discrete, particle-like object with definite momentum and energy — engaging in a billiard-ball-style collision with the electron — is what correctly predicts the Compton wavelength shift. A purely wave-based treatment doesn't naturally produce this same result. \"Primarily the wave model\" is backwards — a wave picture alone can't account for a 'collision' with a localized wavelength shift. \"Both models equally\" overstates the wave model's role here; the particle picture is what's essential. \"Unrelated to light's nature\" is wrong — Compton scattering is one of the key historical proofs of light's particle-like behavior."
+      "explanation": "Correct: (C) Primarily the particle model. Primarily the particle model. Treating the photon as a discrete, particle-like object with definite momentum and energy — engaging in a billiard-ball-style collision with the electron — is what correctly predicts the Compton wavelength shift. A purely wave-based treatment doesn't naturally produce this same result. \"Primarily the wave model\" is backwards — a wave picture alone can't account for a 'collision' with a localized wavelength shift. \"Both models equally\" overstates the wave model's role here; the particle picture is what's essential. \"Unrelated to light's nature\" is wrong — Compton scattering is one of the key historical proofs of light's particle-like behavior."
     },
     {
       "id": "15-45",
@@ -7817,7 +7817,7 @@ const QUESTIONS = {
         "90°"
       ],
       "correct": 1,
-      "explanation": "180° — direct backward scattering. This is the most 'head-on' type of collision possible, analogous to how a direct head-on collision in ordinary mechanics transfers more momentum and energy than a glancing one. At 0° there is essentially no deflection and thus minimal momentum/energy transfer to the electron. At 90°, the interaction is more of a glancing hit — some transfer occurs, but less than a full head-on collision. \"Energy transfer is the same at every angle\" contradicts the real angle dependence of the Compton formula, where the wavelength shift (and hence energy transfer) scales with (1 − cos θ), which is maximized exactly at θ = 180°."
+      "explanation": "Correct: (B) 180°. 180° — direct backward scattering. This is the most 'head-on' type of collision possible, analogous to how a direct head-on collision in ordinary mechanics transfers more momentum and energy than a glancing one. At 0° there is essentially no deflection and thus minimal momentum/energy transfer to the electron. At 90°, the interaction is more of a glancing hit — some transfer occurs, but less than a full head-on collision. \"Energy transfer is the same at every angle\" contradicts the real angle dependence of the Compton formula, where the wavelength shift (and hence energy transfer) scales with (1 − cos θ), which is maximized exactly at θ = 180°."
     },
     {
       "id": "15-78",
@@ -7871,7 +7871,7 @@ const QUESTIONS = {
         "The nucleus has slightly MORE mass than its separate constituent protons and neutrons."
       ],
       "correct": 0,
-      "explanation": "The nucleus has less mass than its separated parts. The assembled nucleus's mass is always slightly LESS than the sum of the masses of its individual protons and neutrons when separate — that missing mass was converted into binding energy (via E = mc²) when the nucleus formed, and that binding energy is what holds the nucleus together. Choice D inverts this relationship, claiming the nucleus has *more* mass than its parts. Choice C wrongly dismisses mass defect as measurement error, when it's a real, calculable physical effect. Choice B wrongly restricts mass defect to unstable nuclei, when in fact it exists in every bound nucleus, stable or not, since it's simply the source of the nucleus's binding energy."
+      "explanation": "Correct: (A) The nucleus has slightly LESS mass than its separate protons and neutrons combined. The nucleus has less mass than its separated parts. The assembled nucleus's mass is always slightly LESS than the sum of the masses of its individual protons and neutrons when separate — that missing mass was converted into binding energy (via E = mc²) when the nucleus formed, and that binding energy is what holds the nucleus together. Choice D inverts this relationship, claiming the nucleus has *more* mass than its parts. Choice C wrongly dismisses mass defect as measurement error, when it's a real, calculable physical effect. Choice B wrongly restricts mass defect to unstable nuclei, when in fact it exists in every bound nucleus, stable or not, since it's simply the source of the nucleus's binding energy."
     },
     {
       "id": "15-48",
@@ -7897,7 +7897,7 @@ const QUESTIONS = {
         "Both processes move nuclei toward more tightly bound configurations, releasing the mass difference."
       ],
       "correct": 3,
-      "explanation": "Both move toward greater stability. Heavy nuclei become more stable by splitting into medium-sized pieces; light nuclei become more stable by combining into medium-sized nuclei — in both cases, the resulting products are more tightly bound (have less total mass) than the starting materials, and that mass difference converts to released energy via E = mc², regardless of which direction the process runs. Choice B contradicts the premise; fusion of light nuclei (like hydrogen) is exothermic and releases net energy, not requiring net input. Choice C denies the well-established fact that stellar fusion (as in the Sun) releases enormous energy. Choice A wrongly treats the two processes' energy release as coincidental, when they in fact share the same underlying cause: movement toward tighter nuclear binding."
+      "explanation": "Correct: (D) Both processes move nuclei toward more tightly bound configurations, releasing the mass difference. Both move toward greater stability. Heavy nuclei become more stable by splitting into medium-sized pieces; light nuclei become more stable by combining into medium-sized nuclei — in both cases, the resulting products are more tightly bound (have less total mass) than the starting materials, and that mass difference converts to released energy via E = mc², regardless of which direction the process runs. Choice B contradicts the premise; fusion of light nuclei (like hydrogen) is exothermic and releases net energy, not requiring net input. Choice C denies the well-established fact that stellar fusion (as in the Sun) releases enormous energy. Choice A wrongly treats the two processes' energy release as coincidental, when they in fact share the same underlying cause: movement toward tighter nuclear binding."
     },
     {
       "id": "15-50",
@@ -7923,7 +7923,7 @@ const QUESTIONS = {
         "Gamma decay"
       ],
       "correct": 1,
-      "explanation": "Fusion. In the Sun's core, hydrogen nuclei combine (fuse) into helium at extremely high temperatures and pressures, releasing the energy that powers the Sun's light and heat. Fission is the opposite process (splitting heavy nuclei), not what occurs in the Sun's hydrogen-burning core. Gamma decay releases only a photon from an already-excited nucleus, with no ongoing fuel-burning reaction to sustain stellar energy output. Beta decay is a small-scale decay of individual nuclei, not the fuel-combining reaction responsible for the Sun's energy generation."
+      "explanation": "Correct: (B) Fusion. Fusion. In the Sun's core, hydrogen nuclei combine (fuse) into helium at extremely high temperatures and pressures, releasing the energy that powers the Sun's light and heat. Fission is the opposite process (splitting heavy nuclei), not what occurs in the Sun's hydrogen-burning core. Gamma decay releases only a photon from an already-excited nucleus, with no ongoing fuel-burning reaction to sustain stellar energy output. Beta decay is a small-scale decay of individual nuclei, not the fuel-combining reaction responsible for the Sun's energy generation."
     },
     {
       "id": "15-52",
@@ -7936,7 +7936,7 @@ const QUESTIONS = {
         "Gamma decay"
       ],
       "correct": 2,
-      "explanation": "Fission. Conventional nuclear reactors split heavy uranium or plutonium nuclei, releasing energy from the mass difference between the original heavy nucleus and the resulting fission fragments. Fusion would require extreme temperature and pressure conditions not achieved in conventional Earth-based reactors. Gamma decay releases only a photon, not the sustained, controllable chain-reaction energy release reactors are built around. Beta decay is a much smaller-scale decay process, not the basis for a power plant's energy output."
+      "explanation": "Correct: (C) Fission. Fission. Conventional nuclear reactors split heavy uranium or plutonium nuclei, releasing energy from the mass difference between the original heavy nucleus and the resulting fission fragments. Fusion would require extreme temperature and pressure conditions not achieved in conventional Earth-based reactors. Gamma decay releases only a photon, not the sustained, controllable chain-reaction energy release reactors are built around. Beta decay is a much smaller-scale decay process, not the basis for a power plant's energy output."
     },
     {
       "id": "15-53",
@@ -7976,7 +7976,7 @@ const QUESTIONS = {
         "High temperature is needed simply to supply the mass that later gets converted to energy in the reaction."
       ],
       "correct": 1,
-      "explanation": "Overcoming Coulomb repulsion. Fusing two nuclei requires bringing two positively charged objects close enough for the short-range strong nuclear force to take over — but their electric repulsion strongly resists this approach. Extremely high temperatures give nuclei enough kinetic energy to overcome that repulsion. Fission, by contrast, is triggered by an electrically neutral neutron, which faces no repulsive barrier and can approach a nucleus freely at any temperature. Choice A contradicts the premise and physical reality — fusion needs extreme conditions precisely because it's hard, not easy, to initiate. Choice D confuses supplying kinetic energy to overcome repulsion with supplying the mass-energy that gets converted; the mass involved in fusion's energy release comes from the nuclei themselves, not from the added heat. Choice C is wrong because fusion fuel (such as ordinary hydrogen) need not be radioactive at all."
+      "explanation": "Correct: (B) Fusion requires overcoming electric repulsion between two positive nuclei; fission's neutron faces no such barrier. Overcoming Coulomb repulsion. Fusing two nuclei requires bringing two positively charged objects close enough for the short-range strong nuclear force to take over — but their electric repulsion strongly resists this approach. Extremely high temperatures give nuclei enough kinetic energy to overcome that repulsion. Fission, by contrast, is triggered by an electrically neutral neutron, which faces no repulsive barrier and can approach a nucleus freely at any temperature. Choice A contradicts the premise and physical reality — fusion needs extreme conditions precisely because it's hard, not easy, to initiate. Choice D confuses supplying kinetic energy to overcome repulsion with supplying the mass-energy that gets converted; the mass involved in fusion's energy release comes from the nuclei themselves, not from the added heat. Choice C is wrong because fusion fuel (such as ordinary hydrogen) need not be radioactive at all."
     },
     {
       "id": "15-80",
@@ -8126,7 +8126,7 @@ const QUESTIONS = {
         "Both decrease."
       ],
       "correct": 0,
-      "explanation": "Neither changes. Gamma decay simply releases excess internal energy as a high-energy photon, with no alteration to the nucleus's composition — same number of protons, same number of neutrons, before and after. \"Both decrease\" wrongly assumes gamma decay ejects particles from the nucleus, when it releases only a massless, chargeless photon. \"Mass number decreases, atomic number stays the same\" mistakenly borrows the mass-number-change pattern from alpha decay. \"Both increase\" has no basis — gamma decay emits energy outward; it doesn't add protons or neutrons to the nucleus."
+      "explanation": "Correct: (A) Neither changes at all. Neither changes. Gamma decay simply releases excess internal energy as a high-energy photon, with no alteration to the nucleus's composition — same number of protons, same number of neutrons, before and after. \"Both decrease\" wrongly assumes gamma decay ejects particles from the nucleus, when it releases only a massless, chargeless photon. \"Mass number decreases, atomic number stays the same\" mistakenly borrows the mass-number-change pattern from alpha decay. \"Both increase\" has no basis — gamma decay emits energy outward; it doesn't add protons or neutrons to the nucleus."
     },
     {
       "id": "15-60",
@@ -8165,7 +8165,7 @@ const QUESTIONS = {
         "Beta-minus decay"
       ],
       "correct": 1,
-      "explanation": "Gamma decay. It releases only energy (as a photon), with the nucleus's proton and neutron counts left completely unchanged — the only one of the four decay types that leaves both numbers untouched. Alpha decay changes both mass number (−4) and atomic number (−2). Beta-minus decay changes the atomic number (+1), even though the mass number stays the same. Beta-plus decay changes the atomic number (−1), again while the mass number is unchanged — both beta processes still alter one of the two numbers, unlike gamma decay."
+      "explanation": "Correct: (B) Gamma decay. Gamma decay. It releases only energy (as a photon), with the nucleus's proton and neutron counts left completely unchanged — the only one of the four decay types that leaves both numbers untouched. Alpha decay changes both mass number (−4) and atomic number (−2). Beta-minus decay changes the atomic number (+1), even though the mass number stays the same. Beta-plus decay changes the atomic number (−1), again while the mass number is unchanged — both beta processes still alter one of the two numbers, unlike gamma decay."
     },
     {
       "id": "15-63",
@@ -8178,7 +8178,7 @@ const QUESTIONS = {
         "214 and 80"
       ],
       "correct": 1,
-      "explanation": "214 and 84. Working backward from the daughter: alpha decay REMOVES 4 from mass number and 2 from atomic number, so the parent must have had 4 MORE mass number (210 + 4 = 214) and 2 MORE atomic number (82 + 2 = 84) than the daughter. Choice A (206 and 80) subtracts instead of adds when working backward, moving in the wrong direction for both numbers. Choice D (214 and 80) correctly adds to the mass number but wrongly subtracts (instead of adds) for the atomic number. Choice C (206 and 84) correctly adds to the atomic number but wrongly subtracts (instead of adds) for the mass number."
+      "explanation": "Correct: (B) 214 and 84. 214 and 84. Working backward from the daughter: alpha decay REMOVES 4 from mass number and 2 from atomic number, so the parent must have had 4 MORE mass number (210 + 4 = 214) and 2 MORE atomic number (82 + 2 = 84) than the daughter. Choice A (206 and 80) subtracts instead of adds when working backward, moving in the wrong direction for both numbers. Choice D (214 and 80) correctly adds to the mass number but wrongly subtracts (instead of adds) for the atomic number. Choice C (206 and 84) correctly adds to the atomic number but wrongly subtracts (instead of adds) for the mass number."
     },
     {
       "id": "15-64",
@@ -8191,7 +8191,7 @@ const QUESTIONS = {
         "228 and 89"
       ],
       "correct": 3,
-      "explanation": "228 and 89. Alpha decay first: mass number 232 − 4 = 228; atomic number 90 − 2 = 88. Beta-minus decay next: mass number stays at 228; atomic number 88 + 1 = 89. Working through each step of a decay chain individually, rather than trying to combine them in one move, is the reliable way to avoid errors on multi-step problems like this. Choice B (232 and 91) reflects skipping the alpha decay's mass-number decrease entirely while over-incrementing the atomic number. Choice C (224 and 86) applies an erroneous second alpha-like decrease instead of correctly applying the beta-minus step. Choice A (228 and 87) gets the mass number right but miscounts the atomic-number change from the beta-minus step, decreasing it instead of increasing it."
+      "explanation": "Correct: (D) 228 and 89. 228 and 89. Alpha decay first: mass number 232 − 4 = 228; atomic number 90 − 2 = 88. Beta-minus decay next: mass number stays at 228; atomic number 88 + 1 = 89. Working through each step of a decay chain individually, rather than trying to combine them in one move, is the reliable way to avoid errors on multi-step problems like this. Choice B (232 and 91) reflects skipping the alpha decay's mass-number decrease entirely while over-incrementing the atomic number. Choice C (224 and 86) applies an erroneous second alpha-like decrease instead of correctly applying the beta-minus step. Choice A (228 and 87) gets the mass number right but miscounts the atomic-number change from the beta-minus step, decreasing it instead of increasing it."
     },
     {
       "id": "15-65",
@@ -8204,7 +8204,7 @@ const QUESTIONS = {
         "Conservation of mass number, atomic number (charge), energy, and momentum — all four."
       ],
       "correct": 3,
-      "explanation": "All four, in every case. Mass number (total nucleons) and atomic number (total charge) must balance on both sides of every nuclear equation, exactly like balancing a chemical equation — and energy and momentum, the same fundamental conservation laws from mechanics, apply universally to nuclear decay processes as well, governing the kinetic energies and directions of the emitted particles. \"Only mass number\" and \"only charge\" each ignore that the other three quantities must also balance in every decay. \"No conservation laws apply, it is fundamentally random\" confuses randomness in WHEN a given nucleus decays with the conservation laws governing WHAT is produced when it does — those laws are strictly enforced in every single decay event."
+      "explanation": "Correct: (D) Conservation of mass number, atomic number (charge), energy, and momentum — all four. All four, in every case. Mass number (total nucleons) and atomic number (total charge) must balance on both sides of every nuclear equation, exactly like balancing a chemical equation — and energy and momentum, the same fundamental conservation laws from mechanics, apply universally to nuclear decay processes as well, governing the kinetic energies and directions of the emitted particles. \"Only mass number\" and \"only charge\" each ignore that the other three quantities must also balance in every decay. \"No conservation laws apply, it is fundamentally random\" confuses randomness in WHEN a given nucleus decays with the conservation laws governing WHAT is produced when it does — those laws are strictly enforced in every single decay event."
     },
     {
       "id": "15-87",
@@ -8507,6 +8507,71 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-9-n1",
+      "source": "Original",
+      "title": "Finding Absolute Zero from a Sealed Gas Bulb",
+      "prompt": "A rigid, sealed 2.00 L glass bulb holds helium gas and is fitted with a pressure gauge. Students place the bulb in a series of water baths and record the gas pressure P once the gas reaches the bath temperature T<sub>C</sub> (in °C): (0 °C, 120.2 kPa), (25 °C, 130.8 kPa), (50 °C, 142.1 kPa), (75 °C, 152.8 kPa), (100 °C, 164.0 kPa). Treat helium (molar mass 4.00 g/mol) as an ideal gas. (a) Indicate what quantities the students should graph to obtain a straight line, and justify using the ideal gas law. (b) Use the graph to determine the temperature, in °C, at which the pressure of the gas would become zero, and explain the physical meaning of this temperature. (c) Calculate the rms speed of the helium atoms at 100 °C. The bulb is then emptied and refilled with argon (molar mass 40.0 g/mol) so that it again reads 120.2 kPa at 0 °C. Determine the rms speed of the argon atoms at 100 °C, and predict whether the argon P–T graph will be the same as, steeper than, or less steep than the helium graph. (d) Explain, using particle-level reasoning about collisions with the walls, how the argon atoms can exert the same pressure as the helium atoms even though they move more slowly. (e) The helium sample is heated from 0 °C to 100 °C once slowly in a series of warm baths and once quickly over a flame, then cooled back to 0 °C each time. Compare the change in entropy of the gas for the two heating paths, and state the entropy change of the gas for the complete heat-and-cool cycle.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "State what to graph for a straight line and justify it.",
+          "steps": [
+            "Start from the ideal gas law, PV = nRT, with T the absolute temperature in kelvins.",
+            "Identify what is held constant: the bulb is rigid and sealed, so V and n do not change; rearranging gives P = (nR/V)T, so P is directly proportional to the absolute temperature.",
+            "Write the absolute temperature in terms of the measured Celsius reading: T = T<sub>C</sub> + 273, so P = (nR/V)T<sub>C</sub> + (nR/V)(273). This is linear in T<sub>C</sub>.",
+            "Choose the axes: plot pressure P on the vertical axis against Celsius temperature T<sub>C</sub> on the horizontal axis; the result is a straight line with slope nR/V and a nonzero vertical intercept.",
+            "Full credit: graph P (vertical) versus T<sub>C</sub> (horizontal), and justify with PV = nRT at constant n and V, showing P is a linear function of T<sub>C</sub>."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Extrapolate to P = 0 and interpret.",
+          "steps": [
+            "Draw a best-fit line through the five points and compute its slope from two points far apart on the line: slope ≈ (164.0 kPa − 120.2 kPa)/(100 °C − 0 °C) ≈ 0.438 kPa/°C (a least-squares fit gives 0.438 kPa/°C with an intercept of about 120.1 kPa).",
+            "Write the line's equation: P = (0.438 kPa/°C)T<sub>C</sub> + 120.1 kPa.",
+            "Set P = 0 and solve: T<sub>C</sub> = −(120.1 kPa)/(0.438 kPa/°C) ≈ −274 °C, which is consistent with the accepted value of −273 °C.",
+            "Interpret the result: on the ideal-gas model, the pressure comes from molecular collisions, so P = 0 means the molecules have zero average kinetic energy. This temperature is absolute zero, 0 K. A real gas would liquefy before reaching it, so this point can only be reached by extrapolating the line.",
+            "Full credit: extrapolated value of about −270 °C to −275 °C obtained from a best-fit line (not one data point), and identification of it as absolute zero (0 K), where the average kinetic energy of the molecules would be zero."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Calculate v_rms for helium and argon at 100 °C and predict the argon graph.",
+          "steps": [
+            "Convert to kelvins: T = 100 + 273 = 373 K.",
+            "Find the mass of one helium atom: m = (4.00 × 10⁻³ kg/mol)/(6.02 × 10²³ mol⁻¹) = 6.64 × 10⁻²⁷ kg.",
+            "Apply v<sub>rms</sub> = √(3k<sub>B</sub>T/m) = √[3(1.38 × 10⁻²³ J/K)(373 K)/(6.64 × 10⁻²⁷ kg)] ≈ 1.52 × 10³ m/s.",
+            "For argon at the same temperature, v<sub>rms</sub> ∝ 1/√m and the atoms are 10 times more massive, so v<sub>rms</sub> = (1.52 × 10³ m/s)/√10 ≈ 482 m/s.",
+            "Predict the graph: same V, same P at the same T, so n = PV/RT is the same for both gases, and the slope nR/V is the same. The argon graph is the SAME line, extrapolating to the same absolute zero.",
+            "Full credit: v<sub>rms</sub>(He) ≈ 1.5 × 10³ m/s with correct mass per atom and kelvin temperature; v<sub>rms</sub>(Ar) ≈ 4.8 × 10² m/s; the argon graph is identical because n, V, and therefore nR/V are unchanged."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Explain the equal pressure using particle-level reasoning.",
+          "steps": [
+            "Recall that pressure is force per area, P = F/A, and the force on a wall is the rate at which molecules deliver momentum to it: each elastic collision reverses the perpendicular velocity component, giving an impulse of 2mv<sub>⊥</sub>.",
+            "Compare momentum per collision: at the same temperature, both gases have the same average kinetic energy ½mv², so mv = √(2m·KE) is larger for argon; each argon collision delivers √10 ≈ 3.2 times the momentum of a helium collision.",
+            "Compare collision rate: argon atoms move 1/√10 as fast, so with the same number of atoms in the same bulb, each argon atom strikes the walls 1/√10 as often.",
+            "Combine the two effects: (√10 more momentum per hit) × (1/√10 as many hits per second) = the same momentum per second, and so the same force on the wall and the same pressure.",
+            "Full credit: explain that heavier argon atoms deliver more momentum per collision but collide less often, and that these effects cancel exactly at equal temperature and number density."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Compare the entropy changes for the two paths and the full cycle.",
+          "steps": [
+            "Recall that entropy is a state function: a system's entropy depends only on its current state (P, V, T, n), not on how it got there.",
+            "Note that both heating paths start in the same state (0 °C, 120 kPa, 2.00 L) and end in the same state (100 °C, 164 kPa, 2.00 L), so the gas's entropy change is the SAME for the slow and the fast heating. Both changes are positive, because the gas gains energy and its molecules have more accessible microstates.",
+            "Distinguish system from surroundings: the fast heating over a flame involves a large temperature difference, so the TOTAL entropy of gas plus surroundings increases more on that path, but the gas alone changes by the same amount.",
+            "For the complete heat-and-cool cycle, the gas returns to its original state, so ΔS<sub>gas</sub> = 0.",
+            "Full credit: equal entropy change of the gas for both paths, justified by entropy being a state function (depending only on the initial and final states), and ΔS<sub>gas</sub> = 0 for the full cycle."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "10": [
@@ -8704,6 +8769,68 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-10-n1",
+      "source": "Original",
+      "title": "Mapping a Dipole and Steering an Electron",
+      "prompt": "A point charge +q = +4.0 nC is fixed at x = −3.0 cm and a point charge −q = −4.0 nC is fixed at x = +3.0 cm on the x-axis. (a) Describe a sketch of the electric field vectors at four points: the midpoint (origin), a point on the axis just to the left of +q, a point on the axis just to the right of −q, and a point on the y-axis at y = +3.0 cm. Calculate the field at the origin. (b) Describe a sketch of at least five equipotential lines for this dipole, including the 0 V line, and explain how the equipotentials relate to the field vectors from (a). (c) A proton is released from rest at point A (x = −1.0 cm, on the axis) and moves to point B (x = +1.0 cm). Taking the system to be the proton and the two fixed charges, draw (describe) energy bar charts for the system at A and at B, calculate the change in electric potential energy, and find the proton's speed at B. (d) In a separate device, an electron enters midway between two horizontal parallel plates 2.0 cm apart and 5.0 cm long, moving horizontally at 2.0 × 10⁷ m/s. The uniform field between the plates is 1.5 × 10⁴ N/C, directed downward. Describe the electron's path, explain why it is analogous to projectile motion, and calculate its vertical deflection as it leaves the plates. Determine whether it strikes a plate. (e) A proton enters the same plates with the same velocity. Compare its path with the electron's.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Describe the field vectors and calculate the field at the origin.",
+          "steps": [
+            "Use the field direction rule: the field points away from a positive charge and toward a negative charge, and the net field is the vector sum of the contributions from both charges.",
+            "At the origin both contributions point in the +x direction (away from +q, toward −q), so they add. Each has magnitude kq/r² = (8.99 × 10⁹)(4.0 × 10⁻⁹)/(0.030)² ≈ 4.0 × 10⁴ N/C, so E = 2 × 4.0 × 10⁴ ≈ 8.0 × 10⁴ N/C in the +x direction.",
+            "Just left of +q, the nearby +q dominates, so the arrow points in the −x direction (away from +q) and is long. Just right of −q, the nearby −q dominates, so the arrow points in the −x direction (toward −q) and is long.",
+            "At (0, +3.0 cm), the two contributions are equal in size; their y-components cancel and their x-components add, so the net arrow points in the +x direction, parallel to the axis, and is shorter than the arrow at the origin because the point is farther from both charges.",
+            "Full credit: correct arrow directions at all four points with relative lengths that reflect distance, and E ≈ 8.0 × 10⁴ N/C toward −q (+x) at the origin."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Describe the equipotential sketch and relate it to the field.",
+          "steps": [
+            "Identify the 0 V line: every point on the y-axis (the perpendicular bisector) is equally far from +q and −q, so V = kq/r − kq/r = 0 there; it is a straight vertical line.",
+            "Describe the other lines: closed, egg-shaped loops surround +q (positive values, highest closest to the charge) and mirror-image loops surround −q (negative values). The loops are nearly circular close to each charge and bulge away from the other charge.",
+            "Describe the spacing: for equal steps in V, the lines are packed close together near the charges and between them, where the field is strong, and spread apart far away.",
+            "Relate them to the field: at every point, the field vector is perpendicular to the equipotential line and points from higher V toward lower V. Where the lines are closer together, the field is stronger (E ≈ ΔV/Δx).",
+            "Full credit: a straight 0 V line on the bisector, closed loops around each charge labeled + and −, closer spacing near the charges, and a statement that the field is perpendicular to the equipotentials, points toward lower potential, and is strongest where they are closest together."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Make bar charts and find ΔU and the proton's speed.",
+          "steps": [
+            "Find the potential at A: V<sub>A</sub> = kq/(0.020 m) − kq/(0.040 m) = (35.96 N·m²/C)(50 − 25) m⁻¹ ≈ +899 V. By symmetry, V<sub>B</sub> ≈ −899 V.",
+            "Find the change in potential energy: ΔU = eΔV = (1.60 × 10⁻¹⁹ C)(−899 V − 899 V) ≈ −2.88 × 10⁻¹⁶ J.",
+            "Describe the bar charts: the interaction energy between the two fixed charges never changes, so leave it out of the charts and chart only the proton's interaction with them, U<sub>E</sub> = eV. At A, K = 0 and U<sub>E</sub> = eV<sub>A</sub> ≈ +1.44 × 10⁻¹⁶ J is a positive bar. At B, U<sub>E</sub> = eV<sub>B</sub> ≈ −1.44 × 10⁻¹⁶ J is a negative bar, and the K bar is 2.88 × 10⁻¹⁶ J. The total is the same in both charts because no external work is done on the system (the fixed charges do not move).",
+            "Use energy conservation to find the speed: ½mv² = 2.88 × 10⁻¹⁶ J, so v = √[2(2.88 × 10⁻¹⁶ J)/(1.67 × 10⁻²⁷ kg)] ≈ 5.9 × 10⁵ m/s.",
+            "Full credit: ΔU ≈ −2.9 × 10⁻¹⁶ J; bar charts with K = 0 at A, equal total energy at A and B, and the drop in U<sub>E</sub> equal to the gain in K; v ≈ 5.9 × 10⁵ m/s."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Describe the electron's path, justify the projectile analogy, and find the deflection.",
+          "steps": [
+            "Identify the force: the field points down and the electron is negative, so F = qE points UP; between the plates the field is uniform, so the force and the acceleration are constant. Gravity is negligible (mg ≈ 9 × 10⁻³⁰ N, while eE ≈ 2.4 × 10⁻¹⁵ N).",
+            "Make the analogy: constant velocity along the plates plus constant acceleration perpendicular to them is exactly a horizontally launched projectile, with g replaced by a = eE/m, so the path is a parabola curving toward the upper plate.",
+            "Find the acceleration and time: a = (1.60 × 10⁻¹⁹)(1.5 × 10⁴)/(9.11 × 10⁻³¹) ≈ 2.64 × 10¹⁵ m/s²; t = (0.050 m)/(2.0 × 10⁷ m/s) = 2.5 × 10⁻⁹ s.",
+            "Find the deflection: y = ½at² = ½(2.64 × 10¹⁵)(2.5 × 10⁻⁹)² ≈ 8.2 × 10⁻³ m = 0.82 cm. The electron entered 1.0 cm from each plate, so it just clears the upper plate, then travels in a straight line after it leaves the field.",
+            "Full credit: an upward parabolic path inside the plates (and straight beyond them), the projectile analogy justified by a constant force perpendicular to a constant velocity component, deflection ≈ 0.82 cm, and the conclusion that it does not strike the plate."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Compare the proton's path.",
+          "steps": [
+            "Direction: the proton is positive, so the force is along the field, DOWN, and it curves toward the lower plate.",
+            "Size: it has the same charge magnitude but about 1840 times the mass, so its acceleration is about 1/1840 as large; with the same time between the plates, its deflection is y = ½(eE/m<sub>p</sub>)t² ≈ 4.5 × 10⁻⁶ m.",
+            "Full credit: the proton deflects downward (opposite to the electron) along a much flatter parabola, with a deflection about 1840 times smaller (≈ 4.5 μm)."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "11": [
@@ -8961,6 +9088,58 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-11-n1",
+      "source": "Original",
+      "title": "Charging, Discharging, and Measuring an RC Circuit",
+      "prompt": "An ideal 12.0 V battery, a 50.0 kΩ resistor, and an initially uncharged 200 μF capacitor are connected in series with a two-position switch. In position 1, the battery charges the capacitor through the resistor. In position 2, the battery is removed from the loop and the charged capacitor discharges through the same resistor. (a) The switch is moved to position 1 at t = 0. Calculate the time constant, then sketch (describe) graphs of the capacitor's charge Q, the potential difference across the capacitor ΔV<sub>C</sub>, and the current I as functions of time from t = 0 to t = 5τ. Label the value of each quantity at t = 0, at t = τ, and as t → ∞. (b) After a long time, the switch is moved to position 2. Sketch (describe) the same three graphs for the discharge, and state the value of ΔV<sub>C</sub> one time constant after the switch is moved and the energy stored at the start of the discharge. (c) A student wants to measure the current in the resistor and the potential difference across the capacitor during charging. Describe where an ammeter and a voltmeter should be connected. The available voltmeter has a resistance of 1.00 MΩ. Determine the steady-state reading of this voltmeter during charging, and explain how it affects the discharge time constant. (d) In the charging circuit, the positive terminal of the battery connects to the resistor, the resistor connects to the capacitor, and the capacitor connects back to the negative terminal. For this circuit (ideal meters) at t = τ, sketch (describe) a graph of electric potential versus position going once around the loop. Start at the negative terminal, pass through the battery to its positive terminal, then go through the resistor and then the capacitor.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Find τ and describe the charging graphs with labeled values.",
+          "steps": [
+            "Compute the time constant: τ = RC = (5.00 × 10⁴ Ω)(2.00 × 10⁻⁴ F) = 10.0 s.",
+            "Find the end values: as t → ∞, no current flows, so ΔV<sub>C</sub> = 12.0 V and Q<sub>max</sub> = CΔV = (2.00 × 10⁻⁴ F)(12.0 V) = 2.40 × 10⁻³ C. At t = 0, Q = 0 and ΔV<sub>C</sub> = 0, so the full 12.0 V is across the resistor and I<sub>0</sub> = 12.0 V/50.0 kΩ = 2.40 × 10⁻⁴ A.",
+            "Q and ΔV<sub>C</sub> graphs: both start at zero, rise steeply at first, and flatten toward their maximum values. At t = τ, each is 63% of its final value: Q ≈ 1.52 × 10⁻³ C and ΔV<sub>C</sub> ≈ 7.58 V. By 5τ = 50 s, both are above 99% of their final values. The two graphs have the same shape because Q = CΔV<sub>C</sub>.",
+            "I graph: it starts at its maximum, 2.40 × 10⁻⁴ A, drops steeply, and decays toward zero, concave up. At t = τ it is 37% of I<sub>0</sub>, about 8.8 × 10⁻⁵ A.",
+            "Full credit: τ = 10.0 s; Q and ΔV<sub>C</sub> rise from 0 and level off at 2.40 mC and 12.0 V (63% at τ); I decays from 0.240 mA toward 0 (37% at τ); correct concavity, with no straight lines."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Describe the discharging graphs and find ΔV_C at τ and the initial energy.",
+          "steps": [
+            "At the moment of switching, the capacitor has ΔV<sub>C</sub> = 12.0 V, and it is now the only source in the loop, so the current jumps to 12.0 V/50.0 kΩ = 2.40 × 10⁻⁴ A, in the OPPOSITE direction through the resistor from the charging current.",
+            "Q, ΔV<sub>C</sub>, and the magnitude of I all decay from their starting values toward zero with the same time constant, τ = 10.0 s, along curves that are steep at first and then flatten (concave up).",
+            "At one time constant: ΔV<sub>C</sub> = 0.37 × 12.0 V ≈ 4.4 V, and Q ≈ 0.88 mC.",
+            "Initial stored energy: U<sub>C</sub> = ½C(ΔV)² = ½(2.00 × 10⁻⁴ F)(12.0 V)² = 1.44 × 10⁻² J, all of which is eventually converted to thermal energy in the resistor.",
+            "Full credit: decaying curves for Q, ΔV<sub>C</sub>, and I starting at 2.40 mC, 12.0 V, and 0.240 mA; current reversed in direction; ΔV<sub>C</sub>(τ) ≈ 4.4 V; U<sub>C</sub> = 1.44 × 10⁻² J."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Place the meters and find the effect of the 1.00 MΩ voltmeter.",
+          "steps": [
+            "Ammeter: break the loop next to the resistor and insert the ammeter in SERIES, so the same charge flows through it and the resistor. An ideal ammeter has zero resistance.",
+            "Voltmeter: connect one lead to each plate of the capacitor, in PARALLEL with it. An ideal voltmeter has infinite resistance and draws no current.",
+            "Analyze the real voltmeter at steady state during charging: once the capacitor stops charging, no current flows into it, but current still flows through the 50.0 kΩ resistor and the 1.00 MΩ voltmeter in series. The voltmeter reads 12.0 V × (1.00 MΩ)/(1.05 MΩ) ≈ 11.4 V instead of 12.0 V, because 0.6 V is lost across the resistor.",
+            "Effect on the discharge: the voltmeter provides a second discharge path in parallel with the resistor, so the effective resistance is (50.0 kΩ)(1.00 MΩ)/(1.05 MΩ) ≈ 47.6 kΩ, and τ ≈ (47.6 kΩ)(200 μF) ≈ 9.5 s, shorter than 10.0 s. The capacitor discharges slightly faster.",
+            "Full credit: ammeter in series with the resistor and voltmeter in parallel with the capacitor; steady reading ≈ 11.4 V because the meter draws current; discharge τ reduced to ≈ 9.5 s because the meter adds a parallel path."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Describe V versus position around the loop at t = τ.",
+          "steps": [
+            "Find the potential differences at t = τ: I ≈ 8.8 × 10⁻⁵ A, so ΔV<sub>R</sub> = IR ≈ (8.8 × 10⁻⁵ A)(5.00 × 10⁴ Ω) ≈ 4.4 V and ΔV<sub>C</sub> ≈ 7.6 V; they sum to 12.0 V.",
+            "Trace the graph: start at 0 V at the negative terminal; jump up by 12.0 V across the battery; stay flat along the connecting wire (an ideal wire has no potential difference).",
+            "Continue: the potential decreases steadily (a straight downward slope) by 4.4 V across the resistor, to 7.6 V; stays flat along the next wire; then drops abruptly by 7.6 V across the capacitor gap, back to 0 V; then stays flat back to the starting point.",
+            "Full credit: rise of 12.0 V at the battery, flat segments for wires, a 4.4 V drop across the resistor and a 7.6 V drop across the capacitor, returning to the starting potential, consistent with Kirchhoff's loop rule (ΣΔV = 0)."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "12": [
@@ -9534,6 +9713,58 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-14-n1",
+      "source": "Original",
+      "title": "From One Slit to Two to a Grating",
+      "prompt": "A helium-neon laser (λ = 633 nm) shines on a single slit of width a = 0.120 mm. A screen is L = 2.00 m away. (a) Calculate the distance from the center of the pattern to the first dark fringe, and the width of the central bright maximum. Sketch (describe) the intensity versus position on the screen. (b) Predict how the central maximum changes if (i) the slit is made narrower, or (ii) the laser is replaced by a 532 nm green laser with the original slit. Justify each prediction using path-length difference, and calculate the new first-minimum distance for (ii). (c) The single slit is replaced by two slits, each 0.120 mm wide, with centers d = 0.360 mm apart, and the red laser is used again. Calculate the spacing of the bright fringes. Determine which bright fringes are missing, and how many bright fringes appear inside the central diffraction envelope. Sketch (describe) the intensity pattern. (d) Finally, white light (400 nm to 700 nm) is sent through a diffraction grating with 600 lines/mm. Describe the pattern, including the color of the central maximum and the order of colors in each spectrum, and determine whether the first-order and second-order spectra overlap, and whether the second-order and third-order spectra overlap.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Find the first minimum, the central width, and describe the intensity graph.",
+          "steps": [
+            "Use the single-slit minimum condition: a sinθ = mλ (m = ±1, ±2, …), which becomes y<sub>min</sub> = mλL/a for small angles.",
+            "First minimum: y<sub>1</sub> = (633 × 10⁻⁹ m)(2.00 m)/(1.20 × 10⁻⁴ m) ≈ 1.06 × 10⁻² m = 1.06 cm.",
+            "Central maximum: it extends from the first minimum on one side to the first minimum on the other, so its width is 2y<sub>1</sub> ≈ 2.11 cm.",
+            "Describe the graph: a tall central peak 2.11 cm wide, zero intensity at ±1.06 cm, ±2.11 cm, …, and much weaker side maxima, each about half as wide as the central peak and decreasing in height moving outward.",
+            "Full credit: y<sub>1</sub> ≈ 1.06 cm; central width ≈ 2.1 cm; a sketch with a broad central peak twice the width of the much dimmer side peaks, with evenly spaced zeros."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Predict and justify the changes; calculate y₁ for 532 nm.",
+          "steps": [
+            "Recall why a minimum forms: at the first minimum, light from the top edge of the slit travels one extra wavelength compared with light from the bottom edge, so for every point in the top half there is a point in the bottom half whose light arrives half a wavelength out of step, and they cancel in pairs.",
+            "(i) Narrower slit: for a smaller a, a larger angle is needed for the edge-to-edge path difference a sinθ to reach one full λ, so the first minimum moves outward and the central maximum gets WIDER (and dimmer, since less light passes through).",
+            "(ii) Shorter wavelength: a smaller path difference (one 532 nm wavelength) is needed, so it is reached at a smaller angle and the central maximum gets NARROWER. Calculation: y<sub>1</sub> = (532 × 10⁻⁹)(2.00)/(1.20 × 10⁻⁴) ≈ 8.87 × 10⁻³ m = 0.887 cm.",
+            "Full credit: narrower slit → wider central maximum; shorter λ → narrower central maximum; each justified by the angle needed for a path difference a sinθ = λ; y<sub>1</sub> ≈ 0.89 cm for green light."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Find the fringe spacing, the missing orders, and the fringe count.",
+          "steps": [
+            "Double-slit bright fringes: d sinθ = mλ, so Δy = λL/d = (633 × 10⁻⁹)(2.00)/(3.60 × 10⁻⁴) ≈ 3.52 × 10⁻³ m = 3.52 mm.",
+            "Find where the single-slit envelope is zero: the first single-slit minimum is still at y = λL/a ≈ 10.55 mm. Divide: (10.55 mm)/(3.52 mm) = d/a = 3, so the m = ±3 double-slit maxima land exactly on the envelope's zeros and are MISSING (as are m = ±6, ±9, …).",
+            "Count the fringes inside the central envelope: m = 0, ±1, ±2, which is 5 bright fringes.",
+            "Describe the graph: closely spaced fringes 3.52 mm apart whose peak heights follow the shape of the single-slit curve from (a): brightest at the center, dimmer at m = ±1 and ±2, zero at ±10.6 mm, then dimmer groups of fringes in the side lobes.",
+            "Full credit: Δy ≈ 3.5 mm; m = ±3 missing because d = 3a puts them on the single-slit minima; 5 bright fringes in the central envelope; a sketch of double-slit fringes inside the single-slit envelope."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Describe the white-light pattern and test for overlap.",
+          "steps": [
+            "Grating spacing: d = (1 mm)/600 = 1.67 × 10⁻⁶ m. The central maximum (m = 0) is WHITE because every wavelength has zero path difference there.",
+            "In each order, sinθ = mλ/d grows with λ, so each spectrum runs from violet (closest to center) to red (farthest out).",
+            "First order: violet sinθ = 0.24 (θ ≈ 13.9°) and red sinθ = 0.42 (θ ≈ 24.8°). Second order: violet sinθ = 0.48 (θ ≈ 28.7°) and red sinθ = 0.84 (θ ≈ 57.1°). The second-order violet (28.7°) lies beyond the first-order red (24.8°), so the first and second orders do NOT overlap.",
+            "Third order: violet sinθ = 0.72 (θ ≈ 46.1°), which is less than the second-order red angle of 57.1°, so the second and third orders DO overlap. Third-order red would need sinθ = 1.26 > 1, so the third order is incomplete: it only reaches λ = d/3 ≈ 556 nm.",
+            "Full credit: white central maximum; violet-to-red order outward in each spectrum; correct angles; no overlap between orders 1 and 2; overlap between orders 2 and 3, supported by comparing the calculated angles."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "15": [
@@ -9757,6 +9988,65 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-15-n1",
+      "source": "Original",
+      "title": "Starlight Spectra and a Compton Collision",
+      "prompt": "Astronomers model two stars as blackbodies. Star A has a surface temperature of 3500 K and Star B has a surface temperature of 7000 K; the two stars have the same radius. (a) On one set of axes of intensity versus wavelength, sketch (describe) the radiation curves of both stars. (b) Calculate the peak wavelength of each star, state the region of the spectrum each falls in, and calculate the ratio of the total power radiated by Star B to that radiated by Star A. A student claims, \"A cooler star can never radiate more total power than a hotter star.\" Evaluate the claim quantitatively. (c) In a laboratory, X-ray photons with wavelength 71.0 pm scatter off nearly free electrons in a graphite block. A detector at 120° from the incident direction records the scattered photons. Calculate the wavelength of the scattered photons and the kinetic energy of the recoiling electron, in eV. (d) Draw (describe) a momentum vector diagram for the collision, and determine the direction of the electron's recoil. (e) Explain why the same experiment done with 500 nm visible light shows no measurable wavelength shift, and what the Compton effect shows about the nature of light.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Describe the two blackbody curves.",
+          "steps": [
+            "Each curve starts near zero at very short wavelengths, rises to a single peak, and then falls off more gradually at long wavelengths (it is asymmetric, with a longer tail on the long-wavelength side).",
+            "By Wien's law, the hotter Star B has its peak at half the wavelength of Star A's peak.",
+            "The hotter star's curve lies ABOVE the cooler star's curve at every wavelength, so the curves never cross, and the area under B's curve is much larger (16 times larger, per unit area of surface).",
+            "Full credit: two single-peaked curves with B's peak at a shorter wavelength (half of A's) and much higher, and B's curve above A's at all wavelengths."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Find the peak wavelengths and power ratio, and evaluate the claim.",
+          "steps": [
+            "Wien's law: λ<sub>peak</sub> = (2.90 × 10⁻³ m·K)/T. Star A: (2.90 × 10⁻³)/3500 ≈ 8.29 × 10⁻⁷ m = 829 nm, in the near infrared (it looks red-orange). Star B: (2.90 × 10⁻³)/7000 ≈ 4.14 × 10⁻⁷ m = 414 nm, in the violet end of the visible spectrum (it looks blue-white).",
+            "Stefan-Boltzmann: P = σAT⁴. With equal radii, the surface areas are equal, so P<sub>B</sub>/P<sub>A</sub> = (7000/3500)⁴ = 2⁴ = 16.",
+            "Test the claim: power also scales with surface area, A = 4πR², so P ∝ R²T⁴. A 3500 K star with 4 times Star B's radius would have 16 times the surface area. That exactly offsets the factor of 16, so its power would equal Star B's. Any 3500 K star larger than that would radiate MORE power than Star B.",
+            "Full credit: 829 nm (infrared) and 414 nm (violet/visible); ratio 16; the claim is incorrect because a cooler star with a large enough surface area (here, more than 4 times the radius) can radiate more total power."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Find λ′ and the electron's kinetic energy.",
+          "steps": [
+            "Apply the Compton equation: Δλ = (h/m<sub>e</sub>c)(1 − cosθ) = (2.43 pm)(1 − cos120°) = (2.43 pm)(1.50) ≈ 3.65 pm.",
+            "Scattered wavelength: λ′ = 71.0 pm + 3.65 pm ≈ 74.6 pm.",
+            "Photon energies, using hc = 1240 eV·nm = 1.240 × 10⁶ eV·pm: E = (1.240 × 10⁶)/71.0 ≈ 17,460 eV and E′ = (1.240 × 10⁶)/74.6 ≈ 16,610 eV.",
+            "Energy conservation: K<sub>e</sub> = E − E′ ≈ 850 eV (about 1.4 × 10⁻¹⁶ J).",
+            "Full credit: Δλ ≈ 3.6 pm, λ′ ≈ 74.6 pm, and K<sub>e</sub> ≈ 8.5 × 10² eV from energy conservation."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Describe the momentum diagram and find the recoil direction.",
+          "steps": [
+            "Before: one vector, the incident photon's momentum p = h/λ, along +x. After: the scattered photon's momentum p′ = h/λ′ (slightly shorter), pointing 120° from +x (back and up), plus the electron's momentum p<sub>e</sub>. Head-to-tail, p′ + p<sub>e</sub> must equal p.",
+            "Components (in units of h, with λ in pm): p<sub>e,x</sub> = 1/71.0 + (0.500)/74.6 ≈ 0.02078; p<sub>e,y</sub> = 0 − (0.866)/74.6 ≈ −0.01161.",
+            "Direction: θ<sub>e</sub> = tan⁻¹(0.01161/0.02078) ≈ 29° BELOW the incident direction, so the electron recoils forward and on the opposite side from the scattered photon, which makes the y-components cancel.",
+            "Full credit: a vector diagram in which p′ + p<sub>e</sub> = p, with the y-components cancelling; electron recoil forward at about 29° below the original direction."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Explain the absence of a visible-light shift and the meaning of the effect.",
+          "steps": [
+            "The shift can never exceed 2(2.43 pm) ≈ 4.9 pm, whatever the wavelength. For 71 pm X-rays, the 3.65 pm shift at 120° is about a 5% change (up to about 7% at 180°) and easy to detect. For 500 nm light, even the largest shift is about 1 part in 100,000, which is lost in the spectral width of the source.",
+            "Physical meaning: the photon behaves like a particle with momentum p = h/λ that collides with a single electron, conserving both energy and momentum as in a billiard-ball collision. A classical wave would make the electron oscillate and reradiate at the SAME wavelength, so a shift that depends on the scattering angle is evidence of light's particle nature.",
+            "Full credit: the shift is a fixed few picometers, so it is only significant compared with the short wavelengths of X-rays; the effect shows that photons carry momentum h/λ and scatter as particles."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ]
 };

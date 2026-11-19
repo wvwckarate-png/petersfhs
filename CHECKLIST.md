@@ -23,7 +23,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
   - [x] Graph and diagram questions (described in words): Maxwell-Boltzmann curves, gas-law graphs, chromatograms, particle diagrams of solutions and hydrogen bonding, energy diagrams for physical changes
   - [x] Unit 9 table calculations: ΔS° from absolute entropies, ΔG° from ΔG°f
   - [x] Sigma versus pi bonds, cis/trans isomers, square pyramidal shape
-- [ ] Decide whether the new topics need FRQ parts or practice-exam questions (Kp and titrations are the likeliest)
+- [x] FRQ decision: 4 new unit FRQs (Kp, weak-acid titration with indicators, catalyzed mechanism with Maxwell-Boltzmann, ΔS°/ΔG° from tables); practice exams left unchanged so saved exam scores stay valid (v8.6.1)
 
 ### A2. AP Biology
 - [x] Download the course description and run the audit (Fall 2025 edition; reports in ~/Desktop/petersfhs-gap-reports/biology/)
@@ -35,7 +35,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 - [x] Download the course description and run the audit (Fall 2024 edition; reports in ~/Desktop/petersfhs-gap-reports/physics2/)
 - [x] Review the gap report and choose what to add (all missing items and the substantive thin ones)
 - [x] Build and check the additions — 57 study-guide additions, 155 MCQs, 41 figures (v8.6.0)
-- [ ] Decide whether the report's suggested FRQ parts (sketching graphs, equipotentials, RC curves) are worth adding
+- [x] FRQ decision: 5 new unit FRQs (P–T extrapolation, equipotentials and plates, RC graphs and meters, single/double slit and grating, blackbody and Compton); practice exams unchanged (v8.6.1)
 
 ### A4. Remaining AP subjects (optional; decide after A1–A3)
 - [ ] AP Physics 1
@@ -49,10 +49,11 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 ## B. Question quality
 
-- [ ] B1. Rewrite the 55 held-back AP English Language revision questions (they refer to material not on screen, or their choices do not fit), then show them
-- [ ] B2. Rewrite questions that test the course instead of the subject: about 70 in APUSH, Government 5-54, about 9 in Biology, 2 in Chemistry
-- [ ] B3. Fix flawed questions: Government 4-51 (region versus party), Government 3-65 (Tinker versus Barnette), APUSH 9-61 (loose comparison)
-- [ ] B4. Spot-check the 743 explanations from the final cleanup pass (so far only automated checks)
+- [x] B1. 54 of the 55 held-back AP Language revision questions rewritten, checked and shown (262 revision questions now shown); u5-2w-6 stays hidden because it duplicated a shown question (v8.6.1)
+- [x] B2. 53 course/exam questions rewritten as content questions: APUSH 40, Government 9, Biology 1 (the other Biology candidates were real content), Chemistry 2. Each new version has the old id plus "r", so old saved answers no longer count, and it shows as New (v8.6.1)
+- [x] B3. Government 4-51, Government 3-65 and APUSH 9-61 fixed (same ids, same answer letters) (v8.6.1)
+- [x] B4. Spot-checked a random 225 questions (25 per AP subject): 0 wrong keys, 0 false statements; 16 explanations improved. Also added the "Correct: (X) answer" opener to the 2,521 explanations that lacked it (v8.6.1)
+- [ ] B5. Optional: about 1,900 older explanations (APES, AP Lang/Lit, Chemistry, Biology, Physics 2) explain the right answer but give no "(Y) is wrong because" line for each wrong choice
 
 ## C. Decisions for you
 
@@ -71,6 +72,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.6.1 | 9 new FRQs (Chemistry 4, Physics 2 5) with New badges; 54 AP Language revision questions rewritten and shown; 53 course/exam questions rewritten; 3 flawed questions fixed; 225-question spot-check; consistent "Correct: (X)" openers |
 | v8.6.0 | Physics 2 gaps: 57 study-guide additions, 155 MCQs (Physics 2 now 615), 41 figures; fixed the 10.2 grounding sentence |
 | v8.5.9 | Visuals pass on the new Chemistry and Biology material: 42 figures, tables and worked examples (Chemistry 13 figures + 4 worked examples; Biology 24 figures + 1 table), placed inside the "New" boxes |
 | v8.5.8 | Biology gaps, batch 2: 34 study-guide additions, 44 MCQs (Biology now 622) |

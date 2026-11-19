@@ -80,7 +80,7 @@ const QUESTIONS = {
         "102.09 g/mol"
       ],
       "correct": 0,
-      "explanation": "Ca(NO₃)₂ contains 1 Ca, 2 N, and 6 O (the outer subscript 2 multiplies everything inside the parentheses, including the 3 oxygens). Molar mass = 40.08 + 2(14.01) + 6(16.00) = 164.10 g/mol. 102.09 g/mol comes from only counting one NO₃ group instead of two (i.e. treating the formula as CaNO₃ and forgetting the outer subscript entirely: 40.08 + 14.01 + 3(16.00) = 102.09). 70.10 g/mol goes even further, dropping every subscript (both the 3 and the 2) and just adding Ca + N + O as if the formula were CaNO. 128.10 g/mol doesn't correspond to a consistent atom count for this formula at all — it's the kind of number you get by mixing up which subscript belongs to N versus O, a reminder to rebuild the atom count from the formula itself rather than pattern-matching a 'reasonable-looking' number."
+      "explanation": "Correct: (A) 164.10 g/mol. Ca(NO₃)₂ contains 1 Ca, 2 N, and 6 O (the outer subscript 2 multiplies everything inside the parentheses, including the 3 oxygens). Molar mass = 40.08 + 2(14.01) + 6(16.00) = 164.10 g/mol. 102.09 g/mol comes from only counting one NO₃ group instead of two (i.e. treating the formula as CaNO₃ and forgetting the outer subscript entirely: 40.08 + 14.01 + 3(16.00) = 102.09). 70.10 g/mol goes even further, dropping every subscript (both the 3 and the 2) and just adding Ca + N + O as if the formula were CaNO. 128.10 g/mol doesn't correspond to a consistent atom count for this formula at all — it's the kind of number you get by mixing up which subscript belongs to N versus O, a reminder to rebuild the atom count from the formula itself rather than pattern-matching a 'reasonable-looking' number."
     },
     {
       "id": "1-2",
@@ -93,7 +93,7 @@ const QUESTIONS = {
         "54.0 mol"
       ],
       "correct": 3,
-      "explanation": "Each formula unit of Al₂(SO₄)₃ contains 12 oxygen atoms (4 O per sulfate × 3 sulfate groups), so 4.50 mol compound × 12 mol O/mol compound = 54.0 mol O. 18.0 mol comes from using only 4 oxygens per formula unit (4.50 × 4), i.e. counting the O in a single sulfate ion but forgetting there are three of them in the formula. 13.5 mol comes from using 3 as the O-per-formula-unit factor (4.50 × 3) — that's confusing the number of oxygens with the number of sulfate ions. 4.50 mol simply repeats the given moles of compound, as if there were only 1 oxygen atom per formula unit."
+      "explanation": "Correct: (D) 54.0 mol. Each formula unit of Al₂(SO₄)₃ contains 12 oxygen atoms (4 O per sulfate × 3 sulfate groups), so 4.50 mol compound × 12 mol O/mol compound = 54.0 mol O. 18.0 mol comes from using only 4 oxygens per formula unit (4.50 × 4), i.e. counting the O in a single sulfate ion but forgetting there are three of them in the formula. 13.5 mol comes from using 3 as the O-per-formula-unit factor (4.50 × 3) — that's confusing the number of oxygens with the number of sulfate ions. 4.50 mol simply repeats the given moles of compound, as if there were only 1 oxygen atom per formula unit."
     },
     {
       "id": "1-3",
@@ -106,7 +106,7 @@ const QUESTIONS = {
         "55.85 g"
       ],
       "correct": 0,
-      "explanation": "Convert atoms to moles first: 1.20 × 10²⁴ atoms ÷ 6.022 × 10²³ atoms/mol = 1.993 mol Fe, then to mass: 1.993 mol × 55.85 g/mol ≈ 111.3 g. 55.85 g is simply Fe's molar mass with no mole conversion applied at all — it ignores the given atom count entirely. 279.3 g and 186.2 g both come from mishandling the atoms-to-moles conversion (for example, dividing by an Avogadro's number that's off by roughly a factor of 10 or losing track of the exponent), which inflates the mole count — and therefore the mass — well above the correct ~1.99 mol. Whenever a 'reverse' mole problem like this gives an answer bigger than the forward calculation would predict, it's worth re-checking that the division by 6.022 × 10²³ was actually carried out correctly."
+      "explanation": "Correct: (A) 111.3 g. Convert atoms to moles first: 1.20 × 10²⁴ atoms ÷ 6.022 × 10²³ atoms/mol = 1.993 mol Fe, then to mass: 1.993 mol × 55.85 g/mol ≈ 111.3 g. 55.85 g is simply Fe's molar mass with no mole conversion applied at all — it ignores the given atom count entirely. 279.3 g and 186.2 g both come from mishandling the atoms-to-moles conversion (for example, dividing by an Avogadro's number that's off by roughly a factor of 10 or losing track of the exponent), which inflates the mole count — and therefore the mass — well above the correct ~1.99 mol. Whenever a 'reverse' mole problem like this gives an answer bigger than the forward calculation would predict, it's worth re-checking that the division by 6.022 × 10²³ was actually carried out correctly."
     },
     {
       "id": "1-4",
@@ -119,7 +119,7 @@ const QUESTIONS = {
         "10.0 g of He"
       ],
       "correct": 3,
-      "explanation": "For a fixed mass, number of moles (and therefore atoms) is inversely proportional to molar mass: n = m/M. Helium has by far the smallest molar mass (4.00 g/mol) among these noble gases, so 10.0 g of He gives the most moles and therefore the most atoms. The other three choices are wrong for the same underlying reason, just to different degrees: Ne (20.18 g/mol), Ar (39.95 g/mol), and Kr (83.80 g/mol) are all heavier than He, so 10.0 g of each yields fewer moles, with Kr — the heaviest — giving the fewest atoms of all four. This is a common conceptual trap: equal mass does not mean equal number of particles unless molar masses are equal."
+      "explanation": "Correct: (D) 10.0 g of He. For a fixed mass, number of moles (and therefore atoms) is inversely proportional to molar mass: n = m/M. Helium has by far the smallest molar mass (4.00 g/mol) among these noble gases, so 10.0 g of He gives the most moles and therefore the most atoms. The other three choices are wrong for the same underlying reason, just to different degrees: Ne (20.18 g/mol), Ar (39.95 g/mol), and Kr (83.80 g/mol) are all heavier than He, so 10.0 g of each yields fewer moles, with Kr — the heaviest — giving the fewest atoms of all four. This is a common conceptual trap: equal mass does not mean equal number of particles unless molar masses are equal."
     },
     {
       "id": "1-5",
@@ -132,7 +132,7 @@ const QUESTIONS = {
         "34.4 g"
       ],
       "correct": 2,
-      "explanation": "Molar mass of Mg₃N₂ = 3(24.31) + 2(14.01) = 100.95 g/mol, so mass = 0.250 mol × 100.95 g/mol ≈ 25.2 g. 50.4 g is exactly double the correct answer, consistent with using 0.500 mol instead of the 0.250 mol actually given in the problem. 34.4 g and 68.8 g (which are also exactly a factor of 2 apart from each other) point to a formula-mass error — most likely mishandling the 3:2 ratio of Mg to N when building the molar mass, which throws off the g/mol value used in the final multiplication. The fix for all of these is the same: write out the correct subscript-weighted molar mass first, and multiply by the mol value exactly as given in the problem."
+      "explanation": "Correct: (C) 25.2 g. Molar mass of Mg₃N₂ = 3(24.31) + 2(14.01) = 100.95 g/mol, so mass = 0.250 mol × 100.95 g/mol ≈ 25.2 g. 50.4 g is exactly double the correct answer, consistent with using 0.500 mol instead of the 0.250 mol actually given in the problem. 34.4 g and 68.8 g (which are also exactly a factor of 2 apart from each other) point to a formula-mass error — most likely mishandling the 3:2 ratio of Mg to N when building the molar mass, which throws off the g/mol value used in the final multiplication. The fix for all of these is the same: write out the correct subscript-weighted molar mass first, and multiply by the mol value exactly as given in the problem."
     },
     {
       "id": "1-6",
@@ -145,7 +145,7 @@ const QUESTIONS = {
         "0.90 g"
       ],
       "correct": 1,
-      "explanation": "Mass = moles × molar mass = 0.0500 mol × 180.16 g/mol = 9.01 g. 0.90 g comes from using 18.0 g/mol instead of glucose's actual 180.16 g/mol — that's water's molar mass, or equivalently glucose's molar mass with a decimal-place slip (180.16 → 18.0). 3.60 g comes from using 0.0200 mol instead of the 0.0500 mol given (0.0200 × 180.16 ≈ 3.60), a simple misread of the given quantity. 18.0 g is almost exactly double the correct mass (2 × 9.01 = 18.02), consistent with using 0.100 mol instead of 0.0500 mol."
+      "explanation": "Correct: (B) 9.01 g. Mass = moles × molar mass = 0.0500 mol × 180.16 g/mol = 9.01 g. 0.90 g comes from using 18.0 g/mol instead of glucose's actual 180.16 g/mol — that's water's molar mass, or equivalently glucose's molar mass with a decimal-place slip (180.16 → 18.0). 3.60 g comes from using 0.0200 mol instead of the 0.0500 mol given (0.0200 × 180.16 ≈ 3.60), a simple misread of the given quantity. 18.0 g is almost exactly double the correct mass (2 × 9.01 = 18.02), consistent with using 0.100 mol instead of 0.0500 mol."
     },
     {
       "id": "1-7",
@@ -158,7 +158,7 @@ const QUESTIONS = {
         "4.00 mol of NH₃"
       ],
       "correct": 0,
-      "explanation": "Number of molecules depends only on number of moles, not on molar mass or chemical identity — 1 mole of any substance always contains the same number of particles (Avogadro's number). So 2.00 mol of CO₂ contains exactly as many molecules as 2.00 mol of H₂O. 1.00 mol of CO₂ and 1.00 mol of O₂ are both wrong because they're only half the mole count needed (1.00 mol vs. the 2.00 mol of H₂O given) — the fact that CO₂ and O₂ are different substances with different molar masses is irrelevant to a molecule-count comparison. 4.00 mol of NH₃ is wrong in the opposite direction: it's twice the needed mole count, so it would contain twice as many molecules as the H₂O sample, not the same number."
+      "explanation": "Correct: (A) 2.00 mol of CO₂. Number of molecules depends only on number of moles, not on molar mass or chemical identity — 1 mole of any substance always contains the same number of particles (Avogadro's number). So 2.00 mol of CO₂ contains exactly as many molecules as 2.00 mol of H₂O. 1.00 mol of CO₂ and 1.00 mol of O₂ are both wrong because they're only half the mole count needed (1.00 mol vs. the 2.00 mol of H₂O given) — the fact that CO₂ and O₂ are different substances with different molar masses is irrelevant to a molecule-count comparison. 4.00 mol of NH₃ is wrong in the opposite direction: it's twice the needed mole count, so it would contain twice as many molecules as the H₂O sample, not the same number."
     },
     {
       "id": "1-8",
@@ -171,7 +171,7 @@ const QUESTIONS = {
         "7"
       ],
       "correct": 0,
-      "explanation": "Molar mass of anhydrous CuSO₄ = 63.55 + 32.07 + 4(16.00) = 159.62 g/mol. Subtracting from the hydrate's total molar mass, 249.68 − 159.62 = 90.06 g/mol of water, and dividing by water's molar mass (18.02 g/mol) gives 90.06 ÷ 18.02 ≈ 5.00, so x = 5 (copper(II) sulfate pentahydrate). x = 4 undercounts the water content — it would correspond to a hydrate molar mass of only 159.62 + 4(18.02) = 231.7 g/mol, noticeably lower than the 249.68 g/mol given. x = 7 overshoots in the other direction (159.62 + 7(18.02) = 285.8 g/mol, too high). x = 3 is even further off (159.62 + 3(18.02) = 213.7 g/mol) and likely reflects simply misreading which number in the problem is the anhydrous salt's molar mass versus the hydrate's.",
+      "explanation": "Correct: (A) 5. Molar mass of anhydrous CuSO₄ = 63.55 + 32.07 + 4(16.00) = 159.62 g/mol. Subtracting from the hydrate's total molar mass, 249.68 − 159.62 = 90.06 g/mol of water, and dividing by water's molar mass (18.02 g/mol) gives 90.06 ÷ 18.02 ≈ 5.00, so x = 5 (copper(II) sulfate pentahydrate). x = 4 undercounts the water content — it would correspond to a hydrate molar mass of only 159.62 + 4(18.02) = 231.7 g/mol, noticeably lower than the 249.68 g/mol given. x = 7 overshoots in the other direction (159.62 + 7(18.02) = 285.8 g/mol, too high). x = 3 is even further off (159.62 + 3(18.02) = 213.7 g/mol) and likely reflects simply misreading which number in the problem is the anhydrous salt's molar mass versus the hydrate's.",
       "stretch": true
     },
     {
@@ -199,7 +199,7 @@ const QUESTIONS = {
         "11.01 amu"
       ],
       "correct": 0,
-      "explanation": "Weighted average = (10.01)(0.900) + (11.01)(0.100) = 9.009 + 1.101 = 10.11 amu. Since the lighter isotope is far more abundant (90%), the average should land close to 10.01 rather than at the midpoint — and it does. 10.51 amu is the simple, unweighted average of the two isotope masses, (10.01 + 11.01)/2 = 10.51 — that treats the isotopes as equally abundant, ignoring the given 90%/10% split entirely. 10.01 amu and 11.01 amu are just the two individual isotope masses on their own, as if one isotope were 100% abundant and the other didn't exist — neither uses the abundance data at all."
+      "explanation": "Correct: (A) 10.11 amu. Weighted average = (10.01)(0.900) + (11.01)(0.100) = 9.009 + 1.101 = 10.11 amu. Since the lighter isotope is far more abundant (90%), the average should land close to 10.01 rather than at the midpoint — and it does. 10.51 amu is the simple, unweighted average of the two isotope masses, (10.01 + 11.01)/2 = 10.51 — that treats the isotopes as equally abundant, ignoring the given 90%/10% split entirely. 10.01 amu and 11.01 amu are just the two individual isotope masses on their own, as if one isotope were 100% abundant and the other didn't exist — neither uses the abundance data at all."
     },
     {
       "id": "1-10",
@@ -212,7 +212,7 @@ const QUESTIONS = {
         "36.45 amu"
       ],
       "correct": 2,
-      "explanation": "Weighted average = (35)(0.7577) + (37)(0.2423) ≈ 35.45 amu, matching the periodic table's listed value for chlorine. 36.00 amu is the simple, unweighted average of the two isotope masses, (35 + 37)/2 = 36.00, which ignores the actual (unequal) abundances given. 35.00 amu is just the lighter isotope's mass by itself, as if it were 100% abundant. 36.45 amu comes from swapping which abundance belongs to which isotope — pairing 37 amu with the larger percentage and 35 amu with the smaller one — which pulls the weighted average too high since chlorine-35 is actually the dominant isotope, not chlorine-37."
+      "explanation": "Correct: (C) 35.45 amu. Weighted average = (35)(0.7577) + (37)(0.2423) ≈ 35.45 amu, matching the periodic table's listed value for chlorine. 36.00 amu is the simple, unweighted average of the two isotope masses, (35 + 37)/2 = 36.00, which ignores the actual (unequal) abundances given. 35.00 amu is just the lighter isotope's mass by itself, as if it were 100% abundant. 36.45 amu comes from swapping which abundance belongs to which isotope — pairing 37 amu with the larger percentage and 35 amu with the smaller one — which pulls the weighted average too high since chlorine-35 is actually the dominant isotope, not chlorine-37."
     },
     {
       "id": "1-11",
@@ -225,7 +225,7 @@ const QUESTIONS = {
         "Heavier isotopes are attracted to the detector more strongly."
       ],
       "correct": 2,
-      "explanation": "The magnetic force bends charged particles into a curved path, and for a fixed force, greater mass means greater inertia and therefore less curvature (F = ma: a larger mass needs more force to achieve the same acceleration/curving). Choice (B) has the physics backward: for the same charge, a heavier isotope has a smaller charge-to-mass ratio, not a greater one — and a smaller charge-to-mass ratio is exactly what produces less deflection, so this choice describes the right direction of the real cause but mislabels which quantity increases. Choice (A) is wrong because velocity is given as fixed ('same charge and velocity'), so isotopes aren't traveling at different speeds in this setup, and even if they were, magnetic fields don't get 'outrun' in the way implied. Choice (D) misattributes the effect to an attraction to the detector, but the detector plays no role in determining the curvature — the path is shaped entirely by the magnetic force acting during flight, before any particle reaches the detector."
+      "explanation": "Correct: (C) Heavier isotopes curve less due to greater inertia. The magnetic force bends charged particles into a curved path, and for a fixed force, greater mass means greater inertia and therefore less curvature (F = ma: a larger mass needs more force to achieve the same acceleration/curving). Choice (B) has the physics backward: for the same charge, a heavier isotope has a smaller charge-to-mass ratio, not a greater one — and a smaller charge-to-mass ratio is exactly what produces less deflection, so this choice describes the right direction of the real cause but mislabels which quantity increases. Choice (A) is wrong because velocity is given as fixed ('same charge and velocity'), so isotopes aren't traveling at different speeds in this setup, and even if they were, magnetic fields don't get 'outrun' in the way implied. Choice (D) misattributes the effect to an attraction to the detector, but the detector plays no role in determining the curvature — the path is shaped entirely by the magnetic force acting during flight, before any particle reaches the detector."
     },
     {
       "id": "1-12",
@@ -238,7 +238,7 @@ const QUESTIONS = {
         "26.00 amu"
       ],
       "correct": 2,
-      "explanation": "Weighted average = (24.00)(0.200) + (25.00)(0.100) + (26.00)(0.700) = 4.80 + 2.50 + 18.20 = 25.50 amu. 26.00 amu is just the mass of the most abundant isotope (70%) taken alone, as if the other two didn't exist. 25.00 amu is the simple, unweighted average of all three masses, (24.00 + 25.00 + 26.00)/3 = 25.00, which ignores that the abundances are unequal. 24.50 amu comes from swapping the abundances of the lightest and heaviest isotopes (i.e. pairing 70% with 24.00 amu and 20% with 26.00 amu instead of the other way around), which pulls the weighted average toward the lighter isotope instead of the heavier, dominant one."
+      "explanation": "Correct: (C) 25.50 amu. Weighted average = (24.00)(0.200) + (25.00)(0.100) + (26.00)(0.700) = 4.80 + 2.50 + 18.20 = 25.50 amu. 26.00 amu is just the mass of the most abundant isotope (70%) taken alone, as if the other two didn't exist. 25.00 amu is the simple, unweighted average of all three masses, (24.00 + 25.00 + 26.00)/3 = 25.00, which ignores that the abundances are unequal. 24.50 amu comes from swapping the abundances of the lightest and heaviest isotopes (i.e. pairing 70% with 24.00 amu and 20% with 26.00 amu instead of the other way around), which pulls the weighted average toward the lighter isotope instead of the heavier, dominant one."
     },
     {
       "id": "1-13",
@@ -264,7 +264,7 @@ const QUESTIONS = {
         "B-11, because the average (10.81) is closer to 11.01 than to 10.01"
       ],
       "correct": 3,
-      "explanation": "A weighted average is always pulled closer to whichever value has the larger weight. Since 10.81 is much closer to 11.01 than to 10.01, B-11 must be the more abundant isotope (in reality, B-11 is about 80% abundant). Choice (B) gets the reverse-reasoning backward: it correctly notices the average sits closer to one value but assigns the higher abundance to the wrong isotope. Choice (A) misreads the numbers — 10.81 is not close to the true midpoint of 10.01 and 11.01, which would be 10.51; being off-center is exactly what signals unequal abundance in the first place. Choice (C) invokes a rule that doesn't exist in general — there's no principle that lighter isotopes are always more abundant (many elements, boron included, have their heavier isotope as the majority one); abundance has to be read from the actual average, not assumed from mass alone."
+      "explanation": "Correct: (D) B-11, because the average (10.81) is closer to 11.01 than to 10.01. A weighted average is always pulled closer to whichever value has the larger weight. Since 10.81 is much closer to 11.01 than to 10.01, B-11 must be the more abundant isotope (in reality, B-11 is about 80% abundant). Choice (B) gets the reverse-reasoning backward: it correctly notices the average sits closer to one value but assigns the higher abundance to the wrong isotope. Choice (A) misreads the numbers — 10.81 is not close to the true midpoint of 10.01 and 11.01, which would be 10.51; being off-center is exactly what signals unequal abundance in the first place. Choice (C) invokes a rule that doesn't exist in general — there's no principle that lighter isotopes are always more abundant (many elements, boron included, have their heavier isotope as the majority one); abundance has to be read from the actual average, not assumed from mass alone."
     },
     {
       "id": "1-15",
@@ -277,7 +277,7 @@ const QUESTIONS = {
         "They have the same number of protons and neutrons but different numbers of electrons."
       ],
       "correct": 0,
-      "explanation": "Isotopes are defined by having the same atomic number (same number of protons, which is what makes them the same element) but different numbers of neutrons, giving them different mass numbers. Choice (C) actually describes isotones — different elements that happen to share a neutron count — which is essentially the reverse of what defines isotopes. Choice (D) describes ions (same protons and neutrons, different electrons), a completely different concept tied to charge, not to nuclear composition. Choice (B) is self-contradictory for isotopes of 'the same element': different atomic numbers would mean different elements entirely, and it also gets isotopes' actual hallmark backward — they share atomic number but differ in mass number, not the other way around."
+      "explanation": "Correct: (A) They have the same number of protons but different numbers of neutrons. Isotopes are defined by having the same atomic number (same number of protons, which is what makes them the same element) but different numbers of neutrons, giving them different mass numbers. Choice (C) actually describes isotones — different elements that happen to share a neutron count — which is essentially the reverse of what defines isotopes. Choice (D) describes ions (same protons and neutrons, different electrons), a completely different concept tied to charge, not to nuclear composition. Choice (B) is self-contradictory for isotopes of 'the same element': different atomic numbers would mean different elements entirely, and it also gets isotopes' actual hallmark backward — they share atomic number but differ in mass number, not the other way around."
     },
     {
       "id": "1-16",
@@ -290,7 +290,7 @@ const QUESTIONS = {
         "Ag-107: 60.0%, Ag-109: 40.0%"
       ],
       "correct": 2,
-      "explanation": "Let x = fractional abundance of Ag-107, so 106.90x + 108.90(1 − x) = 107.87 → −2.00x = −1.03 → x = 0.515, giving Ag-107: 51.5% and Ag-109: 48.5%. Checking: (106.90)(0.515) + (108.90)(0.485) = 107.87 ✓. Ag-107: 48.5%, Ag-109: 51.5% has the two percentages swapped — easy to do if you solve correctly for x but then mislabel which isotope x refers to. 50.0%/50.0% is the naive assumption that both isotopes are equally abundant, which would only be correct if the average (107.87) fell exactly at the midpoint of 106.90 and 108.90 (107.90) — it's close, but the observed average is very slightly lower, which is exactly why the true split isn't 50/50. 60.0%/40.0% overstates how far the abundances diverge — it doesn't satisfy the mass-balance equation, since (106.90)(0.60) + (108.90)(0.40) = 107.70, not 107.87."
+      "explanation": "Correct: (C) Ag-107: 51.5%, Ag-109: 48.5%. Let x = fractional abundance of Ag-107, so 106.90x + 108.90(1 − x) = 107.87 → −2.00x = −1.03 → x = 0.515, giving Ag-107: 51.5% and Ag-109: 48.5%. Checking: (106.90)(0.515) + (108.90)(0.485) = 107.87 ✓. Ag-107: 48.5%, Ag-109: 51.5% has the two percentages swapped — easy to do if you solve correctly for x but then mislabel which isotope x refers to. 50.0%/50.0% is the naive assumption that both isotopes are equally abundant, which would only be correct if the average (107.87) fell exactly at the midpoint of 106.90 and 108.90 (107.90) — it's close, but the observed average is very slightly lower, which is exactly why the true split isn't 50/50. 60.0%/40.0% overstates how far the abundances diverge — it doesn't satisfy the mass-balance equation, since (106.90)(0.60) + (108.90)(0.40) = 107.70, not 107.87."
     },
     {
       "id": "1-17",
@@ -303,7 +303,7 @@ const QUESTIONS = {
         "52.9%"
       ],
       "correct": 1,
-      "explanation": "Molar mass of Al₂O₃ = 2(26.98) + 3(16.00) = 101.96 g/mol, and percent O = (48.00/101.96) × 100 = 47.1%. 52.9% is the percent aluminum, not oxygen (100 − 47.1 = 52.9) — a common error is computing the correct ratio but reporting it for the wrong element. 29.4% and 70.6% (which are also complementary, summing to 100%) are consistent with mixing up Al's and O's atomic masses in the calculation — for instance, treating O as if its atomic mass were about 27 and Al as if its atomic mass were about 16 would push the 'oxygen' percentage up toward 70% instead of down toward 47%. The lesson either way: keep track of which atomic mass belongs to which element before dividing."
+      "explanation": "Correct: (B) 47.1%. Molar mass of Al₂O₃ = 2(26.98) + 3(16.00) = 101.96 g/mol, and percent O = (48.00/101.96) × 100 = 47.1%. 52.9% is the percent aluminum, not oxygen (100 − 47.1 = 52.9) — a common error is computing the correct ratio but reporting it for the wrong element. 29.4% and 70.6% (which are also complementary, summing to 100%) are consistent with mixing up Al's and O's atomic masses in the calculation — for instance, treating O as if its atomic mass were about 27 and Al as if its atomic mass were about 16 would push the 'oxygen' percentage up toward 70% instead of down toward 47%. The lesson either way: keep track of which atomic mass belongs to which element before dividing."
     },
     {
       "id": "1-18",
@@ -316,7 +316,7 @@ const QUESTIONS = {
         "C₂H₃"
       ],
       "correct": 0,
-      "explanation": "Assuming 100 g: 92.3 g C ÷ 12.01 = 7.69 mol C; 7.7 g H ÷ 1.008 = 7.64 mol H. Dividing both by the smaller value (7.64) gives C → 1.01 ≈ 1 and H → 1.00, a 1:1 ratio, so the empirical formula is CH. CH₂, C₂H₃, and C₃H₄ all imply more hydrogen relative to carbon than the data supports — they come from rounding the very-close-to-1 C:H mole ratio (0.994 g of C to 1 mol H) up too aggressively, or from dividing by the wrong reference value, rather than recognizing that the mole amounts of C and H here are already nearly equal. Whenever a mole ratio comes out this close to a whole number (here, 0.99 rounds cleanly to 1), it's worth double-checking the division rather than assuming a 'nicer-looking' non-1:1 ratio must be intended."
+      "explanation": "Correct: (A) CH. Assuming 100 g: 92.3 g C ÷ 12.01 = 7.69 mol C; 7.7 g H ÷ 1.008 = 7.64 mol H. Dividing both by the smaller value (7.64) gives C → 1.01 ≈ 1 and H → 1.00, a 1:1 ratio, so the empirical formula is CH. CH₂, C₂H₃, and C₃H₄ all imply more hydrogen relative to carbon than the data supports — they come from rounding the very-close-to-1 C:H mole ratio (0.994 g of C to 1 mol H) up too aggressively, or from dividing by the wrong reference value, rather than recognizing that the mole amounts of C and H here are already nearly equal. Whenever a mole ratio comes out this close to a whole number (here, 0.99 rounds cleanly to 1), it's worth double-checking the division rather than assuming a 'nicer-looking' non-1:1 ratio must be intended."
     },
     {
       "id": "1-19",
@@ -329,7 +329,7 @@ const QUESTIONS = {
         "35.0%"
       ],
       "correct": 3,
-      "explanation": "Percent composition = (mass of element / total mass) × 100 = (1.75 g / 5.00 g) × 100 = 35.0%. This is the most direct form of a percent composition problem — no formula or molar mass is needed when actual measured masses are given. 17.5% is exactly half of the correct answer, consistent with mistakenly doubling the total mass in the denominator (e.g., using 10.0 g instead of the given 5.00 g). 28.6% and 71.4% are complementary values (they sum to 100%) that don't correspond to any correct combination of the given 1.75 g and 5.00 g — they read like a garbled ratio rather than mass/total mass, a reminder to plug the given numbers directly into the percent-composition formula rather than estimating."
+      "explanation": "Correct: (D) 35.0%. Percent composition = (mass of element / total mass) × 100 = (1.75 g / 5.00 g) × 100 = 35.0%. This is the most direct form of a percent composition problem — no formula or molar mass is needed when actual measured masses are given. 17.5% is exactly half of the correct answer, consistent with mistakenly doubling the total mass in the denominator (e.g., using 10.0 g instead of the given 5.00 g). 28.6% and 71.4% are complementary values (they sum to 100%) that don't correspond to any correct combination of the given 1.75 g and 5.00 g — they read like a garbled ratio rather than mass/total mass, a reminder to plug the given numbers directly into the percent-composition formula rather than estimating."
     },
     {
       "id": "1-20",
@@ -342,7 +342,7 @@ const QUESTIONS = {
         "N₂O₄"
       ],
       "correct": 3,
-      "explanation": "The empirical formula mass of NO₂ is 14.01 + 2(16.00) = 46.01 g/mol. Dividing the molecular molar mass by the empirical formula mass, 92 ÷ 46.01 ≈ 2, so every subscript in NO₂ is multiplied by 2, giving N₂O₄. N₄O₈ multiplies every subscript by 4 instead of 2, which would correspond to a molecular molar mass of about 184 g/mol — double what's actually given. N₃O₆ multiplies the subscripts by 3, which would require a molecular molar mass of about 138 g/mol, also inconsistent with the given ~92 g/mol. NO₂ (unchanged) simply restates the empirical formula and skips the scaling step entirely, ignoring the fact that the molecular molar mass (92) is roughly double the empirical formula mass (46.01), which is exactly the clue that the molecular formula must be a multiple of the empirical one."
+      "explanation": "Correct: (D) N₂O₄. The empirical formula mass of NO₂ is 14.01 + 2(16.00) = 46.01 g/mol. Dividing the molecular molar mass by the empirical formula mass, 92 ÷ 46.01 ≈ 2, so every subscript in NO₂ is multiplied by 2, giving N₂O₄. N₄O₈ multiplies every subscript by 4 instead of 2, which would correspond to a molecular molar mass of about 184 g/mol — double what's actually given. N₃O₆ multiplies the subscripts by 3, which would require a molecular molar mass of about 138 g/mol, also inconsistent with the given ~92 g/mol. NO₂ (unchanged) simply restates the empirical formula and skips the scaling step entirely, ignoring the fact that the molecular molar mass (92) is roughly double the empirical formula mass (46.01), which is exactly the clue that the molecular formula must be a multiple of the empirical one."
     },
     {
       "id": "1-21",
@@ -355,7 +355,7 @@ const QUESTIONS = {
         "C₃H₈"
       ],
       "correct": 1,
-      "explanation": "All carbon ends up in CO₂: 7.70 g ÷ 44.01 g/mol = 0.175 mol C. All hydrogen ends up in H₂O: (3.15 g ÷ 18.02 g/mol) × 2 = 0.350 mol H. Dividing both by the smaller value (0.175 mol) gives C → 1.00, H → 2.00, so the empirical formula is CH₂. CH₃ and C₂H₅ both undercount the hydrogen relative to carbon — the most likely slip is forgetting the factor of 2 when converting moles of H₂O to moles of H atoms (each water molecule contributes 2 H, not 1), which would make the H:C ratio look closer to 1:1 instead of the actual 2:1. C₃H₈ doesn't reduce to lowest terms and doesn't match the 1:2 mole ratio found from the combustion data at all — it looks like propane's molecular formula, not an empirical formula derived from this experiment."
+      "explanation": "Correct: (B) CH₂. All carbon ends up in CO₂: 7.70 g ÷ 44.01 g/mol = 0.175 mol C. All hydrogen ends up in H₂O: (3.15 g ÷ 18.02 g/mol) × 2 = 0.350 mol H. Dividing both by the smaller value (0.175 mol) gives C → 1.00, H → 2.00, so the empirical formula is CH₂. CH₃ and C₂H₅ both undercount the hydrogen relative to carbon — the most likely slip is forgetting the factor of 2 when converting moles of H₂O to moles of H atoms (each water molecule contributes 2 H, not 1), which would make the H:C ratio look closer to 1:1 instead of the actual 2:1. C₃H₈ doesn't reduce to lowest terms and doesn't match the 1:2 mole ratio found from the combustion data at all — it looks like propane's molecular formula, not an empirical formula derived from this experiment."
     },
     {
       "id": "1-22",
@@ -368,7 +368,7 @@ const QUESTIONS = {
         "CH₄ and C₂H₆"
       ],
       "correct": 2,
-      "explanation": "C₂H₄ reduces to CH₂ (divide both subscripts by 2), and C₃H₆ also reduces to CH₂ (divide both by 3), so they share the empirical formula CH₂ even though their molecular formulas and molar masses differ. C₂H₆ and C₃H₈ don't match: C₂H₆ reduces to CH₃, while C₃H₈ is already in lowest terms (GCD of 3 and 8 is 1) — different empirical formulas. CH₄ and C₂H₆ don't match either: CH₄ is already in lowest terms, while C₂H₆ reduces to CH₃. C₃H₄ and C₄H₆ don't match: C₃H₄ is already in lowest terms (GCD of 3 and 4 is 1), while C₄H₆ reduces to C₂H₃. In each wrong pair, at least one formula doesn't reduce the way the other does, so their simplest whole-number ratios differ."
+      "explanation": "Correct: (C) C₂H₄ and C₃H₆. C₂H₄ reduces to CH₂ (divide both subscripts by 2), and C₃H₆ also reduces to CH₂ (divide both by 3), so they share the empirical formula CH₂ even though their molecular formulas and molar masses differ. C₂H₆ and C₃H₈ don't match: C₂H₆ reduces to CH₃, while C₃H₈ is already in lowest terms (GCD of 3 and 8 is 1) — different empirical formulas. CH₄ and C₂H₆ don't match either: CH₄ is already in lowest terms, while C₂H₆ reduces to CH₃. C₃H₄ and C₄H₆ don't match: C₃H₄ is already in lowest terms (GCD of 3 and 4 is 1), while C₄H₆ reduces to C₂H₃. In each wrong pair, at least one formula doesn't reduce the way the other does, so their simplest whole-number ratios differ."
     },
     {
       "id": "1-23",
@@ -381,7 +381,7 @@ const QUESTIONS = {
         "37.2 amu"
       ],
       "correct": 3,
-      "explanation": "In one mole of MO there's one mole of M and one mole of O (16.00 g). Since M is 69.9% of the mass and O is 30.1%, mass of M / 16.00 g = 69.9/30.1 = 2.322, so mass of M = 37.2 amu. 16.0 amu is just oxygen's own atomic mass, restated — it ignores the percent composition data entirely and doesn't use the given percentages at all. 24.3 amu and 65.4 amu are real atomic masses (magnesium and zinc, respectively) that don't satisfy the given percentages for this particular oxide — plugging either back in shows the mismatch: for M = 65.4, percent M would be 65.4/(65.4+16.00) = 80.3%, not the 69.9% given; for M = 24.3, percent M would be 60.3%, also not 69.9%. Only 37.2 amu reproduces the stated 69.9%/30.1% split."
+      "explanation": "Correct: (D) 37.2 amu. In one mole of MO there's one mole of M and one mole of O (16.00 g). Since M is 69.9% of the mass and O is 30.1%, mass of M / 16.00 g = 69.9/30.1 = 2.322, so mass of M = 37.2 amu. 16.0 amu is just oxygen's own atomic mass, restated — it ignores the percent composition data entirely and doesn't use the given percentages at all. 24.3 amu and 65.4 amu are real atomic masses (magnesium and zinc, respectively) that don't satisfy the given percentages for this particular oxide — plugging either back in shows the mismatch: for M = 65.4, percent M would be 65.4/(65.4+16.00) = 80.3%, not the 69.9% given; for M = 24.3, percent M would be 60.3%, also not 69.9%. Only 37.2 amu reproduces the stated 69.9%/30.1% split."
     },
     {
       "id": "1-24",
@@ -394,7 +394,7 @@ const QUESTIONS = {
         "6"
       ],
       "correct": 2,
-      "explanation": "Mass of anhydrous MgSO₄ = 4.92 − 2.52 = 2.40 g, so moles of MgSO₄ = 2.40 ÷ 120.37 = 0.01994 mol, and moles of water lost = 2.52 ÷ 18.02 = 0.1398 mol. Dividing water moles by MgSO₄ moles gives x = 0.1398/0.01994 ≈ 7, so this is Epsom salt, MgSO₄·7H₂O. x = 5, x = 6, and x = 9 all come from small errors in that final division or in the mass subtraction — for instance, using the total 4.92 g sample mass (instead of the 2.40 g anhydrous residue) as the mole basis for MgSO₄ would understate the moles of salt and distort the water-to-salt ratio. As a sanity check, the correct x = 7 is also a well-known, chemically real hydrate (Epsom salt), whereas x = 6 and x = 9 aren't the accepted hydrate forms of magnesium sulfate, and x = 5 corresponds to a different sulfate hydrate (like CuSO₄·5H₂O) rather than this one."
+      "explanation": "Correct: (C) 7. Mass of anhydrous MgSO₄ = 4.92 − 2.52 = 2.40 g, so moles of MgSO₄ = 2.40 ÷ 120.37 = 0.01994 mol, and moles of water lost = 2.52 ÷ 18.02 = 0.1398 mol. Dividing water moles by MgSO₄ moles gives x = 0.1398/0.01994 ≈ 7, so this is Epsom salt, MgSO₄·7H₂O. x = 5, x = 6, and x = 9 all come from small errors in that final division or in the mass subtraction — for instance, using the total 4.92 g sample mass (instead of the 2.40 g anhydrous residue) as the mole basis for MgSO₄ would understate the moles of salt and distort the water-to-salt ratio. As a sanity check, the correct x = 7 is also a well-known, chemically real hydrate (Epsom salt), whereas x = 6 and x = 9 aren't the accepted hydrate forms of magnesium sulfate, and x = 5 corresponds to a different sulfate hydrate (like CuSO₄·5H₂O) rather than this one."
     },
     {
       "id": "1-81",
@@ -421,7 +421,7 @@ const QUESTIONS = {
         "A mixture's proportions can vary; a compound has a fixed ratio."
       ],
       "correct": 3,
-      "explanation": "Compounds are held together by chemical bonds in a fixed, definite ratio of atoms (water is always exactly 2 H : 1 O), while mixtures are just physical combinations whose relative proportions can vary from sample to sample (saltwater can be dilute or concentrated and still be 'saltwater'). Choice (A) has the definitions completely reversed, assigning the fixed ratio to mixtures and the variable ratio to compounds. Choice (C) is false as a general distinguishing feature — a mixture can easily contain several elements (like brass, a mixture of copper and zinc) or even zero elements if it's a mixture of compounds; 'one element' has nothing to do with what makes something a mixture. Choice (B) is also false: many mixtures absolutely can be separated by physical means (filtration, distillation, evaporation), and in fact physical separability is one of the hallmarks that distinguishes a mixture from a compound, not something mixtures lack."
+      "explanation": "Correct: (D) A mixture's proportions can vary; a compound has a fixed ratio. Compounds are held together by chemical bonds in a fixed, definite ratio of atoms (water is always exactly 2 H : 1 O), while mixtures are just physical combinations whose relative proportions can vary from sample to sample (saltwater can be dilute or concentrated and still be 'saltwater'). Choice (A) has the definitions completely reversed, assigning the fixed ratio to mixtures and the variable ratio to compounds. Choice (C) is false as a general distinguishing feature — a mixture can easily contain several elements (like brass, a mixture of copper and zinc) or even zero elements if it's a mixture of compounds; 'one element' has nothing to do with what makes something a mixture. Choice (B) is also false: many mixtures absolutely can be separated by physical means (filtration, distillation, evaporation), and in fact physical separability is one of the hallmarks that distinguishes a mixture from a compound, not something mixtures lack."
     },
     {
       "id": "1-26",
@@ -434,7 +434,7 @@ const QUESTIONS = {
         "40.0%"
       ],
       "correct": 1,
-      "explanation": "Mass of sand = total mass − mass of NaCl recovered = 20.0 g − 8.00 g = 12.0 g, so percent sand = (12.0/20.0) × 100 = 60.0%. 8.0% would be the case only if 8.00 g referred to the sand's own mass being 8% of the total — but 8.00 g is the mass of recovered NaCl, not a percentage, so this choice misreads what the number represents. 40.0% is the percent NaCl in the mixture (8.00/20.0 × 100), the complement of the correct answer — a classic 'right calculation, wrong component' error. 92.0% would require sand's mass to be far larger than the 12.0 g actually recovered by difference; it doesn't correspond to any combination of the 20.0 g total and 8.00 g NaCl given here."
+      "explanation": "Correct: (B) 60.0%. Mass of sand = total mass − mass of NaCl recovered = 20.0 g − 8.00 g = 12.0 g, so percent sand = (12.0/20.0) × 100 = 60.0%. 8.0% is wrong because it reads the 8.00 g of NaCl as if it were a percentage; it is a mass, and it belongs to the NaCl, not the sand. 40.0% is the percent NaCl in the mixture (8.00/20.0 × 100), the complement of the correct answer — a classic 'right calculation, wrong component' error. 92.0% would require sand's mass to be far larger than the 12.0 g actually recovered by difference; it doesn't correspond to any combination of the 20.0 g total and 8.00 g NaCl given here."
     },
     {
       "id": "1-27",
@@ -447,7 +447,7 @@ const QUESTIONS = {
         "x(39.10/74.55) + (5.00 − x)(39.10/119.00) = 2.00"
       ],
       "correct": 3,
-      "explanation": "Let x = mass of KCl, so (5.00 − x) = mass of KBr. The fraction of potassium's mass within each compound is K's molar mass divided by that compound's molar mass (39.10/74.55 for KCl, 39.10/119.00 for KBr), so multiplying each mass by its K mass-fraction and summing to 2.00 g correctly sets up the mass balance. x + (5.00 − x) = 2.00 is wrong because it just says 'total mass of the mixture equals 2.00 g' with no mass-fraction weighting at all — but the mixture's total mass is 5.00 g, not 2.00 g (2.00 g is only the potassium portion), so this equation doesn't even use the potassium data correctly. x(39.10) + (5.00 − x)(39.10) = 2.00 multiplies each mass by potassium's raw atomic mass instead of by the mass fraction of K within each compound — it forgets to divide by each compound's own molar mass, so the units don't work out to a mass of potassium at all. x(74.55/39.10) + (5.00 − x)(119.00/39.10) = 2.00 has each mass-fraction ratio upside down (compound molar mass over K's molar mass, rather than K's molar mass over the compound's), which would produce a value greater than 1 for each 'fraction' — physically impossible for a mass fraction."
+      "explanation": "Correct: (D) x(39.10/74.55) + (5.00 − x)(39.10/119.00) = 2.00. Let x = mass of KCl, so (5.00 − x) = mass of KBr. The fraction of potassium's mass within each compound is K's molar mass divided by that compound's molar mass (39.10/74.55 for KCl, 39.10/119.00 for KBr), so multiplying each mass by its K mass-fraction and summing to 2.00 g correctly sets up the mass balance. x + (5.00 − x) = 2.00 is wrong because it just says 'total mass of the mixture equals 2.00 g' with no mass-fraction weighting at all — but the mixture's total mass is 5.00 g, not 2.00 g (2.00 g is only the potassium portion), so this equation doesn't even use the potassium data correctly. x(39.10) + (5.00 − x)(39.10) = 2.00 multiplies each mass by potassium's raw atomic mass instead of by the mass fraction of K within each compound — it forgets to divide by each compound's own molar mass, so the units don't work out to a mass of potassium at all. x(74.55/39.10) + (5.00 − x)(119.00/39.10) = 2.00 has each mass-fraction ratio upside down (compound molar mass over K's molar mass, rather than K's molar mass over the compound's), which would produce a value greater than 1 for each 'fraction' — physically impossible for a mass fraction."
     },
     {
       "id": "1-28",
@@ -460,7 +460,7 @@ const QUESTIONS = {
         "45.0%"
       ],
       "correct": 0,
-      "explanation": "Mass of zinc = total mass − mass of copper = 15.0 g − 10.5 g = 4.5 g, so percent zinc = (4.5/15.0) × 100 = 30.0%. 10.5% mistakes the given copper mass (10.5 g) itself for a percentage, without ever computing zinc's mass or dividing by the 15.0 g total. 70.0% is the percent copper in the sample (10.5/15.0 × 100), the complement of the correct zinc percentage — the right number, but for the wrong metal. 45.0% doesn't correspond to any straightforward combination of the given 15.0 g total and 10.5 g copper; it overstates zinc's share well beyond what 15.0 − 10.5 = 4.5 g actually represents."
+      "explanation": "Correct: (A) 30.0%. Mass of zinc = total mass − mass of copper = 15.0 g − 10.5 g = 4.5 g, so percent zinc = (4.5/15.0) × 100 = 30.0%. 10.5% mistakes the given copper mass (10.5 g) itself for a percentage, without ever computing zinc's mass or dividing by the 15.0 g total. 70.0% is the percent copper in the sample (10.5/15.0 × 100), the complement of the correct zinc percentage — the right number, but for the wrong metal. 45.0% doesn't correspond to any straightforward combination of the given 15.0 g total and 10.5 g copper; it overstates zinc's share well beyond what 15.0 − 10.5 = 4.5 g actually represents."
     },
     {
       "id": "1-29",
@@ -486,7 +486,7 @@ const QUESTIONS = {
         "It is mostly Fe₂O₃, since 35.0% is closer to Fe₂O₃'s oxygen percentage."
       ],
       "correct": 3,
-      "explanation": "The mixture's overall oxygen percentage is a weighted average of its two components' oxygen percentages. Since 35.0% is numerically closer to Fe₂O₃'s 30.06% than to Al₂O₃'s 47.08%, the mixture must be mostly Fe₂O₃ by mass — the same 'weighted average sits closer to the more abundant component' logic used for isotope abundance. Choice (A) applies that same reverse-reasoning skill but reads the number line backward, claiming 35.0% is closer to 47.08% when in fact |35.0 − 30.06| = 4.94 is smaller than |35.0 − 47.08| = 12.08. Choice (C) (exactly 50/50) would only be correct if 35.0% were the simple midpoint of 30.06% and 47.08% (which is 38.57%, not 35.0%) — the actual value isn't at the midpoint, so an even split isn't consistent with the data. Choice (B) is wrong because there is, in fact, enough information here: knowing each pure component's oxygen percentage and the mixture's overall oxygen percentage is exactly what's needed to at least qualitatively (and, with an equation, quantitatively) determine the mixture's composition."
+      "explanation": "Correct: (D) It is mostly Fe₂O₃, since 35.0% is closer to Fe₂O₃'s oxygen percentage. The mixture's overall oxygen percentage is a weighted average of its two components' oxygen percentages. Since 35.0% is numerically closer to Fe₂O₃'s 30.06% than to Al₂O₃'s 47.08%, the mixture must be mostly Fe₂O₃ by mass — the same 'weighted average sits closer to the more abundant component' logic used for isotope abundance. Choice (A) applies that same reverse-reasoning skill but reads the number line backward, claiming 35.0% is closer to 47.08% when in fact |35.0 − 30.06| = 4.94 is smaller than |35.0 − 47.08| = 12.08. Choice (C) (exactly 50/50) would only be correct if 35.0% were the simple midpoint of 30.06% and 47.08% (which is 38.57%, not 35.0%) — the actual value isn't at the midpoint, so an even split isn't consistent with the data. Choice (B) is wrong because there is, in fact, enough information here: knowing each pure component's oxygen percentage and the mixture's overall oxygen percentage is exactly what's needed to at least qualitatively (and, with an equation, quantitatively) determine the mixture's composition."
     },
     {
       "id": "1-31",
@@ -499,7 +499,7 @@ const QUESTIONS = {
         "2.20 g"
       ],
       "correct": 0,
-      "explanation": "The mass lost is entirely escaping CO₂ gas: 2.20 g ÷ 44.01 g/mol = 0.0500 mol CO₂. Since CaCO₃ → CaO + CO₂ is a 1:1 mole ratio, moles of CaCO₃ = 0.0500 mol, giving mass of CaCO₃ = 0.0500 mol × 100.09 g/mol = 5.00 g. 2.20 g just restates the mass lost (the CO₂ released) rather than converting it through moles to find the mass of CaCO₃ that produced it — CO₂'s molar mass (44.01) is lighter than CaCO₃'s (100.09), so equal moles of each do not have equal mass. 4.40 g is double the mass lost, which might come from assuming a 2:1 mole ratio between CaCO₃ and CO₂ instead of the actual balanced 1:1 ratio in CaCO₃ → CaO + CO₂. 8.00 g overshoots by treating the entire 10.00 g sample as if a much larger fraction of it were CaCO₃ than the 2.20 g mass loss actually supports; it isn't reachable from the given numbers using the correct 1:1 stoichiometry."
+      "explanation": "Correct: (A) 5.00 g. The mass lost is entirely escaping CO₂ gas: 2.20 g ÷ 44.01 g/mol = 0.0500 mol CO₂. Since CaCO₃ → CaO + CO₂ is a 1:1 mole ratio, moles of CaCO₃ = 0.0500 mol, giving mass of CaCO₃ = 0.0500 mol × 100.09 g/mol = 5.00 g. 2.20 g just restates the mass lost (the CO₂ released) rather than converting it through moles to find the mass of CaCO₃ that produced it — CO₂'s molar mass (44.01) is lighter than CaCO₃'s (100.09), so equal moles of each do not have equal mass. 4.40 g is double the mass lost, which might come from assuming a 2:1 mole ratio between CaCO₃ and CO₂ instead of the actual balanced 1:1 ratio in CaCO₃ → CaO + CO₂. 8.00 g overshoots by treating the entire 10.00 g sample as if a much larger fraction of it were CaCO₃ than the 2.20 g mass loss actually supports; it isn't reachable from the given numbers using the correct 1:1 stoichiometry."
     },
     {
       "id": "1-32",
@@ -512,7 +512,7 @@ const QUESTIONS = {
         "5.00 g"
       ],
       "correct": 0,
-      "explanation": "Let x = mass of Na₂CO₃, so (12.0 − x) = mass of NaHCO₃. Sodium's mass fraction is (2 × 22.99)/105.99 = 0.4338 in Na₂CO₃ and 22.99/84.01 = 0.2737 in NaHCO₃. Solving 0.4338x + 0.2737(12.0 − x) = 4.41 gives x ≈ 7.00 g, which checks out: 0.4338(7.00) + 0.2737(5.00) = 4.41 g. 5.00 g is the mass of NaHCO₃ (12.0 − 7.00), the correct answer's complement — solving the equation correctly but reporting the wrong component's mass. 3.18 g and 8.82 g don't satisfy the mass-balance equation: plugging x = 8.82 in gives 0.4338(8.82) + 0.2737(3.18) = 3.83 + 0.87 = 4.70 g of Na, not the 4.41 g given, so this pairing overstates the Na₂CO₃ fraction relative to what the sodium content actually supports. Both likely come from a slip in setting up or solving the linear equation rather than in the underlying chemistry."
+      "explanation": "Correct: (A) 7.00 g. Let x = mass of Na₂CO₃, so (12.0 − x) = mass of NaHCO₃. Sodium's mass fraction is (2 × 22.99)/105.99 = 0.4338 in Na₂CO₃ and 22.99/84.01 = 0.2737 in NaHCO₃. Solving 0.4338x + 0.2737(12.0 − x) = 4.41 gives x ≈ 7.00 g, which checks out: 0.4338(7.00) + 0.2737(5.00) = 4.41 g. 5.00 g is the mass of NaHCO₃ (12.0 − 7.00), the correct answer's complement — solving the equation correctly but reporting the wrong component's mass. 3.18 g and 8.82 g don't satisfy the mass-balance equation: plugging x = 8.82 in gives 0.4338(8.82) + 0.2737(3.18) = 3.83 + 0.87 = 4.70 g of Na, not the 4.41 g given, so this pairing overstates the Na₂CO₃ fraction relative to what the sodium content actually supports. Both likely come from a slip in setting up or solving the linear equation rather than in the underlying chemistry."
     },
     {
       "id": "1-33",
@@ -525,7 +525,7 @@ const QUESTIONS = {
         "1s² 2s² 2p⁶ 3s¹ 3p⁴"
       ],
       "correct": 2,
-      "explanation": "Filling orbitals in order of increasing energy (1s, 2s, 2p, 3s, 3p) with 15 electrons total gives 1s² 2s² 2p⁶ 3s² 3p³ (2+2+6+2+3 = 15), matching phosphorus's known 5 valence electrons (Group 15). 1s² 2s² 2p⁶ 3s² 3p⁵ has 17 electrons total, which is chlorine's configuration, not phosphorus's — it overshoots the electron count by 2. 1s² 2s² 2p⁷ 3s² 3p² is not physically possible at all, since a p subshell can hold at most 6 electrons (three orbitals × 2 electrons each); 2p⁷ violates the Pauli exclusion principle. 1s² 2s² 2p⁶ 3s¹ 3p⁴ does add up to 15 electrons, but it's an excited-state arrangement — it promotes an electron out of the lower-energy 3s orbital while leaving 3s not completely filled before occupying 3p, violating the Aufbau principle's requirement to fill lower-energy orbitals first."
+      "explanation": "Correct: (C) 1s² 2s² 2p⁶ 3s² 3p³. Filling orbitals in order of increasing energy (1s, 2s, 2p, 3s, 3p) with 15 electrons total gives 1s² 2s² 2p⁶ 3s² 3p³ (2+2+6+2+3 = 15), matching phosphorus's known 5 valence electrons (Group 15). 1s² 2s² 2p⁶ 3s² 3p⁵ has 17 electrons total, which is chlorine's configuration, not phosphorus's — it overshoots the electron count by 2. 1s² 2s² 2p⁷ 3s² 3p² is not physically possible at all, since a p subshell can hold at most 6 electrons (three orbitals × 2 electrons each); 2p⁷ violates the Pauli exclusion principle. 1s² 2s² 2p⁶ 3s¹ 3p⁴ does add up to 15 electrons, but it's an excited-state arrangement — it promotes an electron out of the lower-energy 3s orbital while leaving 3s not completely filled before occupying 3p, violating the Aufbau principle's requirement to fill lower-energy orbitals first."
     },
     {
       "id": "1-34",
@@ -538,7 +538,7 @@ const QUESTIONS = {
         "[Ar] 4s² 3d⁴"
       ],
       "correct": 0,
-      "explanation": "Chromium is a well-known Aufbau exception: instead of [Ar] 4s² 3d⁴, one electron shifts from 4s into 3d to give [Ar] 4s¹ 3d⁵, since a half-filled d-subshell combined with a half-filled s-subshell is lower in overall energy than the 'expected' configuration. [Ar] 4s² 3d⁴ is exactly the naive, unexceptional Aufbau prediction that the question explicitly asks you to correct for — it ignores the extra stability of the half-filled 3d⁵. [Ar] 4s⁰ 3d⁶ removes both 4s electrons and overfills 3d past the stable half-filled point, which isn't how the chromium exception works (it moves only one electron, not two) and doesn't correspond to a neutral Cr atom's 24 electrons in a sensible way. [Ar] 4s² 3d³ 4p¹ promotes an electron all the way up into 4p, a much higher-energy orbital, which is far more drastic (and far less stable) than simply shifting one electron from 4s to the nearby 3d subshell."
+      "explanation": "Correct: (A) [Ar] 4s¹ 3d⁵. Chromium is a well-known Aufbau exception: instead of [Ar] 4s² 3d⁴, one electron shifts from 4s into 3d to give [Ar] 4s¹ 3d⁵, since a half-filled d-subshell combined with a half-filled s-subshell is lower in overall energy than the 'expected' configuration. [Ar] 4s² 3d⁴ is exactly the naive, unexceptional Aufbau prediction that the question explicitly asks you to correct for — it ignores the extra stability of the half-filled 3d⁵. [Ar] 4s⁰ 3d⁶ removes both 4s electrons and overfills 3d past the stable half-filled point, which isn't how the chromium exception works (it moves only one electron, not two) and doesn't correspond to a neutral Cr atom's 24 electrons in a sensible way. [Ar] 4s² 3d³ 4p¹ promotes an electron all the way up into 4p, a much higher-energy orbital, which is far more drastic (and far less stable) than simply shifting one electron from 4s to the nearby 3d subshell."
     },
     {
       "id": "1-35",
@@ -551,7 +551,7 @@ const QUESTIONS = {
         "1s² 2s¹"
       ],
       "correct": 2,
-      "explanation": "In 1s² 2s² 2p⁵ 3s¹, an electron occupies the higher-energy 3s orbital while the lower-energy 2p subshell isn't completely full (only 5 of 6 electrons) — ground-state atoms always fill lower-energy orbitals completely before populating higher ones, so this is an excited state. 1s² 2s² 2p⁶ 3s² (magnesium) and 1s² 2s² 2p⁶ (a Ne-like ion or neon itself) both fill every subshell completely before moving to the next, which is exactly what a valid ground-state configuration requires. 1s² 2s¹ (an excited lithium-like species, or more precisely this represents 3 electrons with 2s only partially reflecting a real neutral atom's ground state for Li, which is actually 1s² 2s¹ — the correct ground state for Li) is a valid ground-state arrangement for a 3-electron system: 1s is completely full before the single electron enters 2s, following the Aufbau order correctly."
+      "explanation": "Correct: (C) 1s² 2s² 2p⁵ 3s¹. In 1s² 2s² 2p⁵ 3s¹, an electron occupies the higher-energy 3s orbital while the lower-energy 2p subshell isn't completely full (only 5 of 6 electrons) — ground-state atoms always fill lower-energy orbitals completely before populating higher ones, so this is an excited state. 1s² 2s² 2p⁶ 3s² (magnesium) and 1s² 2s² 2p⁶ (a Ne-like ion or neon itself) both fill every subshell completely before moving to the next, which is exactly what a valid ground-state configuration requires. 1s² 2s¹ (an excited lithium-like species, or more precisely this represents 3 electrons with 2s only partially reflecting a real neutral atom's ground state for Li, which is actually 1s² 2s¹ — the correct ground state for Li) is a valid ground-state arrangement for a 3-electron system: 1s is completely full before the single electron enters 2s, following the Aufbau order correctly."
     },
     {
       "id": "1-36",
@@ -564,7 +564,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 0,
-      "explanation": "Nitrogen's configuration is 1s² 2s² 2p³. By Hund's rule, the three 2p electrons each occupy a separate one of the three degenerate p orbitals before any pairing occurs, so all three remain unpaired. 0 unpaired electrons would only be true if every orbital in nitrogen's configuration were completely filled, which isn't the case for the 2p³ subshell (a p subshell needs 6 electrons to be full, and nitrogen only has 3 there). 1 unpaired electron would apply to something like fluorine's 2p⁵ configuration (two paired p orbitals, one unpaired), not nitrogen's 2p³. 2 unpaired electrons would apply to a 2p² configuration like carbon (two of the three p orbitals singly occupied, one empty), one fewer electron than nitrogen actually has."
+      "explanation": "Correct: (A) 3. Nitrogen's configuration is 1s² 2s² 2p³. By Hund's rule, the three 2p electrons each occupy a separate one of the three degenerate p orbitals before any pairing occurs, so all three remain unpaired. 0 unpaired electrons would only be true if every orbital in nitrogen's configuration were completely filled, which isn't the case for the 2p³ subshell (a p subshell needs 6 electrons to be full, and nitrogen only has 3 there). 1 unpaired electron would apply to something like fluorine's 2p⁵ configuration (two paired p orbitals, one unpaired), not nitrogen's 2p³. 2 unpaired electrons would apply to a 2p² configuration like carbon (two of the three p orbitals singly occupied, one empty), one fewer electron than nitrogen actually has."
     },
     {
       "id": "1-37",
@@ -577,7 +577,7 @@ const QUESTIONS = {
         "[Ar] 3d⁹"
       ],
       "correct": 3,
-      "explanation": "Neutral copper's ground-state configuration is the exception [Ar] 4s¹ 3d¹⁰. Forming Cu²⁺ removes 2 electrons, and electrons are always removed from the highest principal quantum number shell first — so the single 4s electron goes first, then one from 3d, leaving [Ar] 3d⁹. [Ar] 4s² 3d⁷ assumes copper's neutral atom follows the standard (non-exceptional) [Ar] 4s² 3d⁹ filling pattern and then removes two 3d electrons — but that ignores copper's actual ground-state exception (4s¹ 3d¹⁰, not 4s² 3d⁹), so it starts from the wrong neutral-atom configuration entirely. [Ar] 4s¹ 3d⁸ removes only 1 electron from 3d and leaves the 4s electron in place, which accounts for only 1 electron removed overall (29 − 1 = 28 electrons, not the 27 electrons Cu²⁺ actually has) — it doesn't remove enough electrons for a 2+ charge. [Ar] 3d⁷ 4p² is not a valid way to reach Cu²⁺ at all: it would require electrons to move into the higher-energy, unoccupied 4p subshell rather than simply being removed, which contradicts how cations actually form (by losing electrons, not promoting them)."
+      "explanation": "Correct: (D) [Ar] 3d⁹. Neutral copper's ground-state configuration is the exception [Ar] 4s¹ 3d¹⁰. Forming Cu²⁺ removes 2 electrons, and electrons are always removed from the highest principal quantum number shell first — so the single 4s electron goes first, then one from 3d, leaving [Ar] 3d⁹. [Ar] 4s² 3d⁷ assumes copper's neutral atom follows the standard (non-exceptional) [Ar] 4s² 3d⁹ filling pattern and then removes two 3d electrons — but that ignores copper's actual ground-state exception (4s¹ 3d¹⁰, not 4s² 3d⁹), so it starts from the wrong neutral-atom configuration entirely. [Ar] 4s¹ 3d⁸ removes only 1 electron from 3d and leaves the 4s electron in place, which accounts for only 1 electron removed overall (29 − 1 = 28 electrons, not the 27 electrons Cu²⁺ actually has) — it doesn't remove enough electrons for a 2+ charge. [Ar] 3d⁷ 4p² is not a valid way to reach Cu²⁺ at all: it would require electrons to move into the higher-energy, unoccupied 4p subshell rather than simply being removed, which contradicts how cations actually form (by losing electrons, not promoting them)."
     },
     {
       "id": "1-38",
@@ -590,7 +590,7 @@ const QUESTIONS = {
         "n=2, l=1, mₗ=0, mₛ=+½"
       ],
       "correct": 2,
-      "explanation": "The angular momentum quantum number l must range from 0 to (n − 1). For n = 2, the maximum allowed l is 1 (giving 2s and 2p only), so l = 2 at n = 2 is invalid — an l = 2 (d-type) orbital requires n ≥ 3, as in 3d. n=2, l=1, mₗ=0, mₛ=+½ is fully allowed: l=1 is valid for n=2 (a 2p orbital), mₗ ranges from −l to +l so 0 is valid, and mₛ is always ±½. n=3, l=2, mₗ=−2, mₛ=−½ is also fully allowed: l=2 is valid for n=3 (a 3d orbital), and mₗ=−2 is within the allowed range of −2 to +2 for l=2. n=1, l=0, mₗ=0, mₛ=−½ is allowed as well: for n=1, l can only be 0 (a 1s orbital), and mₗ=0 is the only valid value when l=0."
+      "explanation": "Correct: (C) n=2, l=2, mₗ=0, mₛ=+½. The angular momentum quantum number l must range from 0 to (n − 1). For n = 2, the maximum allowed l is 1 (giving 2s and 2p only), so l = 2 at n = 2 is invalid — an l = 2 (d-type) orbital requires n ≥ 3, as in 3d. n=2, l=1, mₗ=0, mₛ=+½ is fully allowed: l=1 is valid for n=2 (a 2p orbital), mₗ ranges from −l to +l so 0 is valid, and mₛ is always ±½. n=3, l=2, mₗ=−2, mₛ=−½ is also fully allowed: l=2 is valid for n=3 (a 3d orbital), and mₗ=−2 is within the allowed range of −2 to +2 for l=2. n=1, l=0, mₗ=0, mₛ=−½ is allowed as well: for n=1, l can only be 0 (a 1s orbital), and mₗ=0 is the only valid value when l=0."
     },
     {
       "id": "1-39",
@@ -603,7 +603,7 @@ const QUESTIONS = {
         "Phosphorus (P), 5 valence electrons"
       ],
       "correct": 1,
-      "explanation": "[Ne] accounts for 10 electrons; adding 3s²(2) + 3p⁴(4) gives 16 total electrons, matching sulfur (Z=16), with all 6 outermost-shell electrons (3s² 3p⁴) counting as valence electrons, consistent with sulfur's position in Group 16. 'Sulfur (S), 4 valence electrons' correctly identifies the element but undercounts the valence electrons — it only counts the 3p⁴ electrons and forgets to include the 3s² electrons, which are in the same outermost shell (n=3) and therefore also count as valence electrons. 'Silicon (Si), 4 valence electrons' misidentifies the element entirely: silicon (Z=14) would need a configuration like [Ne] 3s² 3p² (14 electrons total), not [Ne] 3s² 3p⁴ (16 electrons) — this choice seems to have counted only the exponents (2 and 4 → mistakenly averaged or misread as Si's electron count) rather than adding 10 + 2 + 4 correctly. 'Phosphorus (P), 5 valence electrons' is also a miscount: phosphorus (Z=15) has the configuration [Ne] 3s² 3p³ (15 electrons, 5 valence electrons), one fewer electron than the 16 given here, so this choice is off by one electron in both the total count and the resulting valence count."
+      "explanation": "Correct: (B) Sulfur (S), 6 valence electrons. [Ne] accounts for 10 electrons; adding 3s²(2) + 3p⁴(4) gives 16 total electrons, matching sulfur (Z=16), with all 6 outermost-shell electrons (3s² 3p⁴) counting as valence electrons, consistent with sulfur's position in Group 16. 'Sulfur (S), 4 valence electrons' correctly identifies the element but undercounts the valence electrons — it only counts the 3p⁴ electrons and forgets to include the 3s² electrons, which are in the same outermost shell (n=3) and therefore also count as valence electrons. 'Silicon (Si), 4 valence electrons' misidentifies the element entirely: silicon (Z=14) would need a configuration like [Ne] 3s² 3p² (14 electrons total), not [Ne] 3s² 3p⁴ (16 electrons) — this choice seems to have counted only the exponents (2 and 4 → mistakenly averaged or misread as Si's electron count) rather than adding 10 + 2 + 4 correctly. 'Phosphorus (P), 5 valence electrons' is also a miscount: phosphorus (Z=15) has the configuration [Ne] 3s² 3p³ (15 electrons, 5 valence electrons), one fewer electron than the 16 given here, so this choice is off by one electron in both the total count and the resulting valence count."
     },
     {
       "id": "1-40",
@@ -616,7 +616,7 @@ const QUESTIONS = {
         "Only Ca²⁺ is isoelectronic with Ar."
       ],
       "correct": 2,
-      "explanation": "Cl (Z=17) gains 1 electron to form Cl⁻ (18 electrons); Ca (Z=20) loses 2 electrons to form Ca²⁺ (18 electrons); S (Z=16) gains 2 electrons to form S²⁻ (18 electrons). All three end up with exactly 18 electrons, the same as neutral argon, so 'All three: Ca²⁺, Cl⁻, and S²⁻' is correct. Picking only 'Only Ca²⁺ is isoelectronic with Ar', only 'Only Cl⁻ is isoelectronic with Ar', or only 'Only S²⁻ is isoelectronic with Ar' is incomplete rather than wrong in its chemistry — each of those three ions genuinely does reach 18 electrons, but the question asks which ion(s) qualify, and since all three satisfy the condition, selecting just one of them misses that isoelectronic species can come from elements in very different positions on the periodic table (a halogen, an alkaline earth metal, and a chalcogen can all reach the same electron count by gaining or losing different numbers of electrons)."
+      "explanation": "Correct: (C) All three: Ca²⁺, Cl⁻, and S²⁻. Cl (Z=17) gains 1 electron to form Cl⁻ (18 electrons); Ca (Z=20) loses 2 electrons to form Ca²⁺ (18 electrons); S (Z=16) gains 2 electrons to form S²⁻ (18 electrons). All three end up with exactly 18 electrons, the same as neutral argon, so 'All three: Ca²⁺, Cl⁻, and S²⁻' is correct. Picking only 'Only Ca²⁺ is isoelectronic with Ar', only 'Only Cl⁻ is isoelectronic with Ar', or only 'Only S²⁻ is isoelectronic with Ar' is incomplete rather than wrong in its chemistry — each of those three ions genuinely does reach 18 electrons, but the question asks which ion(s) qualify, and since all three satisfy the condition, selecting just one of them misses that isoelectronic species can come from elements in very different positions on the periodic table (a halogen, an alkaline earth metal, and a chalcogen can all reach the same electron count by gaining or losing different numbers of electrons)."
     },
     {
       "id": "1-41",
@@ -629,7 +629,7 @@ const QUESTIONS = {
         "Sc³⁺ < Ca²⁺ < Ti⁴⁺"
       ],
       "correct": 1,
-      "explanation": "All three ions have 18 electrons (isoelectronic with Ar), so radius depends entirely on nuclear charge: more protons pull the same 18 electrons in tighter. Proton counts are Ca (20), Sc (21), Ti (22), so from smallest to largest radius: Ti⁴⁺ < Sc³⁺ < Ca²⁺. Sc³⁺ < Ca²⁺ < Ti⁴⁺ and Ca²⁺ < Sc³⁺ < Ti⁴⁺ both put Ca²⁺ or Ti⁴⁺ in the wrong relative position — since Ca has the fewest protons of the three, it should have the weakest pull on the shared 18 electrons and therefore the largest radius, not a smaller one; these orderings partially or fully invert that relationship. Ti⁴⁺ < Ca²⁺ < Sc³⁺ swaps the last two ions — it correctly identifies Ti⁴⁺ (most protons) as smallest, but then places Ca²⁺ (fewest protons among the three) as smaller than Sc³⁺, when in fact fewer protons should mean a larger, not smaller, radius.",
+      "explanation": "Correct: (B) Ti⁴⁺ < Sc³⁺ < Ca²⁺. All three ions have 18 electrons (isoelectronic with Ar), so radius depends entirely on nuclear charge: more protons pull the same 18 electrons in tighter. Proton counts are Ca (20), Sc (21), Ti (22), so from smallest to largest radius: Ti⁴⁺ < Sc³⁺ < Ca²⁺. Sc³⁺ < Ca²⁺ < Ti⁴⁺ and Ca²⁺ < Sc³⁺ < Ti⁴⁺ both put Ca²⁺ or Ti⁴⁺ in the wrong relative position — since Ca has the fewest protons of the three, it should have the weakest pull on the shared 18 electrons and therefore the largest radius, not a smaller one; these orderings partially or fully invert that relationship. Ti⁴⁺ < Ca²⁺ < Sc³⁺ swaps the last two ions — it correctly identifies Ti⁴⁺ (most protons) as smallest, but then places Ca²⁺ (fewest protons among the three) as smaller than Sc³⁺, when in fact fewer protons should mean a larger, not smaller, radius.",
       "stretch": true
     },
     {
@@ -671,7 +671,7 @@ const QUESTIONS = {
         "The peak with the smallest height"
       ],
       "correct": 2,
-      "explanation": "PES spectra are conventionally plotted with binding energy decreasing from left to right, so the peak farthest to the right corresponds to electrons that are easiest to remove — the lowest binding energy, i.e. the outermost valence electrons. The peak farthest to the left represents the highest binding energy (the most tightly held, innermost core electrons) — the exact opposite end of the spectrum from what the question asks for. Peak height (the tallest or shortest peak) reflects the number of electrons occupying that subshell, which is an entirely separate piece of information from binding energy — a tall peak can appear anywhere along the binding-energy axis, and height alone says nothing about how tightly those electrons are held."
+      "explanation": "Correct: (C) The peak farthest to the right (lowest binding energy). PES spectra are conventionally plotted with binding energy decreasing from left to right, so the peak farthest to the right corresponds to electrons that are easiest to remove — the lowest binding energy, i.e. the outermost valence electrons. The peak farthest to the left represents the highest binding energy (the most tightly held, innermost core electrons) — the exact opposite end of the spectrum from what the question asks for. Peak height (the tallest or shortest peak) reflects the number of electrons occupying that subshell, which is an entirely separate piece of information from binding energy — a tall peak can appear anywhere along the binding-energy axis, and height alone says nothing about how tightly those electrons are held."
     },
     {
       "id": "1-43",
@@ -684,7 +684,7 @@ const QUESTIONS = {
         "Mg (Z=12)"
       ],
       "correct": 0,
-      "explanation": "Adding the peak heights, 2+2+6+1 = 11 total electrons, matching sodium (Z=11). The subshells in order of decreasing binding energy are 1s, 2s, 2p, 3s, giving 1s²2s²2p⁶3s¹ — exactly sodium's ground-state configuration, with its lone valence electron producing that final peak of height 1. Mg (Z=12) would need one more electron than this spectrum shows (its configuration ends in 3s², which would produce a final peak of height 2, not 1). Al (Z=13) has two more electrons than this spectrum shows and would require a fifth peak (for 3p¹) that isn't present here. Ne (Z=10) has one fewer electron than this spectrum shows and, with a fully filled 2p⁶ as its outermost subshell, would only produce three peaks (1s, 2s, 2p) — not the four peaks (including a distinct 3s peak) actually shown."
+      "explanation": "Correct: (A) Na (Z=11). Adding the peak heights, 2+2+6+1 = 11 total electrons, matching sodium (Z=11). The subshells in order of decreasing binding energy are 1s, 2s, 2p, 3s, giving 1s²2s²2p⁶3s¹ — exactly sodium's ground-state configuration, with its lone valence electron producing that final peak of height 1. Mg (Z=12) would need one more electron than this spectrum shows (its configuration ends in 3s², which would produce a final peak of height 2, not 1). Al (Z=13) has two more electrons than this spectrum shows and would require a fifth peak (for 3p¹) that isn't present here. Ne (Z=10) has one fewer electron than this spectrum shows and, with a fully filled 2p⁶ as its outermost subshell, would only produce three peaks (1s, 2s, 2p) — not the four peaks (including a distinct 3s peak) actually shown."
     },
     {
       "id": "1-44",
@@ -697,7 +697,7 @@ const QUESTIONS = {
         "The electron is farther from the nucleus, on average."
       ],
       "correct": 2,
-      "explanation": "Binding energy measures how tightly an electron is held; the more tightly bound (harder to remove), the more energy is needed to eject it, and the farther left that peak appears. Core electrons, being closest to the nucleus and least shielded from its full charge, are the most tightly bound and produce the leftmost, highest-binding-energy peaks. Choice (A), being part of a completely filled subshell, doesn't by itself determine how far left a peak sits — valence subshells (like 2p⁶ in neon) can be completely filled too, yet still show up as relatively low-binding-energy, rightward peaks; it's proximity to the nucleus, not 'filled-ness,' that drives binding energy. Choice (B), being more shielded, would push a peak the opposite direction — more shielding from other electrons weakens the nucleus's effective pull, making the electron easier to remove and shifting its peak to the right (lower binding energy), not the left. Choice (D), being farther from the nucleus, also produces the opposite effect — electrons farther out are held less tightly (lower binding energy) and appear farther right, the reverse of what's being asked."
+      "explanation": "Correct: (C) The electron is held more tightly by the nucleus. Binding energy measures how tightly an electron is held; the more tightly bound (harder to remove), the more energy is needed to eject it, and the farther left that peak appears. Core electrons, being closest to the nucleus and least shielded from its full charge, are the most tightly bound and produce the leftmost, highest-binding-energy peaks. Choice (A), being part of a completely filled subshell, doesn't by itself determine how far left a peak sits — valence subshells (like 2p⁶ in neon) can be completely filled too, yet still show up as relatively low-binding-energy, rightward peaks; it's proximity to the nucleus, not 'filled-ness,' that drives binding energy. Choice (B), being more shielded, would push a peak the opposite direction — more shielding from other electrons weakens the nucleus's effective pull, making the electron easier to remove and shifting its peak to the right (lower binding energy), not the left. Choice (D), being farther from the nucleus, also produces the opposite effect — electrons farther out are held less tightly (lower binding energy) and appear farther right, the reverse of what's being asked."
     },
     {
       "id": "1-45",
@@ -710,7 +710,7 @@ const QUESTIONS = {
         "S²⁻"
       ],
       "correct": 1,
-      "explanation": "Matching argon's PES pattern means the ion has argon's 18-electron configuration. With a 2+ charge, it must have started with 20 electrons (Z=20) before losing 2 — that's calcium, so the ion is Ca²⁺. S²⁻ would come from sulfur (Z=16) gaining 2 electrons to reach 18, which does match argon's electron count and PES pattern shape — but it carries a 2− charge, not the 2+ charge specified in the question, so it doesn't fit the charge constraint even though its electron count would look right. K⁺ comes from potassium (Z=19) losing only 1 electron to reach 18 — the correct electron count for matching argon's pattern, but the wrong charge (1+, not 2+) for this question. Cl⁻ comes from chlorine (Z=17) gaining 1 electron to reach 18 — again, the right electron count to match argon's PES pattern, but a 1− charge, not the 2+ specified."
+      "explanation": "Correct: (B) Ca²⁺. Matching argon's PES pattern means the ion has argon's 18-electron configuration. With a 2+ charge, it must have started with 20 electrons (Z=20) before losing 2 — that's calcium, so the ion is Ca²⁺. S²⁻ would come from sulfur (Z=16) gaining 2 electrons to reach 18, which does match argon's electron count and PES pattern shape — but it carries a 2− charge, not the 2+ charge specified in the question, so it doesn't fit the charge constraint even though its electron count would look right. K⁺ comes from potassium (Z=19) losing only 1 electron to reach 18 — the correct electron count for matching argon's pattern, but the wrong charge (1+, not 2+) for this question. Cl⁻ comes from chlorine (Z=17) gaining 1 electron to reach 18 — again, the right electron count to match argon's PES pattern, but a 1− charge, not the 2+ specified."
     },
     {
       "id": "1-46",
@@ -723,7 +723,7 @@ const QUESTIONS = {
         "2p electrons have a different charge than 2s electrons."
       ],
       "correct": 1,
-      "explanation": "Within the same principal energy level, s orbitals penetrate closer to the nucleus than p orbitals, so 2s electrons spend more time near the nucleus and are held more tightly (higher binding energy); 2p electrons are farther out on average and experience some shielding from the 2s electrons, making them easier to remove (lower binding energy, a peak farther right). Choice (C) confuses the number of electrons a subshell can hold with how tightly those electrons are bound — a subshell having more electron 'slots' (2p can hold 6 vs. 2s's 2) says nothing directly about the binding energy of any individual electron in it. Choice (D) is simply factually wrong: 2s and 2p electrons carry the same charge (−1e, like all electrons); charge doesn't vary by subshell. Choice (A) is contradicted by the fact that this s-before-p binding energy ordering is a consistent, general pattern across essentially all multi-electron atoms, arising from orbital penetration and shielding — it isn't something that varies unpredictably element to element."
+      "explanation": "Correct: (B) 2p electrons sit farther out and experience more shielding. Within the same principal energy level, s orbitals penetrate closer to the nucleus than p orbitals, so 2s electrons spend more time near the nucleus and are held more tightly (higher binding energy); 2p electrons are farther out on average and experience some shielding from the 2s electrons, making them easier to remove (lower binding energy, a peak farther right). Choice (C) confuses the number of electrons a subshell can hold with how tightly those electrons are bound — a subshell having more electron 'slots' (2p can hold 6 vs. 2s's 2) says nothing directly about the binding energy of any individual electron in it. Choice (D) is simply factually wrong: 2s and 2p electrons carry the same charge (−1e, like all electrons); charge doesn't vary by subshell. Choice (A) is contradicted by the fact that this s-before-p binding energy ordering is a consistent, general pattern across essentially all multi-electron atoms, arising from orbital penetration and shielding — it isn't something that varies unpredictably element to element."
     },
     {
       "id": "1-47",
@@ -736,7 +736,7 @@ const QUESTIONS = {
         "20 electrons, calcium"
       ],
       "correct": 2,
-      "explanation": "Summing the peak heights, 2+2+6+2+6 = 18 total electrons. The subshells in decreasing binding energy order are 1s, 2s, 2p, 3s, 3p, giving 1s²2s²2p⁶3s²3p⁶ — a completely filled third shell (s and p subshells), exactly argon's (Z=18) configuration. '17 electrons, chlorine' undercounts by 1: chlorine's configuration ends in 3p⁵, which would show a final peak height of 5, not the 6 given here. '20 electrons, calcium' overcounts by 2: calcium's configuration adds a 4s² subshell beyond argon's, which would require a sixth peak that isn't present in this five-peak spectrum. '16 electrons, sulfur' undercounts by 2: sulfur's configuration ends in 3p⁴, which would show a final peak height of 4, not 6, and its total electron count doesn't match the sum of the given peak heights."
+      "explanation": "Correct: (C) 18 electrons, argon. Summing the peak heights, 2+2+6+2+6 = 18 total electrons. The subshells in decreasing binding energy order are 1s, 2s, 2p, 3s, 3p, giving 1s²2s²2p⁶3s²3p⁶ — a completely filled third shell (s and p subshells), exactly argon's (Z=18) configuration. '17 electrons, chlorine' undercounts by 1: chlorine's configuration ends in 3p⁵, which would show a final peak height of 5, not the 6 given here. '20 electrons, calcium' overcounts by 2: calcium's configuration adds a 4s² subshell beyond argon's, which would require a sixth peak that isn't present in this five-peak spectrum. '16 electrons, sulfur' undercounts by 2: sulfur's configuration ends in 3p⁴, which would show a final peak height of 4, not 6, and its total electron count doesn't match the sum of the given peak heights."
     },
     {
       "id": "1-48",
@@ -749,7 +749,7 @@ const QUESTIONS = {
         "Li and Na"
       ],
       "correct": 0,
-      "explanation": "Carbon (1s²2s²2p²) and nitrogen (1s²2s²2p³) both show exactly three peaks (1s, 2s, 2p occupied), matching the 'same number of peaks' requirement, but their outermost 2p peak heights differ (2 for carbon vs. 3 for nitrogen) since they have different numbers of valence p electrons. F and Cl are in different periods: F shows three peaks (1s, 2s, 2p) while Cl shows five peaks (1s, 2s, 2p, 3s, 3p) — a different number of peaks entirely, not just a different height on a shared peak. O and S have the same mismatch: O shows three peaks while S shows five, again differing in peak count, not just height. Li and Na are likewise in different periods: Li shows two peaks (1s, 2s) while Na shows four (1s, 2s, 2p, 3s) — different peak counts, so this pair also fails the 'same number of peaks' condition the question requires."
+      "explanation": "Correct: (A) C and N. Carbon (1s²2s²2p²) and nitrogen (1s²2s²2p³) both show exactly three peaks (1s, 2s, 2p occupied), matching the 'same number of peaks' requirement, but their outermost 2p peak heights differ (2 for carbon vs. 3 for nitrogen) since they have different numbers of valence p electrons. F and Cl are in different periods: F shows three peaks (1s, 2s, 2p) while Cl shows five peaks (1s, 2s, 2p, 3s, 3p) — a different number of peaks entirely, not just a different height on a shared peak. O and S have the same mismatch: O shows three peaks while S shows five, again differing in peak count, not just height. Li and Na are likewise in different periods: Li shows two peaks (1s, 2s) while Na shows four (1s, 2s, 2p, 3s) — different peak counts, so this pair also fails the 'same number of peaks' condition the question requires."
     },
     {
       "id": "1-49",
@@ -762,7 +762,7 @@ const QUESTIONS = {
         "A 1− anion, though that leaves the octet incomplete"
       ],
       "correct": 1,
-      "explanation": "Summing peak heights, 2+2+6+2+3 = 15 electrons, matching phosphorus (Z=15), configuration 1s²2s²2p⁶ 3s²3p³. As a nonmetal with a relatively high effective nuclear charge, phosphorus loses electrons far less readily than it gains them, so it tends to gain 3 electrons to complete its octet, forming P³⁻. A 3+ cation ('to reach a noble gas configuration') gets the direction of electron transfer backward for a nonmetal — removing 3 electrons from phosphorus would require far more energy than is recovered by ionic bond formation, since nonmetals generally hold onto their electrons tightly rather than giving them up. A 1− anion doesn't get phosphorus to a full octet at all: starting from 3p³, gaining just 1 electron gives 3p⁴, still two electrons short of the filled 3p⁶ needed to match argon's configuration. 'Does not typically form ions' is inconsistent with phosphorus's actual chemistry — phosphorus commonly forms P³⁻ in ionic compounds (such as in phosphides like Ca₃P₂), so this choice contradicts well-established behavior for a Group 15 nonmetal."
+      "explanation": "Correct: (B) A 3− anion, to reach a full octet. Summing peak heights, 2+2+6+2+3 = 15 electrons, matching phosphorus (Z=15), configuration 1s²2s²2p⁶ 3s²3p³. As a nonmetal with a relatively high effective nuclear charge, phosphorus loses electrons far less readily than it gains them, so it tends to gain 3 electrons to complete its octet, forming P³⁻. A 3+ cation ('to reach a noble gas configuration') gets the direction of electron transfer backward for a nonmetal — removing 3 electrons from phosphorus would require far more energy than is recovered by ionic bond formation, since nonmetals generally hold onto their electrons tightly rather than giving them up. A 1− anion doesn't get phosphorus to a full octet at all: starting from 3p³, gaining just 1 electron gives 3p⁴, still two electrons short of the filled 3p⁶ needed to match argon's configuration. 'Does not typically form ions' is inconsistent with phosphorus's actual chemistry — phosphorus commonly forms P³⁻ in ionic compounds (such as in phosphides like Ca₃P₂), so this choice contradicts well-established behavior for a Group 15 nonmetal."
     },
     {
       "id": "1-50",
@@ -775,7 +775,7 @@ const QUESTIONS = {
         "Na < Al < Mg"
       ],
       "correct": 3,
-      "explanation": "Moving across a period generally increases ionization energy, but Al is an exception: its outermost electron sits in a higher-energy, more-shielded 3p orbital rather than Mg's extra-stable filled 3s², making Al's IE dip slightly below Mg's. So the order is Na < Al < Mg. Al < Mg < Na reverses the entire trend, placing the elements in decreasing order of nuclear charge/valence-shell filling rather than increasing IE — sodium, with the fewest protons and the most-shielded lone valence electron, should have the lowest IE of the three, not the highest. Mg < Na < Al also gets sodium out of place — sodium's single, poorly-shielded valence electron in a new shell makes it the easiest of the three to ionize, so it belongs at the very bottom of the ranking, not in the middle. Na < Mg < Al applies the simple 'always increases across a period' rule without accounting for the well-documented Mg/Al dip; it would be correct if Al didn't have that extra-stable 3s²-vs-3p¹ relationship working against the general trend."
+      "explanation": "Correct: (D) Na < Al < Mg. Moving across a period generally increases ionization energy, but Al is an exception: its outermost electron sits in a higher-energy, more-shielded 3p orbital rather than Mg's extra-stable filled 3s², making Al's IE dip slightly below Mg's. So the order is Na < Al < Mg. Al < Mg < Na reverses the entire trend, placing the elements in decreasing order of nuclear charge/valence-shell filling rather than increasing IE — sodium, with the fewest protons and the most-shielded lone valence electron, should have the lowest IE of the three, not the highest. Mg < Na < Al also gets sodium out of place — sodium's single, poorly-shielded valence electron in a new shell makes it the easiest of the three to ionize, so it belongs at the very bottom of the ranking, not in the middle. Na < Mg < Al applies the simple 'always increases across a period' rule without accounting for the well-documented Mg/Al dip; it would be correct if Al didn't have that extra-stable 3s²-vs-3p¹ relationship working against the general trend."
     },
     {
       "id": "1-51",
@@ -788,7 +788,7 @@ const QUESTIONS = {
         "Rb"
       ],
       "correct": 3,
-      "explanation": "All four are Group 1 alkali metals, and atomic radius increases down a group as each row adds a new electron shell, with inner-shell shielding outweighing the added nuclear charge. Rb sits lowest among these four, giving it the most shells and the largest radius. Li, sitting at the very top of the group, has the fewest electron shells of the four and therefore the smallest radius, not the largest. Na and K are progressively larger than Li as you move down the group, but both still sit above Rb, so each has fewer electron shells than Rb and a correspondingly smaller radius — picking either one ignores that there's an even lower (and larger) member of the group among the choices."
+      "explanation": "Correct: (D) Rb. All four are Group 1 alkali metals, and atomic radius increases down a group as each row adds a new electron shell, with inner-shell shielding outweighing the added nuclear charge. Rb sits lowest among these four, giving it the most shells and the largest radius. Li, sitting at the very top of the group, has the fewest electron shells of the four and therefore the smallest radius, not the largest. Na and K are progressively larger than Li as you move down the group, but both still sit above Rb, so each has fewer electron shells than Rb and a correspondingly smaller radius — picking either one ignores that there's an even lower (and larger) member of the group among the choices."
     },
     {
       "id": "1-52",
@@ -801,7 +801,7 @@ const QUESTIONS = {
         "Atomic radius increases, making electrons easier to remove."
       ],
       "correct": 1,
-      "explanation": "Across a period, electrons are added to the same outermost shell, so core-electron shielding barely changes while the number of protons (nuclear charge) steadily increases, raising the effective nuclear charge on the valence electrons and making them harder to remove — hence increasing ionization energy. Choice (A) has the shielding trend backward: shielding from core electrons stays roughly constant across a period (since no new inner shells are added), it doesn't increase — if it did increase enough to offset the added protons, ionization energy wouldn't rise at all. Choice (C) is simply false for a single period: the number of electron shells (the principal quantum number of the valence shell) stays the same all the way across a period; only the number of protons and valence electrons changes, not the shell count. Choice (D) is backward as well: atomic radius actually decreases across a period (due to the same rising effective nuclear charge), which pulls electrons in closer and makes them harder, not easier, to remove."
+      "explanation": "Correct: (B) Nuclear charge rises while shielding stays constant. Across a period, electrons are added to the same outermost shell, so core-electron shielding barely changes while the number of protons (nuclear charge) steadily increases, raising the effective nuclear charge on the valence electrons and making them harder to remove — hence increasing ionization energy. Choice (A) has the shielding trend backward: shielding from core electrons stays roughly constant across a period (since no new inner shells are added), it doesn't increase — if it did increase enough to offset the added protons, ionization energy wouldn't rise at all. Choice (C) is simply false for a single period: the number of electron shells (the principal quantum number of the valence shell) stays the same all the way across a period; only the number of protons and valence electrons changes, not the shell count. Choice (D) is backward as well: atomic radius actually decreases across a period (due to the same rising effective nuclear charge), which pulls electrons in closer and makes them harder, not easier, to remove."
     },
     {
       "id": "1-53",
@@ -814,7 +814,7 @@ const QUESTIONS = {
         "Decreases down a group, decreases across a period"
       ],
       "correct": 0,
-      "explanation": "Electronegativity follows the same effective-nuclear-charge logic as ionization energy: down a group, added shielding from new shells outweighs added protons, decreasing electronegativity; across a period, effective nuclear charge increases, increasing electronegativity — consistent with fluorine (top-right of the nonmetals) being the most electronegative element. 'Increases down a group, increases across a period' gets the group trend backward — if electronegativity increased going down a group, the heaviest alkali metals would be more electronegative than lighter ones, which contradicts how weakly metals at the bottom of a group attract shared electrons. 'Increases down a group, decreases across a period' reverses both trends at once, which would (among other problems) place elements like francium as more electronegative than fluorine and put oxygen below carbon in electronegativity — neither is true. 'Decreases down a group, decreases across a period' gets the period trend backward: electronegativity actually rises left-to-right due to increasing effective nuclear charge, not falls, so this choice has the group trend right but the period trend wrong."
+      "explanation": "Correct: (A) Decreases down a group, increases across a period. Electronegativity follows the same effective-nuclear-charge logic as ionization energy: down a group, added shielding from new shells outweighs added protons, decreasing electronegativity; across a period, effective nuclear charge increases, increasing electronegativity — consistent with fluorine (top-right of the nonmetals) being the most electronegative element. 'Increases down a group, increases across a period' gets the group trend backward — if electronegativity increased going down a group, the heaviest alkali metals would be more electronegative than lighter ones, which contradicts how weakly metals at the bottom of a group attract shared electrons. 'Increases down a group, decreases across a period' reverses both trends at once, which would (among other problems) place elements like francium as more electronegative than fluorine and put oxygen below carbon in electronegativity — neither is true. 'Decreases down a group, decreases across a period' gets the period trend backward: electronegativity actually rises left-to-right due to increasing effective nuclear charge, not falls, so this choice has the group trend right but the period trend wrong."
     },
     {
       "id": "1-54",
@@ -840,7 +840,7 @@ const QUESTIONS = {
         "IE(Be) > IE(B)"
       ],
       "correct": 3,
-      "explanation": "Beryllium's outermost electron sits in a stable, filled 2s² subshell, while boron's outermost electron is in a higher-energy 2p¹ subshell that's also slightly more shielded by the 2s² electrons beneath it, making boron's electron easier to remove despite its extra proton — so IE(Be) > IE(B), the reverse of the simple across-a-period rule. IE(C) > IE(N) misidentifies where the Period 2 exception occurs — carbon-to-nitrogen actually follows the normal increasing trend (nitrogen's half-filled, extra-stable 2p³ configuration makes it harder to ionize than carbon, not easier), so this pairing doesn't represent a real anomaly. IE(F) > IE(Ne) also follows the normal expected trend rather than breaking it — fluorine has one fewer proton than neon and a not-yet-full 2p⁵ subshell, so neon's IE should be (and is) higher than fluorine's; there's no exception here to point to. IE(Li) > IE(Be) contradicts the general trend entirely without being a recognized exception — beryllium's filled, stable 2s² subshell and extra proton make it harder to ionize than lithium's single, poorly-shielded 2s¹ electron, so IE(Be) is greater than IE(Li), following (not breaking) the normal across-a-period increase."
+      "explanation": "Correct: (D) IE(Be) > IE(B). Beryllium's outermost electron sits in a stable, filled 2s² subshell, while boron's outermost electron is in a higher-energy 2p¹ subshell that's also slightly more shielded by the 2s² electrons beneath it, making boron's electron easier to remove despite its extra proton — so IE(Be) > IE(B), the reverse of the simple across-a-period rule. IE(C) > IE(N) misidentifies where the Period 2 exception occurs — carbon-to-nitrogen actually follows the normal increasing trend (nitrogen's half-filled, extra-stable 2p³ configuration makes it harder to ionize than carbon, not easier), so this pairing doesn't represent a real anomaly. IE(F) > IE(Ne) also follows the normal expected trend rather than breaking it — fluorine has one fewer proton than neon and a not-yet-full 2p⁵ subshell, so neon's IE should be (and is) higher than fluorine's; there's no exception here to point to. IE(Li) > IE(Be) contradicts the general trend entirely without being a recognized exception — beryllium's filled, stable 2s² subshell and extra proton make it harder to ionize than lithium's single, poorly-shielded 2s¹ electron, so IE(Be) is greater than IE(Li), following (not breaking) the normal across-a-period increase."
     },
     {
       "id": "1-56",
@@ -853,7 +853,7 @@ const QUESTIONS = {
         "O²⁻ > Na⁺ > F⁻"
       ],
       "correct": 2,
-      "explanation": "All three species have 10 electrons (isoelectronic with neon), so radius depends only on nuclear charge: O (8 protons) < F (9 protons) < Na (11 protons), and fewer protons means less pull on the same 10 electrons and a larger radius, giving O²⁻ > F⁻ > Na⁺. F⁻ > O²⁻ > Na⁺ swaps the top two — but oxygen has fewer protons than fluorine (8 vs. 9), so O²⁻ should have the weaker nuclear pull and the larger radius of the two, not the smaller. O²⁻ > Na⁺ > F⁻ puts Na⁺ out of place — sodium has the most protons of the three (11), so it should have the strongest pull on the shared 10 electrons and the smallest radius, not a radius in between the other two. Na⁺ > F⁻ > O²⁻ inverts the entire trend, ranking the ion with the most protons (and therefore the tightest hold on its 10 electrons) as the largest, when more protons at a fixed electron count should always mean a smaller, not larger, radius."
+      "explanation": "Correct: (C) O²⁻ > F⁻ > Na⁺. All three species have 10 electrons (isoelectronic with neon), so radius depends only on nuclear charge: O (8 protons) < F (9 protons) < Na (11 protons), and fewer protons means less pull on the same 10 electrons and a larger radius, giving O²⁻ > F⁻ > Na⁺. F⁻ > O²⁻ > Na⁺ swaps the top two — but oxygen has fewer protons than fluorine (8 vs. 9), so O²⁻ should have the weaker nuclear pull and the larger radius of the two, not the smaller. O²⁻ > Na⁺ > F⁻ puts Na⁺ out of place — sodium has the most protons of the three (11), so it should have the strongest pull on the shared 10 electrons and the smallest radius, not a radius in between the other two. Na⁺ > F⁻ > O²⁻ inverts the entire trend, ranking the ion with the most protons (and therefore the tightest hold on its 10 electrons) as the largest, when more protons at a fixed electron count should always mean a smaller, not larger, radius."
     },
     {
       "id": "1-57",
@@ -866,7 +866,7 @@ const QUESTIONS = {
         "Se"
       ],
       "correct": 2,
-      "explanation": "Radius decreases across a period (left to right) and decreases up a group. F is both farther right and higher up than S, Cl, and Se among these choices, so it experiences the strongest combination of both trends, giving it the smallest atomic radius. S sits to the left of Cl and F in Period 3/2 comparisons and, being in a lower period than F, has an additional electron shell that F lacks — both factors make S's radius larger than F's. Cl is in the same group as F but one period down, adding a full extra electron shell; extra shells increase radius more than the leftward loss in period position could offset, so Cl is larger than F. Se is both lower in the group (extra shells) and farther left in its period than F, so it combines two separate reasons to have a larger radius — it's the largest of these four choices, not the smallest."
+      "explanation": "Correct: (C) F. Radius decreases across a period (left to right) and decreases up a group. F is both farther right and higher up than S, Cl, and Se among these choices, so it experiences the strongest combination of both trends, giving it the smallest atomic radius. S sits to the left of Cl and F in Period 3/2 comparisons and, being in a lower period than F, has an additional electron shell that F lacks — both factors make S's radius larger than F's. Cl is in the same group as F but one period down, adding a full extra electron shell; extra shells increase radius more than the leftward loss in period position could offset, so Cl is larger than F. Se is both lower in the group (extra shells) and farther left in its period than F, so it combines two separate reasons to have a larger radius — it's the largest of these four choices, not the smallest."
     },
     {
       "id": "1-58",
@@ -879,7 +879,7 @@ const QUESTIONS = {
         "Group 1"
       ],
       "correct": 1,
-      "explanation": "The huge jump between IE₂ (1450) and IE₃ (7730) — more than fivefold — signals that the third electron removed comes from a completely different, much more tightly-held inner shell, meaning the atom has exactly 2 valence electrons (IE₁ and IE₂ both relatively low and similar in magnitude), consistent with a Group 2 element (this data matches magnesium closely). Group 1 would predict a huge jump between IE₁ and IE₂ instead (only 1 valence electron), but here IE₁ and IE₂ (738 and 1450) are relatively close in magnitude, with the big jump only appearing between IE₂ and IE₃ — that pattern fits 2 valence electrons, not 1. Group 13 would predict the big jump appearing between IE₃ and IE₄ instead (3 valence electrons removed at comparatively similar energies before hitting the core shell), but the data shows the jump happening one step earlier, after only 2 electrons are removed. Group 16 elements have 6 valence electrons and wouldn't show any dramatic jump until IE₇, far beyond the four values given here — all four listed ionization energies would still be pulling from the valence shell for a Group 16 element, so a jump this early (after just 2 electrons) is inconsistent with 6 valence electrons.",
+      "explanation": "Correct: (B) Group 2. The huge jump between IE₂ (1450) and IE₃ (7730) — more than fivefold — signals that the third electron removed comes from a completely different, much more tightly-held inner shell, meaning the atom has exactly 2 valence electrons (IE₁ and IE₂ both relatively low and similar in magnitude), consistent with a Group 2 element (this data matches magnesium closely). Group 1 would predict a huge jump between IE₁ and IE₂ instead (only 1 valence electron), but here IE₁ and IE₂ (738 and 1450) are relatively close in magnitude, with the big jump only appearing between IE₂ and IE₃ — that pattern fits 2 valence electrons, not 1. Group 13 would predict the big jump appearing between IE₃ and IE₄ instead (3 valence electrons removed at comparatively similar energies before hitting the core shell), but the data shows the jump happening one step earlier, after only 2 electrons are removed. Group 16 elements have 6 valence electrons and wouldn't show any dramatic jump until IE₇, far beyond the four values given here — all four listed ionization energies would still be pulling from the valence shell for a Group 16 element, so a jump this early (after just 2 electrons) is inconsistent with 6 valence electrons.",
       "stretch": true
     },
     {
@@ -893,7 +893,7 @@ const QUESTIONS = {
         "Al₂O₃"
       ],
       "correct": 3,
-      "explanation": "Aluminum (Group 13) forms Al³⁺; oxygen (Group 16) forms O²⁻. Balancing charge requires the LCM of 3 and 2 (which is 6): two Al³⁺ (+6 total) and three O²⁻ (−6 total), giving Al₂O₃. AlO assumes a simple 1:1 ratio, as if both ions had the same charge magnitude — but Al³⁺ and O²⁻ have different charges, so a 1:1 ratio wouldn't balance to a neutral overall charge (+3 and −2 don't cancel). AlO₂ keeps Al's subscript at 1 while doubling O, which would only balance charge if Al's charge were 4+ and O's were 2− — but aluminum's actual charge is 3+, not 4+, so this ratio doesn't achieve electrical neutrality. Al₃O₂ has the subscripts backward relative to the correct 'criss-cross' pattern — it uses aluminum's own charge (3) as aluminum's subscript and oxygen's own charge (2) as oxygen's subscript, rather than swapping each ion's charge into the other ion's subscript position."
+      "explanation": "Correct: (D) Al₂O₃. Aluminum (Group 13) forms Al³⁺; oxygen (Group 16) forms O²⁻. Balancing charge requires the LCM of 3 and 2 (which is 6): two Al³⁺ (+6 total) and three O²⁻ (−6 total), giving Al₂O₃. AlO assumes a simple 1:1 ratio, as if both ions had the same charge magnitude — but Al³⁺ and O²⁻ have different charges, so a 1:1 ratio wouldn't balance to a neutral overall charge (+3 and −2 don't cancel). AlO₂ keeps Al's subscript at 1 while doubling O, which would only balance charge if Al's charge were 4+ and O's were 2− — but aluminum's actual charge is 3+, not 4+, so this ratio doesn't achieve electrical neutrality. Al₃O₂ has the subscripts backward relative to the correct 'criss-cross' pattern — it uses aluminum's own charge (3) as aluminum's subscript and oxygen's own charge (2) as oxygen's subscript, rather than swapping each ion's charge into the other ion's subscript position."
     },
     {
       "id": "1-60",
@@ -906,7 +906,7 @@ const QUESTIONS = {
         "Cl (Group 17)"
       ],
       "correct": 0,
-      "explanation": "Oxygen (Group 16) has 6 valence electrons and needs to gain 2 more to complete its octet, forming O²⁻. Mg (Group 2) is a metal that loses electrons rather than gains them, forming Mg²⁺, not a 2− anion — metals lose electrons far more readily than they gain them, since removing 1–2 loosely-held valence electrons is energetically much easier than adding electrons against a metal's low electron affinity. Na (Group 1) is also a metal, and it loses only 1 electron to form Na⁺, not gain 2. Cl (Group 17) is a nonmetal that does gain electrons, but only 1 (to complete its octet, forming Cl⁻) — it's one electron short of a full octet, not two, so it can't reach a 2− charge the way oxygen can."
+      "explanation": "Correct: (A) O (Group 16). Oxygen (Group 16) has 6 valence electrons and needs to gain 2 more to complete its octet, forming O²⁻. Mg (Group 2) is a metal that loses electrons rather than gains them, forming Mg²⁺, not a 2− anion — metals lose electrons far more readily than they gain them, since removing 1–2 loosely-held valence electrons is energetically much easier than adding electrons against a metal's low electron affinity. Na (Group 1) is also a metal, and it loses only 1 electron to form Na⁺, not gain 2. Cl (Group 17) is a nonmetal that does gain electrons, but only 1 (to complete its octet, forming Cl⁻) — it's one electron short of a full octet, not two, so it can't reach a 2− charge the way oxygen can."
     },
     {
       "id": "1-61",
@@ -919,7 +919,7 @@ const QUESTIONS = {
         "14"
       ],
       "correct": 2,
-      "explanation": "For main-group elements, the group number (1–18 convention, with groups 13–18 read as 3–8 valence electrons) directly gives the number of valence electrons. Tin is in Group 14, so it has 4 valence electrons — the same as carbon and silicon above it, which is why all three share similar bonding behavior. '2' would be the valence electron count for a Group 2 element (like Mg or Ca), not Group 14. '14' confuses the group number itself with the number of valence electrons — the group number labels the column, but for groups 13–18 it isn't the same as the valence electron count (you have to subtract 10 to account for the filled d-subshell beneath, giving 14 − 10 = 4). '50' is tin's total electron count (its atomic number, Z=50), not its valence electron count — it mistakes the total number of electrons in the whole atom for the number in just the outermost shell."
+      "explanation": "Correct: (C) 4. For main-group elements, the group number (1–18 convention, with groups 13–18 read as 3–8 valence electrons) directly gives the number of valence electrons. Tin is in Group 14, so it has 4 valence electrons — the same as carbon and silicon above it, which is why all three share similar bonding behavior. '2' would be the valence electron count for a Group 2 element (like Mg or Ca), not Group 14. '14' confuses the group number itself with the number of valence electrons — the group number labels the column, but for groups 13–18 it isn't the same as the valence electron count (you have to subtract 10 to account for the filled d-subshell beneath, giving 14 − 10 = 4). '50' is tin's total electron count (its atomic number, Z=50), not its valence electron count — it mistakes the total number of electrons in the whole atom for the number in just the outermost shell."
     },
     {
       "id": "1-62",
@@ -932,7 +932,7 @@ const QUESTIONS = {
         "BaN₃"
       ],
       "correct": 0,
-      "explanation": "Barium (Group 2) forms Ba²⁺; nitrogen (Group 15) forms N³⁻. Balancing charge requires the LCM of 2 and 3 (which is 6): three Ba²⁺ (+6 total) and two N³⁻ (−6 total), giving Ba₃N₂. BaN₃ has the subscripts arranged as if barium's charge were 1+ and nitrogen's were... it doesn't correspond to a balanced charge at all: 1(Ba²⁺) + 3(N³⁻) gives +2 and −9, which don't cancel; it looks like a swap of the LCM-based subscripts without matching the actual +2/−3 charges. Ba₂N₃ also fails to balance: 2(Ba²⁺) + 3(N³⁻) = +4 and −9, not equal in magnitude — this has the subscripts of the correct answer backward (2 and 3 swapped between the two ions). BaN assumes a simple 1:1 ratio, which would only balance charge if Ba and N had equal-magnitude charges — but Ba²⁺ (+2) and N³⁻ (−3) don't cancel at a 1:1 ratio (+2 and −3 leave a net −1)."
+      "explanation": "Correct: (A) Ba₃N₂. Barium (Group 2) forms Ba²⁺; nitrogen (Group 15) forms N³⁻. Balancing charge requires the LCM of 2 and 3 (which is 6): three Ba²⁺ (+6 total) and two N³⁻ (−6 total), giving Ba₃N₂. BaN₃ has the subscripts arranged as if barium's charge were 1+ and nitrogen's were... it doesn't correspond to a balanced charge at all: 1(Ba²⁺) + 3(N³⁻) gives +2 and −9, which don't cancel; it looks like a swap of the LCM-based subscripts without matching the actual +2/−3 charges. Ba₂N₃ also fails to balance: 2(Ba²⁺) + 3(N³⁻) = +4 and −9, not equal in magnitude — this has the subscripts of the correct answer backward (2 and 3 swapped between the two ions). BaN assumes a simple 1:1 ratio, which would only balance charge if Ba and N had equal-magnitude charges — but Ba²⁺ (+2) and N³⁻ (−3) don't cancel at a 1:1 ratio (+2 and −3 leave a net −1)."
     },
     {
       "id": "1-63",
@@ -945,7 +945,7 @@ const QUESTIONS = {
         "Transition metals only ever form ions with a single 1+ charge."
       ],
       "correct": 2,
-      "explanation": "Unlike main-group elements, where there's usually one clearly favorable noble-gas-configuration ion, transition metals have (n)s and (n−1)d electrons close enough in energy that multiple ionic charges can be reasonably stable (Fe²⁺ and Fe³⁺ are both common), and many transition metal ions don't correspond to any noble gas configuration at all. 'Transition metals only ever form ions with a single 1+ charge' is directly contradicted by well-known examples like Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺, and Mn²⁺ — variable charge, not a single fixed 1+ charge, is exactly the hallmark behavior this question is asking about. 'Transition metals gain electrons instead of losing them' is backward — transition metals are metals and, like main-group metals, form cations by losing electrons, not anions by gaining them. 'Transition metals don't lose electrons at all' is also directly contradicted by the existence of transition metal cations in general — losing electrons to form positive ions is precisely how transition metals participate in ionic bonding; what's unusual is only how many electrons (and from which subshells) they lose, not whether they lose any at all."
+      "explanation": "Correct: (C) Transition metals lose varying s and d electrons. Unlike main-group elements, where there's usually one clearly favorable noble-gas-configuration ion, transition metals have (n)s and (n−1)d electrons close enough in energy that multiple ionic charges can be reasonably stable (Fe²⁺ and Fe³⁺ are both common), and many transition metal ions don't correspond to any noble gas configuration at all. 'Transition metals only ever form ions with a single 1+ charge' is directly contradicted by well-known examples like Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺, and Mn²⁺ — variable charge, not a single fixed 1+ charge, is exactly the hallmark behavior this question is asking about. 'Transition metals gain electrons instead of losing them' is backward — transition metals are metals and, like main-group metals, form cations by losing electrons, not anions by gaining them. 'Transition metals don't lose electrons at all' is also directly contradicted by the existence of transition metal cations in general — losing electrons to form positive ions is precisely how transition metals participate in ionic bonding; what's unusual is only how many electrons (and from which subshells) they lose, not whether they lose any at all."
     },
     {
       "id": "1-64",
@@ -958,7 +958,7 @@ const QUESTIONS = {
         "Potassium's nucleus can only stabilize a single positive charge."
       ],
       "correct": 1,
-      "explanation": "After losing its single valence electron, K⁺ has argon's stable, filled-shell configuration. Removing a second electron would mean breaking into that tightly-held core shell — an enormous energy cost (a huge IE₂) that isn't recovered by the modest additional lattice energy gained from a 2+ ion. 'Potassium's nucleus can only stabilize a single positive charge' isn't the real reason — nuclei of many elements happily support ions with charges greater than 1+ (Ca²⁺, Al³⁺, Fe³⁺); what makes K²⁺ unfavorable is specifically the huge energy cost of pulling an electron out of a complete, noble-gas-like inner shell, not some general nuclear limit. 'K²⁺ does not exist under any circumstances, even in the gas phase' overstates the case — K²⁺ can in principle be observed in extreme conditions (like high-energy gas-phase or plasma environments) with enough energy input; it's just never favorable in ordinary ionic bond formation, which is the more precise and chemically accurate reason it's essentially never seen in compounds. 'K²⁺ would have far too small an ionic radius to ever be stable' isn't the actual mechanism at play — ionic radius isn't what determines whether an ion forms; it's the energetics (ionization energy vs. lattice energy released) that decide whether losing a second electron is favorable, not the resulting ion's size."
+      "explanation": "Correct: (B) K⁺ already has a stable noble-gas configuration. After losing its single valence electron, K⁺ has argon's stable, filled-shell configuration. Removing a second electron would mean breaking into that tightly-held core shell — an enormous energy cost (a huge IE₂) that isn't recovered by the modest additional lattice energy gained from a 2+ ion. 'Potassium's nucleus can only stabilize a single positive charge' isn't the real reason — nuclei of many elements happily support ions with charges greater than 1+ (Ca²⁺, Al³⁺, Fe³⁺); what makes K²⁺ unfavorable is specifically the huge energy cost of pulling an electron out of a complete, noble-gas-like inner shell, not some general nuclear limit. 'K²⁺ does not exist under any circumstances, even in the gas phase' overstates the case — K²⁺ can in principle be observed in extreme conditions (like high-energy gas-phase or plasma environments) with enough energy input; it's just never favorable in ordinary ionic bond formation, which is the more precise and chemically accurate reason it's essentially never seen in compounds. 'K²⁺ would have far too small an ionic radius to ever be stable' isn't the actual mechanism at play — ionic radius isn't what determines whether an ion forms; it's the energetics (ionization energy vs. lattice energy released) that decide whether losing a second electron is favorable, not the resulting ion's size."
     },
     {
       "id": "1-65",
@@ -971,7 +971,7 @@ const QUESTIONS = {
         "Sn and Pb violate the octet rule and have no consistent oxidation states."
       ],
       "correct": 2,
-      "explanation": "This is the inert pair effect: poor shielding from filled inner d and f subshells in heavier p-block elements means the outermost ns² electron pair is held unusually tightly, making it energetically costly to involve those electrons in bonding, so the 'lower' oxidation state (Pb²⁺ instead of Pb⁴⁺) becomes increasingly favorable moving down Group 14. 'Sn and Pb are transition metals' is factually wrong — both are p-block (main-group) elements in Group 14, not transition metals, and 'behave unpredictably' isn't an explanation at all; the inert pair effect is a specific, well-understood periodic phenomenon, not random behavior. 'Sn and Pb violate the octet rule and have no consistent oxidation states' overstates the situation — Sn and Pb do have well-documented, consistent oxidation states (+2 and +4), and neither state violates the octet rule; having two common oxidation states isn't the same as having 'no consistent' ones. 'The 2+ ion is simply a measurement error' is inconsistent with well-established, reproducible chemistry — Sn²⁺ and Pb²⁺ compounds (like SnCl₂ and PbO) are real, stable, extensively characterized substances, not artifacts of faulty older measurements.",
+      "explanation": "Correct: (C) The inert pair effect: outer s² electrons resist bonding. This is the inert pair effect: poor shielding from filled inner d and f subshells in heavier p-block elements means the outermost ns² electron pair is held unusually tightly, making it energetically costly to involve those electrons in bonding, so the 'lower' oxidation state (Pb²⁺ instead of Pb⁴⁺) becomes increasingly favorable moving down Group 14. 'Sn and Pb are transition metals' is factually wrong — both are p-block (main-group) elements in Group 14, not transition metals, and 'behave unpredictably' isn't an explanation at all; the inert pair effect is a specific, well-understood periodic phenomenon, not random behavior. 'Sn and Pb violate the octet rule and have no consistent oxidation states' overstates the situation — Sn and Pb do have well-documented, consistent oxidation states (+2 and +4), and neither state violates the octet rule; having two common oxidation states isn't the same as having 'no consistent' ones. 'The 2+ ion is simply a measurement error' is inconsistent with well-established, reproducible chemistry — Sn²⁺ and Pb²⁺ compounds (like SnCl₂ and PbO) are real, stable, extensively characterized substances, not artifacts of faulty older measurements.",
       "stretch": true
     },
     {
@@ -1013,7 +1013,7 @@ const QUESTIONS = {
         "It generally increases down the period, then resets to zero at each new row."
       ],
       "correct": 0,
-      "explanation": "Electron affinity magnitude follows the same effective-nuclear-charge story as ionization energy and electronegativity: moving left to right, protons increase while shielding stays roughly constant, so Z<sub>eff</sub> rises, and an incoming electron is pulled in more strongly, releasing more energy — a larger electron affinity magnitude. 'It generally decreases, since atomic radius is increasing' has the radius trend backward across a period — atomic radius actually decreases left to right (the same rising Z<sub>eff</sub> that increases electron affinity also shrinks radius), so this choice contradicts the established atomic-radius trend, not just electron affinity. 'It stays exactly constant across the whole period' ignores that Z<sub>eff</sub>, and therefore electron affinity, changes substantially across a period — if it were constant, there would be no periodic trend to speak of at all, which conflicts with the whole premise of periodic trends. 'It generally increases down the period, then resets to zero at each new row' confuses moving across a period with moving down a group and invents a 'reset' behavior that doesn't correspond to any real periodic pattern — electron affinity trends are described period-by-period (left to right) and group-by-group (top to bottom) separately, not as a single up-then-reset sequence."
+      "explanation": "Correct: (A) It generally increases, since Z_eff on an added electron increases. Electron affinity magnitude follows the same effective-nuclear-charge story as ionization energy and electronegativity: moving left to right, protons increase while shielding stays roughly constant, so Z<sub>eff</sub> rises, and an incoming electron is pulled in more strongly, releasing more energy — a larger electron affinity magnitude. 'It generally decreases, since atomic radius is increasing' has the radius trend backward across a period — atomic radius actually decreases left to right (the same rising Z<sub>eff</sub> that increases electron affinity also shrinks radius), so this choice contradicts the established atomic-radius trend, not just electron affinity. 'It stays exactly constant across the whole period' ignores that Z<sub>eff</sub>, and therefore electron affinity, changes substantially across a period — if it were constant, there would be no periodic trend to speak of at all, which conflicts with the whole premise of periodic trends. 'It generally increases down the period, then resets to zero at each new row' confuses moving across a period with moving down a group and invents a 'reset' behavior that doesn't correspond to any real periodic pattern — electron affinity trends are described period-by-period (left to right) and group-by-group (top to bottom) separately, not as a single up-then-reset sequence."
     },
     {
       "id": "1-77",
@@ -1026,7 +1026,7 @@ const QUESTIONS = {
         "Nitrogen's added electron would need to enter a new, higher-energy shell."
       ],
       "correct": 1,
-      "explanation": "Nitrogen's 2p³ configuration is a stable, half-filled subshell (one electron in each of the three 2p orbitals, all unpaired by Hund's rule); adding a fourth electron forces pairing in an already-occupied orbital, which costs extra energy from increased electron-electron repulsion and makes the process less favorable than the simple Z<sub>eff</sub> trend alone would predict — this is why N's electron affinity is lower (less negative/less favorable) than the general left-to-right trend suggests, and even lower than its neighbor oxygen's. 'Nitrogen's added electron would need to enter a new, higher-energy shell' is incorrect — the added electron goes into the existing 2p subshell (same n = 2 shell nitrogen's other electrons already occupy), not a new shell; that would only happen when crossing into a new period, not within Period 2. 'Nitrogen is a noble gas' is simply false — nitrogen is a Group 15 nonmetal, not a noble gas, and this mixes up nitrogen with the genuine noble-gas exception (Group 18 elements have essentially zero electron affinity because their subshells are already completely full, which is a different exception from the one this question is asking about). 'Oxygen's nucleus has a lower effective nuclear charge than nitrogen's' is backward — oxygen has one more proton than nitrogen and, per the standard across-a-period trend, a higher Z<sub>eff</sub>, not a lower one; that's exactly why oxygen's electron affinity would be expected to be larger before even considering nitrogen's half-filled-subshell exception."
+      "explanation": "Correct: (B) Adding an electron to nitrogen's stable, half-filled 2p³ subshell is unfavorable. Nitrogen's 2p³ configuration is a stable, half-filled subshell (one electron in each of the three 2p orbitals, all unpaired by Hund's rule); adding a fourth electron forces pairing in an already-occupied orbital, which costs extra energy from increased electron-electron repulsion and makes the process less favorable than the simple Z<sub>eff</sub> trend alone would predict — this is why N's electron affinity is lower (less negative/less favorable) than the general left-to-right trend suggests, and even lower than its neighbor oxygen's. 'Nitrogen's added electron would need to enter a new, higher-energy shell' is incorrect — the added electron goes into the existing 2p subshell (same n = 2 shell nitrogen's other electrons already occupy), not a new shell; that would only happen when crossing into a new period, not within Period 2. 'Nitrogen is a noble gas' is simply false — nitrogen is a Group 15 nonmetal, not a noble gas, and this mixes up nitrogen with the genuine noble-gas exception (Group 18 elements have essentially zero electron affinity because their subshells are already completely full, which is a different exception from the one this question is asking about). 'Oxygen's nucleus has a lower effective nuclear charge than nitrogen's' is backward — oxygen has one more proton than nitrogen and, per the standard across-a-period trend, a higher Z<sub>eff</sub>, not a lower one; that's exactly why oxygen's electron affinity would be expected to be larger before even considering nitrogen's half-filled-subshell exception."
     },
     {
       "id": "1-78",
@@ -1039,7 +1039,7 @@ const QUESTIONS = {
         "Cl and Cl⁻ have essentially the same radius, since only one electron is added."
       ],
       "correct": 0,
-      "explanation": "Forming Cl⁻ adds one electron to chlorine's outer shell without changing the number of protons. That extra electron increases electron-electron repulsion within the same shell, and with no additional nuclear charge to compensate and pull the cloud back in, the electron cloud expands — so Cl⁻ is larger than neutral Cl. 'Cl⁻ is smaller than Cl, since adding an electron increases nuclear pull' gets the mechanism backward: adding an electron doesn't change the nuclear charge at all (protons are unchanged), and more electrons for the same nuclear charge means a weaker net pull per electron, not a stronger one — this describes what happens when protons are added, not electrons. 'Cl and Cl⁻ have essentially the same radius, since only one electron is added' underestimates the effect — even a single added electron measurably increases repulsion and expands the electron cloud; ionic and atomic radii for the same element are never taken to be 'essentially equal.' 'Cl⁻ is larger than Cl, but only because Cl⁻ gains an extra occupied shell' is wrong about the mechanism — the extra electron in Cl⁻ goes into chlorine's existing outermost shell (completing the 3p subshell, 3p⁵ → 3p⁶), not into a brand-new shell; no new principal quantum level is added when a chlorine atom becomes a chloride ion."
+      "explanation": "Correct: (A) Cl⁻ is larger than Cl, due to increased electron-electron repulsion. Forming Cl⁻ adds one electron to chlorine's outer shell without changing the number of protons. That extra electron increases electron-electron repulsion within the same shell, and with no additional nuclear charge to compensate and pull the cloud back in, the electron cloud expands — so Cl⁻ is larger than neutral Cl. 'Cl⁻ is smaller than Cl, since adding an electron increases nuclear pull' gets the mechanism backward: adding an electron doesn't change the nuclear charge at all (protons are unchanged), and more electrons for the same nuclear charge means a weaker net pull per electron, not a stronger one — this describes what happens when protons are added, not electrons. 'Cl and Cl⁻ have essentially the same radius, since only one electron is added' underestimates the effect — even a single added electron measurably increases repulsion and expands the electron cloud; ionic and atomic radii for the same element are never taken to be 'essentially equal.' 'Cl⁻ is larger than Cl, but only because Cl⁻ gains an extra occupied shell' is wrong about the mechanism — the extra electron in Cl⁻ goes into chlorine's existing outermost shell (completing the 3p subshell, 3p⁵ → 3p⁶), not into a brand-new shell; no new principal quantum level is added when a chlorine atom becomes a chloride ion."
     },
     {
       "id": "1-85",
@@ -1095,7 +1095,7 @@ const QUESTIONS = {
         "H-I"
       ],
       "correct": 2,
-      "explanation": "Bond polarity increases with electronegativity difference. Fluorine is the most electronegative element on the periodic table, so H-F has the largest ΔEN of these four hydrogen halide bonds, making it the most polar. Electronegativity decreases down Group 17 (Cl > Br > I), so H-Cl, H-Br, and H-I are progressively less polar than H-F in that order — H-Cl is the next most polar, then H-Br, with H-I the least polar (smallest ΔEN) of the four."
+      "explanation": "Correct: (C) H-F. Bond polarity increases with electronegativity difference. Fluorine is the most electronegative element on the periodic table, so H-F has the largest ΔEN of these four hydrogen halide bonds, making it the most polar. Electronegativity decreases down Group 17 (Cl > Br > I), so H-Cl, H-Br, and H-I are progressively less polar than H-F in that order — H-Cl is the next most polar, then H-Br, with H-I the least polar (smallest ΔEN) of the four."
     },
     {
       "id": "2-3",
@@ -1108,7 +1108,7 @@ const QUESTIONS = {
         "Metallic"
       ],
       "correct": 1,
-      "explanation": "This is the classic signature of ionic bonding: ions are locked in a rigid lattice as a solid (no charge carriers can move, so no conductivity), but once melted, the ions become mobile and free to carry current, and the strong electrostatic lattice also explains the high melting point. Polar covalent/molecular and nonpolar covalent solids are both ruled out because molecular solids have no ions to begin with — they wouldn't conduct even when melted, and they typically have low melting points from weak intermolecular forces, not high ones. Metallic bonding is ruled out because metals conduct electricity even as solids, thanks to their already-mobile delocalized electron sea."
+      "explanation": "Correct: (B) Ionic. This is the classic signature of ionic bonding: ions are locked in a rigid lattice as a solid (no charge carriers can move, so no conductivity), but once melted, the ions become mobile and free to carry current, and the strong electrostatic lattice also explains the high melting point. Polar covalent/molecular and nonpolar covalent solids are both ruled out because molecular solids have no ions to begin with — they wouldn't conduct even when melted, and they typically have low melting points from weak intermolecular forces, not high ones. Metallic bonding is ruled out because metals conduct electricity even as solids, thanks to their already-mobile delocalized electron sea."
     },
     {
       "id": "2-4",
@@ -1121,7 +1121,7 @@ const QUESTIONS = {
         "Metallic"
       ],
       "correct": 0,
-      "explanation": "Cl₂ consists of two identical chlorine atoms, so ΔEN = 0 — the shared electron pair is distributed perfectly equally between them, making this a nonpolar covalent bond. Polar covalent is wrong because it requires two different atoms with unequal electronegativities, which isn't the case here. Ionic is wrong because that requires a large ΔEN driving electron transfer, far more than two identical nonmetal atoms can produce. Metallic is wrong because that bonding type requires metal atoms contributing electrons to a delocalized sea, not two nonmetal atoms sharing a pair."
+      "explanation": "Correct: (A) Nonpolar covalent. Cl₂ consists of two identical chlorine atoms, so ΔEN = 0 — the shared electron pair is distributed perfectly equally between them, making this a nonpolar covalent bond. Polar covalent is wrong because it requires two different atoms with unequal electronegativities, which isn't the case here. Ionic is wrong because that requires a large ΔEN driving electron transfer, far more than two identical nonmetal atoms can produce. Metallic is wrong because that bonding type requires metal atoms contributing electrons to a delocalized sea, not two nonmetal atoms sharing a pair."
     },
     {
       "id": "2-5",
@@ -1134,7 +1134,7 @@ const QUESTIONS = {
         "Conducts electricity only when dissolved in water"
       ],
       "correct": 2,
-      "explanation": "The delocalized electron sea in metallic bonding is mobile at all times (not just when melted or dissolved), giving metals solid-state conductivity, and it allows metal cations to shift position without breaking specific bonds, giving metals their signature malleability. 'Low melting point, no conductivity in any state' is wrong because many metals have quite high melting points and do conduct as solids. 'High melting point but brittle' describes an ionic solid, not a metal — metals deform smoothly rather than shattering. 'Conducts only when dissolved in water' also describes ionic compounds; metals don't need to be dissolved (or melted) to conduct, since their electron sea is mobile in the solid state itself."
+      "explanation": "Correct: (C) Malleable and a good conductor of electricity as a solid. The delocalized electron sea in metallic bonding is mobile at all times (not just when melted or dissolved), giving metals solid-state conductivity, and it allows metal cations to shift position without breaking specific bonds, giving metals their signature malleability. 'Low melting point, no conductivity in any state' is wrong because many metals have quite high melting points and do conduct as solids. 'High melting point but brittle' describes an ionic solid, not a metal — metals deform smoothly rather than shattering. 'Conducts only when dissolved in water' also describes ionic compounds; metals don't need to be dissolved (or melted) to conduct, since their electron sea is mobile in the solid state itself."
     },
     {
       "id": "2-6",
@@ -1147,7 +1147,7 @@ const QUESTIONS = {
         "KBr"
       ],
       "correct": 0,
-      "explanation": "AlN pairs a 3+ cation (Al³⁺) with a 3− anion (N³⁻), giving the largest product of charges among these choices, and therefore the strongest Coulombic lattice attraction and highest melting point. KBr and NaCl are both 1+/1− compounds, so they have the weakest charge product of the group — the smallest ions here don't compensate enough to catch up to AlN's much larger charge effect. MgCl₂ (2+/1−) has an intermediate charge product, stronger than the 1+/1− pairs but still well below AlN's 3+/3−, since lattice energy is far more sensitive to charge than to modest size differences."
+      "explanation": "Correct: (A) AlN. AlN pairs a 3+ cation (Al³⁺) with a 3− anion (N³⁻), giving the largest product of charges among these choices, and therefore the strongest Coulombic lattice attraction and highest melting point. KBr and NaCl are both 1+/1− compounds, so they have the weakest charge product of the group — the smallest ions here don't compensate enough to catch up to AlN's much larger charge effect. MgCl₂ (2+/1−) has an intermediate charge product, stronger than the 1+/1− pairs but still well below AlN's 3+/3−, since lattice energy is far more sensitive to charge than to modest size differences."
     },
     {
       "id": "2-7",
@@ -1160,7 +1160,7 @@ const QUESTIONS = {
         "Ionic"
       ],
       "correct": 0,
-      "explanation": "A small but nonzero ΔEN between two nonmetals means electrons are shared, but not perfectly equally — this unequal sharing is the definition of a polar covalent bond. Nonpolar covalent is wrong because that requires ΔEN = 0 (identical atoms), not merely small. Ionic is wrong because it requires a very large ΔEN, far more than the 'small' difference described. Metallic is wrong because metallic bonding requires metal atoms contributing electrons to a shared electron sea, not two nonmetal atoms sharing electrons pairwise."
+      "explanation": "Correct: (A) Polar covalent. A small but nonzero ΔEN between two nonmetals means electrons are shared, but not perfectly equally — this unequal sharing is the definition of a polar covalent bond. Nonpolar covalent is wrong because that requires ΔEN = 0 (identical atoms), not merely small. Ionic is wrong because it requires a very large ΔEN, far more than the 'small' difference described. Metallic is wrong because metallic bonding requires metal atoms contributing electrons to a shared electron sea, not two nonmetal atoms sharing electrons pairwise."
     },
     {
       "id": "2-8",
@@ -1186,7 +1186,7 @@ const QUESTIONS = {
         "Diamond is a 3D network of sp³ bonds; graphite is sp² sheets that slide past each other."
       ],
       "correct": 3,
-      "explanation": "Both are allotropes of pure carbon (same element, same valence electron count per atom), so composition alone can't explain the difference — structure does. Diamond's every carbon is sp³ hybridized, forming a rigid, 3D tetrahedral network of strong covalent bonds in all directions, making it extremely hard. Graphite's carbons are sp² hybridized in flat hexagonal sheets, with one delocalized electron per carbon free to move within a sheet (giving conductivity along the sheet) while the sheets themselves are held together only by weak forces, letting them slide past each other easily. Option (B) is wrong because both forms have exactly 4 valence electrons per carbon — that's not what differs. Option (C) is wrong because carbon-carbon bonds can't be ionic (ΔEN = 0 between identical atoms); diamond is purely covalent. Option (A) is wrong because it's actually reversed in spirit — graphite's in-plane bonding is covalent (with delocalized π electrons enabling conduction along the sheets), not true metallic bonding, while diamond is also entirely covalent, not exclusively so in a way that distinguishes it from graphite."
+      "explanation": "Correct: (D) Diamond is a 3D network of sp³ bonds; graphite is sp² sheets that slide past each other. Both are allotropes of pure carbon (same element, same valence electron count per atom), so composition alone can't explain the difference — structure does. Diamond's every carbon is sp³ hybridized, forming a rigid, 3D tetrahedral network of strong covalent bonds in all directions, making it extremely hard. Graphite's carbons are sp² hybridized in flat hexagonal sheets, with one delocalized electron per carbon free to move within a sheet (giving conductivity along the sheet) while the sheets themselves are held together only by weak forces, letting them slide past each other easily. Option (B) is wrong because both forms have exactly 4 valence electrons per carbon — that's not what differs. Option (C) is wrong because carbon-carbon bonds can't be ionic (ΔEN = 0 between identical atoms); diamond is purely covalent. Option (A) is wrong because it's actually reversed in spirit — graphite's in-plane bonding is covalent (with delocalized π electrons enabling conduction along the sheets), not true metallic bonding, while diamond is also entirely covalent, not exclusively so in a way that distinguishes it from graphite."
     },
     {
       "id": "2-87",
@@ -1213,7 +1213,7 @@ const QUESTIONS = {
         "C-C single bond"
       ],
       "correct": 0,
-      "explanation": "Bond length decreases as bond order increases, since more shared electron pairs pull the bonded nuclei closer together. A triple bond (bond order 3) is therefore shorter than a double bond (order 2), which is shorter than a single bond (order 1) — so the single bond is actually the longest of the three, not the shortest, and 'all the same length' ignores the well-established relationship between bond order and bond length entirely."
+      "explanation": "Correct: (A) C≡C triple bond. Bond length decreases as bond order increases, since more shared electron pairs pull the bonded nuclei closer together. A triple bond (bond order 3) is therefore shorter than a double bond (order 2), which is shorter than a single bond (order 1) — so the single bond is actually the longest of the three, not the shortest, and 'all the same length' ignores the well-established relationship between bond order and bond length entirely."
     },
     {
       "id": "2-11",
@@ -1226,7 +1226,7 @@ const QUESTIONS = {
         "It stays constant no matter the internuclear distance."
       ],
       "correct": 2,
-      "explanation": "As atoms approach, attractive forces (nucleus-electron) initially lower potential energy, but once atoms get very close, repulsive forces (nucleus-nucleus, electron-electron) dominate and potential energy rises sharply. The bond length observed in nature is exactly the distance at that potential energy minimum. 'Increases continuously' is wrong because it ignores the initial attractive drop in energy as atoms first approach. 'Decreases continuously, no minimum' is wrong because without a minimum (and the repulsive upturn past it), atoms would have no stable equilibrium distance and would simply collapse into each other. 'Remains constant' contradicts the basic physics of approaching charged particles, where both attraction and repulsion vary continuously with distance."
+      "explanation": "Correct: (C) It decreases to a minimum at the bond length, then rises sharply at shorter distances. As atoms approach, attractive forces (nucleus-electron) initially lower potential energy, but once atoms get very close, repulsive forces (nucleus-nucleus, electron-electron) dominate and potential energy rises sharply. The bond length observed in nature is exactly the distance at that potential energy minimum. 'Increases continuously' is wrong because it ignores the initial attractive drop in energy as atoms first approach. 'Decreases continuously, no minimum' is wrong because without a minimum (and the repulsive upturn past it), atoms would have no stable equilibrium distance and would simply collapse into each other. 'Remains constant' contradicts the basic physics of approaching charged particles, where both attraction and repulsion vary continuously with distance."
     },
     {
       "id": "2-12",
@@ -1239,7 +1239,7 @@ const QUESTIONS = {
         "A C-C single bond"
       ],
       "correct": 0,
-      "explanation": "Bond energy increases with bond order — more shared electron pairs means a deeper potential energy well and a stronger overall attraction holding the atoms together, so more energy is required to separate them. A carbon-carbon triple bond is the strongest of the three, requiring the most energy to break; the single bond requires the least, and the double bond falls in between. 'Bond energy cannot be compared between bond orders' is wrong — comparing energy across bond orders is exactly the well-established relationship this question is testing."
+      "explanation": "Correct: (A) A C≡C triple bond. Bond energy increases with bond order — more shared electron pairs means a deeper potential energy well and a stronger overall attraction holding the atoms together, so more energy is required to separate them. A carbon-carbon triple bond is the strongest of the three, requiring the most energy to break; the single bond requires the least, and the double bond falls in between. 'Bond energy cannot be compared between bond orders' is wrong — comparing energy across bond orders is exactly the well-established relationship this question is testing."
     },
     {
       "id": "2-13",
@@ -1252,7 +1252,7 @@ const QUESTIONS = {
         "Bond length and bond strength are unrelated properties of a bond."
       ],
       "correct": 1,
-      "explanation": "Shorter bond length is a direct signal of higher bond order in this kind of comparison, and higher bond order corresponds to a stronger bond. N₂'s triple bond is indeed one of the strongest bonds known in chemistry, consistent with its short bond length. Option (A) reverses the true relationship — shorter bonds are stronger, not weaker. Option (D) is wrong because bond length and bond strength are directly related here through bond order, not unrelated. Option (C) is wrong because both bonds involve nitrogen, but they have different bond orders (triple vs. single), and it's the bond order — not merely which element is present — that determines strength."
+      "explanation": "Correct: (B) N₂'s bond is stronger — shorter bonds mean higher bond order. Shorter bond length is a direct signal of higher bond order in this kind of comparison, and higher bond order corresponds to a stronger bond. N₂'s triple bond is indeed one of the strongest bonds known in chemistry, consistent with its short bond length. Option (A) reverses the true relationship — shorter bonds are stronger, not weaker. Option (D) is wrong because bond length and bond strength are directly related here through bond order, not unrelated. Option (C) is wrong because both bonds involve nitrogen, but they have different bond orders (triple vs. single), and it's the bond order — not merely which element is present — that determines strength."
     },
     {
       "id": "2-14",
@@ -1278,7 +1278,7 @@ const QUESTIONS = {
         "The C-O bond is likely shorter, since it has the higher bond energy."
       ],
       "correct": 3,
-      "explanation": "Within reasonable comparisons, higher bond energy correlates with shorter bond length — a stronger, tighter bond holds atoms closer together. Since C-O has a somewhat higher bond energy than C-C, it's reasonable to expect a somewhat shorter bond length as well (this also aligns with oxygen's smaller atomic radius compared to carbon, an independent confirming factor). Option (B) is wrong because bond energy does provide meaningful information about relative length in comparisons like this. Option (C) reverses the relationship: C-C, having the lower bond energy, should be the longer bond, not the shorter one. Option (A) is wrong because both being single bonds (same bond order) doesn't make them the same length — different elements still have different sizes and bond-energy values, which affect length."
+      "explanation": "Correct: (D) The C-O bond is likely shorter, since it has the higher bond energy. Within reasonable comparisons, higher bond energy correlates with shorter bond length — a stronger, tighter bond holds atoms closer together. Since C-O has a somewhat higher bond energy than C-C, it's reasonable to expect a somewhat shorter bond length as well (this also aligns with oxygen's smaller atomic radius compared to carbon, an independent confirming factor). Option (B) is wrong because bond energy does provide meaningful information about relative length in comparisons like this. Option (C) reverses the relationship: C-C, having the lower bond energy, should be the longer bond, not the shorter one. Option (A) is wrong because both being single bonds (same bond order) doesn't make them the same length — different elements still have different sizes and bond-energy values, which affect length."
     },
     {
       "id": "2-16",
@@ -1291,7 +1291,7 @@ const QUESTIONS = {
         "O₂ < O₃ < single bond"
       ],
       "correct": 3,
-      "explanation": "O₂ has a bond order of 2 (double bond), ozone's O-O bonds each have an averaged bond order of 1.5 due to resonance, and a hypothetical single bond has bond order 1. Higher bond order means shorter bond length, so ranking from shortest to longest by decreasing bond order: O₂ (order 2) < O₃ (order 1.5) < single bond (order 1). Option (A) misorders O₃ and the single bond, placing the lower-bond-order single bond as shorter than the higher-bond-order O₃. Option (C) incorrectly puts O₃ as shortest, even though O₂'s bond order (2) is higher than O₃'s (1.5), so O₂ must be shorter. Option (B) fully inverts the relationship, treating the lowest bond order (single bond) as shortest and the highest (O₂) as longest."
+      "explanation": "Correct: (D) O₂ < O₃ < single bond. O₂ has a bond order of 2 (double bond), ozone's O-O bonds each have an averaged bond order of 1.5 due to resonance, and a hypothetical single bond has bond order 1. Higher bond order means shorter bond length, so ranking from shortest to longest by decreasing bond order: O₂ (order 2) < O₃ (order 1.5) < single bond (order 1). Option (A) misorders O₃ and the single bond, placing the lower-bond-order single bond as shorter than the higher-bond-order O₃. Option (C) incorrectly puts O₃ as shortest, even though O₂'s bond order (2) is higher than O₃'s (1.5), so O₂ must be shorter. Option (B) fully inverts the relationship, treating the lowest bond order (single bond) as shortest and the highest (O₂) as longest."
     },
     {
       "id": "2-17",
@@ -1304,7 +1304,7 @@ const QUESTIONS = {
         "There is no real difference in the energy needed to break these two bond types."
       ],
       "correct": 0,
-      "explanation": "Each additional shared electron pair adds more electron density between the two nuclei, increasing the overall electrostatic attraction holding the bonded atoms together. A triple bond's three shared pairs create a deeper potential energy well (and a shorter, stronger bond) than a double bond's two pairs, so more energy input is required to overcome that stronger attraction. Option (C) is wrong because atomic size isn't what differs between a triple and double bond between the same two elements — the atoms are identical, only the number of shared pairs changes. Option (B) is actually backwards: triple bonds are shorter than double bonds, not longer, and the reasoning about 'stretching' isn't how bond dissociation energy is determined. Option (D) simply denies a real, well-established energy difference between bond orders."
+      "explanation": "Correct: (A) Three shared pairs attract more strongly than the double bond's two pairs. Each additional shared electron pair adds more electron density between the two nuclei, increasing the overall electrostatic attraction holding the bonded atoms together. A triple bond's three shared pairs create a deeper potential energy well (and a shorter, stronger bond) than a double bond's two pairs, so more energy input is required to overcome that stronger attraction. Option (C) is wrong because atomic size isn't what differs between a triple and double bond between the same two elements — the atoms are identical, only the number of shared pairs changes. Option (B) is actually backwards: triple bonds are shorter than double bonds, not longer, and the reasoning about 'stretching' isn't how bond dissociation energy is determined. Option (D) simply denies a real, well-established energy difference between bond orders."
     },
     {
       "id": "2-18",
@@ -1317,7 +1317,7 @@ const QUESTIONS = {
         "Approximately 950 kJ/mol, since longer bonds are always stronger"
       ],
       "correct": 0,
-      "explanation": "Since XZ's bond is noticeably longer than XY's (1.42 Å vs. 1.20 Å), this pattern strongly suggests XZ has a lower bond order (likely a double or single bond compared to XY's likely triple bond) and correspondingly weaker overall attraction. This should translate to a substantially lower bond energy — a value in the 350–400 kJ/mol range is a reasonable estimate. Option (D) inverts the true relationship: longer bonds are weaker, not stronger, so ~950 kJ/mol (even higher than XY's own bond energy) is exactly backwards. Option (B) denies any relationship between bond length and bond energy at all, contradicting the well-established inverse correlation used throughout this unit. Option (C) is wrong because, while an exact value can't be calculated without more data, a reasonable qualitative estimate absolutely can be made from the observed trend.",
+      "explanation": "Correct: (A) Roughly 350–400 kJ/mol, reflecting a lower bond order and weaker attraction. Since XZ's bond is noticeably longer than XY's (1.42 Å vs. 1.20 Å), this pattern strongly suggests XZ has a lower bond order (likely a double or single bond compared to XY's likely triple bond) and correspondingly weaker overall attraction. This should translate to a substantially lower bond energy — a value in the 350–400 kJ/mol range is a reasonable estimate. Option (D) inverts the true relationship: longer bonds are weaker, not stronger, so ~950 kJ/mol (even higher than XY's own bond energy) is exactly backwards. Option (B) denies any relationship between bond length and bond energy at all, contradicting the well-established inverse correlation used throughout this unit. Option (C) is wrong because, while an exact value can't be calculated without more data, a reasonable qualitative estimate absolutely can be made from the observed trend.",
       "stretch": true
     },
     {
@@ -1345,7 +1345,7 @@ const QUESTIONS = {
         "Strong electrostatic attractions throughout the lattice must all be overcome to melt it."
       ],
       "correct": 3,
-      "explanation": "Melting an ionic solid means disrupting the ordered lattice held together by electrostatic attraction between every neighboring pair of oppositely-charged ions, not just a single bond — this 'many strong attractions at once' situation requires a large energy input to overcome throughout the whole structure. Option (B) is wrong because ionic bonds involve electron transfer, not sharing — there are no shared electrons to separate. Option (A) is wrong because ionic solids aren't necessarily made of heavy atoms (LiF, for example, is light but still has a high melting point); atomic mass isn't the relevant factor. Option (C) reverses cause and effect — conductivity (which only occurs once melted or dissolved) doesn't require or explain the high melting point; the lattice's electrostatic strength does."
+      "explanation": "Correct: (D) Strong electrostatic attractions throughout the lattice must all be overcome to melt it. Melting an ionic solid means disrupting the ordered lattice held together by electrostatic attraction between every neighboring pair of oppositely-charged ions, not just a single bond — this 'many strong attractions at once' situation requires a large energy input to overcome throughout the whole structure. Option (B) is wrong because ionic bonds involve electron transfer, not sharing — there are no shared electrons to separate. Option (A) is wrong because ionic solids aren't necessarily made of heavy atoms (LiF, for example, is light but still has a high melting point); atomic mass isn't the relevant factor. Option (C) reverses cause and effect — conductivity (which only occurs once melted or dissolved) doesn't require or explain the high melting point; the lattice's electrostatic strength does."
     },
     {
       "id": "2-20",
@@ -1384,7 +1384,7 @@ const QUESTIONS = {
         "Increasing the atomic mass of the ions without changing charge or radius"
       ],
       "correct": 2,
-      "explanation": "Lattice energy follows a Coulomb's-law-type relationship: it's proportional to the product of the ionic charges and inversely proportional to the distance between ion centers. Increasing charge has a large, direct effect on that product, which is why compounds with 2+/2− ion pairs (like MgO) have dramatically higher lattice energies than 1+/1− pairs (like NaCl) even at similar ionic radii. Option (B) is wrong because increasing radius while holding charge constant actually decreases lattice energy (greater separation weakens the attraction) — the opposite of what's asked. Option (A) is wrong because the number of ions in a formula unit isn't a direct factor in the simple pairwise Coulombic lattice energy relationship. Option (D) is wrong because atomic mass has no role in electrostatic lattice energy at all — that's an inertial/gravitational property, irrelevant to Coulomb's law."
+      "explanation": "Correct: (C) Increasing ionic charge while keeping radius roughly constant. Lattice energy follows a Coulomb's-law-type relationship: it's proportional to the product of the ionic charges and inversely proportional to the distance between ion centers. Increasing charge has a large, direct effect on that product, which is why compounds with 2+/2− ion pairs (like MgO) have dramatically higher lattice energies than 1+/1− pairs (like NaCl) even at similar ionic radii. Option (B) is wrong because increasing radius while holding charge constant actually decreases lattice energy (greater separation weakens the attraction) — the opposite of what's asked. Option (A) is wrong because the number of ions in a formula unit isn't a direct factor in the simple pairwise Coulombic lattice energy relationship. Option (D) is wrong because atomic mass has no role in electrostatic lattice energy at all — that's an inertial/gravitational property, irrelevant to Coulomb's law."
     },
     {
       "id": "2-23",
@@ -1397,7 +1397,7 @@ const QUESTIONS = {
         "NaCl > NaF > NaBr"
       ],
       "correct": 1,
-      "explanation": "All three compounds share the same cation (Na⁺) and the same ionic charges (1+/1−), so lattice energy depends only on ionic radius here — smaller ions pack closer together, giving stronger Coulombic attraction. Anion radius increases down Group 17 (F⁻ < Cl⁻ < Br⁻), so lattice energy decreases in that order: NaF (highest) > NaCl > NaBr (lowest). Option (A) is wrong because equal lattice energies would require equal ion sizes, but the anions here differ noticeably in radius. Option (D) incorrectly ranks NaCl above NaF, when F⁻ is actually the smallest anion and should give the highest lattice energy of the three. Option (C) fully inverts the correct order, treating the largest anion (Br⁻) as giving the strongest attraction when a larger ionic radius actually weakens it."
+      "explanation": "Correct: (B) NaF > NaCl > NaBr. All three compounds share the same cation (Na⁺) and the same ionic charges (1+/1−), so lattice energy depends only on ionic radius here — smaller ions pack closer together, giving stronger Coulombic attraction. Anion radius increases down Group 17 (F⁻ < Cl⁻ < Br⁻), so lattice energy decreases in that order: NaF (highest) > NaCl > NaBr (lowest). Option (A) is wrong because equal lattice energies would require equal ion sizes, but the anions here differ noticeably in radius. Option (D) incorrectly ranks NaCl above NaF, when F⁻ is actually the smallest anion and should give the highest lattice energy of the three. Option (C) fully inverts the correct order, treating the largest anion (Br⁻) as giving the strongest attraction when a larger ionic radius actually weakens it."
     },
     {
       "id": "2-24",
@@ -1410,7 +1410,7 @@ const QUESTIONS = {
         "Yes, but only because calcium is a heavier element than potassium."
       ],
       "correct": 2,
-      "explanation": "Lattice energy is proportional to the product of ionic charges, so doubling both charges (from 1+/1− to 2+/2−) roughly quadruples the Coulombic attraction, a far bigger effect than any modest radius difference. This is exactly why CaO has a much higher melting point (2613°C) than KF (858°C), despite the ions being in a similar size range. Option (B) is wrong because similar radii don't force identical lattice energies — charge has an independent (and here dominant) effect that the radius similarity doesn't override. Option (D) misattributes the difference to atomic mass, which plays no role in electrostatic lattice energy; any correlation with calcium being heavier is coincidental, not causal. Option (A) incorrectly claims charge has no role at all, directly contradicted by the charge-product relationship that explains the real melting point data."
+      "explanation": "Correct: (C) Yes — CaO's 2+/2− ions give it far more lattice energy than KF's 1+/1− ions. Lattice energy is proportional to the product of ionic charges, so doubling both charges (from 1+/1− to 2+/2−) roughly quadruples the Coulombic attraction, a far bigger effect than any modest radius difference. This is exactly why CaO has a much higher melting point (2613°C) than KF (858°C), despite the ions being in a similar size range. Option (B) is wrong because similar radii don't force identical lattice energies — charge has an independent (and here dominant) effect that the radius similarity doesn't override. Option (D) misattributes the difference to atomic mass, which plays no role in electrostatic lattice energy; any correlation with calcium being heavier is coincidental, not causal. Option (A) incorrectly claims charge has no role at all, directly contradicted by the charge-product relationship that explains the real melting point data."
     },
     {
       "id": "2-25",
@@ -1436,7 +1436,7 @@ const QUESTIONS = {
         "Ionic compounds boil and melt at exactly the same temperature."
       ],
       "correct": 2,
-      "explanation": "Melting only requires enough disruption of the lattice to allow ions to move past each other while still remaining close together (liquid phase); boiling requires fully separating individual ions into a gas phase, breaking essentially all remaining electrostatic attraction — an even larger energy requirement. Option (B) is wrong because ionic compounds absolutely do have measurable (typically very high) boiling points. Option (A) contradicts the entire premise connecting bonding type to physical properties throughout this unit. Option (D) is wrong because boiling always requires additional energy beyond melting — ionic compounds do not boil at the same temperature they melt."
+      "explanation": "Correct: (C) Boiling requires fully separating ions from the lattice, a bigger cost than melting. Melting only requires enough disruption of the lattice to allow ions to move past each other while still remaining close together (liquid phase); boiling requires fully separating individual ions into a gas phase, breaking essentially all remaining electrostatic attraction — an even larger energy requirement. Option (B) is wrong because ionic compounds absolutely do have measurable (typically very high) boiling points. Option (A) contradicts the entire premise connecting bonding type to physical properties throughout this unit. Option (D) is wrong because boiling always requires additional energy beyond melting — ionic compounds do not boil at the same temperature they melt."
     },
     {
       "id": "2-27",
@@ -1449,7 +1449,7 @@ const QUESTIONS = {
         "Lattice energy depends on the difference between cation and anion radii, not their sum."
       ],
       "correct": 1,
-      "explanation": "Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r<sub>cation</sub> + r<sub>anion</sub>) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (D) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (A) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (C) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
+      "explanation": "Correct: (B) Lattice energy depends on the ionic radii's sum, not how it's divided between them. Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r<sub>cation</sub> + r<sub>anion</sub>) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (D) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (A) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (C) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
     },
     {
       "id": "2-28",
@@ -1488,7 +1488,7 @@ const QUESTIONS = {
         "Ions of opposite electrical charge that attract each other strongly"
       ],
       "correct": 2,
-      "explanation": "In a substitutional alloy, atoms of one metal directly take the place of atoms of the other within the same crystal lattice structure — this only works smoothly if the two atoms are similar enough in size that the lattice geometry isn't badly distorted. Option (D) is wrong because metal atoms in an alloy aren't charged ions; 'opposite charges' describes ionic bonding, not the metal-metal mixing seen in alloys. Option (B) is wrong because very different atomic radii actually favor an interstitial alloy instead, where smaller atoms fit into gaps rather than substituting — the opposite of what's needed here. Option (A) is wrong because identical melting points aren't required (or particularly relevant) to whether atoms can geometrically substitute for each other."
+      "explanation": "Correct: (C) Similar atomic radii, so the atoms can substitute for each other. In a substitutional alloy, atoms of one metal directly take the place of atoms of the other within the same crystal lattice structure — this only works smoothly if the two atoms are similar enough in size that the lattice geometry isn't badly distorted. Option (D) is wrong because metal atoms in an alloy aren't charged ions; 'opposite charges' describes ionic bonding, not the metal-metal mixing seen in alloys. Option (B) is wrong because very different atomic radii actually favor an interstitial alloy instead, where smaller atoms fit into gaps rather than substituting — the opposite of what's needed here. Option (A) is wrong because identical melting points aren't required (or particularly relevant) to whether atoms can geometrically substitute for each other."
     },
     {
       "id": "2-31",
@@ -1514,7 +1514,7 @@ const QUESTIONS = {
         "Adding carbon has no measurable effect on iron's mechanical properties."
       ],
       "correct": 1,
-      "explanation": "Pure metal malleability relies on layers of metal cations being able to slide past each other smoothly, with the electron sea simply flowing to accommodate the new arrangement. Interstitial carbon atoms sit in the gaps between iron atoms and physically interfere with that sliding motion, making the alloy harder and more resistant to deformation. Option (C) is wrong because carbon atoms don't replace or interact with the delocalized electrons directly — they physically occupy interstitial spaces in the lattice, unrelated to the electron sea itself. Option (D) is wrong because steel and pure iron have well-documented, quite different mechanical properties — the effect is far from negligible. Option (A) is wrong because steel remains held together by metallic bonding at its core; it isn't ionic — the carbon just mechanically interferes with layer sliding."
+      "explanation": "Correct: (B) Interstitial carbon physically blocks iron layers from sliding smoothly past each other. Pure metal malleability relies on layers of metal cations being able to slide past each other smoothly, with the electron sea simply flowing to accommodate the new arrangement. Interstitial carbon atoms sit in the gaps between iron atoms and physically interfere with that sliding motion, making the alloy harder and more resistant to deformation. Option (C) is wrong because carbon atoms don't replace or interact with the delocalized electrons directly — they physically occupy interstitial spaces in the lattice, unrelated to the electron sea itself. Option (D) is wrong because steel and pure iron have well-documented, quite different mechanical properties — the effect is far from negligible. Option (A) is wrong because steel remains held together by metallic bonding at its core; it isn't ionic — the carbon just mechanically interferes with layer sliding."
     },
     {
       "id": "2-33",
@@ -1527,7 +1527,7 @@ const QUESTIONS = {
         "Malleability and ductility"
       ],
       "correct": 2,
-      "explanation": "Brittleness under stress is the signature of ionic solids, not metals — metals typically deform smoothly (malleability/ductility) rather than shattering, because the mobile electron sea allows metal cations to shift position without breaking any single fixed bond, unlike the rigid, directional bonding in an ionic lattice. High electrical conductivity as a solid, malleability/ductility, and luster are all genuinely characteristic metallic properties (each a direct consequence of the electron sea), which is exactly why extreme brittleness — the one property that doesn't fit — is the correct answer to 'NOT typically associated with metallic bonding.'"
+      "explanation": "Correct: (C) Extreme brittleness under stress. Brittleness under stress is the signature of ionic solids, not metals — metals typically deform smoothly (malleability/ductility) rather than shattering, because the mobile electron sea allows metal cations to shift position without breaking any single fixed bond, unlike the rigid, directional bonding in an ionic lattice. High electrical conductivity as a solid, malleability/ductility, and luster are all genuinely characteristic metallic properties (each a direct consequence of the electron sea), which is exactly why extreme brittleness — the one property that doesn't fit — is the correct answer to 'NOT typically associated with metallic bonding.'"
     },
     {
       "id": "2-34",
@@ -1553,7 +1553,7 @@ const QUESTIONS = {
         "Metallic bonds are always stronger than ionic bonds, in every compound."
       ],
       "correct": 0,
-      "explanation": "Metallic bonding does involve real attractive forces (between the positive metal cations and the delocalized electron sea) strong enough to require substantial energy to overcome, giving metals generally high melting points — but this attraction is typically less concentrated and directional than the strong electrostatic pull in an ionic lattice, which is why many ionic compounds have even higher melting points than most metals. Option (C) is wrong because atomic mass alone doesn't determine melting point — bonding strength (electron count, radius) does, as shown by metals of similar mass having very different melting points. Option (D) is wrong because metallic bonds are not always stronger than ionic bonds; this directly contradicts the premise of the question, which states metals are generally lower-melting than ionic compounds. Option (B) is wrong because metals clearly do have significant bonding forces, evidenced by their being solids (often high-melting ones) at room temperature."
+      "explanation": "Correct: (A) The electron sea attracts throughout the lattice, but less strongly than an ionic lattice does. Metallic bonding does involve real attractive forces (between the positive metal cations and the delocalized electron sea) strong enough to require substantial energy to overcome, giving metals generally high melting points — but this attraction is typically less concentrated and directional than the strong electrostatic pull in an ionic lattice, which is why many ionic compounds have even higher melting points than most metals. Option (C) is wrong because atomic mass alone doesn't determine melting point — bonding strength (electron count, radius) does, as shown by metals of similar mass having very different melting points. Option (D) is wrong because metallic bonds are not always stronger than ionic bonds; this directly contradicts the premise of the question, which states metals are generally lower-melting than ionic compounds. Option (B) is wrong because metals clearly do have significant bonding forces, evidenced by their being solids (often high-melting ones) at room temperature."
     },
     {
       "id": "2-36",
@@ -1566,7 +1566,7 @@ const QUESTIONS = {
         "Tungsten is held together by ionic bonds, unlike metallic sodium."
       ],
       "correct": 0,
-      "explanation": "Metallic bond strength (and thus melting point) increases with the number of delocalized valence electrons per atom and decreases with atomic radius. Tungsten (a transition metal with several delocalized d and s electrons and a relatively small, dense atomic radius) has dramatically stronger metallic bonding than sodium (only 1 valence electron and a large atomic radius). Option (D) is wrong because both metals are held together by metallic bonding, as the question states — neither is ionic. Option (C) reverses the actual comparison: sodium has fewer valence electrons (1) than tungsten (several d and s electrons available for delocalization), not more. Option (B) is wrong because the huge melting point difference is fully explainable by differences in valence electron count and atomic radius — it isn't due to some unrelated, unexplained factor.",
+      "explanation": "Correct: (A) Tungsten has more delocalized electrons and a smaller radius, both strengthening its bonding. Metallic bond strength (and thus melting point) increases with the number of delocalized valence electrons per atom and decreases with atomic radius. Tungsten (a transition metal with several delocalized d and s electrons and a relatively small, dense atomic radius) has dramatically stronger metallic bonding than sodium (only 1 valence electron and a large atomic radius). Option (D) is wrong because both metals are held together by metallic bonding, as the question states — neither is ionic. Option (C) reverses the actual comparison: sodium has fewer valence electrons (1) than tungsten (several d and s electrons available for delocalization), not more. Option (B) is wrong because the huge melting point difference is fully explainable by differences in valence electron count and atomic radius — it isn't due to some unrelated, unexplained factor.",
       "stretch": true
     },
     {
@@ -1580,7 +1580,7 @@ const QUESTIONS = {
         "22"
       ],
       "correct": 2,
-      "explanation": "Sum each atom's valence electrons: C(4) + 3×O(6) = 4 + 18 = 22, then add 2 more electrons for the 2− charge: 22 + 2 = 24 total valence electrons. The distractor 22 is what you'd get if you forgot to add electrons for the negative charge at all. The distractor 20 comes from subtracting instead of adding for the charge (treating the 2− as if it were a 2+ cation: 22 − 2 = 20). The distractor 26 overcorrects, effectively adding electrons as if the charge were 4− instead of 2−. Forgetting to add electrons for a negative charge (or subtracting instead of adding) is one of the most common Lewis structure errors."
+      "explanation": "Correct: (C) 24. Sum each atom's valence electrons: C(4) + 3×O(6) = 4 + 18 = 22, then add 2 more electrons for the 2− charge: 22 + 2 = 24 total valence electrons. The distractor 22 is what you'd get if you forgot to add electrons for the negative charge at all. The distractor 20 comes from subtracting instead of adding for the charge (treating the 2− as if it were a 2+ cation: 22 − 2 = 20). The distractor 26 overcorrects, effectively adding electrons as if the charge were 4− instead of 2−. Forgetting to add electrons for a negative charge (or subtracting instead of adding) is one of the most common Lewis structure errors."
     },
     {
       "id": "2-38",
@@ -1593,7 +1593,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 0,
-      "explanation": "Nitrogen normally has 5 valence electrons and 1 lone pair when neutral (as in NH₃), but forming NH₄⁺ requires losing that lone pair to form a fourth bond to hydrogen (accounting for the 1+ charge). With all 4 bonding pairs to hydrogen and no lone pairs remaining, nitrogen in NH₄⁺ has zero lone pairs. The distractor '4' confuses the count of lone pairs with the count of bonding pairs (which is indeed 4, but the question asks about lone pairs). The distractor '2' doesn't correspond to any correct electron bookkeeping for this ion. The distractor '1' is the mistake of assuming nitrogen keeps its original neutral lone pair even after forming a fourth bond — but forming NH₄⁺ specifically consumes that lone pair to make the new N-H bond."
+      "explanation": "Correct: (A) 0. Nitrogen normally has 5 valence electrons and 1 lone pair when neutral (as in NH₃), but forming NH₄⁺ requires losing that lone pair to form a fourth bond to hydrogen (accounting for the 1+ charge). With all 4 bonding pairs to hydrogen and no lone pairs remaining, nitrogen in NH₄⁺ has zero lone pairs. The distractor '4' confuses the count of lone pairs with the count of bonding pairs (which is indeed 4, but the question asks about lone pairs). The distractor '2' doesn't correspond to any correct electron bookkeeping for this ion. The distractor '1' is the mistake of assuming nitrogen keeps its original neutral lone pair even after forming a fourth bond — but forming NH₄⁺ specifically consumes that lone pair to make the new N-H bond."
     },
     {
       "id": "2-39",
@@ -1606,7 +1606,7 @@ const QUESTIONS = {
         "BF₃"
       ],
       "correct": 3,
-      "explanation": "Boron in BF₃ has only 3 valence electrons to contribute and forms exactly 3 single bonds to fluorine, giving it only 6 electrons around the central atom — an incomplete octet, since boron simply doesn't have enough valence electrons to reach 8 through typical single bonding. CO₂, NH₃, and H₂O are all wrong because their central atoms (carbon, nitrogen, oxygen) each achieve a complete, standard octet: carbon with two double bonds (8 electrons), nitrogen with 3 bonds plus 1 lone pair (8 electrons), and oxygen with 2 bonds plus 2 lone pairs (8 electrons)."
+      "explanation": "Correct: (D) BF₃. Boron in BF₃ has only 3 valence electrons to contribute and forms exactly 3 single bonds to fluorine, giving it only 6 electrons around the central atom — an incomplete octet, since boron simply doesn't have enough valence electrons to reach 8 through typical single bonding. CO₂, NH₃, and H₂O are all wrong because their central atoms (carbon, nitrogen, oxygen) each achieve a complete, standard octet: carbon with two double bonds (8 electrons), nitrogen with 3 bonds plus 1 lone pair (8 electrons), and oxygen with 2 bonds plus 2 lone pairs (8 electrons)."
     },
     {
       "id": "2-40",
@@ -1619,7 +1619,7 @@ const QUESTIONS = {
         "CO₂"
       ],
       "correct": 1,
-      "explanation": "Sulfur in SF₆ forms 6 bonds to fluorine, requiring 12 electrons around the central atom — well beyond a standard octet, which is possible because sulfur is in Period 3, where sufficient orbital flexibility allows it to accommodate more than 8 electrons. CH₄ is wrong because carbon forms only 4 bonds max and, being Period 2, has no access to expanded-octet bonding anyway. CO₂ is wrong because carbon there has a completely standard octet (two double bonds = 8 electrons), not an expanded one. NF₃ is wrong because nitrogen also has a standard octet (3 bonds + 1 lone pair = 8 electrons) and, like carbon, is a Period 2 element that can never expand its octet."
+      "explanation": "Correct: (B) SF₆. Sulfur in SF₆ forms 6 bonds to fluorine, requiring 12 electrons around the central atom — well beyond a standard octet, which is possible because sulfur is in Period 3, where sufficient orbital flexibility allows it to accommodate more than 8 electrons. CH₄ is wrong because carbon forms only 4 bonds max and, being Period 2, has no access to expanded-octet bonding anyway. CO₂ is wrong because carbon there has a completely standard octet (two double bonds = 8 electrons), not an expanded one. NF₃ is wrong because nitrogen also has a standard octet (3 bonds + 1 lone pair = 8 electrons) and, like carbon, is a Period 2 element that can never expand its octet."
     },
     {
       "id": "2-41",
@@ -1632,7 +1632,7 @@ const QUESTIONS = {
         "2 bonding pairs, 2 lone pairs"
       ],
       "correct": 0,
-      "explanation": "Phosphorus has 5 valence electrons. Forming 3 single bonds to chlorine uses 3 of those electrons as bonding pairs, leaving 2 electrons (1 lone pair) on phosphorus — giving it a complete octet (3 bonding pairs + 1 lone pair = 8 electrons). '3 bonding pairs, 0 lone pairs' is wrong because that would leave phosphorus with only 6 electrons, an incomplete octet that ignores its 5th valence electron. '4 bonding pairs, 0 lone pairs' is wrong because PCl₃ has only 3 chlorines bonded, not 4 — that structure would describe a different species like PCl₄⁺. '2 bonding pairs, 2 lone pairs' is wrong because it implies only 2 chlorines are bonded, but PCl₃'s formula explicitly requires 3 P-Cl bonds."
+      "explanation": "Correct: (A) 3 bonding pairs, 1 lone pair. Phosphorus has 5 valence electrons. Forming 3 single bonds to chlorine uses 3 of those electrons as bonding pairs, leaving 2 electrons (1 lone pair) on phosphorus — giving it a complete octet (3 bonding pairs + 1 lone pair = 8 electrons). '3 bonding pairs, 0 lone pairs' is wrong because that would leave phosphorus with only 6 electrons, an incomplete octet that ignores its 5th valence electron. '4 bonding pairs, 0 lone pairs' is wrong because PCl₃ has only 3 chlorines bonded, not 4 — that structure would describe a different species like PCl₄⁺. '2 bonding pairs, 2 lone pairs' is wrong because it implies only 2 chlorines are bonded, but PCl₃'s formula explicitly requires 3 P-Cl bonds."
     },
     {
       "id": "2-42",
@@ -1658,7 +1658,7 @@ const QUESTIONS = {
         "1"
       ],
       "correct": 3,
-      "explanation": "Total valence electrons: S(6) + 2×O(6) = 18. With S bonded to each O (one double bond, one single bond, averaged by resonance), sulfur ends up with 3 electron groups: 2 bonding regions and 1 lone pair, giving it a bent geometry. '3 lone pairs' is wrong because that would leave sulfur with too few electrons available to form bonds to both oxygens. '0 lone pairs' is wrong because that would make SO₂ linear, like CO₂ — but SO₂ is experimentally bent, which requires a lone pair on the central atom. '2 lone pairs' is wrong because it only allows for 4 total electron groups when sulfur's 6 valence electrons actually need to be distributed across 2 bonds and just 1 lone pair (with resonance) to correctly account for all the electrons and satisfy sulfur's octet."
+      "explanation": "Correct: (D) 1. Total valence electrons: S(6) + 2×O(6) = 18. With S bonded to each O (one double bond, one single bond, averaged by resonance), sulfur ends up with 3 electron groups: 2 bonding regions and 1 lone pair, giving it a bent geometry. '3 lone pairs' is wrong because that would leave sulfur with too few electrons available to form bonds to both oxygens. '0 lone pairs' is wrong because that would make SO₂ linear, like CO₂ — but SO₂ is experimentally bent, which requires a lone pair on the central atom. '2 lone pairs' is wrong because it only allows for 4 total electron groups when sulfur's 6 valence electrons actually need to be distributed across 2 bonds and just 1 lone pair (with resonance) to correctly account for all the electrons and satisfy sulfur's octet."
     },
     {
       "id": "2-44",
@@ -1671,7 +1671,7 @@ const QUESTIONS = {
         "26"
       ],
       "correct": 1,
-      "explanation": "Sum atomic valence electrons: P(5) + 4×O(6) = 5 + 24 = 29, then add 3 more electrons for the 3− charge: 29 + 3 = 32 total valence electrons. The distractor '29' is the classic error of forgetting to add electrons for the negative charge and stopping after summing only the atoms' own valence electrons. The distractor '26' comes from subtracting instead of adding for the charge (29 − 3 = 26, treating the 3− as if it were a positive charge to remove). The distractor '35' overshoots, effectively double-counting the charge adjustment or miscounting the number of oxygens. Skipping or reversing the charge adjustment step is a very common source of error."
+      "explanation": "Correct: (B) 32. Sum atomic valence electrons: P(5) + 4×O(6) = 5 + 24 = 29, then add 3 more electrons for the 3− charge: 29 + 3 = 32 total valence electrons. The distractor '29' is the classic error of forgetting to add electrons for the negative charge and stopping after summing only the atoms' own valence electrons. The distractor '26' comes from subtracting instead of adding for the charge (29 − 3 = 26, treating the 3− as if it were a positive charge to remove). The distractor '35' overshoots, effectively double-counting the charge adjustment or miscounting the number of oxygens. Skipping or reversing the charge adjustment step is a very common source of error."
     },
     {
       "id": "2-45",
@@ -1684,7 +1684,7 @@ const QUESTIONS = {
         "sp³, 2 lone pairs, bent molecular geometry"
       ],
       "correct": 2,
-      "explanation": "Xenon has 8 valence electrons; forming 2 single bonds to fluorine uses 2 electrons, leaving 6 electrons (3 lone pairs) on Xe. That's 5 total electron groups, giving sp³d hybridization and a trigonal bipyramidal electron geometry, but with all 3 lone pairs equatorial, the two fluorines end up linear. Option (D) (sp³, 2 lone pairs, bent) actually describes water's electron arrangement (4 total electron groups), not Xe's 5. Option (A) (sp³d², 4 lone pairs, square planar) describes XeF₄'s arrangement (6 total electron groups), which has too many electron groups and lone pairs for XeF₂. Option (B) (sp, 0 lone pairs, linear) ignores Xe's 3 lone pairs entirely — that profile would only be correct for a central atom with no lone pairs at all, like Be in a hypothetical BeF₂."
+      "explanation": "Correct: (C) sp³d, 3 lone pairs, linear molecular geometry. Xenon has 8 valence electrons; forming 2 single bonds to fluorine uses 2 electrons, leaving 6 electrons (3 lone pairs) on Xe. That's 5 total electron groups, giving sp³d hybridization and a trigonal bipyramidal electron geometry, but with all 3 lone pairs equatorial, the two fluorines end up linear. Option (D) (sp³, 2 lone pairs, bent) actually describes water's electron arrangement (4 total electron groups), not Xe's 5. Option (A) (sp³d², 4 lone pairs, square planar) describes XeF₄'s arrangement (6 total electron groups), which has too many electron groups and lone pairs for XeF₂. Option (B) (sp, 0 lone pairs, linear) ignores Xe's 3 lone pairs entirely — that profile would only be correct for a central atom with no lone pairs at all, like Be in a hypothetical BeF₂."
     },
     {
       "id": "2-46",
@@ -1697,7 +1697,7 @@ const QUESTIONS = {
         "XeF₄ does not actually have any central atom at all."
       ],
       "correct": 2,
-      "explanation": "Xenon has 8 valence electrons (a full octet as a noble gas), and forming 4 single bonds to fluorine only uses 4 of those 8 electrons. The remaining 4 electrons must be placed as 2 lone pairs on xenon, giving an expanded 12-electron count consistent with square planar geometry. Option (A) is wrong because xenon absolutely can (and does) bond to fluorine — XeF₄ is a real, well-characterized compound, so a blanket denial is false. Option (B) is wrong because the original 0-lone-pair structure leaves 4 of xenon's 8 valence electrons completely unaccounted for, violating conservation of electrons — it is not correct as drawn. Option (D) is wrong because XeF₄ clearly does have a central atom (Xe), with the 4 fluorines bonded around it."
+      "explanation": "Correct: (C) Xenon should also have 2 lone pairs, from unused valence electrons. Xenon has 8 valence electrons (a full octet as a noble gas), and forming 4 single bonds to fluorine only uses 4 of those 8 electrons. The remaining 4 electrons must be placed as 2 lone pairs on xenon, giving an expanded 12-electron count consistent with square planar geometry. Option (A) is wrong because xenon absolutely can (and does) bond to fluorine — XeF₄ is a real, well-characterized compound, so a blanket denial is false. Option (B) is wrong because the original 0-lone-pair structure leaves 4 of xenon's 8 valence electrons completely unaccounted for, violating conservation of electrons — it is not correct as drawn. Option (D) is wrong because XeF₄ clearly does have a central atom (Xe), with the 4 fluorines bonded around it."
     },
     {
       "id": "2-47",
@@ -1710,7 +1710,7 @@ const QUESTIONS = {
         "+1"
       ],
       "correct": 2,
-      "explanation": "FC = (valence electrons in free atom) − (lone pair electrons) − ½(bonding electrons) = 6 − 4 − ½(4) = 0. This is the typical, most stable formal charge for oxygen with 2 bonds and 2 lone pairs, as in an alcohol or water. A formal charge of −1 would instead arise from oxygen having only 1 bond and 3 lone pairs (as in an alkoxide, RO⁻). A formal charge of +1 would arise from oxygen forming 3 bonds with only 1 lone pair (as in a protonated ether). A formal charge of −2 isn't achievable for oxygen through the standard formula in any ordinary bonding scenario — it would require an implausible electron count far outside oxygen's normal bonding patterns."
+      "explanation": "Correct: (C) 0. FC = (valence electrons in free atom) − (lone pair electrons) − ½(bonding electrons) = 6 − 4 − ½(4) = 0. This is the typical, most stable formal charge for oxygen with 2 bonds and 2 lone pairs, as in an alcohol or water. A formal charge of −1 would instead arise from oxygen having only 1 bond and 3 lone pairs (as in an alkoxide, RO⁻). A formal charge of +1 would arise from oxygen forming 3 bonds with only 1 lone pair (as in a protonated ether). A formal charge of −2 isn't achievable for oxygen through the standard formula in any ordinary bonding scenario — it would require an implausible electron count far outside oxygen's normal bonding patterns."
     },
     {
       "id": "2-48",
@@ -1723,7 +1723,7 @@ const QUESTIONS = {
         "Only one resonance structure is ever really correct; the others are purely hypothetical models."
       ],
       "correct": 0,
-      "explanation": "Resonance structures aren't different states the molecule switches between — they're different, incomplete attempts to represent one real, blended structure using the limitations of a single Lewis diagram. In NO₃⁻, all three N-O bonds are experimentally identical in length, intermediate between a single and double bond, exactly as the hybrid concept predicts. Option (B) is wrong because resonance is not the molecule physically flipping back and forth — it's a static, single structure that a 2D Lewis diagram just can't capture in one drawing. Option (C) is wrong because resonance structures depict the same molecule with the same atoms and connectivity, differing only in electron placement on paper. Option (D) is wrong because all valid resonance structures contribute to the real hybrid — it isn't a matter of picking one correct structure and discarding the rest."
+      "explanation": "Correct: (A) The real structure is a hybrid of the resonance structures, intermediate between any one. Resonance structures aren't different states the molecule switches between — they're different, incomplete attempts to represent one real, blended structure using the limitations of a single Lewis diagram. In NO₃⁻, all three N-O bonds are experimentally identical in length, intermediate between a single and double bond, exactly as the hybrid concept predicts. Option (B) is wrong because resonance is not the molecule physically flipping back and forth — it's a static, single structure that a 2D Lewis diagram just can't capture in one drawing. Option (C) is wrong because resonance structures depict the same molecule with the same atoms and connectivity, differing only in electron placement on paper. Option (D) is wrong because all valid resonance structures contribute to the real hybrid — it isn't a matter of picking one correct structure and discarding the rest."
     },
     {
       "id": "2-49",
@@ -1736,7 +1736,7 @@ const QUESTIONS = {
         "A small negative formal charge sits on the most electronegative atom, with 0 charge elsewhere."
       ],
       "correct": 0,
-      "explanation": "The best Lewis structures minimize formal charge magnitudes overall and place any negative formal charge on the more electronegative atom. A structure with a positive charge on the most electronegative atom works directly against that atom's natural tendency to attract electrons, making this the least favorable arrangement. Option (C) (all zero) is actually the most favorable pattern, not the least. Option (D) (small negative charge on the most electronegative atom) is a perfectly reasonable, often favored structure — not a poor one. Option (B) (a single small negative formal charge on a terminal atom, balancing an ion's overall charge) is likewise a normal and often necessary arrangement, not particularly unfavorable, so neither of these fits 'least favorable' the way option (A) does."
+      "explanation": "Correct: (A) A positive charge on the most electronegative atom, negative on a less electronegative one. The best Lewis structures minimize formal charge magnitudes overall and place any negative formal charge on the more electronegative atom. A structure with a positive charge on the most electronegative atom works directly against that atom's natural tendency to attract electrons, making this the least favorable arrangement. Option (C) (all zero) is actually the most favorable pattern, not the least. Option (D) (small negative charge on the most electronegative atom) is a perfectly reasonable, often favored structure — not a poor one. Option (B) (a single small negative formal charge on a terminal atom, balancing an ion's overall charge) is likewise a normal and often necessary arrangement, not particularly unfavorable, so neither of these fits 'least favorable' the way option (A) does."
     },
     {
       "id": "2-50",
@@ -1749,7 +1749,7 @@ const QUESTIONS = {
         "+2"
       ],
       "correct": 0,
-      "explanation": "FC = 5 − (lone pair electrons: 2) − ½(bonding electrons: 2 from the single bond + 4 from the double bond = 6) = 5 − 2 − 3 = 0. A formal charge of −1 would require either fewer bonding electrons counted or more lone pair electrons than nitrogen actually has here. A formal charge of +1 would result from undercounting the bonding contribution — for instance, treating the double bond as contributing only 1 shared pair instead of 2. A formal charge of +2 isn't achievable at all from this electron arrangement; it would require nitrogen to have essentially no nonbonding or bonding electrons assigned to it, which doesn't match the structure described. Formal charge calculations always require carefully counting all bonding electrons around that specific atom (both single and double/triple bonds contribute), not just the number of bonds."
+      "explanation": "Correct: (A) 0. FC = 5 − (lone pair electrons: 2) − ½(bonding electrons: 2 from the single bond + 4 from the double bond = 6) = 5 − 2 − 3 = 0. A formal charge of −1 would require either fewer bonding electrons counted or more lone pair electrons than nitrogen actually has here. A formal charge of +1 would result from undercounting the bonding contribution — for instance, treating the double bond as contributing only 1 shared pair instead of 2. A formal charge of +2 isn't achievable at all from this electron arrangement; it would require nitrogen to have essentially no nonbonding or bonding electrons assigned to it, which doesn't match the structure described. Formal charge calculations always require carefully counting all bonding electrons around that specific atom (both single and double/triple bonds contribute), not just the number of bonds."
     },
     {
       "id": "2-51",
@@ -1788,7 +1788,7 @@ const QUESTIONS = {
         "+1"
       ],
       "correct": 2,
-      "explanation": "FC = 7 − (lone pair electrons: 6) − ½(bonding electrons: 2) = 7 − 6 − 1 = 0. Checking oxygen: FC = 6 − 6 − 1 = −1, correctly summing to −1 overall, with the negative charge favorably placed on the more electronegative oxygen. A formal charge of −1 on chlorine would require either fewer lone pairs or fewer bonding electrons than the given structure actually has. A formal charge of +1 would result from overcounting the bonding contribution or undercounting the lone pairs. A formal charge of −2 isn't achievable given chlorine's stated 3 lone pairs + 1 bond, since that would require far more nonbonding electron assignment than the 6 lone-pair electrons actually present."
+      "explanation": "Correct: (C) 0. FC = 7 − (lone pair electrons: 6) − ½(bonding electrons: 2) = 7 − 6 − 1 = 0. Checking oxygen: FC = 6 − 6 − 1 = −1, correctly summing to −1 overall, with the negative charge favorably placed on the more electronegative oxygen. A formal charge of −1 on chlorine would require either fewer lone pairs or fewer bonding electrons than the given structure actually has. A formal charge of +1 would result from overcounting the bonding contribution or undercounting the lone pairs. A formal charge of −2 isn't achievable given chlorine's stated 3 lone pairs + 1 bond, since that would require far more nonbonding electron assignment than the 6 lone-pair electrons actually present."
     },
     {
       "id": "2-54",
@@ -1801,7 +1801,7 @@ const QUESTIONS = {
         "Ozone fails to satisfy the octet rule under any possible Lewis structure."
       ],
       "correct": 1,
-      "explanation": "Any single Lewis structure for ozone necessarily shows one O-O bond as a double bond and the other as a single bond — but real, experimental measurements show both O-O bonds are identical in length, roughly halfway between a single and double bond. Averaging two equivalent Lewis structures correctly captures this observed symmetry that neither individual structure can represent alone. Option (D) is wrong because ozone does satisfy the octet rule just fine in each individual resonance structure — every atom has a complete octet; the issue is which single structure to draw, not an octet violation. Option (A) is wrong because ozone absolutely has valid Lewis structures — in fact, two equivalent ones that need to be considered together. Option (C) is wrong because resonance is a general phenomenon that applies to covalent species too (as also seen with nitrate and formate); it is not restricted to ionic compounds."
+      "explanation": "Correct: (B) A single structure would show unequal O-O bonds, but both are experimentally identical in length. Any single Lewis structure for ozone necessarily shows one O-O bond as a double bond and the other as a single bond — but real, experimental measurements show both O-O bonds are identical in length, roughly halfway between a single and double bond. Averaging two equivalent Lewis structures correctly captures this observed symmetry that neither individual structure can represent alone. Option (D) is wrong because ozone does satisfy the octet rule just fine in each individual resonance structure — every atom has a complete octet; the issue is which single structure to draw, not an octet violation. Option (A) is wrong because ozone absolutely has valid Lewis structures — in fact, two equivalent ones that need to be considered together. Option (C) is wrong because resonance is a general phenomenon that applies to covalent species too (as also seen with nitrate and formate); it is not restricted to ionic compounds."
     },
     {
       "id": "2-55",
@@ -1814,7 +1814,7 @@ const QUESTIONS = {
         "Both C-O bonds will be identical, with intermediate bond lengths and a bond order of 1.5 each."
       ],
       "correct": 3,
-      "explanation": "Because the two resonance structures of formate are equivalent to each other (related simply by swapping which oxygen carries the double bond, with identical formal charges in both), they contribute equally to the true resonance hybrid. This predicts — and experiment confirms — that both C-O bonds are identical, each with a bond order of 1.5 and identical, intermediate bond lengths. Option (A) is wrong because a full double bond on one oxygen and a full single bond on the other is exactly the (incomplete) picture that any single resonance structure alone would suggest — the hybrid concept specifically corrects this oversimplification. Option (C) is wrong because both resonance structures of formate are valid and contribute equally, given their formal-charge equivalence; dismissing one as invalid ignores that symmetry. Option (B) is wrong because the comparison can absolutely be made using the resonance/formal-charge symmetry argument — 'cannot be compared' sidesteps the actual reasoning available here.",
+      "explanation": "Correct: (D) Both C-O bonds will be identical, with intermediate bond lengths and a bond order of 1.5 each. Because the two resonance structures of formate are equivalent to each other (related simply by swapping which oxygen carries the double bond, with identical formal charges in both), they contribute equally to the true resonance hybrid. This predicts — and experiment confirms — that both C-O bonds are identical, each with a bond order of 1.5 and identical, intermediate bond lengths. Option (A) is wrong because a full double bond on one oxygen and a full single bond on the other is exactly the (incomplete) picture that any single resonance structure alone would suggest — the hybrid concept specifically corrects this oversimplification. Option (C) is wrong because both resonance structures of formate are valid and contribute equally, given their formal-charge equivalence; dismissing one as invalid ignores that symmetry. Option (B) is wrong because the comparison can absolutely be made using the resonance/formal-charge symmetry argument — 'cannot be compared' sidesteps the actual reasoning available here.",
       "stretch": true
     },
     {
@@ -1856,7 +1856,7 @@ const QUESTIONS = {
         "Tetrahedral"
       ],
       "correct": 3,
-      "explanation": "Carbon in CH₄ has 4 bonding pairs and 0 lone pairs (4 total electron groups, all bonding), giving both an electron geometry and molecular geometry of tetrahedral, with bond angles of exactly 109.5°. Trigonal planar is wrong because that describes only 3 electron groups, not CH₄'s 4. Square planar is wrong because that describes a central atom with 4 bonding pairs plus 2 lone pairs (6 total electron groups, as in XeF₄) — CH₄ has no lone pairs at all. Trigonal pyramidal is wrong because that describes 3 bonding pairs plus 1 lone pair (as in NH₃), not CH₄'s all-bonding arrangement with zero lone pairs."
+      "explanation": "Correct: (D) Tetrahedral. Carbon in CH₄ has 4 bonding pairs and 0 lone pairs (4 total electron groups, all bonding), giving both an electron geometry and molecular geometry of tetrahedral, with bond angles of exactly 109.5°. Trigonal planar is wrong because that describes only 3 electron groups, not CH₄'s 4. Square planar is wrong because that describes a central atom with 4 bonding pairs plus 2 lone pairs (6 total electron groups, as in XeF₄) — CH₄ has no lone pairs at all. Trigonal pyramidal is wrong because that describes 3 bonding pairs plus 1 lone pair (as in NH₃), not CH₄'s all-bonding arrangement with zero lone pairs."
     },
     {
       "id": "2-57",
@@ -1869,7 +1869,7 @@ const QUESTIONS = {
         "sp²"
       ],
       "correct": 3,
-      "explanation": "Carbon in H₂C=O has 3 electron groups around it: 2 single bonds to hydrogen and 1 double bond to oxygen (a double bond counts as just one electron region for VSEPR purposes). Three electron groups corresponds to sp² hybridization and trigonal planar geometry. sp is wrong because that requires only 2 electron groups (like a linear carbon, as in CO₂), but formaldehyde's carbon has 3. sp³ is wrong because that requires 4 electron groups (all single bonds, no double bond present) — this carbon's double bond means it has only 3 total regions, not 4. sp³d is wrong because that requires 5 electron groups and an expanded octet, which isn't available to a Period 2 element like carbon anyway."
+      "explanation": "Correct: (D) sp². Carbon in H₂C=O has 3 electron groups around it: 2 single bonds to hydrogen and 1 double bond to oxygen (a double bond counts as just one electron region for VSEPR purposes). Three electron groups corresponds to sp² hybridization and trigonal planar geometry. sp is wrong because that requires only 2 electron groups (like a linear carbon, as in CO₂), but formaldehyde's carbon has 3. sp³ is wrong because that requires 4 electron groups (all single bonds, no double bond present) — this carbon's double bond means it has only 3 total regions, not 4. sp³d is wrong because that requires 5 electron groups and an expanded octet, which isn't available to a Period 2 element like carbon anyway."
     },
     {
       "id": "2-58",
@@ -1882,7 +1882,7 @@ const QUESTIONS = {
         "C₂H₂"
       ],
       "correct": 1,
-      "explanation": "Oxygen in H₂O has 4 total electron groups (2 bonding pairs, 2 lone pairs) — a tetrahedral electron geometry, but since 2 of those positions are invisible lone pairs, the visible molecular geometry is bent, with the angle compressed to about 104.5° due to the extra repulsion from 2 lone pairs. CO₂, BeCl₂, and C₂H₂ are all linear instead: CO₂'s carbon and BeCl₂'s beryllium each have only 2 electron groups with no lone pairs, and in C₂H₂ each relevant carbon likewise has only 2 electron groups (a triple bond still counts as just one region), so none of these have the lone pairs needed to bend the shape."
+      "explanation": "Correct: (B) H₂O. Oxygen in H₂O has 4 total electron groups (2 bonding pairs, 2 lone pairs) — a tetrahedral electron geometry, but since 2 of those positions are invisible lone pairs, the visible molecular geometry is bent, with the angle compressed to about 104.5° due to the extra repulsion from 2 lone pairs. CO₂, BeCl₂, and C₂H₂ are all linear instead: CO₂'s carbon and BeCl₂'s beryllium each have only 2 electron groups with no lone pairs, and in C₂H₂ each relevant carbon likewise has only 2 electron groups (a triple bond still counts as just one region), so none of these have the lone pairs needed to bend the shape."
     },
     {
       "id": "2-59",
@@ -1895,7 +1895,7 @@ const QUESTIONS = {
         "Nitrogen is simply a smaller atom than carbon is, so its bonds sit closer together."
       ],
       "correct": 2,
-      "explanation": "Both NH₃ and CH₄ have 4 total electron groups (tetrahedral electron geometry), but NH₃ has one lone pair replacing one of CH₄'s bonding pairs. Lone pairs are held closer to the central atom's nucleus and occupy more angular space, exerting greater repulsion on neighboring electron groups than a bonding pair would, compressing the observed bond angle. Option (D) is wrong because atomic size differences between N and C aren't the mechanism causing this angle change — it's about lone pair vs. bonding pair repulsion, not atomic radius. Option (A) is wrong because both molecules actually have the same total number of electron groups (4); the difference is how many of those groups are lone pairs versus bonding pairs. Option (B) is wrong because the angles are measurably, well-documented as different (107° vs. 109.5°), not identical."
+      "explanation": "Correct: (C) The lone pair repels bonding pairs more than a bond would, compressing the angle. Both NH₃ and CH₄ have 4 total electron groups (tetrahedral electron geometry), but NH₃ has one lone pair replacing one of CH₄'s bonding pairs. Lone pairs are held closer to the central atom's nucleus and occupy more angular space, exerting greater repulsion on neighboring electron groups than a bonding pair would, compressing the observed bond angle. Option (D) is wrong because atomic size differences between N and C aren't the mechanism causing this angle change — it's about lone pair vs. bonding pair repulsion, not atomic radius. Option (A) is wrong because both molecules actually have the same total number of electron groups (4); the difference is how many of those groups are lone pairs versus bonding pairs. Option (B) is wrong because the angles are measurably, well-documented as different (107° vs. 109.5°), not identical."
     },
     {
       "id": "2-60",
@@ -1908,7 +1908,7 @@ const QUESTIONS = {
         "Electron geometry: trigonal bipyramidal; molecular geometry: trigonal pyramidal"
       ],
       "correct": 2,
-      "explanation": "With 5 total electron groups (3 bonding + 2 lone pairs), the electron geometry is trigonal bipyramidal (sp³d hybridization). The two lone pairs preferentially occupy equatorial positions, leaving the 3 bonded fluorines in a T-shaped molecular geometry. Option (B) (tetrahedral/bent) describes a central atom with only 4 total electron groups (like water), not ClF₃'s 5. Option (A) (octahedral/square planar) describes 6 total electron groups (4 bonding + 2 lone pairs, as in XeF₄), not ClF₃'s 5. Option (D) correctly identifies the trigonal bipyramidal electron geometry but pairs it with 'trigonal pyramidal' molecular geometry, which actually describes a different lone-pair arrangement (3 bonding + 1 lone pair in a tetrahedral electron geometry, as in NH₃) — not the T-shaped result that comes from ClF₃'s 3 bonding + 2 lone pairs in a trigonal bipyramidal arrangement."
+      "explanation": "Correct: (C) Electron geometry: trigonal bipyramidal; molecular geometry: T-shaped. With 5 total electron groups (3 bonding + 2 lone pairs), the electron geometry is trigonal bipyramidal (sp³d hybridization). The two lone pairs preferentially occupy equatorial positions, leaving the 3 bonded fluorines in a T-shaped molecular geometry. Option (B) (tetrahedral/bent) describes a central atom with only 4 total electron groups (like water), not ClF₃'s 5. Option (A) (octahedral/square planar) describes 6 total electron groups (4 bonding + 2 lone pairs, as in XeF₄), not ClF₃'s 5. Option (D) correctly identifies the trigonal bipyramidal electron geometry but pairs it with 'trigonal pyramidal' molecular geometry, which actually describes a different lone-pair arrangement (3 bonding + 1 lone pair in a tetrahedral electron geometry, as in NH₃) — not the T-shaped result that comes from ClF₃'s 3 bonding + 2 lone pairs in a trigonal bipyramidal arrangement."
     },
     {
       "id": "2-61",
@@ -1934,7 +1934,7 @@ const QUESTIONS = {
         "sp³d²"
       ],
       "correct": 3,
-      "explanation": "Sulfur in SF₆ has 6 bonding pairs and 0 lone pairs (6 total electron groups), corresponding to sp³d² hybridization and octahedral geometry, requiring an expanded octet only possible for Period 3+ elements. sp² is wrong because that corresponds to only 3 electron groups, far fewer than SF₆'s 6. sp³ is wrong because that corresponds to 4 electron groups, still well short of SF₆'s actual count. sp³d is wrong because that corresponds to 5 electron groups — one short of SF₆'s 6 — and would instead apply to a species like PCl₅, not SF₆."
+      "explanation": "Correct: (D) sp³d². Sulfur in SF₆ has 6 bonding pairs and 0 lone pairs (6 total electron groups), corresponding to sp³d² hybridization and octahedral geometry, requiring an expanded octet only possible for Period 3+ elements. sp² is wrong because that corresponds to only 3 electron groups, far fewer than SF₆'s 6. sp³ is wrong because that corresponds to 4 electron groups, still well short of SF₆'s actual count. sp³d is wrong because that corresponds to 5 electron groups — one short of SF₆'s 6 — and would instead apply to a species like PCl₅, not SF₆."
     },
     {
       "id": "2-63",
@@ -1947,7 +1947,7 @@ const QUESTIONS = {
         "Trigonal planar"
       ],
       "correct": 0,
-      "explanation": "4 total electron groups gives a tetrahedral electron geometry (sp³ hybridization) regardless of how many are lone pairs, but with only 2 bonding pairs visible (and 2 lone pairs invisible to molecular geometry), the observed shape connecting the 3 atoms is bent — the exact situation for water. Linear is wrong because that describes only 2 electron groups with no lone pairs, not this 4-group scenario. Tetrahedral is wrong because that's the electron geometry describing the arrangement of all 4 groups including lone pairs, not the observed molecular geometry, which counts only the atoms actually visible (central atom plus the 2 bonded atoms). Trigonal planar is wrong because that describes only 3 total electron groups, not this scenario's 4."
+      "explanation": "Correct: (A) Bent. 4 total electron groups gives a tetrahedral electron geometry (sp³ hybridization) regardless of how many are lone pairs, but with only 2 bonding pairs visible (and 2 lone pairs invisible to molecular geometry), the observed shape connecting the 3 atoms is bent — the exact situation for water. Linear is wrong because that describes only 2 electron groups with no lone pairs, not this 4-group scenario. Tetrahedral is wrong because that's the electron geometry describing the arrangement of all 4 groups including lone pairs, not the observed molecular geometry, which counts only the atoms actually visible (central atom plus the 2 bonded atoms). Trigonal planar is wrong because that describes only 3 total electron groups, not this scenario's 4."
     },
     {
       "id": "2-64",
@@ -1960,7 +1960,7 @@ const QUESTIONS = {
         "NH₃"
       ],
       "correct": 2,
-      "explanation": "Each individual C=O bond in CO₂ is polar, but because CO₂ is linear and perfectly symmetric, the two bond dipoles point in exactly opposite directions and cancel completely, giving zero net molecular dipole. H₂O is wrong because its bent shape (from 2 lone pairs) means the two O-H bond dipoles don't point opposite each other and don't cancel, leaving a net dipole. NH₃ is wrong because its trigonal pyramidal shape (from 1 lone pair) similarly leaves the bond dipoles unable to fully cancel, giving a net dipole. CHCl₃ is wrong because, although tetrahedral, its four substituents aren't all identical (one H in place of what would be a 4th Cl in CCl₄), so its bond dipoles don't cancel by symmetry — unlike CCl₄, which would be nonpolar, CHCl₃ is polar."
+      "explanation": "Correct: (C) CO₂. Each individual C=O bond in CO₂ is polar, but because CO₂ is linear and perfectly symmetric, the two bond dipoles point in exactly opposite directions and cancel completely, giving zero net molecular dipole. H₂O is wrong because its bent shape (from 2 lone pairs) means the two O-H bond dipoles don't point opposite each other and don't cancel, leaving a net dipole. NH₃ is wrong because its trigonal pyramidal shape (from 1 lone pair) similarly leaves the bond dipoles unable to fully cancel, giving a net dipole. CHCl₃ is wrong because, although tetrahedral, its four substituents aren't all identical (one H in place of what would be a 4th Cl in CCl₄), so its bond dipoles don't cancel by symmetry — unlike CCl₄, which would be nonpolar, CHCl₃ is polar."
     },
     {
       "id": "2-65",
@@ -1973,7 +1973,7 @@ const QUESTIONS = {
         "The two lone pairs sit opposite each other, leaving fluorines symmetric so bond dipoles cancel."
       ],
       "correct": 3,
-      "explanation": "With 6 total electron groups (4 bonding + 2 lone pairs), the electron geometry is octahedral. To minimize repulsion, the 2 lone pairs occupy positions directly across from each other (180° apart), leaving the 4 fluorine atoms in a perfectly symmetric square planar molecular geometry, so the four individual (genuinely polar) Xe-F bond dipoles cancel exactly in pairs, giving zero net dipole. Option (B) is wrong because lone pairs absolutely do affect molecular polarity — they determine the molecular geometry, which is precisely what governs whether bond dipoles cancel. Option (C) is wrong because Xe and F do not have identical electronegativity; real, nonzero bond dipoles exist within each Xe-F bond, they just cancel overall due to symmetry. Option (A) is wrong because the premise (that XeF₄ is nonpolar) is experimentally correct, so denying it contradicts well-established fact.",
+      "explanation": "Correct: (D) The two lone pairs sit opposite each other, leaving fluorines symmetric so bond dipoles cancel. With 6 total electron groups (4 bonding + 2 lone pairs), the electron geometry is octahedral. To minimize repulsion, the 2 lone pairs occupy positions directly across from each other (180° apart), leaving the 4 fluorine atoms in a perfectly symmetric square planar molecular geometry, so the four individual (genuinely polar) Xe-F bond dipoles cancel exactly in pairs, giving zero net dipole. Option (B) is wrong because lone pairs absolutely do affect molecular polarity — they determine the molecular geometry, which is precisely what governs whether bond dipoles cancel. Option (C) is wrong because Xe and F do not have identical electronegativity; real, nonzero bond dipoles exist within each Xe-F bond, they just cancel overall due to symmetry. Option (A) is wrong because the premise (that XeF₄ is nonpolar) is experimentally correct, so denying it contradicts well-established fact.",
       "stretch": true
     },
     {
@@ -1987,7 +1987,7 @@ const QUESTIONS = {
         "4σ and 1π"
       ],
       "correct": 2,
-      "explanation": "Every bond, regardless of how many lines it's drawn with, contributes exactly one σ bond, and only the bonds beyond the first line of a multiple bond contribute π bonds. Ethylene has 5 total bonds: 4 C-H single bonds (each 1σ, so 4σ total) plus 1 C=C double bond (1σ + 1π). Adding the σ bonds: 4 (from C-H) + 1 (from C=C) = 5σ. Adding the π bonds: 0 (from C-H, single bonds have none) + 1 (from C=C) = 1π. So ethylene has 5σ and 1π bonds overall — (D) undercounts the σ bonds by leaving out one of the C-H bonds, (A) overcounts the π bonds by treating the double bond as contributing 2π instead of 1, and (B) incorrectly ignores the π bond of the double bond entirely."
+      "explanation": "Correct: (C) 5σ and 1π. Every bond, regardless of how many lines it's drawn with, contributes exactly one σ bond, and only the bonds beyond the first line of a multiple bond contribute π bonds. Ethylene has 5 total bonds: 4 C-H single bonds (each 1σ, so 4σ total) plus 1 C=C double bond (1σ + 1π). Adding the σ bonds: 4 (from C-H) + 1 (from C=C) = 5σ. Adding the π bonds: 0 (from C-H, single bonds have none) + 1 (from C=C) = 1π. So ethylene has 5σ and 1π bonds overall — (D) undercounts the σ bonds by leaving out one of the C-H bonds, (A) overcounts the π bonds by treating the double bond as contributing 2π instead of 1, and (B) incorrectly ignores the π bond of the double bond entirely."
     },
     {
       "id": "2-77",
@@ -2000,7 +2000,7 @@ const QUESTIONS = {
         "3σ and 2π"
       ],
       "correct": 3,
-      "explanation": "Acetylene has 3 total bonds: 2 C-H single bonds (each contributing 1σ, so 2σ total) plus 1 C≡C triple bond, which contributes exactly 1σ + 2π (a triple bond is always 1σ plus 2 extra π bonds beyond the first line). Adding the σ bonds: 2 (from C-H) + 1 (from C≡C) = 3σ. Adding the π bonds: 0 (from C-H) + 2 (from C≡C) = 2π. So acetylene has 3σ and 2π bonds overall. (C) is wrong because it ignores that a triple bond contains any π bonds at all. (A) is wrong because it undercounts the σ bonds — every one of the 3 total bonds (including the triple bond) contributes exactly one σ bond, giving 3σ, not 2σ. (B) is wrong because it miscounts the triple bond as contributing 3π instead of 2."
+      "explanation": "Correct: (D) 3σ and 2π. Acetylene has 3 total bonds: 2 C-H single bonds (each contributing 1σ, so 2σ total) plus 1 C≡C triple bond, which contributes exactly 1σ + 2π (a triple bond is always 1σ plus 2 extra π bonds beyond the first line). Adding the σ bonds: 2 (from C-H) + 1 (from C≡C) = 3σ. Adding the π bonds: 0 (from C-H) + 2 (from C≡C) = 2π. So acetylene has 3σ and 2π bonds overall. (C) is wrong because it ignores that a triple bond contains any π bonds at all. (A) is wrong because it undercounts the σ bonds — every one of the 3 total bonds (including the triple bond) contributes exactly one σ bond, giving 3σ, not 2σ. (B) is wrong because it miscounts the triple bond as contributing 3π instead of 2."
     },
     {
       "id": "2-78",
@@ -2013,7 +2013,7 @@ const QUESTIONS = {
         "2σ and 1π"
       ],
       "correct": 0,
-      "explanation": "Formaldehyde has 3 total bonds between atoms: 2 C-H single bonds (each 1σ, so 2σ total) plus 1 C=O double bond (1σ + 1π). Lone pairs on oxygen aren't bonds at all, so they don't add to either count. Adding the σ bonds: 2 (from C-H) + 1 (from C=O) = 3σ. Adding the π bonds: 0 (from C-H) + 1 (from C=O) = 1π. So formaldehyde has 3σ and 1π bonds overall. (B) is wrong because it ignores the π bond that the C=O double bond contributes. (C) is wrong because it undercounts the σ bonds, missing one of the two C-H bonds. (D) is wrong because it overcounts the π bonds, treating the double bond as if it were a triple bond (1σ + 2π) instead of a double bond (1σ + 1π)."
+      "explanation": "Correct: (A) 3σ and 1π. Formaldehyde has 3 total bonds between atoms: 2 C-H single bonds (each 1σ, so 2σ total) plus 1 C=O double bond (1σ + 1π). Lone pairs on oxygen aren't bonds at all, so they don't add to either count. Adding the σ bonds: 2 (from C-H) + 1 (from C=O) = 3σ. Adding the π bonds: 0 (from C-H) + 1 (from C=O) = 1π. So formaldehyde has 3σ and 1π bonds overall. (B) is wrong because it ignores the π bond that the C=O double bond contributes. (C) is wrong because it undercounts the σ bonds, missing one of the two C-H bonds. (D) is wrong because it overcounts the π bonds, treating the double bond as if it were a triple bond (1σ + 2π) instead of a double bond (1σ + 1π)."
     },
     {
       "id": "2-81",
@@ -2098,7 +2098,7 @@ const QUESTIONS = {
         "Ion-dipole"
       ],
       "correct": 1,
-      "explanation": "London dispersion forces arise from temporary, instantaneous fluctuations in electron distribution, which occur in every atom and molecule regardless of polarity—so they're the one IMF guaranteed to be present everywhere. Ion-dipole (choice D) requires an actual ion, which isn't present between neutral molecules at all. Dipole-dipole (A) requires a permanent net dipole, so it's absent in nonpolar substances like N2 or CH4. Hydrogen bonding (C) requires H bonded directly to N, O, or F, which most molecules simply don't have. Both A and C are real but conditional; only dispersion is unconditional."
+      "explanation": "Correct: (B) London dispersion. London dispersion forces arise from temporary, instantaneous fluctuations in electron distribution, which occur in every atom and molecule regardless of polarity—so they're the one IMF guaranteed to be present everywhere. Ion-dipole (choice D) requires an actual ion, which isn't present between neutral molecules at all. Dipole-dipole (A) requires a permanent net dipole, so it's absent in nonpolar substances like N2 or CH4. Hydrogen bonding (C) requires H bonded directly to N, O, or F, which most molecules simply don't have. Both A and C are real but conditional; only dispersion is unconditional."
     },
     {
       "id": "3-2",
@@ -2111,7 +2111,7 @@ const QUESTIONS = {
         "CH₃-CH₂-OH"
       ],
       "correct": 3,
-      "explanation": "Hydrogen bonding requires H bonded directly to N, O, or F. In CH3-CH2-OH (ethanol), the H on the -OH group is bonded straight to oxygen, so it qualifies. CH3-CH2-CH3 (propane) has no N, O, or F at all—only C-H and C-C bonds—so it has only dispersion forces. CH3-F is polar (C-F dipole) but its hydrogens are bonded to carbon, not fluorine, so it shows dipole-dipole attraction, not hydrogen bonding. CH3-O-CH3 (dimethyl ether) does contain oxygen, but every hydrogen in it is bonded to carbon, not oxygen—the ether oxygen has no H attached—so despite the O, it can't hydrogen bond with itself."
+      "explanation": "Correct: (D) CH₃-CH₂-OH. Hydrogen bonding requires H bonded directly to N, O, or F. In CH3-CH2-OH (ethanol), the H on the -OH group is bonded straight to oxygen, so it qualifies. CH3-CH2-CH3 (propane) has no N, O, or F at all—only C-H and C-C bonds—so it has only dispersion forces. CH3-F is polar (C-F dipole) but its hydrogens are bonded to carbon, not fluorine, so it shows dipole-dipole attraction, not hydrogen bonding. CH3-O-CH3 (dimethyl ether) does contain oxygen, but every hydrogen in it is bonded to carbon, not oxygen—the ether oxygen has no H attached—so despite the O, it can't hydrogen bond with itself."
     },
     {
       "id": "3-3",
@@ -2124,7 +2124,7 @@ const QUESTIONS = {
         "Larger electron clouds are more polarizable, allowing stronger dipoles."
       ],
       "correct": 3,
-      "explanation": "Correct: larger electron clouds are more polarizable, allowing stronger dipoles. London dispersion forces come from temporary (instantaneous) dipoles: at any moment the electrons in a molecule may be unevenly distributed, making one side briefly slightly negative. That temporary dipole distorts the electron cloud of a neighboring molecule (an induced dipole), and the two attract. A molecule with more electrons spread over a larger volume has an electron cloud that is easier to distort (more polarizable), so its temporary dipoles are larger and the attractions are stronger. This is why the halogens go from gas to liquid to solid as size increases: F2 (boiling point about 85 K), Cl2 (about 239 K), Br2 (about 332 K), I2 (about 458 K).\n\n(A) is wrong because more protons hold a molecule's own electrons more tightly; they do not strengthen the attraction between separate molecules.\n(C) is wrong because large molecules are not always polar; octane is large and nonpolar.\n(B) is wrong because the halogen trend shows that size matters."
+      "explanation": "Correct: (D) Larger electron clouds are more polarizable, allowing stronger dipoles. London dispersion forces come from temporary (instantaneous) dipoles: at any moment the electrons in a molecule may be unevenly distributed, making one side briefly slightly negative. That temporary dipole distorts the electron cloud of a neighboring molecule (an induced dipole), and the two attract. A molecule with more electrons spread over a larger volume has an electron cloud that is easier to distort (more polarizable), so its temporary dipoles are larger and the attractions are stronger. This is why the halogens go from gas to liquid to solid as size increases: F2 (boiling point about 85 K), Cl2 (about 239 K), Br2 (about 332 K), I2 (about 458 K).\n\n(A) is wrong because more protons hold a molecule's own electrons more tightly; they do not strengthen the attraction between separate molecules.\n(C) is wrong because large molecules are not always polar; octane is large and nonpolar.\n(B) is wrong because the halogen trend shows that size matters."
     },
     {
       "id": "3-4",
@@ -2137,7 +2137,7 @@ const QUESTIONS = {
         "AsH₃ > PH₃ > NH₃"
       ],
       "correct": 2,
-      "explanation": "NH3 has hydrogen bonding (H bonded to N), giving it an anomalously high boiling point despite being the smallest of the three. Neither PH3 nor AsH3 hydrogen bonds (P and As aren't electronegative enough), so their boiling points are set by dispersion forces, which favor the larger, more polarizable AsH3 over PH3. That gives NH3 > AsH3 > PH3. Choice B (all identical) ignores that these are chemically distinct molecules with very different IMF profiles. Choice D (AsH3 > PH3 > NH3) ranks purely by size/dispersion and misses that NH3's hydrogen bonding vaults it above both larger hydrides. Choice A (PH3 > NH3 > AsH3) gets both parts wrong: it underrates NH3's hydrogen bonding and reverses the dispersion-based PH3/AsH3 order."
+      "explanation": "Correct: (C) NH₃ > AsH₃ > PH₃. NH3 has hydrogen bonding (H bonded to N), giving it an anomalously high boiling point despite being the smallest of the three. Neither PH3 nor AsH3 hydrogen bonds (P and As aren't electronegative enough), so their boiling points are set by dispersion forces, which favor the larger, more polarizable AsH3 over PH3. That gives NH3 > AsH3 > PH3. Choice B (all identical) ignores that these are chemically distinct molecules with very different IMF profiles. Choice D (AsH3 > PH3 > NH3) ranks purely by size/dispersion and misses that NH3's hydrogen bonding vaults it above both larger hydrides. Choice A (PH3 > NH3 > AsH3) gets both parts wrong: it underrates NH3's hydrogen bonding and reverses the dispersion-based PH3/AsH3 order."
     },
     {
       "id": "3-5",
@@ -2150,7 +2150,7 @@ const QUESTIONS = {
         "HF and HF"
       ],
       "correct": 2,
-      "explanation": "CH3Cl is polar (the C-Cl bond dipole isn't cancelled by symmetry) but has no H bonded directly to N, O, or F—its hydrogens are all on carbon—so dipole-dipole, not hydrogen bonding, is its strongest IMF. H2O, HF, and NH3 all have H bonded directly to O, F, or N respectively, so each of those three pairs is dominated by hydrogen bonding rather than plain dipole-dipole, disqualifying choices A, B, and D."
+      "explanation": "Correct: (C) CH₃Cl and CH₃Cl. CH3Cl is polar (the C-Cl bond dipole isn't cancelled by symmetry) but has no H bonded directly to N, O, or F—its hydrogens are all on carbon—so dipole-dipole, not hydrogen bonding, is its strongest IMF. H2O, HF, and NH3 all have H bonded directly to O, F, or N respectively, so each of those three pairs is dominated by hydrogen bonding rather than plain dipole-dipole, disqualifying choices A, B, and D."
     },
     {
       "id": "3-6",
@@ -2163,7 +2163,7 @@ const QUESTIONS = {
         "Melting point is unrelated to IMF strength for diatomic molecules."
       ],
       "correct": 2,
-      "explanation": "Both I2 and F2 are nonpolar, so dispersion forces are the only IMF present in either—iodine's much larger size and far greater number of electrons give it a substantially more polarizable electron cloud and thus stronger dispersion forces, which is why I2 is solid at room temperature while F2 is a gas. Choice B is wrong because neither substance is ionic; both are covalent diatomic nonmetals. Choice A is wrong because a homonuclear diatomic like I2 or F2 is always nonpolar by symmetry—there's no electronegativity difference between identical atoms. Choice D is simply false: melting point differences between similar species are a standard indicator of relative IMF strength."
+      "explanation": "Correct: (C) I₂ has more electrons and a larger, more polarizable cloud. Both I2 and F2 are nonpolar, so dispersion forces are the only IMF present in either—iodine's much larger size and far greater number of electrons give it a substantially more polarizable electron cloud and thus stronger dispersion forces, which is why I2 is solid at room temperature while F2 is a gas. Choice B is wrong because neither substance is ionic; both are covalent diatomic nonmetals. Choice A is wrong because a homonuclear diatomic like I2 or F2 is always nonpolar by symmetry—there's no electronegativity difference between identical atoms. Choice D is simply false: melting point differences between similar species are a standard indicator of relative IMF strength."
     },
     {
       "id": "3-7",
@@ -2176,7 +2176,7 @@ const QUESTIONS = {
         "Only hydrogen bonding forces present here"
       ],
       "correct": 0,
-      "explanation": "Correct: dipole-dipole and London dispersion forces. Work through the intermolecular forces in order. London dispersion forces are present in EVERY molecule. Dipole-dipole forces are added if the molecule is polar (a permanent dipole, from polar bonds that do not cancel by shape). Hydrogen bonding is added only if hydrogen is bonded directly to N, O, or F. This molecule is polar, so it has dipole-dipole forces, and it has no H on N, O, or F, so there is no hydrogen bonding. Examples that fit: HCl, CH3Cl, and SO2.\n\n(B) is wrong because a polar molecule has a permanent dipole, which gives it dipole-dipole attractions in addition to dispersion forces.\n(C) is wrong because dispersion forces never disappear; every molecule has them.\n(D) is wrong because the stem says there is no H bonded to N, O, or F, so hydrogen bonding is not possible."
+      "explanation": "Correct: (A) Dipole-dipole and London dispersion forces. Work through the intermolecular forces in order. London dispersion forces are present in EVERY molecule. Dipole-dipole forces are added if the molecule is polar (a permanent dipole, from polar bonds that do not cancel by shape). Hydrogen bonding is added only if hydrogen is bonded directly to N, O, or F. This molecule is polar, so it has dipole-dipole forces, and it has no H on N, O, or F, so there is no hydrogen bonding. Examples that fit: HCl, CH3Cl, and SO2.\n\n(B) is wrong because a polar molecule has a permanent dipole, which gives it dipole-dipole attractions in addition to dispersion forces.\n(C) is wrong because dispersion forces never disappear; every molecule has them.\n(D) is wrong because the stem says there is no H bonded to N, O, or F, so hydrogen bonding is not possible."
     },
     {
       "id": "3-8",
@@ -2189,7 +2189,7 @@ const QUESTIONS = {
         "CH₃CH₂CH₃ (propane)"
       ],
       "correct": 1,
-      "explanation": "Ethanol has hydrogen bonding (its O-H group), the strongest IMF among these four, giving it the highest boiling point (78°C) despite not being the largest molecule listed. Acetone is polar (C=O dipole-dipole) but has no O-H or N-H bond, so it lacks hydrogen bonding and boils lower than ethanol despite having a comparable or larger molar mass. Ethane and propane are both nonpolar, relying on dispersion forces only, which are weaker than either dipole-dipole or hydrogen bonding here—propane's boiling point beats ethane's since it has more electrons, but both trail acetone and ethanol badly."
+      "explanation": "Correct: (B) CH₃CH₂OH (ethanol). Ethanol has hydrogen bonding (its O-H group), the strongest IMF among these four, giving it the highest boiling point (78°C) despite not being the largest molecule listed. Acetone is polar (C=O dipole-dipole) but has no O-H or N-H bond, so it lacks hydrogen bonding and boils lower than ethanol despite having a comparable or larger molar mass. Ethane and propane are both nonpolar, relying on dispersion forces only, which are weaker than either dipole-dipole or hydrogen bonding here—propane's boiling point beats ethane's since it has more electrons, but both trail acetone and ethanol badly."
     },
     {
       "id": "3-9",
@@ -2202,7 +2202,7 @@ const QUESTIONS = {
         "They have identical boiling points since they share the same molecular formula"
       ],
       "correct": 2,
-      "explanation": "Despite sharing the exact same molecular formula (and thus the same molar mass and very similar dispersion forces), the alcohol isomer has an O-H bond capable of hydrogen bonding, while the ether's oxygen is bonded only to carbons on both sides—no H directly on O. This structural difference alone gives the alcohol a substantially higher boiling point. Choice B is wrong because ethers are only modestly polar (bent C-O-C) and are not 'always more polar' than alcohols—if anything alcohols typically have comparable or greater net polarity plus hydrogen bonding. Choice D ignores that identical formula does not mean identical connectivity or identical IMFs. Choice A is backwards: with essentially equal molar mass and shape, the two isomers have comparable dispersion forces, so 'more dispersion' isn't what distinguishes the ether—and even if it were, it wouldn't be enough to beat hydrogen bonding anyway."
+      "explanation": "Correct: (C) The alcohol, because it has hydrogen bonding while the ether does not. Despite sharing the exact same molecular formula (and thus the same molar mass and very similar dispersion forces), the alcohol isomer has an O-H bond capable of hydrogen bonding, while the ether's oxygen is bonded only to carbons on both sides—no H directly on O. This structural difference alone gives the alcohol a substantially higher boiling point. Choice B is wrong because ethers are only modestly polar (bent C-O-C) and are not 'always more polar' than alcohols—if anything alcohols typically have comparable or greater net polarity plus hydrogen bonding. Choice D ignores that identical formula does not mean identical connectivity or identical IMFs. Choice A is backwards: with essentially equal molar mass and shape, the two isomers have comparable dispersion forces, so 'more dispersion' isn't what distinguishes the ether—and even if it were, it wouldn't be enough to beat hydrogen bonding anyway."
     },
     {
       "id": "3-101",
@@ -2313,7 +2313,7 @@ const QUESTIONS = {
         "Metallic solid"
       ],
       "correct": 1,
-      "explanation": "Covalent network solids (like diamond or quartz) require breaking actual covalent bonds extending throughout the entire 3D structure to melt, which takes far more energy than overcoming IMFs. Amorphous solids (choice C) actually soften gradually over a range of temperatures rather than melting sharply, and don't require breaking a continuous bonded framework the way network solids do. Metallic solids (choice D) are held by a delocalized electron sea, which is strong but generally weaker on average than a full 3D covalent bonding network. Molecular solids (choice A) are held together only by comparatively weak IMFs between intact molecules, giving them the lowest melting points of the four."
+      "explanation": "Correct: (B) Covalent network solid. Covalent network solids (like diamond or quartz) require breaking actual covalent bonds extending throughout the entire 3D structure to melt, which takes far more energy than overcoming IMFs. Amorphous solids (choice C) actually soften gradually over a range of temperatures rather than melting sharply, and don't require breaking a continuous bonded framework the way network solids do. Metallic solids (choice D) are held by a delocalized electron sea, which is strong but generally weaker on average than a full 3D covalent bonding network. Molecular solids (choice A) are held together only by comparatively weak IMFs between intact molecules, giving them the lowest melting points of the four."
     },
     {
       "id": "3-11",
@@ -2326,7 +2326,7 @@ const QUESTIONS = {
         "A solid lacking long-range order, with only local structure"
       ],
       "correct": 3,
-      "explanation": "Correct: a solid lacking long-range order, with only local structure. In a crystalline solid (like table salt or diamond) the particles are arranged in a regular pattern that repeats throughout the whole sample (long-range order). In an amorphous solid (glass, rubber, many plastics) the particles are frozen in a disordered arrangement, a bit like a liquid that has stopped flowing, with only short-range local structure. A practical difference is that amorphous solids soften gradually over a range of temperatures instead of melting at one sharp temperature.\n\n(B) is wrong because a perfectly repeating, long-range structure describes a crystalline solid, the opposite of amorphous.\n(C) is wrong because amorphous solids are not necessarily ionic; glass is a covalent network-type material, and many amorphous solids are polymers.\n(A) is wrong because electrical conductivity has nothing to do with being amorphous; glass is a classic amorphous solid and it does not conduct."
+      "explanation": "Correct: (D) A solid lacking long-range order, with only local structure. In a crystalline solid (like table salt or diamond) the particles are arranged in a regular pattern that repeats throughout the whole sample (long-range order). In an amorphous solid (glass, rubber, many plastics) the particles are frozen in a disordered arrangement, a bit like a liquid that has stopped flowing, with only short-range local structure. A practical difference is that amorphous solids soften gradually over a range of temperatures instead of melting at one sharp temperature.\n\n(B) is wrong because a perfectly repeating, long-range structure describes a crystalline solid, the opposite of amorphous.\n(C) is wrong because amorphous solids are not necessarily ionic; glass is a covalent network-type material, and many amorphous solids are polymers.\n(A) is wrong because electrical conductivity has nothing to do with being amorphous; glass is a classic amorphous solid and it does not conduct."
     },
     {
       "id": "3-12",
@@ -2339,7 +2339,7 @@ const QUESTIONS = {
         "Metallic solid"
       ],
       "correct": 0,
-      "explanation": "Correct: molecular solid. To classify a solid, ask what particles are in the lattice and what holds them together. Ionic solid: cations and anions held by ionic bonds. Metallic solid: metal cations in a sea of delocalized electrons. Covalent network solid: atoms joined by covalent bonds in one continuous network (diamond, SiO2). Molecular solid: separate molecules held together by intermolecular forces. Dry ice is made of separate CO2 molecules. Because CO2 is nonpolar, only weak London dispersion forces hold the molecules together, which is why dry ice sublimes at a very low temperature (about -78 C at 1 atm): only intermolecular forces, not covalent bonds, have to be overcome.\n\n(C) is wrong because there is no metal cation and nonmetal anion pair in CO2.\n(B) is wrong because dry ice consists of discrete CO2 units, not one continuous bonded network.\n(D) is wrong because there are no metal atoms or sea of electrons; CO2 is entirely nonmetal."
+      "explanation": "Correct: (A) Molecular solid. To classify a solid, ask what particles are in the lattice and what holds them together. Ionic solid: cations and anions held by ionic bonds. Metallic solid: metal cations in a sea of delocalized electrons. Covalent network solid: atoms joined by covalent bonds in one continuous network (diamond, SiO2). Molecular solid: separate molecules held together by intermolecular forces. Dry ice is made of separate CO2 molecules. Because CO2 is nonpolar, only weak London dispersion forces hold the molecules together, which is why dry ice sublimes at a very low temperature (about -78 C at 1 atm): only intermolecular forces, not covalent bonds, have to be overcome.\n\n(C) is wrong because there is no metal cation and nonmetal anion pair in CO2.\n(B) is wrong because dry ice consists of discrete CO2 units, not one continuous bonded network.\n(D) is wrong because there are no metal atoms or sea of electrons; CO2 is entirely nonmetal."
     },
     {
       "id": "3-13",
@@ -2352,7 +2352,7 @@ const QUESTIONS = {
         "It shatters easily under stress and conducts electricity when dissolved in water."
       ],
       "correct": 1,
-      "explanation": "Correct: it is extremely hard and high-melting, with no conductivity even molten. In a covalent network solid (such as diamond, quartz, or silicon carbide), every atom is bonded to its neighbors by covalent bonds throughout the whole crystal. Melting or scratching it means breaking many strong covalent bonds, so these solids are very hard and have very high melting points. They do not conduct electricity, even when melted, because there are no mobile ions and the electrons are held in the bonds. They are also usually insoluble. (Graphite is an exception that conducts, because of its layers of delocalized electrons.)\n\n(A) is wrong because a low melting point and good solubility in water point to a molecular solid.\n(C) is wrong because conducting as a solid points to a metal, which has a sea of mobile electrons.\n(D) is wrong because a brittle solid that conducts when dissolved is typical of an ionic solid, which releases mobile ions in water."
+      "explanation": "Correct: (B) It is extremely hard and high-melting, with no conductivity even molten. In a covalent network solid (such as diamond, quartz, or silicon carbide), every atom is bonded to its neighbors by covalent bonds throughout the whole crystal. Melting or scratching it means breaking many strong covalent bonds, so these solids are very hard and have very high melting points. They do not conduct electricity, even when melted, because there are no mobile ions and the electrons are held in the bonds. They are also usually insoluble. (Graphite is an exception that conducts, because of its layers of delocalized electrons.)\n\n(A) is wrong because a low melting point and good solubility in water point to a molecular solid.\n(C) is wrong because conducting as a solid points to a metal, which has a sea of mobile electrons.\n(D) is wrong because a brittle solid that conducts when dissolved is typical of an ionic solid, which releases mobile ions in water."
     },
     {
       "id": "3-14",
@@ -2365,7 +2365,7 @@ const QUESTIONS = {
         "Iodine is an ionic solid, while SiO₂ is covalent-network."
       ],
       "correct": 0,
-      "explanation": "Correct: SiO2 is a covalent network solid; I2 has only weak dispersion forces. The melting point depends on what has to be overcome for the particles to move past each other. SiO2 is a continuous 3D network of strong covalent Si-O bonds, so to melt it you have to break covalent bonds, which takes a very high temperature (about 1,710 C). I2 is a molecular solid: its molecules stay intact and only the weak London dispersion forces between them are overcome when it melts (about 114 C). Covalent bonds are much stronger than intermolecular forces.\n\n(C) is wrong because dispersion forces between SiO2 units are not what holds quartz together; its melting point is set by the covalent network.\n(D) is wrong because iodine is a nonpolar covalent molecule, not an ionic solid.\n(B) is wrong because the melting points are very different (1,710 C vs. 114 C)."
+      "explanation": "Correct: (A) SiO2 is a covalent network solid; I2 has only weak dispersion forces. The melting point depends on what has to be overcome for the particles to move past each other. SiO2 is a continuous 3D network of strong covalent Si-O bonds, so to melt it you have to break covalent bonds, which takes a very high temperature (about 1,710 C). I2 is a molecular solid: its molecules stay intact and only the weak London dispersion forces between them are overcome when it melts (about 114 C). Covalent bonds are much stronger than intermolecular forces.\n\n(C) is wrong because dispersion forces between SiO2 units are not what holds quartz together; its melting point is set by the covalent network.\n(D) is wrong because iodine is a nonpolar covalent molecule, not an ionic solid.\n(B) is wrong because the melting points are very different (1,710 C vs. 114 C)."
     },
     {
       "id": "3-15",
@@ -2391,7 +2391,7 @@ const QUESTIONS = {
         "Diamond simply packs more carbon atoms into each unit volume than graphite does."
       ],
       "correct": 2,
-      "explanation": "Diamond's sp3 carbons each form four localized single bonds, using all 4 valence electrons in fixed positions with no mobile charge carriers, making it an electrical insulator despite being a covalent network solid. Graphite's sp2 carbons each leave one electron in an unhybridized p-orbital that delocalizes across the entire 2D sheet (much like a metallic electron sea, but confined to 2D), giving graphite conductivity within each layer. Choice A is wrong because neither allotrope has any ionic bonding at all—both are pure carbon held together by covalent bonds only. Choice D is wrong because carbon-atom density per unit volume doesn't determine electrical conductivity; the presence or absence of delocalized, mobile electrons does. Choice B is simply false—graphite (pencil 'lead') is a familiar room-temperature solid."
+      "explanation": "Correct: (C) Graphite's sp² carbons delocalize a p-orbital electron; diamond's sp³ carbons localize all electrons. Diamond's sp3 carbons each form four localized single bonds, using all 4 valence electrons in fixed positions with no mobile charge carriers, making it an electrical insulator despite being a covalent network solid. Graphite's sp2 carbons each leave one electron in an unhybridized p-orbital that delocalizes across the entire 2D sheet (much like a metallic electron sea, but confined to 2D), giving graphite conductivity within each layer. Choice A is wrong because neither allotrope has any ionic bonding at all—both are pure carbon held together by covalent bonds only. Choice D is wrong because carbon-atom density per unit volume doesn't determine electrical conductivity; the presence or absence of delocalized, mobile electrons does. Choice B is simply false—graphite (pencil 'lead') is a familiar room-temperature solid."
     },
     {
       "id": "3-103",
@@ -2418,7 +2418,7 @@ const QUESTIONS = {
         "A measurement error somewhere in the experimental setup."
       ],
       "correct": 2,
-      "explanation": "Correct: a phase change is occurring, so energy overcomes IMFs, not raising KE. Temperature measures the average kinetic energy of the particles. On a heating curve, the sloped parts are where the substance is in a single phase, and the added energy raises the kinetic energy (the temperature rises; q = mc(delta T)). The flat plateaus are the phase changes (melting and boiling). The added energy goes into overcoming the attractions between particles (increasing potential energy), not into making them move faster, so the temperature stays constant until the change is complete (q = n x delta H).\n\n(A) is wrong because a plateau is not a maximum temperature: the temperature rises again once the phase change is over.\n(B) is wrong because heat is still being added during the plateau; that is why the phase change can continue.\n(D) is wrong because a plateau is a real, reproducible feature of every heating curve."
+      "explanation": "Correct: (C) A phase change is occurring, so energy overcomes IMFs, not raising KE. Temperature measures the average kinetic energy of the particles. On a heating curve, the sloped parts are where the substance is in a single phase, and the added energy raises the kinetic energy (the temperature rises; q = mc(delta T)). The flat plateaus are the phase changes (melting and boiling). The added energy goes into overcoming the attractions between particles (increasing potential energy), not into making them move faster, so the temperature stays constant until the change is complete (q = n x delta H).\n\n(A) is wrong because a plateau is not a maximum temperature: the temperature rises again once the phase change is over.\n(B) is wrong because heat is still being added during the plateau; that is why the phase change can continue.\n(D) is wrong because a plateau is a real, reproducible feature of every heating curve."
     },
     {
       "id": "3-18",
@@ -2431,7 +2431,7 @@ const QUESTIONS = {
         "Liquids have particles in fixed positions, like solids, but move faster than gas particles."
       ],
       "correct": 1,
-      "explanation": "Liquid particles retain enough attractive interaction to stay close together (much closer than in a gas) but have enough kinetic energy to slide past one another rather than being locked into fixed lattice positions like a solid—this combination explains liquids' ability to flow while remaining nearly incompressible. Choice D contradicts itself: particles in 'fixed positions' describes a solid, not a liquid, and fixed particles couldn't produce flow. Choice A is false—gases have particles spaced far apart with large empty volume between them, while liquid particles are packed close together; their spacing and organization are quite different. Choice C is false because liquids absolutely have IMFs—in fact, it's the presence of significant IMFs (stronger than in the gas phase, present but overcome-able unlike in a rigid solid) that keeps a liquid condensed at all."
+      "explanation": "Correct: (B) Liquid particles move past one another, unlike a solid, but stay close, unlike a gas. Liquid particles retain enough attractive interaction to stay close together (much closer than in a gas) but have enough kinetic energy to slide past one another rather than being locked into fixed lattice positions like a solid—this combination explains liquids' ability to flow while remaining nearly incompressible. Choice D contradicts itself: particles in 'fixed positions' describes a solid, not a liquid, and fixed particles couldn't produce flow. Choice A is false—gases have particles spaced far apart with large empty volume between them, while liquid particles are packed close together; their spacing and organization are quite different. Choice C is false because liquids absolutely have IMFs—in fact, it's the presence of significant IMFs (stronger than in the gas phase, present but overcome-able unlike in a rigid solid) that keeps a liquid condensed at all."
     },
     {
       "id": "3-19",
@@ -2444,7 +2444,7 @@ const QUESTIONS = {
         "The escaping molecules have the highest KE, lowering the liquid's average KE."
       ],
       "correct": 3,
-      "explanation": "Correct: the escaping molecules have the highest KE, lowering the liquid's average KE. In a liquid the molecules move at a range of speeds (a distribution of kinetic energies). The fastest molecules are the ones with enough energy to overcome the intermolecular forces and escape into the gas phase. When they leave, the molecules left behind have a lower average kinetic energy, which means the liquid has a lower temperature. The sweat takes energy from the skin as it evaporates (evaporation is endothermic), so the skin cools.\n\n(A) is wrong because evaporation is endothermic, not exothermic; it removes energy from the surroundings.\n(B) is wrong because the cooling effect is easy to measure and is how sweating cools the body.\n(C) is wrong because the skin's heat is not 'released' into the air; the energy leaves with the fastest molecules as they escape into vapor."
+      "explanation": "Correct: (D) The escaping molecules have the highest KE, lowering the liquid's average KE. In a liquid the molecules move at a range of speeds (a distribution of kinetic energies). The fastest molecules are the ones with enough energy to overcome the intermolecular forces and escape into the gas phase. When they leave, the molecules left behind have a lower average kinetic energy, which means the liquid has a lower temperature. The sweat takes energy from the skin as it evaporates (evaporation is endothermic), so the skin cools.\n\n(A) is wrong because evaporation is endothermic, not exothermic; it removes energy from the surroundings.\n(B) is wrong because the cooling effect is easy to measure and is how sweating cools the body.\n(C) is wrong because the skin's heat is not 'released' into the air; the energy leaves with the fastest molecules as they escape into vapor."
     },
     {
       "id": "3-20",
@@ -2470,7 +2470,7 @@ const QUESTIONS = {
         "The substance simply boils faster than it melts."
       ],
       "correct": 0,
-      "explanation": "The length of a heating curve plateau directly reflects the energy required for that phase change (heat of fusion for melting, heat of vaporization for boiling) at a constant heating rate. Boiling requires completely separating particles from all their neighbors into a gas phase, while melting only requires enough energy to let particles slide past each other while remaining close together—so heat of vaporization is almost always substantially larger than heat of fusion, matching a longer boiling plateau. Choice B doesn't follow from the observation at all—plateau length reflects energy needed, not which phase change happens at a lower temperature. Choice D confuses plateau length (total energy required, at fixed heating rate) with process speed; a longer plateau means more energy is needed, not that boiling is slower. Choice C is wrong because unequal plateau lengths are the expected, universal result for essentially every real substance, not evidence of an error."
+      "explanation": "Correct: (A) Vaporizing the substance requires more energy than melting it does. The length of a heating curve plateau directly reflects the energy required for that phase change (heat of fusion for melting, heat of vaporization for boiling) at a constant heating rate. Boiling requires completely separating particles from all their neighbors into a gas phase, while melting only requires enough energy to let particles slide past each other while remaining close together—so heat of vaporization is almost always substantially larger than heat of fusion, matching a longer boiling plateau. Choice B doesn't follow from the observation at all—plateau length reflects energy needed, not which phase change happens at a lower temperature. Choice D confuses plateau length (total energy required, at fixed heating rate) with process speed; a longer plateau means more energy is needed, not that boiling is slower. Choice C is wrong because unequal plateau lengths are the expected, universal result for essentially every real substance, not evidence of an error."
     },
     {
       "id": "3-22",
@@ -2483,7 +2483,7 @@ const QUESTIONS = {
         "Higher pressure requires a higher temperature for vapor pressure to match it."
       ],
       "correct": 3,
-      "explanation": "Boiling occurs when a liquid's vapor pressure equals the external pressure. Raising external pressure means vapor pressure must climb higher to match it, and since vapor pressure rises with temperature, a higher external pressure requires a higher temperature to reach boiling—exactly why a pressure cooker cooks food faster at an elevated boiling point. Choice B is wrong because external pressure doesn't change the strength of attractions between the liquid's own molecules; IMF strength is a property of the substance, not the surrounding pressure. Choice A is wrong because pressure changes don't remove particles from the liquid. Choice C is directly contradicted by the well-documented pressure-cooker effect and altitude effects on boiling point."
+      "explanation": "Correct: (D) Higher pressure requires a higher temperature for vapor pressure to match it. Boiling occurs when a liquid's vapor pressure equals the external pressure. Raising external pressure means vapor pressure must climb higher to match it, and since vapor pressure rises with temperature, a higher external pressure requires a higher temperature to reach boiling—exactly why a pressure cooker cooks food faster at an elevated boiling point. Choice B is wrong because external pressure doesn't change the strength of attractions between the liquid's own molecules; IMF strength is a property of the substance, not the surrounding pressure. Choice A is wrong because pressure changes don't remove particles from the liquid. Choice C is directly contradicted by the well-documented pressure-cooker effect and altitude effects on boiling point."
     },
     {
       "id": "3-23",
@@ -2496,7 +2496,7 @@ const QUESTIONS = {
         "Water molecules simply have weaker IMFs at high altitude."
       ],
       "correct": 1,
-      "explanation": "Since boiling occurs when vapor pressure equals external pressure, the lower atmospheric pressure at high altitude means water's vapor pressure only needs to reach that lower value to boil—and since vapor pressure increases with temperature, hitting a lower required vapor pressure happens at a lower temperature than at sea level. Choice C is directly contradicted by this well-established relationship. Choice D is wrong because altitude doesn't change water's IMFs at all; what changes is only the external pressure the liquid must overcome. Choice A is irrelevant—the amount of water present has no bearing on the temperature at which it boils."
+      "explanation": "Correct: (B) Lower pressure means vapor pressure only needs to reach a lower value. Since boiling occurs when vapor pressure equals external pressure, the lower atmospheric pressure at high altitude means water's vapor pressure only needs to reach that lower value to boil—and since vapor pressure increases with temperature, hitting a lower required vapor pressure happens at a lower temperature than at sea level. Choice C is directly contradicted by this well-established relationship. Choice D is wrong because altitude doesn't change water's IMFs at all; what changes is only the external pressure the liquid must overcome. Choice A is irrelevant—the amount of water present has no bearing on the temperature at which it boils."
     },
     {
       "id": "3-112",
@@ -2523,7 +2523,7 @@ const QUESTIONS = {
         "0.383 mol"
       ],
       "correct": 2,
-      "explanation": "n = PV/RT = (2.50 atm)(15.0 L) / [(0.0821 L·atm/mol·K)(298 K)] = 37.5 / 24.47 = 1.53 mol. The three wrong choices are each off by a clean factor of 2 from the correct value: 0.766 mol matches what you'd get by accidentally using half the given volume (7.50 L instead of 15.0 L) in the numerator; 0.383 mol is consistent with using a quarter of the volume (3.75 L), compounding that slip; and 3.06 mol is double the correct answer, consistent with effectively halving the R·T denominator (e.g., mis-copying R as 0.0411 instead of 0.0821). Watching your arithmetic on P, V, and R·T carefully avoids all three."
+      "explanation": "Correct: (C) 1.53 mol. n = PV/RT = (2.50 atm)(15.0 L) / [(0.0821 L·atm/mol·K)(298 K)] = 37.5 / 24.47 = 1.53 mol. The three wrong choices are each off by a clean factor of 2 from the correct value: 0.766 mol matches what you'd get by accidentally using half the given volume (7.50 L instead of 15.0 L) in the numerator; 0.383 mol is consistent with using a quarter of the volume (3.75 L), compounding that slip; and 3.06 mol is double the correct answer, consistent with effectively halving the R·T denominator (e.g., mis-copying R as 0.0411 instead of 0.0821). Watching your arithmetic on P, V, and R·T carefully avoids all three."
     },
     {
       "id": "3-25",
@@ -2536,7 +2536,7 @@ const QUESTIONS = {
         "0.500 L"
       ],
       "correct": 2,
-      "explanation": "Correct: 1.00 L. At constant temperature and amount of gas, the pressure and volume of a gas are inversely proportional (Boyle's law): P1V1 = P2V2. Substitute the values: (1.00 atm)(2.00 L) = (2.00 atm)(V2), so V2 = (1.00 x 2.00) / 2.00 = 1.00 L. A quick reasonableness check: the pressure was doubled, so the volume should be cut in half, from 2.00 L to 1.00 L.\n\n(A) is wrong because 4.00 L treats the pressure and volume as directly proportional, so doubling the pressure doubles the volume; they are inversely proportional.\n(B) is wrong because 2.00 L means the volume did not respond to the change in pressure.\n(D) is wrong because 0.500 L would require the volume to drop to a quarter, as if the pressure had quadrupled."
+      "explanation": "Correct: (C) 1.00 L. At constant temperature and amount of gas, the pressure and volume of a gas are inversely proportional (Boyle's law): P1V1 = P2V2. Substitute the values: (1.00 atm)(2.00 L) = (2.00 atm)(V2), so V2 = (1.00 x 2.00) / 2.00 = 1.00 L. A quick reasonableness check: the pressure was doubled, so the volume should be cut in half, from 2.00 L to 1.00 L.\n\n(A) is wrong because 4.00 L treats the pressure and volume as directly proportional, so doubling the pressure doubles the volume; they are inversely proportional.\n(B) is wrong because 2.00 L means the volume did not respond to the change in pressure.\n(D) is wrong because 0.500 L would require the volume to drop to a quarter, as if the pressure had quadrupled."
     },
     {
       "id": "3-26",
@@ -2549,7 +2549,7 @@ const QUESTIONS = {
         "0.900 g/L"
       ],
       "correct": 2,
-      "explanation": "d = PM/RT = (1.00 atm)(44.01 g/mol) / [(0.0821 L·atm/mol·K)(298 K)] = 44.01 / 24.47 = 1.80 g/L. The wrong choices are each a clean multiple of the correct value: 0.900 g/L (half) is what you'd get from an arithmetic slip that drops a factor of 2 out of the numerator (e.g., mistakenly halving M or the pressure), 3.60 g/L (double) comes from the opposite slip (doubling M or P, or halving R·T), and 0.450 g/L (quarter) compounds one of those errors further. Keeping track of exactly which quantities you're multiplying versus dividing in d = PM/RT avoids all of them."
+      "explanation": "Correct: (C) 1.80 g/L. d = PM/RT = (1.00 atm)(44.01 g/mol) / [(0.0821 L·atm/mol·K)(298 K)] = 44.01 / 24.47 = 1.80 g/L. The wrong choices are each a clean multiple of the correct value: 0.900 g/L (half) is what you'd get from an arithmetic slip that drops a factor of 2 out of the numerator (e.g., mistakenly halving M or the pressure), 3.60 g/L (double) comes from the opposite slip (doubling M or P, or halving R·T), and 0.450 g/L (quarter) compounds one of those errors further. Keeping track of exactly which quantities you're multiplying versus dividing in d = PM/RT avoids all of them."
     },
     {
       "id": "3-27",
@@ -2562,7 +2562,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "Correct: it is cut in half. At constant volume and amount of gas, pressure is directly proportional to the Kelvin temperature (Gay-Lussac's law): P1/T1 = P2/T2. The temperature drops from 400 K to 200 K, which is half, so P2 = P1 x (200 / 400) = P1 x 0.5. The particles move more slowly at the lower temperature, so they hit the walls less often and with less force. Remember that these gas law relationships work only with temperature in kelvins; here the temperatures were already given in K.\n\n(A) is wrong because it treats pressure and temperature as inversely related, as if cooling increased the pressure.\n(C) is wrong because at constant volume, pressure depends on temperature.\n(B) is wrong because the pressure changes by the same factor as the Kelvin temperature (one-half), not by a squared factor (four)."
+      "explanation": "Correct: (D) It is cut in half. At constant volume and amount of gas, pressure is directly proportional to the Kelvin temperature (Gay-Lussac's law): P1/T1 = P2/T2. The temperature drops from 400 K to 200 K, which is half, so P2 = P1 x (200 / 400) = P1 x 0.5. The particles move more slowly at the lower temperature, so they hit the walls less often and with less force. Remember that these gas law relationships work only with temperature in kelvins; here the temperatures were already given in K.\n\n(A) is wrong because it treats pressure and temperature as inversely related, as if cooling increased the pressure.\n(C) is wrong because at constant volume, pressure depends on temperature.\n(B) is wrong because the pressure changes by the same factor as the Kelvin temperature (one-half), not by a squared factor (four)."
     },
     {
       "id": "3-28",
@@ -2575,7 +2575,7 @@ const QUESTIONS = {
         "44.0 g/mol"
       ],
       "correct": 0,
-      "explanation": "Correct: 32.0 g/mol. Start from the ideal gas law, PV = nRT, and replace n with mass divided by molar mass (n = m/M). Then PV = (m/M)RT, and since density d = m/V this rearranges to M = dRT/P. Substitute: M = (1.43 g/L)(0.0821 L atm/mol K)(273 K) / (1.00 atm) = 32.05, or 32.0 g/mol (the molar mass of O2). A quick check: at STP one mole of an ideal gas occupies 22.4 L, so M = density x 22.4 L/mol = 1.43 x 22.4 = 32.0 g/mol.\n\n(B) is wrong because 22.4 is the molar VOLUME of a gas at STP in L/mol, which has different units from a molar mass.\n(C) is wrong because 16.0 g/mol is half the correct value, which is the result of an algebra slip.\n(D) is wrong because 44.0 g/mol is the molar mass of CO2; it would be the answer only if the density were about 1.96 g/L."
+      "explanation": "Correct: (A) 32.0 g/mol. Start from the ideal gas law, PV = nRT, and replace n with mass divided by molar mass (n = m/M). Then PV = (m/M)RT, and since density d = m/V this rearranges to M = dRT/P. Substitute: M = (1.43 g/L)(0.0821 L atm/mol K)(273 K) / (1.00 atm) = 32.05, or 32.0 g/mol (the molar mass of O2). A quick check: at STP one mole of an ideal gas occupies 22.4 L, so M = density x 22.4 L/mol = 1.43 x 22.4 = 32.0 g/mol.\n\n(B) is wrong because 22.4 is the molar VOLUME of a gas at STP in L/mol, which has different units from a molar mass.\n(C) is wrong because 16.0 g/mol is half the correct value, which is the result of an algebra slip.\n(D) is wrong because 44.0 g/mol is the molar mass of CO2; it would be the answer only if the density were about 1.96 g/L."
     },
     {
       "id": "3-29",
@@ -2588,7 +2588,7 @@ const QUESTIONS = {
         "12.2 atm"
       ],
       "correct": 1,
-      "explanation": "Correct: 1.22 atm. Use the ideal gas law, P = nRT/V, and be careful with the units. First convert the temperature to kelvin: T = 25 + 273 = 298 K. Then P = (0.0500 mol)(0.0821 L atm/mol K)(298 K) / (1.00 L) = 1.223 atm, which rounds to 1.22 atm (three significant figures).\n\n(C) is wrong because 2.44 atm is double the correct value, as if n or R had been doubled by a slip.\n(A) is wrong because 0.610 atm is half the correct value, the mirror-image slip.\n(D) is wrong because 12.2 atm is ten times too large, which is the kind of result a misplaced decimal point gives. Note that forgetting to convert to kelvin and using 25 would make the answer far too SMALL (about 0.103 atm), not too large. Always convert Celsius to Kelvin first."
+      "explanation": "Correct: (B) 1.22 atm. Use the ideal gas law, P = nRT/V, and be careful with the units. First convert the temperature to kelvin: T = 25 + 273 = 298 K. Then P = (0.0500 mol)(0.0821 L atm/mol K)(298 K) / (1.00 L) = 1.223 atm, which rounds to 1.22 atm (three significant figures).\n\n(C) is wrong because 2.44 atm is double the correct value, as if n or R had been doubled by a slip.\n(A) is wrong because 0.610 atm is half the correct value, the mirror-image slip.\n(D) is wrong because 12.2 atm is ten times too large, which is the kind of result a misplaced decimal point gives. Note that forgetting to convert to kelvin and using 25 would make the answer far too SMALL (about 0.103 atm), not too large. Always convert Celsius to Kelvin first."
     },
     {
       "id": "3-30",
@@ -2601,7 +2601,7 @@ const QUESTIONS = {
         "They must be exactly the same identical gas, in each container."
       ],
       "correct": 1,
-      "explanation": "Correct: they must have the same number of moles, regardless of identity. This is Avogadro's law. Rearrange the ideal gas law to n = PV/RT. If two samples have the same pressure (P), volume (V), and temperature (T), the right side is the same for both, so they must contain the same number of moles of gas (and the same number of particles), whether the gas is hydrogen or carbon dioxide.\n\n(A) is wrong because mass equals moles times molar mass (m = n x M), and different gases have different molar masses, so equal moles do not mean equal mass.\n(C) is wrong because density depends on molar mass as well (d = PM/RT), so a heavier gas is denser at the same P and T.\n(D) is wrong because the identity of the gas does not matter; Avogadro's law applies to any two gases at the same P, V, and T."
+      "explanation": "Correct: (B) They must have the same number of moles, regardless of identity. This is Avogadro's law. Rearrange the ideal gas law to n = PV/RT. If two samples have the same pressure (P), volume (V), and temperature (T), the right side is the same for both, so they must contain the same number of moles of gas (and the same number of particles), whether the gas is hydrogen or carbon dioxide.\n\n(A) is wrong because mass equals moles times molar mass (m = n x M), and different gases have different molar masses, so equal moles do not mean equal mass.\n(C) is wrong because density depends on molar mass as well (d = PM/RT), so a heavier gas is denser at the same P and T.\n(D) is wrong because the identity of the gas does not matter; Avogadro's law applies to any two gases at the same P, V, and T."
     },
     {
       "id": "3-31",
@@ -2614,7 +2614,7 @@ const QUESTIONS = {
         "12.0 L"
       ],
       "correct": 1,
-      "explanation": "Correct: 14.3 L. The balloon is heated at constant pressure with a fixed amount of gas, so use Charles's law: V1/T1 = V2/T2, with temperatures in kelvin (they already are). V2 = V1 x (T2/T1) = 12.0 L x (350 K / 293 K) = 12.0 x 1.195 = 14.3 L. A quick check: heating a gas at constant pressure makes it expand, so the answer has to be larger than 12.0 L.\n\n(D) is wrong because 12.0 L means no change, but the volume of a gas at constant pressure increases as the temperature rises.\n(A) is wrong because 10.0 L comes from inverting the temperature ratio (12.0 x 293/350), which shrinks the gas as it is heated.\n(C) is wrong because 16.8 L is too large: it would require heating to about 410 K, not 350 K."
+      "explanation": "Correct: (B) 14.3 L. The balloon is heated at constant pressure with a fixed amount of gas, so use Charles's law: V1/T1 = V2/T2, with temperatures in kelvin (they already are). V2 = V1 x (T2/T1) = 12.0 L x (350 K / 293 K) = 12.0 x 1.195 = 14.3 L. A quick check: heating a gas at constant pressure makes it expand, so the answer has to be larger than 12.0 L.\n\n(D) is wrong because 12.0 L means no change, but the volume of a gas at constant pressure increases as the temperature rises.\n(A) is wrong because 10.0 L comes from inverting the temperature ratio (12.0 x 293/350), which shrinks the gas as it is heated.\n(C) is wrong because 16.8 L is too large: it would require heating to about 410 K, not 350 K."
     },
     {
       "id": "3-32",
@@ -2627,7 +2627,7 @@ const QUESTIONS = {
         "Total: 6.16 atm; P(O₂) = 3.70 atm"
       ],
       "correct": 0,
-      "explanation": "Correct: total 6.16 atm; P(O2) = 2.46 atm. Dalton's law says the total pressure depends on the total moles of gas: n(total) = 0.300 + 0.200 = 0.500 mol. P(total) = nRT/V = (0.500)(0.0821)(300) / 2.00 = 6.16 atm. The partial pressure of O2 is its mole fraction times the total: (0.200 / 0.500)(6.16) = 2.46 atm. You can also find it directly with only the O2 moles: (0.200)(0.0821)(300) / 2.00 = 2.46 atm.\n\n(B) is wrong because 12.3 atm and 4.93 atm are both double the correct values, which is what you get by forgetting to divide by the 2.00 L volume.\n(C) is wrong because 3.70 atm is the partial pressure of N2 (0.300 mol), not the total.\n(D) is wrong because 3.70 atm is again the partial pressure of N2, not of O2."
+      "explanation": "Correct: (A) Total 6.16 atm; P(O2) = 2.46 atm. Dalton's law says the total pressure depends on the total moles of gas: n(total) = 0.300 + 0.200 = 0.500 mol. P(total) = nRT/V = (0.500)(0.0821)(300) / 2.00 = 6.16 atm. The partial pressure of O2 is its mole fraction times the total: (0.200 / 0.500)(6.16) = 2.46 atm. You can also find it directly with only the O2 moles: (0.200)(0.0821)(300) / 2.00 = 2.46 atm.\n\n(B) is wrong because 12.3 atm and 4.93 atm are both double the correct values, which is what you get by forgetting to divide by the 2.00 L volume.\n(C) is wrong because 3.70 atm is the partial pressure of N2 (0.300 mol), not the total.\n(D) is wrong because 3.70 atm is again the partial pressure of N2, not of O2."
     },
     {
       "id": "3-113",
@@ -2682,7 +2682,7 @@ const QUESTIONS = {
         "Pressure only"
       ],
       "correct": 0,
-      "explanation": "Correct: absolute temperature only. In kinetic molecular theory, the average kinetic energy of the particles of a gas is proportional to the absolute (Kelvin) temperature: KE(avg) = (3/2)RT per mole. All gases at the same temperature therefore have the same average kinetic energy, no matter what they are. Molar mass does not change the average kinetic energy; it changes the average SPEED, because KE = (1/2)mv<sup>2</sup>, so heavier particles move more slowly at the same KE.\n\n(C) and\n\n(B) are wrong because molar mass does not determine the average kinetic energy; it affects speed.\n(D) is wrong because pressure is a macroscopic result of the collisions, which depends on temperature, volume, and the number of moles, while the average kinetic energy is tied directly to temperature."
+      "explanation": "Correct: (A) Absolute temperature only. In kinetic molecular theory, the average kinetic energy of the particles of a gas is proportional to the absolute (Kelvin) temperature: KE(avg) = (3/2)RT per mole. All gases at the same temperature therefore have the same average kinetic energy, no matter what they are. Molar mass does not change the average kinetic energy; it changes the average SPEED, because KE = (1/2)mv<sup>2</sup>, so heavier particles move more slowly at the same KE.\n\n(C) and\n\n(B) are wrong because molar mass does not determine the average kinetic energy; it affects speed.\n(D) is wrong because pressure is a macroscopic result of the collisions, which depends on temperature, volume, and the number of moles, while the average kinetic energy is tied directly to temperature."
     },
     {
       "id": "3-34",
@@ -2695,7 +2695,7 @@ const QUESTIONS = {
         "N₂ (28 g/mol)"
       ],
       "correct": 0,
-      "explanation": "Since all gases at the same temperature share the same average kinetic energy (½mv²), a lower molar mass must correspond to a higher average speed to reach that same KE. Helium, with by far the lowest molar mass of the four (4 g/mol vs. 28–44 g/mol for the others), has the highest average molecular speed. N2, O2, and CO2 (choices B, C, and D) are all heavier than He, so each must move slower on average to carry the same kinetic energy—CO2, being heaviest, is in fact the slowest of the four."
+      "explanation": "Correct: (A) He (4 g/mol). Since all gases at the same temperature share the same average kinetic energy (½mv²), a lower molar mass must correspond to a higher average speed to reach that same KE. Helium, with by far the lowest molar mass of the four (4 g/mol vs. 28–44 g/mol for the others), has the highest average molecular speed. N2, O2, and CO2 (choices B, C, and D) are all heavier than He, so each must move slower on average to carry the same kinetic energy—CO2, being heaviest, is in fact the slowest of the four."
     },
     {
       "id": "3-35",
@@ -2708,7 +2708,7 @@ const QUESTIONS = {
         "Ar effuses about 1.4× faster than Ne"
       ],
       "correct": 2,
-      "explanation": "Correct: Ne effuses about 1.4x faster than Ar. Graham's law says the effusion rate is inversely proportional to the square root of the molar mass: rate(Ne)/rate(Ar) = square root of [M(Ar)/M(Ne)] = square root of (40.0 / 20.2) = square root of 1.98 = 1.41. The lighter gas (Ne) effuses faster, and here it is about 1.4 times as fast.\n\n(D) is wrong because it reverses the relationship: the heavier gas effuses more slowly.\n(A) is wrong because the gases have different molar masses, which is what makes the rates different.\n(B) is wrong because 2x is the ratio of the molar masses themselves; it forgets to take the square root."
+      "explanation": "Correct: (C) Ne effuses about 1.4x faster than Ar. Graham's law says the effusion rate is inversely proportional to the square root of the molar mass: rate(Ne)/rate(Ar) = square root of [M(Ar)/M(Ne)] = square root of (40.0 / 20.2) = square root of 1.98 = 1.41. The lighter gas (Ne) effuses faster, and here it is about 1.4 times as fast.\n\n(D) is wrong because it reverses the relationship: the heavier gas effuses more slowly.\n(A) is wrong because the gases have different molar masses, which is what makes the rates different.\n(B) is wrong because 2x is the ratio of the molar masses themselves; it forgets to take the square root."
     },
     {
       "id": "3-36",
@@ -2721,7 +2721,7 @@ const QUESTIONS = {
         "Compression has no real effect on pressure, according to KMT."
       ],
       "correct": 0,
-      "explanation": "KMT models pressure as the result of particle collisions with the container walls. In a smaller volume, particles travel a shorter average distance between wall collisions, so they collide more often per unit time—more frequent collisions mean greater force per unit area, i.e., higher pressure, even though average speed (tied to temperature) hasn't changed. Choice B is wrong because compressing a gas at constant temperature doesn't change particle speed—temperature, not volume, governs average KE. Choice C is wrong because compression changes volume, not the number of particles present. Choice D directly contradicts the well-established inverse relationship between volume and pressure (Boyle's Law)."
+      "explanation": "Correct: (A) Gas particles hit the container walls more often in a smaller volume. KMT models pressure as the result of particle collisions with the container walls. In a smaller volume, particles travel a shorter average distance between wall collisions, so they collide more often per unit time—more frequent collisions mean greater force per unit area, i.e., higher pressure, even though average speed (tied to temperature) hasn't changed. Choice B is wrong because compressing a gas at constant temperature doesn't change particle speed—temperature, not volume, governs average KE. Choice C is wrong because compression changes volume, not the number of particles present. Choice D directly contradicts the well-established inverse relationship between volume and pressure (Boyle's Law)."
     },
     {
       "id": "3-37",
@@ -2734,7 +2734,7 @@ const QUESTIONS = {
         "They have equal molar mass"
       ],
       "correct": 2,
-      "explanation": "Slower effusion corresponds to a heavier gas (Graham's Law: rate is inversely related to the square root of molar mass). Since gas X takes longer to effuse (3.0 min vs. 1.5 min), it's the slower one and therefore the heavier one—working the ratio out, gas X's molar mass is 4 times gas Y's (time ratio of 2 → rate ratio of 2 → molar mass ratio of 2² = 4). Choice B (Gas Y) has the comparison backwards—Y is the faster, lighter gas, not the heavier one. Choice A is wrong because the effusion times given are exactly the information Graham's Law needs to determine the relative molar masses—it absolutely can be determined. Choice D is contradicted by the differing effusion times themselves; equal molar mass would produce equal effusion times."
+      "explanation": "Correct: (C) Gas X. Slower effusion corresponds to a heavier gas (Graham's Law: rate is inversely related to the square root of molar mass). Since gas X takes longer to effuse (3.0 min vs. 1.5 min), it's the slower one and therefore the heavier one—working the ratio out, gas X's molar mass is 4 times gas Y's (time ratio of 2 → rate ratio of 2 → molar mass ratio of 2² = 4). Choice B (Gas Y) has the comparison backwards—Y is the faster, lighter gas, not the heavier one. Choice A is wrong because the effusion times given are exactly the information Graham's Law needs to determine the relative molar masses—it absolutely can be determined. Choice D is contradicted by the differing effusion times themselves; equal molar mass would produce equal effusion times."
     },
     {
       "id": "3-38",
@@ -2747,7 +2747,7 @@ const QUESTIONS = {
         "Collisions between gas particles are perfectly elastic."
       ],
       "correct": 1,
-      "explanation": "At high pressure, gas particles are forced close together, and their actual physical volume becomes a significant fraction of the total container volume—no longer negligible as the ideal model assumes, which is exactly why a correction term (the 'b' term in van der Waals) is needed. Choice A (KE proportional to T) remains valid for real gases and isn't the source of high-pressure deviation. Choice C (constant random motion) is a general kinetic assumption that still holds reasonably well and isn't specifically what breaks down under high pressure. Choice D (elastic collisions) is also a reasonably good approximation even for real gases and isn't the primary high-pressure failure point—particle volume is."
+      "explanation": "Correct: (B) Gas particles have negligible volume relative to the container. At high pressure, gas particles are forced close together, and their actual physical volume becomes a significant fraction of the total container volume—no longer negligible as the ideal model assumes, which is exactly why a correction term (the 'b' term in van der Waals) is needed. Choice A (KE proportional to T) remains valid for real gases and isn't the source of high-pressure deviation. Choice C (constant random motion) is a general kinetic assumption that still holds reasonably well and isn't specifically what breaks down under high pressure. Choice D (elastic collisions) is also a reasonably good approximation even for real gases and isn't the primary high-pressure failure point—particle volume is."
     },
     {
       "id": "3-39",
@@ -2773,7 +2773,7 @@ const QUESTIONS = {
         "Half the particles are stationary and half move at the maximum speed at any time."
       ],
       "correct": 2,
-      "explanation": "Even within a single gas sample at one fixed temperature, individual particles have a range of speeds due to random collisions constantly redistributing kinetic energy—this range is described by the Maxwell-Boltzmann distribution, with most particles clustered near the average speed but a tail extending to both higher and lower speeds. Choice D (half stationary, half at maximum speed) describes a two-state system that doesn't reflect how gas particle speeds are actually distributed. Choice B (all particles identical speed) contradicts the random, collision-driven nature of particle motion that KMT describes. Choice A is simply false—this distribution is well characterized mathematically and experimentally, not indescribable."
+      "explanation": "Correct: (C) Particles have a range of speeds near the average (Maxwell-Boltzmann distribution). Even within a single gas sample at one fixed temperature, individual particles have a range of speeds due to random collisions constantly redistributing kinetic energy—this range is described by the Maxwell-Boltzmann distribution, with most particles clustered near the average speed but a tail extending to both higher and lower speeds. Choice D (half stationary, half at maximum speed) describes a two-state system that doesn't reflect how gas particle speeds are actually distributed. Choice B (all particles identical speed) contradicts the random, collision-driven nature of particle motion that KMT describes. Choice A is simply false—this distribution is well characterized mathematically and experimentally, not indescribable."
     },
     {
       "id": "3-41",
@@ -2786,7 +2786,7 @@ const QUESTIONS = {
         "High pressure and low temperature"
       ],
       "correct": 3,
-      "explanation": "Correct: high pressure and low temperature. The ideal gas law assumes that gas particles have no volume and no attractions. At high pressure the particles are pushed close together, so the space they take up becomes a significant part of the total volume. At low temperature the particles move slowly, so the attractions between them (intermolecular forces) matter more, and they pull together (a gas near its condensation point). Both effects together give the largest deviation. This is what the van der Waals equation corrects: (P + an<sup>2</sup>/V<sup>2</sup>)(V - nb) = nRT, where a accounts for attractions and b for particle volume.\n\n(B) is wrong because low pressure and high temperature are the conditions where real gases behave MOST ideally.\n(A) is wrong because high temperature reduces the effect of attractions, and\n(C) is wrong because low pressure keeps the particles far apart. Each of those mixes one condition that causes deviation with one that suppresses it."
+      "explanation": "Correct: (D) High pressure and low temperature. The ideal gas law assumes that gas particles have no volume and no attractions. At high pressure the particles are pushed close together, so the space they take up becomes a significant part of the total volume. At low temperature the particles move slowly, so the attractions between them (intermolecular forces) matter more, and they pull together (a gas near its condensation point). Both effects together give the largest deviation. This is what the van der Waals equation corrects: (P + an<sup>2</sup>/V<sup>2</sup>)(V - nb) = nRT, where a accounts for attractions and b for particle volume.\n\n(B) is wrong because low pressure and high temperature are the conditions where real gases behave MOST ideally.\n(A) is wrong because high temperature reduces the effect of attractions, and\n(C) is wrong because low pressure keeps the particles far apart. Each of those mixes one condition that causes deviation with one that suppresses it."
     },
     {
       "id": "3-42",
@@ -2799,7 +2799,7 @@ const QUESTIONS = {
         "The physical volume occupied by gas particles."
       ],
       "correct": 1,
-      "explanation": "The 'a' term in the van der Waals equation (P + an²/V²) accounts for the fact that real gas particles attract each other, which reduces the actual pressure exerted on the container walls compared to what the ideal gas law would predict—the correction adds back that 'missing' pressure. Choice D describes the role of the 'b' term (particle volume), not 'a'. Choice C (temperature fluctuations) isn't what either van der Waals constant corrects for; temperature is measured directly, not corrected via a or b. Choice A (moles of gas) is simply a variable in the equation (n), not something the 'a' constant accounts for."
+      "explanation": "Correct: (B) Attractive intermolecular forces between the gas particles. The 'a' term in the van der Waals equation (P + an²/V²) accounts for the fact that real gas particles attract each other, which reduces the actual pressure exerted on the container walls compared to what the ideal gas law would predict—the correction adds back that 'missing' pressure. Choice D describes the role of the 'b' term (particle volume), not 'a'. Choice C (temperature fluctuations) isn't what either van der Waals constant corrects for; temperature is measured directly, not corrected via a or b. Choice A (moles of gas) is simply a variable in the equation (n), not something the 'a' constant accounts for."
     },
     {
       "id": "3-43",
@@ -2812,7 +2812,7 @@ const QUESTIONS = {
         "Xe"
       ],
       "correct": 0,
-      "explanation": "Helium is small, has very few electrons (weak dispersion forces), and is nonpolar (no dipole-dipole)—all factors that minimize both intermolecular attraction and particle volume, the two sources of deviation from ideal behavior. Xe (choice D) has far more electrons and a larger, more polarizable electron cloud, giving it stronger dispersion forces and more significant particle volume than He. CO2 (choice B) is also larger with more electrons than He, giving it stronger dispersion forces despite being nonpolar. NH3 (choice C) is the worst-behaved of the four: it's polar and hydrogen-bonds, giving it by far the strongest intermolecular attractions among these options, so it deviates the most from ideal behavior, not the least."
+      "explanation": "Correct: (A) He. Helium is small, has very few electrons (weak dispersion forces), and is nonpolar (no dipole-dipole)—all factors that minimize both intermolecular attraction and particle volume, the two sources of deviation from ideal behavior. Xe (choice D) has far more electrons and a larger, more polarizable electron cloud, giving it stronger dispersion forces and more significant particle volume than He. CO2 (choice B) is also larger with more electrons than He, giving it stronger dispersion forces despite being nonpolar. NH3 (choice C) is the worst-behaved of the four: it's polar and hydrogen-bonds, giving it by far the strongest intermolecular attractions among these options, so it deviates the most from ideal behavior, not the least."
     },
     {
       "id": "3-44",
@@ -2825,7 +2825,7 @@ const QUESTIONS = {
         "greater than"
       ],
       "correct": 3,
-      "explanation": "At high pressure, real gas particles' own physical volume becomes significant (not truly negligible 'empty space' as the ideal model assumes), so the gas resists compression more than ideal behavior predicts—meaning the real measured volume ends up greater than the ideal gas law's prediction at that same pressure. Choice A (unrelated to) is wrong because there is a clear, predictable relationship between measured and ideal volume under these conditions. Choice C (less than) reverses the actual direction of the deviation—particle volume pushes the real volume up, not down. Choice B (equal to) would only hold under ideal-gas conditions (low pressure), not at very high pressure where particle volume matters."
+      "explanation": "Correct: (D) greater than. At high pressure, real gas particles' own physical volume becomes significant (not truly negligible 'empty space' as the ideal model assumes), so the gas resists compression more than ideal behavior predicts—meaning the real measured volume ends up greater than the ideal gas law's prediction at that same pressure. Choice A (unrelated to) is wrong because there is a clear, predictable relationship between measured and ideal volume under these conditions. Choice C (less than) reverses the actual direction of the deviation—particle volume pushes the real volume up, not down. Choice B (equal to) would only hold under ideal-gas conditions (low pressure), not at very high pressure where particle volume matters."
     },
     {
       "id": "3-45",
@@ -2838,7 +2838,7 @@ const QUESTIONS = {
         "unrelated to"
       ],
       "correct": 1,
-      "explanation": "At low temperature, gas particles move slowly enough that intermolecular attractions have time to act before a particle collides with the container wall, softening the force of that collision—so real gas pressure ends up lower than what the ideal gas law (which assumes zero attraction) would predict. Choice A (greater than) reverses the actual direction—attraction pulls particles back from the walls, reducing pressure, not increasing it. Choice D (unrelated to) ignores the well-established, predictable relationship between low temperature and reduced measured pressure. Choice C (equal to) would only hold under conditions where attractive forces are negligible, such as high temperature, not low temperature."
+      "explanation": "Correct: (B) less than. At low temperature, gas particles move slowly enough that intermolecular attractions have time to act before a particle collides with the container wall, softening the force of that collision—so real gas pressure ends up lower than what the ideal gas law (which assumes zero attraction) would predict. Choice A (greater than) reverses the actual direction—attraction pulls particles back from the walls, reducing pressure, not increasing it. Choice D (unrelated to) ignores the well-established, predictable relationship between low temperature and reduced measured pressure. Choice C (equal to) would only hold under conditions where attractive forces are negligible, such as high temperature, not low temperature."
     },
     {
       "id": "3-46",
@@ -2851,7 +2851,7 @@ const QUESTIONS = {
         "He and Ne (both nonpolar, similar size)"
       ],
       "correct": 2,
-      "explanation": "Correct: He and NH3 (very different polarity and size). The van der Waals constant 'a' measures the strength of attractions between molecules: the stronger the intermolecular forces, the larger the 'a'. Helium is a tiny, nonpolar atom with extremely weak dispersion forces, so its 'a' is very small (about 0.03 L<sup>2</sup> atm/mol<sup>2</sup>). Ammonia is polar and hydrogen bonds, so its attractions are much stronger and its 'a' is much larger (about 4.2). That is by far the biggest difference among the pairs.\n\n(B) is wrong because CH4 and CO2 are both nonpolar molecules of similar size, so their values are in the same range.\n(D) is wrong because He and Ne are both nonpolar, small atoms with weak dispersion forces and small values.\n(A) is wrong because N2 and CO have nearly the same size and similar, weak polarity, so their values are close."
+      "explanation": "Correct: (C) He and NH3 (very different polarity and size). The van der Waals constant 'a' measures the strength of attractions between molecules: the stronger the intermolecular forces, the larger the 'a'. Helium is a tiny, nonpolar atom with extremely weak dispersion forces, so its 'a' is very small (about 0.03 L<sup>2</sup> atm/mol<sup>2</sup>). Ammonia is polar and hydrogen bonds, so its attractions are much stronger and its 'a' is much larger (about 4.2). That is by far the biggest difference among the pairs.\n\n(B) is wrong because CH4 and CO2 are both nonpolar molecules of similar size, so their values are in the same range.\n(D) is wrong because He and Ne are both nonpolar, small atoms with weak dispersion forces and small values.\n(A) is wrong because N2 and CO have nearly the same size and similar, weak polarity, so their values are close."
     },
     {
       "id": "3-47",
@@ -2864,7 +2864,7 @@ const QUESTIONS = {
         "The discrepancy would remain exactly the same regardless of temperature."
       ],
       "correct": 1,
-      "explanation": "Deviation from ideal behavior driven by intermolecular attraction (the low-pressure discrepancy scenario described) is a low-temperature phenomenon—as temperature rises, particles move faster and attractive forces become comparatively less able to affect their trajectories before collisions, moving the gas's actual behavior closer to ideal predictions and shrinking the discrepancy. Choice C has the temperature dependence backwards—attraction-driven deviation shrinks, not grows, as temperature rises. Choice D ignores that this type of deviation is specifically temperature-dependent (that's the whole reason the van der Waals 'a' term matters more at low T). Choice A incorrectly claims temperature is irrelevant and that deviation only occurs at low pressure, but the scenario here is explicitly about temperature's effect at fixed volume, and both pressure and temperature independently affect the size of the deviation.",
+      "explanation": "Correct: (B) The discrepancy would decrease, since higher KE makes IMF attractions comparatively less significant. Deviation from ideal behavior driven by intermolecular attraction (the low-pressure discrepancy scenario described) is a low-temperature phenomenon—as temperature rises, particles move faster and attractive forces become comparatively less able to affect their trajectories before collisions, moving the gas's actual behavior closer to ideal predictions and shrinking the discrepancy. Choice C has the temperature dependence backwards—attraction-driven deviation shrinks, not grows, as temperature rises. Choice D ignores that this type of deviation is specifically temperature-dependent (that's the whole reason the van der Waals 'a' term matters more at low T). Choice A incorrectly claims temperature is irrelevant and that deviation only occurs at low pressure, but the scenario here is explicitly about temperature's effect at fixed volume, and both pressure and temperature independently affect the size of the deviation.",
       "stretch": true
     },
     {
@@ -2891,7 +2891,7 @@ const QUESTIONS = {
         "Water's hydrogen-bond network favors self-attraction over bonding with oil."
       ],
       "correct": 3,
-      "explanation": "Dissolving requires the solvent's own favorable attractions (here, water's strong hydrogen bonds) to be broken and replaced by comparably favorable new solute-solvent attractions. Nonpolar oil can only offer weak dispersion forces to water, nowhere near strong enough to compensate for the hydrogen bonds that would need to be disrupted, so mixing is energetically unfavorable. Choice B (size) isn't the real barrier—many large polar molecules dissolve in water just fine; it's the IMF mismatch that matters, not molecular size. Choice A (density) is irrelevant to miscibility; two substances can differ in density and still mix completely (or have similar densities and not mix at all). Choice C is factually false—oil and water have very different polarities, which is exactly the point of the correct explanation."
+      "explanation": "Correct: (D) Water's hydrogen-bond network favors self-attraction over bonding with oil. Dissolving requires the solvent's own favorable attractions (here, water's strong hydrogen bonds) to be broken and replaced by comparably favorable new solute-solvent attractions. Nonpolar oil can only offer weak dispersion forces to water, nowhere near strong enough to compensate for the hydrogen bonds that would need to be disrupted, so mixing is energetically unfavorable. Choice B (size) isn't the real barrier—many large polar molecules dissolve in water just fine; it's the IMF mismatch that matters, not molecular size. Choice A (density) is irrelevant to miscibility; two substances can differ in density and still mix completely (or have similar densities and not mix at all). Choice C is factually false—oil and water have very different polarities, which is exactly the point of the correct explanation."
     },
     {
       "id": "3-50",
@@ -2904,7 +2904,7 @@ const QUESTIONS = {
         "Metallic bonding"
       ],
       "correct": 0,
-      "explanation": "Correct: ion-dipole attraction. Water molecules are polar: the oxygen end is partially negative and the hydrogen ends are partially positive. When an ionic solid is placed in water, the oxygen ends of water molecules are attracted to the positive cations and the hydrogen ends to the negative anions on the surface of the crystal. This ion-dipole attraction pulls ions out of the lattice, and the water molecules surround them (hydration), which keeps them in solution. An ionic solid dissolves when the energy released by hydration is large enough to compensate for the energy needed to break up the lattice.\n\n(C) is wrong because dispersion forces are much too weak to overcome the strong attractions between ions.\n(B) is wrong because no new covalent bonds form when ions dissolve; hydration is an intermolecular attraction.\n(D) is wrong because metallic bonding is found in metals, not in ionic solids or water."
+      "explanation": "Correct: (A) Ion-dipole attraction. Water molecules are polar: the oxygen end is partially negative and the hydrogen ends are partially positive. When an ionic solid is placed in water, the oxygen ends of water molecules are attracted to the positive cations and the hydrogen ends to the negative anions on the surface of the crystal. This ion-dipole attraction pulls ions out of the lattice, and the water molecules surround them (hydration), which keeps them in solution. An ionic solid dissolves when the energy released by hydration is large enough to compensate for the energy needed to break up the lattice.\n\n(C) is wrong because dispersion forces are much too weak to overcome the strong attractions between ions.\n(B) is wrong because no new covalent bonds form when ions dissolve; hydration is an intermolecular attraction.\n(D) is wrong because metallic bonding is found in metals, not in ionic solids or water."
     },
     {
       "id": "3-51",
@@ -2917,7 +2917,7 @@ const QUESTIONS = {
         "Diluted"
       ],
       "correct": 2,
-      "explanation": "Correct: saturated. A solution is saturated when it contains the maximum amount of solute that can dissolve in that amount of solvent at that temperature. Any extra solute stays undissolved, and the two states are in dynamic equilibrium: solute dissolves and crystallizes out at the same rate, so the concentration stays constant. Compare the other terms: an unsaturated solution has less than the maximum and can still dissolve more; a supersaturated solution holds more than the equilibrium maximum and is unstable (extra solute can crystallize suddenly).\n\n(B) is wrong because an unsaturated solution could still dissolve more solute, which contradicts the stem.\n(A) is wrong because a supersaturated solution holds more than the equilibrium amount and has no undissolved solute in equilibrium.\n(D) is wrong because diluting means adding solvent to lower the concentration; it does not describe a maximum."
+      "explanation": "Correct: (C) Saturated. A solution is saturated when it contains the maximum amount of solute that can dissolve in that amount of solvent at that temperature. Any extra solute stays undissolved, and the two states are in dynamic equilibrium: solute dissolves and crystallizes out at the same rate, so the concentration stays constant. Compare the other terms: an unsaturated solution has less than the maximum and can still dissolve more; a supersaturated solution holds more than the equilibrium maximum and is unstable (extra solute can crystallize suddenly).\n\n(B) is wrong because an unsaturated solution could still dissolve more solute, which contradicts the stem.\n(A) is wrong because a supersaturated solution holds more than the equilibrium amount and has no undissolved solute in equilibrium.\n(D) is wrong because diluting means adding solvent to lower the concentration; it does not describe a maximum."
     },
     {
       "id": "3-52",
@@ -2930,7 +2930,7 @@ const QUESTIONS = {
         "By diluting an already-saturated solution further."
       ],
       "correct": 1,
-      "explanation": "Supersaturation exploits the fact that solubility (for most solids) increases with temperature: dissolve solute at high temperature up to its (higher) solubility limit, then carefully cool the solution—if done without disturbance (no seed crystals, no agitation), the excess solute can remain dissolved beyond what the now-lower temperature would normally allow. Choice D (diluting a saturated solution) only lowers concentration further; it can't push a solution past its saturation point. Choice C is wrong because supersaturation is a standard, well-established technique, not an impossibility. Choice A (just adding excess solute at room temperature) would simply leave undissolved solid sitting at the bottom—without the dissolve-hot-then-cool-gently process, the excess never actually goes into solution in the first place."
+      "explanation": "Correct: (B) By dissolving solute hot, then cooling it slowly without disturbance. Supersaturation exploits the fact that solubility (for most solids) increases with temperature: dissolve solute at high temperature up to its (higher) solubility limit, then carefully cool the solution—if done without disturbance (no seed crystals, no agitation), the excess solute can remain dissolved beyond what the now-lower temperature would normally allow. Choice D (diluting a saturated solution) only lowers concentration further; it can't push a solution past its saturation point. Choice C is wrong because supersaturation is a standard, well-established technique, not an impossibility. Choice A (just adding excess solute at room temperature) would simply leave undissolved solid sitting at the bottom—without the dissolve-hot-then-cool-gently process, the excess never actually goes into solution in the first place."
     },
     {
       "id": "3-53",
@@ -2964,12 +2964,12 @@ const QUESTIONS = {
       "stem": "Which of the following pairs would you predict to be miscible (fully soluble in each other in all proportions)?",
       "choices": [
         "Water (polar) and hexane (nonpolar)",
-        "Hexane (nonpolar) and water (polar, hydrogen-bonding)",
+        "Water (polar, hydrogen-bonding) and carbon tetrachloride (nonpolar)",
         "NaCl (ionic) and hexane (nonpolar)",
         "Hexane (nonpolar) and heptane (nonpolar)"
       ],
       "correct": 3,
-      "explanation": "Correct: hexane (nonpolar) and heptane (nonpolar). The rule is 'like dissolves like': two liquids mix completely when the attractions between the two different molecules are about as strong as the attractions in each pure liquid. Hexane and heptane are both nonpolar hydrocarbons held together only by London dispersion forces of similar strength, so molecules of one slip in between molecules of the other with almost no energy cost, and they are miscible in all proportions.\n\n(A) and\n\n(B) are wrong because water has strong hydrogen bonds between its molecules, and hexane cannot hydrogen bond, so the water molecules stay attached to each other and the liquids separate into two layers (the two choices describe the same water and hexane pair).\n(C) is wrong because NaCl is an ionic solid; to dissolve it, a solvent has to provide strong ion-dipole attractions, and nonpolar hexane offers only weak dispersion forces."
+      "explanation": "Correct: (D) Hexane (nonpolar) and heptane (nonpolar). The rule is 'like dissolves like': two liquids mix completely when the attractions between the two different molecules are about as strong as the attractions in each pure liquid. Hexane and heptane are both nonpolar hydrocarbons held together only by London dispersion forces of similar strength, so molecules of one slip in between molecules of the other with almost no energy cost, and they are miscible in all proportions.\n\n(A) is wrong because water molecules hydrogen bond strongly to each other and hexane cannot hydrogen bond, so the water molecules stay together and the liquids separate into two layers.\n(B) is wrong for the same reason: CCl₄ is nonpolar and offers only dispersion forces, which cannot replace water's hydrogen bonds, so water and CCl₄ form two layers.\n(C) is wrong because NaCl is an ionic solid; to dissolve it, a solvent has to provide strong ion-dipole attractions, and nonpolar hexane offers only weak dispersion forces."
     },
     {
       "id": "3-116",
@@ -3010,7 +3010,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.500 M. Molarity is moles of solute divided by liters of SOLUTION: M = mol / L = 2.00 mol / 4.00 L = 0.500 mol/L = 0.500 M. Write the formula and include the units, so you can see that you are dividing moles by liters.\n\n(B) is wrong because 2.00 M just repeats the number of moles; it was not divided by the volume.\n(A) is wrong because 8.00 M comes from multiplying 2.00 by 4.00 instead of dividing.\n(C) is wrong because 0.250 M is half of the correct value, which would be the answer if the volume had been 8.00 L."
+      "explanation": "Correct: (D) 0.500 M. Molarity is moles of solute divided by liters of SOLUTION: M = mol / L = 2.00 mol / 4.00 L = 0.500 mol/L = 0.500 M. Write the formula and include the units, so you can see that you are dividing moles by liters.\n\n(B) is wrong because 2.00 M just repeats the number of moles; it was not divided by the volume.\n(A) is wrong because 8.00 M comes from multiplying 2.00 by 4.00 instead of dividing.\n(C) is wrong because 0.250 M is half of the correct value, which would be the answer if the volume had been 8.00 L."
     },
     {
       "id": "3-57",
@@ -3023,7 +3023,7 @@ const QUESTIONS = {
         "0.400 mol"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.100 mol. Molarity is moles per liter, so moles = M x V, with the volume in LITERS. First convert: 250.0 mL x (1 L / 1000 mL) = 0.2500 L. Then moles = 0.400 mol/L x 0.2500 L = 0.100 mol. A quick reasonableness check: 250 mL is a quarter of a liter, so you should have a quarter of 0.400 mol, which is 0.100 mol.\n\n(B) is wrong because 1.60 mol comes from dividing 0.400 by 0.2500 instead of multiplying, which inverts the relationship.\n(D) is wrong because 0.400 mol just repeats the molarity; the volume was not used.\n(A) is wrong because 0.0250 mol is one-fourth of the correct value, so the volume was entered incorrectly."
+      "explanation": "Correct: (C) 0.100 mol. Molarity is moles per liter, so moles = M x V, with the volume in LITERS. First convert: 250.0 mL x (1 L / 1000 mL) = 0.2500 L. Then moles = 0.400 mol/L x 0.2500 L = 0.100 mol. A quick reasonableness check: 250 mL is a quarter of a liter, so you should have a quarter of 0.400 mol, which is 0.100 mol.\n\n(B) is wrong because 1.60 mol comes from dividing 0.400 by 0.2500 instead of multiplying, which inverts the relationship.\n(D) is wrong because 0.400 mol just repeats the molarity; the volume was not used.\n(A) is wrong because 0.0250 mol is one-fourth of the correct value, so the volume was entered incorrectly."
     },
     {
       "id": "3-58",
@@ -3036,7 +3036,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.500 M. In a dilution, adding water changes the volume but not the number of moles of solute, so M1V1 = M2V2. Substitute: (2.00 M)(50.0 mL) = M2 (200.0 mL), so M2 = 100.0 / 200.0 = 0.500 M. (The volumes can stay in mL because they cancel as a ratio.) Another way to see it: the volume increased from 50.0 mL to 200.0 mL, a factor of 4, so the concentration drops by a factor of 4: 2.00 / 4 = 0.500 M.\n\n(C) is wrong because 8.00 M multiplies by 4 instead of dividing, which would make the solution MORE concentrated after adding water.\n(B) is wrong because 0.250 M would be an 8-fold dilution.\n(A) is wrong because 0.125 M would be a 16-fold dilution; the actual dilution here is only 4-fold."
+      "explanation": "Correct: (D) 0.500 M. In a dilution, adding water changes the volume but not the number of moles of solute, so M1V1 = M2V2. Substitute: (2.00 M)(50.0 mL) = M2 (200.0 mL), so M2 = 100.0 / 200.0 = 0.500 M. (The volumes can stay in mL because they cancel as a ratio.) Another way to see it: the volume increased from 50.0 mL to 200.0 mL, a factor of 4, so the concentration drops by a factor of 4: 2.00 / 4 = 0.500 M.\n\n(C) is wrong because 8.00 M multiplies by 4 instead of dividing, which would make the solution MORE concentrated after adding water.\n(B) is wrong because 0.250 M would be an 8-fold dilution.\n(A) is wrong because 0.125 M would be a 16-fold dilution; the actual dilution here is only 4-fold."
     },
     {
       "id": "3-59",
@@ -3049,7 +3049,7 @@ const QUESTIONS = {
         "200.0 mL"
       ],
       "correct": 0,
-      "explanation": "Correct: 125.0 mL. Use M1V1 = M2V2, where the stock solution is solution 1: (6.00 M)(V1) = (1.50 M)(500.0 mL). V1 = (1.50 x 500.0) / 6.00 = 750 / 6.00 = 125.0 mL. A check: the dilution factor is 6.00 / 1.50 = 4, so the final volume should be 4 times the stock volume: 500.0 / 4 = 125.0 mL. In the lab you would measure 125.0 mL of stock and add water up to the 500.0 mL mark.\n\n(B) is wrong because 100.0 mL would give (6.00)(100.0)/500.0 = 1.20 M, which is too dilute.\n(D) is wrong because 200.0 mL would give 2.40 M, which is too concentrated.\n(C) is wrong because 150.0 mL would give 1.80 M, which is also too concentrated."
+      "explanation": "Correct: (A) 125.0 mL. Use M1V1 = M2V2, where the stock solution is solution 1: (6.00 M)(V1) = (1.50 M)(500.0 mL). V1 = (1.50 x 500.0) / 6.00 = 750 / 6.00 = 125.0 mL. A check: the dilution factor is 6.00 / 1.50 = 4, so the final volume should be 4 times the stock volume: 500.0 / 4 = 125.0 mL. In the lab you would measure 125.0 mL of stock and add water up to the 500.0 mL mark.\n\n(B) is wrong because 100.0 mL would give (6.00)(100.0)/500.0 = 1.20 M, which is too dilute.\n(D) is wrong because 200.0 mL would give 2.40 M, which is too concentrated.\n(C) is wrong because 150.0 mL would give 1.80 M, which is also too concentrated."
     },
     {
       "id": "3-60",
@@ -3062,7 +3062,7 @@ const QUESTIONS = {
         "1.00 M"
       ],
       "correct": 0,
-      "explanation": "Correct: 2.00 M. Molarity needs moles of solute and liters of solution, so do two steps. Step 1, moles of NaOH: 20.0 g / 40.00 g/mol = 0.500 mol. Step 2, convert the volume to liters: 250.0 mL = 0.2500 L. Then M = 0.500 mol / 0.2500 L = 2.00 M.\n\n(B) is wrong because 0.500 is the number of moles, and it was not divided by the volume.\n(D) is wrong because 1.00 M comes from dividing by 0.500 L instead of 0.2500 L, so the volume was converted incorrectly.\n(C) is wrong because 0.800 M does not follow from this data by any of the usual steps; it would require a different mass or volume."
+      "explanation": "Correct: (A) 2.00 M. Molarity needs moles of solute and liters of solution, so do two steps. Step 1, moles of NaOH: 20.0 g / 40.00 g/mol = 0.500 mol. Step 2, convert the volume to liters: 250.0 mL = 0.2500 L. Then M = 0.500 mol / 0.2500 L = 2.00 M.\n\n(B) is wrong because 0.500 is the number of moles, and it was not divided by the volume.\n(D) is wrong because 1.00 M comes from dividing by 0.500 L instead of 0.2500 L, so the volume was converted incorrectly.\n(C) is wrong because 0.800 M does not follow from this data by any of the usual steps; it would require a different mass or volume."
     },
     {
       "id": "3-61",
@@ -3075,7 +3075,7 @@ const QUESTIONS = {
         "Molarity stays exactly the same, unaffected by the added solvent."
       ],
       "correct": 2,
-      "explanation": "Correct: molarity decreases, since the moles are spread through a larger volume. When you dilute a solution, you add solvent, which increases the volume, but you do not add or remove any solute, so the number of moles of solute stays the same. Since molarity is M = moles / liters, the same numerator with a larger denominator gives a smaller molarity. This is the idea behind the dilution equation, M1V1 = M2V2: moles before equals moles after.\n\n(A) is wrong because it states the relationship backwards: more solvent makes a solution less concentrated, not more.\n(D) is wrong because molarity depends on volume, which does change.\n(B) is wrong because a diluted solution still has a well-defined molarity; it is simply lower."
+      "explanation": "Correct: (C) Molarity decreases, since the moles are spread through a larger volume. When you dilute a solution, you add solvent, which increases the volume, but you do not add or remove any solute, so the number of moles of solute stays the same. Since molarity is M = moles / liters, the same numerator with a larger denominator gives a smaller molarity. This is the idea behind the dilution equation, M1V1 = M2V2: moles before equals moles after.\n\n(A) is wrong because it states the relationship backwards: more solvent makes a solution less concentrated, not more.\n(D) is wrong because molarity depends on volume, which does change.\n(B) is wrong because a diluted solution still has a well-defined molarity; it is simply lower."
     },
     {
       "id": "3-62",
@@ -3088,7 +3088,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "Correct: it is cut in half. Concentration is the amount of solute per unit of volume. If the number of solute particles stays at 6 while the volume doubles, there are half as many particles in each unit of volume, so the concentration is halved. This is the particle-level picture of dilution, and it matches M1V1 = M2V2: if V2 = 2V1, then M2 = M1/2. When you compare particulate diagrams, count the particles AND compare the volumes.\n\n(B) is wrong because it states the relationship backwards: a larger volume with the same particles is more dilute.\n(A) is wrong because concentration depends on the volume, which changed.\n(C) is wrong because the relationship is definite: at a constant number of particles, concentration is inversely proportional to volume."
+      "explanation": "Correct: (D) It is cut in half. Concentration is the amount of solute per unit of volume. If the number of solute particles stays at 6 while the volume doubles, there are half as many particles in each unit of volume, so the concentration is halved. This is the particle-level picture of dilution, and it matches M1V1 = M2V2: if V2 = 2V1, then M2 = M1/2. When you compare particulate diagrams, count the particles AND compare the volumes.\n\n(B) is wrong because it states the relationship backwards: a larger volume with the same particles is more dilute.\n(A) is wrong because concentration depends on the volume, which changed.\n(C) is wrong because the relationship is definite: at a constant number of particles, concentration is inversely proportional to volume."
     },
     {
       "id": "3-63",
@@ -3101,7 +3101,7 @@ const QUESTIONS = {
         "2.60 M"
       ],
       "correct": 3,
-      "explanation": "Correct: 2.60 M. When solutions are mixed, add up the moles of solute and divide by the total volume. Moles from the first solution: 4.00 mol/L x 0.1500 L = 0.600 mol. Moles from the second: 2.00 mol/L x 0.3500 L = 0.700 mol. Total moles = 1.300 mol. Total volume = 0.1500 + 0.3500 = 0.5000 L. Final concentration = 1.300 mol / 0.5000 L = 2.60 M. A check: the result must be between 2.00 M and 4.00 M, and closer to 2.00 M because more of the 2.00 M solution was used.\n\n(C) is wrong because 3.00 M is a simple average of the two concentrations, which ignores that the volumes are different.\n(A) is wrong because 1.30 is the total number of moles, and it was not divided by the total volume.\n(B) is wrong because 2.10 M is too close to 2.00 M: the 4.00 M portion adds more than that.",
+      "explanation": "Correct: (D) 2.60 M. When solutions are mixed, add up the moles of solute and divide by the total volume. Moles from the first solution: 4.00 mol/L x 0.1500 L = 0.600 mol. Moles from the second: 2.00 mol/L x 0.3500 L = 0.700 mol. Total moles = 1.300 mol. Total volume = 0.1500 + 0.3500 = 0.5000 L. Final concentration = 1.300 mol / 0.5000 L = 2.60 M. A check: the result must be between 2.00 M and 4.00 M, and closer to 2.00 M because more of the 2.00 M solution was used.\n\n(C) is wrong because 3.00 M is a simple average of the two concentrations, which ignores that the volumes are different.\n(A) is wrong because 1.30 is the total number of moles, and it was not divided by the total volume.\n(B) is wrong because 2.10 M is too close to 2.00 M: the 4.00 M portion adds more than that.",
       "stretch": true
     },
     {
@@ -3157,7 +3157,7 @@ const QUESTIONS = {
         "Chromatography of the mixture"
       ],
       "correct": 1,
-      "explanation": "Correct: filtration followed by evaporation. Plan a separation by looking at the property that differs between the components. Sand is insoluble in water, so it is a solid that does not pass through filter paper. Salt is dissolved, so it passes through in the filtrate. Filtering removes the sand. Then evaporating the water from the filtrate leaves the solid salt behind.\n\n(A) is wrong because distillation would collect the pure water, and it is not needed to remove the sand; filtering is simpler.\n(C) is wrong because recrystallization purifies a solid that has already been isolated, by dissolving it and letting it crystallize again; it is not the first step.\n(D) is wrong because chromatography separates dissolved substances that travel at different rates, and the problem here is an insoluble solid."
+      "explanation": "Correct: (B) Filtration followed by evaporation. Plan a separation by looking at the property that differs between the components. Sand is insoluble in water, so it is a solid that does not pass through filter paper. Salt is dissolved, so it passes through in the filtrate. Filtering removes the sand. Then evaporating the water from the filtrate leaves the solid salt behind.\n\n(A) is wrong because distillation would collect the pure water, and it is not needed to remove the sand; filtering is simpler.\n(C) is wrong because recrystallization purifies a solid that has already been isolated, by dissolving it and letting it crystallize again; it is not the first step.\n(D) is wrong because chromatography separates dissolved substances that travel at different rates, and the problem here is an insoluble solid."
     },
     {
       "id": "3-65",
@@ -3170,7 +3170,7 @@ const QUESTIONS = {
         "Different boiling points of the two dissolved dyes in the solvent"
       ],
       "correct": 0,
-      "explanation": "In chromatography, components separate based on how strongly they interact with the stationary phase (the paper) compared to the mobile phase (the solvent moving through it); a dye more strongly attracted to the paper moves more slowly and travels a shorter distance than one more attracted to the moving solvent. Choice C (particle size only) isn't the operating principle for dissolved dyes, which are molecular and don't meaningfully differ in 'particle size' the way chromatography separation requires. Choice B (density) plays no role in how far a spot travels up chromatography paper. Choice D (boiling point) is the relevant property for distillation, not chromatography, which works on dissolved (not vaporized) components."
+      "explanation": "Correct: (A) Different affinity for the paper vs. the solvent (mobile phase). In chromatography, components separate based on how strongly they interact with the stationary phase (the paper) compared to the mobile phase (the solvent moving through it); a dye more strongly attracted to the paper moves more slowly and travels a shorter distance than one more attracted to the moving solvent. Choice C (particle size only) isn't the operating principle for dissolved dyes, which are molecular and don't meaningfully differ in 'particle size' the way chromatography separation requires. Choice B (density) plays no role in how far a spot travels up chromatography paper. Choice D (boiling point) is the relevant property for distillation, not chromatography, which works on dissolved (not vaporized) components."
     },
     {
       "id": "3-66",
@@ -3183,7 +3183,7 @@ const QUESTIONS = {
         "Decanting"
       ],
       "correct": 1,
-      "explanation": "Correct: distillation. Two liquids that are miscible mix completely, so you cannot filter or pour one off. The property that differs is the boiling point. In distillation the mixture is heated, the liquid with the lower boiling point (for example acetone, which boils at 56 C, mixed with water, which boils at 100 C) vaporizes first, and the vapor passes into a condenser, where it cools and is collected as a pure liquid. The liquid with the higher boiling point stays behind in the flask.\n\n(D) is wrong because decanting only works when the layers are immiscible (such as oil and water) or when a solid has settled.\n(A) and\n(C) are wrong because filtration separates a solid from a liquid by particle size, and there is no solid here."
+      "explanation": "Correct: (B) Distillation. Two liquids that are miscible mix completely, so you cannot filter or pour one off. The property that differs is the boiling point. In distillation the mixture is heated, the liquid with the lower boiling point (for example acetone, which boils at 56 C, mixed with water, which boils at 100 C) vaporizes first, and the vapor passes into a condenser, where it cools and is collected as a pure liquid. The liquid with the higher boiling point stays behind in the flask.\n\n(D) is wrong because decanting only works when the layers are immiscible (such as oil and water) or when a solid has settled.\n(A) and\n(C) are wrong because filtration separates a solid from a liquid by particle size, and there is no solid here."
     },
     {
       "id": "3-67",
@@ -3196,7 +3196,7 @@ const QUESTIONS = {
         "The solid's color or general visible appearance in the beaker"
       ],
       "correct": 1,
-      "explanation": "Recrystallization dissolves an impure solid in hot solvent (where solubility is high), then slowly cools the solution so the desired solid selectively crystallizes back out in purer form, while impurities (present in smaller amounts) tend to remain dissolved rather than reaching their own saturation point—exploiting the temperature-dependence of solubility. Choice A (electrical conductivity) and choice D (color) aren't the properties recrystallization relies on; a solid could be purified by recrystallization regardless of whether it conducts or what color it is. Choice C (boiling point) is the property exploited by distillation, not recrystallization, which works with a solid dissolving and re-forming, not vaporizing."
+      "explanation": "Correct: (B) The solid's solubility, which shifts a lot with temperature. Recrystallization dissolves an impure solid in hot solvent (where solubility is high), then slowly cools the solution so the desired solid selectively crystallizes back out in purer form, while impurities (present in smaller amounts) tend to remain dissolved rather than reaching their own saturation point—exploiting the temperature-dependence of solubility. Choice A (electrical conductivity) and choice D (color) aren't the properties recrystallization relies on; a solid could be purified by recrystallization regardless of whether it conducts or what color it is. Choice C (boiling point) is the property exploited by distillation, not recrystallization, which works with a solid dissolving and re-forming, not vaporizing."
     },
     {
       "id": "3-68",
@@ -3209,7 +3209,7 @@ const QUESTIONS = {
         "This kind of separation is not possible using any physical technique."
       ],
       "correct": 2,
-      "explanation": "Correct: dissolve in solvent, filter out the solid, then evaporate to recover it. This is the standard way to separate two solids when one dissolves in a solvent and the other does not (for example, sand and salt in water). Add the solvent so that the soluble solid dissolves, filter the mixture so that the insoluble solid is caught on the filter paper, and then evaporate the solvent from the filtrate to recover the soluble solid. Each step uses a physical difference (solubility, particle size, volatility of the solvent).\n\n(B) is wrong because melting both solids together does not separate them and may decompose them.\n(A) is wrong because chromatography needs the substances to be dissolved first, and it is not necessary when a solubility difference makes a simpler separation possible.\n(D) is wrong because this separation is routine and uses only physical methods."
+      "explanation": "Correct: (C) Dissolve in solvent, filter out the solid, then evaporate to recover it. This is the standard way to separate two solids when one dissolves in a solvent and the other does not (for example, sand and salt in water). Add the solvent so that the soluble solid dissolves, filter the mixture so that the insoluble solid is caught on the filter paper, and then evaporate the solvent from the filtrate to recover the soluble solid. Each step uses a physical difference (solubility, particle size, volatility of the solvent).\n\n(B) is wrong because melting both solids together does not separate them and may decompose them.\n(A) is wrong because chromatography needs the substances to be dissolved first, and it is not necessary when a solubility difference makes a simpler separation possible.\n(D) is wrong because this separation is routine and uses only physical methods."
     },
     {
       "id": "3-69",
@@ -3222,7 +3222,7 @@ const QUESTIONS = {
         "Filtration alone would be sufficient for all three components."
       ],
       "correct": 2,
-      "explanation": "Filtration handles the solid/liquid separation first (removing the insoluble solid). Then, because the two remaining liquids have close boiling points, simple distillation may not achieve a clean separation—fractional distillation, using repeated vaporization-condensation cycles up a fractionating column, provides the extra resolving power needed for liquids with similar (rather than widely different) boiling points. Choice B (chromatography alone) doesn't address the insoluble solid component appropriately and isn't the standard technique for separating bulk miscible liquids by boiling point. Choice A (simple distillation alone, no filtration) both skips the necessary solid-removal step and, even for the liquids, wouldn't cleanly resolve two close-boiling-point components the way fractional distillation can. Choice D (filtration alone) would remove the solid but leave the two miscible liquids completely unseparated from each other."
+      "explanation": "Correct: (C) Filter the solid, then use fractional distillation on the two close-boiling liquids. Filtration handles the solid/liquid separation first (removing the insoluble solid). Then, because the two remaining liquids have close boiling points, simple distillation may not achieve a clean separation—fractional distillation, using repeated vaporization-condensation cycles up a fractionating column, provides the extra resolving power needed for liquids with similar (rather than widely different) boiling points. Choice B (chromatography alone) doesn't address the insoluble solid component appropriately and isn't the standard technique for separating bulk miscible liquids by boiling point. Choice A (simple distillation alone, no filtration) both skips the necessary solid-removal step and, even for the liquids, wouldn't cleanly resolve two close-boiling-point components the way fractional distillation can. Choice D (filtration alone) would remove the solid but leave the two miscible liquids completely unseparated from each other."
     },
     {
       "id": "3-118",
@@ -3263,7 +3263,7 @@ const QUESTIONS = {
         "Increases"
       ],
       "correct": 3,
-      "explanation": "Correct: increases. For most solid solutes, dissolving in water absorbs heat (it is endothermic), so adding heat by raising the temperature favors dissolving (Le Chatelier's principle), and the particles also have more energy to break away from the solid. A solubility curve shows this trend: more of the solid dissolves as the temperature goes up, which is why more sugar dissolves in hot tea than in iced tea. There are exceptions (some salts, like NaCl, change very little), but 'increases' is the general rule for solids.\n\n(A) is wrong because decreasing with temperature is the trend for most gases in water, not solids.\n(B) is wrong because the trend is well-known and can be read from solubility curves.\n(C) is wrong because solubility clearly depends on temperature for most solids."
+      "explanation": "Correct: (D) Increases. For most solid solutes, dissolving in water absorbs heat (it is endothermic), so adding heat by raising the temperature favors dissolving (Le Chatelier's principle), and the particles also have more energy to break away from the solid. A solubility curve shows this trend: more of the solid dissolves as the temperature goes up, which is why more sugar dissolves in hot tea than in iced tea. There are exceptions (some salts, like NaCl, change very little), but 'increases' is the general rule for solids.\n\n(A) is wrong because decreasing with temperature is the trend for most gases in water, not solids.\n(B) is wrong because the trend is well-known and can be read from solubility curves.\n(C) is wrong because solubility clearly depends on temperature for most solids."
     },
     {
       "id": "3-71",
@@ -3289,7 +3289,7 @@ const QUESTIONS = {
         "The identity of the solvent only, regardless of pressure"
       ],
       "correct": 0,
-      "explanation": "Correct: the partial pressure of that gas above the solution. Henry's law says that, at a constant temperature, the concentration of a dissolved gas is proportional to the partial pressure of that gas above the liquid: S = kP. If the pressure of the gas is doubled, twice as much gas dissolves. At a higher pressure, more gas molecules collide with the surface and enter the liquid.\n\n(D) is wrong because the solvent matters for the value of the constant k, but Henry's law is about how solubility changes with pressure.\n(C) is wrong because temperature affects the solubility and the value of k, but the proportionality in Henry's law is with the partial pressure at a given temperature.\n(B) is wrong because the size of the container is not part of the relationship."
+      "explanation": "Correct: (A) The partial pressure of that gas above the solution. Henry's law says that, at a constant temperature, the concentration of a dissolved gas is proportional to the partial pressure of that gas above the liquid: S = kP. If the pressure of the gas is doubled, twice as much gas dissolves. At a higher pressure, more gas molecules collide with the surface and enter the liquid.\n\n(D) is wrong because the solvent matters for the value of the constant k, but Henry's law is about how solubility changes with pressure.\n(C) is wrong because temperature affects the solubility and the value of k, but the proportionality in Henry's law is with the partial pressure at a given temperature.\n(B) is wrong because the size of the container is not part of the relationship."
     },
     {
       "id": "3-73",
@@ -3302,7 +3302,7 @@ const QUESTIONS = {
         "Fizzing is completely unrelated to gas solubility at all."
       ],
       "correct": 0,
-      "explanation": "Correct: opening the can drops pressure, lowering CO2 solubility, so it bubbles out. Soda is sealed under a high pressure of CO2 gas (a few atmospheres), so, by Henry's law, a large amount of CO2 is dissolved in the liquid. When the can is opened, the pressure above the liquid drops quickly to atmospheric pressure, where the CO2 pressure is much lower. The liquid then holds much more CO2 than it can at the new pressure, and the excess comes out of the solution as bubbles (the fizz).\n\n(C) is wrong because opening the can does not add CO2; it releases the pressure that kept the CO2 dissolved.\n(B) is wrong because the temperature does not rise noticeably when you open a can, and the cause is the pressure drop.\n(D) is wrong because fizzing is a direct application of gas solubility."
+      "explanation": "Correct: (A) Opening the can drops pressure, lowering CO2 solubility, so it bubbles out. Soda is sealed under a high pressure of CO2 gas (a few atmospheres), so, by Henry's law, a large amount of CO2 is dissolved in the liquid. When the can is opened, the pressure above the liquid drops quickly to atmospheric pressure, where the CO2 pressure is much lower. The liquid then holds much more CO2 than it can at the new pressure, and the excess comes out of the solution as bubbles (the fizz).\n\n(C) is wrong because opening the can does not add CO2; it releases the pressure that kept the CO2 dissolved.\n(B) is wrong because the temperature does not rise noticeably when you open a can, and the cause is the pressure drop.\n(D) is wrong because fizzing is a direct application of gas solubility."
     },
     {
       "id": "3-74",
@@ -3315,7 +3315,7 @@ const QUESTIONS = {
         "KNO₃ recrystallizes heavily on cooling; NaCl recrystallizes only slightly."
       ],
       "correct": 3,
-      "explanation": "A steep solubility curve (KNO3) means solubility drops sharply as temperature decreases, so a solution saturated at high temperature will have a large 'excess' of solute forced out of solution upon cooling. A shallow curve (NaCl) means solubility barely changes with temperature, so cooling causes comparatively little recrystallization. Choice A and choice B both ignore the fundamentally different steepness of the two solubility curves described in the stem—if the curves differ, the cooling response must differ too, not stay identical or show no change at all. Choice C reverses the correct pairing, attributing the larger recrystallization effect to NaCl (the shallow-curve substance) rather than KNO3 (the steep-curve substance), which is backwards."
+      "explanation": "Correct: (D) KNO₃ recrystallizes heavily on cooling; NaCl recrystallizes only slightly. A steep solubility curve (KNO3) means solubility drops sharply as temperature decreases, so a solution saturated at high temperature will have a large 'excess' of solute forced out of solution upon cooling. A shallow curve (NaCl) means solubility barely changes with temperature, so cooling causes comparatively little recrystallization. Choice A and choice B both ignore the fundamentally different steepness of the two solubility curves described in the stem—if the curves differ, the cooling response must differ too, not stay identical or show no change at all. Choice C reverses the correct pairing, attributing the larger recrystallization effect to NaCl (the shallow-curve substance) rather than KNO3 (the steep-curve substance), which is backwards."
     },
     {
       "id": "3-75",
@@ -3328,7 +3328,7 @@ const QUESTIONS = {
         "Solubility and IMF matching are completely unrelated concepts entirely, in every solvent and for every solute."
       ],
       "correct": 1,
-      "explanation": "Dissolution requires breaking solute-solute and solvent-solvent attractions and replacing them with new solute-solvent attractions; the more comparable in strength these new attractions are to what's being broken, the more soluble the substance will be—this is the energetic basis behind 'like dissolves like,' and it's exactly what this choice states. Choice C is wrong because IMF matching governs solubility for molecular (covalent) solutes just as much as ionic ones—nonpolar-in-nonpolar and hydrogen-bonding-in-hydrogen-bonding cases follow the same principle, not just ion-dipole cases. Choice A ignores IMFs entirely and overstates temperature's role; while temperature does affect solubility, it isn't the only factor, and the stem specifically asks about the IMF-based explanation. Choice D directly denies the well-established connection between solubility and IMF compatibility that underlies the entire 'like dissolves like' principle."
+      "explanation": "Correct: (B) New attractions must be comparable in strength to the ones they replace, for good solubility. Dissolution requires breaking solute-solute and solvent-solvent attractions and replacing them with new solute-solvent attractions; the more comparable in strength these new attractions are to what's being broken, the more soluble the substance will be—this is the energetic basis behind 'like dissolves like,' and it's exactly what this choice states. Choice C is wrong because IMF matching governs solubility for molecular (covalent) solutes just as much as ionic ones—nonpolar-in-nonpolar and hydrogen-bonding-in-hydrogen-bonding cases follow the same principle, not just ion-dipole cases. Choice A ignores IMFs entirely and overstates temperature's role; while temperature does affect solubility, it isn't the only factor, and the stem specifically asks about the IMF-based explanation. Choice D directly denies the well-established connection between solubility and IMF compatibility that underlies the entire 'like dissolves like' principle."
     },
     {
       "id": "3-76",
@@ -3341,7 +3341,7 @@ const QUESTIONS = {
         "The diver's blood pressure directly causes the bends, with no connection to dissolved gas solubility."
       ],
       "correct": 0,
-      "explanation": "This is a direct real-world application of Henry's Law and the same soda-can logic: high pressure at depth increases nitrogen's solubility in blood and tissue, dissolving more gas than would be present at surface pressure. A too-rapid ascent drops external pressure faster than the body can safely release the excess dissolved nitrogen through normal breathing, causing it to come out of solution as bubbles within the bloodstream. Choice C and choice D both deny any connection between ascent rate and dissolved gas behavior, when Henry's Law directly predicts that a pressure drop changes gas solubility. Choice B misattributes the bends to oxygen toxicity, which is a separate diving hazard involving oxygen's direct physiological effects at high partial pressure, not the nitrogen-bubble mechanism (driven by Henry's Law) that actually causes decompression sickness.",
+      "explanation": "Correct: (A) High pressure dissolves extra nitrogen in the blood; ascending too fast releases it as bubbles. This is a direct real-world application of Henry's Law and the same soda-can logic: high pressure at depth increases nitrogen's solubility in blood and tissue, dissolving more gas than would be present at surface pressure. A too-rapid ascent drops external pressure faster than the body can safely release the excess dissolved nitrogen through normal breathing, causing it to come out of solution as bubbles within the bloodstream. Choice C and choice D both deny any connection between ascent rate and dissolved gas behavior, when Henry's Law directly predicts that a pressure drop changes gas solubility. Choice B misattributes the bends to oxygen toxicity, which is a separate diving hazard involving oxygen's direct physiological effects at high partial pressure, not the nitrogen-bubble mechanism (driven by Henry's Law) that actually causes decompression sickness.",
       "stretch": true
     },
     {
@@ -3355,7 +3355,7 @@ const QUESTIONS = {
         "Visible light"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) X-rays. The energy of a photon is E = hc/λ, so energy is inversely proportional to wavelength, and the shortest-wavelength radiation has the most energetic photons. X-rays have wavelengths of about 0.01 to 10 nm, compared with about 400 to 700 nm for visible light, about 1000 nm to 1 mm for infrared, and meters for radio waves. A 1 nm X-ray photon has energy of roughly 2 x 10<sup>-16</sup> J, which is about 500 times that of a 500 nm visible photon.\n\n(B) is wrong because infrared has wavelengths longer than visible light, so its photons carry less energy than visible ones and much less than X-rays.\n(C) is wrong because radio waves have the longest wavelengths of any region, from millimeters to kilometers, so they have the lowest photon energy of the four.\n(D) is wrong because visible light, at 400 to 700 nm, is longer in wavelength than X-rays by a factor of roughly 100 or more, so its photons carry correspondingly less energy."
+      "explanation": "Correct: (A) X-rays. The energy of a photon is E = hc/λ, so energy is inversely proportional to wavelength, and the shortest-wavelength radiation has the most energetic photons. X-rays have wavelengths of about 0.01 to 10 nm, compared with about 400 to 700 nm for visible light, about 1000 nm to 1 mm for infrared, and meters for radio waves. A 1 nm X-ray photon has energy of roughly 2 x 10<sup>-16</sup> J, which is about 500 times that of a 500 nm visible photon.\n\n(B) is wrong because infrared has wavelengths longer than visible light, so its photons carry less energy than visible ones and much less than X-rays.\n(C) is wrong because radio waves have the longest wavelengths of any region, from millimeters to kilometers, so they have the lowest photon energy of the four.\n(D) is wrong because visible light, at 400 to 700 nm, has wavelengths at least about 40 times longer than X-rays (and usually far more), so its photons carry correspondingly less energy."
     },
     {
       "id": "3-78",
@@ -3368,7 +3368,7 @@ const QUESTIONS = {
         "1.50 × 10⁻⁶ Hz"
       ],
       "correct": 2,
-      "explanation": "Correct: 6.67 x 10<sup>14</sup> Hz. The frequency of light is given by the speed of light divided by the wavelength: frequency = c / wavelength. First convert the wavelength to meters: 450 nm = 450 x 10<sup>-9</sup> m = 4.50 x 10<sup>-7</sup> m. Then frequency = (3.00 x 10<sup>8</sup> m/s) / (4.50 x 10<sup>-7</sup> m) = 6.67 x 10<sup>14</sup> s<sup>-1</sup> (Hz). This is blue-violet light, and visible light has frequencies of about 4 to 8 x 10<sup>14</sup> Hz, which is a quick check.\n\n(D) is wrong because 1.50 x 10<sup>-6</sup> Hz comes from inverting the formula (wavelength divided by c), giving an absurdly small frequency.\n(B) is wrong because 3.33 x 10<sup>14</sup> Hz is half of the correct value, as if the wavelength had been 900 nm.\n(A) is wrong because 1.35 x 10<sup>17</sup> Hz is about 200 times too large, which suggests an error in the unit conversion from nanometers to meters."
+      "explanation": "Correct: (C) 6.67 x 10<sup>14</sup> Hz. The frequency of light is given by the speed of light divided by the wavelength: frequency = c / wavelength. First convert the wavelength to meters: 450 nm = 450 x 10<sup>-9</sup> m = 4.50 x 10<sup>-7</sup> m. Then frequency = (3.00 x 10<sup>8</sup> m/s) / (4.50 x 10<sup>-7</sup> m) = 6.67 x 10<sup>14</sup> s<sup>-1</sup> (Hz). This is blue-violet light, and visible light has frequencies of about 4 to 8 x 10<sup>14</sup> Hz, which is a quick check.\n\n(D) is wrong because 1.50 x 10<sup>-6</sup> Hz comes from inverting the formula (wavelength divided by c), giving an absurdly small frequency.\n(B) is wrong because 3.33 x 10<sup>14</sup> Hz is half of the correct value, as if the wavelength had been 900 nm.\n(A) is wrong because 1.35 x 10<sup>17</sup> Hz is about 200 times too large, which suggests an error in the unit conversion from nanometers to meters."
     },
     {
       "id": "3-79",
@@ -3394,7 +3394,7 @@ const QUESTIONS = {
         "Ejection of core electrons"
       ],
       "correct": 0,
-      "explanation": "Correct: molecular bond vibrations and stretching. Infrared photons have just the right amount of energy to make the bonds in a molecule vibrate (stretch and bend). Each kind of bond vibrates at its own characteristic frequencies, so IR spectra identify functional groups: for example, a strong C=O stretch near 1700 cm<sup>-1</sup> or a broad O-H stretch near 3300 cm<sup>-1</sup>. Other kinds of spectroscopy match other energies: UV-visible photons promote electrons between energy levels, radio waves flip nuclear spins (NMR), and X-rays are energetic enough to eject core electrons.\n\n(B) is wrong because nuclear spin transitions are the subject of NMR, using radio waves.\n(C) is wrong because electron transitions need more energy, in the UV-visible region.\n(D) is wrong because ejecting core electrons needs the high energy of X-rays."
+      "explanation": "Correct: (A) Molecular bond vibrations and stretching. Infrared photons have just the right amount of energy to make the bonds in a molecule vibrate (stretch and bend). Each kind of bond vibrates at its own characteristic frequencies, so IR spectra identify functional groups: for example, a strong C=O stretch near 1700 cm<sup>-1</sup> or a broad O-H stretch near 3300 cm<sup>-1</sup>. Other kinds of spectroscopy match other energies: UV-visible photons promote electrons between energy levels, radio waves flip nuclear spins (NMR), and X-rays are energetic enough to eject core electrons.\n\n(B) is wrong because nuclear spin transitions are the subject of NMR, using radio waves.\n(C) is wrong because electron transitions need more energy, in the UV-visible region.\n(D) is wrong because ejecting core electrons needs the high energy of X-rays."
     },
     {
       "id": "3-81",
@@ -3407,7 +3407,7 @@ const QUESTIONS = {
         "2.68 × 10⁻⁶ m"
       ],
       "correct": 0,
-      "explanation": "Correct: 497 nm. Solve E = hc / wavelength for the wavelength: wavelength = hc / E = (6.626 x 10<sup>-34</sup> J s)(3.00 x 10<sup>8</sup> m/s) / (4.00 x 10<sup>-19</sup> J) = 4.97 x 10<sup>-7</sup> m. Convert to nanometers (1 m = 10<sup>9</sup> nm): 4.97 x 10<sup>-7</sup> m = 497 nm. That is in the visible region (blue-green), which makes sense for a photon with an energy of about 4 x 10<sup>-19</sup> J.\n\n(B) is wrong because 1.66 x 10<sup>-27</sup> m is far too small to be a wavelength of visible-range energy; it comes from an algebra or unit error.\n(C) is wrong because 4.97 x 10<sup>-7</sup> nm has the correct digits but the wrong unit: that number is in meters, not nanometers.\n(D) is wrong because 2.68 x 10<sup>-6</sup> m is far too long for a photon of this energy (it would be infrared). The wavelength is hc/E; flipping E and hc gives a wavenumber in m<sup>-1</sup>, not a wavelength."
+      "explanation": "Correct: (A) 497 nm. Solve E = hc / wavelength for the wavelength: wavelength = hc / E = (6.626 x 10<sup>-34</sup> J s)(3.00 x 10<sup>8</sup> m/s) / (4.00 x 10<sup>-19</sup> J) = 4.97 x 10<sup>-7</sup> m. Convert to nanometers (1 m = 10<sup>9</sup> nm): 4.97 x 10<sup>-7</sup> m = 497 nm. That is in the visible region (blue-green), which makes sense for a photon with an energy of about 4 x 10<sup>-19</sup> J.\n\n(B) is wrong because 1.66 x 10<sup>-27</sup> m is far too small to be a wavelength of visible-range energy; it comes from an algebra or unit error.\n(C) is wrong because 4.97 x 10<sup>-7</sup> nm has the correct digits but the wrong unit: that number is in meters, not nanometers.\n(D) is wrong because 2.68 x 10<sup>-6</sup> m is far too long for a photon of this energy (it would be infrared). The wavelength is hc/E; flipping E and hc gives a wavenumber in m<sup>-1</sup>, not a wavelength."
     },
     {
       "id": "3-82",
@@ -3420,7 +3420,7 @@ const QUESTIONS = {
         "IR light actually has more energy than UV-visible light."
       ],
       "correct": 0,
-      "explanation": "Correct: UV-visible photons carry more energy, matching electron transitions' larger gaps. A molecule absorbs a photon only if the photon's energy matches the gap between two energy levels. The gaps between electronic energy levels are large, so exciting an electron takes UV or visible light (short wavelengths, high energy). The gaps between vibrational levels of bonds are smaller, so infrared photons (longer wavelengths, lower energy) are enough to cause vibrations. Each region of the spectrum therefore gives different information about a molecule.\n\n(D) is wrong because IR photons have LESS energy than UV-visible photons, not more.\n(C) is wrong because the two regions probe different processes for the reason given above.\n(B) is wrong because UV-visible spectroscopy is widely used to study molecules."
+      "explanation": "Correct: (A) UV-visible photons carry more energy, matching electron transitions' larger gaps. A molecule absorbs a photon only if the photon's energy matches the gap between two energy levels. The gaps between electronic energy levels are large, so exciting an electron takes UV or visible light (short wavelengths, high energy). The gaps between vibrational levels of bonds are smaller, so infrared photons (longer wavelengths, lower energy) are enough to cause vibrations. Each region of the spectrum therefore gives different information about a molecule.\n\n(D) is wrong because IR photons have LESS energy than UV-visible photons, not more.\n(C) is wrong because the two regions probe different processes for the reason given above.\n(B) is wrong because UV-visible spectroscopy is widely used to study molecules."
     },
     {
       "id": "3-83",
@@ -3433,7 +3433,7 @@ const QUESTIONS = {
         "Infrared, visible, UV, X-ray, radio"
       ],
       "correct": 1,
-      "explanation": "Correct: X-ray, UV, visible, infrared, radio. The electromagnetic spectrum, from the shortest wavelength (highest energy and frequency) to the longest, is: gamma rays, X-rays, ultraviolet (UV), visible light, infrared (IR), microwaves, and radio waves. Of the five regions in this question, the order of increasing wavelength is therefore X-ray, UV, visible, infrared, radio. Remember that as the wavelength increases, the frequency and the photon energy decrease.\n\n(A) is wrong because it lists the regions in order of DEcreasing wavelength, from radio to X-ray.\n(C) and\n(D) are wrong because they mix up the order of the regions and do not follow a steady change in wavelength."
+      "explanation": "Correct: (B) X-ray, UV, visible, infrared, radio. The electromagnetic spectrum, from the shortest wavelength (highest energy and frequency) to the longest, is: gamma rays, X-rays, ultraviolet (UV), visible light, infrared (IR), microwaves, and radio waves. Of the five regions in this question, the order of increasing wavelength is therefore X-ray, UV, visible, infrared, radio. Remember that as the wavelength increases, the frequency and the photon energy decrease.\n\n(A) is wrong because it lists the regions in order of DEcreasing wavelength, from radio to X-ray.\n(C) and\n(D) are wrong because they mix up the order of the regions and do not follow a steady change in wavelength."
     },
     {
       "id": "3-84",
@@ -3446,7 +3446,7 @@ const QUESTIONS = {
         "Only PES (photoelectron spectroscopy) works for both purposes"
       ],
       "correct": 0,
-      "explanation": "Correct: IR spectroscopy for functional groups; UV-visible spectroscopy for the electronic energy gap. IR photons match the energies of bond vibrations, and each functional group has characteristic absorptions, so IR spectroscopy shows whether a C=O (about 1700 cm<sup>-1</sup>) or an O-H (a broad band near 3300 cm<sup>-1</sup>) is present. UV-visible photons match the larger gaps between electronic energy levels, so the wavelength of maximum absorption gives information about the HOMO-LUMO gap (for example, molecules with longer conjugated systems have smaller gaps and absorb longer wavelengths).\n\n(B) is wrong because it swaps the two roles, and each technique would be used with the wrong type of photon energy.\n(D) is wrong because photoelectron spectroscopy measures the binding energies of electrons in orbitals and does not identify functional groups.\n(C) is wrong because radio waves are used for NMR (nuclear spin) and do not have the energy for vibrations or electronic transitions."
+      "explanation": "Correct: (A) IR spectroscopy for functional groups; UV-visible spectroscopy for the electronic energy gap. IR photons match the energies of bond vibrations, and each functional group has characteristic absorptions, so IR spectroscopy shows whether a C=O (about 1700 cm<sup>-1</sup>) or an O-H (a broad band near 3300 cm<sup>-1</sup>) is present. UV-visible photons match the larger gaps between electronic energy levels, so the wavelength of maximum absorption gives information about the HOMO-LUMO gap (for example, molecules with longer conjugated systems have smaller gaps and absorb longer wavelengths).\n\n(B) is wrong because it swaps the two roles, and each technique would be used with the wrong type of photon energy.\n(D) is wrong because photoelectron spectroscopy measures the binding energies of electrons in orbitals and does not identify functional groups.\n(C) is wrong because radio waves are used for NMR (nuclear spin) and do not have the energy for vibrations or electronic transitions."
     },
     {
       "id": "3-120",
@@ -3473,7 +3473,7 @@ const QUESTIONS = {
         "Electrons can only occupy specific, discrete energy values."
       ],
       "correct": 3,
-      "explanation": "Quantization means electron energy levels exist only at specific, fixed values—an electron can be at one level or another, but never at an energy value in between. This is why atomic emission and absorption spectra show sharp, distinct lines rather than a continuous rainbow of all wavelengths. Choice C describes a non-quantized (continuous) system, the opposite of what quantization means. Choice B is wrong because energy levels apply to electrons (and to the whole atom's electronic structure), not exclusively to the nucleus. Choice A is wrong because quantization is a general quantum-mechanical property that applies to single atoms just as much as to molecules."
+      "explanation": "Correct: (D) Electrons can only occupy specific, discrete energy values. Quantization means electron energy levels exist only at specific, fixed values—an electron can be at one level or another, but never at an energy value in between. This is why atomic emission and absorption spectra show sharp, distinct lines rather than a continuous rainbow of all wavelengths. Choice C describes a non-quantized (continuous) system, the opposite of what quantization means. Choice B is wrong because energy levels apply to electrons (and to the whole atom's electronic structure), not exclusively to the nucleus. Choice A is wrong because quantization is a general quantum-mechanical property that applies to single atoms just as much as to molecules."
     },
     {
       "id": "3-86",
@@ -3486,7 +3486,7 @@ const QUESTIONS = {
         "The photon's energy is completely unrelated to the gap."
       ],
       "correct": 2,
-      "explanation": "Because energy levels are quantized (fixed, discrete values), only a photon with energy exactly matching the gap between two specific levels can be absorbed to cause that transition—too much or too little energy simply won't be absorbed for that particular transition, which is why absorption spectra show sharp lines rather than broad absorption everywhere. Choice A (must exceed the gap) is inconsistent with quantization; an excess-energy photon doesn't get 'partially' absorbed to make up the exact gap, it generally isn't absorbed for that transition at all. Choice B (any photon energy works) directly contradicts the discrete, line-based nature of absorption spectra. Choice D denies any relationship between photon energy and the energy gap, which is the opposite of how quantized absorption actually works."
+      "explanation": "Correct: (C) The photon's energy must exactly equal the gap between the two levels. Because energy levels are quantized (fixed, discrete values), only a photon with energy exactly matching the gap between two specific levels can be absorbed to cause that transition—too much or too little energy simply won't be absorbed for that particular transition, which is why absorption spectra show sharp lines rather than broad absorption everywhere. Choice A (must exceed the gap) is inconsistent with quantization; an excess-energy photon doesn't get 'partially' absorbed to make up the exact gap, it generally isn't absorbed for that transition at all. Choice B (any photon energy works) directly contradicts the discrete, line-based nature of absorption spectra. Choice D denies any relationship between photon energy and the energy gap, which is the opposite of how quantized absorption actually works."
     },
     {
       "id": "3-87",
@@ -3499,7 +3499,7 @@ const QUESTIONS = {
         "The measurement equipment here must be malfunctioning."
       ],
       "correct": 2,
-      "explanation": "Each distinct spectral line corresponds to a photon emitted from one specific electron transition between two quantized energy levels; the atom simply doesn't have energy levels in between to produce photons of intermediate energies, which is why the spectrum consists of sharp lines rather than a smooth continuous rainbow. Choice A describes the opposite situation—continuous, non-quantized levels would instead produce a continuous spectrum, not distinct lines. Choice D dismisses a real, expected, and reproducible physical phenomenon as equipment error, which is incorrect. Choice B is contradicted by the premise itself—an emission spectrum, by definition, is evidence that photons are indeed being emitted."
+      "explanation": "Correct: (C) The atom has quantized levels; each line is a specific transition. Each distinct spectral line corresponds to a photon emitted from one specific electron transition between two quantized energy levels; the atom simply doesn't have energy levels in between to produce photons of intermediate energies, which is why the spectrum consists of sharp lines rather than a smooth continuous rainbow. Choice A describes the opposite situation—continuous, non-quantized levels would instead produce a continuous spectrum, not distinct lines. Choice D dismisses a real, expected, and reproducible physical phenomenon as equipment error, which is incorrect. Choice B is contradicted by the premise itself—an emission spectrum, by definition, is evidence that photons are indeed being emitted."
     },
     {
       "id": "3-88",
@@ -3512,7 +3512,7 @@ const QUESTIONS = {
         "Emission spectra depend only on temperature, not on element identity, so all elements look alike when heated."
       ],
       "correct": 1,
-      "explanation": "Each element has a unique arrangement and spacing of electron energy levels (due to its distinct number of protons and electrons), producing a unique set of possible transition energies and therefore a unique set of emitted photon wavelengths—a spectral 'fingerprint,' which is exactly what this choice states. Choice A is factually false; different elements produce visibly and measurably different emission spectra, which is exactly what makes elemental identification by spectroscopy possible. Choice D ignores that spectra are fundamentally set by an element's electronic structure, not primarily by temperature (temperature affects how strongly lines appear, not which wavelengths are possible). Choice C is false—emission spectra are highly reproducible and informative, forming the basis of a widely used identification technique, not random noise."
+      "explanation": "Correct: (B) Each element has a unique arrangement of energy levels, giving unique emitted wavelengths. Each element has a unique arrangement and spacing of electron energy levels (due to its distinct number of protons and electrons), producing a unique set of possible transition energies and therefore a unique set of emitted photon wavelengths—a spectral 'fingerprint,' which is exactly what this choice states. Choice A is factually false; different elements produce visibly and measurably different emission spectra, which is exactly what makes elemental identification by spectroscopy possible. Choice D ignores that spectra are fundamentally set by an element's electronic structure, not primarily by temperature (temperature affects how strongly lines appear, not which wavelengths are possible). Choice C is false—emission spectra are highly reproducible and informative, forming the basis of a widely used identification technique, not random noise."
     },
     {
       "id": "3-89",
@@ -3525,7 +3525,7 @@ const QUESTIONS = {
         "The exact same energy in both cases."
       ],
       "correct": 1,
-      "explanation": "Correct: lower energy, since n=3 to n=1 is a larger transition. The energy of a hydrogen atom's level n is E(n) = -2.18 x 10<sup>-18</sup> J / n<sup>2</sup>. For n = 3 to n = 1, the photon energy is 2.18 x 10<sup>-18</sup> x (1 - 1/9) = 1.94 x 10<sup>-18</sup> J. For n = 2 to n = 1 it is 2.18 x 10<sup>-18</sup> x (1 - 1/4) = 1.63 x 10<sup>-18</sup> J. A bigger energy gap between the two levels gives a higher-energy photon, so the 2-to-1 transition has the lower energy of the two.\n\n(C) is wrong because it states the comparison backwards: the 3-to-1 transition spans the larger gap and gives the higher-energy photon, so the 2-to-1 photon cannot be the higher-energy one.\n(D) is wrong because the two transitions have different energy gaps.\n(A) is wrong because hydrogen's energy levels are well defined, so the comparison can be made."
+      "explanation": "Correct: (B) Lower energy, since n=3 to n=1 is a larger transition. The energy of a hydrogen atom's level n is E(n) = -2.18 x 10<sup>-18</sup> J / n<sup>2</sup>. For n = 3 to n = 1, the photon energy is 2.18 x 10<sup>-18</sup> x (1 - 1/9) = 1.94 x 10<sup>-18</sup> J. For n = 2 to n = 1 it is 2.18 x 10<sup>-18</sup> x (1 - 1/4) = 1.63 x 10<sup>-18</sup> J. A bigger energy gap between the two levels gives a higher-energy photon, so the 2-to-1 transition has the lower energy of the two.\n\n(C) is wrong because it states the comparison backwards: the 3-to-1 transition spans the larger gap and gives the higher-energy photon, so the 2-to-1 photon cannot be the higher-energy one.\n(D) is wrong because the two transitions have different energy gaps.\n(A) is wrong because hydrogen's energy levels are well defined, so the comparison can be made."
     },
     {
       "id": "3-90",
@@ -3538,7 +3538,7 @@ const QUESTIONS = {
         "The photoelectric effect proves light behaves only as a wave, never as a particle."
       ],
       "correct": 1,
-      "explanation": "Correct: electron ejection needs each photon to carry a minimum threshold energy, regardless of intensity. In the photoelectric effect, light shining on a metal ejects electrons only if the light's frequency is above a threshold value that is characteristic of the metal. A wave model predicted that any frequency of light, if intense enough, would eventually give electrons enough energy. What was observed: light below the threshold frequency ejects NO electrons however intense it is, and light above the threshold ejects electrons immediately, even if it is dim. Brighter light above the threshold ejects MORE electrons, not faster ones. This fits a particle model: each photon has energy E = hf, and one photon gives its energy to one electron. The electron escapes only if hf is larger than the energy that holds it in the metal.\n\n(A) is wrong because below-threshold light of any intensity ejects no electrons.\n(C) is wrong because ejection depends on the energy of individual photons, not on the total intensity.\n(D) is wrong because the effect supports the particle nature of light; it could not be explained by waves alone."
+      "explanation": "Correct: (B) Electron ejection needs each photon to carry a minimum threshold energy, regardless of intensity. In the photoelectric effect, light shining on a metal ejects electrons only if the light's frequency is above a threshold value that is characteristic of the metal. A wave model predicted that any frequency of light, if intense enough, would eventually give electrons enough energy. What was observed: light below the threshold frequency ejects NO electrons however intense it is, and light above the threshold ejects electrons immediately, even if it is dim. Brighter light above the threshold ejects MORE electrons, not faster ones. This fits a particle model: each photon has energy E = hf, and one photon gives its energy to one electron. The electron escapes only if hf is larger than the energy that holds it in the metal.\n\n(A) is wrong because below-threshold light of any intensity ejects no electrons.\n(C) is wrong because ejection depends on the energy of individual photons, not on the total intensity.\n(D) is wrong because the effect supports the particle nature of light; it could not be explained by waves alone."
     },
     {
       "id": "3-91",
@@ -3551,7 +3551,7 @@ const QUESTIONS = {
         "The sum will always end up greater than the absorbed photon's energy."
       ],
       "correct": 2,
-      "explanation": "Energy is a state function—the total energy released falling from n=4 to n=1 is fixed and doesn't depend on whether the electron falls directly or through an intermediate step. So the sum of the two emitted photons' energies (n=4→n=2 plus n=2→n=1) must exactly equal the single photon's energy originally absorbed for the direct n=1→n=4 transition. Choice D (sum always greater) and choice A (sum always less, citing heat loss) both incorrectly assume energy is gained or lost somewhere along the two-step pathway, violating conservation of energy for this closed atomic transition. Choice B denies any relationship between the absorbed and emitted energies, when conservation of energy guarantees a precise, calculable relationship between them.",
+      "explanation": "Correct: (C) The sum equals the absorbed photon's energy, since energy is conserved regardless of path. Energy is a state function—the total energy released falling from n=4 to n=1 is fixed and doesn't depend on whether the electron falls directly or through an intermediate step. So the sum of the two emitted photons' energies (n=4→n=2 plus n=2→n=1) must exactly equal the single photon's energy originally absorbed for the direct n=1→n=4 transition. Choice D (sum always greater) and choice A (sum always less, citing heat loss) both incorrectly assume energy is gained or lost somewhere along the two-step pathway, violating conservation of energy for this closed atomic transition. Choice B denies any relationship between the absorbed and emitted energies, when conservation of energy guarantees a precise, calculable relationship between them.",
       "stretch": true
     },
     {
@@ -3565,7 +3565,7 @@ const QUESTIONS = {
         "0.0600"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication.\n(A) and\n(B) are wrong because they are nowhere near the product 2.00 x 10<sup>3</sup> x 1.00 x 3.00 x 10<sup>-4</sup>; absorbance is found by multiplying epsilon, b, and c."
+      "explanation": "Correct: (C) 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication.\n(A) and\n(B) are wrong because they are nowhere near the product 2.00 x 10<sup>3</sup> x 1.00 x 3.00 x 10<sup>-4</sup>; absorbance is found by multiplying epsilon, b, and c."
     },
     {
       "id": "3-93",
@@ -3591,7 +3591,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 1,
-      "explanation": "Correct: 5.00 x 10<sup>-4</sup> M. A calibration curve is a line that relates absorbance to concentration for samples whose concentrations are known. Here the line is A = 1500c, so the slope (which equals epsilon x b) is 1500 L/mol. For the unknown, A = 0.750, so 0.750 = 1500 x c, and c = 0.750 / 1500 = 5.00 x 10<sup>-4</sup> M. Check that the result makes sense: a concentration of 0.0005 M is typical for a colored solution measured in a spectrometer, and the absorbance (0.750) is between 0 and about 1, where the law works well.\n\n(D) is wrong because 0.500 M results from not dividing by the full slope.\n(C) is wrong because 2.00 x 10<sup>3</sup> is 1500 divided by 0.750, which inverts the calculation.\n(A) is wrong because 1125 is 1500 x 0.750, which multiplies instead of dividing."
+      "explanation": "Correct: (B) 5.00 x 10<sup>-4</sup> M. A calibration curve is a line that relates absorbance to concentration for samples whose concentrations are known. Here the line is A = 1500c, so the slope (which equals epsilon x b) is 1500 L/mol. For the unknown, A = 0.750, so 0.750 = 1500 x c, and c = 0.750 / 1500 = 5.00 x 10<sup>-4</sup> M. Check that the result makes sense: a concentration of 0.0005 M is typical for a colored solution measured in a spectrometer, and the absorbance (0.750) is between 0 and about 1, where the law works well.\n\n(D) is wrong because 0.500 M results from not dividing by the full slope.\n(C) is wrong because 2.00 x 10<sup>3</sup> is 1500 divided by 0.750, which inverts the calculation.\n(A) is wrong because 1125 is 1500 x 0.750, which multiplies instead of dividing."
     },
     {
       "id": "3-95",
@@ -3617,7 +3617,7 @@ const QUESTIONS = {
         "4:1"
       ],
       "correct": 2,
-      "explanation": "Correct: 1:4. At the same wavelength and path length, epsilon and b are the same for both solutions, so absorbance is directly proportional to concentration, and the ratio of the absorbances equals the ratio of the concentrations: 0.200 / 0.800 = 1/4. The lower:higher concentration ratio is therefore 1:4 (the second solution is four times as concentrated).\n\n(A) is wrong because 1:16 would be the result if absorbance were proportional to the square of the concentration, which it is not.\n(B) is wrong because 1:2 would mean the absorbances differ by a factor of 2, not 4.\n(D) is wrong because 4:1 is the ratio written as higher:lower, but the question asks for lower:higher."
+      "explanation": "Correct: (C) 1:4. At the same wavelength and path length, epsilon and b are the same for both solutions, so absorbance is directly proportional to concentration, and the ratio of the absorbances equals the ratio of the concentrations: 0.200 / 0.800 = 1/4. The lower:higher concentration ratio is therefore 1:4 (the second solution is four times as concentrated).\n\n(A) is wrong because 1:16 would be the result if absorbance were proportional to the square of the concentration, which it is not.\n(B) is wrong because 1:2 would mean the absorbances differ by a factor of 2, not 4.\n(D) is wrong because 4:1 is the ratio written as higher:lower, but the question asks for lower:higher."
     },
     {
       "id": "3-97",
@@ -3630,7 +3630,7 @@ const QUESTIONS = {
         "Using a different wavelength would somehow change the actual concentration of the solution."
       ],
       "correct": 0,
-      "explanation": "Molar absorptivity (ε) is a property specific to a given substance AND a given wavelength—typically chosen at the wavelength of maximum absorbance. Using inconsistent wavelengths between standards and the unknown would mean each measurement reflects a different ε value, making direct comparison via a single calibration line invalid. Choice B is false; wavelength absolutely affects absorbance, since it determines which ε value applies. Choice D confuses the sample's actual concentration (a fixed physical property of the solution) with the measured absorbance value, which changes with wavelength even though the concentration itself does not. Choice C denies the well-established requirement for wavelength consistency that underlies all reliable Beer-Lambert calibration work."
+      "explanation": "Correct: (A) Molar absorptivity is wavelength-dependent, so mismatched wavelengths invalidate comparison. Molar absorptivity (ε) is a property specific to a given substance AND a given wavelength—typically chosen at the wavelength of maximum absorbance. Using inconsistent wavelengths between standards and the unknown would mean each measurement reflects a different ε value, making direct comparison via a single calibration line invalid. Choice B is false; wavelength absolutely affects absorbance, since it determines which ε value applies. Choice D confuses the sample's actual concentration (a fixed physical property of the solution) with the measured absorbance value, which changes with wavelength even though the concentration itself does not. Choice C denies the well-established requirement for wavelength consistency that underlies all reliable Beer-Lambert calibration work."
     },
     {
       "id": "3-98",
@@ -3643,7 +3643,7 @@ const QUESTIONS = {
         "Absorbance values above 1.0 are physically impossible to obtain."
       ],
       "correct": 2,
-      "explanation": "Very high absorbance readings often fall outside the range where the A vs. c relationship stays cleanly linear (due to instrumental limitations), reducing measurement reliability. The standard fix is to dilute the sample to bring its absorbance into a more reliable range, remeasure, calculate that diluted concentration via Beer-Lambert, and then multiply back by the dilution factor to find the original concentration. Choice A (increase path length to raise absorbance further) moves in exactly the wrong direction—it would push the reading even further outside the reliable linear range, not correct the problem. Choice B is wrong because high absorbance readings are specifically flagged in the stem as less reliable, not equally trustworthy. Choice D is factually false—absorbance values above 1.0 are measurable; they're just less reliable for quantitative work, not physically impossible."
+      "explanation": "Correct: (C) Dilute the sample into a reliable range, then correct for dilution. Very high absorbance readings often fall outside the range where the A vs. c relationship stays cleanly linear (due to instrumental limitations), reducing measurement reliability. The standard fix is to dilute the sample to bring its absorbance into a more reliable range, remeasure, calculate that diluted concentration via Beer-Lambert, and then multiply back by the dilution factor to find the original concentration. Choice A (increase path length to raise absorbance further) moves in exactly the wrong direction—it would push the reading even further outside the reliable linear range, not correct the problem. Choice B is wrong because high absorbance readings are specifically flagged in the stem as less reliable, not equally trustworthy. Choice D is factually false—absorbance values above 1.0 are measurable; they're just less reliable for quantitative work, not physically impossible."
     },
     {
       "id": "3-99",
@@ -3656,7 +3656,7 @@ const QUESTIONS = {
         "A substance- and wavelength-specific absorption constant"
       ],
       "correct": 3,
-      "explanation": "Correct: a substance- and wavelength-specific absorption constant. Molar absorptivity (epsilon, in L/(mol cm)) tells how strongly one mole per liter of a particular substance absorbs light of a particular wavelength. A substance with a large epsilon absorbs light strongly and has an intense color, while one with a small epsilon absorbs weakly. Because epsilon changes with the wavelength, chemists usually measure at the wavelength of maximum absorption, where the measurement is most sensitive. It is the constant in A = epsilon x b x c.\n\n(B) is wrong because epsilon is not universal: it is different for each substance and wavelength.\n(C) is wrong because epsilon is an optical property and has nothing to do with the pH.\n(A) is wrong because epsilon is not a volume; it describes how strongly the substance absorbs light, whatever the volume."
+      "explanation": "Correct: (D) A substance- and wavelength-specific absorption constant. Molar absorptivity (epsilon, in L/(mol cm)) tells how strongly one mole per liter of a particular substance absorbs light of a particular wavelength. A substance with a large epsilon absorbs light strongly and has an intense color, while one with a small epsilon absorbs weakly. Because epsilon changes with the wavelength, chemists usually measure at the wavelength of maximum absorption, where the measurement is most sensitive. It is the constant in A = epsilon x b x c.\n\n(B) is wrong because epsilon is not universal: it is different for each substance and wavelength.\n(C) is wrong because epsilon is an optical property and has nothing to do with the pH.\n(A) is wrong because epsilon is not a volume; it describes how strongly the substance absorbs light, whatever the volume."
     },
     {
       "id": "3-100",
@@ -3669,7 +3669,7 @@ const QUESTIONS = {
         "High-concentration standards should always be given more weight than low-concentration ones in a calibration curve."
       ],
       "correct": 2,
-      "explanation": "Beer-Lambert's linearity assumes dilute, well-behaved solutions; at higher concentrations, effects like solute-solute interactions or instrumental limitations (e.g., stray light reaching the detector) can cause real absorbance to deviate below the ideal linear prediction. The appropriate response is excluding the deviating high-concentration point from the calibration fit (using only the reliably linear region) or diluting that standard and re-measuring, rather than assuming the law itself is broken. Choice B overreacts by discarding a fundamentally sound and widely validated relationship just because one point deviates at high concentration, rather than recognizing this as a known, well-understood limitation. Choice A misdiagnoses the issue as a simple unit error, when the described pattern (one specific high-concentration point falling below an otherwise strong linear trend) is a classic signature of a real physical/instrumental limitation, not a units mistake fixable by a single correction factor. Choice D is backwards—high-concentration standards are exactly the ones more likely to be unreliable here and should be scrutinized or excluded, not weighted more heavily than the well-behaved lower-concentration points.",
+      "explanation": "Correct: (C) At high concentration, A=εbc can break down, so exclude or dilute and re-measure that point. Beer-Lambert's linearity assumes dilute, well-behaved solutions; at higher concentrations, effects like solute-solute interactions or instrumental limitations (e.g., stray light reaching the detector) can cause real absorbance to deviate below the ideal linear prediction. The appropriate response is excluding the deviating high-concentration point from the calibration fit (using only the reliably linear region) or diluting that standard and re-measuring, rather than assuming the law itself is broken. Choice B overreacts by discarding a fundamentally sound and widely validated relationship just because one point deviates at high concentration, rather than recognizing this as a known, well-understood limitation. Choice A misdiagnoses the issue as a simple unit error, when the described pattern (one specific high-concentration point falling below an otherwise strong linear trend) is a classic signature of a real physical/instrumental limitation, not a units mistake fixable by a single correction factor. Choice D is backwards—high-concentration standards are exactly the ones more likely to be unreliable here and should be scrutinized or excluded, not weighted more heavily than the well-behaved lower-concentration points.",
       "stretch": true
     },
     {
@@ -3699,7 +3699,7 @@ const QUESTIONS = {
         "4, 6, 2"
       ],
       "correct": 2,
-      "explanation": "Balance Al: 4 Al needed for 2 Al₂O₃. Balance O: 2 Al₂O₃ has 6 O total, requiring 3 O₂. Final: 4Al + 3O₂ → 2Al₂O₃ (Al: 4=4; O: 6=6). (D) 4,6,2 keeps Al balanced but doubles the O₂ needed (12 O supplied vs. only 6 required). (A) 2,3,1 balances Al (2=2) but leaves O unbalanced (6 supplied vs. 3 needed) — it's just half of the correct set applied inconsistently. (B) 1,1,1 fails on both elements (1 Al vs. 2, 2 O vs. 3) and isn't balanced at all."
+      "explanation": "Correct: (C) 4, 3, 2. Balance Al: 4 Al needed for 2 Al₂O₃. Balance O: 2 Al₂O₃ has 6 O total, requiring 3 O₂. Final: 4Al + 3O₂ → 2Al₂O₃ (Al: 4=4; O: 6=6). (D) 4,6,2 keeps Al balanced but doubles the O₂ needed (12 O supplied vs. only 6 required). (A) 2,3,1 balances Al (2=2) but leaves O unbalanced (6 supplied vs. 3 needed) — it's just half of the correct set applied inconsistently. (B) 1,1,1 fails on both elements (1 Al vs. 2, 2 O vs. 3) and isn't balanced at all."
     },
     {
       "id": "4-2",
@@ -3712,7 +3712,7 @@ const QUESTIONS = {
         "1, 13, 4, 5"
       ],
       "correct": 1,
-      "explanation": "Balance C: 2 C₄H₁₀ → 8 CO₂ (8 C each side). Balance H: 2 C₄H₁₀ (20 H) → 10 H₂O (20 H). Balance O: 8 CO₂ (16 O) + 10 H₂O (10 O) = 26 O, requiring 13 O₂. Final: 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. (A)'s leading set 1,6,4,5 balances C and H but leaves O short (12 supplied vs. 13 needed) — the '2,13,8,10' tacked onto the answer text doesn't make the listed 1,6,4,5 set itself balanced. (D) 1,13,4,5 balances C and H but supplies far too much O₂ (26 O vs. the 17 actually needed for that scale). (C) 2,6,8,5 balances C and O but not H (20 H from C₄H₁₀ vs. only 10 H delivered by 5 H₂O)."
+      "explanation": "Correct: (B) 2, 13, 8, 10. Balance C: 2 C₄H₁₀ → 8 CO₂ (8 C each side). Balance H: 2 C₄H₁₀ (20 H) → 10 H₂O (20 H). Balance O: 8 CO₂ (16 O) + 10 H₂O (10 O) = 26 O, requiring 13 O₂. Final: 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. (A)'s leading set 1,6,4,5 balances C and H but leaves O short (12 supplied vs. 13 needed) — the '2,13,8,10' tacked onto the answer text doesn't make the listed 1,6,4,5 set itself balanced. (D) 1,13,4,5 balances C and H but supplies far too much O₂ (26 O vs. the 17 actually needed for that scale). (C) 2,6,8,5 balances C and O but not H (20 H from C₄H₁₀ vs. only 10 H delivered by 5 H₂O)."
     },
     {
       "id": "4-3",
@@ -3738,7 +3738,7 @@ const QUESTIONS = {
         "2, 3, 1"
       ],
       "correct": 2,
-      "explanation": "Balance Fe: 4 Fe for 2 Fe₂O₃. Balance O: 2 Fe₂O₃ has 6 O, requiring 3 O₂. Final: 4Fe + 3O₂ → 2Fe₂O₃ (Fe: 4=4; O: 6=6). (D) 2,3,1 balances Fe (2=2) but not O (6 supplied vs. only 3 needed). (A) 1,1,1 balances neither Fe (1 vs. 2) nor O (2 vs. 3). (B) 4,6,2 balances Fe (4=4) but doubles the required O₂ (12 O supplied vs. 6 needed)."
+      "explanation": "Correct: (C) 4, 3, 2. Balance Fe: 4 Fe for 2 Fe₂O₃. Balance O: 2 Fe₂O₃ has 6 O, requiring 3 O₂. Final: 4Fe + 3O₂ → 2Fe₂O₃ (Fe: 4=4; O: 6=6). (D) 2,3,1 balances Fe (2=2) but not O (6 supplied vs. only 3 needed). (A) 1,1,1 balances neither Fe (1 vs. 2) nor O (2 vs. 3). (B) 4,6,2 balances Fe (4=4) but doubles the required O₂ (12 O supplied vs. 6 needed)."
     },
     {
       "id": "4-5",
@@ -3764,7 +3764,7 @@ const QUESTIONS = {
         "4, 5, 2"
       ],
       "correct": 0,
-      "explanation": "Balance P: 1 P₄ gives 4 P, requiring 2 P₂O₅ (2×2=4 P). Balance O: 2 P₂O₅ has 10 O, requiring 5 O₂. Final, lowest whole-number equation: P₄ + 5O₂ → 2P₂O₅, i.e., 1, 5, 2. (B) 1,10,4 balances P poorly (4 P vs. 4×2=8 P from 4 P₂O₅) and massively overshoots O (20 O supplied vs. 20 needed for that scale — actually the P mismatch alone rules it out). (D) 4,5,2 gives 16 P from P₄ but only 4 P worth of product, a 4:1 P mismatch. (C) 2,5,4 conserves P (8=8) but not O (10 supplied vs. 20 needed for 4 P₂O₅)."
+      "explanation": "Correct: (A) 1, 5, 2. Balance P: 1 P₄ gives 4 P, requiring 2 P₂O₅ (2×2=4 P). Balance O: 2 P₂O₅ has 10 O, requiring 5 O₂. Final, lowest whole-number equation: P₄ + 5O₂ → 2P₂O₅, i.e., 1, 5, 2. (B) 1,10,4 balances P poorly (4 P vs. 4×2=8 P from 4 P₂O₅) and massively overshoots O (20 O supplied vs. 20 needed for that scale — actually the P mismatch alone rules it out). (D) 4,5,2 gives 16 P from P₄ but only 4 P worth of product, a 4:1 P mismatch. (C) 2,5,4 conserves P (8=8) but not O (10 supplied vs. 20 needed for 4 P₂O₅)."
     },
     {
       "id": "4-7",
@@ -3790,7 +3790,7 @@ const QUESTIONS = {
         "Pure liquid water"
       ],
       "correct": 1,
-      "explanation": "Only strong electrolytes — soluble ionic compounds, strong acids, and strong bases — dissociate essentially completely in solution, so only they're split into separate ions. (D) Pure liquid water is not written as ions because it is overwhelmingly molecular (its self-ionization is negligible), not because of any solubility issue. (C) A weak acid stays intact because it only partially ionizes — writing it as free ions would overstate how much actually dissociates. (A) An insoluble precipitate is written as a single solid formula because, being insoluble, it isn't present as free ions in solution at all — it's undissolved, not merely 'not split.'"
+      "explanation": "Correct: (B) A soluble strong electrolyte. Only strong electrolytes — soluble ionic compounds, strong acids, and strong bases — dissociate essentially completely in solution, so only they're split into separate ions. (D) Pure liquid water is not written as ions because it is overwhelmingly molecular (its self-ionization is negligible), not because of any solubility issue. (C) A weak acid stays intact because it only partially ionizes — writing it as free ions would overstate how much actually dissociates. (A) An insoluble precipitate is written as a single solid formula because, being insoluble, it isn't present as free ions in solution at all — it's undissolved, not merely 'not split.'"
     },
     {
       "id": "4-9",
@@ -3803,7 +3803,7 @@ const QUESTIONS = {
         "2Na⁺(aq) + 2Cl⁻(aq) → 2NaCl(aq)"
       ],
       "correct": 2,
-      "explanation": "After splitting all soluble species into ions, Na⁺ and Cl⁻ appear unchanged on both sides (spectators) and cancel, leaving only the ions that combine to form the precipitate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (D) 2Na⁺ + 2Cl⁻ → 2NaCl(aq) misrepresents the chemistry — NaCl is already fully dissociated in solution, so this 'reaction' doesn't actually occur; it just shows spectators re-forming an intact formula, which never happens while they stay dissolved. (A) is the correct complete ionic equation, but the spectators (Na⁺, Cl⁻) haven't been cancelled yet, so it is not the net ionic equation being asked for. (B) is the correct molecular equation, but molecular equations don't show ions at all and so can't be a net ionic equation."
+      "explanation": "Correct: (C) Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). After splitting all soluble species into ions, Na⁺ and Cl⁻ appear unchanged on both sides (spectators) and cancel, leaving only the ions that combine to form the precipitate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (D) 2Na⁺ + 2Cl⁻ → 2NaCl(aq) misrepresents the chemistry — NaCl is already fully dissociated in solution, so this 'reaction' doesn't actually occur; it just shows spectators re-forming an intact formula, which never happens while they stay dissolved. (A) is the correct complete ionic equation, but the spectators (Na⁺, Cl⁻) haven't been cancelled yet, so it is not the net ionic equation being asked for. (B) is the correct molecular equation, but molecular equations don't show ions at all and so can't be a net ionic equation."
     },
     {
       "id": "4-10",
@@ -3816,7 +3816,7 @@ const QUESTIONS = {
         "H⁺ and OH⁻"
       ],
       "correct": 2,
-      "explanation": "Splitting into ions: 2H⁺ + 2Cl⁻ + Ca²⁺ + 2OH⁻ → Ca²⁺ + 2Cl⁻ + 2H₂O(l). Ca²⁺ and Cl⁻ appear identically on both sides without reacting, making them the spectators. (D) H⁺ and OH⁻ are wrong — these are the ions that actually combine to form water, the opposite of spectators. (A) 'Only Ca²⁺' is incomplete since Cl⁻ is equally unchanged and must also be classified as a spectator. (B) is wrong because there clearly are two spectator ions once the equation is split; this reaction is a textbook neutralization with H⁺ and OH⁻ as the only reacting species."
+      "explanation": "Correct: (C) Ca²⁺ and Cl⁻. Splitting into ions: 2H⁺ + 2Cl⁻ + Ca²⁺ + 2OH⁻ → Ca²⁺ + 2Cl⁻ + 2H₂O(l). Ca²⁺ and Cl⁻ appear identically on both sides without reacting, making them the spectators. (D) H⁺ and OH⁻ are wrong — these are the ions that actually combine to form water, the opposite of spectators. (A) 'Only Ca²⁺' is incomplete since Cl⁻ is equally unchanged and must also be classified as a spectator. (B) is wrong because there clearly are two spectator ions once the equation is split; this reaction is a textbook neutralization with H⁺ and OH⁻ as the only reacting species."
     },
     {
       "id": "4-11",
@@ -3829,7 +3829,7 @@ const QUESTIONS = {
         "PbCl₂ and NaNO₃"
       ],
       "correct": 2,
-      "explanation": "The net equation needs a soluble lead source (for Pb²⁺) and a soluble chloride source (for Cl⁻): Pb(NO₃)₂ (soluble, supplies Pb²⁺) and NaCl (soluble, supplies Cl⁻) mix to precipitate PbCl₂, with Na⁺ and NO₃⁻ as spectators. (A) NaCl and KNO₃ contain no lead source at all, so Pb²⁺ can't appear in the products. (B) Pb(NO₃)₂ and KNO₃ contain no chloride source, so Cl⁻ can't appear. (D) listing PbCl₂ itself as a reactant doesn't fit — PbCl₂ is the insoluble product being formed, not something dissolved and available as free Pb²⁺ and Cl⁻ ions beforehand."
+      "explanation": "Correct: (C) Pb(NO₃)₂ and NaCl. The net equation needs a soluble lead source (for Pb²⁺) and a soluble chloride source (for Cl⁻): Pb(NO₃)₂ (soluble, supplies Pb²⁺) and NaCl (soluble, supplies Cl⁻) mix to precipitate PbCl₂, with Na⁺ and NO₃⁻ as spectators. (A) NaCl and KNO₃ contain no lead source at all, so Pb²⁺ can't appear in the products. (B) Pb(NO₃)₂ and KNO₃ contain no chloride source, so Cl⁻ can't appear. (D) listing PbCl₂ itself as a reactant doesn't fit — PbCl₂ is the insoluble product being formed, not something dissolved and available as free Pb²⁺ and Cl⁻ ions beforehand."
     },
     {
       "id": "4-12",
@@ -3855,7 +3855,7 @@ const QUESTIONS = {
         "BaCl₂(aq) + Na₂SO₄(aq)"
       ],
       "correct": 2,
-      "explanation": "Checking solubility rules: a possible swap between K⁺/NO₃⁻ and Na⁺/Cl⁻ would give NaNO₃ and KCl, both soluble — no precipitate forms, so every ion stays dissolved and is a spectator, leaving nothing to write as a net ionic equation. (D) BaCl₂ + Na₂SO₄ forms insoluble BaSO₄ (sulfates are insoluble with Ba²⁺). (B) Pb(NO₃)₂ + KI forms insoluble PbI₂ (most iodides are soluble, but Pb²⁺ is a named exception). (A) NaCl + AgNO₃ forms insoluble AgCl (most chlorides are soluble, but Ag⁺ is a named exception). All three of these produce a real precipitate and thus do have a meaningful net ionic equation."
+      "explanation": "Correct: (C) KNO₃(aq) + NaCl(aq). Checking solubility rules: a possible swap between K⁺/NO₃⁻ and Na⁺/Cl⁻ would give NaNO₃ and KCl, both soluble — no precipitate forms, so every ion stays dissolved and is a spectator, leaving nothing to write as a net ionic equation. (D) BaCl₂ + Na₂SO₄ forms insoluble BaSO₄ (sulfates are insoluble with Ba²⁺). (B) Pb(NO₃)₂ + KI forms insoluble PbI₂ (most iodides are soluble, but Pb²⁺ is a named exception). (A) NaCl + AgNO₃ forms insoluble AgCl (most chlorides are soluble, but Ag⁺ is a named exception). All three of these produce a real precipitate and thus do have a meaningful net ionic equation."
     },
     {
       "id": "4-14",
@@ -3922,7 +3922,7 @@ const QUESTIONS = {
         "6X + 6Y → 6XY"
       ],
       "correct": 0,
-      "explanation": "6 X and 6 Y combine in a 1:1 ratio to form 6 XY with nothing left over; dividing every coefficient by 6 gives the simplest whole-number ratio, X + Y → XY. (B) 2X + Y → X₂Y implies a 2:1 X:Y ratio and a different product formula (X₂Y, not XY), which doesn't match what the diagram shows. (C) X + 2Y → XY₂ implies a 1:2 ratio and product XY₂, also inconsistent with the observed 1:1:1 outcome. (D) 6X + 6Y → 6XY correctly describes the diagram's raw numbers but is not in lowest terms — a properly balanced equation is always reduced to its simplest whole-number ratio, which is 1:1:1, not 6:6:6."
+      "explanation": "Correct: (A) X + Y → XY. 6 X and 6 Y combine in a 1:1 ratio to form 6 XY with nothing left over; dividing every coefficient by 6 gives the simplest whole-number ratio, X + Y → XY. (B) 2X + Y → X₂Y implies a 2:1 X:Y ratio and a different product formula (X₂Y, not XY), which doesn't match what the diagram shows. (C) X + 2Y → XY₂ implies a 1:2 ratio and product XY₂, also inconsistent with the observed 1:1:1 outcome. (D) 6X + 6Y → 6XY correctly describes the diagram's raw numbers but is not in lowest terms — a properly balanced equation is always reduced to its simplest whole-number ratio, which is 1:1:1, not 6:6:6."
     },
     {
       "id": "4-17",
@@ -3961,7 +3961,7 @@ const QUESTIONS = {
         "6 AC and 1 B₂"
       ],
       "correct": 0,
-      "explanation": "Using the given ratio 1 A₂B : 2 C : 2 AC : 0.5 B₂ and scaling by 3 (since 3 A₂B matches 6 C at exactly a 1:2 ratio): 3×2 AC = 6 AC and 3×0.5 B₂ = 1.5 B₂. (B) 6 AC and 3 B₂ doubles the B₂ yield, as if the ratio were 1 B₂ per A₂B instead of 0.5. (C) 3 AC and 3 B₂ uses the wrong AC scaling (matching A₂B's own coefficient, 3, instead of doubling it per the 2 AC per A₂B ratio) and also overstates B₂. (D) 6 AC and 1 B₂ gets AC right but rounds the B₂ amount to a whole number (1) rather than correctly scaling 0.5×3 = 1.5, which is not the same value."
+      "explanation": "Correct: (A) 6 AC and 1.5 B₂. Using the given ratio 1 A₂B : 2 C : 2 AC : 0.5 B₂ and scaling by 3 (since 3 A₂B matches 6 C at exactly a 1:2 ratio): 3×2 AC = 6 AC and 3×0.5 B₂ = 1.5 B₂. (B) 6 AC and 3 B₂ doubles the B₂ yield, as if the ratio were 1 B₂ per A₂B instead of 0.5. (C) 3 AC and 3 B₂ uses the wrong AC scaling (matching A₂B's own coefficient, 3, instead of doubling it per the 2 AC per A₂B ratio) and also overstates B₂. (D) 6 AC and 1 B₂ gets AC right but rounds the B₂ amount to a whole number (1) rather than correctly scaling 0.5×3 = 1.5, which is not the same value."
     },
     {
       "id": "4-20",
@@ -3987,7 +3987,7 @@ const QUESTIONS = {
         "An isomerization: the atoms rearrange into a different structural isomer"
       ],
       "correct": 3,
-      "explanation": "X and Y share the identical molecular formula but are described as different substances, meaning the atoms have simply rearranged into a different bonding pattern — this is isomerization, a chemical change with no atoms gained, lost, or exchanged with another reactant. (A) 'a chemical reaction producing a new compound' is too vague to be the best answer here: it doesn't capture the defining and unusual feature of this scenario, that the molecular formula stays exactly the same while only the internal structure changes. (B) is wrong because a physical phase change never alters bonding connectivity or produces a structurally distinct substance — X and Y here have different structures, not just different phases. (C) is wrong because formulas do NOT have to change for a reaction to be valid — isomerization is a legitimate, formula-preserving type of chemical change."
+      "explanation": "Correct: (D) An isomerization: the atoms rearrange into a different structural isomer. X and Y share the identical molecular formula but are described as different substances, meaning the atoms have simply rearranged into a different bonding pattern — this is isomerization, a chemical change with no atoms gained, lost, or exchanged with another reactant. (A) 'a chemical reaction producing a new compound' is too vague to be the best answer here: it doesn't capture the defining and unusual feature of this scenario, that the molecular formula stays exactly the same while only the internal structure changes. (B) is wrong because a physical phase change never alters bonding connectivity or produces a structurally distinct substance — X and Y here have different structures, not just different phases. (C) is wrong because formulas do NOT have to change for a reaction to be valid — isomerization is a legitimate, formula-preserving type of chemical change."
     },
     {
       "id": "4-22",
@@ -4000,7 +4000,7 @@ const QUESTIONS = {
         "2X₂ + 3Y₂ → 2XY₃; Y₂ is limiting; max 8 XY₃"
       ],
       "correct": 0,
-      "explanation": "Forming XY₃ from X₂ and Y₂ (1 X₂ → 2 X, needing 2 XY₃'s worth of X; 3 Y₂ → 6 Y, matching 2 XY₃'s worth of 3 Y each) balances as X₂ + 3Y₂ → 2XY₃. Dividing given amounts by coefficients: X₂: 6/1 = 6; Y₂: 12/3 = 4 — the smaller value means Y₂ is limiting, giving max XY₃ = 4×2 = 8, with 6−4 = 2 mol X₂ left over. (D) 2X₂ + 3Y₂ → 2XY₃ isn't even balanced (4 X atoms on the left vs. 2 in the products), so its downstream numbers can't be trusted. (C) uses the correctly balanced equation but its stated conclusion ('X₂ is limiting; max 4 XY₃') is self-contradictory and numerically wrong — its own parenthetical admits Y₂ is actually limiting, and the correct maximum from 12 mol Y₂ is 8 XY₃, not 4. (B) correctly balances the equation but wrongly calls X₂ limiting and computes 12 XY₃ as if all 6 mol X₂ reacted, ignoring that only 12 mol Y₂ is available (which supports at most 4 mol X₂ worth of reaction).",
+      "explanation": "Correct: (A) X₂ + 3Y₂ → 2XY₃; Y₂ is limiting; max 8 XY₃. Forming XY₃ from X₂ and Y₂ (1 X₂ → 2 X, needing 2 XY₃'s worth of X; 3 Y₂ → 6 Y, matching 2 XY₃'s worth of 3 Y each) balances as X₂ + 3Y₂ → 2XY₃. Dividing given amounts by coefficients: X₂: 6/1 = 6; Y₂: 12/3 = 4 — the smaller value means Y₂ is limiting, giving max XY₃ = 4×2 = 8, with 6−4 = 2 mol X₂ left over. (D) 2X₂ + 3Y₂ → 2XY₃ isn't even balanced (4 X atoms on the left vs. 2 in the products), so its downstream numbers can't be trusted. (C) uses the correctly balanced equation but its stated conclusion ('X₂ is limiting; max 4 XY₃') is self-contradictory and numerically wrong — its own parenthetical admits Y₂ is actually limiting, and the correct maximum from 12 mol Y₂ is 8 XY₃, not 4. (B) correctly balances the equation but wrongly calls X₂ limiting and computes 12 XY₃ as if all 6 mol X₂ reacted, ignoring that only 12 mol Y₂ is available (which supports at most 4 mol X₂ worth of reaction).",
       "stretch": true
     },
     {
@@ -4014,7 +4014,7 @@ const QUESTIONS = {
         "Burning of wood"
       ],
       "correct": 1,
-      "explanation": "Melting ice converts H₂O from solid to liquid — same substance, same formula and bonding, just a different phase, so it's physical. (A) Rusting of iron forms a new substance (iron oxide) with different chemical properties — a genuine chemical change. (D) Burning wood breaks down cellulose and produces new substances (CO₂, H₂O, ash) — chemical. (C) Digestion chemically breaks down food molecules into different smaller molecules via enzymatic reactions — chemical. None of these three can be reversed by a simple phase change back to the starting material, unlike melting ice."
+      "explanation": "Correct: (B) Melting of ice. Melting ice converts H₂O from solid to liquid — same substance, same formula and bonding, just a different phase, so it's physical. (A) Rusting of iron forms a new substance (iron oxide) with different chemical properties — a genuine chemical change. (D) Burning wood breaks down cellulose and produces new substances (CO₂, H₂O, ash) — chemical. (C) Digestion chemically breaks down food molecules into different smaller molecules via enzymatic reactions — chemical. None of these three can be reversed by a simple phase change back to the starting material, unlike melting ice."
     },
     {
       "id": "4-24",
@@ -4027,7 +4027,7 @@ const QUESTIONS = {
         "The substance's color visibly changed during the process."
       ],
       "correct": 2,
-      "explanation": "Gas forming from mixing two liquids, with boiling ruled out and the gas confirmed to be a new substance, strongly indicates new chemical bonds formed — a clear chemical change. (A) A physical state change alone (melting, boiling, freezing) is, by definition, purely physical — no new substance forms. (B) Temperature change alone is weak evidence because many purely physical processes (like some dissolving processes) absorb or release heat without forming any new substance. (D) Color change alone is similarly weak, since dilution or certain physical/optical effects can also shift color without any new substance appearing — none of these three rules out a purely physical explanation the way confirmed new-gas formation does."
+      "explanation": "Correct: (C) Mixing two liquids produced a gas chemically confirmed to be a new substance. Gas forming from mixing two liquids, with boiling ruled out and the gas confirmed to be a new substance, strongly indicates new chemical bonds formed — a clear chemical change. (A) A physical state change alone (melting, boiling, freezing) is, by definition, purely physical — no new substance forms. (B) Temperature change alone is weak evidence because many purely physical processes (like some dissolving processes) absorb or release heat without forming any new substance. (D) Color change alone is similarly weak, since dilution or certain physical/optical effects can also shift color without any new substance appearing — none of these three rules out a purely physical explanation the way confirmed new-gas formation does."
     },
     {
       "id": "4-25",
@@ -4066,7 +4066,7 @@ const QUESTIONS = {
         "Color change by itself never indicates that a chemical change has occurred."
       ],
       "correct": 1,
-      "explanation": "Some purely physical processes — such as diluting a colored solution or certain phase transitions affecting how light interacts with a substance — can produce an apparent color change without any new substance forming, so color change alone isn't conclusive proof of a chemical change. (A) overgeneralizes in one direction: color change certainly CAN indicate a chemical change, it just isn't reliable proof by itself. (D) overgeneralizes in the opposite direction, incorrectly claiming color change is never chemical, which is equally false. (C) is simply incorrect — color is a real, commonly used observable property in chemistry, so that isn't the reason color change is unreliable evidence."
+      "explanation": "Correct: (B) Dilution or certain physical processes can also cause an apparent color change. Some purely physical processes — such as diluting a colored solution or certain phase transitions affecting how light interacts with a substance — can produce an apparent color change without any new substance forming, so color change alone isn't conclusive proof of a chemical change. (A) overgeneralizes in one direction: color change certainly CAN indicate a chemical change, it just isn't reliable proof by itself. (D) overgeneralizes in the opposite direction, incorrectly claiming color change is never chemical, which is equally false. (C) is simply incorrect — color is a real, commonly used observable property in chemistry, so that isn't the reason color change is unreliable evidence."
     },
     {
       "id": "4-28",
@@ -4079,7 +4079,7 @@ const QUESTIONS = {
         "Boiling water"
       ],
       "correct": 2,
-      "explanation": "Silver tarnishing involves silver reacting with sulfur-containing compounds in air to form Ag₂S, a genuinely new substance with different properties (color, reactivity) than pure silver — a clear chemical change. (A) Crushing chalk only reduces particle size; it's still the same CaCO₃, a physical change. (D) Boiling water is a phase change (liquid to gas); the substance is still H₂O, physical. (B) Dissolving sugar in tea disperses sucrose molecules into solution without altering their structure; evaporating the water would recover the same sugar, so it's physical too."
+      "explanation": "Correct: (C) Silver tarnishing (forming Ag₂S). Silver tarnishing involves silver reacting with sulfur-containing compounds in air to form Ag₂S, a genuinely new substance with different properties (color, reactivity) than pure silver — a clear chemical change. (A) Crushing chalk only reduces particle size; it's still the same CaCO₃, a physical change. (D) Boiling water is a phase change (liquid to gas); the substance is still H₂O, physical. (B) Dissolving sugar in tea disperses sucrose molecules into solution without altering their structure; evaporating the water would recover the same sugar, so it's physical too."
     },
     {
       "id": "4-29",
@@ -4092,7 +4092,7 @@ const QUESTIONS = {
         "Formation of a gas with a distinctly different smell than either starting reactant"
       ],
       "correct": 2,
-      "explanation": "Temperature change alone is the weakest standalone evidence because many purely physical processes (like dissolving certain salts, which can be endothermic or exothermic with no new chemical substance forming) also produce a measurable temperature change. (B) A genuinely new odor consistent with a new compound is comparatively strong evidence, since odor differences usually trace to differences in molecular structure. (A) A precipitate forming from two clear, previously homogeneous solutions strongly suggests a new insoluble compound has formed — this is a classic, fairly reliable chemical-change signal. (D) A gas with a distinctly different smell than either starting reactant likewise points to new bonds having formed, making it stronger evidence than a bare temperature shift."
+      "explanation": "Correct: (C) A change in temperature during a reaction. Temperature change alone is the weakest standalone evidence because many purely physical processes (like dissolving certain salts, which can be endothermic or exothermic with no new chemical substance forming) also produce a measurable temperature change. (B) A genuinely new odor consistent with a new compound is comparatively strong evidence, since odor differences usually trace to differences in molecular structure. (A) A precipitate forming from two clear, previously homogeneous solutions strongly suggests a new insoluble compound has formed — this is a classic, fairly reliable chemical-change signal. (D) A gas with a distinctly different smell than either starting reactant likewise points to new bonds having formed, making it stronger evidence than a bare temperature shift."
     },
     {
       "id": "4-79",
@@ -4119,7 +4119,7 @@ const QUESTIONS = {
         "1.25 mol"
       ],
       "correct": 1,
-      "explanation": "The mole ratio between H₂ and H₂O is 2:2, which reduces to 1:1, so 5.00 mol H₂ produces 5.00 mol H₂O directly. (A) 2.50 mol would result from mistakenly halving (as if the ratio were 1:2 instead of 1:1). (D) 1.25 mol compounds that same halving error further, dividing twice instead of once. (C) 10.0 mol would result from doubling instead (as if the ratio were 2:1), the opposite mistake — none of these apply the actual 1:1 ratio the balanced equation gives."
+      "explanation": "Correct: (B) 5.00 mol. The mole ratio between H₂ and H₂O is 2:2, which reduces to 1:1, so 5.00 mol H₂ produces 5.00 mol H₂O directly. (A) 2.50 mol would result from mistakenly halving (as if the ratio were 1:2 instead of 1:1). (D) 1.25 mol compounds that same halving error further, dividing twice instead of once. (C) 10.0 mol would result from doubling instead (as if the ratio were 2:1), the opposite mistake — none of these apply the actual 1:1 ratio the balanced equation gives."
     },
     {
       "id": "4-31",
@@ -4132,7 +4132,7 @@ const QUESTIONS = {
         "12.0 mol"
       ],
       "correct": 3,
-      "explanation": "Using the 1 N₂ : 3 H₂ mole ratio: 4.00 mol N₂ × (3 mol H₂ / 1 mol N₂) = 12.0 mol H₂. (A) 4.00 mol simply restates the given N₂ amount, as if the ratio were 1:1 and no conversion were needed. (C) 8.00 mol would come from using a 2:1 ratio instead of the actual 3:1 (4.00×2). (B) 1.33 mol inverts the ratio (dividing by 3 instead of multiplying), which would be the moles of N₂ needed per mole of H₂, not the other way around."
+      "explanation": "Correct: (D) 12.0 mol. Using the 1 N₂ : 3 H₂ mole ratio: 4.00 mol N₂ × (3 mol H₂ / 1 mol N₂) = 12.0 mol H₂. (A) 4.00 mol simply restates the given N₂ amount, as if the ratio were 1:1 and no conversion were needed. (C) 8.00 mol would come from using a 2:1 ratio instead of the actual 3:1 (4.00×2). (B) 1.33 mol inverts the ratio (dividing by 3 instead of multiplying), which would be the moles of N₂ needed per mole of H₂, not the other way around."
     },
     {
       "id": "4-32",
@@ -4145,7 +4145,7 @@ const QUESTIONS = {
         "Mg"
       ],
       "correct": 1,
-      "explanation": "Dividing each amount by its coefficient: Mg: 3.00/2 = 1.50; O₂: 1.00/1 = 1.00. The smaller value (O₂) identifies O₂ as limiting — there's more Mg available (1.50 'units') than O₂ can support (1.00 'unit'). (D) Mg is wrong precisely because it's in excess, not limiting — it has the larger normalized value. (C) 'Neither, used up exactly' is wrong because the normalized values (1.50 vs. 1.00) aren't equal, meaning Mg will have leftover once all the O₂ is consumed. (A) 'Cannot be determined' is wrong — the given mole amounts and balanced equation are exactly what's needed to identify the limiting reactant."
+      "explanation": "Correct: (B) O₂. Dividing each amount by its coefficient: Mg: 3.00/2 = 1.50; O₂: 1.00/1 = 1.00. The smaller value (O₂) identifies O₂ as limiting — there's more Mg available (1.50 'units') than O₂ can support (1.00 'unit'). (D) Mg is wrong precisely because it's in excess, not limiting — it has the larger normalized value. (C) 'Neither, used up exactly' is wrong because the normalized values (1.50 vs. 1.00) aren't equal, meaning Mg will have leftover once all the O₂ is consumed. (A) 'Cannot be determined' is wrong — the given mole amounts and balanced equation are exactly what's needed to identify the limiting reactant."
     },
     {
       "id": "4-33",
@@ -4158,7 +4158,7 @@ const QUESTIONS = {
         "21.3%"
       ],
       "correct": 2,
-      "explanation": "% yield = (actual/theoretical) × 100 = (21.3/25.0) × 100 = 85.2%. (B) 117% comes from inverting the fraction (theoretical/actual × 100 = 25.0/21.3 × 100), which is backwards. (D) 21.3% just restates the actual yield as if it were already a percentage, without dividing by the theoretical yield at all. (A) 25.0% does the same with the theoretical yield, ignoring the actual yield entirely — neither of these performs the required division."
+      "explanation": "Correct: (C) 85.2%. % yield = (actual/theoretical) × 100 = (21.3/25.0) × 100 = 85.2%. (B) 117% comes from inverting the fraction (theoretical/actual × 100 = 25.0/21.3 × 100), which is backwards. (D) 21.3% just restates the actual yield as if it were already a percentage, without dividing by the theoretical yield at all. (A) 25.0% does the same with the theoretical yield, ignoring the actual yield entirely — neither of these performs the required division."
     },
     {
       "id": "4-34",
@@ -4171,7 +4171,7 @@ const QUESTIONS = {
         "39.6 g"
       ],
       "correct": 2,
-      "explanation": "Moles Al = 4.00/26.98 = 0.1483 mol. The Al:AlCl₃ ratio is 2:2, i.e. 1:1, so moles AlCl₃ = 0.1483 mol, giving mass = 0.1483 × 133.34 = 19.8 g. (D) 39.6 g is double the correct value, consistent with mistakenly doubling the AlCl₃ moles relative to Al (e.g., treating the ratio as 1 Al : 2 AlCl₃ instead of the actual 1:1). (A) 4.94 g is exactly the AlCl₃-to-Al molar mass ratio (133.34/26.98) with no scaling for the actual 4.00 g of Al given — effectively the answer you'd get for only 1.00 g of Al, not 4.00 g. (B) 9.90 g is half the correct value, consistent with using a 2 Al : 1 AlCl₃ ratio (halving) instead of the correct 1:1."
+      "explanation": "Correct: (C) 19.8 g. Moles Al = 4.00/26.98 = 0.1483 mol. The Al:AlCl₃ ratio is 2:2, i.e. 1:1, so moles AlCl₃ = 0.1483 mol, giving mass = 0.1483 × 133.34 = 19.8 g. (D) 39.6 g is double the correct value, consistent with mistakenly doubling the AlCl₃ moles relative to Al (e.g., treating the ratio as 1 Al : 2 AlCl₃ instead of the actual 1:1). (A) 4.94 g is exactly the AlCl₃-to-Al molar mass ratio (133.34/26.98) with no scaling for the actual 4.00 g of Al given — effectively the answer you'd get for only 1.00 g of Al, not 4.00 g. (B) 9.90 g is half the correct value, consistent with using a 2 Al : 1 AlCl₃ ratio (halving) instead of the correct 1:1."
     },
     {
       "id": "4-35",
@@ -4184,7 +4184,7 @@ const QUESTIONS = {
         "3.00 mol"
       ],
       "correct": 0,
-      "explanation": "Using the 2 C₂H₆ : 7 O₂ mole ratio: 3.00 mol C₂H₆ × (7 mol O₂ / 2 mol C₂H₆) = 10.5 mol O₂. (C) 21.0 mol comes from using a 7:1 ratio instead of 7:2 — i.e., forgetting to divide by C₂H₆'s coefficient of 2 (3.00×7). (B) 7.00 mol simply copies the O₂ coefficient itself, as though only 1 mol of C₂H₆ were reacting rather than the given 3.00 mol. (D) 3.00 mol just restates the given moles of C₂H₆ with no stoichiometric conversion applied at all."
+      "explanation": "Correct: (A) 10.5 mol. Using the 2 C₂H₆ : 7 O₂ mole ratio: 3.00 mol C₂H₆ × (7 mol O₂ / 2 mol C₂H₆) = 10.5 mol O₂. (C) 21.0 mol comes from using a 7:1 ratio instead of 7:2 — i.e., forgetting to divide by C₂H₆'s coefficient of 2 (3.00×7). (B) 7.00 mol simply copies the O₂ coefficient itself, as though only 1 mol of C₂H₆ were reacting rather than the given 3.00 mol. (D) 3.00 mol just restates the given moles of C₂H₆ with no stoichiometric conversion applied at all."
     },
     {
       "id": "4-36",
@@ -4210,7 +4210,7 @@ const QUESTIONS = {
         "Theoretical yield calculations always overestimate the amount of reactant that was actually available."
       ],
       "correct": 2,
-      "explanation": "Theoretical yield assumes a perfect reaction — complete conversion with no losses — but real reactions involve side reactions that consume reactant into unwanted products, reactions that don't go to full completion, and physical product loss during transfers, filtration, or purification, all pushing actual yield below the theoretical maximum. (D) is wrong: theoretical yield is a correct stoichiometric calculation from the amount of reactant actually available, not an overestimate of how much reactant there is. (B) is wrong: 100% yield essentially never happens in practice, even for a correctly performed reaction, due to the inevitable losses described above. (A) is wrong: the shortfall is a real physical/chemical outcome of doing the reaction, not a result of the actual yield being 'calculated incorrectly.'"
+      "explanation": "Correct: (C) Side reactions, incomplete conversion, and physical product loss all reduce actual yield. Theoretical yield assumes a perfect reaction — complete conversion with no losses — but real reactions involve side reactions that consume reactant into unwanted products, reactions that don't go to full completion, and physical product loss during transfers, filtration, or purification, all pushing actual yield below the theoretical maximum. (D) is wrong: theoretical yield is a correct stoichiometric calculation from the amount of reactant actually available, not an overestimate of how much reactant there is. (B) is wrong: 100% yield essentially never happens in practice, even for a correctly performed reaction, due to the inevitable losses described above. (A) is wrong: the shortfall is a real physical/chemical outcome of doing the reaction, not a result of the actual yield being 'calculated incorrectly.'"
     },
     {
       "id": "4-38",
@@ -4223,7 +4223,7 @@ const QUESTIONS = {
         "16.8 L"
       ],
       "correct": 3,
-      "explanation": "Mole ratio KClO₃:O₂ is 2:3, so moles O₂ = 0.500 × (3/2) = 0.750 mol, and volume at STP = 0.750 × 22.4 = 16.8 L. (A) 22.4 L corresponds to 1.00 mol O₂, as if the ratio were 2:1 (O₂ = 2×KClO₃) instead of the correct 3:2. (C) 8.40 L corresponds to about 0.375 mol O₂, roughly half the correct amount — consistent with applying an extra, unwarranted division by 2 somewhere in the ratio. (B) 11.2 L corresponds to exactly 0.500 mol O₂, as if a 1:1 KClO₃:O₂ ratio were used instead of the actual 2:3 ratio from the balanced equation."
+      "explanation": "Correct: (D) 16.8 L. Mole ratio KClO₃:O₂ is 2:3, so moles O₂ = 0.500 × (3/2) = 0.750 mol, and volume at STP = 0.750 × 22.4 = 16.8 L. (A) 22.4 L corresponds to 1.00 mol O₂, as if the ratio were 2:1 (O₂ = 2×KClO₃) instead of the correct 3:2. (C) 8.40 L corresponds to about 0.375 mol O₂, roughly half the correct amount — consistent with applying an extra, unwarranted division by 2 somewhere in the ratio. (B) 11.2 L corresponds to exactly 0.500 mol O₂, as if a 1:1 KClO₃:O₂ ratio were used instead of the actual 2:3 ratio from the balanced equation."
     },
     {
       "id": "4-39",
@@ -4236,7 +4236,7 @@ const QUESTIONS = {
         "H₂SO₄ is limiting; 56.8 g Na₂SO₄"
       ],
       "correct": 3,
-      "explanation": "Moles NaOH = 40.0/40.00 = 1.000 mol; moles H₂SO₄ = 39.2/98.09 = 0.400 mol. Dividing by coefficients: NaOH 1.000/2 = 0.500; H₂SO₄ 0.400/1 = 0.400. Since 0.400 < 0.500, H₂SO₄ is limiting, and by the 1:1 H₂SO₄:Na₂SO₄ ratio, moles Na₂SO₄ = 0.400 mol, mass = 0.400 × 142.05 = 56.8 g. (B) NaOH limiting; 71.0 g wrongly picks NaOH as limiting (using the larger normalized value instead of the smaller) and then correctly applies the 2:1 NaOH:Na₂SO₄ ratio to all 1.000 mol NaOH (0.500 mol × 142.05 = 71.0 g) — consistent method, wrong reactant. (C) NaOH limiting; 56.8 g is internally inconsistent: it names the wrong limiting reactant (NaOH) yet reports the mass that actually corresponds to correctly identifying H₂SO₄ as limiting, so the reasoning and the number don't match. (A) H₂SO₄ limiting; 71.0 g correctly identifies the limiting reactant but then uses the wrong amount in the final ratio (arriving at the NaOH-based 71.0 g figure instead of carrying H₂SO₄'s own 0.400 mol through the 1:1 ratio).",
+      "explanation": "Correct: (D) H₂SO₄ is limiting; 56.8 g Na₂SO₄. Moles NaOH = 40.0/40.00 = 1.000 mol; moles H₂SO₄ = 39.2/98.09 = 0.400 mol. Dividing by coefficients: NaOH 1.000/2 = 0.500; H₂SO₄ 0.400/1 = 0.400. Since 0.400 < 0.500, H₂SO₄ is limiting, and by the 1:1 H₂SO₄:Na₂SO₄ ratio, moles Na₂SO₄ = 0.400 mol, mass = 0.400 × 142.05 = 56.8 g. (B) NaOH limiting; 71.0 g wrongly picks NaOH as limiting (using the larger normalized value instead of the smaller) and then correctly applies the 2:1 NaOH:Na₂SO₄ ratio to all 1.000 mol NaOH (0.500 mol × 142.05 = 71.0 g) — consistent method, wrong reactant. (C) NaOH limiting; 56.8 g is internally inconsistent: it names the wrong limiting reactant (NaOH) yet reports the mass that actually corresponds to correctly identifying H₂SO₄ as limiting, so the reasoning and the number don't match. (A) H₂SO₄ limiting; 71.0 g correctly identifies the limiting reactant but then uses the wrong amount in the final ratio (arriving at the NaOH-based 71.0 g figure instead of carrying H₂SO₄'s own 0.400 mol through the 1:1 ratio).",
       "stretch": true
     },
     {
@@ -4291,7 +4291,7 @@ const QUESTIONS = {
         "22.5 mL"
       ],
       "correct": 1,
-      "explanation": "Moles HCl = 0.200 × 0.0300 = 6.00×10⁻³ mol. Since HCl + NaOH → NaCl + H₂O is 1:1, moles NaOH needed = 6.00×10⁻³ mol, so volume = 6.00×10⁻³ / 0.150 = 0.0400 L = 40.0 mL. (C) 30.0 mL simply restates the HCl volume, ignoring that the two solutions have different concentrations. (A) 20.0 mL would result from mistakenly halving the needed moles, as though a 2:1 (diprotic-style) ratio applied to this 1:1 HCl/NaOH reaction. (D) 22.5 mL comes from inverting the concentration ratio (30.0 × 0.150/0.200 instead of 30.0 × 0.200/0.150), swapping which molarity belongs in the numerator."
+      "explanation": "Correct: (B) 40.0 mL. Moles HCl = 0.200 × 0.0300 = 6.00×10⁻³ mol. Since HCl + NaOH → NaCl + H₂O is 1:1, moles NaOH needed = 6.00×10⁻³ mol, so volume = 6.00×10⁻³ / 0.150 = 0.0400 L = 40.0 mL. (C) 30.0 mL simply restates the HCl volume, ignoring that the two solutions have different concentrations. (A) 20.0 mL would result from mistakenly halving the needed moles, as though a 2:1 (diprotic-style) ratio applied to this 1:1 HCl/NaOH reaction. (D) 22.5 mL comes from inverting the concentration ratio (30.0 × 0.150/0.200 instead of 30.0 × 0.200/0.150), swapping which molarity belongs in the numerator."
     },
     {
       "id": "4-42",
@@ -4304,7 +4304,7 @@ const QUESTIONS = {
         "0.210 M"
       ],
       "correct": 3,
-      "explanation": "Moles NaOH = 0.250 × 0.0420 = 0.01050 mol. Since the ratio is 2 NaOH : 1 H₂SO₄, moles H₂SO₄ = 0.01050/2 = 5.250×10⁻³ mol, and concentration = 5.250×10⁻³/0.0250 = 0.210 M. (A) 0.420 M results from ignoring the 2:1 mole ratio entirely (treating NaOH and H₂SO₄ as reacting 1:1), which doubles the apparent concentration. (C) 0.0525 M and (B) 0.105 M are both scaled down from the correct value by an extra, unwarranted factor of roughly 2–4 — consistent with over-applying a division (e.g., halving twice, or using an incorrect volume) rather than the single, correct 2:1 stoichiometric division."
+      "explanation": "Correct: (D) 0.210 M. Moles NaOH = 0.250 × 0.0420 = 0.01050 mol. Since the ratio is 2 NaOH : 1 H₂SO₄, moles H₂SO₄ = 0.01050/2 = 5.250×10⁻³ mol, and concentration = 5.250×10⁻³/0.0250 = 0.210 M. (A) 0.420 M results from ignoring the 2:1 mole ratio entirely (treating NaOH and H₂SO₄ as reacting 1:1), which doubles the apparent concentration. (C) 0.0525 M and (B) 0.105 M are both scaled down from the correct value by an extra, unwarranted factor of roughly 2–4 — consistent with over-applying a division (e.g., halving twice, or using an incorrect volume) rather than the single, correct 2:1 stoichiometric division."
     },
     {
       "id": "4-43",
@@ -4317,7 +4317,7 @@ const QUESTIONS = {
         "Mole ratios only matter for redox reactions, not acid-base reactions."
       ],
       "correct": 0,
-      "explanation": "Many acid-base reactions aren't simple 1:1 (e.g., a diprotic acid like H₂SO₄ needs a 1:2 ratio with a monoprotic base), so applying the balanced equation's actual mole ratio is essential; assuming moles of acid simply equal moles of base by default gives a wrong concentration whenever the ratio isn't 1:1. (B) is wrong — mole ratios are always needed to correctly relate moles of titrant to moles of analyte, even in the simplest 1:1 cases. (C) is wrong — titration calculations are fundamentally stoichiometry problems. (D) is wrong — mole ratios matter for any reaction with non-1:1 stoichiometry, acid-base titrations very much included, not just redox reactions."
+      "explanation": "Correct: (A) Many acid-base reactions aren't 1:1, so the true stoichiometric ratio must be used. Many acid-base reactions aren't simple 1:1 (e.g., a diprotic acid like H₂SO₄ needs a 1:2 ratio with a monoprotic base), so applying the balanced equation's actual mole ratio is essential; assuming moles of acid simply equal moles of base by default gives a wrong concentration whenever the ratio isn't 1:1. (B) is wrong — mole ratios are always needed to correctly relate moles of titrant to moles of analyte, even in the simplest 1:1 cases. (C) is wrong — titration calculations are fundamentally stoichiometry problems. (D) is wrong — mole ratios matter for any reaction with non-1:1 stoichiometry, acid-base titrations very much included, not just redox reactions."
     },
     {
       "id": "4-44",
@@ -4343,7 +4343,7 @@ const QUESTIONS = {
         "0.0562 M"
       ],
       "correct": 1,
-      "explanation": "Moles HCl = 0.100 × 0.03560 = 3.560×10⁻³ mol. Since NaOH + HCl → NaCl + H₂O is 1:1, moles NaOH = 3.560×10⁻³ mol, so concentration = 3.560×10⁻³/0.02000 = 0.178 M. (D) 0.0562 M results from swapping which volume and molarity belong together — e.g., computing (0.100 × 0.02000)/0.03560 instead of (0.100 × 0.03560)/0.02000, mixing up the known and unknown quantities in M₁V₁ = M₂V₂. (C) 0.356 M is exactly double the correct value, consistent with dividing by the wrong (halved) volume. (A) 0.200 M is close to but not equal to the correct answer, consistent with a rounding slip (e.g., treating 35.60 mL as roughly 40 mL) rather than using the precise titration volume given."
+      "explanation": "Correct: (B) 0.178 M. Moles HCl = 0.100 × 0.03560 = 3.560×10⁻³ mol. Since NaOH + HCl → NaCl + H₂O is 1:1, moles NaOH = 3.560×10⁻³ mol, so concentration = 3.560×10⁻³/0.02000 = 0.178 M. (D) 0.0562 M results from swapping which volume and molarity belong together — e.g., computing (0.100 × 0.02000)/0.03560 instead of (0.100 × 0.03560)/0.02000, mixing up the known and unknown quantities in M₁V₁ = M₂V₂. (C) 0.356 M is exactly double the correct value, consistent with dividing by the wrong (halved) volume. (A) 0.200 M is close to but not equal to the correct answer, consistent with a rounding slip (e.g., treating 35.60 mL as roughly 40 mL) rather than using the precise titration volume given."
     },
     {
       "id": "4-46",
@@ -4356,7 +4356,7 @@ const QUESTIONS = {
         "234 g/mol"
       ],
       "correct": 1,
-      "explanation": "Moles NaOH = 0.150 × 0.02840 = 4.260×10⁻³ mol; since the acid is monoprotic, it reacts 1:1 with NaOH, so moles of acid = 4.260×10⁻³ mol, and molar mass = 0.500/4.260×10⁻³ = 117 g/mol. (C) 4.26 g/mol is simply the moles of NaOH (4.260×10⁻³, misread as if it were already the molar mass) reported without ever dividing into the 0.500 g sample mass — a units mix-up, not a real calculation. (D) 234 g/mol results from treating the acid as diprotic (halving the moles of acid to 2.130×10⁻³, doubling the resulting molar mass), which contradicts the stem's statement that it's monoprotic. (A) 58.7 g/mol is the opposite error — doubling the moles of acid (8.520×10⁻³), as if 2 mol of acid reacted per 1 mol NaOH instead of the correct 1:1 ratio, which halves the molar mass.",
+      "explanation": "Correct: (B) 117 g/mol. Moles NaOH = 0.150 × 0.02840 = 4.260×10⁻³ mol; since the acid is monoprotic, it reacts 1:1 with NaOH, so moles of acid = 4.260×10⁻³ mol, and molar mass = 0.500/4.260×10⁻³ = 117 g/mol. (C) 4.26 g/mol is simply the moles of NaOH (4.260×10⁻³, misread as if it were already the molar mass) reported without ever dividing into the 0.500 g sample mass — a units mix-up, not a real calculation. (D) 234 g/mol results from treating the acid as diprotic (halving the moles of acid to 2.130×10⁻³, doubling the resulting molar mass), which contradicts the stem's statement that it's monoprotic. (A) 58.7 g/mol is the opposite error — doubling the moles of acid (8.520×10⁻³), as if 2 mol of acid reacted per 1 mol NaOH instead of the correct 1:1 ratio, which halves the molar mass.",
       "stretch": true
     },
     {
@@ -4370,7 +4370,7 @@ const QUESTIONS = {
         "Single replacement"
       ],
       "correct": 2,
-      "explanation": "A single compound (H₂O₂) breaks down into two simpler products (H₂O and O₂) — the defining pattern of decomposition, AB → A + B. (B) Synthesis is wrong — that pattern combines multiple substances into one, the opposite of what's happening here. (D) Single replacement is wrong — that requires a free element displacing another element within a compound; there's no free element as a reactant here at all. (A) Double replacement is wrong — that requires two compounds trading parts; here there's only one reactant total."
+      "explanation": "Correct: (C) Decomposition. A single compound (H₂O₂) breaks down into two simpler products (H₂O and O₂) — the defining pattern of decomposition, AB → A + B. (B) Synthesis is wrong — that pattern combines multiple substances into one, the opposite of what's happening here. (D) Single replacement is wrong — that requires a free element displacing another element within a compound; there's no free element as a reactant here at all. (A) Double replacement is wrong — that requires two compounds trading parts; here there's only one reactant total."
     },
     {
       "id": "4-48",
@@ -4383,7 +4383,7 @@ const QUESTIONS = {
         "Double replacement"
       ],
       "correct": 2,
-      "explanation": "An uncombined element (Zn) replaces another element (Cu) within a compound — the defining pattern of single replacement, A + BC → AC + B, driven by zinc being more reactive than copper. (B) Synthesis is wrong — no simple combination of substances into one product occurs; instead, an exchange happens. (A) Decomposition is wrong — a single compound isn't breaking into multiple products; instead, an element and a compound are reacting together. (D) Double replacement is wrong — that requires two compounds swapping ions; here only one compound (CuSO₄) and one free element (Zn) react, not two compounds."
+      "explanation": "Correct: (C) Single replacement. An uncombined element (Zn) replaces another element (Cu) within a compound — the defining pattern of single replacement, A + BC → AC + B, driven by zinc being more reactive than copper. (B) Synthesis is wrong — no simple combination of substances into one product occurs; instead, an exchange happens. (A) Decomposition is wrong — a single compound isn't breaking into multiple products; instead, an element and a compound are reacting together. (D) Double replacement is wrong — that requires two compounds swapping ions; here only one compound (CuSO₄) and one free element (Zn) react, not two compounds."
     },
     {
       "id": "4-49",
@@ -4396,7 +4396,7 @@ const QUESTIONS = {
         "Single replacement"
       ],
       "correct": 0,
-      "explanation": "Two ionic compounds exchange partners (cations swap anions) — the defining pattern of double replacement, AB + CD → AD + CB, here producing insoluble AgCl as the precipitate. (C) Synthesis is wrong — two compounds aren't combining into a single product; they're exchanging ions to form two new compounds. (D) Single replacement is wrong — that requires one reactant to be a free element displacing another element; both reactants here are compounds, with no free element involved. (B) Combustion is wrong — there's no hydrocarbon reacting with O₂ to form CO₂ and H₂O, which is the defining combustion pattern."
+      "explanation": "Correct: (A) Double replacement. Two ionic compounds exchange partners (cations swap anions) — the defining pattern of double replacement, AB + CD → AD + CB, here producing insoluble AgCl as the precipitate. (C) Synthesis is wrong — two compounds aren't combining into a single product; they're exchanging ions to form two new compounds. (D) Single replacement is wrong — that requires one reactant to be a free element displacing another element; both reactants here are compounds, with no free element involved. (B) Combustion is wrong — there's no hydrocarbon reacting with O₂ to form CO₂ and H₂O, which is the defining combustion pattern."
     },
     {
       "id": "4-50",
@@ -4409,7 +4409,7 @@ const QUESTIONS = {
         "Decomposition"
       ],
       "correct": 0,
-      "explanation": "Two simpler substances (Mg and O₂) combine to form one product (MgO) — the defining pattern of synthesis, A + B → AB. (D) Decomposition is wrong — that's one substance splitting into multiple products, the reverse of what happens here. (C) Single replacement is wrong — no element is displacing another element within a compound; both reactants are simply combining. (B) is wrong to exclude synthesis: while this reaction does resemble combustion (a metal burning in oxygen), its fundamental A + B → AB pattern is exactly what defines synthesis, so ruling out synthesis in favor of combustion 'only' misclassifies it — it's correctly described as synthesis."
+      "explanation": "Correct: (A) Synthesis. Two simpler substances (Mg and O₂) combine to form one product (MgO) — the defining pattern of synthesis, A + B → AB. (D) Decomposition is wrong — that's one substance splitting into multiple products, the reverse of what happens here. (C) Single replacement is wrong — no element is displacing another element within a compound; both reactants are simply combining. (B) is wrong to exclude synthesis: while this reaction does resemble combustion (a metal burning in oxygen), its fundamental A + B → AB pattern is exactly what defines synthesis, so ruling out synthesis in favor of combustion 'only' misclassifies it — it's correctly described as synthesis."
     },
     {
       "id": "4-51",
@@ -4435,7 +4435,7 @@ const QUESTIONS = {
         "NaClBr + Na"
       ],
       "correct": 0,
-      "explanation": "Chlorine, more reactive than bromine (halogen reactivity decreases going down the group), displaces Br⁻ from NaBr, forming NaCl and elemental Br₂: Cl₂ + 2NaBr → 2NaCl + Br₂. (B) NaCl₂ + NaBr is chemically impossible as written — sodium is always +1, so it can't form NaCl₂ (which would require Cl to have an unusual combined charge), and the equation as given isn't even balanced. (C) 'No reaction' is wrong because Cl₂ is indeed reactive enough to displace Br⁻ from NaBr; a reaction does proceed. (D) NaClBr + Na doesn't correspond to any real product-formation pathway here — it would require Na⁺ being reduced to free Na, but nothing in this reaction reduces sodium; Cl₂ oxidizes Br⁻, it doesn't touch Na⁺ at all."
+      "explanation": "Correct: (A) 2NaCl + Br₂. Chlorine, more reactive than bromine (halogen reactivity decreases going down the group), displaces Br⁻ from NaBr, forming NaCl and elemental Br₂: Cl₂ + 2NaBr → 2NaCl + Br₂. (B) NaCl₂ + NaBr is chemically impossible as written — sodium is always +1, so it can't form NaCl₂ (which would require Cl to have an unusual combined charge), and the equation as given isn't even balanced. (C) 'No reaction' is wrong because Cl₂ is indeed reactive enough to displace Br⁻ from NaBr; a reaction does proceed. (D) NaClBr + Na doesn't correspond to any real product-formation pathway here — it would require Na⁺ being reduced to free Na, but nothing in this reaction reduces sodium; Cl₂ oxidizes Br⁻, it doesn't touch Na⁺ at all."
     },
     {
       "id": "4-53",
@@ -4448,7 +4448,7 @@ const QUESTIONS = {
         "CaCO₃ → CaO + CO₂"
       ],
       "correct": 3,
-      "explanation": "Calcium carbonate breaking down into calcium oxide and carbon dioxide when heated is a classic decomposition reaction: one compound splitting into two simpler products. (C) H₂ + Cl₂ → 2HCl is synthesis — two elements combining into one compound, the reverse pattern. (A) AgNO₃ + KCl → AgCl + KNO₃ is double replacement — two compounds trading ions, not one compound breaking apart. (B) Fe + S → FeS is synthesis — two elements combining into a single compound, not a compound decomposing."
+      "explanation": "Correct: (D) CaCO₃ → CaO + CO₂. Calcium carbonate breaking down into calcium oxide and carbon dioxide when heated is a classic decomposition reaction: one compound splitting into two simpler products. (C) H₂ + Cl₂ → 2HCl is synthesis — two elements combining into one compound, the reverse pattern. (A) AgNO₃ + KCl → AgCl + KNO₃ is double replacement — two compounds trading ions, not one compound breaking apart. (B) Fe + S → FeS is synthesis — two elements combining into a single compound, not a compound decomposing."
     },
     {
       "id": "4-54",
@@ -4461,7 +4461,7 @@ const QUESTIONS = {
         "Acid + Base → Salt + Water (molecular form only)"
       ],
       "correct": 2,
-      "explanation": "Because both the strong acid and strong base fully dissociate, and the resulting salt is generally soluble, the acid's anion and the base's cation are always spectators and cancel, leaving the universal net ionic equation H⁺(aq) + OH⁻(aq) → H₂O(l). (A) reverses the process — this is water's own (extremely limited) autoionization equilibrium, not the forward neutralization reaction being described. (D) shows the molecular (not net ionic) equation and doesn't reflect that spectator ions have been removed, so it isn't what's being asked for. (B) is wrong precisely because the net ionic equation is universal — it's the same H⁺ + OH⁻ → H₂O for every strong acid–strong base pair, since whatever salt forms is left behind as spectators regardless of its identity."
+      "explanation": "Correct: (C) H⁺(aq) + OH⁻(aq) → H₂O(l). Because both the strong acid and strong base fully dissociate, and the resulting salt is generally soluble, the acid's anion and the base's cation are always spectators and cancel, leaving the universal net ionic equation H⁺(aq) + OH⁻(aq) → H₂O(l). (A) reverses the process — this is water's own (extremely limited) autoionization equilibrium, not the forward neutralization reaction being described. (D) shows the molecular (not net ionic) equation and doesn't reflect that spectator ions have been removed, so it isn't what's being asked for. (B) is wrong precisely because the net ionic equation is universal — it's the same H⁺ + OH⁻ → H₂O for every strong acid–strong base pair, since whatever salt forms is left behind as spectators regardless of its identity."
     },
     {
       "id": "4-55",
@@ -4474,7 +4474,7 @@ const QUESTIONS = {
         "3, 1, 1, 3"
       ],
       "correct": 0,
-      "explanation": "H₃PO₄ has 3 acidic hydrogens, needing 3 NaOH (one OH⁻ per H⁺); this produces 1 Na₃PO₄ (using all 3 Na⁺) and 3 H₂O. Final: H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O, i.e. 1,3,1,3. (C) 1,1,1,1 leaves the acid only partially neutralized — only 1 of the 3 acidic H's is accounted for, and Na₃PO₄ needs 3 Na⁺, not the 1 supplied. (D) 3,1,1,3 way overshoots the acid (3 H₃PO₄ would need 9 NaOH, not 1) and undershoots the base needed for even 1 Na₃PO₄. (B) 1,3,3,1 can't work — a single H₃PO₄ can only supply 1 phosphate, not enough to form 3 Na₃PO₄ (which alone would require 3 P and 9 Na⁺, far more than what's provided)."
+      "explanation": "Correct: (A) 1, 3, 1, 3. H₃PO₄ has 3 acidic hydrogens, needing 3 NaOH (one OH⁻ per H⁺); this produces 1 Na₃PO₄ (using all 3 Na⁺) and 3 H₂O. Final: H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O, i.e. 1,3,1,3. (C) 1,1,1,1 leaves the acid only partially neutralized — only 1 of the 3 acidic H's is accounted for, and Na₃PO₄ needs 3 Na⁺, not the 1 supplied. (D) 3,1,1,3 way overshoots the acid (3 H₃PO₄ would need 9 NaOH, not 1) and undershoots the base needed for even 1 Na₃PO₄. (B) 1,3,3,1 can't work — a single H₃PO₄ can only supply 1 phosphate, not enough to form 3 Na₃PO₄ (which alone would require 3 P and 9 Na⁺, far more than what's provided)."
     },
     {
       "id": "4-56",
@@ -4487,7 +4487,7 @@ const QUESTIONS = {
         "A salt and water"
       ],
       "correct": 3,
-      "explanation": "A neutralization reaction between an acid and a base generally produces a salt (from the acid's anion and base's cation) and water (from H⁺ combining with OH⁻). (C) An oxide and hydrogen gas describes a different reaction type entirely (not the standard acid-base pattern). (A) 'Two new acids' doesn't reflect real acid-base chemistry — an acid and a base react to neutralize each other, not to generate more acids. (B) 'A precipitate only' is wrong because water is always a product of neutralization, and most neutralizations don't even produce a precipitate at all — a precipitate only forms in the specific cases where the resulting salt happens to be insoluble, which isn't the general case."
+      "explanation": "Correct: (D) A salt and water. A neutralization reaction between an acid and a base generally produces a salt (from the acid's anion and base's cation) and water (from H⁺ combining with OH⁻). (C) An oxide and hydrogen gas describes a different reaction type entirely (not the standard acid-base pattern). (A) 'Two new acids' doesn't reflect real acid-base chemistry — an acid and a base react to neutralize each other, not to generate more acids. (B) 'A precipitate only' is wrong because water is always a product of neutralization, and most neutralizations don't even produce a precipitate at all — a precipitate only forms in the specific cases where the resulting salt happens to be insoluble, which isn't the general case."
     },
     {
       "id": "4-57",
@@ -4500,7 +4500,7 @@ const QUESTIONS = {
         "0.5 moles"
       ],
       "correct": 0,
-      "explanation": "'Diprotic' means each H₂SO₄ molecule has two acidic hydrogens available, so 1 mole of H₂SO₄ provides up to 2 moles of H⁺ upon complete neutralization — this is exactly why H₂SO₄ needs a 1:2 ratio with a monoprotic base. (D) 0.5 moles is backwards — it doesn't correspond to any real 'protic' classification. (C) 3 moles would describe a triprotic acid like H₃PO₄, not a diprotic one. (B) 1 mole is what a monoprotic acid (like HCl) would provide, not a diprotic one."
+      "explanation": "Correct: (A) 2 moles. 'Diprotic' means each H₂SO₄ molecule has two acidic hydrogens available, so 1 mole of H₂SO₄ provides up to 2 moles of H⁺ upon complete neutralization — this is exactly why H₂SO₄ needs a 1:2 ratio with a monoprotic base. (D) 0.5 moles is backwards — it doesn't correspond to any real 'protic' classification. (C) 3 moles would describe a triprotic acid like H₃PO₄, not a diprotic one. (B) 1 mole is what a monoprotic acid (like HCl) would provide, not a diprotic one."
     },
     {
       "id": "4-58",
@@ -4513,7 +4513,7 @@ const QUESTIONS = {
         "K₂Br and H₂O"
       ],
       "correct": 1,
-      "explanation": "H⁺ from HBr combines with OH⁻ from KOH to form H₂O, while K⁺ and Br⁻ combine to form the salt KBr: HBr + KOH → KBr + H₂O. (C) KH and BrOH pair the ions incorrectly — K⁺ should pair with Br⁻ (forming the salt) and H⁺ with OH⁻ (forming water), not this scrambled combination, which also doesn't reflect any real neutralization mechanism. (A) KBr and H₂ is wrong because H₂ gas is the product of a metal reacting with an acid (a redox reaction), not of an acid-base neutralization, which produces water instead. (D) K₂Br has the wrong formula — K⁺ is +1 and Br⁻ is −1, so the neutral salt must be KBr (1:1), not K₂Br, which would require Br to carry a −2 charge."
+      "explanation": "Correct: (B) KBr and H₂O. H⁺ from HBr combines with OH⁻ from KOH to form H₂O, while K⁺ and Br⁻ combine to form the salt KBr: HBr + KOH → KBr + H₂O. (C) KH and BrOH pair the ions incorrectly — K⁺ should pair with Br⁻ (forming the salt) and H⁺ with OH⁻ (forming water), not this scrambled combination, which also doesn't reflect any real neutralization mechanism. (A) KBr and H₂ is wrong because H₂ gas is the product of a metal reacting with an acid (a redox reaction), not of an acid-base neutralization, which produces water instead. (D) K₂Br has the wrong formula — K⁺ is +1 and Br⁻ is −1, so the neutral salt must be KBr (1:1), not K₂Br, which would require Br to carry a −2 charge."
     },
     {
       "id": "4-59",
@@ -4526,7 +4526,7 @@ const QUESTIONS = {
         "The salt formed never actually exists in solution."
       ],
       "correct": 2,
-      "explanation": "Since the acid and base are both strong and the resulting salt is generally soluble, the salt's ions (the acid's original anion, the base's original cation) stay dissolved and unchanged — true spectators — while only H⁺ and OH⁻ actually combine to form water, which is why the net ionic equation is universal regardless of the specific acid/base used. (D) is wrong — the salt's ions absolutely do exist in solution; that's precisely why they're spectators rather than absent. (A) is wrong — net ionic equations do show the real product formed (water here); they just omit species that don't change. (B) is wrong — many salts, including the ones formed from strong acid–strong base neutralizations, are in fact soluble; that solubility is exactly why their ions remain dissolved as spectators rather than precipitating out."
+      "explanation": "Correct: (C) The salt's ions are spectators; only H⁺ and OH⁻ actually react to form water. Since the acid and base are both strong and the resulting salt is generally soluble, the salt's ions (the acid's original anion, the base's original cation) stay dissolved and unchanged — true spectators — while only H⁺ and OH⁻ actually combine to form water, which is why the net ionic equation is universal regardless of the specific acid/base used. (D) is wrong — the salt's ions absolutely do exist in solution; that's precisely why they're spectators rather than absent. (A) is wrong — net ionic equations do show the real product formed (water here); they just omit species that don't change. (B) is wrong — many salts, including the ones formed from strong acid–strong base neutralizations, are in fact soluble; that solubility is exactly why their ions remain dissolved as spectators rather than precipitating out."
     },
     {
       "id": "4-60",
@@ -4539,7 +4539,7 @@ const QUESTIONS = {
         "2HCl + Ca(OH)₂ → CaCl₂ + H₂O₂"
       ],
       "correct": 1,
-      "explanation": "Ca(OH)₂ provides 2 OH⁻ per formula unit, requiring 2 HCl (each providing 1 H⁺) for complete neutralization: 2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O (Ca: 1=1, Cl: 2=2, O: 2=2, H: 4=4). (A) 1:1 HCl leaves the equation unbalanced — only 1 Cl⁻ is supplied, but CaCl₂ requires 2, and only 1 of the 2 OH⁻ from Ca(OH)₂ gets neutralized. (C) 'CaCl' is not a valid formula — calcium is always +2 and chloride is −1, so the correct 1:2 charge-balanced salt is CaCl₂, not CaCl. (D) H₂O₂ (hydrogen peroxide) is the wrong product — acid-base neutralization produces ordinary water (H₂O), not peroxide, which is an entirely different compound."
+      "explanation": "Correct: (B) 2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O. Ca(OH)₂ provides 2 OH⁻ per formula unit, requiring 2 HCl (each providing 1 H⁺) for complete neutralization: 2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O (Ca: 1=1, Cl: 2=2, O: 2=2, H: 4=4). (A) 1:1 HCl leaves the equation unbalanced — only 1 Cl⁻ is supplied, but CaCl₂ requires 2, and only 1 of the 2 OH⁻ from Ca(OH)₂ gets neutralized. (C) 'CaCl' is not a valid formula — calcium is always +2 and chloride is −1, so the correct 1:2 charge-balanced salt is CaCl₂, not CaCl. (D) H₂O₂ (hydrogen peroxide) is the wrong product — acid-base neutralization produces ordinary water (H₂O), not peroxide, which is an entirely different compound."
     },
     {
       "id": "4-61",
@@ -4552,7 +4552,7 @@ const QUESTIONS = {
         "+4"
       ],
       "correct": 1,
-      "explanation": "Oxygen is almost always −2 in compounds (4 × −2 = −8 total); since the ion's overall charge is −2, S + (−8) = −2, so S = +6. (C) −2 is oxygen's oxidation state, not sulfur's — a mix-up of which atom is being assigned. (D) +4 would be sulfur's oxidation state in a species with fewer oxygens, like sulfite (SO₃²⁻: S + (−6) = −2 → S = +4), not in sulfate with its 4 oxygens. (A) +2 is too low to balance the −8 contribution from four oxygen atoms against the ion's overall −2 charge."
+      "explanation": "Correct: (B) +6. Oxygen is almost always −2 in compounds (4 × −2 = −8 total); since the ion's overall charge is −2, S + (−8) = −2, so S = +6. (C) −2 is oxygen's oxidation state, not sulfur's — a mix-up of which atom is being assigned. (D) +4 would be sulfur's oxidation state in a species with fewer oxygens, like sulfite (SO₃²⁻: S + (−6) = −2 → S = +4), not in sulfate with its 4 oxygens. (A) +2 is too low to balance the −8 contribution from four oxygen atoms against the ion's overall −2 charge."
     },
     {
       "id": "4-62",
@@ -4578,7 +4578,7 @@ const QUESTIONS = {
         "H₂, because it is a product"
       ],
       "correct": 1,
-      "explanation": "The reducing agent is the species that gets oxidized (loses electrons) and thereby causes another species to be reduced; Mg goes from 0 to +2 (oxidized), donating the 2 electrons that reduce H⁺ to H₂, making Mg the reducing agent even though it's the one being oxidized. (C) H⁺ is wrong — H⁺ is reduced (+1 → 0 in H₂, gaining an electron), which makes it the oxidizing agent, not the reducing agent. (A) Cl⁻ is wrong — chloride is a spectator ion here, staying at −1 throughout and never changing oxidation state, so it's neither oxidized, reduced, nor an 'agent' of either process. (D) H₂ is wrong reasoning — being a product doesn't determine reducing-agent status; H₂ is actually the species that resulted from being reduced, the opposite of a reducing agent."
+      "explanation": "Correct: (B) Mg, because it is oxidized. The reducing agent is the species that gets oxidized (loses electrons) and thereby causes another species to be reduced; Mg goes from 0 to +2 (oxidized), donating the 2 electrons that reduce H⁺ to H₂, making Mg the reducing agent even though it's the one being oxidized. (C) H⁺ is wrong — H⁺ is reduced (+1 → 0 in H₂, gaining an electron), which makes it the oxidizing agent, not the reducing agent. (A) Cl⁻ is wrong — chloride is a spectator ion here, staying at −1 throughout and never changing oxidation state, so it's neither oxidized, reduced, nor an 'agent' of either process. (D) H₂ is wrong reasoning — being a product doesn't determine reducing-agent status; H₂ is actually the species that resulted from being reduced, the opposite of a reducing agent."
     },
     {
       "id": "4-64",
@@ -4591,7 +4591,7 @@ const QUESTIONS = {
         "+12"
       ],
       "correct": 2,
-      "explanation": "Oxygen is −2 (7 × −2 = −14 total); the overall ion charge is −2, so 2Cr + (−14) = −2, meaning 2Cr = +12 and each Cr = +6. (A) +7 doesn't correctly balance this ion's charge against the −14 from oxygen — it belongs to a different pattern (like Mn in MnO₄⁻), not Cr in Cr₂O₇²⁻. (B) +3 is far too low to offset −14 down to an overall charge of −2; that's the oxidation state of Cr in species like Cr³⁺ or Cr₂O₃, not dichromate. (D) +12 is the combined oxidation number contribution of both chromium atoms together, but forgets the final step of dividing by the 2 Cr atoms present to get the oxidation number of each individual Cr."
+      "explanation": "Correct: (C) +6. Oxygen is −2 (7 × −2 = −14 total); the overall ion charge is −2, so 2Cr + (−14) = −2, meaning 2Cr = +12 and each Cr = +6. (A) +7 doesn't correctly balance this ion's charge against the −14 from oxygen — it belongs to a different pattern (like Mn in MnO₄⁻), not Cr in Cr₂O₇²⁻. (B) +3 is far too low to offset −14 down to an overall charge of −2; that's the oxidation state of Cr in species like Cr³⁺ or Cr₂O₃, not dichromate. (D) +12 is the combined oxidation number contribution of both chromium atoms together, but forgets the final step of dividing by the 2 Cr atoms present to get the oxidation number of each individual Cr."
     },
     {
       "id": "4-65",
@@ -4604,7 +4604,7 @@ const QUESTIONS = {
         "Because this particular reaction does not actually involve any redox chemistry taking place at all."
       ],
       "correct": 1,
-      "explanation": "Disproportionation occurs when a single element, starting at one oxidation state, ends up in two different products at two different oxidation states — one higher (oxidized) and one lower (reduced). Here, Cl₂ (0) becomes both Cl⁻ in NaCl (reduced to −1) and Cl in NaClO₃ (oxidized to +5), with chlorine serving as both the oxidized and reduced species. (C) is wrong — sodium's oxidation state doesn't change here (it stays +1 throughout, as a spectator-like ion), and it's chlorine, not sodium, that undergoes the oxidation-state changes. (D) is wrong — this reaction clearly does involve redox chemistry, since chlorine's oxidation state changes in two different directions. (A) is wrong and directly contradicted by the reaction — far from being unreactive, chlorine is the only element whose oxidation state changes at all, making it the sole species undergoing any redox chemistry here.",
+      "explanation": "Correct: (B) Because chlorine is simultaneously oxidized (to +5 in NaClO₃) and reduced (to −1 in NaCl). Disproportionation occurs when a single element, starting at one oxidation state, ends up in two different products at two different oxidation states — one higher (oxidized) and one lower (reduced). Here, Cl₂ (0) becomes both Cl⁻ in NaCl (reduced to −1) and Cl in NaClO₃ (oxidized to +5), with chlorine serving as both the oxidized and reduced species. (C) is wrong — sodium's oxidation state doesn't change here (it stays +1 throughout, as a spectator-like ion), and it's chlorine, not sodium, that undergoes the oxidation-state changes. (D) is wrong — this reaction clearly does involve redox chemistry, since chlorine's oxidation state changes in two different directions. (A) is wrong and directly contradicted by the reaction — far from being unreactive, chlorine is the only element whose oxidation state changes at all, making it the sole species undergoing any redox chemistry here.",
       "stretch": true
     },
     {
@@ -4618,7 +4618,7 @@ const QUESTIONS = {
         "2MnO₄⁻ + 5C₂O₄²⁻ + 8H⁺ → 2Mn²⁺ + 10CO₂ + 4H₂O"
       ],
       "correct": 0,
-      "explanation": "Reduction half-reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5 electrons gained per Mn). Oxidation half-reaction: C₂O₄²⁻ → 2CO₂ + 2e⁻ (2 electrons lost per oxalate). Matching electron counts requires multiplying the reduction half-reaction by 2 and the oxidation half-reaction by 5, giving 10 electrons on each side: 2MnO₄⁻ + 16H⁺ + 10e⁻ → 2Mn²⁺ + 8H₂O and 5C₂O₄²⁻ → 10CO₂ + 10e⁻. Adding and cancelling the 10 electrons gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O — every atom (Mn: 2=2, C: 10=10, O: 28=28, H: 16=16) and the overall charge (+4 on each side) check out. (C) uses a 1:1 MnO₄⁻:C₂O₄²⁻ ratio instead of the required 2:5 needed to match the 5e⁻-vs-2e⁻ electron counts — its atoms happen to balance at this smaller scale, but the charge doesn't (left side is +5, right side is +2), exposing the uncorrected electron mismatch. (D) keeps the correct 2:5 MnO₄⁻:C₂O₄²⁻ ratio but only adds 8H⁺ and 4H₂O instead of 16H⁺ and 8H₂O — not enough oxygen and hydrogen to balance the two reduction half-reactions once they're scaled up (28 O needed on the left vs. only 24 accounted for on the right), an unbalanced O/H error. (B) swaps the coefficients (5 MnO₄⁻ and 2 C₂O₄²⁻ instead of 2 and 5) — the wrong stoichiometric ratio entirely, which fails to conserve oxygen (28 O on the left vs. only 16 O on the right) even though Mn, C, and H each superficially look balanced."
+      "explanation": "Correct: (A) 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O. Reduction half-reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5 electrons gained per Mn). Oxidation half-reaction: C₂O₄²⁻ → 2CO₂ + 2e⁻ (2 electrons lost per oxalate). Matching electron counts requires multiplying the reduction half-reaction by 2 and the oxidation half-reaction by 5, giving 10 electrons on each side: 2MnO₄⁻ + 16H⁺ + 10e⁻ → 2Mn²⁺ + 8H₂O and 5C₂O₄²⁻ → 10CO₂ + 10e⁻. Adding and cancelling the 10 electrons gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O — every atom (Mn: 2=2, C: 10=10, O: 28=28, H: 16=16) and the overall charge (+4 on each side) check out. (C) uses a 1:1 MnO₄⁻:C₂O₄²⁻ ratio instead of the required 2:5 needed to match the 5e⁻-vs-2e⁻ electron counts — its atoms happen to balance at this smaller scale, but the charge doesn't (left side is +5, right side is +2), exposing the uncorrected electron mismatch. (D) keeps the correct 2:5 MnO₄⁻:C₂O₄²⁻ ratio but only adds 8H⁺ and 4H₂O instead of 16H⁺ and 8H₂O — not enough oxygen and hydrogen to balance the two reduction half-reactions once they're scaled up (28 O needed on the left vs. only 24 accounted for on the right), an unbalanced O/H error. (B) swaps the coefficients (5 MnO₄⁻ and 2 C₂O₄²⁻ instead of 2 and 5) — the wrong stoichiometric ratio entirely, which fails to conserve oxygen (28 O on the left vs. only 16 O on the right) even though Mn, C, and H each superficially look balanced."
     }
   ],
   "5": [
@@ -4633,7 +4633,7 @@ const QUESTIONS = {
         "0.0800 M/s"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.0800 M/s. For a general reaction, the rate is defined so that it is the same for every species: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, where a and b are the coefficients. For A -> 2B, the coefficient of B is twice that of A, so B forms twice as fast as A disappears: rate of B formation = 2 x 0.0400 M/s = 0.0800 M/s. A quick check: the species with the bigger coefficient changes faster.\n\n(A) is wrong because 0.1600 M/s doubles the factor twice, as if B's coefficient were 4.\n(B) is wrong because 0.0200 M/s divides by 2 instead of multiplying, so it makes B form more slowly than A disappears.\n(C) is wrong because 0.0400 M/s treats A and B as changing at the same rate, which ignores the stoichiometry."
+      "explanation": "Correct: (D) 0.0800 M/s. For a general reaction, the rate is defined so that it is the same for every species: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, where a and b are the coefficients. For A -> 2B, the coefficient of B is twice that of A, so B forms twice as fast as A disappears: rate of B formation = 2 x 0.0400 M/s = 0.0800 M/s. A quick check: the species with the bigger coefficient changes faster.\n\n(A) is wrong because 0.1600 M/s doubles the factor twice, as if B's coefficient were 4.\n(B) is wrong because 0.0200 M/s divides by 2 instead of multiplying, so it makes B form more slowly than A disappears.\n(C) is wrong because 0.0400 M/s treats A and B as changing at the same rate, which ignores the stoichiometry."
     },
     {
       "id": "5-2",
@@ -4646,7 +4646,7 @@ const QUESTIONS = {
         "0.0300 M/s"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.0300 M/s. In 2H2O2 -> 2H2O + O2, two moles of H2O2 are used up for every one mole of O2 that forms, so H2O2 disappears twice as fast as O2 appears. Rate of H2O2 disappearance = 2 x 0.0150 M/s = 0.0300 M/s. Equivalent way: the overall rate = delta[O2]/delta t = -(1/2) delta[H2O2]/delta t.\n\n(A) is wrong because 0.0075 M/s divides by 2 instead of multiplying.\n(B) is wrong because 0.0150 M/s assumes a 1:1 ratio between H2O2 and O2, but the coefficients are 2 and 1.\n(C) is wrong because 0.0450 M/s would come from a 3:1 ratio, which does not match this equation."
+      "explanation": "Correct: (D) 0.0300 M/s. In 2H2O2 -> 2H2O + O2, two moles of H2O2 are used up for every one mole of O2 that forms, so H2O2 disappears twice as fast as O2 appears. Rate of H2O2 disappearance = 2 x 0.0150 M/s = 0.0300 M/s. Equivalent way: the overall rate = delta[O2]/delta t = -(1/2) delta[H2O2]/delta t.\n\n(A) is wrong because 0.0075 M/s divides by 2 instead of multiplying.\n(B) is wrong because 0.0150 M/s assumes a 1:1 ratio between H2O2 and O2, but the coefficients are 2 and 1.\n(C) is wrong because 0.0450 M/s would come from a 3:1 ratio, which does not match this equation."
     },
     {
       "id": "5-3",
@@ -4659,7 +4659,7 @@ const QUESTIONS = {
         "Species change concentration at different rates set by their coefficients."
       ],
       "correct": 3,
-      "explanation": "Correct: species change concentration at different rates set by their coefficients. In N2 + 3H2 -> 2NH3, hydrogen is used up three times as fast as nitrogen, and ammonia forms twice as fast as nitrogen is used up. So 'the rate of the reaction' would be ambiguous unless you say which species you mean. To avoid that, the rate of reaction is defined by dividing each species' rate of change by its own coefficient: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, which gives one number for the reaction.\n\n(C) is wrong because species have the same rate of change only if all their coefficients are 1.\n(B) is wrong because coefficients do set the relative rates of change.\n(A) is wrong because the issue applies to species in any phase, not only gases."
+      "explanation": "Correct: (D) Species change concentration at different rates set by their coefficients. In N2 + 3H2 -> 2NH3, hydrogen is used up three times as fast as nitrogen, and ammonia forms twice as fast as nitrogen is used up. So 'the rate of the reaction' would be ambiguous unless you say which species you mean. To avoid that, the rate of reaction is defined by dividing each species' rate of change by its own coefficient: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, which gives one number for the reaction.\n\n(C) is wrong because species have the same rate of change only if all their coefficients are 1.\n(B) is wrong because coefficients do set the relative rates of change.\n(A) is wrong because the issue applies to species in any phase, not only gases."
     },
     {
       "id": "5-4",
@@ -4672,7 +4672,7 @@ const QUESTIONS = {
         "M/s (concentration per time)"
       ],
       "correct": 3,
-      "explanation": "Correct: M/s (concentration per time). The rate of a reaction is how quickly a concentration changes: rate = delta[concentration] / delta time. Concentration is in mol/L (M), and time is usually in seconds, so the units are M/s (mol L<sup>-1</sup> s<sup>-1</sup>). Other time units can be used (M/min), but a rate always has concentration divided by time.\n\n(A) is wrong because M alone is a concentration and does not include how fast it changes.\n(C) is wrong because seconds are a unit of time only.\n(B) is wrong because moles is an amount of substance, not a concentration, and it does not include time."
+      "explanation": "Correct: (D) M/s (concentration per time). The rate of a reaction is how quickly a concentration changes: rate = delta[concentration] / delta time. Concentration is in mol/L (M), and time is usually in seconds, so the units are M/s (mol L<sup>-1</sup> s<sup>-1</sup>). Other time units can be used (M/min), but a rate always has concentration divided by time.\n\n(A) is wrong because M alone is a concentration and does not include how fast it changes.\n(C) is wrong because seconds are a unit of time only.\n(B) is wrong because moles is an amount of substance, not a concentration, and it does not include time."
     },
     {
       "id": "5-5",
@@ -4698,7 +4698,7 @@ const QUESTIONS = {
         "It generally increases as the reaction proceeds."
       ],
       "correct": 2,
-      "explanation": "Correct: it generally decreases, since reactant concentration decreases over time. The rate of most reactions depends on the concentrations of the reactants (the rate law). As the reaction proceeds, the reactants are used up, their concentrations fall, and the rate falls as well. That is why a graph of concentration against time is steepest at the start and gets flatter as time goes on (the slope is the rate).\n\n(A) is wrong because a constant rate is typical only of a zero-order reaction, where the rate does not depend on concentration.\n(D) is wrong because an increasing rate would be unusual for a reaction that consumes its reactants.\n(B) is wrong because for most reactions, the rate law predicts a decreasing rate."
+      "explanation": "Correct: (C) It generally decreases, since reactant concentration decreases over time. The rate of most reactions depends on the concentrations of the reactants (the rate law). As the reaction proceeds, the reactants are used up, their concentrations fall, and the rate falls as well. That is why a graph of concentration against time is steepest at the start and gets flatter as time goes on (the slope is the rate).\n\n(A) is wrong because a constant rate is typical only of a zero-order reaction, where the rate does not depend on concentration.\n(D) is wrong because an increasing rate would be unusual for a reaction that consumes its reactants.\n(B) is wrong because for most reactions, the rate law predicts a decreasing rate."
     },
     {
       "id": "5-79",
@@ -4725,7 +4725,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 1,
-      "explanation": "Correct: 2. Use the ratio method: compare two trials in which only one concentration changes. The concentration of A doubles (0.10 to 0.20), so the ratio of concentrations is 2. The rate goes from 0.0050 to 0.0200, a factor of 4. Since the rate changes by (concentration factor)^m, we have 2<sup>m</sup> = 4, so m = 2: the reaction is second order in A.\n\n(D) is wrong because zero order would mean no change in rate when A doubles.\n(A) is wrong because first order would double the rate (2<sup>1</sup> = 2), not quadruple it.\n(C) is wrong because third order would make the rate increase 8-fold (2<sup>3</sup> = 8), but only a 4-fold increase was observed."
+      "explanation": "Correct: (B) 2. Use the ratio method: compare two trials in which only one concentration changes. The concentration of A doubles (0.10 to 0.20), so the ratio of concentrations is 2. The rate goes from 0.0050 to 0.0200, a factor of 4. Since the rate changes by (concentration factor)^m, we have 2<sup>m</sup> = 4, so m = 2: the reaction is second order in A.\n\n(D) is wrong because zero order would mean no change in rate when A doubles.\n(A) is wrong because first order would double the rate (2<sup>1</sup> = 2), not quadruple it.\n(C) is wrong because third order would make the rate increase 8-fold (2<sup>3</sup> = 8), but only a 4-fold increase was observed."
     },
     {
       "id": "5-8",
@@ -4751,7 +4751,7 @@ const QUESTIONS = {
         "9"
       ],
       "correct": 1,
-      "explanation": "Correct: 18. For the rate law Rate = k[A]<sup>2</sup>[B], each concentration change affects the rate according to its exponent. Tripling [A] multiplies the rate by 3<sup>2</sup> = 9. Doubling [B] multiplies the rate by 2<sup>1</sup> = 2. Changes that happen together multiply: 9 x 2 = 18.\n\n(D) is wrong because 9 includes the effect of [A] but leaves out the effect of doubling [B].\n(A) is wrong because 6 treats both reactants as first order (3 x 2) and ignores that [A] is squared.\n(C) is wrong because 3 takes into account only the tripling of [A], without its square and without [B]."
+      "explanation": "Correct: (B) 18. For the rate law Rate = k[A]<sup>2</sup>[B], each concentration change affects the rate according to its exponent. Tripling [A] multiplies the rate by 3<sup>2</sup> = 9. Doubling [B] multiplies the rate by 2<sup>1</sup> = 2. Changes that happen together multiply: 9 x 2 = 18.\n\n(D) is wrong because 9 includes the effect of [A] but leaves out the effect of doubling [B].\n(A) is wrong because 6 treats both reactants as first order (3 x 2) and ignores that [A] is squared.\n(C) is wrong because 3 takes into account only the tripling of [A], without its square and without [B]."
     },
     {
       "id": "5-11",
@@ -4764,7 +4764,7 @@ const QUESTIONS = {
         "Balanced equations never contain enough information about atoms."
       ],
       "correct": 2,
-      "explanation": "Correct: order reflects the mechanism, not the overall equation, so it must be found experimentally. The balanced equation shows the overall change but not the steps by which the reaction happens. A slow step in the mechanism usually determines the rate, so the exponents in the rate law come from experiments (such as the initial rates method), not from the coefficients. Example: 2N2O5 -> 4NO2 + O2 is first order in N2O5, not second order, even though the coefficient is 2. The exception is an elementary step, a single step that happens exactly as written, for which the exponents do equal the coefficients.\n\n(B) is wrong because that shortcut applies only to elementary reactions.\n(A) is wrong because orders can be 0, 1, 2, or fractional.\n(D) is wrong because a balanced equation does account for all the atoms; it just does not show the mechanism."
+      "explanation": "Correct: (C) Order reflects the mechanism, not the overall equation, so it must be found experimentally. The balanced equation shows the overall change but not the steps by which the reaction happens. A slow step in the mechanism usually determines the rate, so the exponents in the rate law come from experiments (such as the initial rates method), not from the coefficients. Example: 2N2O5 -> 4NO2 + O2 is first order in N2O5, not second order, even though the coefficient is 2. The exception is an elementary step, a single step that happens exactly as written, for which the exponents do equal the coefficients.\n\n(B) is wrong because that shortcut applies only to elementary reactions.\n(A) is wrong because orders can be 0, 1, 2, or fractional.\n(D) is wrong because a balanced equation does account for all the atoms; it just does not show the mechanism."
     },
     {
       "id": "5-12",
@@ -4777,7 +4777,7 @@ const QUESTIONS = {
         "6.0 × 10⁻⁵ M·s⁻¹"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.060 s<sup>-1</sup>. Solve the rate law Rate = k[A] for k: k = Rate / [A] = (0.0030 M/s) / (0.050 M) = 0.060 s<sup>-1</sup>. The units: M/s divided by M leaves 1/s. A good way to catch mistakes is to remember the units of k for each order: zero order is M/s, first order is s<sup>-1</sup>, and second order is M<sup>-1</sup> s<sup>-1</sup>. Because this rate law is first order, k must have units of s<sup>-1</sup>.\n\n(B) and\n\n(D) are wrong because their units (M s<sup>-1</sup>) are those of a zero-order rate constant, which shows a confusion about the order.\n(A) is wrong because it has the correct units but the division is wrong: 0.0030 / 0.050 is 0.060, not 0.0015."
+      "explanation": "Correct: (C) 0.060 s<sup>-1</sup>. Solve the rate law Rate = k[A] for k: k = Rate / [A] = (0.0030 M/s) / (0.050 M) = 0.060 s<sup>-1</sup>. The units: M/s divided by M leaves 1/s. A good way to catch mistakes is to remember the units of k for each order: zero order is M/s, first order is s<sup>-1</sup>, and second order is M<sup>-1</sup> s<sup>-1</sup>. Because this rate law is first order, k must have units of s<sup>-1</sup>.\n\n(B) and\n\n(D) are wrong because their units (M s<sup>-1</sup>) are those of a zero-order rate constant, which shows a confusion about the order.\n(A) is wrong because it has the correct units but the division is wrong: 0.0030 / 0.050 is 0.060, not 0.0015."
     },
     {
       "id": "5-13",
@@ -4790,7 +4790,7 @@ const QUESTIONS = {
         "1"
       ],
       "correct": 1,
-      "explanation": "Correct: 2. Use the ratio method for B with [A] held constant, so any change in the rate is because of B. [B] goes from 0.10 to 0.30, which is a factor of 3. The rate goes from 0.0080 to 0.0720, a factor of 9. The rate changes by (concentration factor)^n, so 3<sup>n</sup> = 9, and n = 2: second order in B.\n\n(D) is wrong because first order would triple the rate, not make it nine times as large.\n(A) is wrong because third order would increase the rate 27-fold (3<sup>3</sup>).\n(C) is wrong because zero order would mean no change in the rate when [B] triples, but the rate clearly increased."
+      "explanation": "Correct: (B) 2. Use the ratio method for B with [A] held constant, so any change in the rate is because of B. [B] goes from 0.10 to 0.30, which is a factor of 3. The rate goes from 0.0080 to 0.0720, a factor of 9. The rate changes by (concentration factor)^n, so 3<sup>n</sup> = 9, and n = 2: second order in B.\n\n(D) is wrong because first order would triple the rate, not make it nine times as large.\n(A) is wrong because third order would increase the rate 27-fold (3<sup>3</sup>).\n(C) is wrong because zero order would mean no change in the rate when [B] triples, but the rate clearly increased."
     },
     {
       "id": "5-15",
@@ -4803,7 +4803,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 1,
-      "explanation": "Correct: 4. For a rate law Rate = k[A]<sup>1.5</sup>[B]<sup>0.5</sup>, each concentration change affects the rate according to its exponent, and the effects multiply. Doubling [A] gives a factor of 2<sup>1.5</sup> = 2.83. Doubling [B] gives a factor of 2<sup>0.5</sup> = 1.41. Together: 2.83 x 1.41 = 4.0. A shortcut: when you change every concentration by the same factor, the rate changes by that factor raised to the overall order. The overall order here is 1.5 + 0.5 = 2, so doubling gives 2<sup>2</sup> = 4. Fractional exponents follow the same rules as whole-number exponents.\n\n(C) is wrong because 2.83 is the effect of doubling [A] alone.\n(A) is wrong because 5.66 is 2<sup>2.5</sup>, which treats [B] as first order instead of half order.\n(D) is wrong because 2 would apply only if the overall order were 1.",
+      "explanation": "Correct: (B) 4. For a rate law Rate = k[A]<sup>1.5</sup>[B]<sup>0.5</sup>, each concentration change affects the rate according to its exponent, and the effects multiply. Doubling [A] gives a factor of 2<sup>1.5</sup> = 2.83. Doubling [B] gives a factor of 2<sup>0.5</sup> = 1.41. Together: 2.83 x 1.41 = 4.0. A shortcut: when you change every concentration by the same factor, the rate changes by that factor raised to the overall order. The overall order here is 1.5 + 0.5 = 2, so doubling gives 2<sup>2</sup> = 4. Fractional exponents follow the same rules as whole-number exponents.\n\n(C) is wrong because 2.83 is the effect of doubling [A] alone.\n(A) is wrong because 5.66 is 2<sup>2.5</sup>, which treats [B] as first order instead of half order.\n(D) is wrong because 2 would apply only if the overall order were 1.",
       "stretch": true
     },
     {
@@ -4817,7 +4817,7 @@ const QUESTIONS = {
         "0.400 M"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.200 M. In a first-order reaction, every half-life cuts the remaining concentration in half, no matter how much is left. After 20.0 s (1 half-life): 0.800 / 2 = 0.400 M. After 40.0 s (2 half-lives): 0.400 / 2 = 0.200 M. In general, [A] = [A]<sub>0</sub> x (1/2)<sup>n</sup>, where n is the number of half-lives: 40.0 s / 20.0 s = 2, so (1/2)<sup>2</sup> = 1/4 and 0.800 x 1/4 = 0.200 M.\n\n(D) is wrong because 0.400 M is the concentration after only one half-life.\n(A) is wrong because 0.100 M would be after three half-lives.\n(B) is wrong because 0.600 M comes from subtracting a fixed amount each time (like a zero-order reaction), but first-order decay removes a constant FRACTION, not a constant amount."
+      "explanation": "Correct: (C) 0.200 M. In a first-order reaction, every half-life cuts the remaining concentration in half, no matter how much is left. After 20.0 s (1 half-life): 0.800 / 2 = 0.400 M. After 40.0 s (2 half-lives): 0.400 / 2 = 0.200 M. In general, [A] = [A]<sub>0</sub> x (1/2)<sup>n</sup>, where n is the number of half-lives: 40.0 s / 20.0 s = 2, so (1/2)<sup>2</sup> = 1/4 and 0.800 x 1/4 = 0.200 M.\n\n(D) is wrong because 0.400 M is the concentration after only one half-life.\n(A) is wrong because 0.100 M would be after three half-lives.\n(B) is wrong because 0.600 M comes from subtracting a fixed amount each time (like a zero-order reaction), but first-order decay removes a constant FRACTION, not a constant amount."
     },
     {
       "id": "5-17",
@@ -4830,7 +4830,7 @@ const QUESTIONS = {
         "ln[A] vs. time"
       ],
       "correct": 2,
-      "explanation": "Correct: 1/[A] vs. time. Each reaction order has its own linear plot, from its integrated rate law. Zero order: [A] = -kt + [A]<sub>0</sub>, so a plot of [A] vs. time is a straight line with a slope of -k. First order: ln[A] = -kt + ln[A]<sub>0</sub>, so a plot of ln[A] vs. time is a straight line with a slope of -k. Second order: 1/[A] = kt + 1/[A]<sub>0</sub>, so a plot of 1/[A] vs. time is a straight line with a slope of +k. If you plot the data in each way, the one that gives a straight line tells you the order.\n\n(A) is wrong because [A] vs. time is the linear plot for zero order.\n(D) is wrong because ln[A] vs. time is the linear plot for first order.\n(B) is wrong because [A] squared vs. time is not the linear plot for any standard order."
+      "explanation": "Correct: (C) 1/[A] vs. time. Each reaction order has its own linear plot, from its integrated rate law. Zero order: [A] = -kt + [A]<sub>0</sub>, so a plot of [A] vs. time is a straight line with a slope of -k. First order: ln[A] = -kt + ln[A]<sub>0</sub>, so a plot of ln[A] vs. time is a straight line with a slope of -k. Second order: 1/[A] = kt + 1/[A]<sub>0</sub>, so a plot of 1/[A] vs. time is a straight line with a slope of +k. If you plot the data in each way, the one that gives a straight line tells you the order.\n\n(A) is wrong because [A] vs. time is the linear plot for zero order.\n(D) is wrong because ln[A] vs. time is the linear plot for first order.\n(B) is wrong because [A] squared vs. time is not the linear plot for any standard order."
     },
     {
       "id": "5-18",
@@ -4869,7 +4869,7 @@ const QUESTIONS = {
         "First order; k = −0.0250 s⁻¹"
       ],
       "correct": 0,
-      "explanation": "A linear ln[A] vs. time plot is the signature of a first-order reaction (ln[A] = −kt + ln[A]₀), where the slope equals −k. Since the given slope is −0.0250 s⁻¹, k = +0.0250 s⁻¹ (k itself is always reported as a positive value, even though the slope of this particular plot is negative). Choice B misidentifies the order: a linear [A] vs. time plot (not ln[A] vs. time) is diagnostic of zero order, so it confuses the two diagnostic plots, and also carries the wrong (M/s) units for k. Choice D correctly identifies first order and the right diagnostic plot but incorrectly reports k as negative — the slope is −k, but the rate constant k itself is always taken as positive. Choice C misidentifies which plot is diagnostic of second order (that's 1/[A] vs. time, not ln[A] vs. time)."
+      "explanation": "Correct: (A) First order; k = 0.0250 s⁻¹. A linear ln[A] vs. time plot is the signature of a first-order reaction (ln[A] = −kt + ln[A]₀), where the slope equals −k. Since the given slope is −0.0250 s⁻¹, k = +0.0250 s⁻¹ (k itself is always reported as a positive value, even though the slope of this particular plot is negative). Choice B misidentifies the order: a linear [A] vs. time plot (not ln[A] vs. time) is diagnostic of zero order, so it confuses the two diagnostic plots, and also carries the wrong (M/s) units for k. Choice D correctly identifies first order and the right diagnostic plot but incorrectly reports k as negative — the slope is −k, but the rate constant k itself is always taken as positive. Choice C misidentifies which plot is diagnostic of second order (that's 1/[A] vs. time, not ln[A] vs. time)."
     },
     {
       "id": "5-21",
@@ -4908,7 +4908,7 @@ const QUESTIONS = {
         "0.300 M"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.300 M. For a zero-order reaction the integrated rate law is [A] = [A]<sub>0</sub> - kt. Substitute: [A] = 0.600 M - (0.0200 M/s)(15.0 s) = 0.600 - 0.300 = 0.300 M. The units work: k (M/s) times time (s) gives the concentration that was used up (M). A zero-order reaction loses the same amount of A in each second, so the graph of [A] vs. time is a straight line.\n\n(B) is wrong because 0.600 M is the starting concentration, with no reaction included.\n(A) is wrong because 0.450 M subtracts only half of the amount used up (it corresponds to 7.5 s).\n(C) is wrong because 0.150 M subtracts too much (it corresponds to 22.5 s)."
+      "explanation": "Correct: (D) 0.300 M. For a zero-order reaction the integrated rate law is [A] = [A]<sub>0</sub> - kt. Substitute: [A] = 0.600 M - (0.0200 M/s)(15.0 s) = 0.600 - 0.300 = 0.300 M. The units work: k (M/s) times time (s) gives the concentration that was used up (M). A zero-order reaction loses the same amount of A in each second, so the graph of [A] vs. time is a straight line.\n\n(B) is wrong because 0.600 M is the starting concentration, with no reaction included.\n(A) is wrong because 0.450 M subtracts only half of the amount used up (it corresponds to 7.5 s).\n(C) is wrong because 0.150 M subtracts too much (it corresponds to 22.5 s)."
     },
     {
       "id": "5-24",
@@ -4921,7 +4921,7 @@ const QUESTIONS = {
         "10.0 s"
       ],
       "correct": 1,
-      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here.\n(D) is wrong because 10.0 s uses k[A]<sub>0</sub> = 0.100 instead of 0.0100.\n(A) is wrong because 6.93 s comes from 0.693/0.100, mixing the first-order formula with that same slip."
+      "explanation": "Correct: (B) 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here.\n(D) is wrong because 10.0 s uses k[A]<sub>0</sub> = 0.100 instead of 0.0100.\n(A) is wrong because 6.93 s comes from 0.693/0.100, mixing the first-order formula with that same slip."
     },
     {
       "id": "5-25",
@@ -4948,7 +4948,7 @@ const QUESTIONS = {
         "Rate = k[NO₂]²"
       ],
       "correct": 3,
-      "explanation": "Correct: Rate = k[NO<sub>2</sub>]<sup>2</sup>. For an elementary reaction, which happens in a single step exactly as written, the rate law can be written directly from the equation: each reactant's concentration is raised to the power of its coefficient. The reactant is 2NO<sub>2</sub>, so Rate = k[NO<sub>2</sub>]<sup>2</sup>. Products never appear in the rate law of an elementary step.\n\n(C) is wrong because it forgets the coefficient of 2 as the exponent.\n(B) is wrong because it includes the products NO and O<sub>2</sub> in the rate law.\n(A) is wrong because it is written with the products instead of the reactant."
+      "explanation": "Correct: (D) Rate = k[NO<sub>2</sub>]<sup>2</sup>. For an elementary reaction, which happens in a single step exactly as written, the rate law can be written directly from the equation: each reactant's concentration is raised to the power of its coefficient. The reactant is 2NO<sub>2</sub>, so Rate = k[NO<sub>2</sub>]<sup>2</sup>. Products never appear in the rate law of an elementary step.\n\n(C) is wrong because it forgets the coefficient of 2 as the exponent.\n(B) is wrong because it includes the products NO and O<sub>2</sub> in the rate law.\n(A) is wrong because it is written with the products instead of the reactant."
     },
     {
       "id": "5-27",
@@ -4961,7 +4961,7 @@ const QUESTIONS = {
         "Two separate reactions occur simultaneously."
       ],
       "correct": 2,
-      "explanation": "Correct: two particles collide and react in one step. Molecularity is the number of reactant particles that come together in an elementary step. Unimolecular means one particle (for example, one molecule rearranging or breaking apart), bimolecular means two particles colliding, and termolecular means three, which is rare because three-way collisions are unlikely. Molecularity applies only to elementary steps, and for those it tells you the rate law: a bimolecular step A + B has Rate = k[A][B], and 2A has Rate = k[A]<sup>2</sup>.\n\n(A) is wrong because molecularity is about the reactants in a step, not the number of products.\n(D) is wrong because two separate reactions at the same time are parallel reactions, which is a different idea.\n(B) is wrong because molecularity has nothing to do with the number of possible mechanisms."
+      "explanation": "Correct: (C) Two particles collide and react in one step. Molecularity is the number of reactant particles that come together in an elementary step. Unimolecular means one particle (for example, one molecule rearranging or breaking apart), bimolecular means two particles colliding, and termolecular means three, which is rare because three-way collisions are unlikely. Molecularity applies only to elementary steps, and for those it tells you the rate law: a bimolecular step A + B has Rate = k[A][B], and 2A has Rate = k[A]<sup>2</sup>.\n\n(A) is wrong because molecularity is about the reactants in a step, not the number of products.\n(D) is wrong because two separate reactions at the same time are parallel reactions, which is a different idea.\n(B) is wrong because molecularity has nothing to do with the number of possible mechanisms."
     },
     {
       "id": "5-28",
@@ -4974,7 +4974,7 @@ const QUESTIONS = {
         "Chemistry does not allow more than two reactants in any single reaction."
       ],
       "correct": 2,
-      "explanation": "A genuine three-way simultaneous collision — all three particles meeting at the same place and time with sufficient energy and correct orientation — is statistically much less likely than a simpler two-particle collision, which is why most elementary steps are unimolecular or bimolecular and termolecular steps are comparatively rare. Choice A is wrong because termolecular steps are perfectly mass-balanced; their rarity is a probability issue, not a conservation-of-mass violation. Choice D overstates the restriction — overall reactions and mechanisms can involve more than two reactant species; it's specifically an all-at-once three-way collision in one step that's improbable. Choice B misstates the issue: many particles are present simultaneously in a mixture; what's rare is three meeting at exactly the same point in space and time with the right energy and orientation."
+      "explanation": "Correct: (C) Simultaneous three-particle collisions are statistically very unlikely. A genuine three-way simultaneous collision — all three particles meeting at the same place and time with sufficient energy and correct orientation — is statistically much less likely than a simpler two-particle collision, which is why most elementary steps are unimolecular or bimolecular and termolecular steps are comparatively rare. Choice A is wrong because termolecular steps are perfectly mass-balanced; their rarity is a probability issue, not a conservation-of-mass violation. Choice D overstates the restriction — overall reactions and mechanisms can involve more than two reactant species; it's specifically an all-at-once three-way collision in one step that's improbable. Choice B misstates the issue: many particles are present simultaneously in a mixture; what's rare is three meeting at exactly the same point in space and time with the right energy and orientation."
     },
     {
       "id": "5-29",
@@ -4987,7 +4987,7 @@ const QUESTIONS = {
         "Rate = k[A]; unimolecular"
       ],
       "correct": 3,
-      "explanation": "Correct: Rate = k[A]; unimolecular. An elementary reaction happens in one step exactly as written, so the rate law comes straight from the coefficients of the reactants. Here there is one reactant particle (A, coefficient 1), so Rate = k[A]<sup>1</sup>, which is first order. Molecularity is the number of reactant particles in the step: one particle makes it unimolecular. The products B and C never appear in the rate law of an elementary step.\n\n(A) is wrong because it gets unimolecular right but says zero order; a reaction with one A particle depends on [A] to the first power.\n(B) is wrong because it treats the step as if two A particles were needed (2A), which would give second order and bimolecular.\n(C) is wrong because it puts the products in the rate law and calls the step bimolecular, though only one particle reacts."
+      "explanation": "Correct: (D) Rate = k[A]; unimolecular. An elementary reaction happens in one step exactly as written, so the rate law comes straight from the coefficients of the reactants. Here there is one reactant particle (A, coefficient 1), so Rate = k[A]<sup>1</sup>, which is first order. Molecularity is the number of reactant particles in the step: one particle makes it unimolecular. The products B and C never appear in the rate law of an elementary step.\n\n(A) is wrong because it gets unimolecular right but says zero order; a reaction with one A particle depends on [A] to the first power.\n(B) is wrong because it treats the step as if two A particles were needed (2A), which would give second order and bimolecular.\n(C) is wrong because it puts the products in the rate law and calls the step bimolecular, though only one particle reacts."
     },
     {
       "id": "5-30",
@@ -5026,7 +5026,7 @@ const QUESTIONS = {
         "The colliding particles must have equal mass and equal charge."
       ],
       "correct": 0,
-      "explanation": "Correct: the collision needs enough energy and correct orientation. The collision model says particles must meet two conditions to react. 1) Energy: the collision must have at least the activation energy, E<sub>a</sub>, so bonds can break. 2) Orientation: the reactive parts of the particles must be lined up so the right atoms can interact. If either is missing, the particles just bounce apart. This also explains why raising temperature speeds up reactions: more collisions have enough energy.\n\n(B) is wrong because reactions happen at many temperatures, not only room temperature.\n(C) is wrong because particles of different sizes react all the time.\n(D) is wrong because collisions between particles with different masses and charges are perfectly capable of reacting."
+      "explanation": "Correct: (A) The collision needs enough energy and correct orientation. The collision model says particles must meet two conditions to react. 1) Energy: the collision must have at least the activation energy, E<sub>a</sub>, so bonds can break. 2) Orientation: the reactive parts of the particles must be lined up so the right atoms can interact. If either is missing, the particles just bounce apart. This also explains why raising temperature speeds up reactions: more collisions have enough energy.\n\n(B) is wrong because reactions happen at many temperatures, not only room temperature.\n(C) is wrong because particles of different sizes react all the time.\n(D) is wrong because collisions between particles with different masses and charges are perfectly capable of reacting."
     },
     {
       "id": "5-34",
@@ -5039,7 +5039,7 @@ const QUESTIONS = {
         "Collisions between molecules are extremely rare events."
       ],
       "correct": 0,
-      "explanation": "Even in a reactive mixture, the vast majority of random collisions either don't have enough combined kinetic energy to overcome the activation energy barrier, don't align the molecules in the specific orientation needed for bond rearrangement, or both — which is exactly why reaction rates are typically much slower than the raw frequency of all molecular collisions would suggest. Choice C wrongly claims most molecules can't react at all — the real reason is that most individual collisions (between molecules that certainly can react) simply fail the energy/orientation bar, not that the molecules themselves are unreactive. Choice B contradicts basic Arrhenius behavior; temperature strongly changes the fraction of molecules with sufficient energy. Choice D has it backwards — collisions in a reactive mixture are actually extremely frequent; it's the fraction that are both energetic and correctly oriented that's small."
+      "explanation": "Correct: (A) Most collisions lack either sufficient energy, correct orientation, or both. Even in a reactive mixture, the vast majority of random collisions either don't have enough combined kinetic energy to overcome the activation energy barrier, don't align the molecules in the specific orientation needed for bond rearrangement, or both — which is exactly why reaction rates are typically much slower than the raw frequency of all molecular collisions would suggest. Choice C wrongly claims most molecules can't react at all — the real reason is that most individual collisions (between molecules that certainly can react) simply fail the energy/orientation bar, not that the molecules themselves are unreactive. Choice B contradicts basic Arrhenius behavior; temperature strongly changes the fraction of molecules with sufficient energy. Choice D has it backwards — collisions in a reactive mixture are actually extremely frequent; it's the fraction that are both energetic and correctly oriented that's small."
     },
     {
       "id": "5-35",
@@ -5052,7 +5052,7 @@ const QUESTIONS = {
         "It increases collision frequency directly."
       ],
       "correct": 1,
-      "explanation": "A catalyst offers a different reaction pathway (often via a different mechanism) with a lower activation energy barrier than the uncatalyzed reaction. Since Ea is lower, a larger fraction of collisions (at the same temperature) now have enough energy to react successfully, increasing the overall rate. Choice D misattributes the effect to collision frequency, when the primary mechanism is lowering the energy barrier. Choice A confuses a catalyst with heating the mixture — a catalyst works at the same temperature via a different pathway. Choice C denies any collision-model connection, which is false — the energy-barrier reduction is precisely that connection."
+      "explanation": "Correct: (B) It offers an alternate, lower-energy pathway. A catalyst offers a different reaction pathway (often via a different mechanism) with a lower activation energy barrier than the uncatalyzed reaction. Since Ea is lower, a larger fraction of collisions (at the same temperature) now have enough energy to react successfully, increasing the overall rate. Choice D misattributes the effect to collision frequency, when the primary mechanism is lowering the energy barrier. Choice A confuses a catalyst with heating the mixture — a catalyst works at the same temperature via a different pathway. Choice C denies any collision-model connection, which is false — the energy-barrier reduction is precisely that connection."
     },
     {
       "id": "5-36",
@@ -5065,7 +5065,7 @@ const QUESTIONS = {
         "The reaction must be zero order."
       ],
       "correct": 2,
-      "explanation": "Correct: the molecules had incorrect orientation for the reaction to occur. The collision model requires both enough energy AND the right orientation. The problem tells you the energy was more than enough, so the energy condition is already met. What is left is orientation: if the reactive atoms did not line up, the particles bounce apart even at high energy. Energy is necessary but not sufficient.\n\n(A) is wrong because the problem says the molecules had more than enough energy, so low temperature contradicts it.\n(B) is wrong because it says enough energy always guarantees a reaction, which ignores orientation.\n(D) is wrong because reaction order describes how the rate depends on concentration over many collisions; it cannot explain why one collision failed."
+      "explanation": "Correct: (C) The molecules had incorrect orientation for the reaction to occur. The collision model requires both enough energy AND the right orientation. The problem tells you the energy was more than enough, so the energy condition is already met. What is left is orientation: if the reactive atoms did not line up, the particles bounce apart even at high energy. Energy is necessary but not sufficient.\n\n(A) is wrong because the problem says the molecules had more than enough energy, so low temperature contradicts it.\n(B) is wrong because it says enough energy always guarantees a reaction, which ignores orientation.\n(D) is wrong because reaction order describes how the rate depends on concentration over many collisions; it cannot explain why one collision failed."
     },
     {
       "id": "5-37",
@@ -5078,7 +5078,7 @@ const QUESTIONS = {
         "A small, simple, roughly spherical molecule with few reactive sites."
       ],
       "correct": 3,
-      "explanation": "Small, simple, roughly symmetric molecules (like individual atoms or small spherical molecules) generally have less restrictive orientation requirements, since there's less complex molecular geometry that needs to align correctly. Large, complex molecules with one small specific reactive site require a much narrower range of correct orientations for a successful collision. Choice B asserts an unfounded rule tying orientation strictness to charge, which isn't how orientation requirements actually work. Choice C directly contradicts the premise of the question, which explicitly asks about differences between molecules. Choice A actually describes the opposite situation — a large molecule with one small, specific reactive site makes correct orientation harder to achieve (more restrictive), not less."
+      "explanation": "Correct: (D) A small, simple, roughly spherical molecule with few reactive sites. Small, simple, roughly symmetric molecules (like individual atoms or small spherical molecules) generally have less restrictive orientation requirements, since there's less complex molecular geometry that needs to align correctly. Large, complex molecules with one small specific reactive site require a much narrower range of correct orientations for a successful collision. Choice B asserts an unfounded rule tying orientation strictness to charge, which isn't how orientation requirements actually work. Choice C directly contradicts the premise of the question, which explicitly asks about differences between molecules. Choice A actually describes the opposite situation — a large molecule with one small, specific reactive site makes correct orientation harder to achieve (more restrictive), not less."
     },
     {
       "id": "5-38",
@@ -5091,7 +5091,7 @@ const QUESTIONS = {
         "Reaction A would proceed faster, since narrower orientation requirements always increase rate."
       ],
       "correct": 0,
-      "explanation": "While the Arrhenius equation's Ea term captures the energy requirement, the frequency factor (A) reflects both collision frequency AND the probability of correct orientation. Two reactions with identical Ea can still have different rates if their orientation requirements differ — a reaction with looser requirements (B) has effectively more 'successful' collisions per energetically-sufficient collision than one with very strict requirements (A), predicting a faster rate for B despite identical Ea. Choice B ignores that the frequency factor also affects rate — equal Ea does not guarantee equal rate. Choice D has the logic backwards: narrower orientation requirements make it harder, not easier, for collisions to succeed, predicting A to be slower, not faster. Choice C overlooks the frequency-factor difference entirely, incorrectly assuming Ea alone determines rate."
+      "explanation": "Correct: (A) Reaction B would likely proceed faster, due to its looser orientation requirement. While the Arrhenius equation's Ea term captures the energy requirement, the frequency factor (A) reflects both collision frequency AND the probability of correct orientation. Two reactions with identical Ea can still have different rates if their orientation requirements differ — a reaction with looser requirements (B) has effectively more 'successful' collisions per energetically-sufficient collision than one with very strict requirements (A), predicting a faster rate for B despite identical Ea. Choice B ignores that the frequency factor also affects rate — equal Ea does not guarantee equal rate. Choice D has the logic backwards: narrower orientation requirements make it harder, not easier, for collisions to succeed, predicting A to be slower, not faster. Choice C overlooks the frequency-factor difference entirely, incorrectly assuming Ea alone determines rate."
     },
     {
       "id": "5-80",
@@ -5132,7 +5132,7 @@ const QUESTIONS = {
         "The rate constant k"
       ],
       "correct": 1,
-      "explanation": "Correct: Ea (forward). On a reaction energy diagram, the vertical distance from the reactants up to the peak (the transition state) is the energy barrier the reactants must climb, which is the forward activation energy. Remember the three distances: reactants to peak = E<sub>a</sub> (forward); products to peak = E<sub>a</sub> (reverse); reactants to products = ΔH.\n\n(A) is wrong because the reverse activation energy is measured from the products up to the peak.\n(C) is wrong because ΔH is the difference between the reactants and the products, not the peak.\n(D) is wrong because k is not an energy read from the diagram; it is calculated from E<sub>a</sub> and temperature using the Arrhenius equation."
+      "explanation": "Correct: (B) Ea (forward). On a reaction energy diagram, the vertical distance from the reactants up to the peak (the transition state) is the energy barrier the reactants must climb, which is the forward activation energy. Remember the three distances: reactants to peak = E<sub>a</sub> (forward); products to peak = E<sub>a</sub> (reverse); reactants to products = ΔH.\n\n(A) is wrong because the reverse activation energy is measured from the products up to the peak.\n(C) is wrong because ΔH is the difference between the reactants and the products, not the peak.\n(D) is wrong because k is not an energy read from the diagram; it is calculated from E<sub>a</sub> and temperature using the Arrhenius equation."
     },
     {
       "id": "5-41",
@@ -5145,7 +5145,7 @@ const QUESTIONS = {
         "25 kJ/mol"
       ],
       "correct": 0,
-      "explanation": "Using ΔH = Ea(forward) − Ea(reverse): −20 = 45 − Ea(reverse), so Ea(reverse) = 45 − (−20) = 65 kJ/mol. This makes sense visually: since the reaction is exothermic (products lower than reactants), the reverse reaction has to climb a bigger energy hill (from the lower product energy back up to the same transition state) than the forward reaction does. Choice C (−65 kJ/mol) has the right magnitude but a negative sign, which is impossible — activation energies are always positive, since energy must be added to reach the transition state from either direction. Choice B (20 kJ/mol) is just |ΔH| on its own, without properly combining it with Ea(forward). Choice D (25 kJ/mol) results from subtracting instead of adding when rearranging the equation — computing 45 − 20 instead of 45 − (−20)."
+      "explanation": "Correct: (A) 65 kJ/mol. Using ΔH = Ea(forward) − Ea(reverse): −20 = 45 − Ea(reverse), so Ea(reverse) = 45 − (−20) = 65 kJ/mol. This makes sense visually: since the reaction is exothermic (products lower than reactants), the reverse reaction has to climb a bigger energy hill (from the lower product energy back up to the same transition state) than the forward reaction does. Choice C (−65 kJ/mol) has the right magnitude but a negative sign, which is impossible — activation energies are always positive, since energy must be added to reach the transition state from either direction. Choice B (20 kJ/mol) is just |ΔH| on its own, without properly combining it with Ea(forward). Choice D (25 kJ/mol) results from subtracting instead of adding when rearranging the equation — computing 45 − 20 instead of 45 − (−20)."
     },
     {
       "id": "5-42",
@@ -5158,7 +5158,7 @@ const QUESTIONS = {
         "The final, stable product of the reaction"
       ],
       "correct": 1,
-      "explanation": "The transition state is the peak of the energy diagram — a genuinely unstable, extremely short-lived arrangement where old bonds are partially broken and new bonds are partially formed. Unlike an intermediate (which sits in an energy valley and can, in principle, be isolated), the transition state exists only for an instant and can never be isolated. Choice C wrongly identifies it as a separate catalyst molecule — it's actually the reacting species themselves, mid-transformation. Choice D confuses it with the final product, which sits in an energy valley at the diagram's end, not at the peak. Choice A describes an intermediate, not the transition state — the opposite of the fleeting, un-isolable transition state."
+      "explanation": "Correct: (B) The highest-energy, transient atomic arrangement. The transition state is the peak of the energy diagram — a genuinely unstable, extremely short-lived arrangement where old bonds are partially broken and new bonds are partially formed. Unlike an intermediate (which sits in an energy valley and can, in principle, be isolated), the transition state exists only for an instant and can never be isolated. Choice C wrongly identifies it as a separate catalyst molecule — it's actually the reacting species themselves, mid-transformation. Choice D confuses it with the final product, which sits in an energy valley at the diagram's end, not at the peak. Choice A describes an intermediate, not the transition state — the opposite of the fleeting, un-isolable transition state."
     },
     {
       "id": "5-43",
@@ -5171,7 +5171,7 @@ const QUESTIONS = {
         "ΔH is completely unrelated to either activation energy"
       ],
       "correct": 0,
-      "explanation": "ΔH equals the difference between the forward and reverse activation energies — this makes sense since both Ea values are measured relative to the same transition state peak, just from opposite starting points (reactants vs. products), so subtracting them recovers the net energy difference between reactants and products. Choice C wrongly adds the two activation energies instead of subtracting them. Choice B invents a ratio relationship that has no basis in how these quantities are defined. Choice D denies any relationship at all, which is incorrect — the three quantities are directly connected through the shared transition-state reference point."
+      "explanation": "Correct: (A) ΔH = Ea(forward) − Ea(reverse). ΔH equals the difference between the forward and reverse activation energies — this makes sense since both Ea values are measured relative to the same transition state peak, just from opposite starting points (reactants vs. products), so subtracting them recovers the net energy difference between reactants and products. Choice C wrongly adds the two activation energies instead of subtracting them. Choice B invents a ratio relationship that has no basis in how these quantities are defined. Choice D denies any relationship at all, which is incorrect — the three quantities are directly connected through the shared transition-state reference point."
     },
     {
       "id": "5-44",
@@ -5184,7 +5184,7 @@ const QUESTIONS = {
         "Temperature and Ea are the same quantity."
       ],
       "correct": 0,
-      "explanation": "Activation energy is a fixed property of the specific reaction pathway (the energy of the transition state relative to reactants) and does not change with temperature. What temperature DOES change is the fraction of molecules with enough energy to clear that fixed barrier (per the Maxwell-Boltzmann distribution). Choices B and C both wrongly claim temperature changes Ea (in opposite directions), but the reaction pathway's energy landscape is fixed. Choice D additionally conflates two distinct quantities: temperature measures average kinetic energy of the population, while Ea is a fixed energy barrier — they aren't the same thing."
+      "explanation": "Correct: (A) It has no effect on activation energy. Activation energy is a fixed property of the specific reaction pathway (the energy of the transition state relative to reactants) and does not change with temperature. What temperature DOES change is the fraction of molecules with enough energy to clear that fixed barrier (per the Maxwell-Boltzmann distribution). Choices B and C both wrongly claim temperature changes Ea (in opposite directions), but the reaction pathway's energy landscape is fixed. Choice D additionally conflates two distinct quantities: temperature measures average kinetic energy of the population, while Ea is a fixed energy barrier — they aren't the same thing."
     },
     {
       "id": "5-45",
@@ -5197,7 +5197,7 @@ const QUESTIONS = {
         "Endothermic; ΔH = −50 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "ΔH = Ea(forward) − Ea(reverse) = 30 − 80 = −50 kJ/mol. A negative ΔH indicates an exothermic reaction — consistent with a lower forward activation energy (easier to go forward) and a much higher reverse activation energy (harder to go backward), since products are lower in energy than reactants. Choice A (endothermic, +50) comes from subtracting in the wrong order (reverse − forward instead of forward − reverse), which also leads to misclassifying the reaction's thermicity. Choices B and D are each internally inconsistent: a positive ΔH is endothermic and a negative ΔH is exothermic by definition, so pairing 'exothermic' with +50 (B) or 'endothermic' with −50 (D) contradicts the sign convention itself, independent of the specific numbers given."
+      "explanation": "Correct: (C) Exothermic; ΔH = −50 kJ/mol. ΔH = Ea(forward) − Ea(reverse) = 30 − 80 = −50 kJ/mol. A negative ΔH indicates an exothermic reaction — consistent with a lower forward activation energy (easier to go forward) and a much higher reverse activation energy (harder to go backward), since products are lower in energy than reactants. Choice A (endothermic, +50) comes from subtracting in the wrong order (reverse − forward instead of forward − reverse), which also leads to misclassifying the reaction's thermicity. Choices B and D are each internally inconsistent: a positive ΔH is endothermic and a negative ΔH is exothermic by definition, so pairing 'exothermic' with +50 (B) or 'endothermic' with −50 (D) contradicts the sign convention itself, independent of the specific numbers given."
     },
     {
       "id": "5-46",
@@ -5210,7 +5210,7 @@ const QUESTIONS = {
         "A species present at the start and end of the reaction, unchanged."
       ],
       "correct": 0,
-      "explanation": "An intermediate is generated as a product in an early mechanism step and then fully consumed as a reactant in a subsequent step — because it's used up by the end, it doesn't appear in the overall (net) balanced equation, even though it's essential to how the reaction actually proceeds. Choice D describes a catalyst (present unchanged throughout), not an intermediate. Choice B also describes a catalyst's defining behavior (speeds up the reaction without being consumed). Choice C is a category error — it describes a step in the mechanism, not a chemical species, and specifically describes the rate-determining step, an entirely different concept from an intermediate."
+      "explanation": "Correct: (A) A species produced then fully consumed in a later step. An intermediate is generated as a product in an early mechanism step and then fully consumed as a reactant in a subsequent step — because it's used up by the end, it doesn't appear in the overall (net) balanced equation, even though it's essential to how the reaction actually proceeds. Choice D describes a catalyst (present unchanged throughout), not an intermediate. Choice B also describes a catalyst's defining behavior (speeds up the reaction without being consumed). Choice C is a category error — it describes a step in the mechanism, not a chemical species, and specifically describes the rate-determining step, an entirely different concept from an intermediate."
     },
     {
       "id": "5-48",
@@ -5223,7 +5223,7 @@ const QUESTIONS = {
         "2A + B → D"
       ],
       "correct": 3,
-      "explanation": "Adding both steps: A + B + C + A → C + D. Cancelling C (appears as a product in step 1, reactant in step 2 — a true intermediate): A + B + A → D, which combines to 2A + B → D. Choices B and C are each just a single individual step (step 1 and step 2, respectively) rather than the full overall reaction obtained by adding both steps and cancelling the intermediate C. Choice A correctly doubles A but incorrectly doubles B as well — B only appears once, in step 1, so it should remain as 1B, not 2B."
+      "explanation": "Correct: (D) 2A + B → D. Adding both steps: A + B + C + A → C + D. Cancelling C (appears as a product in step 1, reactant in step 2 — a true intermediate): A + B + A → D, which combines to 2A + B → D. Choices B and C are each just a single individual step (step 1 and step 2, respectively) rather than the full overall reaction obtained by adding both steps and cancelling the intermediate C. Choice A correctly doubles A but incorrectly doubles B as well — B only appears once, in step 1, so it should remain as 1B, not 2B."
     },
     {
       "id": "5-49",
@@ -5236,7 +5236,7 @@ const QUESTIONS = {
         "This is not actually a requirement for a valid mechanism."
       ],
       "correct": 2,
-      "explanation": "A mechanism is a proposed, physically plausible explanation for how a known overall reaction occurs at the molecular level. Since the overall reaction's stoichiometry is an experimentally observed fact, any valid mechanism must sum (after cancelling intermediates) to reproduce that exact overall equation — otherwise the mechanism doesn't actually explain the reaction it claims to explain. Choice A wrongly limits the requirement to just the first step; it's the sum of every step, not any single step, that must match. Choices B and D simply deny that this consistency requirement exists at all, which is false — it's the core criterion any proposed mechanism must satisfy."
+      "explanation": "Correct: (C) Steps must sum to the reaction's known, measured stoichiometry. A mechanism is a proposed, physically plausible explanation for how a known overall reaction occurs at the molecular level. Since the overall reaction's stoichiometry is an experimentally observed fact, any valid mechanism must sum (after cancelling intermediates) to reproduce that exact overall equation — otherwise the mechanism doesn't actually explain the reaction it claims to explain. Choice A wrongly limits the requirement to just the first step; it's the sum of every step, not any single step, that must match. Choices B and D simply deny that this consistency requirement exists at all, which is false — it's the core criterion any proposed mechanism must satisfy."
     },
     {
       "id": "5-50",
@@ -5249,7 +5249,7 @@ const QUESTIONS = {
         "Up to 2, one fewer than the step count"
       ],
       "correct": 3,
-      "explanation": "Each 'connection' between consecutive steps can introduce one intermediate (a species produced in one step and consumed in the next), so a mechanism with n steps can have at most n−1 intermediates. A 3-step mechanism could therefore have up to 2 intermediates (though fewer, or a reused intermediate across non-adjacent steps, is also possible). Choice A overcounts — a 3-step mechanism has at most 2 connections between consecutive steps, not 3. Choice C understates the typical case; a genuine multistep mechanism generally needs at least one intermediate to link its steps together. Choice B arbitrarily fixes a number that actually varies by mechanism, up to the maximum of n−1."
+      "explanation": "Correct: (D) Up to 2, one fewer than the step count. Each 'connection' between consecutive steps can introduce one intermediate (a species produced in one step and consumed in the next), so a mechanism with n steps can have at most n−1 intermediates. A 3-step mechanism could therefore have up to 2 intermediates (though fewer, or a reused intermediate across non-adjacent steps, is also possible). Choice A overcounts — a 3-step mechanism has at most 2 connections between consecutive steps, not 3. Choice C understates the typical case; a genuine multistep mechanism generally needs at least one intermediate to link its steps together. Choice B arbitrarily fixes a number that actually varies by mechanism, up to the maximum of n−1."
     },
     {
       "id": "5-51",
@@ -5262,7 +5262,7 @@ const QUESTIONS = {
         "3X + Y → X₂Y"
       ],
       "correct": 2,
-      "explanation": "Adding all three steps: X₂ + X + Y + X + XY → 2X + XY + X₂Y. Cancelling species appearing on both sides — X appears as 2X produced in step 1 and 2X consumed total in steps 2 and 3 (1 in each), fully cancelling; XY appears as a product in step 2 and reactant in step 3, fully cancelling. What remains: X₂ + Y → X₂Y. Choice A (2X + Y → X₂Y) treats X as a net reactant instead of recognizing it's fully generated and then fully consumed as an intermediate, so it should cancel entirely, leaving X₂ (not 2X) as the actual reactant. Choice B invents an extra Y that doesn't arise from summing the three steps — only one Y (from step 2) is ever used. Choice D (3X + Y → X₂Y) similarly fails to cancel X as an intermediate, leaving stray X atoms in the 'overall' equation that shouldn't be there."
+      "explanation": "Correct: (C) X₂ + Y → X₂Y. Adding all three steps: X₂ + X + Y + X + XY → 2X + XY + X₂Y. Cancelling species appearing on both sides — X appears as 2X produced in step 1 and 2X consumed total in steps 2 and 3 (1 in each), fully cancelling; XY appears as a product in step 2 and reactant in step 3, fully cancelling. What remains: X₂ + Y → X₂Y. Choice A (2X + Y → X₂Y) treats X as a net reactant instead of recognizing it's fully generated and then fully consumed as an intermediate, so it should cancel entirely, leaving X₂ (not 2X) as the actual reactant. Choice B invents an extra Y that doesn't arise from summing the three steps — only one Y (from step 2) is ever used. Choice D (3X + Y → X₂Y) similarly fails to cancel X as an intermediate, leaving stray X atoms in the 'overall' equation that shouldn't be there."
     },
     {
       "id": "5-53",
@@ -5275,7 +5275,7 @@ const QUESTIONS = {
         "Rate = k[NO₂]"
       ],
       "correct": 0,
-      "explanation": "Correct: Rate = k[NO<sub>2</sub>][CO]. When the slow (rate-determining) step is the FIRST step, its reactants are the original reactants, so the rate law is written directly from that step as if it were an elementary reaction: each reactant's concentration to the power of its coefficient. Step 1 has one NO<sub>2</sub> and one CO, so Rate = k[NO<sub>2</sub>][CO]. No intermediate shows up in the rate law here, so no substitution is needed.\n\n(B) is wrong because it uses the products of the slow step, NO and CO<sub>2</sub>, instead of the reactants.\n(C) and\n(D) are wrong because each leaves out one of the two reactants, but both particles collide in the slow step, so both must be in the rate law."
+      "explanation": "Correct: (A) Rate = k[NO<sub>2</sub>][CO]. When the slow (rate-determining) step is the FIRST step, its reactants are the original reactants, so the rate law is written directly from that step as if it were an elementary reaction: each reactant's concentration to the power of its coefficient. Step 1 has one NO<sub>2</sub> and one CO, so Rate = k[NO<sub>2</sub>][CO]. No intermediate shows up in the rate law here, so no substitution is needed.\n\n(B) is wrong because it uses the products of the slow step, NO and CO<sub>2</sub>, instead of the reactants.\n(C) and\n(D) are wrong because each leaves out one of the two reactants, but both particles collide in the slow step, so both must be in the rate law."
     },
     {
       "id": "5-54",
@@ -5288,7 +5288,7 @@ const QUESTIONS = {
         "It is the step that releases the most energy."
       ],
       "correct": 0,
-      "explanation": "Just like the narrowest section of a highway limits total traffic flow no matter how fast cars move elsewhere, the slowest step in a mechanism limits the overall reaction rate no matter how quickly the other steps occur — this is why the overall rate law is derived from (or heavily influenced by) this specific step. Choice B wrongly assumes the RDS is always first — it can occur at any position; what matters is which step is slowest, not its order. Choice C confuses molecularity with being rate-limiting — a step's speed, not its number of reactants, determines whether it's the bottleneck. Choice D confuses energy release (thermodynamics) with reaction speed (kinetics) — a highly exothermic step isn't necessarily slow."
+      "explanation": "Correct: (A) It is the slowest step, limiting overall reaction speed. Just like the narrowest section of a highway limits total traffic flow no matter how fast cars move elsewhere, the slowest step in a mechanism limits the overall reaction rate no matter how quickly the other steps occur — this is why the overall rate law is derived from (or heavily influenced by) this specific step. Choice B wrongly assumes the RDS is always first — it can occur at any position; what matters is which step is slowest, not its order. Choice C confuses molecularity with being rate-limiting — a step's speed, not its number of reactants, determines whether it's the bottleneck. Choice D confuses energy release (thermodynamics) with reaction speed (kinetics) — a highly exothermic step isn't necessarily slow."
     },
     {
       "id": "5-55",
@@ -5301,7 +5301,7 @@ const QUESTIONS = {
         "The intermediate is simply ignored and left out of the calculation entirely."
       ],
       "correct": 1,
-      "explanation": "Since intermediates aren't present in the overall reaction (and their concentration typically isn't directly measurable), any intermediate appearing in the rate-determining step's rate expression must be replaced with an equivalent expression in terms of actual reactants, derived from an earlier fast equilibrium step (5.8) or the steady-state approximation (5.9). Choice C overreacts — eliminating an intermediate is a routine, fixable situation, not a fatal flaw. Choice A invents an arbitrary, chemically meaningless assumption (intermediate concentration = 1 M). Choice D is mathematically invalid — simply dropping a term changes the rate law's actual dependence."
+      "explanation": "Correct: (B) Substitute it out using a fast-equilibrium or steady-state expression. Since intermediates aren't present in the overall reaction (and their concentration typically isn't directly measurable), any intermediate appearing in the rate-determining step's rate expression must be replaced with an equivalent expression in terms of actual reactants, derived from an earlier fast equilibrium step (5.8) or the steady-state approximation (5.9). Choice C overreacts — eliminating an intermediate is a routine, fixable situation, not a fatal flaw. Choice A invents an arbitrary, chemically meaningless assumption (intermediate concentration = 1 M). Choice D is mathematically invalid — simply dropping a term changes the rate law's actual dependence."
     },
     {
       "id": "5-56",
@@ -5314,7 +5314,7 @@ const QUESTIONS = {
         "Rate = k[NO][O₂]"
       ],
       "correct": 2,
-      "explanation": "The RDS gives Rate = k₂[N₂O₂][O₂], but N₂O₂ is an intermediate. Using the fast equilibrium in step 1 (forward rate = reverse rate): k₁[NO]² = k₋₁[N₂O₂], so [N₂O₂] = (k₁/k₋₁)[NO]². Substituting into the RDS rate law: Rate = k₂(k₁/k₋₁)[NO]²[O₂] = k[NO]²[O₂], where k combines all the individual rate constants. Choice A still contains the intermediate N₂O₂, showing the necessary substitution was never actually carried out. Choice B is simply the unsubstituted RDS rate law — the raw expression before replacing [N₂O₂], still containing an intermediate that can't appear in a final rate law. Choice D correctly eliminates N₂O₂ but drops the exponent of 2 on [NO], forgetting that the equilibrium step (2NO ⇌ N₂O₂) is itself second order in NO, which carries through into the substituted rate law."
+      "explanation": "Correct: (C) Rate = k[NO]²[O₂]. The RDS gives Rate = k₂[N₂O₂][O₂], but N₂O₂ is an intermediate. Using the fast equilibrium in step 1 (forward rate = reverse rate): k₁[NO]² = k₋₁[N₂O₂], so [N₂O₂] = (k₁/k₋₁)[NO]². Substituting into the RDS rate law: Rate = k₂(k₁/k₋₁)[NO]²[O₂] = k[NO]²[O₂], where k combines all the individual rate constants. Choice A still contains the intermediate N₂O₂, showing the necessary substitution was never actually carried out. Choice B is simply the unsubstituted RDS rate law — the raw expression before replacing [N₂O₂], still containing an intermediate that can't appear in a final rate law. Choice D correctly eliminates N₂O₂ but drops the exponent of 2 on [NO], forgetting that the equilibrium step (2NO ⇌ N₂O₂) is itself second order in NO, which carries through into the substituted rate law."
     },
     {
       "id": "5-57",
@@ -5327,7 +5327,7 @@ const QUESTIONS = {
         "Rate laws never need to match proposed mechanisms."
       ],
       "correct": 0,
-      "explanation": "A valid mechanism's predicted rate law (based on the rate-determining step, accounting for any necessary intermediate substitutions) must match the experimentally measured rate law. Since the proposed single elementary step predicts order 2 in B, but experiment shows order 1 in B, this specific proposed mechanism must be rejected as inconsistent with the data — the actual mechanism must be different (likely multi-step). Choice C simply asserts agreement that isn't there. Choice B wrongly blames the experimental data; a mismatch means the proposed mechanism should be doubted, not the measured rate law. Choice D denies the fundamental testing relationship between mechanisms and rate laws."
+      "explanation": "Correct: (A) It is inconsistent with the data and must be rejected. A valid mechanism's predicted rate law (based on the rate-determining step, accounting for any necessary intermediate substitutions) must match the experimentally measured rate law. Since the proposed single elementary step predicts order 2 in B, but experiment shows order 1 in B, this specific proposed mechanism must be rejected as inconsistent with the data — the actual mechanism must be different (likely multi-step). Choice C simply asserts agreement that isn't there. Choice B wrongly blames the experimental data; a mismatch means the proposed mechanism should be doubted, not the measured rate law. Choice D denies the fundamental testing relationship between mechanisms and rate laws."
     },
     {
       "id": "5-58",
@@ -5340,7 +5340,7 @@ const QUESTIONS = {
         "This statement is false; mechanisms can always be definitively proven."
       ],
       "correct": 2,
-      "explanation": "Because more than one proposed mechanism can, in principle, predict an identical rate law, matching the experimental rate law is strong supporting evidence but not absolute proof that a specific mechanism is THE correct one — a genuine epistemic limitation of kinetics, and part of why additional evidence (like direct intermediate detection) strengthens a proposed mechanism further. Choice B mischaracterizes mechanism proposal as random guessing that can't be tested — mechanisms are grounded in chemical reasoning and tested against measured rate laws. Choice A denies the entire rate-law-mechanism connection this unit builds on. Choice D directly contradicts the question's own premise."
+      "explanation": "Correct: (C) Different mechanisms can yield the same rate law. Because more than one proposed mechanism can, in principle, predict an identical rate law, matching the experimental rate law is strong supporting evidence but not absolute proof that a specific mechanism is THE correct one — a genuine epistemic limitation of kinetics, and part of why additional evidence (like direct intermediate detection) strengthens a proposed mechanism further. Choice B mischaracterizes mechanism proposal as random guessing that can't be tested — mechanisms are grounded in chemical reasoning and tested against measured rate laws. Choice A denies the entire rate-law-mechanism connection this unit builds on. Choice D directly contradicts the question's own premise."
     },
     {
       "id": "5-59",
@@ -5353,7 +5353,7 @@ const QUESTIONS = {
         "[B] is proportional to [A], per the fast equilibrium in step 1."
       ],
       "correct": 3,
-      "explanation": "The RDS predicts Rate = k₂[B][C], with B as an intermediate needing substitution. From the fast equilibrium (k₁[A] = k₋₁[B]), [B] = (k₁/k₋₁)[A] — directly proportional to [A]. Substituting: Rate = k₂(k₁/k₋₁)[A][C] = k[A][C], exactly matching the given experimental rate law. This confirms the mechanism is consistent with the data, and specifically requires [B] to be proportional to [A] for that consistency to hold. Choice B overstates the relationship — proportionality doesn't require [A] and [B] to be numerically equal, just related by a constant factor. Choice C is the opposite error: if [B] were independent of [A], the substitution couldn't reproduce the observed first-order dependence on A. Choice A wrongly rejects the mechanism, when the derivation shows it successfully reproduces the given rate law.",
+      "explanation": "Correct: (D) [B] is proportional to [A], per the fast equilibrium in step 1. The RDS predicts Rate = k₂[B][C], with B as an intermediate needing substitution. From the fast equilibrium (k₁[A] = k₋₁[B]), [B] = (k₁/k₋₁)[A] — directly proportional to [A]. Substituting: Rate = k₂(k₁/k₋₁)[A][C] = k[A][C], exactly matching the given experimental rate law. This confirms the mechanism is consistent with the data, and specifically requires [B] to be proportional to [A] for that consistency to hold. Choice B overstates the relationship — proportionality doesn't require [A] and [B] to be numerically equal, just related by a constant factor. Choice C is the opposite error: if [B] were independent of [A], the substitution couldn't reproduce the observed first-order dependence on A. Choice A wrongly rejects the mechanism, when the derivation shows it successfully reproduces the given rate law.",
       "stretch": true
     },
     {
@@ -5367,7 +5367,7 @@ const QUESTIONS = {
         "An intermediate's concentration stays nearly constant."
       ],
       "correct": 3,
-      "explanation": "The steady-state approximation assumes that, after an initial brief period, a reactive intermediate's concentration stays roughly constant because it's being formed and consumed at nearly equal rates — this allows solving for that intermediate's concentration and substituting it out of the rate law, without needing to identify a specific 'fast equilibrium' step. Choice C overgeneralizes — it's specifically the intermediate's concentration treated as roughly constant, not every reactant's. Choice A makes an unrelated, false claim — different elementary steps generally have different rate constants. Choice B confuses the steady-state approximation with the separate fast pre-equilibrium method (5.8) — steady-state doesn't require true chemical equilibrium."
+      "explanation": "Correct: (D) An intermediate's concentration stays nearly constant. The steady-state approximation assumes that, after an initial brief period, a reactive intermediate's concentration stays roughly constant because it's being formed and consumed at nearly equal rates — this allows solving for that intermediate's concentration and substituting it out of the rate law, without needing to identify a specific 'fast equilibrium' step. Choice C overgeneralizes — it's specifically the intermediate's concentration treated as roughly constant, not every reactant's. Choice A makes an unrelated, false claim — different elementary steps generally have different rate constants. Choice B confuses the steady-state approximation with the separate fast pre-equilibrium method (5.8) — steady-state doesn't require true chemical equilibrium."
     },
     {
       "id": "5-62",
@@ -5380,7 +5380,7 @@ const QUESTIONS = {
         "Determine the reaction's equilibrium constant directly."
       ],
       "correct": 2,
-      "explanation": "Setting the intermediate's formation rate equal to its consumption rate creates a solvable algebraic equation for that intermediate's (steady-state) concentration in terms of other, non-intermediate species — which can then be substituted into the rate-determining step's rate expression, giving a rate law expressed only in terms of actual reactants. Choice B confuses this kinetics technique with a thermodynamic calculation. Choice D is also off-target; steady-state doesn't assume equilibrium and isn't used to find K directly. Choice A has it backwards: the technique exists specifically so you CAN write a complete, intermediate-free rate law, not so you can avoid writing one."
+      "explanation": "Correct: (C) Solve for the intermediate's concentration. Setting the intermediate's formation rate equal to its consumption rate creates a solvable algebraic equation for that intermediate's (steady-state) concentration in terms of other, non-intermediate species — which can then be substituted into the rate-determining step's rate expression, giving a rate law expressed only in terms of actual reactants. Choice B confuses this kinetics technique with a thermodynamic calculation. Choice D is also off-target; steady-state doesn't assume equilibrium and isn't used to find K directly. Choice A has it backwards: the technique exists specifically so you CAN write a complete, intermediate-free rate law, not so you can avoid writing one."
     },
     {
       "id": "5-63",
@@ -5393,7 +5393,7 @@ const QUESTIONS = {
         "Steady-state approximations only apply to zero-order reactions."
       ],
       "correct": 0,
-      "explanation": "Fast pre-equilibrium assumes a specific structural feature of the mechanism (an early step reaching genuine dynamic equilibrium before the slow step matters), while the steady-state approximation makes a more general assumption (formation rate ≈ consumption rate for the intermediate) that doesn't require identifying a distinctly fast, reversible early step — applicable to a broader range of mechanisms, though the two methods sometimes agree on the final result. Choice C overclaims identity between the two methods, which rest on different underlying assumptions. Choice D invents an arbitrary restriction; steady-state isn't limited to zero-order reactions. Choice B is simply false — fast pre-equilibrium relies on the same kind of algebraic substitution as steady-state."
+      "explanation": "Correct: (A) Steady-state assumes equal rates; pre-equilibrium assumes equilibrium. Fast pre-equilibrium assumes a specific structural feature of the mechanism (an early step reaching genuine dynamic equilibrium before the slow step matters), while the steady-state approximation makes a more general assumption (formation rate ≈ consumption rate for the intermediate) that doesn't require identifying a distinctly fast, reversible early step — applicable to a broader range of mechanisms, though the two methods sometimes agree on the final result. Choice C overclaims identity between the two methods, which rest on different underlying assumptions. Choice D invents an arbitrary restriction; steady-state isn't limited to zero-order reactions. Choice B is simply false — fast pre-equilibrium relies on the same kind of algebraic substitution as steady-state."
     },
     {
       "id": "5-64",
@@ -5406,7 +5406,7 @@ const QUESTIONS = {
         "Catalysts"
       ],
       "correct": 0,
-      "explanation": "Correct: intermediates. On a multistep energy diagram, the peaks are transition states and the valleys between them are intermediates. An intermediate is a species made in one step and used up in a later step; it is a real, though short-lived, species that sits in a local energy minimum. Memory trick: peaks = transition states (unstable, cannot be isolated); valleys = intermediates.\n\n(C) is wrong because transition states are the peaks, the opposite feature.\n(B) is wrong because the overall ΔH is the net difference between the first reactants and the final products, not one valley.\n(D) is wrong because a catalyst is not a valley; it is identified by being used and then regenerated, so it does not appear in the overall equation."
+      "explanation": "Correct: (A) Intermediates. On a multistep energy diagram, the peaks are transition states and the valleys between them are intermediates. An intermediate is a species made in one step and used up in a later step; it is a real, though short-lived, species that sits in a local energy minimum. Memory trick: peaks = transition states (unstable, cannot be isolated); valleys = intermediates.\n\n(C) is wrong because transition states are the peaks, the opposite feature.\n(B) is wrong because the overall ΔH is the net difference between the first reactants and the final products, not one valley.\n(D) is wrong because a catalyst is not a valley; it is identified by being used and then regenerated, so it does not appear in the overall equation."
     },
     {
       "id": "5-65",
@@ -5419,7 +5419,7 @@ const QUESTIONS = {
         "It's always the very first hump, regardless of height."
       ],
       "correct": 1,
-      "explanation": "Correct: the step with the tallest energy hump. The rate-determining step is the slowest step, and the slowest step has the largest activation energy. On the diagram, that is the step whose peak is highest above its own starting valley (the energy the step must climb from where it begins). Position in the sequence does not matter; any step can be the slowest.\n\n(A) and\n\n(D) are wrong because they fix the rate-determining step as first or last no matter what the heights are.\n(C) is wrong because it reverses the logic: the lowest barrier is the fastest step, not the slowest."
+      "explanation": "Correct: (B) The step with the tallest energy hump. The rate-determining step is the slowest step, and the slowest step has the largest activation energy. On the diagram, that is the step whose peak is highest above its own starting valley (the energy the step must climb from where it begins). Position in the sequence does not matter; any step can be the slowest.\n\n(A) and\n\n(D) are wrong because they fix the rate-determining step as first or last no matter what the heights are.\n(C) is wrong because it reverses the logic: the lowest barrier is the fastest step, not the slowest."
     },
     {
       "id": "5-66",
@@ -5432,7 +5432,7 @@ const QUESTIONS = {
         "The reaction is definitely endothermic overall."
       ],
       "correct": 0,
-      "explanation": "Since the tallest hump corresponds to the largest activation energy barrier, and that's the second hump here, the second step is rate-determining — the overall rate law should be derived primarily from this step (using the substitution methods from 5.8 or 5.9 if it involves an intermediate). Choice D wrongly infers overall thermicity from a single hump's height — whether the reaction is endo- or exothermic depends on reactant vs. final product energy, not which step has the tallest barrier. Choice B draws an unsupported claim about the first step from information that only describes the second step's barrier. Choice C invents an unrelated claim about catalysis that hump-height information doesn't support."
+      "explanation": "Correct: (A) The rate law is determined by the second step. Since the tallest hump corresponds to the largest activation energy barrier, and that's the second hump here, the second step is rate-determining — the overall rate law should be derived primarily from this step (using the substitution methods from 5.8 or 5.9 if it involves an intermediate). Choice D wrongly infers overall thermicity from a single hump's height — whether the reaction is endo- or exothermic depends on reactant vs. final product energy, not which step has the tallest barrier. Choice B draws an unsupported claim about the first step from information that only describes the second step's barrier. Choice C invents an unrelated claim about catalysis that hump-height information doesn't support."
     },
     {
       "id": "5-67",
@@ -5445,7 +5445,7 @@ const QUESTIONS = {
         "Yes, but only if the reaction has exactly two steps, one releasing heat and the other absorbing it in equal amount."
       ],
       "correct": 2,
-      "explanation": "The overall ΔH is simply the sum of the ΔH values of each individual elementary step. It's entirely possible (and common) for some steps to be endothermic and others exothermic, as long as they combine algebraically to the correct overall (here, exothermic) ΔH — there's no rule requiring every step to individually share the overall reaction's sign, and the rate-determining step is identified by activation energy, not by its own thermicity. Choice D wrongly restricts the principle to two-step reactions specifically — no such limitation exists; the same reasoning holds for any number of steps. Choice B invents an unfounded rule tying the RDS to being 'the most exothermic step,' when the RDS is identified purely by barrier height. Choice A states the exact misconception this question is testing against — individual step thermicity need not match the overall reaction's sign, only the algebraic sum must.",
+      "explanation": "Correct: (C) Yes — individual steps can be endo- or exothermic independently, as long as they sum to the correct overall ΔH. The overall ΔH is simply the sum of the ΔH values of each individual elementary step. It's entirely possible (and common) for some steps to be endothermic and others exothermic, as long as they combine algebraically to the correct overall (here, exothermic) ΔH — there's no rule requiring every step to individually share the overall reaction's sign, and the rate-determining step is identified by activation energy, not by its own thermicity. Choice D wrongly restricts the principle to two-step reactions specifically — no such limitation exists; the same reasoning holds for any number of steps. Choice B invents an unfounded rule tying the RDS to being 'the most exothermic step,' when the RDS is identified purely by barrier height. Choice A states the exact misconception this question is testing against — individual step thermicity need not match the overall reaction's sign, only the algebraic sum must.",
       "stretch": true
     },
     {
@@ -5459,7 +5459,7 @@ const QUESTIONS = {
         "By shifting the equilibrium position toward products."
       ],
       "correct": 0,
-      "explanation": "A catalyst works by enabling a different mechanism (a different reaction pathway) with a lower overall activation energy barrier than the uncatalyzed reaction — this allows a greater fraction of collisions to have sufficient energy to react, increasing rate, without changing reactant/product concentrations or the reaction's thermodynamics. Choice B confuses a catalyst with simply adding more reactant — a catalyst doesn't change reactant concentrations. Choice C confuses catalysis with heating — a catalyst provides a lower-energy pathway at a given temperature, it doesn't raise the temperature. Choice D is a common misconception; a catalyst does not shift the equilibrium position toward products, since it speeds up the forward and reverse reactions equally — a purely kinetic effect."
+      "explanation": "Correct: (A) By providing a lower-activation-energy pathway. A catalyst works by enabling a different mechanism (a different reaction pathway) with a lower overall activation energy barrier than the uncatalyzed reaction — this allows a greater fraction of collisions to have sufficient energy to react, increasing rate, without changing reactant/product concentrations or the reaction's thermodynamics. Choice B confuses a catalyst with simply adding more reactant — a catalyst doesn't change reactant concentrations. Choice C confuses catalysis with heating — a catalyst provides a lower-energy pathway at a given temperature, it doesn't raise the temperature. Choice D is a common misconception; a catalyst does not shift the equilibrium position toward products, since it speeds up the forward and reverse reactions equally — a purely kinetic effect."
     },
     {
       "id": "5-69",
@@ -5472,7 +5472,7 @@ const QUESTIONS = {
         "No — ΔH is unaffected by a catalyst."
       ],
       "correct": 3,
-      "explanation": "Since a catalyst only provides an alternative pathway (changing the activation energy and mechanism), it does not alter the actual energy of the reactants or products themselves — ΔH, which depends only on those two energy values, stays exactly the same with or without a catalyst. Choices B and C both wrongly claim a catalyst shifts ΔH (in opposite directions), but a catalyst never touches the fixed reactant/product energy levels that determine ΔH. Choice A suggests the effect might depend on the specific catalyst, but this is false too — by definition, any catalyst only offers an alternate pathway, so ΔH is unchanged regardless of which catalyst is used."
+      "explanation": "Correct: (D) No — ΔH is unaffected by a catalyst. Since a catalyst only provides an alternative pathway (changing the activation energy and mechanism), it does not alter the actual energy of the reactants or products themselves — ΔH, which depends only on those two energy values, stays exactly the same with or without a catalyst. Choices B and C both wrongly claim a catalyst shifts ΔH (in opposite directions), but a catalyst never touches the fixed reactant/product energy levels that determine ΔH. Choice A suggests the effect might depend on the specific catalyst, but this is false too — by definition, any catalyst only offers an alternate pathway, so ΔH is unchanged regardless of which catalyst is used."
     },
     {
       "id": "5-70",
@@ -5485,7 +5485,7 @@ const QUESTIONS = {
         "A catalyst is a reactant early on, then a product later — consumed, then regenerated."
       ],
       "correct": 3,
-      "explanation": "A catalyst is consumed early in the mechanism (appearing as a reactant) but is fully regenerated later (reappearing as a product) — the opposite pattern from an intermediate, which is produced first and consumed later. This 'consumed then regenerated' pattern is exactly why a catalyst doesn't appear in the overall net equation, despite being essential to the actual mechanism. Choice A describes the intermediate's pattern instead of the catalyst's — exactly backwards. Choice B is false; a catalyst does appear explicitly within the individual mechanism steps, it just cancels out of the overall net equation. Choice C denies the very distinction the question asks about — catalysts and intermediates follow opposite step-ordering patterns."
+      "explanation": "Correct: (D) A catalyst is a reactant early on, then a product later — consumed, then regenerated. A catalyst is consumed early in the mechanism (appearing as a reactant) but is fully regenerated later (reappearing as a product) — the opposite pattern from an intermediate, which is produced first and consumed later. This 'consumed then regenerated' pattern is exactly why a catalyst doesn't appear in the overall net equation, despite being essential to the actual mechanism. Choice A describes the intermediate's pattern instead of the catalyst's — exactly backwards. Choice B is false; a catalyst does appear explicitly within the individual mechanism steps, it just cancels out of the overall net equation. Choice C denies the very distinction the question asks about — catalysts and intermediates follow opposite step-ordering patterns."
     },
     {
       "id": "5-72",
@@ -5498,7 +5498,7 @@ const QUESTIONS = {
         "Yes, a catalyst always shifts equilibrium toward reactants."
       ],
       "correct": 0,
-      "explanation": "Because a catalyst lowers the activation energy for both the forward and reverse reactions by an equal amount (it doesn't change ΔH), both directions speed up proportionally. Equilibrium is reached more quickly, but the final equilibrium position (the relative amounts of reactants and products) remains exactly the same as without the catalyst — a purely kinetic effect, not a thermodynamic one. Choices B and D both wrongly claim a catalyst shifts the equilibrium position, but since forward and reverse rates both increase by the same factor, the equilibrium ratio is unaffected. Choice C directly contradicts what a catalyst is — speeding up rate is a catalyst's defining function, just not by shifting the equilibrium position."
+      "explanation": "Correct: (A) No — a catalyst doesn't shift the equilibrium position. Because a catalyst lowers the activation energy for both the forward and reverse reactions by an equal amount (it doesn't change ΔH), both directions speed up proportionally. Equilibrium is reached more quickly, but the final equilibrium position (the relative amounts of reactants and products) remains exactly the same as without the catalyst — a purely kinetic effect, not a thermodynamic one. Choices B and D both wrongly claim a catalyst shifts the equilibrium position, but since forward and reverse rates both increase by the same factor, the equilibrium ratio is unaffected. Choice C directly contradicts what a catalyst is — speeding up rate is a catalyst's defining function, just not by shifting the equilibrium position."
     },
     {
       "id": "5-73",
@@ -5511,7 +5511,7 @@ const QUESTIONS = {
         "Enzymes have a specific 3D active site matching only certain substrates."
       ],
       "correct": 3,
-      "explanation": "An enzyme's active site is a precisely shaped 3D pocket that only accommodates substrate molecules with a closely matching shape and chemical functional groups (the 'lock and key' or 'induced fit' models) — this specificity is a direct, biological-scale illustration of the orientation requirement from the collision model (5.5), taken to an extremely refined, evolved level of precision. Choice A directly contradicts the high specificity the question describes. Choice B denies the shape-based mechanism actually responsible for specificity. Choice C overgeneralizes to all catalysts; many non-enzyme catalysts (e.g., simple metal surface catalysts) are comparatively non-specific, so high substrate specificity is a hallmark of enzymes particularly, not catalysts as a whole."
+      "explanation": "Correct: (D) Enzymes have a specific 3D active site matching only certain substrates. An enzyme's active site is a precisely shaped 3D pocket that only accommodates substrate molecules with a closely matching shape and chemical functional groups (the 'lock and key' or 'induced fit' models) — this specificity is a direct, biological-scale illustration of the orientation requirement from the collision model (5.5), taken to an extremely refined, evolved level of precision. Choice A directly contradicts the high specificity the question describes. Choice B denies the shape-based mechanism actually responsible for specificity. Choice C overgeneralizes to all catalysts; many non-enzyme catalysts (e.g., simple metal surface catalysts) are comparatively non-specific, so high substrate specificity is a hallmark of enzymes particularly, not catalysts as a whole."
     },
     {
       "id": "5-76",
@@ -5566,7 +5566,7 @@ const QUESTIONS = {
         "≈ 2.08 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "Correct: ≈ 57.0 kJ/mol. Use the two-point Arrhenius equation: ln(k<sub>2</sub>/k<sub>1</sub>) = -(E<sub>a</sub>/R)(1/T<sub>2</sub> - 1/T<sub>1</sub>). Step 1: k<sub>2</sub>/k<sub>1</sub> = 3.60 x 10<sup>-3</sup> / 4.50 x 10<sup>-4</sup> = 8.00, and ln(8.00) = 2.079. Step 2: 1/330 - 1/300 = 0.0030303 - 0.0033333 = -3.03 x 10<sup>-4</sup> K<sup>-1</sup>. Step 3: solve for E<sub>a</sub> = (2.079)(8.314 J/mol K) / (3.03 x 10<sup>-4</sup>) = 5.70 x 10<sup>4</sup> J/mol = 57.0 kJ/mol. Be sure to use R in J (8.314) and convert to kJ at the end.\n\n(A) is wrong because 620 kJ/mol is about eleven times too large, as if a power of ten were lost in the 1/T difference or the J to kJ conversion.\n(D) is wrong because 2.08 is just ln(k<sub>2</sub>/k<sub>1</sub>), not yet multiplied by R and divided by the temperature term.\n(B) is wrong because 8.29 is close to the value of R, which is not the activation energy."
+      "explanation": "Correct: (C) ≈ 57.0 kJ/mol. Use the two-point Arrhenius equation: ln(k<sub>2</sub>/k<sub>1</sub>) = -(E<sub>a</sub>/R)(1/T<sub>2</sub> - 1/T<sub>1</sub>). Step 1: k<sub>2</sub>/k<sub>1</sub> = 3.60 x 10<sup>-3</sup> / 4.50 x 10<sup>-4</sup> = 8.00, and ln(8.00) = 2.079. Step 2: 1/330 - 1/300 = 0.0030303 - 0.0033333 = -3.03 x 10<sup>-4</sup> K<sup>-1</sup>. Step 3: solve for E<sub>a</sub> = (2.079)(8.314 J/mol K) / (3.03 x 10<sup>-4</sup>) = 5.70 x 10<sup>4</sup> J/mol = 57.0 kJ/mol. Be sure to use R in J (8.314) and convert to kJ at the end.\n\n(A) is wrong because 620 kJ/mol is about eleven times too large, as if a power of ten were lost in the 1/T difference or the J to kJ conversion.\n(D) is wrong because 2.08 is just ln(k<sub>2</sub>/k<sub>1</sub>), not yet multiplied by R and divided by the temperature term.\n(B) is wrong because 8.29 is close to the value of R, which is not the activation energy."
     },
     {
       "id": "5-75",
@@ -5579,7 +5579,7 @@ const QUESTIONS = {
         "≈ 9.75 × 10⁻¹ s⁻¹"
       ],
       "correct": 1,
-      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e<sup>2.389</sup> ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
+      "explanation": "Correct: (B) ≈ 1.31 × 10⁻² s⁻¹. ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e<sup>2.389</sup> ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
     }
   ],
   "6": [
@@ -5594,7 +5594,7 @@ const QUESTIONS = {
         "The reaction is exothermic, releasing heat."
       ],
       "correct": 3,
-      "explanation": "Feeling warmth means heat is flowing out of the system into the surroundings (including the container), which is the definition of exothermic (ΔH < 0). \"Must be reversible\" is wrong because reversibility is a separate kinetic/equilibrium idea unrelated to heat-flow direction. \"Endothermic\" has the sign backwards — an endothermic reaction absorbs heat and would make the container feel cold, not warm. \"No conclusion can be drawn\" is wrong because the warmth itself IS direct thermal evidence of heat release."
+      "explanation": "Correct: (D) The reaction is exothermic, releasing heat. Feeling warmth means heat is flowing out of the system into the surroundings (including the container), which is the definition of exothermic (ΔH < 0). \"Must be reversible\" is wrong because reversibility is a separate kinetic/equilibrium idea unrelated to heat-flow direction. \"Endothermic\" has the sign backwards — an endothermic reaction absorbs heat and would make the container feel cold, not warm. \"No conclusion can be drawn\" is wrong because the warmth itself IS direct thermal evidence of heat release."
     },
     {
       "id": "6-2",
@@ -5607,7 +5607,7 @@ const QUESTIONS = {
         "Positive"
       ],
       "correct": 3,
-      "explanation": "Endothermic processes absorb energy into the system, so the system's enthalpy increases, giving a positive ΔH. \"Zero\" would mean no net energy change, contradicting real heat absorption. \"Negative\" describes exothermic processes, the opposite case. \"Sign is unrelated\" is wrong because the sign of ΔH is precisely how endo/exothermic character is denoted by convention."
+      "explanation": "Correct: (D) Positive. Endothermic processes absorb energy into the system, so the system's enthalpy increases, giving a positive ΔH. \"Zero\" would mean no net energy change, contradicting real heat absorption. \"Negative\" describes exothermic processes, the opposite case. \"Sign is unrelated\" is wrong because the sign of ΔH is precisely how endo/exothermic character is denoted by convention."
     },
     {
       "id": "6-3",
@@ -5620,7 +5620,7 @@ const QUESTIONS = {
         "The ammonium nitrate must be undergoing a chemical decomposition."
       ],
       "correct": 2,
-      "explanation": "A cold feeling means heat is drawn from the surroundings (your hand, the solution) into the dissolving process, so dissolving NH₄NO₃ is endothermic — exactly why it's used in instant cold packs. \"Chemical decomposition\" is wrong because dissolving is a physical process (ions separating and hydrating), not a chemical change producing new substances. \"No energy change occurred\" directly contradicts the observation itself. \"Exothermic, releasing heat\" has the direction backwards: an exothermic process would warm the solution, not cool it."
+      "explanation": "Correct: (C) The dissolving process is endothermic. A cold feeling means heat is drawn from the surroundings (your hand, the solution) into the dissolving process, so dissolving NH₄NO₃ is endothermic — exactly why it's used in instant cold packs. \"Chemical decomposition\" is wrong because dissolving is a physical process (ions separating and hydrating), not a chemical change producing new substances. \"No energy change occurred\" directly contradicts the observation itself. \"Exothermic, releasing heat\" has the direction backwards: an exothermic process would warm the solution, not cool it."
     },
     {
       "id": "6-4",
@@ -5633,7 +5633,7 @@ const QUESTIONS = {
         "Products have lower enthalpy than reactants."
       ],
       "correct": 3,
-      "explanation": "ΔH = H(products) − H(reactants); for an exothermic process ΔH < 0, so products must sit at lower enthalpy than reactants. \"Always identical\" is wrong because enthalpy differs by definition whenever ΔH ≠ 0 — that would make every reaction athermic. \"No relationship\" ignores that ΔH quantitatively defines this exact relationship. \"Products have higher enthalpy\" describes an endothermic reaction, the reverse case."
+      "explanation": "Correct: (D) Products have lower enthalpy than reactants. ΔH = H(products) − H(reactants); for an exothermic process ΔH < 0, so products must sit at lower enthalpy than reactants. \"Always identical\" is wrong because enthalpy differs by definition whenever ΔH ≠ 0 — that would make every reaction athermic. \"No relationship\" ignores that ΔH quantitatively defines this exact relationship. \"Products have higher enthalpy\" describes an endothermic reaction, the reverse case."
     },
     {
       "id": "6-5",
@@ -5646,7 +5646,7 @@ const QUESTIONS = {
         "Steam condensing into liquid water"
       ],
       "correct": 1,
-      "explanation": "Melting requires energy input to loosen the rigid, ordered arrangement of a solid, making it endothermic for any substance. Freezing, deposition (vapor → solid), and condensing are each the reverse process — forming new or stronger intermolecular attractions — which release energy and are therefore all exothermic, not endothermic, so they don't fit the question."
+      "explanation": "Correct: (B) Ice melting into liquid water. Melting requires energy input to loosen the rigid, ordered arrangement of a solid, making it endothermic for any substance. Freezing, deposition (vapor → solid), and condensing are each the reverse process — forming new or stronger intermolecular attractions — which release energy and are therefore all exothermic, not endothermic, so they don't fit the question."
     },
     {
       "id": "6-6",
@@ -5659,7 +5659,7 @@ const QUESTIONS = {
         "Energy remains exactly constant within the system."
       ],
       "correct": 0,
-      "explanation": "In an exothermic process the system loses energy to the surroundings, which is exactly why the surroundings warm up. \"Mass increases\" confuses energy with mass — ordinary enthalpy changes don't correspond to any measurable mass change. \"Energy remains exactly constant\" is wrong because that would mean no heat transfer occurred at all, contradicting an exothermic process by definition. \"Energy is gained by the system\" describes an endothermic process, the reverse direction."
+      "explanation": "Correct: (A) Energy is lost by the system to the surroundings. In an exothermic process the system loses energy to the surroundings, which is exactly why the surroundings warm up. \"Mass increases\" confuses energy with mass — ordinary enthalpy changes don't correspond to any measurable mass change. \"Energy remains exactly constant\" is wrong because that would mean no heat transfer occurred at all, contradicting an exothermic process by definition. \"Energy is gained by the system\" describes an endothermic process, the reverse direction."
     },
     {
       "id": "6-7",
@@ -5672,7 +5672,7 @@ const QUESTIONS = {
         "It must have a ΔH value equal to zero."
       ],
       "correct": 0,
-      "explanation": "A hot pack releases heat into the surroundings, so its reaction must be exothermic (ΔH < 0). \"Cannot be a chemical reaction\" is wrong — chemical reactions are one of the most common sources of exothermic heat release; nothing about releasing heat rules out a chemical process. \"ΔH = 0\" would mean no net heat exchange, contradicting the noticeable warmth. \"Endothermic\" has the direction backwards — an endothermic pack would feel cold, like an instant cold pack."
+      "explanation": "Correct: (A) It must be exothermic, releasing heat outward. A hot pack releases heat into the surroundings, so its reaction must be exothermic (ΔH < 0). \"Cannot be a chemical reaction\" is wrong — chemical reactions are one of the most common sources of exothermic heat release; nothing about releasing heat rules out a chemical process. \"ΔH = 0\" would mean no net heat exchange, contradicting the noticeable warmth. \"Endothermic\" has the direction backwards — an endothermic pack would feel cold, like an instant cold pack."
     },
     {
       "id": "6-82",
@@ -5713,7 +5713,7 @@ const QUESTIONS = {
         "+70 kJ, endothermic"
       ],
       "correct": 3,
-      "explanation": "ΔH = E(products) − E(reactants) = 120 − 50 = +70 kJ; a positive ΔH means endothermic. \"+170 kJ, endothermic\" incorrectly adds the two energies instead of subtracting them. \"−170 kJ\" and \"−70 kJ, exothermic\" both have the wrong sign — that would only be correct if reactants sat at higher energy than products, but here it's the reverse — and \"−170 kJ\" additionally repeats the addition error."
+      "explanation": "Correct: (D) +70 kJ, endothermic. ΔH = E(products) − E(reactants) = 120 − 50 = +70 kJ; a positive ΔH means endothermic. \"+170 kJ, endothermic\" incorrectly adds the two energies instead of subtracting them. \"−170 kJ\" and \"−70 kJ, exothermic\" both have the wrong sign — that would only be correct if reactants sat at higher energy than products, but here it's the reverse — and \"−170 kJ\" additionally repeats the addition error."
     },
     {
       "id": "6-9",
@@ -5726,7 +5726,7 @@ const QUESTIONS = {
         "50 kJ"
       ],
       "correct": 0,
-      "explanation": "Ea(reverse) = E(transition state) − E(products) = 200 − 30 = 170 kJ. \"120 kJ\" is Ea(forward) [200 − 80], the barrier for the forward direction, not the reverse. \"50 kJ\" incorrectly computes E(reactants) − E(products) (80 − 30), which is just −ΔH, not an activation energy at all. \"230 kJ\" incorrectly adds the transition-state and product energies instead of subtracting."
+      "explanation": "Correct: (A) 170 kJ. Ea(reverse) = E(transition state) − E(products) = 200 − 30 = 170 kJ. \"120 kJ\" is Ea(forward) [200 − 80], the barrier for the forward direction, not the reverse. \"50 kJ\" incorrectly computes E(reactants) − E(products) (80 − 30), which is just −ΔH, not an activation energy at all. \"230 kJ\" incorrectly adds the transition-state and product energies instead of subtracting."
     },
     {
       "id": "6-10",
@@ -5739,7 +5739,7 @@ const QUESTIONS = {
         "The height of the peak above the product energy level"
       ],
       "correct": 0,
-      "explanation": "ΔH is the net energy change from start to finish, shown as the vertical gap between the reactant and product energy levels. \"Height of the peak above the reactants\" is Ea(forward), not ΔH. \"Height of the peak above the products\" is Ea(reverse), also not ΔH. \"Horizontal distance\" just tracks reaction progress/time and carries no energy information at all."
+      "explanation": "Correct: (A) The gap between reactant and product energy levels. ΔH is the net energy change from start to finish, shown as the vertical gap between the reactant and product energy levels. \"Height of the peak above the reactants\" is Ea(forward), not ΔH. \"Height of the peak above the products\" is Ea(reverse), also not ΔH. \"Horizontal distance\" just tracks reaction progress/time and carries no energy information at all."
     },
     {
       "id": "6-11",
@@ -5752,7 +5752,7 @@ const QUESTIONS = {
         "Their energy diagrams would be completely identical in every respect."
       ],
       "correct": 0,
-      "explanation": "Since Ea(forward) is fixed, the peak sits the same height above each reaction's own reactant level — but the highly exothermic reaction drops much further down to its product level, giving a larger |ΔH|, while Ea(forward) stays unchanged. \"Must have a much higher activation energy\" is backwards — a larger ΔH doesn't require a larger Ea; the two are independent quantities on the diagram. \"Completely identical\" is wrong because the product energy levels (and thus the overall diagram shapes) clearly differ even with equal Ea(forward). \"Never have a defined activation energy\" is simply false — every reaction, exothermic or not, must pass over an activation-energy barrier to proceed."
+      "explanation": "Correct: (A) A much larger energy drop to products, with the same peak height above reactants. Since Ea(forward) is fixed, the peak sits the same height above each reaction's own reactant level — but the highly exothermic reaction drops much further down to its product level, giving a larger |ΔH|, while Ea(forward) stays unchanged. \"Must have a much higher activation energy\" is backwards — a larger ΔH doesn't require a larger Ea; the two are independent quantities on the diagram. \"Completely identical\" is wrong because the product energy levels (and thus the overall diagram shapes) clearly differ even with equal Ea(forward). \"Never have a defined activation energy\" is simply false — every reaction, exothermic or not, must pass over an activation-energy barrier to proceed."
     },
     {
       "id": "6-12",
@@ -5765,7 +5765,7 @@ const QUESTIONS = {
         "The reaction is highly endothermic."
       ],
       "correct": 0,
-      "explanation": "If reactants and products sit at equal energy, ΔH = E(products) − E(reactants) = 0. \"Not physically possible\" is wrong — this is a perfectly ordinary scenario, such as a reaction that's close to thermoneutral. \"Highly exothermic\" and \"highly endothermic\" both assume a large energy gap between reactants and products, directly contradicting the level being drawn identical."
+      "explanation": "Correct: (A) ΔH = 0 for this process. If reactants and products sit at equal energy, ΔH = E(products) − E(reactants) = 0. \"Not physically possible\" is wrong — this is a perfectly ordinary scenario, such as a reaction that's close to thermoneutral. \"Highly exothermic\" and \"highly endothermic\" both assume a large energy gap between reactants and products, directly contradicting the level being drawn identical."
     },
     {
       "id": "6-13",
@@ -5778,7 +5778,7 @@ const QUESTIONS = {
         "ΔH = Ea(forward) − Ea(reverse)"
       ],
       "correct": 3,
-      "explanation": "Both Ea values are measured from the same transition-state peak, just from opposite starting points, so subtracting them cancels the peak height and leaves exactly the reactant-to-product energy difference, ΔH. \"Unrelated\" is wrong because this equation IS the relationship connecting them. \"Always equal\" is false in general — Ea(forward) equals Ea(reverse) only in the special case ΔH = 0; otherwise they differ by exactly ΔH. \"ΔH = sum of the two Ea values\" would double-count the transition-state energy and doesn't correspond to any physically meaningful quantity here."
+      "explanation": "Correct: (D) ΔH = Ea(forward) − Ea(reverse). Both Ea values are measured from the same transition-state peak, just from opposite starting points, so subtracting them cancels the peak height and leaves exactly the reactant-to-product energy difference, ΔH. \"Unrelated\" is wrong because this equation IS the relationship connecting them. \"Always equal\" is false in general — Ea(forward) equals Ea(reverse) only in the special case ΔH = 0; otherwise they differ by exactly ΔH. \"ΔH = sum of the two Ea values\" would double-count the transition-state energy and doesn't correspond to any physically meaningful quantity here."
     },
     {
       "id": "6-84",
@@ -5805,7 +5805,7 @@ const QUESTIONS = {
         "From the hotter object to the cooler object."
       ],
       "correct": 3,
-      "explanation": "Heat spontaneously flows from the hotter object to the cooler one until both reach a common temperature (thermal equilibrium), with no external work required. \"From cooler to hotter\" reverses the correct direction — heat never flows spontaneously from cold to hot. \"Heat does not flow\" contradicts basic experience and the definition of temperature difference driving heat transfer. \"Equally in both directions with no net effect\" is wrong because there IS a net flow (hot → cold) until equilibrium, even though individual particle collisions exchange energy in both directions at the molecular level."
+      "explanation": "Correct: (D) From the hotter object to the cooler object. Heat spontaneously flows from the hotter object to the cooler one until both reach a common temperature (thermal equilibrium), with no external work required. \"From cooler to hotter\" reverses the correct direction — heat never flows spontaneously from cold to hot. \"Heat does not flow\" contradicts basic experience and the definition of temperature difference driving heat transfer. \"Equally in both directions with no net effect\" is wrong because there IS a net flow (hot → cold) until equilibrium, even though individual particle collisions exchange energy in both directions at the molecular level."
     },
     {
       "id": "6-15",
@@ -5818,7 +5818,7 @@ const QUESTIONS = {
         "It gains less than 320 J, always, regardless of losses."
       ],
       "correct": 2,
-      "explanation": "By conservation of energy in a perfectly isolated system, all heat leaving the hot object must be gained by the cooler substance — exactly 320 J, no more and no less. \"More than 320 J, always\" and \"less than 320 J, always\" both violate conservation of energy for an isolated system, since extra or missing heat would have to come from or escape to somewhere that isolation rules out. \"Unrelated, unknown amount\" is wrong because the amount is fully determined once the system is assumed isolated — that's the entire basis of calorimetry calculations."
+      "explanation": "Correct: (C) It gains exactly 320 J, assuming the system is isolated. By conservation of energy in a perfectly isolated system, all heat leaving the hot object must be gained by the cooler substance — exactly 320 J, no more and no less. \"More than 320 J, always\" and \"less than 320 J, always\" both violate conservation of energy for an isolated system, since extra or missing heat would have to come from or escape to somewhere that isolation rules out. \"Unrelated, unknown amount\" is wrong because the amount is fully determined once the system is assumed isolated — that's the entire basis of calorimetry calculations."
     },
     {
       "id": "6-16",
@@ -5831,7 +5831,7 @@ const QUESTIONS = {
         "One object has completely transferred all its energy to the other."
       ],
       "correct": 0,
-      "explanation": "Thermal equilibrium means both objects have reached the same temperature, so there's no more NET heat flow between them (individual molecular collisions still occur, but with no preferred direction). \"One object has completely transferred all its energy\" is wrong — exchange stops because temperatures equalize, not because one object has been fully drained. \"Same mass\" and \"same substance\" both describe irrelevant properties: mass and identity affect HOW MUCH temperature change occurs for a given heat exchange (via q = mcΔT), but neither is part of the definition of equilibrium itself, which is purely about equal temperature."
+      "explanation": "Correct: (A) Both objects reach the same temperature and net heat flow stops. Thermal equilibrium means both objects have reached the same temperature, so there's no more NET heat flow between them (individual molecular collisions still occur, but with no preferred direction). \"One object has completely transferred all its energy\" is wrong — exchange stops because temperatures equalize, not because one object has been fully drained. \"Same mass\" and \"same substance\" both describe irrelevant properties: mass and identity affect HOW MUCH temperature change occurs for a given heat exchange (via q = mcΔT), but neither is part of the definition of equilibrium itself, which is purely about equal temperature."
     },
     {
       "id": "6-17",
@@ -5844,7 +5844,7 @@ const QUESTIONS = {
         "Real experiments always give perfectly identical results to theoretical predictions."
       ],
       "correct": 2,
-      "explanation": "Heat that escapes to the surroundings isn't captured by the measured temperature change inside the system, so a calculation based on that incomplete temperature change underestimates the true total heat exchanged. \"No effect\" directly contradicts the premise — heat loss clearly changes the result since it removes energy that never gets measured. \"Always overestimate\" is backwards: uncaptured, escaping heat causes an UNDERestimate, not an overestimate. \"Always identical to theoretical predictions\" is unrealistic — real experiments essentially always deviate somewhat from ideal predictions due to exactly this kind of imperfect insulation."
+      "explanation": "Correct: (C) Some heat escapes uncaptured, so calculated q underestimates the true value. Heat that escapes to the surroundings isn't captured by the measured temperature change inside the system, so a calculation based on that incomplete temperature change underestimates the true total heat exchanged. \"No effect\" directly contradicts the premise — heat loss clearly changes the result since it removes energy that never gets measured. \"Always overestimate\" is backwards: uncaptured, escaping heat causes an UNDERestimate, not an overestimate. \"Always identical to theoretical predictions\" is unrealistic — real experiments essentially always deviate somewhat from ideal predictions due to exactly this kind of imperfect insulation."
     },
     {
       "id": "6-18",
@@ -5857,7 +5857,7 @@ const QUESTIONS = {
         "Metal B — its lower specific heat gives a larger ΔT for the same heat."
       ],
       "correct": 3,
-      "explanation": "With q = mcΔT, equal q and equal m for both metals means ΔT is inversely proportional to c — so the metal with the SMALLER specific heat (metal B) swings through a larger temperature change. \"No bearing\" is wrong because specific heat is exactly the proportionality constant linking a given q to the resulting ΔT. \"Both identical regardless of specific heat\" ignores that unequal specific heats necessarily produce unequal ΔT for the same heat exchanged. \"Metal A, since it has the higher specific heat of the two\" reverses the relationship — a HIGHER specific heat means MORE resistance to temperature change, i.e. a SMALLER ΔT, not a larger one."
+      "explanation": "Correct: (D) Metal B — its lower specific heat gives a larger ΔT for the same heat. With q = mcΔT, equal q and equal m for both metals means ΔT is inversely proportional to c — so the metal with the SMALLER specific heat (metal B) swings through a larger temperature change. \"No bearing\" is wrong because specific heat is exactly the proportionality constant linking a given q to the resulting ΔT. \"Both identical regardless of specific heat\" ignores that unequal specific heats necessarily produce unequal ΔT for the same heat exchanged. \"Metal A, since it has the higher specific heat of the two\" reverses the relationship — a HIGHER specific heat means MORE resistance to temperature change, i.e. a SMALLER ΔT, not a larger one."
     },
     {
       "id": "6-19",
@@ -5870,7 +5870,7 @@ const QUESTIONS = {
         "Wood simply has no measurable temperature at all."
       ],
       "correct": 1,
-      "explanation": "Metal's high thermal conductivity pulls heat away from your (warmer) hand faster than wood does, producing a stronger cold sensation even though both objects are at the same room temperature. \"Wood simply has no measurable temperature at all\" is simply false — wood has a well-defined temperature, just lower thermal conductivity. \"Purely psychological, no physical basis\" is wrong because there's a real physical mechanism (differing rates of heat transfer). \"Metal is actually at a lower temperature\" confuses temperature with conductivity — both objects genuinely start at the same temperature; what differs is how fast each one conducts heat away from your skin."
+      "explanation": "Correct: (B) Metal's higher thermal conductivity pulls heat from your hand faster. Metal's high thermal conductivity pulls heat away from your (warmer) hand faster than wood does, producing a stronger cold sensation even though both objects are at the same room temperature. \"Wood simply has no measurable temperature at all\" is simply false — wood has a well-defined temperature, just lower thermal conductivity. \"Purely psychological, no physical basis\" is wrong because there's a real physical mechanism (differing rates of heat transfer). \"Metal is actually at a lower temperature\" confuses temperature with conductivity — both objects genuinely start at the same temperature; what differs is how fast each one conducts heat away from your skin."
     },
     {
       "id": "6-77",
@@ -5925,7 +5925,7 @@ const QUESTIONS = {
         "62.8 J"
       ],
       "correct": 2,
-      "explanation": "q = mcΔT = (25.0)(4.184)(15.0) = 1569 J. \"62.8 J\" leaves out the mass entirely (just c × ΔT = 4.184 × 15.0). \"104.6 J\" leaves out ΔT entirely (just m × c = 25.0 × 4.184). \"6276 J\" results from using ΔT = 60.0°C instead of the given 15.0°C — a factor-of-4 slip."
+      "explanation": "Correct: (C) 1569 J. q = mcΔT = (25.0)(4.184)(15.0) = 1569 J. \"62.8 J\" leaves out the mass entirely (just c × ΔT = 4.184 × 15.0). \"104.6 J\" leaves out ΔT entirely (just m × c = 25.0 × 4.184). \"6276 J\" results from using ΔT = 60.0°C instead of the given 15.0°C — a factor-of-4 slip."
     },
     {
       "id": "6-21",
@@ -5938,7 +5938,7 @@ const QUESTIONS = {
         "167.4 J/g·°C"
       ],
       "correct": 2,
-      "explanation": "c = q/(mΔT) = 836.8/(40.0 × 5.00) = 836.8/200.0 = 4.184 J/g·°C, matching water's known specific heat as a nice consistency check. \"167.4 J/g·°C\" results from multiplying by the mass instead of dividing by it. \"0.239 J/g·°C\" is the reciprocal of the correct answer (1/4.184), an inversion error. \"2.09 J/g·°C\" is half the correct value, as if ΔT had mistakenly been doubled to 10.0°C before dividing."
+      "explanation": "Correct: (C) 4.184 J/g·°C. c = q/(mΔT) = 836.8/(40.0 × 5.00) = 836.8/200.0 = 4.184 J/g·°C, matching water's known specific heat as a nice consistency check. \"167.4 J/g·°C\" results from multiplying by the mass instead of dividing by it. \"0.239 J/g·°C\" is the reciprocal of the correct answer (1/4.184), an inversion error. \"2.09 J/g·°C\" is half the correct value, as if ΔT had mistakenly been doubled to 10.0°C before dividing."
     },
     {
       "id": "6-22",
@@ -5951,7 +5951,7 @@ const QUESTIONS = {
         "50.0°C"
       ],
       "correct": 0,
-      "explanation": "Setting heat lost by the hot water equal to heat gained by the cold water: (60.0)(80.0−T) = (40.0)(T−20.0) → 4800 − 60.0T = 40.0T − 800 → T = 56.0°C. \"60.0°C\" is just the mass of the hot water (60.0 g) reused as a temperature, or a guess that does not follow from the energy balance, so it is not a valid equilibrium answer. \"50.0°C\" is the simple, unweighted average of the two starting temperatures, ignoring that the larger 60.0 g mass of hot water should pull the equilibrium closer to its own starting point. \"44.0°C\" makes the opposite mass-weighting error, pulling the answer toward the smaller (40.0 g) sample instead."
+      "explanation": "Correct: (A) 56.0°C. Setting heat lost by the hot water equal to heat gained by the cold water: (60.0)(80.0−T) = (40.0)(T−20.0) → 4800 − 60.0T = 40.0T − 800 → T = 56.0°C. \"60.0°C\" is just the mass of the hot water (60.0 g) reused as a temperature, or a guess that does not follow from the energy balance, so it is not a valid equilibrium answer. \"50.0°C\" is the simple, unweighted average of the two starting temperatures, ignoring that the larger 60.0 g mass of hot water should pull the equilibrium closer to its own starting point. \"44.0°C\" makes the opposite mass-weighting error, pulling the answer toward the smaller (40.0 g) sample instead."
     },
     {
       "id": "6-23",
@@ -5964,7 +5964,7 @@ const QUESTIONS = {
         "0.897 J/g·°C"
       ],
       "correct": 3,
-      "explanation": "Heat gained by the water, q = (75.0)(4.184)(23.29−20.0) = 1032 J, equals heat lost by the metal. With ΔT(metal) = 23.29−100.0 = −76.71°C, c(metal) = 1032/(15.0 × 76.71) = 0.897 J/g·°C, matching aluminum. \"4.184 J/g·°C\" simply reuses water's own specific heat instead of solving for the metal's unknown value — the entire point of the setup is that these differ. \"1.79 J/g·°C\" is double the correct answer, consistent with dividing by half the metal's actual mass. \"0.449 J/g·°C\" is half the correct answer, the opposite mass error from \"1.79.\""
+      "explanation": "Correct: (D) 0.897 J/g·°C. Heat gained by the water, q = (75.0)(4.184)(23.29−20.0) = 1032 J, equals heat lost by the metal. With ΔT(metal) = 23.29−100.0 = −76.71°C, c(metal) = 1032/(15.0 × 76.71) = 0.897 J/g·°C, matching aluminum. \"4.184 J/g·°C\" simply reuses water's own specific heat instead of solving for the metal's unknown value — the entire point of the setup is that these differ. \"1.79 J/g·°C\" is double the correct answer, consistent with dividing by half the metal's actual mass. \"0.449 J/g·°C\" is half the correct answer, the opposite mass error from \"1.79.\""
     },
     {
       "id": "6-24",
@@ -5977,7 +5977,7 @@ const QUESTIONS = {
         "Iron"
       ],
       "correct": 0,
-      "explanation": "Since m and ΔT are identical for all four substances, q = mcΔT is directly proportional to c, so the largest specific heat needs the most energy. Water's c (4.184 J/g·°C) dwarfs aluminum (0.897), iron (0.449), and gold (0.129) — despite metals often feeling like they'd be \"harder to heat,\" their much smaller specific heats mean they actually require far less energy per gram per degree. Iron and especially gold, having even smaller specific heats than aluminum, need even less energy still, making them worse answers than aluminum, let alone water."
+      "explanation": "Correct: (A) Water. Since m and ΔT are identical for all four substances, q = mcΔT is directly proportional to c, so the largest specific heat needs the most energy. Water's c (4.184 J/g·°C) dwarfs aluminum (0.897), iron (0.449), and gold (0.129) — despite metals often feeling like they'd be \"harder to heat,\" their much smaller specific heats mean they actually require far less energy per gram per degree. Iron and especially gold, having even smaller specific heats than aluminum, need even less energy still, making them worse answers than aluminum, let alone water."
     },
     {
       "id": "6-25",
@@ -5990,7 +5990,7 @@ const QUESTIONS = {
         "This assumption is only relevant for gas-phase reactions."
       ],
       "correct": 0,
-      "explanation": "ΔH is formally defined as heat exchanged at constant pressure, so a calorimeter open to the atmosphere (which stays at roughly constant atmospheric pressure throughout) lets the measured q equal ΔH directly. \"Only relevant for gas-phase reactions\" is wrong — the constant-pressure/ΔH relationship is general and doesn't depend on which phases are involved. \"No relevance to calorimetry at all\" is directly contradicted by the fact that this assumption is precisely what makes q = mcΔT equal ΔH. \"Never used in real labs\" is factually wrong — constant-pressure (coffee-cup) calorimeters are a standard, widely used technique specifically because they directly give ΔH."
+      "explanation": "Correct: (A) This lets the measured heat equal ΔH directly. ΔH is formally defined as heat exchanged at constant pressure, so a calorimeter open to the atmosphere (which stays at roughly constant atmospheric pressure throughout) lets the measured q equal ΔH directly. \"Only relevant for gas-phase reactions\" is wrong — the constant-pressure/ΔH relationship is general and doesn't depend on which phases are involved. \"No relevance to calorimetry at all\" is directly contradicted by the fact that this assumption is precisely what makes q = mcΔT equal ΔH. \"Never used in real labs\" is factually wrong — constant-pressure (coffee-cup) calorimeters are a standard, widely used technique specifically because they directly give ΔH."
     },
     {
       "id": "6-26",
@@ -6003,7 +6003,7 @@ const QUESTIONS = {
         "5356 J released"
       ],
       "correct": 0,
-      "explanation": "The solution absorbs q = mcΔT = (100.0)(4.184)(6.4) = 2678 J as its temperature rises, and since the reaction is what heated the solution, the reaction itself released that same 2678 J (q<sub>rxn</sub> = −q<sub>solution</sub>). \"2678 J absorbed\" gets the magnitude right but assigns it to the wrong perspective — that's what the solution did, not what the reaction (the system) did; from the reaction's standpoint, this energy was released. \"1339 J released\" is half the correct value, as if only one 50.0 mL portion were counted toward the total mass. \"5356 J released\" is double the correct value, the opposite mass-counting error."
+      "explanation": "Correct: (A) 2678 J released. The solution absorbs q = mcΔT = (100.0)(4.184)(6.4) = 2678 J as its temperature rises, and since the reaction is what heated the solution, the reaction itself released that same 2678 J (q<sub>rxn</sub> = −q<sub>solution</sub>). \"2678 J absorbed\" gets the magnitude right but assigns it to the wrong perspective — that's what the solution did, not what the reaction (the system) did; from the reaction's standpoint, this energy was released. \"1339 J released\" is half the correct value, as if only one 50.0 mL portion were counted toward the total mass. \"5356 J released\" is double the correct value, the opposite mass-counting error."
     },
     {
       "id": "6-27",
@@ -6016,7 +6016,7 @@ const QUESTIONS = {
         "The ordering of subtraction is arbitrary and does not matter."
       ],
       "correct": 0,
-      "explanation": "Final − initial correctly produces a positive ΔT (positive q) when temperature rises, meaning the substance absorbed heat, and a negative ΔT (negative q) when temperature falls, meaning heat was released — preserving q's physical meaning. \"T(initial) must always be larger\" is false; plenty of calorimetry involves a substance heating up, where T(final) is larger. \"Ordering is arbitrary\" is wrong because reversing the order flips every sign, making an object that's absorbing heat appear to have negative q, which contradicts the physics. \"Only applies to solids\" is arbitrary and false — this convention follows from the definition of ΔT itself, not the phase of the substance."
+      "explanation": "Correct: (A) This ordering ensures q gets the correct sign for heat flow. Final − initial correctly produces a positive ΔT (positive q) when temperature rises, meaning the substance absorbed heat, and a negative ΔT (negative q) when temperature falls, meaning heat was released — preserving q's physical meaning. \"T(initial) must always be larger\" is false; plenty of calorimetry involves a substance heating up, where T(final) is larger. \"Ordering is arbitrary\" is wrong because reversing the order flips every sign, making an object that's absorbing heat appear to have negative q, which contradicts the physics. \"Only applies to solids\" is arbitrary and false — this convention follows from the definition of ΔT itself, not the phase of the substance."
     },
     {
       "id": "6-28",
@@ -6029,7 +6029,7 @@ const QUESTIONS = {
         "12,552 J"
       ],
       "correct": 0,
-      "explanation": "q = mcΔT = (200.0)(4.184)(31.5−24.0) = (200.0)(4.184)(7.5) = 6276 J. \"12,552 J\" is exactly double, as if the mass were mistakenly doubled to 400 g. \"3138 J\" is exactly half, as if ΔT were mistakenly halved to 3.75°C. \"836.8 J\" is far too small for these numbers — it results from plugging in a mass of 40.0 g and ΔT of 5.00°C (values from a different, unrelated problem) instead of the 200.0 g and 7.5°C actually given here."
+      "explanation": "Correct: (A) 6276 J. q = mcΔT = (200.0)(4.184)(31.5−24.0) = (200.0)(4.184)(7.5) = 6276 J. \"12,552 J\" is exactly double, as if the mass were mistakenly doubled to 400 g. \"3138 J\" is exactly half, as if ΔT were mistakenly halved to 3.75°C. \"836.8 J\" is far too small for these numbers — it results from plugging in a mass of 40.0 g and ΔT of 5.00°C (values from a different, unrelated problem) instead of the 200.0 g and 7.5°C actually given here."
     },
     {
       "id": "6-29",
@@ -6042,7 +6042,7 @@ const QUESTIONS = {
         "65.1 J"
       ],
       "correct": 0,
-      "explanation": "Total heat = q(water) + q(cal) = (250.0)(4.184)(4.20) + (15.5)(4.20) = 4393.2 + 65.1 = 4458.3 ≈ 4458 J. \"4393 J\" is just the water's contribution alone (rounded), forgetting to add the calorimeter's own heat absorption. \"65.1 J\" is only the calorimeter's contribution, forgetting the much larger water contribution entirely. \"4526 J\" overshoots the correct total — it doesn't correspond to omitting one whole term but to a smaller arithmetic slip in computing one of the two heat contributions; redoing q(water) and q(cal) separately and adding them confirms 4458 J.",
+      "explanation": "Correct: (A) 4458 J. Total heat = q(water) + q(cal) = (250.0)(4.184)(4.20) + (15.5)(4.20) = 4393.2 + 65.1 = 4458.3 ≈ 4458 J. \"4393 J\" is just the water's contribution alone (rounded), forgetting to add the calorimeter's own heat absorption. \"65.1 J\" is only the calorimeter's contribution, forgetting the much larger water contribution entirely. \"4526 J\" overshoots the correct total — it doesn't correspond to omitting one whole term but to a smaller arithmetic slip in computing one of the two heat contributions; redoing q(water) and q(cal) separately and adding them confirms 4458 J.",
       "stretch": true
     },
     {
@@ -6056,7 +6056,7 @@ const QUESTIONS = {
         "45.7 kJ"
       ],
       "correct": 2,
-      "explanation": "q = nΔH(vap) = 5.00 mol × 40.7 kJ/mol = 203.5 kJ. \"40.7 kJ\" is just the molar ΔH(vap) itself, forgetting to multiply by the 5.00 mol actually present. \"8.14 kJ\" results from dividing instead of multiplying (40.7/5.00). \"45.7 kJ\" comes from adding the mole count and ΔH(vap) together (40.7+5.00) rather than multiplying them, mixing units in a way that isn't dimensionally meaningful."
+      "explanation": "Correct: (C) 203.5 kJ. q = nΔH(vap) = 5.00 mol × 40.7 kJ/mol = 203.5 kJ. \"40.7 kJ\" is just the molar ΔH(vap) itself, forgetting to multiply by the 5.00 mol actually present. \"8.14 kJ\" results from dividing instead of multiplying (40.7/5.00). \"45.7 kJ\" comes from adding the mole count and ΔH(vap) together (40.7+5.00) rather than multiplying them, mixing units in a way that isn't dimensionally meaningful."
     },
     {
       "id": "6-31",
@@ -6069,7 +6069,7 @@ const QUESTIONS = {
         "Vaporization fully separates particles; melting only loosens them."
       ],
       "correct": 3,
-      "explanation": "Vaporization must fully separate particles from ALL their neighbors into a gas, while melting only needs enough energy to let particles slide past each other while remaining close together in the liquid — a far smaller disruption of IMFs, hence a far smaller ΔH(fus). \"ΔH(vap) is always smaller\" simply asserts the opposite relationship, contradicted by real data for essentially every substance (e.g., water: ΔH(vap)=40.7 kJ/mol vs ΔH(fus)=6.01 kJ/mol). \"No general relationship\" denies a pattern that the particle-separation argument makes genuinely universal. \"Only applies to water\" is wrong — ΔH(vap) is a general property defined for any substance that vaporizes, not something unique to water."
+      "explanation": "Correct: (D) Vaporization fully separates particles; melting only loosens them. Vaporization must fully separate particles from ALL their neighbors into a gas, while melting only needs enough energy to let particles slide past each other while remaining close together in the liquid — a far smaller disruption of IMFs, hence a far smaller ΔH(fus). \"ΔH(vap) is always smaller\" simply asserts the opposite relationship, contradicted by real data for essentially every substance (e.g., water: ΔH(vap)=40.7 kJ/mol vs ΔH(fus)=6.01 kJ/mol). \"No general relationship\" denies a pattern that the particle-separation argument makes genuinely universal. \"Only applies to water\" is wrong — ΔH(vap) is a general property defined for any substance that vaporizes, not something unique to water."
     },
     {
       "id": "6-32",
@@ -6082,7 +6082,7 @@ const QUESTIONS = {
         "12.0 kJ"
       ],
       "correct": 2,
-      "explanation": "n = 72.08/18.02 = 4.00 mol; freezing is the reverse of melting, so ΔH(freezing) = −ΔH(fus) = −6.01 kJ/mol, giving q = 4.00 × (−6.01) = −24.0 kJ. The negative sign means 24.0 kJ of heat is released to the surroundings. \"24.0 kJ\" has the right magnitude but the wrong sign for an enthalpy change — it treats freezing as if it absorbed heat the way melting does, rather than releasing it. \"12.0 kJ\" is half the correct magnitude, as if only 2.00 mol (half the actual amount) were used. \"6.01 kJ\" is just the molar ΔH(fus) value itself, forgetting to multiply by the 4.00 mol actually present."
+      "explanation": "Correct: (C) −24.0 kJ. n = 72.08/18.02 = 4.00 mol; freezing is the reverse of melting, so ΔH(freezing) = −ΔH(fus) = −6.01 kJ/mol, giving q = 4.00 × (−6.01) = −24.0 kJ. The negative sign means 24.0 kJ of heat is released to the surroundings. \"24.0 kJ\" has the right magnitude but the wrong sign for an enthalpy change — it treats freezing as if it absorbed heat the way melting does, rather than releasing it. \"12.0 kJ\" is half the correct magnitude, as if only 2.00 mol (half the actual amount) were used. \"6.01 kJ\" is just the molar ΔH(fus) value itself, forgetting to multiply by the 4.00 mol actually present."
     },
     {
       "id": "6-33",
@@ -6095,7 +6095,7 @@ const QUESTIONS = {
         "3.00 kJ/mol"
       ],
       "correct": 1,
-      "explanation": "ΔH(fus) = q/n = 30.0 kJ / 1.667 mol = 18.0 kJ/mol, using n = 100.0 g ÷ 60.0 g/mol = 1.667 mol. \"0.500 kJ/mol\" comes from dividing q directly by the molar mass (30.0/60.0) while skipping the grams-to-moles conversion entirely — a units-confusion error. \"3.00 kJ/mol\" and \"300 kJ/mol\" both stem from a moles miscalculation: \"3.00\" implies too many moles were used in the division, and \"300\" implies too few, neither matching the correctly computed 1.667 mol."
+      "explanation": "Correct: (B) 18.0 kJ/mol. ΔH(fus) = q/n = 30.0 kJ / 1.667 mol = 18.0 kJ/mol, using n = 100.0 g ÷ 60.0 g/mol = 1.667 mol. \"0.500 kJ/mol\" comes from dividing q directly by the molar mass (30.0/60.0) while skipping the grams-to-moles conversion entirely — a units-confusion error. \"3.00 kJ/mol\" and \"300 kJ/mol\" both stem from a moles miscalculation: \"3.00\" implies too many moles were used in the division, and \"300\" implies too few, neither matching the correctly computed 1.667 mol."
     },
     {
       "id": "6-34",
@@ -6108,7 +6108,7 @@ const QUESTIONS = {
         "Both plateaus always require exactly equal energy."
       ],
       "correct": 1,
-      "explanation": "Since ΔH(vap) is almost always substantially larger than ΔH(fus) (established in Q6-31), and equal moles are involved in both plateaus, the boiling plateau needs more total energy and appears as the longer flat segment on a heating curve. \"Both always require exactly equal energy\" is contradicted by real ΔH(vap)/ΔH(fus) data for virtually every substance — they're essentially never equal. \"The melting plateau...requires more energy\" reverses the correct relationship. \"Neither plateau requires any energy input\" is wrong because phase changes always require or release energy — that's precisely why they appear as flat (not rising) segments, with all the added energy going into the phase change rather than raising temperature."
+      "explanation": "Correct: (B) The boiling plateau, since ΔH(vap) is almost always larger than ΔH(fus). Since ΔH(vap) is almost always substantially larger than ΔH(fus) (established in Q6-31), and equal moles are involved in both plateaus, the boiling plateau needs more total energy and appears as the longer flat segment on a heating curve. \"Both always require exactly equal energy\" is contradicted by real ΔH(vap)/ΔH(fus) data for virtually every substance — they're essentially never equal. \"The melting plateau...requires more energy\" reverses the correct relationship. \"Neither plateau requires any energy input\" is wrong because phase changes always require or release energy — that's precisely why they appear as flat (not rising) segments, with all the added energy going into the phase change rather than raising temperature."
     },
     {
       "id": "6-35",
@@ -6121,7 +6121,7 @@ const QUESTIONS = {
         "Positive, since condensation is endothermic."
       ],
       "correct": 1,
-      "explanation": "Condensation forms new attractive IMFs as gas particles come together into a liquid, releasing energy — making q negative (exothermic). \"Positive, since condensation is endothermic\" has the sign backwards; that description fits vaporization, condensation's reverse process. \"Always zero, regardless of the substance\" is wrong because condensation clearly involves a real, often large energy exchange (steam burns are worse than boiling-water burns precisely because of the heat condensation releases). \"Cannot be determined without knowing the substance\" is wrong because the SIGN is always negative for condensation regardless of substance — only the magnitude depends on the substance's specific IMFs."
+      "explanation": "Correct: (B) Negative, since condensation is exothermic. Condensation forms new attractive IMFs as gas particles come together into a liquid, releasing energy — making q negative (exothermic). \"Positive, since condensation is endothermic\" has the sign backwards; that description fits vaporization, condensation's reverse process. \"Always zero, regardless of the substance\" is wrong because condensation clearly involves a real, often large energy exchange (steam burns are worse than boiling-water burns precisely because of the heat condensation releases). \"Cannot be determined without knowing the substance\" is wrong because the SIGN is always negative for condensation regardless of substance — only the magnitude depends on the substance's specific IMFs."
     },
     {
       "id": "6-85",
@@ -6148,7 +6148,7 @@ const QUESTIONS = {
         "+99 kJ"
       ],
       "correct": 0,
-      "explanation": "Reversing a reaction exactly flips the sign of ΔH (swapping which side is \"start\" and which is \"end\"), giving +198 kJ. \"−99 kJ\" and \"+99 kJ\" both incorrectly halve the magnitude to 99 kJ, as if the coefficients were being halved rather than just reversing the direction — reversal alone never changes stoichiometric coefficients or magnitude. \"−198 kJ\" keeps the original sign, forgetting that reversal requires flipping it."
+      "explanation": "Correct: (A) +198 kJ. Reversing a reaction exactly flips the sign of ΔH (swapping which side is \"start\" and which is \"end\"), giving +198 kJ. \"−99 kJ\" and \"+99 kJ\" both incorrectly halve the magnitude to 99 kJ, as if the coefficients were being halved rather than just reversing the direction — reversal alone never changes stoichiometric coefficients or magnitude. \"−198 kJ\" keeps the original sign, forgetting that reversal requires flipping it."
     },
     {
       "id": "6-37",
@@ -6161,7 +6161,7 @@ const QUESTIONS = {
         "+180 kJ"
       ],
       "correct": 0,
-      "explanation": "Doubling every coefficient means twice as much reaction occurs, so ΔH doubles: 2 × 180 = +360 kJ. \"+180 kJ\" leaves ΔH unchanged, incorrectly treating it as an intensive property independent of the amount of reaction. \"+720 kJ\" quadruples ΔH, as if the doubling were mistakenly applied twice. \"+90 kJ\" halves ΔH, the opposite scaling direction — that would be correct only if the coefficients had been HALVED, not doubled."
+      "explanation": "Correct: (A) +360 kJ. Doubling every coefficient means twice as much reaction occurs, so ΔH doubles: 2 × 180 = +360 kJ. \"+180 kJ\" leaves ΔH unchanged, incorrectly treating it as an intensive property independent of the amount of reaction. \"+720 kJ\" quadruples ΔH, as if the doubling were mistakenly applied twice. \"+90 kJ\" halves ΔH, the opposite scaling direction — that would be correct only if the coefficients had been HALVED, not doubled."
     },
     {
       "id": "6-38",
@@ -6174,7 +6174,7 @@ const QUESTIONS = {
         "62.5 kJ"
       ],
       "correct": 3,
-      "explanation": "Heat per mole = 250/2.00 = 125 kJ/mol, so 0.500 mol releases 0.500 × 125 = 62.5 kJ. \"250 kJ\" keeps the original amount unchanged, ignoring that only a quarter as much reactant (0.500 vs 2.00 mol) is reacting. \"125 kJ\" is the correct per-mole value but stops one step short, forgetting to scale it down further to the 0.500 mol actually reacting. \"500 kJ\" scales in the wrong direction entirely, as if MORE reactant (not less) were reacting."
+      "explanation": "Correct: (D) 62.5 kJ. Heat per mole = 250/2.00 = 125 kJ/mol, so 0.500 mol releases 0.500 × 125 = 62.5 kJ. \"250 kJ\" keeps the original amount unchanged, ignoring that only a quarter as much reactant (0.500 vs 2.00 mol) is reacting. \"125 kJ\" is the correct per-mole value but stops one step short, forgetting to scale it down further to the 0.500 mol actually reacting. \"500 kJ\" scales in the wrong direction entirely, as if MORE reactant (not less) were reacting."
     },
     {
       "id": "6-39",
@@ -6187,7 +6187,7 @@ const QUESTIONS = {
         "It only applies to reactions occurring in the gas phase."
       ],
       "correct": 0,
-      "explanation": "Extensive properties scale with the amount of matter involved — ΔH depends on how much of the reaction (per the stated coefficients) actually occurs. \"Only applies to gas-phase reactions\" is false; extensivity is a general thermodynamic concept, not tied to a specific phase. \"Can never be measured experimentally\" is directly contradicted by this whole unit — ΔH is routinely measured via calorimetry and Hess's Law. \"Always the same regardless of amount\" describes an INTENSIVE property (like specific heat or temperature), the opposite of extensive, and directly contradicts the scaling relationships established in Q6-37 and Q6-38."
+      "explanation": "Correct: (A) Its value scales with the amount of substance reacting. Extensive properties scale with the amount of matter involved — ΔH depends on how much of the reaction (per the stated coefficients) actually occurs. \"Only applies to gas-phase reactions\" is false; extensivity is a general thermodynamic concept, not tied to a specific phase. \"Can never be measured experimentally\" is directly contradicted by this whole unit — ΔH is routinely measured via calorimetry and Hess's Law. \"Always the same regardless of amount\" describes an INTENSIVE property (like specific heat or temperature), the opposite of extensive, and directly contradicts the scaling relationships established in Q6-37 and Q6-38."
     },
     {
       "id": "6-40",
@@ -6200,7 +6200,7 @@ const QUESTIONS = {
         "No — ΔH per mole is a fixed property; yield doesn't change it."
       ],
       "correct": 3,
-      "explanation": "ΔH per mole of reaction (as defined by the balanced equation) is a fixed thermodynamic property of that chemical change and doesn't depend on how much product is actually isolated in a given run. \"Yes — decrease to 60%\" and \"Yes — increase\" both wrongly treat percent yield as directly rescaling ΔH itself; in reality, yield affects how much TOTAL heat is released or absorbed in that particular experiment (since less reaction actually occurred), not the intrinsic ΔH value per mole. \"Percent yield and ΔH are actually the same physical quantity\" conflates two entirely different things: yield is an experimental efficiency metric, ΔH is a thermodynamic energy quantity."
+      "explanation": "Correct: (D) No — ΔH per mole is a fixed property; yield doesn't change it. ΔH per mole of reaction (as defined by the balanced equation) is a fixed thermodynamic property of that chemical change and doesn't depend on how much product is actually isolated in a given run. \"Yes — decrease to 60%\" and \"Yes — increase\" both wrongly treat percent yield as directly rescaling ΔH itself; in reality, yield affects how much TOTAL heat is released or absorbed in that particular experiment (since less reaction actually occurred), not the intrinsic ΔH value per mole. \"Percent yield and ΔH are actually the same physical quantity\" conflates two entirely different things: yield is an experimental efficiency metric, ΔH is a thermodynamic energy quantity."
     },
     {
       "id": "6-86",
@@ -6227,7 +6227,7 @@ const QUESTIONS = {
         "+540 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "Bonds broken (1 H–H + 1 F–F = 436+154 = 590 kJ) minus bonds formed (2 H–F = 1130 kJ) gives ΔH ≈ 590−1130 = −540 kJ/mol. \"+540 kJ/mol\" has the right magnitude but the wrong sign, as if \"formed − broken\" were used instead of the correct \"broken − formed.\" \"−283 kJ/mol\" and \"+283 kJ/mol\" are both off by a factor of 2, consistent with counting only 1 H–F bond formed instead of the correct 2, with \"+283\" additionally carrying the same sign error as \"+540.\""
+      "explanation": "Correct: (C) −540 kJ/mol. Bonds broken (1 H–H + 1 F–F = 436+154 = 590 kJ) minus bonds formed (2 H–F = 1130 kJ) gives ΔH ≈ 590−1130 = −540 kJ/mol. \"+540 kJ/mol\" has the right magnitude but the wrong sign, as if \"formed − broken\" were used instead of the correct \"broken − formed.\" \"−283 kJ/mol\" and \"+283 kJ/mol\" are both off by a factor of 2, consistent with counting only 1 H–F bond formed instead of the correct 2, with \"+283\" additionally carrying the same sign error as \"+540.\""
     },
     {
       "id": "6-42",
@@ -6240,7 +6240,7 @@ const QUESTIONS = {
         "Both breaking and forming bonds always release energy."
       ],
       "correct": 2,
-      "explanation": "Breaking a bond requires energy input to pull apart attracted atoms (endothermic), while forming a bond releases energy as atoms settle into a more stable, lower-energy arrangement (exothermic) — this holds universally, for any bond. \"No associated energy change\" is wrong because bond breaking/forming is precisely what drives every reaction's energetics; without it, bond-enthalpy calculations would be meaningless. \"Both breaking and forming always release energy\" is impossible — separating attracted atoms against their attraction always costs energy, it can't release it. \"Breaking exothermic, forming endothermic\" has both halves backwards, describing exactly the reverse of the correct universal rule."
+      "explanation": "Correct: (C) Breaking bonds is always endothermic; forming bonds is always exothermic. Breaking a bond requires energy input to pull apart attracted atoms (endothermic), while forming a bond releases energy as atoms settle into a more stable, lower-energy arrangement (exothermic) — this holds universally, for any bond. \"No associated energy change\" is wrong because bond breaking/forming is precisely what drives every reaction's energetics; without it, bond-enthalpy calculations would be meaningless. \"Both breaking and forming always release energy\" is impossible — separating attracted atoms against their attraction always costs energy, it can't release it. \"Breaking exothermic, forming endothermic\" has both halves backwards, describing exactly the reverse of the correct universal rule."
     },
     {
       "id": "6-43",
@@ -6253,7 +6253,7 @@ const QUESTIONS = {
         "+92 kJ/mol"
       ],
       "correct": 1,
-      "explanation": "Bonds broken: 1 N≡N (946) + 3 H–H (1308) = 2254 kJ. Bonds formed: 2 NH₃ × 3 N–H each = 6 N–H bonds (2346 kJ). ΔH ≈ 2254−2346 = −92 kJ/mol, closely matching the real experimental value for ammonia synthesis. \"+92 kJ/mol\" has the right magnitude but the wrong sign, from computing \"formed − broken\" instead of \"broken − formed.\" \"−1172 kJ/mol\" and \"+1172 kJ/mol\" are far too large for this reaction and point to a bond-counting error — such as forgetting to apply the stoichiometric coefficients of 3 to the H–H or N–H bonds — that inflates the totals well beyond the correct count; \"+1172\" additionally carries the same sign error as \"+92.\""
+      "explanation": "Correct: (B) −92 kJ/mol. Bonds broken: 1 N≡N (946) + 3 H–H (1308) = 2254 kJ. Bonds formed: 2 NH₃ × 3 N–H each = 6 N–H bonds (2346 kJ). ΔH ≈ 2254−2346 = −92 kJ/mol, closely matching the real experimental value for ammonia synthesis. \"+92 kJ/mol\" has the right magnitude but the wrong sign, from computing \"formed − broken\" instead of \"broken − formed.\" \"−1172 kJ/mol\" and \"+1172 kJ/mol\" are far too large for this reaction and point to a bond-counting error — such as forgetting to apply the stoichiometric coefficients of 3 to the H–H or N–H bonds — that inflates the totals well beyond the correct count; \"+1172\" additionally carries the same sign error as \"+92.\""
     },
     {
       "id": "6-44",
@@ -6266,7 +6266,7 @@ const QUESTIONS = {
         "This method actually always gives an exact value, with no approximation involved."
       ],
       "correct": 1,
-      "explanation": "Tabulated bond energies are AVERAGES taken across many different molecules containing that bond type, so they may not exactly match the true bond strength in any one specific molecule — this is the inherent source of approximation. \"Bond energies are always measured using flawed methods\" is wrong; the values aren't measured incorrectly, they're correctly measured averages, a different issue from measurement error. \"Only applies to ionic compounds\" is false — this averaging issue concerns covalent bond energies in molecular compounds, which don't have discrete \"bond energies\" in the ionic case. \"Always gives an exact value\" directly contradicts the question's own premise, which is asking why the method is only approximate."
+      "explanation": "Correct: (B) Tabulated bond energies are averages, not exact for any one molecule. Tabulated bond energies are AVERAGES taken across many different molecules containing that bond type, so they may not exactly match the true bond strength in any one specific molecule — this is the inherent source of approximation. \"Bond energies are always measured using flawed methods\" is wrong; the values aren't measured incorrectly, they're correctly measured averages, a different issue from measurement error. \"Only applies to ionic compounds\" is false — this averaging issue concerns covalent bond energies in molecular compounds, which don't have discrete \"bond energies\" in the ionic case. \"Always gives an exact value\" directly contradicts the question's own premise, which is asking why the method is only approximate."
     },
     {
       "id": "6-45",
@@ -6279,7 +6279,7 @@ const QUESTIONS = {
         "Neither; ΔH = 0"
       ],
       "correct": 2,
-      "explanation": "If bonds broken cost more energy than is released forming new bonds, the process needs a net energy input overall — the definition of endothermic (positive ΔH) — matching ΔH ≈ (bonds broken) − (bonds formed) coming out positive here. \"ΔH = 0\" would require the two energy totals to be exactly equal, but the question specifies they're not. \"Cannot be determined from bond energies alone\" is wrong because bond energies are precisely what's needed to determine this — that's the whole purpose of the method. \"Exothermic\" describes the opposite case, where MORE energy is released forming bonds than is spent breaking them."
+      "explanation": "Correct: (C) Endothermic. If bonds broken cost more energy than is released forming new bonds, the process needs a net energy input overall — the definition of endothermic (positive ΔH) — matching ΔH ≈ (bonds broken) − (bonds formed) coming out positive here. \"ΔH = 0\" would require the two energy totals to be exactly equal, but the question specifies they're not. \"Cannot be determined from bond energies alone\" is wrong because bond energies are precisely what's needed to determine this — that's the whole purpose of the method. \"Exothermic\" describes the opposite case, where MORE energy is released forming bonds than is spent breaking them."
     },
     {
       "id": "6-46",
@@ -6292,7 +6292,7 @@ const QUESTIONS = {
         "+824 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "Bonds broken: 4 C–H (1652) + 2 O=O (990) = 2642 kJ. Bonds formed: 2 C=O (1598) + 4 O–H (1868) = 3466 kJ. ΔH ≈ 2642−3466 = −824 kJ/mol. \"+824 kJ/mol\" has the right magnitude but the wrong sign (formed − broken instead of broken − formed). \"−412 kJ/mol\" is half the correct magnitude, consistent with a factor-of-2 slip such as counting only 2 C–H bonds or 1 O=O bond. \"−1648 kJ/mol\" is exactly double the correct value, the opposite factor-of-2 error."
+      "explanation": "Correct: (C) −824 kJ/mol. Bonds broken: 4 C–H (1652) + 2 O=O (990) = 2642 kJ. Bonds formed: 2 C=O (1598) + 4 O–H (1868) = 3466 kJ. ΔH ≈ 2642−3466 = −824 kJ/mol. \"+824 kJ/mol\" has the right magnitude but the wrong sign (formed − broken instead of broken − formed). \"−412 kJ/mol\" is half the correct magnitude, consistent with a factor-of-2 slip such as counting only 2 C–H bonds or 1 O=O bond. \"−1648 kJ/mol\" is exactly double the correct value, the opposite factor-of-2 error."
     },
     {
       "id": "6-47",
@@ -6305,7 +6305,7 @@ const QUESTIONS = {
         "A C-C single bond"
       ],
       "correct": 2,
-      "explanation": "Bond energy increases with bond order — more shared electron pairs create a stronger overall attraction between bonded atoms — so the C≡C triple bond, having the highest bond order among these three, has the highest bond energy. \"A C=C double bond\" has an intermediate bond order and correspondingly intermediate bond energy, weaker than the triple bond. \"A C–C single bond\" has the lowest bond order of the three and is correspondingly the weakest. \"All identical\" is directly contradicted by the well-established trend that bond order and bond energy increase together — these three bonds have measurably different energies."
+      "explanation": "Correct: (C) A C≡C triple bond. Bond energy increases with bond order — more shared electron pairs create a stronger overall attraction between bonded atoms — so the C≡C triple bond, having the highest bond order among these three, has the highest bond energy. \"A C=C double bond\" has an intermediate bond order and correspondingly intermediate bond energy, weaker than the triple bond. \"A C–C single bond\" has the lowest bond order of the three and is correspondingly the weakest. \"All identical\" is directly contradicted by the well-established trend that bond order and bond energy increase together — these three bonds have measurably different energies."
     },
     {
       "id": "6-48",
@@ -6318,7 +6318,7 @@ const QUESTIONS = {
         "The experimental value must be incorrect, since bond-energy calculations are always more accurate."
       ],
       "correct": 0,
-      "explanation": "The bond-energy method uses AVERAGE tabulated values that don't perfectly capture the actual bond strengths in these specific molecules, so some disagreement with a more precise experimental or Hess's Law value is expected and not itself a red flag. \"Should never be compared\" is wrong — comparing the two is exactly how you sanity-check a bond-energy estimate, as this question demonstrates. \"Impossible, indicates a serious error\" is false; this kind of moderate discrepancy is common and reflects the method's inherent approximation, not a calculation mistake. \"The experimental value must be incorrect\" is backwards — since bond-energy calculations are the LESS precise, approximate method, it's the bond-energy estimate that should be trusted less when the two disagree, not the experimental one.",
+      "explanation": "Correct: (A) Bond-energy averages don't perfectly match these specific molecules. The bond-energy method uses AVERAGE tabulated values that don't perfectly capture the actual bond strengths in these specific molecules, so some disagreement with a more precise experimental or Hess's Law value is expected and not itself a red flag. \"Should never be compared\" is wrong — comparing the two is exactly how you sanity-check a bond-energy estimate, as this question demonstrates. \"Impossible, indicates a serious error\" is false; this kind of moderate discrepancy is common and reflects the method's inherent approximation, not a calculation mistake. \"The experimental value must be incorrect\" is backwards — since bond-energy calculations are the LESS precise, approximate method, it's the bond-energy estimate that should be trusted less when the two disagree, not the experimental one.",
       "stretch": true
     },
     {
@@ -6332,7 +6332,7 @@ const QUESTIONS = {
         "+249 kJ/mol"
       ],
       "correct": 1,
-      "explanation": "By definition, any element in its standard state — O₂(g) is oxygen's standard state — has ΔH°f = 0; this is the zero-reference point every other formation enthalpy is measured against. \"−393.5 kJ/mol\" is actually CO₂'s formation enthalpy, not O₂'s — a mismatched value unrelated to elemental oxygen. \"+249 kJ/mol\" doesn't describe O₂(g) either; it's the kind of value associated with a different species (such as atomic oxygen), not diatomic O₂ in its standard form. \"Cannot be determined\" is wrong because this value requires no additional information — it's fixed by definition for every element in its standard state."
+      "explanation": "Correct: (B) 0 kJ/mol. By definition, any element in its standard state — O₂(g) is oxygen's standard state — has ΔH°f = 0; this is the zero-reference point every other formation enthalpy is measured against. \"−393.5 kJ/mol\" is actually CO₂'s formation enthalpy, not O₂'s — a mismatched value unrelated to elemental oxygen. \"+249 kJ/mol\" doesn't describe O₂(g) either; it's the kind of value associated with a different species (such as atomic oxygen), not diatomic O₂ in its standard form. \"Cannot be determined\" is wrong because this value requires no additional information — it's fixed by definition for every element in its standard state."
     },
     {
       "id": "6-50",
@@ -6345,7 +6345,7 @@ const QUESTIONS = {
         "−179.0 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants) = [(−635.1)+(−393.5)] − (−1207.6) = −1028.6 + 1207.6 = +179.0 kJ/mol, an endothermic result consistent with calcination requiring strong heating. \"−179.0 kJ/mol\" has the right magnitude but the wrong sign, from reversing the products-minus-reactants order. \"+2236.2 kJ/mol\" and \"−2236.2 kJ/mol\" both come from ADDING the reactant and product sums instead of subtracting them, differing only in the resulting overall sign."
+      "explanation": "Correct: (C) +179.0 kJ/mol. ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants) = [(−635.1)+(−393.5)] − (−1207.6) = −1028.6 + 1207.6 = +179.0 kJ/mol, an endothermic result consistent with calcination requiring strong heating. \"−179.0 kJ/mol\" has the right magnitude but the wrong sign, from reversing the products-minus-reactants order. \"+2236.2 kJ/mol\" and \"−2236.2 kJ/mol\" both come from ADDING the reactant and product sums instead of subtracting them, differing only in the resulting overall sign."
     },
     {
       "id": "6-51",
@@ -6358,7 +6358,7 @@ const QUESTIONS = {
         "ΔH°rxn = ΣΔH°f(products) + ΣΔH°f(reactants)"
       ],
       "correct": 2,
-      "explanation": "The correct formula multiplies each ΔH°f by its balanced-equation coefficient (n) and takes products minus reactants: ΣnΔH°f(products) − ΣnΔH°f(reactants). \"ΔH°f(products) only\" ignores the reactants entirely, which would only be valid if every reactant happened to be an element in its standard state (ΔH°f = 0) — not a general rule. \"Reactants − products\" reverses the subtraction order, flipping the sign of every answer — this is exactly the common student error the correct formula guards against. \"Products + reactants\" adds the two sums instead of subtracting, which doesn't correspond to any physically meaningful energy calculation."
+      "explanation": "Correct: (C) ΔH°rxn = ΣnΔH°f(products) − ΣnΔH°f(reactants). The correct formula multiplies each ΔH°f by its balanced-equation coefficient (n) and takes products minus reactants: ΣnΔH°f(products) − ΣnΔH°f(reactants). \"ΔH°f(products) only\" ignores the reactants entirely, which would only be valid if every reactant happened to be an element in its standard state (ΔH°f = 0) — not a general rule. \"Reactants − products\" reverses the subtraction order, flipping the sign of every answer — this is exactly the common student error the correct formula guards against. \"Products + reactants\" adds the two sums instead of subtracting, which doesn't correspond to any physically meaningful energy calculation."
     },
     {
       "id": "6-52",
@@ -6371,7 +6371,7 @@ const QUESTIONS = {
         "−837.9 kJ/mol"
       ],
       "correct": 1,
-      "explanation": "Since Al(s) and O₂(g) are elements in their standard states, both have ΔH°f = 0, so ΔH°rxn = (1)(−1675.7) − 0 = −1675.7 kJ/mol; this equation is literally the formation reaction for Al₂O₃, so its ΔH°rxn IS Al₂O₃'s ΔH°f. \"+1675.7 kJ/mol\" has the right magnitude but the wrong sign. \"−3351.4 kJ/mol\" is exactly double the correct value, as if the single mole of Al₂O₃ formed were mistakenly doubled. \"−837.9 kJ/mol\" is roughly half the correct value, the opposite scaling error."
+      "explanation": "Correct: (B) −1675.7 kJ/mol. Since Al(s) and O₂(g) are elements in their standard states, both have ΔH°f = 0, so ΔH°rxn = (1)(−1675.7) − 0 = −1675.7 kJ/mol; this equation is literally the formation reaction for Al₂O₃, so its ΔH°rxn IS Al₂O₃'s ΔH°f. \"+1675.7 kJ/mol\" has the right magnitude but the wrong sign. \"−3351.4 kJ/mol\" is exactly double the correct value, as if the single mole of Al₂O₃ formed were mistakenly doubled. \"−837.9 kJ/mol\" is roughly half the correct value, the opposite scaling error."
     },
     {
       "id": "6-53",
@@ -6384,7 +6384,7 @@ const QUESTIONS = {
         "2H₂O(l) → 2H₂(g) + O₂(g)"
       ],
       "correct": 0,
-      "explanation": "A standard formation reaction must produce exactly 1 mole of a single compound directly from its elements in their standard states — \"H₂(g) + ½O₂(g) → H₂O(l)\" does exactly this. \"2H₂O(l) → 2H₂(g) + O₂(g)\" is a decomposition, running in the wrong direction (compound to elements) and also involving 2 mol, not 1. \"2H₂(g) + O₂(g) → 2H₂O(l)\" has the correct direction but produces 2 mol of H₂O rather than the required 1 mol — it's simply twice the actual formation reaction. \"H₂O(l) + CO₂(g) → H₂CO₃(aq)\" starts from two compounds, not elements in their standard states, so it can't be a formation reaction at all, regardless of what it produces."
+      "explanation": "Correct: (A) H₂(g) + ½O₂(g) → H₂O(l). A standard formation reaction must produce exactly 1 mole of a single compound directly from its elements in their standard states — \"H₂(g) + ½O₂(g) → H₂O(l)\" does exactly this. \"2H₂O(l) → 2H₂(g) + O₂(g)\" is a decomposition, running in the wrong direction (compound to elements) and also involving 2 mol, not 1. \"2H₂(g) + O₂(g) → 2H₂O(l)\" has the correct direction but produces 2 mol of H₂O rather than the required 1 mol — it's simply twice the actual formation reaction. \"H₂O(l) + CO₂(g) → H₂CO₃(aq)\" starts from two compounds, not elements in their standard states, so it can't be a formation reaction at all, regardless of what it produces."
     },
     {
       "id": "6-54",
@@ -6397,7 +6397,7 @@ const QUESTIONS = {
         "−2043.9 kJ/mol"
       ],
       "correct": 3,
-      "explanation": "ΔH°rxn = [3(−393.5)+4(−241.8)] − [1(−103.8)+5(0)] = −2147.7 − (−103.8) = −2043.9 kJ/mol. \"−2147.7 kJ/mol\" is just the products sum alone, forgetting to subtract the reactants' ΔH°f (effectively treating C₃H₈'s formation enthalpy as zero). \"+2043.9 kJ/mol\" has the right magnitude but the wrong sign, from reversing the products-minus-reactants order. \"−1876.5 kJ/mol\" doesn't come from omitting a whole term but from smaller errors accumulating in the ΣnΔH°f sums — redoing each term with its correct coefficient and sign confirms −2043.9 kJ/mol."
+      "explanation": "Correct: (D) −2043.9 kJ/mol. ΔH°rxn = [3(−393.5)+4(−241.8)] − [1(−103.8)+5(0)] = −2147.7 − (−103.8) = −2043.9 kJ/mol. \"−2147.7 kJ/mol\" is just the products sum alone, forgetting to subtract the reactants' ΔH°f (effectively treating C₃H₈'s formation enthalpy as zero). \"+2043.9 kJ/mol\" has the right magnitude but the wrong sign, from reversing the products-minus-reactants order. \"−1876.5 kJ/mol\" doesn't come from omitting a whole term but from smaller errors accumulating in the ΣnΔH°f sums — redoing each term with its correct coefficient and sign confirms −2043.9 kJ/mol."
     },
     {
       "id": "6-55",
@@ -6410,7 +6410,7 @@ const QUESTIONS = {
         "Graphite is the more stable allotrope at standard conditions."
       ],
       "correct": 3,
-      "explanation": "When an element has multiple allotropes, the standard state (assigned ΔH°f = 0) is conventionally the most thermodynamically stable form under standard conditions — for carbon, that's graphite, not diamond. \"Completely arbitrary\" is wrong; this follows directly from thermodynamic stability, a specific, measurable criterion, not a coin flip. \"Graphite is more expensive\" is false and irrelevant — diamond is actually pricier, and cost has nothing to do with the thermodynamic convention anyway. \"Diamond does not contain carbon atoms\" is simply false — diamond is a well-known crystalline allotrope of pure carbon, just arranged (tetrahedral network) differently than graphite's layered structure."
+      "explanation": "Correct: (D) Graphite is the more stable allotrope at standard conditions. When an element has multiple allotropes, the standard state (assigned ΔH°f = 0) is conventionally the most thermodynamically stable form under standard conditions — for carbon, that's graphite, not diamond. \"Completely arbitrary\" is wrong; this follows directly from thermodynamic stability, a specific, measurable criterion, not a coin flip. \"Graphite is more expensive\" is false and irrelevant — diamond is actually pricier, and cost has nothing to do with the thermodynamic convention anyway. \"Diamond does not contain carbon atoms\" is simply false — diamond is a well-known crystalline allotrope of pure carbon, just arranged (tetrahedral network) differently than graphite's layered structure."
     },
     {
       "id": "6-56",
@@ -6423,7 +6423,7 @@ const QUESTIONS = {
         "Gases always have a ΔH°f of exactly zero."
       ],
       "correct": 2,
-      "explanation": "Br₂(l) is bromine's actual standard state (bromine is a liquid at room temperature and standard pressure), so it's assigned ΔH°f = 0; Br₂(g) requires the additional energy of vaporization beyond that standard state, giving it a nonzero, positive ΔH°f (essentially equal to bromine's heat of vaporization). \"Gases always have ΔH°f = 0\" is false — gaseous elements like N₂ or O₂ have ΔH°f = 0 only because gas happens to be THEIR standard state, which isn't true for bromine. \"Printing error\" is wrong — this is a real, important distinction in thermodynamic tables, not a mistake. \"Liquid and gas states always have identical properties\" is directly contradicted by the given values themselves (0 vs +30.9 kJ/mol are clearly not equal), precisely because a phase change with its own ΔH separates the two states.",
+      "explanation": "Correct: (C) Br₂(l) is bromine's standard state (ΔH°f = 0); Br₂(g) needs added vaporization energy. Br₂(l) is bromine's actual standard state (bromine is a liquid at room temperature and standard pressure), so it's assigned ΔH°f = 0; Br₂(g) requires the additional energy of vaporization beyond that standard state, giving it a nonzero, positive ΔH°f (essentially equal to bromine's heat of vaporization). \"Gases always have ΔH°f = 0\" is false — gaseous elements like N₂ or O₂ have ΔH°f = 0 only because gas happens to be THEIR standard state, which isn't true for bromine. \"Printing error\" is wrong — this is a real, important distinction in thermodynamic tables, not a mistake. \"Liquid and gas states always have identical properties\" is directly contradicted by the given values themselves (0 vs +30.9 kJ/mol are clearly not equal), precisely because a phase change with its own ΔH separates the two states.",
       "stretch": true
     },
     {
@@ -6437,7 +6437,7 @@ const QUESTIONS = {
         "Independent of pathway; only initial and final states matter."
       ],
       "correct": 3,
-      "explanation": "Hess's Law follows from enthalpy being a state function — its value depends only on the initial and final states, not on the path or number of steps taken between them. \"Always equal to zero\" is wrong; ΔH is very often nonzero (that's the whole point of thermochemistry) — Hess's Law says the VALUE is path-independent, not that the value itself is zero. \"Only valid for reactions that are exothermic\" is false; Hess's Law applies equally to endothermic and exothermic reactions, with nothing in its logic restricting it to one sign. \"Dependent on the specific pathway\" directly contradicts the defining feature of a state function, which is exactly path-independence."
+      "explanation": "Correct: (D) Independent of pathway; only initial and final states matter. Hess's Law follows from enthalpy being a state function — its value depends only on the initial and final states, not on the path or number of steps taken between them. \"Always equal to zero\" is wrong; ΔH is very often nonzero (that's the whole point of thermochemistry) — Hess's Law says the VALUE is path-independent, not that the value itself is zero. \"Only valid for reactions that are exothermic\" is false; Hess's Law applies equally to endothermic and exothermic reactions, with nothing in its logic restricting it to one sign. \"Dependent on the specific pathway\" directly contradicts the defining feature of a state function, which is exactly path-independence."
     },
     {
       "id": "6-58",
@@ -6450,7 +6450,7 @@ const QUESTIONS = {
         "It stays exactly the same."
       ],
       "correct": 0,
-      "explanation": "Reversing a reaction swaps the start and end states, which negates ΔH, since ΔH = E<sub>end</sub> − E<sub>start</sub> and swapping start/end flips that difference's sign. \"Automatically doubled\" would apply if the coefficients were scaled by 2, not if the reaction were simply reversed — these are two different operations. \"Becomes exactly zero\" would mean no energy change at all, which isn't implied by reversing direction. \"Stays exactly the same\" is wrong because that would mean the forward and reverse processes have identical energetics, true only in the special case ΔH = 0."
+      "explanation": "Correct: (A) Its sign flips. Reversing a reaction swaps the start and end states, which negates ΔH, since ΔH = E<sub>end</sub> − E<sub>start</sub> and swapping start/end flips that difference's sign. \"Automatically doubled\" would apply if the coefficients were scaled by 2, not if the reaction were simply reversed — these are two different operations. \"Becomes exactly zero\" would mean no energy change at all, which isn't implied by reversing direction. \"Stays exactly the same\" is wrong because that would mean the forward and reverse processes have identical energetics, true only in the special case ΔH = 0."
     },
     {
       "id": "6-59",
@@ -6463,7 +6463,7 @@ const QUESTIONS = {
         "Its sign flips."
       ],
       "correct": 0,
-      "explanation": "Since ΔH is extensive, scaling a reaction's coefficients by a factor scales ΔH by that same factor — tripling the equation means three times as much reaction occurs, so ΔH also triples. \"Divided by 3\" is the opposite scaling direction, which would apply if the equation were divided by 3, not multiplied. \"Stays exactly the same\" treats ΔH as if it were intensive, contradicting its extensive nature established in Q6-39. \"Sign flips\" describes what happens when a reaction is REVERSED (Q6-58), not when it's scaled by a positive factor — different operations, different effects."
+      "explanation": "Correct: (A) It is also multiplied by 3. Since ΔH is extensive, scaling a reaction's coefficients by a factor scales ΔH by that same factor — tripling the equation means three times as much reaction occurs, so ΔH also triples. \"Divided by 3\" is the opposite scaling direction, which would apply if the equation were divided by 3, not multiplied. \"Stays exactly the same\" treats ΔH as if it were intensive, contradicting its extensive nature established in Q6-39. \"Sign flips\" describes what happens when a reaction is REVERSED (Q6-58), not when it's scaled by a positive factor — different operations, different effects."
     },
     {
       "id": "6-60",
@@ -6489,7 +6489,7 @@ const QUESTIONS = {
         "−65 kJ"
       ],
       "correct": 2,
-      "explanation": "Adding reactions (1) and (2) cancels the intermediate 2A, giving C→B with ΔH = −40 + 25 = −15 kJ. \"+15 kJ\" has the right magnitude but the wrong sign, from a sign-handling slip when combining a negative and a positive ΔH. \"+65 kJ\" and \"−65 kJ\" both come from adding the magnitudes of the two ΔH values (40+25=65) instead of combining them with their actual signs, differing only in which overall sign was then assigned."
+      "explanation": "Correct: (C) −15 kJ. Adding reactions (1) and (2) cancels the intermediate 2A, giving C→B with ΔH = −40 + 25 = −15 kJ. \"+15 kJ\" has the right magnitude but the wrong sign, from a sign-handling slip when combining a negative and a positive ΔH. \"+65 kJ\" and \"−65 kJ\" both come from adding the magnitudes of the two ΔH values (40+25=65) instead of combining them with their actual signs, differing only in which overall sign was then assigned."
     },
     {
       "id": "6-62",
@@ -6502,7 +6502,7 @@ const QUESTIONS = {
         "−60 kJ"
       ],
       "correct": 0,
-      "explanation": "The target is reaction (1) both reversed and doubled: reversing flips the sign to +60 kJ, then doubling multiplies to +120 kJ — both operations must be applied together. \"−60 kJ\" applies neither modification, just reusing the original ΔH unchanged. \"+60 kJ\" applies only the reversal (sign flip) but forgets the doubling. \"−120 kJ\" applies only the doubling but forgets the reversal, so it keeps the original negative sign."
+      "explanation": "Correct: (A) +120 kJ. The target is reaction (1) both reversed and doubled: reversing flips the sign to +60 kJ, then doubling multiplies to +120 kJ — both operations must be applied together. \"−60 kJ\" applies neither modification, just reusing the original ΔH unchanged. \"+60 kJ\" applies only the reversal (sign flip) but forgets the doubling. \"−120 kJ\" applies only the doubling but forgets the reversal, so it keeps the original negative sign."
     },
     {
       "id": "6-63",
@@ -6515,7 +6515,7 @@ const QUESTIONS = {
         "−198 kJ"
       ],
       "correct": 0,
-      "explanation": "Reaction (1) as written (−297 kJ) plus half of reaction (2) (−198/2 = −99 kJ) sums to −396 kJ after SO₂ cancels as an intermediate. \"−495 kJ\" comes from adding reaction (2)'s ORIGINAL, unhalved ΔH (−297 + (−198) = −495), forgetting that reaction (2) must first be divided by 2 to match the target's coefficients. \"−198 kJ\" is just reaction (2)'s unmodified ΔH alone, omitting reaction (1) entirely. \"+99 kJ\" takes half of reaction (2)'s ΔH but flips its sign and drops reaction (1) — combining a sign error with a missing term."
+      "explanation": "Correct: (A) −396 kJ. Reaction (1) as written (−297 kJ) plus half of reaction (2) (−198/2 = −99 kJ) sums to −396 kJ after SO₂ cancels as an intermediate. \"−495 kJ\" comes from adding reaction (2)'s ORIGINAL, unhalved ΔH (−297 + (−198) = −495), forgetting that reaction (2) must first be divided by 2 to match the target's coefficients. \"−198 kJ\" is just reaction (2)'s unmodified ΔH alone, omitting reaction (1) entirely. \"+99 kJ\" takes half of reaction (2)'s ΔH but flips its sign and drops reaction (1) — combining a sign error with a missing term."
     },
     {
       "id": "6-64",
@@ -6528,7 +6528,7 @@ const QUESTIONS = {
         "Hess's Law cannot be applied to dangerous or difficult reactions."
       ],
       "correct": 0,
-      "explanation": "Hess's Law lets ΔH for a hard-to-measure reaction be calculated indirectly by algebraically combining other reactions whose ΔH values are known and can be safely/easily measured, since ΔH depends only on start/end states, not path. \"Cannot be applied to dangerous or difficult reactions\" is wrong — this describes exactly the situation Hess's Law is MOST useful for, not a limitation. \"Eliminates the need for any experimental data\" is false; Hess's Law still requires real experimental ΔH values for the reactions being combined — it just redirects which reactions need to be measured. \"Only works for reactions that release no heat\" is wrong because Hess's Law applies to reactions of any ΔH sign or magnitude, not only thermoneutral ones."
+      "explanation": "Correct: (A) It lets ΔH be found indirectly via other reactions. Hess's Law lets ΔH for a hard-to-measure reaction be calculated indirectly by algebraically combining other reactions whose ΔH values are known and can be safely/easily measured, since ΔH depends only on start/end states, not path. \"Cannot be applied to dangerous or difficult reactions\" is wrong — this describes exactly the situation Hess's Law is MOST useful for, not a limitation. \"Eliminates the need for any experimental data\" is false; Hess's Law still requires real experimental ΔH values for the reactions being combined — it just redirects which reactions need to be measured. \"Only works for reactions that release no heat\" is wrong because Hess's Law applies to reactions of any ΔH sign or magnitude, not only thermoneutral ones."
     },
     {
       "id": "6-65",
@@ -6541,7 +6541,7 @@ const QUESTIONS = {
         "Only reactions (1) and (3) need to be consistent; reaction (2) is unrelated."
       ],
       "correct": 1,
-      "explanation": "Taking ½(1) + ½(2) gives C(s)+O₂(g)→CO₂(g) with CO cancelling as an intermediate, and ΔH = −110.5 + (−283.0) = −393.5 kJ, exactly matching reaction (3) — confirming all three are thermodynamically self-consistent. \"Inconsistent\" is directly contradicted by this exact calculation, which shows agreement, not disagreement. \"Only (1) and (3) need to be consistent\" is wrong because reaction (2) is essential to the check — without it there's no way to connect reaction (1)'s CO product to reaction (3)'s CO₂ product. \"Cannot be checked without additional data\" is false; this is precisely the kind of consistency Hess's Law (a state-function argument) lets you verify using only the given ΔH values.",
+      "explanation": "Correct: (B) They are consistent: ½(1)+½(2) equals (3), and the ΔH values confirm it. Taking ½(1) + ½(2) gives C(s)+O₂(g)→CO₂(g) with CO cancelling as an intermediate, and ΔH = −110.5 + (−283.0) = −393.5 kJ, exactly matching reaction (3) — confirming all three are thermodynamically self-consistent. \"Inconsistent\" is directly contradicted by this exact calculation, which shows agreement, not disagreement. \"Only (1) and (3) need to be consistent\" is wrong because reaction (2) is essential to the check — without it there's no way to connect reaction (1)'s CO product to reaction (3)'s CO₂ product. \"Cannot be checked without additional data\" is false; this is precisely the kind of consistency Hess's Law (a state-function argument) lets you verify using only the given ΔH values.",
       "stretch": true
     },
     {
@@ -6555,7 +6555,7 @@ const QUESTIONS = {
         "A coffee-cup calorimeter, because it operates at constant pressure."
       ],
       "correct": 3,
-      "explanation": "A coffee-cup calorimeter is open to the atmosphere, so it stays at essentially constant (atmospheric) pressure throughout the reaction — this constant-pressure condition is exactly what ΔH is defined for, so the measured heat equals ΔH directly. \"A bomb calorimeter... measures ΔE\" correctly describes bomb calorimetry, but that's the wrong tool for this question, which specifically asks how to measure ΔH, not ΔE. \"Cheaper and easier to use\" gives the right calorimeter but the wrong reason — it's the constant-pressure condition, not cost or convenience, that makes q equal ΔH. \"Any sealed calorimeter directly yields ΔH\" is backwards: sealing a calorimeter (as in a bomb calorimeter) creates constant-VOLUME conditions, which measures ΔE, not ΔH — the two only coincide when a reaction involves no change in moles of gas."
+      "explanation": "Correct: (D) A coffee-cup calorimeter, because it operates at constant pressure. A coffee-cup calorimeter is open to the atmosphere, so it stays at essentially constant (atmospheric) pressure throughout the reaction — this constant-pressure condition is exactly what ΔH is defined for, so the measured heat equals ΔH directly. \"A bomb calorimeter... measures ΔE\" correctly describes bomb calorimetry, but that's the wrong tool for this question, which specifically asks how to measure ΔH, not ΔE. \"Cheaper and easier to use\" gives the right calorimeter but the wrong reason — it's the constant-pressure condition, not cost or convenience, that makes q equal ΔH. \"Any sealed calorimeter directly yields ΔH\" is backwards: sealing a calorimeter (as in a bomb calorimeter) creates constant-VOLUME conditions, which measures ΔE, not ΔH — the two only coincide when a reaction involves no change in moles of gas."
     },
     {
       "id": "6-80",
@@ -6598,7 +6598,7 @@ const QUESTIONS = {
         "A dynamic state with forward and reverse reactions at equal rates."
       ],
       "correct": 3,
-      "explanation": "Correct: a dynamic state with forward and reverse reactions at equal rates. Chemical equilibrium is reached by a REVERSIBLE reaction when the forward rate equals the reverse rate. Both reactions keep going, so molecules are still reacting, but because the rates are equal the concentrations of every species stay constant. Key words: dynamic (still moving), equal rates (not equal amounts).\n\n(A) is wrong because the reverse reaction must also be occurring.\n(C) is wrong because the reactions have not stopped; they are balanced.\n(B) is wrong because irreversible reactions run to completion and never reach equilibrium; only reversible reactions do."
+      "explanation": "Correct: (D) A dynamic state with forward and reverse reactions at equal rates. Chemical equilibrium is reached by a REVERSIBLE reaction when the forward rate equals the reverse rate. Both reactions keep going, so molecules are still reacting, but because the rates are equal the concentrations of every species stay constant. Key words: dynamic (still moving), equal rates (not equal amounts).\n\n(A) is wrong because the reverse reaction must also be occurring.\n(C) is wrong because the reactions have not stopped; they are balanced.\n(B) is wrong because irreversible reactions run to completion and never reach equilibrium; only reversible reactions do."
     },
     {
       "id": "7-2",
@@ -6611,7 +6611,7 @@ const QUESTIONS = {
         "They remain constant over time, but not necessarily equal."
       ],
       "correct": 3,
-      "explanation": "Correct: they remain constant over time, but not necessarily equal. At equilibrium the forward and reverse RATES are equal, which makes each concentration stop changing. How much product versus reactant is present depends on K: if K is large there is mostly product, if K is small there is mostly reactant, and they are equal only in the special case where K = 1 (for a simple 1:1 reaction).\n\n(A) is wrong because it confuses equal rates with equal concentrations.\n(B) is wrong because both reactants and products are present at equilibrium; the reactions are still going.\n(C) is wrong because the concentrations settle at steady values and do not oscillate."
+      "explanation": "Correct: (D) They remain constant over time, but not necessarily equal. At equilibrium the forward and reverse RATES are equal, which makes each concentration stop changing. How much product versus reactant is present depends on K: if K is large there is mostly product, if K is small there is mostly reactant, and they are equal only in the special case where K = 1 (for a simple 1:1 reaction).\n\n(A) is wrong because it confuses equal rates with equal concentrations.\n(B) is wrong because both reactants and products are present at equilibrium; the reactions are still going.\n(C) is wrong because the concentrations settle at steady values and do not oscillate."
     },
     {
       "id": "7-3",
@@ -6624,7 +6624,7 @@ const QUESTIONS = {
         "Because concentrations keep changing visibly and measurably at the macroscopic scale."
       ],
       "correct": 1,
-      "explanation": "Correct: because reactions continue at the molecular level though bulk concentrations look constant. 'Dynamic' means in motion. At equilibrium, individual molecules keep reacting in both directions, but the forward and reverse rates are equal, so for every molecule of product formed, another changes back. From the outside, nothing seems to change, which is what 'static' would mean, but inside the system there is constant activity.\n\n(C) is wrong because equilibrium can last indefinitely if the system is undisturbed.\n(A) is wrong because equilibrium does not need an outside energy input.\n(D) is wrong because at equilibrium the macroscopic concentrations do NOT change."
+      "explanation": "Correct: (B) Because reactions continue at the molecular level though bulk concentrations look constant. 'Dynamic' means in motion. At equilibrium, individual molecules keep reacting in both directions, but the forward and reverse rates are equal, so for every molecule of product formed, another changes back. From the outside, nothing seems to change, which is what 'static' would mean, but inside the system there is constant activity.\n\n(C) is wrong because equilibrium can last indefinitely if the system is undisturbed.\n(A) is wrong because equilibrium does not need an outside energy input.\n(D) is wrong because at equilibrium the macroscopic concentrations do NOT change."
     },
     {
       "id": "7-4",
@@ -6650,7 +6650,7 @@ const QUESTIONS = {
         "A light switch that is fixed in either the fully on or fully off position."
       ],
       "correct": 1,
-      "explanation": "This analogy captures the key feature of dynamic equilibrium: both processes (walking forward, walking backward relative to the walkway) are actively ongoing, but they exactly cancel out in terms of net observable change (position), just as forward and reverse reactions continue at equilibrium while net concentrations stay constant. Choices A and C (a parked car, a resting ball) both describe pure static systems with no ongoing process at all — there's no \"forward\" and \"reverse\" activity happening, so they miss the dynamic part entirely. Choice D (a light switch) is a binary either/or state, not two simultaneous opposing processes, so it doesn't capture the idea of continuous, balanced activity either."
+      "explanation": "Correct: (B) Two people walking equally fast in opposite directions on a moving walkway. This analogy captures the key feature of dynamic equilibrium: both processes (walking forward, walking backward relative to the walkway) are actively ongoing, but they exactly cancel out in terms of net observable change (position), just as forward and reverse reactions continue at equilibrium while net concentrations stay constant. Choices A and C (a parked car, a resting ball) both describe pure static systems with no ongoing process at all — there's no \"forward\" and \"reverse\" activity happening, so they miss the dynamic part entirely. Choice D (a light switch) is a binary either/or state, not two simultaneous opposing processes, so it doesn't capture the idea of continuous, balanced activity either."
     },
     {
       "id": "7-81",
@@ -6690,7 +6690,7 @@ const QUESTIONS = {
         "Nothing happens at all; without reactants present, no reaction can occur."
       ],
       "correct": 1,
-      "explanation": "Starting with only products doesn't prevent a reaction from occurring — the reverse reaction can proceed (converting products back into reactants) until the system reaches the same equilibrium position (same relative concentrations, governed by K) that it would reach from any other starting point at that temperature. Choice A is wrong because it ignores that the products don't just vanish — they convert into reactants via the reverse reaction, which is very different from simply disappearing. Choice C is false; this is a completely normal and common scenario for reversible reactions. Choice D incorrectly assumes reaction requires reactants to be present from the start, but the reverse reaction runs perfectly well starting from pure products."
+      "explanation": "Correct: (B) The reverse reaction runs, converting some product back into reactant. Starting with only products doesn't prevent a reaction from occurring — the reverse reaction can proceed (converting products back into reactants) until the system reaches the same equilibrium position (same relative concentrations, governed by K) that it would reach from any other starting point at that temperature. Choice A is wrong because it ignores that the products don't just vanish — they convert into reactants via the reverse reaction, which is very different from simply disappearing. Choice C is false; this is a completely normal and common scenario for reversible reactions. Choice D incorrectly assumes reaction requires reactants to be present from the start, but the reverse reaction runs perfectly well starting from pure products."
     },
     {
       "id": "7-8",
@@ -6703,7 +6703,7 @@ const QUESTIONS = {
         "They will reach completely different equilibrium concentrations from each other."
       ],
       "correct": 1,
-      "explanation": "Since K is a fixed value at a given temperature (regardless of which direction the reaction approaches it from), both vessels — approaching from opposite starting points — will converge on the exact same equilibrium concentrations, as long as the total amount of each element is conserved between the two stoichiometrically-equivalent starting setups. Choice D is wrong because it assumes the starting direction matters to the final K-governed position, which it doesn't. Choice A is wrong because the comparison absolutely can be made — that's exactly what \"K depends only on temperature\" tells you. Choice C is wrong because both vessels reach equilibrium; reversibility guarantees Vessel 2 reaches it too, just approaching from the opposite direction."
+      "explanation": "Correct: (B) They reach the same equilibrium position, since K depends only on temperature. Since K is a fixed value at a given temperature (regardless of which direction the reaction approaches it from), both vessels — approaching from opposite starting points — will converge on the exact same equilibrium concentrations, as long as the total amount of each element is conserved between the two stoichiometrically-equivalent starting setups. Choice D is wrong because it assumes the starting direction matters to the final K-governed position, which it doesn't. Choice A is wrong because the comparison absolutely can be made — that's exactly what \"K depends only on temperature\" tells you. Choice C is wrong because both vessels reach equilibrium; reversibility guarantees Vessel 2 reaches it too, just approaching from the opposite direction."
     },
     {
       "id": "7-9",
@@ -6755,7 +6755,7 @@ const QUESTIONS = {
         "Backward, toward reactants"
       ],
       "correct": 3,
-      "explanation": "Correct: backward, toward reactants. Compare Q (the reaction quotient, calculated from the CURRENT concentrations) to K. If Q < K, there is too little product, so the reaction shifts forward. If Q > K, there is too much product, so the reaction shifts backward. If Q = K, the system is at equilibrium. Here Q = 40.0 is greater than K = 25.0, so there is too much product, and the reaction shifts backward until Q falls to 25.0.\n\n(A) is wrong because it applies the Q < K rule.\n(B) is wrong because Q is not equal to K, so the system is not at equilibrium.\n(C) is wrong because Q and K are all you need."
+      "explanation": "Correct: (D) Backward, toward reactants. Compare Q (the reaction quotient, calculated from the CURRENT concentrations) to K. If Q < K, there is too little product, so the reaction shifts forward. If Q > K, there is too much product, so the reaction shifts backward. If Q = K, the system is at equilibrium. Here Q = 40.0 is greater than K = 25.0, so there is too much product, and the reaction shifts backward until Q falls to 25.0.\n\n(A) is wrong because it applies the Q < K rule.\n(B) is wrong because Q is not equal to K, so the system is not at equilibrium.\n(C) is wrong because Q and K are all you need."
     },
     {
       "id": "7-13",
@@ -6768,7 +6768,7 @@ const QUESTIONS = {
         "Q = 5.0 × 10⁻⁴; shifts backward (Q > K)"
       ],
       "correct": 3,
-      "explanation": "Correct: Q = 5.0 x 10<sup>-4</sup>; shifts backward (Q > K). Write Q for 2H<sub>2</sub>S ⇌ 2H<sub>2</sub> + S<sub>2</sub>: Q = [H<sub>2</sub>]<sup>2</sup>[S<sub>2</sub>]/[H<sub>2</sub>S]<sup>2</sup>. Substitute: (0.0500)<sup>2</sup>(0.0500)/(0.500)<sup>2</sup> = (0.00250)(0.0500)/0.250 = 1.25 x 10<sup>-4</sup>/0.250 = 5.0 x 10<sup>-4</sup>. Compare to K = 1.0 x 10<sup>-6</sup>: Q is much larger than K, so there is too much product and the reaction shifts backward.\n\n(B) is wrong because it has the correct Q but the wrong direction; shifting forward applies only when Q < K.\n(A) and\n(C) are wrong because their Q = 5.0 x 10<sup>-3</sup> is ten times too large, a calculation slip."
+      "explanation": "Correct: (D) Q = 5.0 x 10<sup>-4</sup>; shifts backward (Q > K). Write Q for 2H<sub>2</sub>S ⇌ 2H<sub>2</sub> + S<sub>2</sub>: Q = [H<sub>2</sub>]<sup>2</sup>[S<sub>2</sub>]/[H<sub>2</sub>S]<sup>2</sup>. Substitute: (0.0500)<sup>2</sup>(0.0500)/(0.500)<sup>2</sup> = (0.00250)(0.0500)/0.250 = 1.25 x 10<sup>-4</sup>/0.250 = 5.0 x 10<sup>-4</sup>. Compare to K = 1.0 x 10<sup>-6</sup>: Q is much larger than K, so there is too much product and the reaction shifts backward.\n\n(B) is wrong because it has the correct Q but the wrong direction; shifting forward applies only when Q < K.\n(A) and\n(C) are wrong because their Q = 5.0 x 10<sup>-3</sup> is ten times too large, a calculation slip."
     },
     {
       "id": "7-14",
@@ -6781,7 +6781,7 @@ const QUESTIONS = {
         "Liquids never actually participate in equilibrium reactions at all."
       ],
       "correct": 2,
-      "explanation": "A pure liquid's \"concentration\" (technically, its activity) remains essentially constant regardless of how much is present, since it's not diluted or concentrated the way a solute in solution would be — this constant value is mathematically absorbed into the equilibrium constant K itself, rather than appearing as a separate, changing term. Choice A is wrong because there is a clear physical and mathematical justification, not an arbitrary convention. Choice B is wrong because a liquid's concentration is not zero — it's simply constant, which is a completely different thing. Choice D is wrong because pure liquids absolutely do participate in the actual chemistry (as reactants, products, or solvents); they're just omitted from the written expression because their activity doesn't vary."
+      "explanation": "Correct: (C) A pure liquid's activity stays essentially constant, folded into K itself. A pure liquid's \"concentration\" (technically, its activity) remains essentially constant regardless of how much is present, since it's not diluted or concentrated the way a solute in solution would be — this constant value is mathematically absorbed into the equilibrium constant K itself, rather than appearing as a separate, changing term. Choice A is wrong because there is a clear physical and mathematical justification, not an arbitrary convention. Choice B is wrong because a liquid's concentration is not zero — it's simply constant, which is a completely different thing. Choice D is wrong because pure liquids absolutely do participate in the actual chemistry (as reactants, products, or solvents); they're just omitted from the written expression because their activity doesn't vary."
     },
     {
       "id": "7-15",
@@ -6807,7 +6807,7 @@ const QUESTIONS = {
         "The system is currently far away from its equilibrium state."
       ],
       "correct": 2,
-      "explanation": "Correct: the system is at equilibrium; no net shift will occur. Q is the reaction quotient, calculated from the current concentrations, and K is its value at equilibrium. When Q = K, the system is at equilibrium: the forward and reverse rates are equal and there is no net change. This can happen at any point, including after a reaction has taken place.\n\n(A) is wrong because every reversible reaction reaches Q = K.\n(B) is wrong because Q = K does not mean the reaction has not started.\n(D) is wrong because Q = K means the system is AT equilibrium, not far from it."
+      "explanation": "Correct: (C) The system is at equilibrium; no net shift will occur. Q is the reaction quotient, calculated from the current concentrations, and K is its value at equilibrium. When Q = K, the system is at equilibrium: the forward and reverse rates are equal and there is no net change. This can happen at any point, including after a reaction has taken place.\n\n(A) is wrong because every reversible reaction reaches Q = K.\n(B) is wrong because Q = K does not mean the reaction has not started.\n(D) is wrong because Q = K means the system is AT equilibrium, not far from it."
     },
     {
       "id": "7-17",
@@ -6820,7 +6820,7 @@ const QUESTIONS = {
         "4.00"
       ],
       "correct": 0,
-      "explanation": "Correct: 0.125. Write Q for 2A ⇌ B + C as products over reactants, with exponents from the coefficients: Q = [B][C]/[A]<sup>2</sup>. Substitute: (1.00)(0.500)/(2.00)<sup>2</sup> = 0.500/4.00 = 0.125. The coefficient 2 on A is what makes it squared.\n\n(B) is wrong because it forgets to square [A]: 0.500/2.00 = 0.250.\n(D) is wrong because it forgets the square and inverts the ratio: 2.00/0.500 = 4.00.\n(C) is wrong because it squares [A] but inverts the ratio: 4.00/0.500 = 8.00, which would be Q for the reverse reaction."
+      "explanation": "Correct: (A) 0.125. Write Q for 2A ⇌ B + C as products over reactants, with exponents from the coefficients: Q = [B][C]/[A]<sup>2</sup>. Substitute: (1.00)(0.500)/(2.00)<sup>2</sup> = 0.500/4.00 = 0.125. The coefficient 2 on A is what makes it squared.\n\n(B) is wrong because it forgets to square [A]: 0.500/2.00 = 0.250.\n(D) is wrong because it forgets the square and inverts the ratio: 2.00/0.500 = 4.00.\n(C) is wrong because it squares [A] but inverts the ratio: 4.00/0.500 = 8.00, which would be Q for the reverse reaction."
     },
     {
       "id": "7-18",
@@ -6833,7 +6833,7 @@ const QUESTIONS = {
         "Q is defined as always being exactly double the numerical value of K."
       ],
       "correct": 2,
-      "explanation": "Q and K use the identical mathematical expression (products over reactants, raised to coefficients) — the only difference is when it's evaluated: Q can be calculated using concentrations at any point during a reaction, while K is specifically the value of that same expression once the system has reached true equilibrium. Choice A is wrong because both Q and K apply to any type of equilibrium (gaseous, aqueous, etc.) — there's no such gas/solution split between them. Choice D is an arbitrary, unfounded claim with no basis in how Q and K are actually related. Choice B is wrong because the resemblance isn't coincidental at all — they're literally the same formula, just evaluated at different moments."
+      "explanation": "Correct: (C) Q is the same formula as K, evaluated at any moment rather than only at equilibrium. Q and K use the identical mathematical expression (products over reactants, raised to coefficients) — the only difference is when it's evaluated: Q can be calculated using concentrations at any point during a reaction, while K is specifically the value of that same expression once the system has reached true equilibrium. Choice A is wrong because both Q and K apply to any type of equilibrium (gaseous, aqueous, etc.) — there's no such gas/solution split between them. Choice D is an arbitrary, unfounded claim with no basis in how Q and K are actually related. Choice B is wrong because the resemblance isn't coincidental at all — they're literally the same formula, just evaluated at different moments."
     },
     {
       "id": "7-71",
@@ -6888,7 +6888,7 @@ const QUESTIONS = {
         "0.0125"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.0125. Write K for 2NOCl ⇌ 2NO + Cl<sub>2</sub>: K = [NO]<sup>2</sup>[Cl<sub>2</sub>]/[NOCl]<sup>2</sup>. Substitute: (0.100)<sup>2</sup>(0.0500)/(0.200)<sup>2</sup> = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Note that both NO and NOCl are squared because of their coefficients of 2.\n\n(B) is wrong because it does not square [NO]: (0.100)(0.0500)/0.0400 = 0.125.\n(A) and\n(C) are wrong because they are off from the correct value by arithmetic slips (a factor of 2 and a factor of 100)."
+      "explanation": "Correct: (D) 0.0125. Write K for 2NOCl ⇌ 2NO + Cl<sub>2</sub>: K = [NO]<sup>2</sup>[Cl<sub>2</sub>]/[NOCl]<sup>2</sup>. Substitute: (0.100)<sup>2</sup>(0.0500)/(0.200)<sup>2</sup> = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Note that both NO and NOCl are squared because of their coefficients of 2.\n\n(B) is wrong because it does not square [NO]: (0.100)(0.0500)/0.0400 = 0.125.\n(A) and\n(C) are wrong because they are off from the correct value by arithmetic slips (a factor of 2 and a factor of 100)."
     },
     {
       "id": "7-20",
@@ -6953,7 +6953,7 @@ const QUESTIONS = {
         "Cannot be verified without additional information."
       ],
       "correct": 2,
-      "explanation": "Plugging the solved equilibrium concentrations back into the original K expression is a valuable verification step: K = [B]²/[A] = (0.110)²/0.150 = 0.0121/0.150 = 0.0807, which closely matches the given K = 0.0800 (the small difference is attributable to rounding during the solving process) — confirming the solved value of x is essentially correct. Choice A is wrong because the recalculated K (0.0807) is actually very close to the target (0.0800), not \"not matching at all.\" Choice B is wrong because verification uses the exact same K expression used to solve for x in the first place — no new formula is needed. Choice D is wrong because the check can be performed immediately using only the numbers already given in the problem.",
+      "explanation": "Correct: (C) Consistent: K = (0.110)²/0.150 = 0.0807, closely matching the given K = 0.0800. Plugging the solved equilibrium concentrations back into the original K expression is a valuable verification step: K = [B]²/[A] = (0.110)²/0.150 = 0.0121/0.150 = 0.0807, which closely matches the given K = 0.0800 (the small difference is attributable to rounding during the solving process) — confirming the solved value of x is essentially correct. Choice A is wrong because the recalculated K (0.0807) is actually very close to the target (0.0800), not \"not matching at all.\" Choice B is wrong because verification uses the exact same K expression used to solve for x in the first place — no new formula is needed. Choice D is wrong because the check can be performed immediately using only the numbers already given in the problem.",
       "stretch": true
     },
     {
@@ -6980,7 +6980,7 @@ const QUESTIONS = {
         "The reaction has roughly an equal mix of products and reactants at equilibrium."
       ],
       "correct": 2,
-      "explanation": "Correct: the reaction strongly favors reactants; the forward reaction barely proceeds. K = [products]/[reactants], so K = 3.5 x 10<sup>-12</sup>, much less than 1, means the reactants are far larger than the products at equilibrium. Almost no product forms.\n\n(B) is wrong because it is the opposite: a tiny K means products are disfavored.\n(D) is wrong because an equal mix would need K near 1.\n(A) is wrong because K values this small are common and physically valid."
+      "explanation": "Correct: (C) The reaction strongly favors reactants; the forward reaction barely proceeds. K = [products]/[reactants], so K = 3.5 x 10<sup>-12</sup>, much less than 1, means the reactants are far larger than the products at equilibrium. Almost no product forms.\n\n(B) is wrong because it is the opposite: a tiny K means products are disfavored.\n(D) is wrong because an equal mix would need K near 1.\n(A) is wrong because K values this small are common and physically valid."
     },
     {
       "id": "7-27",
@@ -6993,7 +6993,7 @@ const QUESTIONS = {
         "Yes — a large K value always means the reaction proceeds very slowly."
       ],
       "correct": 1,
-      "explanation": "K is a purely thermodynamic quantity describing the equilibrium position (how far a reaction proceeds), while rate is a kinetic quantity describing how quickly that position is reached — a reaction can have an enormous K (strongly favoring products) yet still be kinetically very slow to actually get there, since these describe genuinely different aspects of the reaction. Choice A conflates two fundamentally different quantities that are not interchangeable. Choices C and D both assert a fixed relationship between K's size and reaction speed that simply doesn't exist — a reaction's rate depends on activation energy and other kinetic factors entirely independent of where its equilibrium happens to lie."
+      "explanation": "Correct: (B) No — K reflects position, not the rate equilibrium is reached. K is a purely thermodynamic quantity describing the equilibrium position (how far a reaction proceeds), while rate is a kinetic quantity describing how quickly that position is reached — a reaction can have an enormous K (strongly favoring products) yet still be kinetically very slow to actually get there, since these describe genuinely different aspects of the reaction. Choice A conflates two fundamentally different quantities that are not interchangeable. Choices C and D both assert a fixed relationship between K's size and reaction speed that simply doesn't exist — a reaction's rate depends on activation energy and other kinetic factors entirely independent of where its equilibrium happens to lie."
     },
     {
       "id": "7-28",
@@ -7006,7 +7006,7 @@ const QUESTIONS = {
         "The mixture contains essentially no reactants left at equilibrium."
       ],
       "correct": 2,
-      "explanation": "A K value close to 1 means the numerator (products) and denominator (reactants) in the equilibrium expression are of comparable, similar magnitude — indicating that at equilibrium, meaningful (non-negligible) amounts of both reactants and products coexist, rather than the mixture being overwhelmingly one or the other. Choice B is wrong because K ≈ 1 describes a perfectly normal, achievable equilibrium, not an impossible one. Choices A and D both claim one side is essentially absent, which is the signature of a K that's extremely large or extremely small — not one close to 1, where neither side dominates."
+      "explanation": "Correct: (C) The mixture has comparable amounts of both reactants and products. A K value close to 1 means the numerator (products) and denominator (reactants) in the equilibrium expression are of comparable, similar magnitude — indicating that at equilibrium, meaningful (non-negligible) amounts of both reactants and products coexist, rather than the mixture being overwhelmingly one or the other. Choice B is wrong because K ≈ 1 describes a perfectly normal, achievable equilibrium, not an impossible one. Choices A and D both claim one side is essentially absent, which is the signature of a K that's extremely large or extremely small — not one close to 1, where neither side dominates."
     },
     {
       "id": "7-29",
@@ -7019,7 +7019,7 @@ const QUESTIONS = {
         "K = 2.0"
       ],
       "correct": 2,
-      "explanation": "Correct: K = 5.0 x 10<sup>25</sup>. K = [products]/[reactants], so a huge K means that at equilibrium almost all of the material is product and only an immeasurably small amount of reactant remains. That is what 'goes essentially to completion' means. Rule of thumb: K greater than about 10<sup>3</sup> is product-favored; K less than about 10<sup>-3</sup> is reactant-favored; values near 1 leave significant amounts of both.\n\n(B) is wrong because K = 1.0 x 10<sup>-20</sup> is the opposite extreme: the reaction hardly goes forward.\n(A) and\n(D) are wrong because K = 0.50 and K = 2.0 are both near 1, so large amounts of both reactants and products are present."
+      "explanation": "Correct: (C) K = 5.0 x 10<sup>25</sup>. K = [products]/[reactants], so a huge K means that at equilibrium almost all of the material is product and only an immeasurably small amount of reactant remains. That is what 'goes essentially to completion' means. Rule of thumb: K greater than about 10<sup>3</sup> is product-favored; K less than about 10<sup>-3</sup> is reactant-favored; values near 1 leave significant amounts of both.\n\n(B) is wrong because K = 1.0 x 10<sup>-20</sup> is the opposite extreme: the reaction hardly goes forward.\n(A) and\n(D) are wrong because K = 0.50 and K = 2.0 are both near 1, so large amounts of both reactants and products are present."
     },
     {
       "id": "7-30",
@@ -7058,7 +7058,7 @@ const QUESTIONS = {
         "5.0"
       ],
       "correct": 1,
-      "explanation": "Correct: 6.0. When two reactions are added to give a third (the B on the two sides cancels), the K of the new reaction is the PRODUCT of the individual K values: K = K<sub>1</sub> x K<sub>2</sub> = 2.0 x 3.0 = 6.0. You can check it with the expressions: K<sub>1</sub> = [B]/[A] and K<sub>2</sub> = [C]/[B]; multiplying them cancels [B] and leaves [C]/[A], the K of A ⇌ C.\n\n(D) is wrong because K values multiply when reactions are added; they do not add.\n(A) and\n(C) are wrong because they come from dividing the K values, which would be the rule for subtracting reactions."
+      "explanation": "Correct: (B) 6.0. When two reactions are added to give a third (the B on the two sides cancels), the K of the new reaction is the PRODUCT of the individual K values: K = K<sub>1</sub> x K<sub>2</sub> = 2.0 x 3.0 = 6.0. You can check it with the expressions: K<sub>1</sub> = [B]/[A] and K<sub>2</sub> = [C]/[B]; multiplying them cancels [B] and leaves [C]/[A], the K of A ⇌ C.\n\n(D) is wrong because K values multiply when reactions are added; they do not add.\n(A) and\n(C) are wrong because they come from dividing the K values, which would be the rule for subtracting reactions."
     },
     {
       "id": "7-33",
@@ -7071,7 +7071,7 @@ const QUESTIONS = {
         "50"
       ],
       "correct": 0,
-      "explanation": "Correct: 5.0. Multiplying all coefficients by a factor n raises K to the power n. Halving the coefficients means n = 1/2, which is the square root: K<sub>new</sub> = √25 = 5.0. Check with the expressions: the original K = [B]<sup>2</sup>/[A] = 25, and the new one is [B]/[A]<sup>1/2</sup>, which is the square root of the original.\n\n(B) is wrong because squaring K is the rule for doubling coefficients.\n(C) and\n(D) are wrong because they divide or multiply K by 2 instead of using an exponent."
+      "explanation": "Correct: (A) 5.0. Multiplying all coefficients by a factor n raises K to the power n. Halving the coefficients means n = 1/2, which is the square root: K<sub>new</sub> = √25 = 5.0. Check with the expressions: the original K = [B]<sup>2</sup>/[A] = 25, and the new one is [B]/[A]<sup>1/2</sup>, which is the square root of the original.\n\n(B) is wrong because squaring K is the rule for doubling coefficients.\n(C) and\n(D) are wrong because they divide or multiply K by 2 instead of using an exponent."
     },
     {
       "id": "7-34",
@@ -7097,7 +7097,7 @@ const QUESTIONS = {
         "Because scaling each coefficient by n raises K itself to the nth power."
       ],
       "correct": 3,
-      "explanation": "Since K's formula raises each concentration to its stoichiometric coefficient, scaling every coefficient by a factor of n effectively raises every individual exponent in the expression by that same factor of n — and raising every exponent in a product/quotient expression by n is mathematically identical to raising the entire original expression to the nth power, which is exactly why K(new) = K(original)ⁿ. Choice A is wrong because there's a solid mathematical derivation behind the rule, not an arbitrary convention. Choice B is wrong because the exponent rule follows purely from how K's formula is built and applies to any equilibrium expression, gas-phase or not. Choice C states precisely the wrong operation — multiplying K by n is the common misconception this question is testing against, not the correct rule."
+      "explanation": "Correct: (D) Because scaling each coefficient by n raises K itself to the nth power. Since K's formula raises each concentration to its stoichiometric coefficient, scaling every coefficient by a factor of n effectively raises every individual exponent in the expression by that same factor of n — and raising every exponent in a product/quotient expression by n is mathematically identical to raising the entire original expression to the nth power, which is exactly why K(new) = K(original)ⁿ. Choice A is wrong because there's a solid mathematical derivation behind the rule, not an arbitrary convention. Choice B is wrong because the exponent rule follows purely from how K's formula is built and applies to any equilibrium expression, gas-phase or not. Choice C states precisely the wrong operation — multiplying K by n is the common misconception this question is testing against, not the correct rule."
     },
     {
       "id": "7-36",
@@ -7110,7 +7110,7 @@ const QUESTIONS = {
         "[A] = 1.00, [B] = x"
       ],
       "correct": 2,
-      "explanation": "Correct: [A] = 1.00 - x, [B] = x. An ICE table tracks Initial, Change, and Equilibrium. Starting with only A, the reaction can only go forward, so A is used up (change = -x) and B is formed (change = +x). Equilibrium: [A] = 1.00 - x and [B] = 0 + x = x. The changes follow the coefficients (here 1:1).\n\n(B) is wrong because it has the signs reversed, which would mean starting with B.\n(D) is wrong because it leaves A unchanged, though any A that reacts must disappear as B appears.\n(A) is wrong because it swaps which species starts with 1.00 M."
+      "explanation": "Correct: (C) [A] = 1.00 - x, [B] = x. An ICE table tracks Initial, Change, and Equilibrium. Starting with only A, the reaction can only go forward, so A is used up (change = -x) and B is formed (change = +x). Equilibrium: [A] = 1.00 - x and [B] = 0 + x = x. The changes follow the coefficients (here 1:1).\n\n(B) is wrong because it has the signs reversed, which would mean starting with B.\n(D) is wrong because it leaves A unchanged, though any A that reacts must disappear as B appears.\n(A) is wrong because it swaps which species starts with 1.00 M."
     },
     {
       "id": "7-37",
@@ -7162,7 +7162,7 @@ const QUESTIONS = {
         "[A] = 0.800 − x, [B] = x"
       ],
       "correct": 2,
-      "explanation": "Correct: [A] = 0.800 - 2x, [B] = x. In an ICE table, the changes follow the coefficients of the balanced equation. For 2A ⇌ B, when x mol/L of B forms, twice as much A (2x) must be used up. So [A] = 0.800 - 2x and [B] = 0 + x. The K expression is then K = x/(0.800 - 2x)<sup>2</sup>.\n\n(A) is wrong because A is a reactant being consumed, so its change is negative.\n(B) is wrong because it puts the 2x on B instead of on A.\n(D) is wrong because it ignores the coefficient and treats the reaction as 1:1."
+      "explanation": "Correct: (C) [A] = 0.800 - 2x, [B] = x. In an ICE table, the changes follow the coefficients of the balanced equation. For 2A ⇌ B, when x mol/L of B forms, twice as much A (2x) must be used up. So [A] = 0.800 - 2x and [B] = 0 + x. The K expression is then K = x/(0.800 - 2x)<sup>2</sup>.\n\n(A) is wrong because A is a reactant being consumed, so its change is negative.\n(B) is wrong because it puts the 2x on B instead of on A.\n(D) is wrong because it ignores the coefficient and treats the reaction as 1:1."
     },
     {
       "id": "7-41",
@@ -7175,7 +7175,7 @@ const QUESTIONS = {
         "Only when K happens to be exactly equal to 1 numerically."
       ],
       "correct": 2,
-      "explanation": "The square-root shortcut only works cleanly when the equilibrium expression, after ICE table substitution, reduces to a perfect square on both sides (typically when initial concentrations and coefficients on both sides create symmetric, squarable terms) — in general cases with different coefficients or different initial concentrations, this shortcut isn't valid and the full quadratic formula must be used instead. Choice D is wrong because the shortcut's validity depends on the algebraic structure of the expression, not on K happening to equal 1. Choice B overstates the case — the quadratic formula always works, but it isn't always necessary. Choice A is wrong because the shortcut fails whenever the setup doesn't produce matching perfect squares on both sides, which happens often with mismatched coefficients or unequal initial concentrations."
+      "explanation": "Correct: (C) Only when both sides reduce to perfect squares. The square-root shortcut only works cleanly when the equilibrium expression, after ICE table substitution, reduces to a perfect square on both sides (typically when initial concentrations and coefficients on both sides create symmetric, squarable terms) — in general cases with different coefficients or different initial concentrations, this shortcut isn't valid and the full quadratic formula must be used instead. Choice D is wrong because the shortcut's validity depends on the algebraic structure of the expression, not on K happening to equal 1. Choice B overstates the case — the quadratic formula always works, but it isn't always necessary. Choice A is wrong because the shortcut fails whenever the setup doesn't produce matching perfect squares on both sides, which happens often with mismatched coefficients or unequal initial concentrations."
     },
     {
       "id": "7-42",
@@ -7188,7 +7188,7 @@ const QUESTIONS = {
         "Yes, the assumption is valid since x came out to be a positive number."
       ],
       "correct": 1,
-      "explanation": "The simplifying assumption is only considered valid if x turns out to be less than about 5% of the initial concentration used in that approximation. Here, x is 90% of the initial value (0.45/0.50 = 90%) — a massive violation of the assumption's premise (that x is negligibly small) — meaning the calculation must be redone using the full quadratic formula. Choice D is wrong because the sign of x is irrelevant to validity; what matters is its size relative to the initial concentration. Choice C is wrong because, while numerically true that 0.45 < 0.50, that comparison isn't the actual validity test — the test is whether x is under roughly 5% of the initial value, and 90% blows well past that. Choice A is wrong because there is a well-defined, standard check (the 5% rule) for exactly this situation."
+      "explanation": "Correct: (B) No — x is 90% of [A]₀, far above the 5% threshold. The simplifying assumption is only considered valid if x turns out to be less than about 5% of the initial concentration used in that approximation. Here, x is 90% of the initial value (0.45/0.50 = 90%) — a massive violation of the assumption's premise (that x is negligibly small) — meaning the calculation must be redone using the full quadratic formula. Choice D is wrong because the sign of x is irrelevant to validity; what matters is its size relative to the initial concentration. Choice C is wrong because, while numerically true that 0.45 < 0.50, that comparison isn't the actual validity test — the test is whether x is under roughly 5% of the initial value, and 90% blows well past that. Choice A is wrong because there is a well-defined, standard check (the 5% rule) for exactly this situation."
     },
     {
       "id": "7-43",
@@ -7201,7 +7201,7 @@ const QUESTIONS = {
         "No reaction occurs since there's no A present initially."
       ],
       "correct": 2,
-      "explanation": "Starting with only product (B) present, the reverse reaction must occur to establish equilibrium (converting some B back into A), since forward reaction is impossible without any A present initially. The ICE table reflects this: B decreases by 2x (matching its coefficient of 2) while A increases by x (matching its coefficient of 1): [B] = 1.00 − 2x, [A] = 0 + x = x. Choice A wrongly assumes forward reaction with no A available to react and also fails to give B the coefficient-matched change of 2x. Choice D is wrong because the absence of A doesn't stop reaction — it just means the reverse direction, not the forward one, is what runs. Choice B is internally inconsistent: it labels the change as \"forward\" while writing A as decreasing (−x, which would mean A is being consumed) and B as increasing, the opposite of what must happen when only B is present initially."
+      "explanation": "Correct: (C) The reaction proceeds in reverse: [B]=1.00−2x, [A]=x. Starting with only product (B) present, the reverse reaction must occur to establish equilibrium (converting some B back into A), since forward reaction is impossible without any A present initially. The ICE table reflects this: B decreases by 2x (matching its coefficient of 2) while A increases by x (matching its coefficient of 1): [B] = 1.00 − 2x, [A] = 0 + x = x. Choice A wrongly assumes forward reaction with no A available to react and also fails to give B the coefficient-matched change of 2x. Choice D is wrong because the absence of A doesn't stop reaction — it just means the reverse direction, not the forward one, is what runs. Choice B is internally inconsistent: it labels the change as \"forward\" while writing A as decreasing (−x, which would mean A is being consumed) and B as increasing, the opposite of what must happen when only B is present initially."
     },
     {
       "id": "7-44",
@@ -7214,7 +7214,7 @@ const QUESTIONS = {
         "Not valid; must use the full quadratic formula"
       ],
       "correct": 0,
-      "explanation": "ICE: [A]=[B]=2.00−x, [C]=2x. Since [A] and [B] have identical initial concentrations and identical coefficients, K = (2x)²/(2.00−x)² is a valid perfect-square setup. Taking the square root of both sides: √9.00 = 2x/(2.00−x), so 3.00 = 2x/(2.00−x). Solving: 3.00(2.00−x) = 2x → 6.00−3.00x = 2x → 6.00 = 5.00x → x = 1.20 M. Equilibrium: [A]=[B]=0.80 M, [C]=2.40 M. Choice C (x = 2.00 M exactly) would mean all of A and B are completely consumed, which doesn't satisfy K = 9.00 when checked (it would require the reaction to go to full completion, appropriate only for an essentially infinite K). Choice D is wrong because A and B's matching initial concentrations and coefficients make this exactly the symmetric case where the square-root shortcut is valid. Choice B (x = 0.60 M) fails to satisfy the equilibrium expression when checked: K = (1.20)²/(1.40)² ≈ 0.73, nowhere near the required 9.00, indicating an algebra error in solving the linear equation for x.",
+      "explanation": "Correct: (A) Valid; x = 1.20 M, giving [A]=[B]=0.80 M, [C]=2.40 M. ICE: [A]=[B]=2.00−x, [C]=2x. Since [A] and [B] have identical initial concentrations and identical coefficients, K = (2x)²/(2.00−x)² is a valid perfect-square setup. Taking the square root of both sides: √9.00 = 2x/(2.00−x), so 3.00 = 2x/(2.00−x). Solving: 3.00(2.00−x) = 2x → 6.00−3.00x = 2x → 6.00 = 5.00x → x = 1.20 M. Equilibrium: [A]=[B]=0.80 M, [C]=2.40 M. Choice C (x = 2.00 M exactly) would mean all of A and B are completely consumed, which doesn't satisfy K = 9.00 when checked (it would require the reaction to go to full completion, appropriate only for an essentially infinite K). Choice D is wrong because A and B's matching initial concentrations and coefficients make this exactly the symmetric case where the square-root shortcut is valid. Choice B (x = 0.60 M) fails to satisfy the equilibrium expression when checked: K = (1.20)²/(1.40)² ≈ 0.73, nowhere near the required 9.00, indicating an algebra error in solving the linear equation for x.",
       "stretch": true
     },
     {
@@ -7228,7 +7228,7 @@ const QUESTIONS = {
         "2.0"
       ],
       "correct": 1,
-      "explanation": "Correct: 12. A particulate diagram of a 1.00 L container: the number of particles can be used as the concentration. [A] = 3 and [B] = 6. For A ⇌ 2B, K = [B]<sup>2</sup>/[A] = 6<sup>2</sup>/3 = 36/3 = 12. The coefficient 2 on B makes it an exponent.\n\n(A) is wrong because it squares A as well: 36/9 = 4.0.\n(D) is wrong because it does not square [B]: 6/3 = 2.0.\n(C) is wrong because it inverts the ratio and also skips the exponent: 3/6 = 0.50."
+      "explanation": "Correct: (B) 12. A particulate diagram of a 1.00 L container: the number of particles can be used as the concentration. [A] = 3 and [B] = 6. For A ⇌ 2B, K = [B]<sup>2</sup>/[A] = 6<sup>2</sup>/3 = 36/3 = 12. The coefficient 2 on B makes it an exponent.\n\n(A) is wrong because it squares A as well: 36/9 = 4.0.\n(D) is wrong because it does not square [B]: 6/3 = 2.0.\n(C) is wrong because it inverts the ratio and also skips the exponent: 3/6 = 0.50."
     },
     {
       "id": "7-46",
@@ -7241,7 +7241,7 @@ const QUESTIONS = {
         "There is no way to distinguish an equilibrium diagram from a non-equilibrium diagram."
       ],
       "correct": 0,
-      "explanation": "A particulate diagram alone (a single snapshot) doesn't inherently tell you whether the system is at equilibrium — you need to calculate Q from that specific diagram's particle counts and compare it to the known K value for that reaction at that temperature; only if Q = K can you conclude the depicted state is truly at equilibrium. Choice C is wrong because whether the container is sealed or open doesn't determine equilibrium status by itself (though an open system losing gas could prevent equilibrium from being reached, it's not the direct test being asked about). Choice D is wrong because there is a clear, standard method (the Q vs. K comparison) for making this distinction. Choice B is wrong because total particle count alone says nothing about whether the specific ratio of products to reactants matches K — you need the actual Q calculation, not just a raw count."
+      "explanation": "Correct: (A) Comparing Q from the diagram against the known K value for that reaction. A particulate diagram alone (a single snapshot) doesn't inherently tell you whether the system is at equilibrium — you need to calculate Q from that specific diagram's particle counts and compare it to the known K value for that reaction at that temperature; only if Q = K can you conclude the depicted state is truly at equilibrium. Choice C is wrong because whether the container is sealed or open doesn't determine equilibrium status by itself (though an open system losing gas could prevent equilibrium from being reached, it's not the direct test being asked about). Choice D is wrong because there is a clear, standard method (the Q vs. K comparison) for making this distinction. Choice B is wrong because total particle count alone says nothing about whether the specific ratio of products to reactants matches K — you need the actual Q calculation, not just a raw count."
     },
     {
       "id": "7-47",
@@ -7254,7 +7254,7 @@ const QUESTIONS = {
         "The reaction is proceeding in the reverse direction over time."
       ],
       "correct": 2,
-      "explanation": "The shift from more A/less B (Diagram 1) to less A/more B (Diagram 2) shows the reaction proceeding in the forward direction (A converting to B) over time. Since no further net change is observed after Diagram 2, this indicates the system has reached equilibrium by that point. Choice D has the direction backwards — A decreasing and B increasing over time is exactly what a forward reaction looks like, not a reverse one. Choice A is wrong because two diagrams taken at different times, showing a clear directional trend followed by no further change, is more than enough to draw a conclusion. Choice B contradicts the problem's own setup, which explicitly states Diagram 1 is earlier and Diagram 2 is later."
+      "explanation": "Correct: (C) It's proceeding forward, reaching equilibrium by Diagram 2. The shift from more A/less B (Diagram 1) to less A/more B (Diagram 2) shows the reaction proceeding in the forward direction (A converting to B) over time. Since no further net change is observed after Diagram 2, this indicates the system has reached equilibrium by that point. Choice D has the direction backwards — A decreasing and B increasing over time is exactly what a forward reaction looks like, not a reverse one. Choice A is wrong because two diagrams taken at different times, showing a clear directional trend followed by no further change, is more than enough to draw a conclusion. Choice B contradicts the problem's own setup, which explicitly states Diagram 1 is earlier and Diagram 2 is later."
     },
     {
       "id": "7-48",
@@ -7267,7 +7267,7 @@ const QUESTIONS = {
         "Generally no — a large K still leaves a tiny amount of reactant remaining."
       ],
       "correct": 3,
-      "explanation": "Correct: generally no; a large K still leaves a tiny amount of reactant remaining. Equilibrium is dynamic: both the forward and the reverse reactions keep occurring. With a huge K the equilibrium lies far to the product side, so the reactants are extremely small, but they are not exactly zero, since if they were zero the reverse reaction could not occur. A drawing with limited particles may show none because of its simplified scale, but in principle some are present.\n\n(A) and\n\n(C) are wrong because they say reactants must be exactly zero, which contradicts dynamic equilibrium.\n(B) is wrong because what you see depends on K, not just on how many particles are drawn."
+      "explanation": "Correct: (D) Generally no; a large K still leaves a tiny amount of reactant remaining. Equilibrium is dynamic: both the forward and the reverse reactions keep occurring. With a huge K the equilibrium lies far to the product side, so the reactants are extremely small, but they are not exactly zero, since if they were zero the reverse reaction could not occur. A drawing with limited particles may show none because of its simplified scale, but in principle some are present.\n\n(A) and\n\n(C) are wrong because they say reactants must be exactly zero, which contradicts dynamic equilibrium.\n(B) is wrong because what you see depends on K, not just on how many particles are drawn."
     },
     {
       "id": "7-49",
@@ -7280,7 +7280,7 @@ const QUESTIONS = {
         "K must always be less than 1 in this case."
       ],
       "correct": 2,
-      "explanation": "Correct: K must equal exactly 1, since [A] = [B] here. For A ⇌ B (1:1), K = [B]/[A]. If the diagram is at equilibrium and has equal numbers of A and B particles, the concentrations are equal and the ratio is 1. Be careful: this works because the stoichiometry is 1:1, with no exponents. For other reactions, equal particle numbers would not give K = 1.\n\n(A) and\n\n(D) are wrong because equal amounts give exactly 1, not more or less.\n(B) is wrong because equal counts for a 1:1 reaction do determine K."
+      "explanation": "Correct: (C) K must equal exactly 1, since [A] = [B] here. For A ⇌ B (1:1), K = [B]/[A]. If the diagram is at equilibrium and has equal numbers of A and B particles, the concentrations are equal and the ratio is 1. Be careful: this works because the stoichiometry is 1:1, with no exponents. For other reactions, equal particle numbers would not give K = 1.\n\n(A) and\n\n(D) are wrong because equal amounts give exactly 1, not more or less.\n(B) is wrong because equal counts for a 1:1 reaction do determine K."
     },
     {
       "id": "7-50",
@@ -7319,7 +7319,7 @@ const QUESTIONS = {
         "The reaction reverses direction entirely and does not re-equilibrate."
       ],
       "correct": 0,
-      "explanation": "Decreasing volume favors the side of the reaction with fewer total moles of gas particles, since that side takes up less volume and partially counteracts the pressure increase. Reactants have 2 moles of gas (2 NO₂); products have 1 mole of gas (1 N₂O₄) — the equilibrium shifts toward N₂O₄, the side with fewer moles. Choice C is wrong because \"both sides contain gas\" isn't the relevant criterion — it's the difference in mole counts between the two sides that drives the shift. Choice B applies the volume-decrease rule backwards, favoring the side with more moles rather than fewer. Choice D is wrong because the system doesn't stop re-equilibrating; it shifts toward a new equilibrium position and then settles there, just like after any other disturbance."
+      "explanation": "Correct: (A) Shifts toward N₂O₄, the side with fewer total moles of gas. Decreasing volume favors the side of the reaction with fewer total moles of gas particles, since that side takes up less volume and partially counteracts the pressure increase. Reactants have 2 moles of gas (2 NO₂); products have 1 mole of gas (1 N₂O₄) — the equilibrium shifts toward N₂O₄, the side with fewer moles. Choice C is wrong because \"both sides contain gas\" isn't the relevant criterion — it's the difference in mole counts between the two sides that drives the shift. Choice B applies the volume-decrease rule backwards, favoring the side with more moles rather than fewer. Choice D is wrong because the system doesn't stop re-equilibrating; it shifts toward a new equilibrium position and then settles there, just like after any other disturbance."
     },
     {
       "id": "7-53",
@@ -7332,7 +7332,7 @@ const QUESTIONS = {
         "The equilibrium always shifts toward products regardless of mole count."
       ],
       "correct": 0,
-      "explanation": "Le Chatelier's pressure/volume shift is driven specifically by an imbalance in moles of gas between the two sides. When moles of gas are equal on both sides (as in H₂ + I₂ ⇌ 2HI, with 2 total moles gas on each side), a volume/pressure change affects both sides equally, and there's no net shift — Q remains unchanged despite the concentration change, since the volume terms cancel out identically in the numerator and denominator. Choice C is wrong because the reaction doesn't stop; it's simply undisturbed by the volume change and stays at its existing equilibrium. Choices B and D both assert a shift occurs regardless of mole count, but that directly contradicts the underlying mechanism — no mole-count imbalance means no driving force for a shift, in either direction."
+      "explanation": "Correct: (A) No shift occurs, since gas moles are equal on both sides. Le Chatelier's pressure/volume shift is driven specifically by an imbalance in moles of gas between the two sides. When moles of gas are equal on both sides (as in H₂ + I₂ ⇌ 2HI, with 2 total moles gas on each side), a volume/pressure change affects both sides equally, and there's no net shift — Q remains unchanged despite the concentration change, since the volume terms cancel out identically in the numerator and denominator. Choice C is wrong because the reaction doesn't stop; it's simply undisturbed by the volume change and stays at its existing equilibrium. Choices B and D both assert a shift occurs regardless of mole count, but that directly contradicts the underlying mechanism — no mole-count imbalance means no driving force for a shift, in either direction."
     },
     {
       "id": "7-54",
@@ -7345,7 +7345,7 @@ const QUESTIONS = {
         "K decreases, since higher temperature favors the reactant side instead."
       ],
       "correct": 1,
-      "explanation": "Unlike concentration or pressure changes (which shift the equilibrium position without changing K itself), temperature changes actually change the numerical value of K. For an endothermic reaction, increasing temperature favors the forward (endothermic) direction, meaning more product is favored at equilibrium — this corresponds to an increased K value at the higher temperature. Choice D has the direction backwards: for an endothermic reaction, heat behaves like a reactant, so adding heat (raising temperature) pushes the reaction forward and increases K, not decreases it. Choice A is wrong because temperature is specifically the variable that DOES change K — that's what distinguishes it from concentration or pressure changes. Choice C is wrong because temperature affects both the rate (how fast equilibrium is reached) and the equilibrium constant itself — these are two separate, both-true effects, not an either/or."
+      "explanation": "Correct: (B) K increases, since higher temperature favors the product side. Unlike concentration or pressure changes (which shift the equilibrium position without changing K itself), temperature changes actually change the numerical value of K. For an endothermic reaction, increasing temperature favors the forward (endothermic) direction, meaning more product is favored at equilibrium — this corresponds to an increased K value at the higher temperature. Choice D has the direction backwards: for an endothermic reaction, heat behaves like a reactant, so adding heat (raising temperature) pushes the reaction forward and increases K, not decreases it. Choice A is wrong because temperature is specifically the variable that DOES change K — that's what distinguishes it from concentration or pressure changes. Choice C is wrong because temperature affects both the rate (how fast equilibrium is reached) and the equilibrium constant itself — these are two separate, both-true effects, not an either/or."
     },
     {
       "id": "7-55",
@@ -7358,7 +7358,7 @@ const QUESTIONS = {
         "Adding a catalyst to speed up the reaction"
       ],
       "correct": 2,
-      "explanation": "Correct: adding more of a reactant. K depends only on temperature. Adding a reactant raises its concentration, making Q smaller than K, so the reaction shifts forward until Q = K again; the position changes but K stays the same.\n\n(A) is wrong because changing the temperature is the one thing that changes the value of K.\n(B) is wrong because adding an inert gas at constant volume changes neither K nor the position, so it does not match the question's 'changes the position.'\n(D) is wrong because a catalyst speeds up the forward and reverse reactions equally, so it changes neither K nor the equilibrium position, only the time to reach it."
+      "explanation": "Correct: (C) Adding more of a reactant. K depends only on temperature. Adding a reactant raises its concentration, making Q smaller than K, so the reaction shifts forward until Q = K again; the position changes but K stays the same.\n\n(A) is wrong because changing the temperature is the one thing that changes the value of K.\n(B) is wrong because adding an inert gas at constant volume changes neither K nor the position, so it does not match the question's 'changes the position.'\n(D) is wrong because a catalyst speeds up the forward and reverse reactions equally, so it changes neither K nor the equilibrium position, only the time to reach it."
     },
     {
       "id": "7-56",
@@ -7371,7 +7371,7 @@ const QUESTIONS = {
         "Shifts toward CH₃OH, the side with fewer moles of gas."
       ],
       "correct": 0,
-      "explanation": "Increasing volume favors the side with more total moles of gas (the opposite effect of decreasing volume), since that side can better take advantage of the newly available space. Reactants total 3 moles of gas (1 CO + 2 H₂); products total 1 mole of gas (1 CH₃OH) — the equilibrium shifts toward reactants, the side with more gas moles. Choice C is wrong because the mole-count imbalance (3 vs. 1) guarantees a shift will occur when volume changes. Choice B is wrong because this is purely a pressure/volume (mole-count) effect, entirely independent of temperature — no thermal data is needed to answer it. Choice D applies the volume-increase rule backwards, favoring the side with fewer moles (CH₃OH) rather than more."
+      "explanation": "Correct: (A) Shifts toward reactants, the side with more gas moles. Increasing volume favors the side with more total moles of gas (the opposite effect of decreasing volume), since that side can better take advantage of the newly available space. Reactants total 3 moles of gas (1 CO + 2 H₂); products total 1 mole of gas (1 CH₃OH) — the equilibrium shifts toward reactants, the side with more gas moles. Choice C is wrong because the mole-count imbalance (3 vs. 1) guarantees a shift will occur when volume changes. Choice B is wrong because this is purely a pressure/volume (mole-count) effect, entirely independent of temperature — no thermal data is needed to answer it. Choice D applies the volume-increase rule backwards, favoring the side with fewer moles (CH₃OH) rather than more."
     },
     {
       "id": "7-57",
@@ -7384,7 +7384,7 @@ const QUESTIONS = {
         "Removing a reactant pushes Q above K, shifting the system backward."
       ],
       "correct": 3,
-      "explanation": "Reactant concentrations sit in the denominator of Q. Decreasing a reactant's concentration (by removing some) makes the denominator smaller, which makes the overall Q value larger — larger than K — so per the Q vs. K rule, the system must shift backward (toward reactants) to reduce Q back down to K. Choice A is wrong because removing a reactant directly changes the denominator of Q, so Q is very much affected. Choice C is wrong because concentration changes never alter K itself — only temperature does; K stays fixed while Q moves away from it. Choice B is wrong because the system doesn't stop; it simply shifts to a new equilibrium position that accounts for the lower reactant concentration."
+      "explanation": "Correct: (D) Removing a reactant pushes Q above K, shifting the system backward. Reactant concentrations sit in the denominator of Q. Decreasing a reactant's concentration (by removing some) makes the denominator smaller, which makes the overall Q value larger — larger than K — so per the Q vs. K rule, the system must shift backward (toward reactants) to reduce Q back down to K. Choice A is wrong because removing a reactant directly changes the denominator of Q, so Q is very much affected. Choice C is wrong because concentration changes never alter K itself — only temperature does; K stays fixed while Q moves away from it. Choice B is wrong because the system doesn't stop; it simply shifts to a new equilibrium position that accounts for the lower reactant concentration."
     },
     {
       "id": "7-58",
@@ -7397,7 +7397,7 @@ const QUESTIONS = {
         "Decreasing volume has no effect on any of the concentrations."
       ],
       "correct": 2,
-      "explanation": "When volume decreases, every gas-phase concentration increases equally (since concentration = moles/volume, and volume decreased). However, since Q involves multiplying several concentration terms together (one per mole of gas on each side), the side with MORE moles of gas sees a proportionally bigger jump in its overall contribution to Q — this temporarily unbalances Q away from K, and the system must shift toward the side with fewer gas moles to bring Q back to match K. Choice B is wrong because this effect is exactly what the Q framework is built to explain, using the mechanism described above. Choice A is wrong because decreasing volume absolutely does raise every concentration (moles/volume increases as volume shrinks). Choice D is wrong on two counts: decreasing volume INCREASES concentrations, not decreases them, and the resulting change to Q is not equal for both sides — the side with more gas-phase terms multiplied together is affected more strongly, which is exactly why a shift occurs at all."
+      "explanation": "Correct: (C) Decreasing volume raises Q more on the more-moles side, so the system shifts toward fewer moles. When volume decreases, every gas-phase concentration increases equally (since concentration = moles/volume, and volume decreased). However, since Q involves multiplying several concentration terms together (one per mole of gas on each side), the side with MORE moles of gas sees a proportionally bigger jump in its overall contribution to Q — this temporarily unbalances Q away from K, and the system must shift toward the side with fewer gas moles to bring Q back to match K. Choice B is wrong because this effect is exactly what the Q framework is built to explain, using the mechanism described above. Choice A is wrong because decreasing volume absolutely does raise every concentration (moles/volume increases as volume shrinks). Choice D is wrong on two counts: decreasing volume INCREASES concentrations, not decreases them, and the resulting change to Q is not equal for both sides — the side with more gas-phase terms multiplied together is affected more strongly, which is exactly why a shift occurs at all."
     },
     {
       "id": "7-59",
@@ -7410,7 +7410,7 @@ const QUESTIONS = {
         "Q > K, since adding product raises Q's numerator."
       ],
       "correct": 3,
-      "explanation": "Product concentrations sit in the numerator of Q. Adding more product increases the numerator, making Q immediately larger than its previous value (which had equaled K) — so right after the addition, Q > K, and the system must shift backward (toward reactants) to bring Q back down to K. Choice C is wrong because Q remains a perfectly well-defined, calculable number after the addition — nothing about adding product makes the ratio undefined. Choice B has the direction backwards: increasing the numerator pushes Q up, above K, not down below it. Choice A is wrong because directly changing a concentration that appears in the Q expression necessarily changes Q's calculated value — it can't stay equal to its old value (K) after such a perturbation."
+      "explanation": "Correct: (D) Q > K, since adding product raises Q's numerator. Product concentrations sit in the numerator of Q. Adding more product increases the numerator, making Q immediately larger than its previous value (which had equaled K) — so right after the addition, Q > K, and the system must shift backward (toward reactants) to bring Q back down to K. Choice C is wrong because Q remains a perfectly well-defined, calculable number after the addition — nothing about adding product makes the ratio undefined. Choice B has the direction backwards: increasing the numerator pushes Q up, above K, not down below it. Choice A is wrong because directly changing a concentration that appears in the Q expression necessarily changes Q's calculated value — it can't stay equal to its old value (K) after such a perturbation."
     },
     {
       "id": "7-60",
@@ -7423,7 +7423,7 @@ const QUESTIONS = {
         "These are entirely unrelated concepts with no connection to each other."
       ],
       "correct": 2,
-      "explanation": "The memorized \"shortcut rules\" of Le Chatelier's Principle (add reactant → shift forward, decrease volume → shift toward fewer gas moles, etc.) are all just convenient shortcuts for the same underlying mechanism: any disturbance changes Q away from its previous value of K, and the system responds by shifting in the direction needed to restore Q = K. Choice D is wrong because the two frameworks are deeply connected, not unrelated — Le Chatelier's rules can all be derived directly from the Q vs. K logic. Choice A draws an artificial split that doesn't exist; both frameworks apply equally well to concentration changes, volume/pressure changes, and (with the caveat that K itself changes) temperature changes. Choice B is wrong because the two methods never actually conflict — since Le Chatelier's rules are derived from the Q vs. K comparison, they always agree by construction."
+      "explanation": "Correct: (C) They describe the same phenomenon: any disturbance moves Q away from K, and the system shifts to restore Q = K. The memorized \"shortcut rules\" of Le Chatelier's Principle (add reactant → shift forward, decrease volume → shift toward fewer gas moles, etc.) are all just convenient shortcuts for the same underlying mechanism: any disturbance changes Q away from its previous value of K, and the system responds by shifting in the direction needed to restore Q = K. Choice D is wrong because the two frameworks are deeply connected, not unrelated — Le Chatelier's rules can all be derived directly from the Q vs. K logic. Choice A draws an artificial split that doesn't exist; both frameworks apply equally well to concentration changes, volume/pressure changes, and (with the caveat that K itself changes) temperature changes. Choice B is wrong because the two methods never actually conflict — since Le Chatelier's rules are derived from the Q vs. K comparison, they always agree by construction."
     },
     {
       "id": "7-61",
@@ -7488,7 +7488,7 @@ const QUESTIONS = {
         "Solubility cannot be meaningfully compared using Ksp values here."
       ],
       "correct": 0,
-      "explanation": "For salts with the same ion ratio (both 1:1 here), a larger Ksp directly corresponds to greater molar solubility (since Ksp = s² for a 1:1 salt, and Ksp increases as s increases). Salt A's much larger Ksp (1.0×10⁻⁸ vs. 1.0×10⁻¹⁵) means it is significantly more soluble than Salt B. Choice C is wrong because Ksp differences of this size (seven orders of magnitude) correspond to real, substantial differences in solubility — they are not identical. Choice B states the relationship backwards: a smaller Ksp means LESS dissolves at equilibrium, not more. Choice D is wrong specifically because both salts share the same 1:1 ion ratio, which is exactly the condition that makes a direct Ksp comparison valid."
+      "explanation": "Correct: (A) Salt A, since its larger Ksp means more dissolved ions at equilibrium. For salts with the same ion ratio (both 1:1 here), a larger Ksp directly corresponds to greater molar solubility (since Ksp = s² for a 1:1 salt, and Ksp increases as s increases). Salt A's much larger Ksp (1.0×10⁻⁸ vs. 1.0×10⁻¹⁵) means it is significantly more soluble than Salt B. Choice C is wrong because Ksp differences of this size (seven orders of magnitude) correspond to real, substantial differences in solubility — they are not identical. Choice B states the relationship backwards: a smaller Ksp means LESS dissolves at equilibrium, not more. Choice D is wrong specifically because both salts share the same 1:1 ion ratio, which is exactly the condition that makes a direct Ksp comparison valid."
     },
     {
       "id": "7-66",
@@ -7501,7 +7501,7 @@ const QUESTIONS = {
         "It increases, since more chloride ion is now available to react."
       ],
       "correct": 0,
-      "explanation": "NaCl supplies Cl⁻, an ion already involved in the PbCl₂ ⇌ Pb²⁺ + 2Cl⁻ equilibrium. Adding a common ion shifts that equilibrium backward (toward the solid), suppressing further dissolution — this is the common-ion effect, and it decreases the molar solubility of PbCl₂ compared to pure water. Choice B confuses two different quantities: Ksp is indeed constant at fixed temperature, but molar solubility is NOT constant — it's the equilibrium concentration of dissolved ions, which very much changes when a common ion is added, even though Ksp itself doesn't move. Choice C overstates the effect — solubility decreases substantially but doesn't drop to literally zero; some PbCl₂ still dissolves, just far less than in pure water. Choice D has the mechanism backwards: adding a common ion suppresses further dissolution via Le Chatelier, it doesn't enhance it."
+      "explanation": "Correct: (A) It decreases; the added common ion shifts equilibrium backward. NaCl supplies Cl⁻, an ion already involved in the PbCl₂ ⇌ Pb²⁺ + 2Cl⁻ equilibrium. Adding a common ion shifts that equilibrium backward (toward the solid), suppressing further dissolution — this is the common-ion effect, and it decreases the molar solubility of PbCl₂ compared to pure water. Choice B confuses two different quantities: Ksp is indeed constant at fixed temperature, but molar solubility is NOT constant — it's the equilibrium concentration of dissolved ions, which very much changes when a common ion is added, even though Ksp itself doesn't move. Choice C overstates the effect — solubility decreases substantially but doesn't drop to literally zero; some PbCl₂ still dissolves, just far less than in pure water. Choice D has the mechanism backwards: adding a common ion suppresses further dissolution via Le Chatelier, it doesn't enhance it."
     },
     {
       "id": "7-67",
@@ -7527,7 +7527,7 @@ const QUESTIONS = {
         "Yes, a precipitate forms; Qsp = 1.0 × 10⁻⁸, which is greater than Ksp = 1.1 × 10⁻¹⁰."
       ],
       "correct": 3,
-      "explanation": "Total volume after mixing is 100.0 mL, so each ion's concentration is halved by dilution: [Ba²⁺] = (2.0×10⁻⁴)(50.0)/100.0 = 1.0×10⁻⁴ M, and [SO₄²⁻] = 1.0×10⁻⁴ M by the same logic. Qsp = [Ba²⁺][SO₄²⁻] = (1.0×10⁻⁴)(1.0×10⁻⁴) = 1.0×10⁻⁸. Since Qsp (1.0×10⁻⁸) > Ksp (1.1×10⁻¹⁰), the solution is supersaturated and a precipitate of BaSO₄ forms. \"Qsp works out to 2.0×10⁻⁴\" just restates one of the original, undiluted concentrations rather than actually multiplying the two diluted ion concentrations together. \"Qsp equals Ksp exactly\" is not what the arithmetic gives — Qsp is roughly two orders of magnitude larger than Ksp here, not equal to it. \"Only because the original concentrations must be compared\" gets the yes/no conclusion right by coincidence but uses the wrong method — the dilution step is required, not optional, and skipping it can flip the answer in closer cases."
+      "explanation": "Correct: (D) Yes, a precipitate forms; Qsp = 1.0 × 10⁻⁸, which is greater than Ksp = 1.1 × 10⁻¹⁰. Total volume after mixing is 100.0 mL, so each ion's concentration is halved by dilution: [Ba²⁺] = (2.0×10⁻⁴)(50.0)/100.0 = 1.0×10⁻⁴ M, and [SO₄²⁻] = 1.0×10⁻⁴ M by the same logic. Qsp = [Ba²⁺][SO₄²⁻] = (1.0×10⁻⁴)(1.0×10⁻⁴) = 1.0×10⁻⁸. Since Qsp (1.0×10⁻⁸) > Ksp (1.1×10⁻¹⁰), the solution is supersaturated and a precipitate of BaSO₄ forms. \"Qsp works out to 2.0×10⁻⁴\" just restates one of the original, undiluted concentrations rather than actually multiplying the two diluted ion concentrations together. \"Qsp equals Ksp exactly\" is not what the arithmetic gives — Qsp is roughly two orders of magnitude larger than Ksp here, not equal to it. \"Only because the original concentrations must be compared\" gets the yes/no conclusion right by coincidence but uses the wrong method — the dilution step is required, not optional, and skipping it can flip the answer in closer cases."
     },
     {
       "id": "7-69",
@@ -7540,7 +7540,7 @@ const QUESTIONS = {
         "Yes, a precipitate forms, since both ions are present in solution together."
       ],
       "correct": 0,
-      "explanation": "Total volume after mixing is 100.0 mL. [Pb²⁺] = (4.0×10⁻⁴)(75.0)/100.0 = 3.0×10⁻⁴ M; [I⁻] = (4.0×10⁻⁴)(25.0)/100.0 = 1.0×10⁻⁴ M. Qsp = [Pb²⁺][I⁻]² = (3.0×10⁻⁴)(1.0×10⁻⁴)² = (3.0×10⁻⁴)(1.0×10⁻⁸) = 3.0×10⁻¹². Since Qsp (3.0×10⁻¹²) < Ksp (7.1×10⁻⁹), no precipitate forms. \"Qsp exceeds Ksp\" reverses the actual comparison — Qsp here is smaller than Ksp, not larger, so no precipitate forms. \"Both ions are present together\" isn't sufficient reasoning on its own — merely having both ions in solution doesn't guarantee precipitation; the actual Qsp vs. Ksp comparison is required, and it says no. \"Cannot be compared for a 1:2 ion ratio\" is false — the Ksp expression [Pb²⁺][I⁻]² correctly handles any ion ratio (that's exactly why [I⁻] is squared here), and Qsp vs. Ksp comparisons work identically regardless of stoichiometry."
+      "explanation": "Correct: (A) No precipitate forms; Qsp = 3.0 × 10⁻¹², which is less than Ksp = 7.1 × 10⁻⁹. Total volume after mixing is 100.0 mL. [Pb²⁺] = (4.0×10⁻⁴)(75.0)/100.0 = 3.0×10⁻⁴ M; [I⁻] = (4.0×10⁻⁴)(25.0)/100.0 = 1.0×10⁻⁴ M. Qsp = [Pb²⁺][I⁻]² = (3.0×10⁻⁴)(1.0×10⁻⁴)² = (3.0×10⁻⁴)(1.0×10⁻⁸) = 3.0×10⁻¹². Since Qsp (3.0×10⁻¹²) < Ksp (7.1×10⁻⁹), no precipitate forms. \"Qsp exceeds Ksp\" reverses the actual comparison — Qsp here is smaller than Ksp, not larger, so no precipitate forms. \"Both ions are present together\" isn't sufficient reasoning on its own — merely having both ions in solution doesn't guarantee precipitation; the actual Qsp vs. Ksp comparison is required, and it says no. \"Cannot be compared for a 1:2 ion ratio\" is false — the Ksp expression [Pb²⁺][I⁻]² correctly handles any ion ratio (that's exactly why [I⁻] is squared here), and Qsp vs. Ksp comparisons work identically regardless of stoichiometry."
     },
     {
       "id": "7-77",
@@ -7609,7 +7609,7 @@ const QUESTIONS = {
         "K itself changes, since adding any gas changes the equilibrium constant at the given temperature."
       ],
       "correct": 0,
-      "explanation": "Holding total pressure constant while adding inert gas forces the container's volume to expand, which dilutes every reacting species exactly as a direct volume increase would. This favors the side with more total moles of gas — reactants (1 + 3 = 4 mol) over products (2 mol) — so the equilibrium shifts backward, toward reactants. Choice B is wrong because it ignores the constant-pressure condition here; an inert gas added at constant VOLUME indeed causes no shift (since no reacting species' concentration changes), but that is a different scenario from the constant-pressure case described in this question. Choice C applies the volume-decrease rule instead of the volume-increase rule that actually applies when the container expands. Choice D is wrong because only temperature changes K's numerical value; this disturbance only shifts the equilibrium position, leaving K unchanged."
+      "explanation": "Correct: (A) Shifts toward reactants, the side with more moles of gas, due to the effective dilution. Holding total pressure constant while adding inert gas forces the container's volume to expand, which dilutes every reacting species exactly as a direct volume increase would. This favors the side with more total moles of gas — reactants (1 + 3 = 4 mol) over products (2 mol) — so the equilibrium shifts backward, toward reactants. Choice B is wrong because it ignores the constant-pressure condition here; an inert gas added at constant VOLUME indeed causes no shift (since no reacting species' concentration changes), but that is a different scenario from the constant-pressure case described in this question. Choice C applies the volume-decrease rule instead of the volume-increase rule that actually applies when the container expands. Choice D is wrong because only temperature changes K's numerical value; this disturbance only shifts the equilibrium position, leaving K unchanged."
     },
     {
       "id": "7-74",
@@ -7705,7 +7705,7 @@ const QUESTIONS = {
         "Acid strength and conjugate base strength are completely unrelated."
       ],
       "correct": 2,
-      "explanation": "A stronger acid donates its proton more readily, leaving its conjugate base with very little pull for that proton back (a weak conjugate base); a weaker acid holds its proton more tightly, so its conjugate base retains more proton-grabbing ability (a stronger conjugate base) — strength within a pair is inversely related. \"Identical strength regardless of parent acid\" (choice B) ignores this entire relationship. \"A stronger acid has a stronger conjugate base\" (choice A) states the exact opposite of the true inverse relationship. \"Completely unrelated\" (choice D) denies that any relationship exists at all, which contradicts the well-established conjugate pair principle."
+      "explanation": "Correct: (C) A stronger acid has a weaker conjugate base. A stronger acid donates its proton more readily, leaving its conjugate base with very little pull for that proton back (a weak conjugate base); a weaker acid holds its proton more tightly, so its conjugate base retains more proton-grabbing ability (a stronger conjugate base) — strength within a pair is inversely related. \"Identical strength regardless of parent acid\" (choice B) ignores this entire relationship. \"A stronger acid has a stronger conjugate base\" (choice A) states the exact opposite of the true inverse relationship. \"Completely unrelated\" (choice D) denies that any relationship exists at all, which contradicts the well-established conjugate pair principle."
     },
     {
       "id": "8-5",
@@ -7772,7 +7772,7 @@ const QUESTIONS = {
         "2.00"
       ],
       "correct": 3,
-      "explanation": "Correct: 2.00. HCl is a strong acid, so it dissociates completely (100%) and [H<sup>+</sup>] equals the acid concentration: [H<sup>+</sup>] = 0.0100 M. Then pH = -log[H<sup>+</sup>] = -log(0.0100) = -log(10<sup>-2</sup>) = 2.00. Shortcut: for a power of ten, the pH is the exponent without the minus sign.\n\n(C) is wrong because pH 1.00 would be 0.100 M, ten times as concentrated.\n(A) is wrong because 0.0100 is the concentration itself, with no log taken.\n(B) is wrong because 12.00 comes from doing 14 - 2.00, which is the step for a base's pOH; here the [H<sup>+</sup>] gives the pH directly."
+      "explanation": "Correct: (D) 2.00. HCl is a strong acid, so it dissociates completely (100%) and [H<sup>+</sup>] equals the acid concentration: [H<sup>+</sup>] = 0.0100 M. Then pH = -log[H<sup>+</sup>] = -log(0.0100) = -log(10<sup>-2</sup>) = 2.00. Shortcut: for a power of ten, the pH is the exponent without the minus sign.\n\n(C) is wrong because pH 1.00 would be 0.100 M, ten times as concentrated.\n(A) is wrong because 0.0100 is the concentration itself, with no log taken.\n(B) is wrong because 12.00 comes from doing 14 - 2.00, which is the step for a base's pOH; here the [H<sup>+</sup>] gives the pH directly."
     },
     {
       "id": "8-8",
@@ -7785,7 +7785,7 @@ const QUESTIONS = {
         "9.00"
       ],
       "correct": 0,
-      "explanation": "Correct: 11.70. NaOH is a strong base, so it dissociates completely: [OH<sup>-</sup>] = 0.00500 M. First find the pOH: pOH = -log(0.00500) = 2.30. Then use pH + pOH = 14.00: pH = 14.00 - 2.30 = 11.70. A base should have a pH above 7, which this does.\n\n(B) is wrong because 2.30 is the pOH, and the last step to the pH was skipped.\n(C) and\n(D) are wrong because they do not result from the correct steps; they come from mistakes in the log or in the decimal places."
+      "explanation": "Correct: (A) 11.70. NaOH is a strong base, so it dissociates completely: [OH<sup>-</sup>] = 0.00500 M. First find the pOH: pOH = -log(0.00500) = 2.30. Then use pH + pOH = 14.00: pH = 14.00 - 2.30 = 11.70. A base should have a pH above 7, which this does.\n\n(B) is wrong because 2.30 is the pOH, and the last step to the pH was skipped.\n(C) and\n(D) are wrong because they do not result from the correct steps; they come from mistakes in the log or in the decimal places."
     },
     {
       "id": "8-9",
@@ -7811,7 +7811,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 2,
-      "explanation": "Correct: 11.70. Ba(OH)<sub>2</sub> is a strong base that releases TWO hydroxide ions per formula unit: Ba(OH)<sub>2</sub> gives Ba<sup>2+</sup> + 2OH<sup>-</sup>. So [OH<sup>-</sup>] = 2 x 0.00250 = 0.00500 M. Then pOH = -log(0.00500) = 2.30 and pH = 14.00 - 2.30 = 11.70.\n\n(D) is wrong because it forgets the factor of 2: pOH = -log(0.00250) = 2.60.\n(A) is wrong because it takes that wrong pOH and converts it: 14.00 - 2.60 = 11.40.\n(B) is wrong because 2.30 is the pOH, and the conversion to pH was not done."
+      "explanation": "Correct: (C) 11.70. Ba(OH)<sub>2</sub> is a strong base that releases TWO hydroxide ions per formula unit: Ba(OH)<sub>2</sub> gives Ba<sup>2+</sup> + 2OH<sup>-</sup>. So [OH<sup>-</sup>] = 2 x 0.00250 = 0.00500 M. Then pOH = -log(0.00500) = 2.30 and pH = 14.00 - 2.30 = 11.70.\n\n(D) is wrong because it forgets the factor of 2: pOH = -log(0.00250) = 2.60.\n(A) is wrong because it takes that wrong pOH and converts it: 14.00 - 2.60 = 11.40.\n(B) is wrong because 2.30 is the pOH, and the conversion to pH was not done."
     },
     {
       "id": "8-11",
@@ -7824,7 +7824,7 @@ const QUESTIONS = {
         "4.80"
       ],
       "correct": 2,
-      "explanation": "Correct: 9.20. At 25°C, pH + pOH = 14.00, so pH = 14.00 - pOH = 14.00 - 4.80 = 9.20. A pOH of 4.80 means a fairly low [OH<sup>-</sup>] of about 1.6 x 10<sup>-5</sup> M, and the pH above 7 confirms the solution is basic.\n\n(D) is wrong because 4.80 is the pOH given in the problem.\n(B) is wrong because 14.00 is the SUM of pH and pOH.\n(A) is wrong because simply negating the pOH is not a relationship in chemistry."
+      "explanation": "Correct: (C) 9.20. At 25°C, pH + pOH = 14.00, so pH = 14.00 - pOH = 14.00 - 4.80 = 9.20. A pOH of 4.80 means a fairly low [OH<sup>-</sup>] of about 1.6 x 10<sup>-5</sup> M, and the pH above 7 confirms the solution is basic.\n\n(D) is wrong because 4.80 is the pOH given in the problem.\n(B) is wrong because 14.00 is the SUM of pH and pOH.\n(A) is wrong because simply negating the pOH is not a relationship in chemistry."
     },
     {
       "id": "8-12",
@@ -7863,7 +7863,7 @@ const QUESTIONS = {
         "Ka = 0.100/x²"
       ],
       "correct": 0,
-      "explanation": "Correct: K<sub>a</sub> = x<sup>2</sup>/0.100. Make an ICE table for HA ⇌ H<sup>+</sup> + A<sup>-</sup>. Initially [HA] = 0.100 and [H<sup>+</sup>] = [A<sup>-</sup>] = 0. The change is -x for HA and +x for H<sup>+</sup> and A<sup>-</sup>. At equilibrium: [H<sup>+</sup>] = x, [A<sup>-</sup>] = x, and [HA] = 0.100 - x. K<sub>a</sub> = [H<sup>+</sup>][A<sup>-</sup>]/[HA] = x<sup>2</sup>/(0.100 - x). Because K<sub>a</sub> is small, x is tiny compared to 0.100, so 0.100 - x ≈ 0.100 and K<sub>a</sub> ≈ x<sup>2</sup>/0.100.\n\n(C) is wrong because the numerator is [H<sup>+</sup>][A<sup>-</sup>] = x<sup>2</sup>, not x.\n(D) is wrong because it is upside down: the acid is on the bottom.\n(B) is wrong because the acid concentration goes DOWN by x, so it should be 0.100 - x, not 0.100 + x."
+      "explanation": "Correct: (A) K<sub>a</sub> = x<sup>2</sup>/0.100. Make an ICE table for HA ⇌ H<sup>+</sup> + A<sup>-</sup>. Initially [HA] = 0.100 and [H<sup>+</sup>] = [A<sup>-</sup>] = 0. The change is -x for HA and +x for H<sup>+</sup> and A<sup>-</sup>. At equilibrium: [H<sup>+</sup>] = x, [A<sup>-</sup>] = x, and [HA] = 0.100 - x. K<sub>a</sub> = [H<sup>+</sup>][A<sup>-</sup>]/[HA] = x<sup>2</sup>/(0.100 - x). Because K<sub>a</sub> is small, x is tiny compared to 0.100, so 0.100 - x ≈ 0.100 and K<sub>a</sub> ≈ x<sup>2</sup>/0.100.\n\n(C) is wrong because the numerator is [H<sup>+</sup>][A<sup>-</sup>] = x<sup>2</sup>, not x.\n(D) is wrong because it is upside down: the acid is on the bottom.\n(B) is wrong because the acid concentration goes DOWN by x, so it should be 0.100 - x, not 0.100 + x."
     },
     {
       "id": "8-15",
@@ -7928,7 +7928,7 @@ const QUESTIONS = {
         "2.65"
       ],
       "correct": 2,
-      "explanation": "Correct: 3.15. For a weak acid, use K<sub>a</sub> = x<sup>2</sup>/C. So x<sup>2</sup> = (0.0500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-7</sup>, and x = √(5.0 x 10<sup>-7</sup>) = 7.07 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Then pH = -log(7.07 x 10<sup>-4</sup>) = 3.15. Check: x/0.0500 = 1.4%, under 5%, so the approximation holds. A weak acid at this concentration should give a pH well above that of a strong acid (1.3 for 0.0500 M), which it does.\n\n(A) is wrong because 5.00 is the pKa, a property of the acid, not the pH of this solution.\n(B) and\n(D) are wrong because they do not match the correct steps and come from mistakes in the square root or log."
+      "explanation": "Correct: (C) 3.15. For a weak acid, use K<sub>a</sub> = x<sup>2</sup>/C. So x<sup>2</sup> = (0.0500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-7</sup>, and x = √(5.0 x 10<sup>-7</sup>) = 7.07 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Then pH = -log(7.07 x 10<sup>-4</sup>) = 3.15. Check: x/0.0500 = 1.4%, under 5%, so the approximation holds. A weak acid at this concentration should give a pH well above that of a strong acid (1.3 for 0.0500 M), which it does.\n\n(A) is wrong because 5.00 is the pKa, a property of the acid, not the pH of this solution.\n(B) and\n(D) are wrong because they do not match the correct steps and come from mistakes in the square root or log."
     },
     {
       "id": "8-20",
@@ -7941,7 +7941,7 @@ const QUESTIONS = {
         "Because all weak acids share identical Ka values regardless of identity."
       ],
       "correct": 1,
-      "explanation": "Because Ka (or Kb) is typically small, only a small fraction of the initial concentration dissociates, so x is genuinely small relative to a reasonably large starting concentration — this is exactly why the assumption often holds. \"The assumption is never valid and should never be used\" (choice A) overstates the case — it's frequently valid, which is why it's used routinely (though it should always be checked). \"Concentration has no effect on validity\" (choice C) is false — the assumption gets LESS valid as concentration gets smaller relative to Ka (a smaller reservoir makes x a bigger fraction of C). \"All weak acids have identical Ka values\" (choice D) is simply untrue and irrelevant to why the assumption works."
+      "explanation": "Correct: (B) Because a small Ka means x stays small relative to the initial concentration. Because Ka (or Kb) is typically small, only a small fraction of the initial concentration dissociates, so x is genuinely small relative to a reasonably large starting concentration — this is exactly why the assumption often holds. \"The assumption is never valid and should never be used\" (choice A) overstates the case — it's frequently valid, which is why it's used routinely (though it should always be checked). \"Concentration has no effect on validity\" (choice C) is false — the assumption gets LESS valid as concentration gets smaller relative to Ka (a smaller reservoir makes x a bigger fraction of C). \"All weak acids have identical Ka values\" (choice D) is simply untrue and irrelevant to why the assumption works."
     },
     {
       "id": "8-21",
@@ -7967,7 +7967,7 @@ const QUESTIONS = {
         "x is more than about 5% of the initial concentration."
       ],
       "correct": 3,
-      "explanation": "The standard threshold is that x should stay under about 5% of the initial concentration; exceeding that means the approximation breaks down and the full quadratic must be used instead. \"The temperature is exactly 25°C\" (choice C) has no bearing on whether the assumption holds. \"The Ka value is extremely small\" (choice B) actually makes the assumption MORE likely to be valid (smaller Ka means less dissociation, so x stays small) — this reverses the correct logic. \"The initial concentration is very large\" (choice A) also makes the assumption MORE valid, not less, since a large C relative to a fixed x keeps x's percentage small — again the opposite of a reason to reject the assumption."
+      "explanation": "Correct: (D) x is more than about 5% of the initial concentration. The standard threshold is that x should stay under about 5% of the initial concentration; exceeding that means the approximation breaks down and the full quadratic must be used instead. \"The temperature is exactly 25°C\" (choice C) has no bearing on whether the assumption holds. \"The Ka value is extremely small\" (choice B) actually makes the assumption MORE likely to be valid (smaller Ka means less dissociation, so x stays small) — this reverses the correct logic. \"The initial concentration is very large\" (choice A) also makes the assumption MORE valid, not less, since a large C relative to a fixed x keeps x's percentage small — again the opposite of a reason to reject the assumption."
     },
     {
       "id": "8-23",
@@ -7980,7 +7980,7 @@ const QUESTIONS = {
         "Valid; [H⁺] = 3.16 × 10⁻³ M using the simplified approach"
       ],
       "correct": 0,
-      "explanation": "The simplified approach gives x² = (0.0100)(1.0×10⁻³) = 1.0×10⁻⁵, x = 3.16×10⁻³ M — but 3.16×10⁻³/0.0100 = 31.6%, far past the 5% threshold, so the assumption fails. Solving the full quadratic x² + (1.0×10⁻³)x − (1.0×10⁻³)(0.0100) = 0 gives x ≈ 2.70×10⁻³ M (about 27% of 0.0100 M, confirming the assumption indeed fails). Choice B (\"Valid; [H⁺] = 1.0×10⁻³ M exactly\") simply treats Ka as if it were [H⁺] directly, without doing any equilibrium math at all. Choice C (\"Not valid; cannot be solved without more data\") is wrong — the quadratic formula fully solves it with only the given Ka and concentration. Choice D (\"Valid; [H⁺] = 3.16×10⁻³ M using the simplified approach\") correctly computes the simplified-assumption answer but incorrectly accepts it as valid, when the 31.6% deviation clearly exceeds the 5% cutoff.",
+      "explanation": "Correct: (A) Not valid; the full quadratic gives [H⁺] ≈ 2.70 × 10⁻³ M. The simplified approach gives x² = (0.0100)(1.0×10⁻³) = 1.0×10⁻⁵, x = 3.16×10⁻³ M — but 3.16×10⁻³/0.0100 = 31.6%, far past the 5% threshold, so the assumption fails. Solving the full quadratic x² + (1.0×10⁻³)x − (1.0×10⁻³)(0.0100) = 0 gives x ≈ 2.70×10⁻³ M (about 27% of 0.0100 M, confirming the assumption indeed fails). Choice B (\"Valid; [H⁺] = 1.0×10⁻³ M exactly\") simply treats Ka as if it were [H⁺] directly, without doing any equilibrium math at all. Choice C (\"Not valid; cannot be solved without more data\") is wrong — the quadratic formula fully solves it with only the given Ka and concentration. Choice D (\"Valid; [H⁺] = 3.16×10⁻³ M using the simplified approach\") correctly computes the simplified-assumption answer but incorrectly accepts it as valid, when the 31.6% deviation clearly exceeds the 5% cutoff.",
       "stretch": true
     },
     {
@@ -8022,7 +8022,7 @@ const QUESTIONS = {
         "Depends entirely on the specific acid and base used"
       ],
       "correct": 0,
-      "explanation": "In a strong acid-strong base titration, the equivalence-point salt's ions (from a strong acid's negligible conjugate base and a strong base's negligible conjugate acid) don't meaningfully react with water, leaving pH = 7.00 exactly. \"Always greater than 7.00\" (choice C) describes a weak acid-strong base titration instead, where a genuine weak conjugate base is left behind. \"Always less than 7.00\" (choice B) describes a weak base-strong acid titration instead, where a genuine weak conjugate acid is left behind. \"Depends entirely on the specific acid and base used\" (choice D) is wrong for the strong-strong case specifically — because both spectator ions are essentially non-reactive with water regardless of identity, the equivalence point pH is always 7.00 here."
+      "explanation": "Correct: (A) Always exactly 7.00. In a strong acid-strong base titration, the equivalence-point salt's ions (from a strong acid's negligible conjugate base and a strong base's negligible conjugate acid) don't meaningfully react with water, leaving pH = 7.00 exactly. \"Always greater than 7.00\" (choice C) describes a weak acid-strong base titration instead, where a genuine weak conjugate base is left behind. \"Always less than 7.00\" (choice B) describes a weak base-strong acid titration instead, where a genuine weak conjugate acid is left behind. \"Depends entirely on the specific acid and base used\" (choice D) is wrong for the strong-strong case specifically — because both spectator ions are essentially non-reactive with water regardless of identity, the equivalence point pH is always 7.00 here."
     },
     {
       "id": "8-25",
@@ -8074,7 +8074,7 @@ const QUESTIONS = {
         "Weak acids never actually reach a true equivalence point."
       ],
       "correct": 1,
-      "explanation": "A weak acid's conjugate base retains genuine (if modest) basicity, unlike a strong acid's conjugate base, which is essentially non-basic — this is exactly why the weak acid case shifts the equivalence point pH above 7 while the strong acid case doesn't. \"This is actually a false statement; all titrations have equivalence point pH = 7\" (choice C) is directly contradicted by the weak acid-strong base case discussed in the previous questions. \"Only strong bases can be used in any titration\" (choice A) is a nonsensical, unrelated claim. \"Weak acids never actually reach a true equivalence point\" (choice D) is false — the equivalence point is defined purely by stoichiometry (moles acid = moles base added), which weak acids reach just as reliably as strong acids; they just arrive at a different pH."
+      "explanation": "Correct: (B) Because the weak acid's conjugate base retains genuine basic character. A weak acid's conjugate base retains genuine (if modest) basicity, unlike a strong acid's conjugate base, which is essentially non-basic — this is exactly why the weak acid case shifts the equivalence point pH above 7 while the strong acid case doesn't. \"This is actually a false statement; all titrations have equivalence point pH = 7\" (choice C) is directly contradicted by the weak acid-strong base case discussed in the previous questions. \"Only strong bases can be used in any titration\" (choice A) is a nonsensical, unrelated claim. \"Weak acids never actually reach a true equivalence point\" (choice D) is false — the equivalence point is defined purely by stoichiometry (moles acid = moles base added), which weak acids reach just as reliably as strong acids; they just arrive at a different pH."
     },
     {
       "id": "8-77",
@@ -8199,7 +8199,7 @@ const QUESTIONS = {
         "HF"
       ],
       "correct": 0,
-      "explanation": "Among binary (H-X) acids in the same group, weaker H-X bonds (easier to break) mean stronger acids, and bond strength decreases down the group as atomic radius increases and orbital overlap weakens — making HI's bond the weakest and HI the strongest of these four. HCl (choice C) and HBr (choice B) sit in the correct trend order but are weaker acids than HI, not the strongest. HF (choice D) is actually the WEAKEST binary acid of the four (smallest halogen, strongest, hardest-to-break H-F bond) — the opposite extreme from what the question asks for."
+      "explanation": "Correct: (A) HI. Among binary (H-X) acids in the same group, weaker H-X bonds (easier to break) mean stronger acids, and bond strength decreases down the group as atomic radius increases and orbital overlap weakens — making HI's bond the weakest and HI the strongest of these four. HCl (choice C) and HBr (choice B) sit in the correct trend order but are weaker acids than HI, not the strongest. HF (choice D) is actually the WEAKEST binary acid of the four (smallest halogen, strongest, hardest-to-break H-F bond) — the opposite extreme from what the question asks for."
     },
     {
       "id": "8-30",
@@ -8225,7 +8225,7 @@ const QUESTIONS = {
         "Acid strength cannot be meaningfully compared between these two compounds."
       ],
       "correct": 0,
-      "explanation": "H₂SO₄ has one more oxygen than H₂SO₃ (4 vs. 3), and each additional highly electronegative oxygen further withdraws electron density from the O-H bond and stabilizes the conjugate base through resonance, making H₂SO₄ the stronger acid (in fact, a strong acid, while H₂SO₃ is weak). \"H₂SO₃, because fewer oxygens means a stronger acid\" (choice B) has the actual oxyacid trend exactly backwards — MORE oxygens increase acid strength, not fewer. \"Equally strong, since both contain sulfur\" (choice C) ignores that the number of oxygens attached to that central atom, not just its identity, is what drives the comparison here. \"Acid strength cannot be compared between these two compounds\" (choice D) is false — this is precisely the kind of comparison the same-central-atom, different-oxygen-count oxyacid trend is designed to make."
+      "explanation": "Correct: (A) H₂SO₄, due to its extra oxygen weakening the O-H bond further. H₂SO₄ has one more oxygen than H₂SO₃ (4 vs. 3), and each additional highly electronegative oxygen further withdraws electron density from the O-H bond and stabilizes the conjugate base through resonance, making H₂SO₄ the stronger acid (in fact, a strong acid, while H₂SO₃ is weak). \"H₂SO₃, because fewer oxygens means a stronger acid\" (choice B) has the actual oxyacid trend exactly backwards — MORE oxygens increase acid strength, not fewer. \"Equally strong, since both contain sulfur\" (choice C) ignores that the number of oxygens attached to that central atom, not just its identity, is what drives the comparison here. \"Acid strength cannot be compared between these two compounds\" (choice D) is false — this is precisely the kind of comparison the same-central-atom, different-oxygen-count oxyacid trend is designed to make."
     },
     {
       "id": "8-32",
@@ -8238,7 +8238,7 @@ const QUESTIONS = {
         "Oxygen atoms have no meaningful electronic effect on acid strength at all."
       ],
       "correct": 1,
-      "explanation": "Additional electronegative oxygens withdraw electron density from the O-H bond (weakening/polarizing it) and help delocalize the conjugate base's negative charge, both of which favor greater acid strength. \"Oxygen atoms have no electronic effect on acid strength\" (choice D) directly contradicts this electron-withdrawing/delocalization mechanism. \"More oxygen atoms make the molecule physically larger, which always increases acidity for unrelated reasons\" (choice C) misattributes the effect to size rather than the actual electronic (inductive/resonance) cause. \"Additional oxygens decrease the molecule's overall polarity\" (choice A) has it backwards — more oxygens INCREASE, not decrease, the O-H bond's polarity by pulling electron density away from it."
+      "explanation": "Correct: (B) Additional oxygens withdraw electron density from the O-H bond and stabilize the conjugate base's charge. Additional electronegative oxygens withdraw electron density from the O-H bond (weakening/polarizing it) and help delocalize the conjugate base's negative charge, both of which favor greater acid strength. \"Oxygen atoms have no electronic effect on acid strength\" (choice D) directly contradicts this electron-withdrawing/delocalization mechanism. \"More oxygen atoms make the molecule physically larger, which always increases acidity for unrelated reasons\" (choice C) misattributes the effect to size rather than the actual electronic (inductive/resonance) cause. \"Additional oxygens decrease the molecule's overall polarity\" (choice A) has it backwards — more oxygens INCREASE, not decrease, the O-H bond's polarity by pulling electron density away from it."
     },
     {
       "id": "8-33",
@@ -8251,7 +8251,7 @@ const QUESTIONS = {
         "CCl₃COOH is actually the weaker acid of the two compounds."
       ],
       "correct": 1,
-      "explanation": "The three highly electronegative Cl atoms pull electron density through the molecule's bonding framework (an inductive effect), stabilizing the conjugate base's negative charge and making the O-H proton easier to release — this is why trichloroacetic acid (pKa ≈ 0.7) is dramatically stronger than acetic acid (pKa ≈ 4.74). \"CCl₃COOH is actually a weaker acid than CH₃COOH\" (choice D) is factually backwards. \"CCl₃COOH has fewer oxygen atoms than CH₃COOH\" (choice A) is also factually false — both compounds have the same two oxygens in the -COOH group; the difference is the three chlorines, not the oxygen count. \"Chlorine atoms have no electronic effect on nearby O-H bonds\" (choice C) directly contradicts the inductive-effect mechanism that explains the strength difference."
+      "explanation": "Correct: (B) The three chlorine atoms withdraw electron density from the O-H bond. The three highly electronegative Cl atoms pull electron density through the molecule's bonding framework (an inductive effect), stabilizing the conjugate base's negative charge and making the O-H proton easier to release — this is why trichloroacetic acid (pKa ≈ 0.7) is dramatically stronger than acetic acid (pKa ≈ 4.74). \"CCl₃COOH is actually a weaker acid than CH₃COOH\" (choice D) is factually backwards. \"CCl₃COOH has fewer oxygen atoms than CH₃COOH\" (choice A) is also factually false — both compounds have the same two oxygens in the -COOH group; the difference is the three chlorines, not the oxygen count. \"Chlorine atoms have no electronic effect on nearby O-H bonds\" (choice C) directly contradicts the inductive-effect mechanism that explains the strength difference."
     },
     {
       "id": "8-34",
@@ -8264,7 +8264,7 @@ const QUESTIONS = {
         "Binary acid strength cannot be compared across a period."
       ],
       "correct": 1,
-      "explanation": "Across a period, increasing electronegativity of X increases the H-X bond's polarity, making the proton easier to ionize even though bond strength itself doesn't vary as dramatically as it does down a group. \"Bond strength only, with no consideration of polarity\" (choice C) describes the dominant factor for the GROUP trend (down a column), not the period trend this question specifically asks about. \"Binary acid strength cannot be compared across a period\" (choice D) is false — the H₂O < HF comparison within Period 2 is a standard example of exactly this trend. \"Atomic radius of X only\" (choice A) misidentifies the driver — radius changes relatively little across a period compared to electronegativity, which is the real cause of the polarity-based trend."
+      "explanation": "Correct: (B) Bond polarity — electronegativity increases across a period. Across a period, increasing electronegativity of X increases the H-X bond's polarity, making the proton easier to ionize even though bond strength itself doesn't vary as dramatically as it does down a group. \"Bond strength only, with no consideration of polarity\" (choice C) describes the dominant factor for the GROUP trend (down a column), not the period trend this question specifically asks about. \"Binary acid strength cannot be compared across a period\" (choice D) is false — the H₂O < HF comparison within Period 2 is a standard example of exactly this trend. \"Atomic radius of X only\" (choice A) misidentifies the driver — radius changes relatively little across a period compared to electronegativity, which is the real cause of the polarity-based trend."
     },
     {
       "id": "8-35",
@@ -8277,7 +8277,7 @@ const QUESTIONS = {
         "Down a group, bond strength (tied to atomic size) dominates over electronegativity/polarity trends."
       ],
       "correct": 3,
-      "explanation": "Down a group, bond strength (which depends heavily on atomic size and orbital overlap) dominates over the electronegativity/polarity trend; fluorine's small size gives an unusually strong H-F bond that outweighs its high electronegativity, making HF a weak acid despite HCl, HBr, and HI (with weaker, more breakable bonds) all being strong. \"HF is weak simply because fluorine has the smallest atomic radius, with no other explanation needed\" (choice C) is incomplete — small radius alone doesn't explain weak acidity unless it's tied to the resulting strong, hard-to-break bond, which is the actual mechanism. \"Electronegativity has no bearing on acid strength for any binary acid\" (choice A) is false — electronegativity is exactly what drives the period-wise trend (question 8-34) and would predict HF should be strong, which is precisely the paradox this question resolves. \"This is a printing error; HF is actually a strong acid\" (choice B) is false — HF (Ka ≈ 6.8×10⁻⁴) is a well-documented, genuine weak acid, not an error.",
+      "explanation": "Correct: (D) Down a group, bond strength (tied to atomic size) dominates over electronegativity/polarity trends. Down a group, bond strength (which depends heavily on atomic size and orbital overlap) dominates over the electronegativity/polarity trend; fluorine's small size gives an unusually strong H-F bond that outweighs its high electronegativity, making HF a weak acid despite HCl, HBr, and HI (with weaker, more breakable bonds) all being strong. \"HF is weak simply because fluorine has the smallest atomic radius, with no other explanation needed\" (choice C) is incomplete — small radius alone doesn't explain weak acidity unless it's tied to the resulting strong, hard-to-break bond, which is the actual mechanism. \"Electronegativity has no bearing on acid strength for any binary acid\" (choice A) is false — electronegativity is exactly what drives the period-wise trend (question 8-34) and would predict HF should be strong, which is precisely the paradox this question resolves. \"This is a printing error; HF is actually a strong acid\" (choice B) is false — HF (Ka ≈ 6.8×10⁻⁴) is a well-documented, genuine weak acid, not an error.",
       "stretch": true
     },
     {
@@ -8319,7 +8319,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 3,
-      "explanation": "Correct: 2.60. pK<sub>a</sub> = -log(K<sub>a</sub>) = -log(2.5 x 10<sup>-3</sup>). Split the log: -log(2.5) - log(10<sup>-3</sup>) = -0.40 + 3 = 2.60. A shortcut check: K<sub>a</sub> is between 10<sup>-2</sup> and 10<sup>-3</sup>, so pK<sub>a</sub> must be between 2 and 3, and since 2.5 is a bit bigger than 1, the pK<sub>a</sub> is a bit under 3. A smaller pK<sub>a</sub> means a stronger acid.\n\n(B) is wrong because it uses only -log(2.5) and forgets the 10<sup>-3</sup> part.\n(A) is wrong because it ignores the 2.5 and treats K<sub>a</sub> as 1 x 10<sup>-3</sup>.\n(C) is wrong because it has lost the minus sign in the definition; pK<sub>a</sub> of a weak acid is positive."
+      "explanation": "Correct: (D) 2.60. pK<sub>a</sub> = -log(K<sub>a</sub>) = -log(2.5 x 10<sup>-3</sup>). Split the log: -log(2.5) - log(10<sup>-3</sup>) = -0.40 + 3 = 2.60. A shortcut check: K<sub>a</sub> is between 10<sup>-2</sup> and 10<sup>-3</sup>, so pK<sub>a</sub> must be between 2 and 3, and since 2.5 is a bit bigger than 1, the pK<sub>a</sub> is a bit under 3. A smaller pK<sub>a</sub> means a stronger acid.\n\n(B) is wrong because it uses only -log(2.5) and forgets the 10<sup>-3</sup> part.\n(A) is wrong because it ignores the 2.5 and treats K<sub>a</sub> as 1 x 10<sup>-3</sup>.\n(C) is wrong because it has lost the minus sign in the definition; pK<sub>a</sub> of a weak acid is positive."
     },
     {
       "id": "8-37",
@@ -8345,7 +8345,7 @@ const QUESTIONS = {
         "Acid A, since it has the smallest pKa."
       ],
       "correct": 3,
-      "explanation": "Smaller pKa means larger Ka means a stronger acid, and Acid A's pKa (2.1) is the smallest of the three, making it the strongest. \"Acid C, since it has the largest pKa number\" (choice C) reverses the relationship — a larger pKa means a SMALLER Ka and a WEAKER acid, not a stronger one. \"Acid B, since it is in the middle\" (choice A) isn't a chemically meaningful basis for comparison at all. \"All three acids are equally strong\" (choice B) is directly contradicted by the three distinct pKa values given."
+      "explanation": "Correct: (D) Acid A, since it has the smallest pKa. Smaller pKa means larger Ka means a stronger acid, and Acid A's pKa (2.1) is the smallest of the three, making it the strongest. \"Acid C, since it has the largest pKa number\" (choice C) reverses the relationship — a larger pKa means a SMALLER Ka and a WEAKER acid, not a stronger one. \"Acid B, since it is in the middle\" (choice A) isn't a chemically meaningful basis for comparison at all. \"All three acids are equally strong\" (choice B) is directly contradicted by the three distinct pKa values given."
     },
     {
       "id": "8-39",
@@ -8371,7 +8371,7 @@ const QUESTIONS = {
         "pH = 9.0"
       ],
       "correct": 0,
-      "explanation": "By Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]); when [HA] = [A⁻], the ratio is 1 and log(1) = 0, so pH = pKa = 4.5 exactly. \"pH = 7.0\" (choice B) assumes neutral water pH regardless of the acid's actual pKa, ignoring the given information entirely. \"pH = 0\" (choice C) is an extreme, chemically implausible value with no connection to this buffer scenario. \"pH = 9.0\" (choice D) similarly isn't derived from any calculation using the given pKa = 4.5."
+      "explanation": "Correct: (A) pH = 4.5. By Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]); when [HA] = [A⁻], the ratio is 1 and log(1) = 0, so pH = pKa = 4.5 exactly. \"pH = 7.0\" (choice B) assumes neutral water pH regardless of the acid's actual pKa, ignoring the given information entirely. \"pH = 0\" (choice C) is an extreme, chemically implausible value with no connection to this buffer scenario. \"pH = 9.0\" (choice D) similarly isn't derived from any calculation using the given pKa = 4.5."
     },
     {
       "id": "8-41",
@@ -8384,7 +8384,7 @@ const QUESTIONS = {
         "There is no relationship between pKa and pKb"
       ],
       "correct": 1,
-      "explanation": "Since Ka × Kb = Kw, taking the negative log of both sides gives pKa + pKb = pKw = 14.00 at 25°C. \"There is no relationship between pKa and pKb\" (choice D) directly contradicts this identity. \"pKa = pKb always, for any conjugate pair\" (choice C) would only be true in the special case where both equal 7.00 (Ka = Kb); it's not true generally, since acids and their conjugate bases usually have very different strengths. \"pKa − pKb = 14.00\" (choice A) uses the wrong operation — the relationship comes from a product (Ka × Kb) becoming a SUM of logs, not a difference."
+      "explanation": "Correct: (B) pKa + pKb = pKw = 14.00 at 25°C. Since Ka × Kb = Kw, taking the negative log of both sides gives pKa + pKb = pKw = 14.00 at 25°C. \"There is no relationship between pKa and pKb\" (choice D) directly contradicts this identity. \"pKa = pKb always, for any conjugate pair\" (choice C) would only be true in the special case where both equal 7.00 (Ka = Kb); it's not true generally, since acids and their conjugate bases usually have very different strengths. \"pKa − pKb = 14.00\" (choice A) uses the wrong operation — the relationship comes from a product (Ka × Kb) becoming a SUM of logs, not a difference."
     },
     {
       "id": "8-88",
@@ -8425,7 +8425,7 @@ const QUESTIONS = {
         "CH₃COOH and CH₃COONa"
       ],
       "correct": 3,
-      "explanation": "CH₃COOH (a weak acid) with CH₃COONa (its conjugate base, acetate) forms a genuine buffer pair. \"HCl and NaOH in exactly stoichiometric amounts\" (choice A) fully neutralizes to a neutral NaCl solution with no leftover weak acid/base pair — no buffering capacity remains. \"HCl and NaCl\" (choice B) pairs a fully-dissociated strong acid (no equilibrium reservoir to draw on) with an unrelated spectator salt, not a conjugate base. \"NaOH and NaCl\" (choice C) similarly pairs a strong base with a spectator salt rather than its conjugate acid."
+      "explanation": "Correct: (D) CH₃COOH and CH₃COONa. CH₃COOH (a weak acid) with CH₃COONa (its conjugate base, acetate) forms a genuine buffer pair. \"HCl and NaOH in exactly stoichiometric amounts\" (choice A) fully neutralizes to a neutral NaCl solution with no leftover weak acid/base pair — no buffering capacity remains. \"HCl and NaCl\" (choice B) pairs a fully-dissociated strong acid (no equilibrium reservoir to draw on) with an unrelated spectator salt, not a conjugate base. \"NaOH and NaCl\" (choice C) similarly pairs a strong base with a spectator salt rather than its conjugate acid."
     },
     {
       "id": "8-43",
@@ -8438,7 +8438,7 @@ const QUESTIONS = {
         "Buffers prevent any acid from ever being added to the solution."
       ],
       "correct": 2,
-      "explanation": "The conjugate base component reacts with added H⁺ (base + H⁺ → weak acid), consuming the added strong acid and converting it into more weak acid rather than letting it raise free [H⁺] sharply. \"Buffers chemically destroy any added acid instantly and completely\" (choice B) overstates and mischaracterizes the process — it's an ordinary equilibrium-shifting reaction, not destruction. \"The buffer's weak acid component reacts with the added H⁺\" (choice A) has the roles backwards — the weak acid has no lone pair or negative charge to accept another proton with; it's the conjugate BASE that neutralizes added acid. \"Buffers prevent any acid from ever being added to the solution\" (choice D) misunderstands the mechanism entirely — buffers don't block addition, they chemically neutralize its effect after it's added."
+      "explanation": "Correct: (C) The conjugate base reacts with the added H⁺, forming more weak acid. The conjugate base component reacts with added H⁺ (base + H⁺ → weak acid), consuming the added strong acid and converting it into more weak acid rather than letting it raise free [H⁺] sharply. \"Buffers chemically destroy any added acid instantly and completely\" (choice B) overstates and mischaracterizes the process — it's an ordinary equilibrium-shifting reaction, not destruction. \"The buffer's weak acid component reacts with the added H⁺\" (choice A) has the roles backwards — the weak acid has no lone pair or negative charge to accept another proton with; it's the conjugate BASE that neutralizes added acid. \"Buffers prevent any acid from ever being added to the solution\" (choice D) misunderstands the mechanism entirely — buffers don't block addition, they chemically neutralize its effect after it's added."
     },
     {
       "id": "8-44",
@@ -8451,7 +8451,7 @@ const QUESTIONS = {
         "The buffer's conjugate base component reacts with the added OH⁻."
       ],
       "correct": 2,
-      "explanation": "The weak acid component reacts with added OH⁻ (weak acid + OH⁻ → conjugate base + H₂O), consuming the added strong base and converting it into more conjugate base plus water rather than letting free [OH⁻] spike. \"Buffers cannot resist added base, only added acid\" (choice B) is false — resisting both directions is the defining feature of a buffer. \"Added base has no effect on a buffered solution whatsoever\" (choice A) is also false — the base does react, it's just neutralized efficiently rather than having no effect at all. \"The buffer's conjugate base component reacts with the added OH⁻\" (choice D) has the roles backwards — the conjugate base is already basic and has nothing productive to do with more OH⁻; it's the weak ACID component that consumes added base."
+      "explanation": "Correct: (C) The weak acid reacts with added OH⁻, forming conjugate base and water. The weak acid component reacts with added OH⁻ (weak acid + OH⁻ → conjugate base + H₂O), consuming the added strong base and converting it into more conjugate base plus water rather than letting free [OH⁻] spike. \"Buffers cannot resist added base, only added acid\" (choice B) is false — resisting both directions is the defining feature of a buffer. \"Added base has no effect on a buffered solution whatsoever\" (choice A) is also false — the base does react, it's just neutralized efficiently rather than having no effect at all. \"The buffer's conjugate base component reacts with the added OH⁻\" (choice D) has the roles backwards — the conjugate base is already basic and has nothing productive to do with more OH⁻; it's the weak ACID component that consumes added base."
     },
     {
       "id": "8-45",
@@ -8464,7 +8464,7 @@ const QUESTIONS = {
         "A mixture of HF and NaF"
       ],
       "correct": 1,
-      "explanation": "A solution of only a strong acid has no reservoir of conjugate base to neutralize added base, and it can't resist added acid either (there's no buffering equilibrium at all) — strong acid/base solutions alone are never buffers. H₂CO₃/NaHCO₃ (choice C), HF/NaF (choice D), and NH₃/NH₄Cl (choice A) are each a genuine weak acid (or base) paired with a significant reservoir of its conjugate partner, so all three do function as effective buffers, unlike the correct answer."
+      "explanation": "Correct: (B) A solution of only strong acid. A solution of only a strong acid has no reservoir of conjugate base to neutralize added base, and it can't resist added acid either (there's no buffering equilibrium at all) — strong acid/base solutions alone are never buffers. H₂CO₃/NaHCO₃ (choice C), HF/NaF (choice D), and NH₃/NH₄Cl (choice A) are each a genuine weak acid (or base) paired with a significant reservoir of its conjugate partner, so all three do function as effective buffers, unlike the correct answer."
     },
     {
       "id": "8-46",
@@ -8477,7 +8477,7 @@ const QUESTIONS = {
         "NH₃ and NH₄Cl"
       ],
       "correct": 3,
-      "explanation": "NH₃ (a weak base) with NH₄Cl (providing NH₄⁺, its conjugate acid) is the classic weak-base-type buffer pair. \"NaOH and Na₂SO₄\" (choice B) pairs a strong base with an unrelated spectator salt (from a strong acid), not a weak base/conjugate acid pair. \"CH₃COOH and CH₃COONa\" (choice A) IS a valid buffer, but it's a weak-ACID-type pairing (acid plus its conjugate base), not the weak-base-type pairing the question specifically asks for. \"HCl and NaCl\" (choice C) pairs a strong acid (not a weak base at all) with a spectator salt."
+      "explanation": "Correct: (D) NH₃ and NH₄Cl. NH₃ (a weak base) with NH₄Cl (providing NH₄⁺, its conjugate acid) is the classic weak-base-type buffer pair. \"NaOH and Na₂SO₄\" (choice B) pairs a strong base with an unrelated spectator salt (from a strong acid), not a weak base/conjugate acid pair. \"CH₃COOH and CH₃COONa\" (choice A) IS a valid buffer, but it's a weak-ACID-type pairing (acid plus its conjugate base), not the weak-base-type pairing the question specifically asks for. \"HCl and NaCl\" (choice C) pairs a strong acid (not a weak base at all) with a spectator salt."
     },
     {
       "id": "8-47",
@@ -8490,7 +8490,7 @@ const QUESTIONS = {
         "A weak acid alone can already resist both added acid and added base equally well."
       ],
       "correct": 2,
-      "explanation": "A weak acid alone has no significant reservoir of its conjugate base to neutralize ADDED acid — that dedicated reservoir is exactly what the conjugate base component provides in a true buffer. \"Conjugate bases have no chemical function in a buffer\" (choice A) directly contradicts the correct mechanism. \"A weak acid alone can already resist both added acid and added base equally well\" (choice D) is false — without added conjugate base present, there's no dedicated species to consume incoming H⁺ efficiently. \"This dual-component requirement is unnecessary; any weak acid alone makes an effective buffer\" (choice B) directly contradicts the premise and conclusion of the correct answer."
+      "explanation": "Correct: (C) A weak acid alone can neutralize added base, but only the conjugate base can neutralize added acid. A weak acid alone has no significant reservoir of its conjugate base to neutralize ADDED acid — that dedicated reservoir is exactly what the conjugate base component provides in a true buffer. \"Conjugate bases have no chemical function in a buffer\" (choice A) directly contradicts the correct mechanism. \"A weak acid alone can already resist both added acid and added base equally well\" (choice D) is false — without added conjugate base present, there's no dedicated species to consume incoming H⁺ efficiently. \"This dual-component requirement is unnecessary; any weak acid alone makes an effective buffer\" (choice B) directly contradicts the premise and conclusion of the correct answer."
     },
     {
       "id": "8-48",
@@ -8516,7 +8516,7 @@ const QUESTIONS = {
         "Buffer Y, since lower concentrations always mean greater capacity."
       ],
       "correct": 2,
-      "explanation": "Higher absolute concentrations mean more weak acid and conjugate base available to consume before either is significantly depleted, even though both buffers share the same pH (since Henderson-Hasselbalch depends only on the ratio). \"Buffer Y, since lower concentrations always mean greater capacity\" (choice D) has it backwards — less material on hand means LESS capacity, not more. \"Capacity cannot be determined from concentration alone\" (choice B) is false — concentration (together with the ratio, which is given as equal here) is exactly what determines capacity. \"Both have identical capacity, since the ratio (and therefore the pH) is the same\" (choice A) conflates pH (ratio-dependent) with capacity (concentration-dependent) — equal pH does not imply equal capacity."
+      "explanation": "Correct: (C) Buffer X, since higher concentrations give a larger reservoir. Higher absolute concentrations mean more weak acid and conjugate base available to consume before either is significantly depleted, even though both buffers share the same pH (since Henderson-Hasselbalch depends only on the ratio). \"Buffer Y, since lower concentrations always mean greater capacity\" (choice D) has it backwards — less material on hand means LESS capacity, not more. \"Capacity cannot be determined from concentration alone\" (choice B) is false — concentration (together with the ratio, which is given as equal here) is exactly what determines capacity. \"Both have identical capacity, since the ratio (and therefore the pH) is the same\" (choice A) conflates pH (ratio-dependent) with capacity (concentration-dependent) — equal pH does not imply equal capacity."
     },
     {
       "id": "8-50",
@@ -8529,7 +8529,7 @@ const QUESTIONS = {
         "Buffer capacity always increases as the ratio becomes more unequal."
       ],
       "correct": 1,
-      "explanation": "Capacity is greatest near a 1:1 ratio and declines as the ratio skews, since the minority component becomes easy to fully deplete with only a modest addition of acid or base. \"A buffer's ratio has no meaningful upper or lower limit for effective functioning\" (choice C) contradicts the very premise that effectiveness declines away from 1:1. \"Buffer capacity is completely unaffected by the ratio between components\" (choice A) is directly contradicted by the correct mechanism. \"Buffer capacity always increases as the ratio becomes more unequal\" (choice D) has the relationship exactly backwards."
+      "explanation": "Correct: (B) Buffer capacity generally decreases as the ratio becomes more unequal. Capacity is greatest near a 1:1 ratio and declines as the ratio skews, since the minority component becomes easy to fully deplete with only a modest addition of acid or base. \"A buffer's ratio has no meaningful upper or lower limit for effective functioning\" (choice C) contradicts the very premise that effectiveness declines away from 1:1. \"Buffer capacity is completely unaffected by the ratio between components\" (choice A) is directly contradicted by the correct mechanism. \"Buffer capacity always increases as the ratio becomes more unequal\" (choice D) has the relationship exactly backwards."
     },
     {
       "id": "8-51",
@@ -8542,7 +8542,7 @@ const QUESTIONS = {
         "Nothing measurable; capacity cannot be quantified."
       ],
       "correct": 0,
-      "explanation": "pH depends only on the RATIO of the two components (Henderson-Hasselbalch), while capacity depends on their absolute concentrations. \"The temperature of the solution only\" (choice B) isn't the distinguishing factor between pH and capacity that this question is asking about. \"The exact same factor as pH (the ratio alone)\" (choice C) directly contradicts the correct distinction — if true, pH and capacity would always change together, but two buffers with the same ratio (and thus same pH) can have very different capacities. \"Nothing measurable; capacity cannot be quantified\" (choice D) is false — capacity is a well-defined, measurable quantity (how much acid/base a buffer can absorb before its pH shifts substantially)."
+      "explanation": "Correct: (A) The absolute concentrations of both components. pH depends only on the RATIO of the two components (Henderson-Hasselbalch), while capacity depends on their absolute concentrations. \"The temperature of the solution only\" (choice B) isn't the distinguishing factor between pH and capacity that this question is asking about. \"The exact same factor as pH (the ratio alone)\" (choice C) directly contradicts the correct distinction — if true, pH and capacity would always change together, but two buffers with the same ratio (and thus same pH) can have very different capacities. \"Nothing measurable; capacity cannot be quantified\" (choice D) is false — capacity is a well-defined, measurable quantity (how much acid/base a buffer can absorb before its pH shifts substantially)."
     },
     {
       "id": "8-52",
@@ -8555,7 +8555,7 @@ const QUESTIONS = {
         "This scenario cannot be analyzed without knowing the exact Ka value."
       ],
       "correct": 1,
-      "explanation": "Added acid is neutralized specifically by the conjugate base component, and the 1:1 buffer has proportionally more conjugate base available (relative to the 9:1 buffer, where conjugate base is the minority species), so it shows a smaller pH change. \"Both buffers would show identical pH changes regardless of ratio\" (choice A) contradicts the fact that buffer response depends on the amount of the relevant component available. \"This scenario cannot be analyzed without knowing the exact Ka value\" (choice D) is unnecessary — the comparison here turns on relative amounts of conjugate base, not the specific Ka. \"The 9:1 buffer, since more weak acid always means better buffering against added acid specifically\" (choice C) is backwards — more weak acid doesn't help against added acid at all; it's the conjugate base that neutralizes added acid, and the 9:1 buffer has proportionally less of it."
+      "explanation": "Correct: (B) The 1:1 buffer, since it has proportionally more conjugate base to neutralize the added acid. Added acid is neutralized specifically by the conjugate base component, and the 1:1 buffer has proportionally more conjugate base available (relative to the 9:1 buffer, where conjugate base is the minority species), so it shows a smaller pH change. \"Both buffers would show identical pH changes regardless of ratio\" (choice A) contradicts the fact that buffer response depends on the amount of the relevant component available. \"This scenario cannot be analyzed without knowing the exact Ka value\" (choice D) is unnecessary — the comparison here turns on relative amounts of conjugate base, not the specific Ka. \"The 9:1 buffer, since more weak acid always means better buffering against added acid specifically\" (choice C) is backwards — more weak acid doesn't help against added acid at all; it's the conjugate base that neutralizes added acid, and the 9:1 buffer has proportionally less of it."
     },
     {
       "id": "8-92",
@@ -8582,7 +8582,7 @@ const QUESTIONS = {
         "4.20"
       ],
       "correct": 3,
-      "explanation": "Correct: 4.20. Use the Henderson-Hasselbalch equation: pH = pK<sub>a</sub> + log([base]/[acid]). Here [base] = [acid] = 0.300 M, so the ratio is 1 and log(1) = 0. Therefore pH = pK<sub>a</sub> = 4.20. Whenever a buffer has equal amounts of weak acid and conjugate base, its pH equals the pK<sub>a</sub>, no matter what the common concentration is.\n\n(A) and\n\n(B) are wrong because a ratio of 1 adds nothing to the pK<sub>a</sub>, so the pH cannot differ from 4.20.\n(C) is wrong because doubling the pK<sub>a</sub> has no basis in the equation."
+      "explanation": "Correct: (D) 4.20. Use the Henderson-Hasselbalch equation: pH = pK<sub>a</sub> + log([base]/[acid]). Here [base] = [acid] = 0.300 M, so the ratio is 1 and log(1) = 0. Therefore pH = pK<sub>a</sub> = 4.20. Whenever a buffer has equal amounts of weak acid and conjugate base, its pH equals the pK<sub>a</sub>, no matter what the common concentration is.\n\n(A) and\n\n(B) are wrong because a ratio of 1 adds nothing to the pK<sub>a</sub>, so the pH cannot differ from 4.20.\n(C) is wrong because doubling the pK<sub>a</sub> has no basis in the equation."
     },
     {
       "id": "8-54",
@@ -8595,7 +8595,7 @@ const QUESTIONS = {
         "5.50"
       ],
       "correct": 2,
-      "explanation": "Correct: 5.22. pH = pK<sub>a</sub> + log([base]/[acid]) = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Because there is more base than acid, the pH should come out ABOVE the pK<sub>a</sub>, which it does.\n\n(A) is wrong because it subtracts the log term, as if the acid were the larger part.\n(B) is wrong because 4.74 is correct only for equal concentrations.\n(D) is wrong because 5.50 does not match log(3.00); it would need a ratio of about 5.8."
+      "explanation": "Correct: (C) 5.22. pH = pK<sub>a</sub> + log([base]/[acid]) = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Because there is more base than acid, the pH should come out ABOVE the pK<sub>a</sub>, which it does.\n\n(A) is wrong because it subtracts the log term, as if the acid were the larger part.\n(B) is wrong because 4.74 is correct only for equal concentrations.\n(D) is wrong because 5.50 does not match log(3.00); it would need a ratio of about 5.8."
     },
     {
       "id": "8-55",
@@ -8686,7 +8686,7 @@ const QUESTIONS = {
         "A region unrelated to buffering, since it lies after equivalence."
       ],
       "correct": 1,
-      "explanation": "As base is added before equivalence, a mixture of remaining weak acid and newly formed conjugate base accumulates — this mixture is itself a buffer, and its resistance to pH change is what makes this region of the curve appear flat. \"The point where the titration is complete\" (choice C) is wrong — this flat region occurs mid-titration, well before the equivalence point, not at completion. \"A region unrelated to buffering\" (choice D) directly contradicts the correct mechanism. \"The region where no reaction is occurring at all\" (choice A) is false — the neutralization reaction (weak acid + OH⁻ → conjugate base + water) is actively occurring throughout; it's just that the resulting buffer mixture absorbs the pH impact."
+      "explanation": "Correct: (B) The buffer region (weak acid + conjugate base present). As base is added before equivalence, a mixture of remaining weak acid and newly formed conjugate base accumulates — this mixture is itself a buffer, and its resistance to pH change is what makes this region of the curve appear flat. \"The point where the titration is complete\" (choice C) is wrong — this flat region occurs mid-titration, well before the equivalence point, not at completion. \"A region unrelated to buffering\" (choice D) directly contradicts the correct mechanism. \"The region where no reaction is occurring at all\" (choice A) is false — the neutralization reaction (weak acid + OH⁻ → conjugate base + water) is actively occurring throughout; it's just that the resulting buffer mixture absorbs the pH impact."
     },
     {
       "id": "8-62",
@@ -8699,7 +8699,7 @@ const QUESTIONS = {
         "A small added volume of titrant causes a large pH change."
       ],
       "correct": 3,
-      "explanation": "Near equivalence, the weak acid (or the component being consumed) is nearly used up, so the buffering system that kept pH changes gradual is essentially exhausted, and even a tiny additional volume of titrant causes a large pH swing. \"The reaction is now proceeding in reverse\" (choice C) is false — the titration reaction continues in the same forward direction; the steepness reflects the buffer running out, not a reversal. \"The titration has actually failed at this point\" (choice A) is false — this steep rise is the expected, normal signature of reaching the equivalence point, not a failure. \"The steepness has no chemical significance\" (choice B) directly contradicts its actual role: it's precisely how the equivalence point is visually located on the curve."
+      "explanation": "Correct: (D) A small added volume of titrant causes a large pH change. Near equivalence, the weak acid (or the component being consumed) is nearly used up, so the buffering system that kept pH changes gradual is essentially exhausted, and even a tiny additional volume of titrant causes a large pH swing. \"The reaction is now proceeding in reverse\" (choice C) is false — the titration reaction continues in the same forward direction; the steepness reflects the buffer running out, not a reversal. \"The titration has actually failed at this point\" (choice A) is false — this steep rise is the expected, normal signature of reaching the equivalence point, not a failure. \"The steepness has no chemical significance\" (choice B) directly contradicts its actual role: it's precisely how the equivalence point is visually located on the curve."
     },
     {
       "id": "8-63",
@@ -8725,7 +8725,7 @@ const QUESTIONS = {
         "The unknown acid's equivalence point pH must also be 5.35."
       ],
       "correct": 0,
-      "explanation": "Since pH = pKa exactly at the half-equivalence point, observing pH = 5.35 there directly gives pKa = 5.35 and Ka = 10^(−5.35) = 4.47×10⁻⁶. \"The unknown acid's equivalence point pH must also be 5.35\" (choice D) confuses the half-equivalence point (governed by the acid's own Ka, via Henderson-Hasselbalch) with the full equivalence point (governed by the conjugate base's hydrolysis, which is a different calculation and is generally above 7, not equal to pKa). \"The unknown acid is a strong acid\" (choice B) is false — a strong acid dissociates essentially completely and doesn't display the gradual buffering region or a meaningful half-equivalence pH = pKa the way a weak acid does; observing this behavior is itself evidence the acid is weak. \"No information about the acid can be determined from this single data point\" (choice C) is false — pH = pKa at half-equivalence is a direct, immediately usable relationship."
+      "explanation": "Correct: (A) The unknown acid's pKa is 5.35, and its Ka = 10^(−5.35) = 4.47×10⁻⁶. Since pH = pKa exactly at the half-equivalence point, observing pH = 5.35 there directly gives pKa = 5.35 and Ka = 10^(−5.35) = 4.47×10⁻⁶. \"The unknown acid's equivalence point pH must also be 5.35\" (choice D) confuses the half-equivalence point (governed by the acid's own Ka, via Henderson-Hasselbalch) with the full equivalence point (governed by the conjugate base's hydrolysis, which is a different calculation and is generally above 7, not equal to pKa). \"The unknown acid is a strong acid\" (choice B) is false — a strong acid dissociates essentially completely and doesn't display the gradual buffering region or a meaningful half-equivalence pH = pKa the way a weak acid does; observing this behavior is itself evidence the acid is weak. \"No information about the acid can be determined from this single data point\" (choice C) is false — pH = pKa at half-equivalence is a direct, immediately usable relationship."
     },
     {
       "id": "8-65",
@@ -8738,7 +8738,7 @@ const QUESTIONS = {
         "Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid."
       ],
       "correct": 1,
-      "explanation": "A diprotic acid loses its two acidic protons sequentially (governed by Ka₁, then the smaller Ka₂), producing two equivalence points and two half-equivalence points (one pair per acidic proton), revealing pKa₁ and pKa₂ respectively. \"Three equivalence points, since diprotic implies three distinct species\" (choice A) overcounts — diprotic means two ionizable protons, which produces two equivalence points, not three. \"Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid\" (choice D) undercounts — it ignores the second, generally weaker ionization step entirely. \"Diprotic acids cannot be titrated using standard methods\" (choice C) is false — polyprotic titrations are routine and simply show additional equivalence/half-equivalence points compared to monoprotic acids.",
+      "explanation": "Correct: (B) Two equivalence points and two half-equivalence points. A diprotic acid loses its two acidic protons sequentially (governed by Ka₁, then the smaller Ka₂), producing two equivalence points and two half-equivalence points (one pair per acidic proton), revealing pKa₁ and pKa₂ respectively. \"Three equivalence points, since diprotic implies three distinct species\" (choice A) overcounts — diprotic means two ionizable protons, which produces two equivalence points, not three. \"Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid\" (choice D) undercounts — it ignores the second, generally weaker ionization step entirely. \"Diprotic acids cannot be titrated using standard methods\" (choice C) is false — polyprotic titrations are routine and simply show additional equivalence/half-equivalence points compared to monoprotic acids.",
       "stretch": true
     },
     {
@@ -8752,7 +8752,7 @@ const QUESTIONS = {
         "pI = 6.05"
       ],
       "correct": 3,
-      "explanation": "Correct: pI = 6.05. The isoelectric point (pI) is the pH at which an amino acid has no net charge. For a simple amino acid with no ionizable side chain, the neutral (zwitterion) form sits between the two pK<sub>a</sub> values, so pI is their average: pI = (pK<sub>a1</sub> + pK<sub>a2</sub>)/2 = (2.19 + 9.90)/2 = 12.09/2 = 6.05. At this pH the carboxyl group is mostly -COO<sup>-</sup> and the amino group is mostly -NH<sub>3</sub><sup>+</sup>, so the charges cancel.\n\n(A) and\n\n(B) are wrong because each uses only one of the pK<sub>a</sub> values.\n(C) is wrong because 12.09 is the sum; the division by 2 was skipped."
+      "explanation": "Correct: (D) PI = 6.05. The isoelectric point (pI) is the pH at which an amino acid has no net charge. For a simple amino acid with no ionizable side chain, the neutral (zwitterion) form sits between the two pK<sub>a</sub> values, so pI is their average: pI = (pK<sub>a1</sub> + pK<sub>a2</sub>)/2 = (2.19 + 9.90)/2 = 12.09/2 = 6.05. At this pH the carboxyl group is mostly -COO<sup>-</sup> and the amino group is mostly -NH<sub>3</sub><sup>+</sup>, so the charges cancel.\n\n(A) and\n\n(B) are wrong because each uses only one of the pK<sub>a</sub> values.\n(C) is wrong because 12.09 is the sum; the division by 2 was skipped."
     },
     {
       "id": "8-67",
@@ -8765,7 +8765,7 @@ const QUESTIONS = {
         "A net anion (−1), since pH is above pKa₁."
       ],
       "correct": 2,
-      "explanation": "At pH 7.00 (above pKa₁ = 2.30, below pKa₂ = 9.70), the carboxyl group has lost its proton (−COO⁻) while the amino group has not yet lost its proton (still −NH₃⁺); the two charges cancel to give a net-neutral zwitterion. \"A net anion (−1), since pH is above pKa₁\" (choice D) accounts for the deprotonated carboxyl group correctly but ignores that the amino group is still protonated (+1) at this pH, which cancels that negative charge. \"Fully neutral with neither group ionized\" (choice B) is wrong in the opposite way — at pH 7, well above pKa₁, the carboxyl group IS deprotonated, not still in its neutral −COOH form. \"A net cation (+1), since pH is below pKa₂\" (choice A) accounts for the protonated amino group correctly but ignores that the carboxyl group has already lost its proton by this pH, which cancels that positive charge."
+      "explanation": "Correct: (C) A neutral zwitterion (−COO⁻ and −NH₃⁺). At pH 7.00 (above pKa₁ = 2.30, below pKa₂ = 9.70), the carboxyl group has lost its proton (−COO⁻) while the amino group has not yet lost its proton (still −NH₃⁺); the two charges cancel to give a net-neutral zwitterion. \"A net anion (−1), since pH is above pKa₁\" (choice D) accounts for the deprotonated carboxyl group correctly but ignores that the amino group is still protonated (+1) at this pH, which cancels that negative charge. \"Fully neutral with neither group ionized\" (choice B) is wrong in the opposite way — at pH 7, well above pKa₁, the carboxyl group IS deprotonated, not still in its neutral −COOH form. \"A net cation (+1), since pH is below pKa₂\" (choice A) accounts for the protonated amino group correctly but ignores that the carboxyl group has already lost its proton by this pH, which cancels that positive charge."
     },
     {
       "id": "8-76",
@@ -8778,7 +8778,7 @@ const QUESTIONS = {
         "Both curves must be weak acid-strong base titrations, since only weak acids produce titration curves at all."
       ],
       "correct": 0,
-      "explanation": "A weak acid-strong base titration produces a flat buffer-region plateau before equivalence because unreacted weak acid and its newly formed conjugate base coexist and resist pH change (per 8.7–8.9) — that's Curve X. A strong acid-strong base titration (Curve Y) has no weak acid/conjugate base pair at any point, so there is no buffering equilibrium to flatten the curve, and pH rises steeply and continuously from the start until equivalence. \"Curve Y is the weak acid case\" (choice B) has the two curves backwards, and also misattributes Curve X's plateau to titrant addition rate rather than to buffering chemistry — the plateau is a chemical effect, not a matter of how fast base is added. \"Both curves must be weak acid-strong base titrations\" (choice D) is false — strong acid-strong base titrations are common and produce a perfectly valid (if differently shaped) curve. \"The plateau appears simply because more titrant was added to that flask\" (choice C) correctly identifies Curve X as the weak-acid case but gives the wrong reason — the plateau is caused by the buffering equilibrium of the weak acid/conjugate base mixture, not by the amount of titrant added."
+      "explanation": "Correct: (A) Curve X is the weak acid case; Curve Y is strong-strong and has no buffer-region plateau. A weak acid-strong base titration produces a flat buffer-region plateau before equivalence because unreacted weak acid and its newly formed conjugate base coexist and resist pH change (per 8.7–8.9) — that's Curve X. A strong acid-strong base titration (Curve Y) has no weak acid/conjugate base pair at any point, so there is no buffering equilibrium to flatten the curve, and pH rises steeply and continuously from the start until equivalence. \"Curve Y is the weak acid case\" (choice B) has the two curves backwards, and also misattributes Curve X's plateau to titrant addition rate rather than to buffering chemistry — the plateau is a chemical effect, not a matter of how fast base is added. \"Both curves must be weak acid-strong base titrations\" (choice D) is false — strong acid-strong base titrations are common and produce a perfectly valid (if differently shaped) curve. \"The plateau appears simply because more titrant was added to that flask\" (choice C) correctly identifies Curve X as the weak-acid case but gives the wrong reason — the plateau is caused by the buffering equilibrium of the weak acid/conjugate base mixture, not by the amount of titrant added."
     },
     {
       "id": "8-85",
@@ -8863,7 +8863,7 @@ const QUESTIONS = {
         "Cannot be determined"
       ],
       "correct": 1,
-      "explanation": "Vaporization spreads molecules from a condensed liquid into a much more dispersed gas phase, dramatically increasing the number of accessible microstates, so ΔS is positive — this rules out ‘Negative’ (backwards) and ‘Zero’ (phase changes always change entropy substantially). ‘Cannot be determined’ is wrong because the direction of a simple phase change like this is always predictable from general trends, without needing extra data."
+      "explanation": "Correct: (B) Positive. Vaporization spreads molecules from a condensed liquid into a much more dispersed gas phase, dramatically increasing the number of accessible microstates, so ΔS is positive — this rules out ‘Negative’ (backwards) and ‘Zero’ (phase changes always change entropy substantially). ‘Cannot be determined’ is wrong because the direction of a simple phase change like this is always predictable from general trends, without needing extra data."
     },
     {
       "id": "9-2",
@@ -8876,7 +8876,7 @@ const QUESTIONS = {
         "Zero"
       ],
       "correct": 1,
-      "explanation": "Moles of gas drop from 4 (1 N₂+3H₂) to 2 (2NH₃), so ΔS is negative. ‘Positive’ has the direction backwards — it would apply if gas moles increased. ‘Zero’ is wrong because a change in gas moles almost always changes entropy noticeably. ‘Cannot be determined without more data’ is wrong because counting moles of gas on each side is enough to predict the sign here; no extra data is needed for a qualitative sign prediction."
+      "explanation": "Correct: (B) Negative. Moles of gas drop from 4 (1 N₂+3H₂) to 2 (2NH₃), so ΔS is negative. ‘Positive’ has the direction backwards — it would apply if gas moles increased. ‘Zero’ is wrong because a change in gas moles almost always changes entropy noticeably. ‘Cannot be determined without more data’ is wrong because counting moles of gas on each side is enough to predict the sign here; no extra data is needed for a qualitative sign prediction."
     },
     {
       "id": "9-3",
@@ -8889,7 +8889,7 @@ const QUESTIONS = {
         "The entropy of any individual system always increases, without exception."
       ],
       "correct": 2,
-      "explanation": "The Second Law applies to the total entropy of the universe (system + surroundings), which must increase for any spontaneous process. ‘Entropy can never decrease, in any system or surroundings’ is too strong — a system's own entropy can decrease (e.g., freezing) as long as the surroundings compensate. ‘The entropy of any individual system always increases, without exception’ makes the same mistake in the other direction — individual systems can lose entropy. ‘Entropy is always conserved, exactly like energy is conserved’ confuses entropy with energy; unlike energy, total entropy increases (it isn't conserved) for spontaneous processes."
+      "explanation": "Correct: (C) Total entropy of the universe always increases for a spontaneous process. The Second Law applies to the total entropy of the universe (system + surroundings), which must increase for any spontaneous process. ‘Entropy can never decrease, in any system or surroundings’ is too strong — a system's own entropy can decrease (e.g., freezing) as long as the surroundings compensate. ‘The entropy of any individual system always increases, without exception’ makes the same mistake in the other direction — individual systems can lose entropy. ‘Entropy is always conserved, exactly like energy is conserved’ confuses entropy with energy; unlike energy, total entropy increases (it isn't conserved) for spontaneous processes."
     },
     {
       "id": "9-4",
@@ -8902,7 +8902,7 @@ const QUESTIONS = {
         "Always exactly zero, since dissolving doesn't change disorder."
       ],
       "correct": 0,
-      "explanation": "Dissolving an ionic solid breaks up a rigid, ordered lattice into freely moving hydrated ions, so entropy generally increases. ‘Always negative, regardless of the ionic compound involved’ has the trend backwards. ‘Impossible to predict for any dissolving process, even qualitatively’ overstates the uncertainty — the lattice-to-solution transition is a reliable, generalizable trend. ‘Always exactly zero, since dissolving doesn't change disorder’ ignores that dissolving is a real structural change and virtually never leaves entropy unchanged."
+      "explanation": "Correct: (A) Generally positive, as the ordered lattice breaks into mobile ions. Dissolving an ionic solid breaks up a rigid, ordered lattice into freely moving hydrated ions, so entropy generally increases. ‘Always negative, regardless of the ionic compound involved’ has the trend backwards. ‘Impossible to predict for any dissolving process, even qualitatively’ overstates the uncertainty — the lattice-to-solution transition is a reliable, generalizable trend. ‘Always exactly zero, since dissolving doesn't change disorder’ ignores that dissolving is a real structural change and virtually never leaves entropy unchanged."
     },
     {
       "id": "9-5",
@@ -8915,7 +8915,7 @@ const QUESTIONS = {
         "2H₂(g) + O₂(g) → 2H₂O(g)"
       ],
       "correct": 3,
-      "explanation": "This reaction reduces gas moles from 3 (2H₂+O₂) to 2 (2H₂O), decreasing possible arrangements — a negative ΔS. The other three all increase disorder: N₂O₄→2NO₂ increases gas moles (1→2), NaCl(s)→ions(aq) breaks up an ordered lattice into freely moving ions, and CO₂(s)→CO₂(g) is a phase change to the much higher-entropy gas phase — all three are positive ΔS, not negative."
+      "explanation": "Correct: (D) 2H₂(g) + O₂(g) → 2H₂O(g). This reaction reduces gas moles from 3 (2H₂+O₂) to 2 (2H₂O), decreasing possible arrangements — a negative ΔS. The other three all increase disorder: N₂O₄→2NO₂ increases gas moles (1→2), NaCl(s)→ions(aq) breaks up an ordered lattice into freely moving ions, and CO₂(s)→CO₂(g) is a phase change to the much higher-entropy gas phase — all three are positive ΔS, not negative."
     },
     {
       "id": "9-6",
@@ -8928,7 +8928,7 @@ const QUESTIONS = {
         "Higher temperature increases accessible energy states and microstates."
       ],
       "correct": 3,
-      "explanation": "Higher temperature gives particles access to more translational, rotational, and vibrational energy states, increasing the number of accessible microstates — the actual reason entropy rises with temperature. ‘Higher temperature always converts a substance to a gas, regardless of pressure’ confuses a possible phase change with the general temperature-entropy relationship, which holds even without any phase change. ‘Temperature has no relationship to entropy whatsoever’ directly contradicts basic thermodynamics. ‘Higher temperature decreases the total number of particles present in a substance’ is simply false — temperature doesn't change particle count."
+      "explanation": "Correct: (D) Higher temperature increases accessible energy states and microstates. Higher temperature gives particles access to more translational, rotational, and vibrational energy states, increasing the number of accessible microstates — the actual reason entropy rises with temperature. ‘Higher temperature always converts a substance to a gas, regardless of pressure’ confuses a possible phase change with the general temperature-entropy relationship, which holds even without any phase change. ‘Temperature has no relationship to entropy whatsoever’ directly contradicts basic thermodynamics. ‘Higher temperature decreases the total number of particles present in a substance’ is simply false — temperature doesn't change particle count."
     },
     {
       "id": "9-72",
@@ -8955,7 +8955,7 @@ const QUESTIONS = {
         "H₂O(g)"
       ],
       "correct": 3,
-      "explanation": "For the same substance, entropy increases from solid to liquid to gas because each phase has progressively more freedom of motion and more accessible arrangements, so H₂O(g) has the highest S°. ‘All three have identical entropy’ ignores this well-established phase trend. H₂O(l) and H₂O(s) are both lower than the gas — ranking either above H₂O(g) reverses the correct order."
+      "explanation": "Correct: (D) H₂O(g). For the same substance, entropy increases from solid to liquid to gas because each phase has progressively more freedom of motion and more accessible arrangements, so H₂O(g) has the highest S°. ‘All three have identical entropy’ ignores this well-established phase trend. H₂O(l) and H₂O(s) are both lower than the gas — ranking either above H₂O(g) reverses the correct order."
     },
     {
       "id": "9-8",
@@ -8968,7 +8968,7 @@ const QUESTIONS = {
         "CH₄, since smaller molecules always have higher entropy than larger ones."
       ],
       "correct": 2,
-      "explanation": "C₃H₈ has more atoms and more possible bond vibrations/rotations than CH₄, giving it more accessible microstates and thus higher S°, even though both are gases. ‘CH₄, since smaller molecules always have higher entropy than larger ones’ states the trend backwards — larger, more complex molecules generally have more entropy. ‘Both would have identical entropy, since both are simple gases’ and ‘Entropy cannot be compared between structurally different molecules’ are both wrong because absolute entropies are tabulated and comparable for any substance, and structurally different molecules essentially never have identical S°."
+      "explanation": "Correct: (C) C₃H₈, since it is larger and structurally more complex than CH₄. C₃H₈ has more atoms and more possible bond vibrations/rotations than CH₄, giving it more accessible microstates and thus higher S°, even though both are gases. ‘CH₄, since smaller molecules always have higher entropy than larger ones’ states the trend backwards — larger, more complex molecules generally have more entropy. ‘Both would have identical entropy, since both are simple gases’ and ‘Entropy cannot be compared between structurally different molecules’ are both wrong because absolute entropies are tabulated and comparable for any substance, and structurally different molecules essentially never have identical S°."
     },
     {
       "id": "9-9",
@@ -8981,7 +8981,7 @@ const QUESTIONS = {
         "Exactly zero"
       ],
       "correct": 3,
-      "explanation": "The Third Law states a perfect crystal at 0 K has exactly zero entropy, since there's only one possible microstate (every particle in one fixed position) — perfect order, zero disorder. ‘Always positive, but small’ and ‘Always negative’ both wrongly assume some nonzero residual entropy remains. ‘Undefined at 0 K’ is wrong because the whole point of the Third Law is that entropy is well-defined and exactly zero at that limit for a perfect crystal."
+      "explanation": "Correct: (D) Exactly zero. The Third Law states a perfect crystal at 0 K has exactly zero entropy, since there's only one possible microstate (every particle in one fixed position) — perfect order, zero disorder. ‘Always positive, but small’ and ‘Always negative’ both wrongly assume some nonzero residual entropy remains. ‘Undefined at 0 K’ is wrong because the whole point of the Third Law is that entropy is well-defined and exactly zero at that limit for a perfect crystal."
     },
     {
       "id": "9-10",
@@ -8994,7 +8994,7 @@ const QUESTIONS = {
         "Diamond < NaCl(s) < Ar(g)"
       ],
       "correct": 3,
-      "explanation": "Diamond's rigid covalent network is the most ordered/constrained of the three, giving it the lowest entropy; NaCl's ionic lattice is ordered but less rigidly locked than diamond's covalent bonding; Ar, as a gas, has by far the most freedom of motion and thus the highest entropy — giving diamond < NaCl(s) < Ar(g). The other orderings either put a solid above the gas or claim equal entropy for structurally very different phases, both of which contradict the phase/structure trends in S°."
+      "explanation": "Correct: (D) Diamond < NaCl(s) < Ar(g). Diamond's rigid covalent network is the most ordered/constrained of the three, giving it the lowest entropy; NaCl's ionic lattice is ordered but less rigidly locked than diamond's covalent bonding; Ar, as a gas, has by far the most freedom of motion and thus the highest entropy — giving diamond < NaCl(s) < Ar(g). The other orderings either put a solid above the gas or claim equal entropy for structurally very different phases, both of which contradict the phase/structure trends in S°."
     },
     {
       "id": "9-11",
@@ -9007,7 +9007,7 @@ const QUESTIONS = {
         "Absolute entropy values are purely theoretical and have no real physical meaning."
       ],
       "correct": 2,
-      "explanation": "The Third Law gives entropy a genuine zero point (a perfect crystal at 0 K), so absolute S° values can be measured relative to that fixed reference, unlike enthalpy. ‘Entropy cannot actually be measured absolutely; this is a common misconception’ is simply false — the Third Law is precisely why it CAN be measured absolutely. ‘Enthalpy also has an absolute zero point, exactly identical to entropy's zero’ is wrong — enthalpy has no natural zero, which is exactly why ΔH°f is defined relative to elements in their standard states. ‘Absolute entropy values are purely theoretical and have no real physical meaning’ is wrong — S° values are experimentally measured (e.g., via calorimetry) and tabulated, not just theoretical constructs."
+      "explanation": "Correct: (C) Entropy has a true absolute zero (a perfect crystal at 0 K), per the Third Law. The Third Law gives entropy a genuine zero point (a perfect crystal at 0 K), so absolute S° values can be measured relative to that fixed reference, unlike enthalpy. ‘Entropy cannot actually be measured absolutely; this is a common misconception’ is simply false — the Third Law is precisely why it CAN be measured absolutely. ‘Enthalpy also has an absolute zero point, exactly identical to entropy's zero’ is wrong — enthalpy has no natural zero, which is exactly why ΔH°f is defined relative to elements in their standard states. ‘Absolute entropy values are purely theoretical and have no real physical meaning’ is wrong — S° values are experimentally measured (e.g., via calorimetry) and tabulated, not just theoretical constructs."
     },
     {
       "id": "9-73",
@@ -9048,7 +9048,7 @@ const QUESTIONS = {
         "−80.0 kJ"
       ],
       "correct": 1,
-      "explanation": "ΔG = ΔH − TΔS = −80.0 − (298)(0.200) = −80.0 − 59.6 = −139.6 kJ. ‘−80.0 kJ’ is just ΔH with the TΔS term omitted entirely. ‘+139.6 kJ’ has the correct magnitude but the wrong sign, as if the TΔS term were added instead of subtracted. ‘−20.4 kJ’ comes from an arithmetic slip in computing or combining the TΔS term."
+      "explanation": "Correct: (B) −139.6 kJ. ΔG = ΔH − TΔS = −80.0 − (298)(0.200) = −80.0 − 59.6 = −139.6 kJ. ‘−80.0 kJ’ is just ΔH with the TΔS term omitted entirely. ‘+139.6 kJ’ has the correct magnitude but the wrong sign, as if the TΔS term were added instead of subtracted. ‘−20.4 kJ’ comes from an arithmetic slip in computing or combining the TΔS term."
     },
     {
       "id": "9-13",
@@ -9061,7 +9061,7 @@ const QUESTIONS = {
         "At no temperature"
       ],
       "correct": 2,
-      "explanation": "With ΔH<0 (favors negative ΔG) and ΔS>0 (making −TΔS also negative, since T>0 in Kelvin), both terms in ΔG=ΔH−TΔS push toward negative ΔG at every temperature — favorable at all T. ‘Only at high temperatures’ and ‘Only at low temperatures’ both wrongly assume this combination is temperature-dependent, which only applies when ΔH and ΔS disagree in sign (one positive, one negative), not when both terms already favor spontaneity. ‘At no temperature’ ignores that a negative ΔH term already favors spontaneity here."
+      "explanation": "Correct: (C) At all temperatures. With ΔH<0 (favors negative ΔG) and ΔS>0 (making −TΔS also negative, since T>0 in Kelvin), both terms in ΔG=ΔH−TΔS push toward negative ΔG at every temperature — favorable at all T. ‘Only at high temperatures’ and ‘Only at low temperatures’ both wrongly assume this combination is temperature-dependent, which only applies when ΔH and ΔS disagree in sign (one positive, one negative), not when both terms already favor spontaneity. ‘At no temperature’ ignores that a negative ΔH term already favors spontaneity here."
     },
     {
       "id": "9-14",
@@ -9074,7 +9074,7 @@ const QUESTIONS = {
         "At all temperatures, regardless of T"
       ],
       "correct": 0,
-      "explanation": "With ΔH>0 (unfavorable) and ΔS<0 (making −TΔS positive, also unfavorable), both terms in ΔG=ΔH−TΔS push toward positive ΔG at every temperature (since T is always positive), so this reaction is never spontaneous. ‘At all temperatures, regardless of T’ and the two temperature-dependent options all wrongly assume there's some regime where the terms could favor negative ΔG, but here both terms always add constructively toward a positive ΔG, with no crossover point."
+      "explanation": "Correct: (A) At no temperature — never favorable. With ΔH>0 (unfavorable) and ΔS<0 (making −TΔS positive, also unfavorable), both terms in ΔG=ΔH−TΔS push toward positive ΔG at every temperature (since T is always positive), so this reaction is never spontaneous. ‘At all temperatures, regardless of T’ and the two temperature-dependent options all wrongly assume there's some regime where the terms could favor negative ΔG, but here both terms always add constructively toward a positive ΔG, with no crossover point."
     },
     {
       "id": "9-15",
@@ -9087,7 +9087,7 @@ const QUESTIONS = {
         "50.0 K"
       ],
       "correct": 2,
-      "explanation": "Setting ΔG=0: 0=50.0−T(0.150), so T=50.0/0.150=333K — below this the −TΔS term is too small to overcome ΔH, giving ΔG>0 (unfavorable); above it, ΔG<0. ‘150 K’, ‘200 K’, and ‘50.0 K’ are all the result of arithmetic slips in rearranging or dividing the equation (e.g., mishandling the 0.150 factor) rather than correctly computing T=ΔH/ΔS."
+      "explanation": "Correct: (C) 333 K. Setting ΔG=0: 0=50.0−T(0.150), so T=50.0/0.150=333K — below this the −TΔS term is too small to overcome ΔH, giving ΔG>0 (unfavorable); above it, ΔG<0. ‘150 K’, ‘200 K’, and ‘50.0 K’ are all the result of arithmetic slips in rearranging or dividing the equation (e.g., mishandling the 0.150 factor) rather than correctly computing T=ΔH/ΔS."
     },
     {
       "id": "9-16",
@@ -9100,7 +9100,7 @@ const QUESTIONS = {
         "A reaction with ΔG < 0 proceeds spontaneously, unaided."
       ],
       "correct": 3,
-      "explanation": "ΔG<0 means a reaction is energetically downhill and proceeds spontaneously without needing continuous external energy input — that's the actual definition of thermodynamic favorability. ‘A favorable reaction always proceeds instantly and completely’ and ‘Thermodynamic favorability guarantees a reaction is also fast’ both confuse thermodynamics (whether/how far a reaction goes) with kinetics (how fast) — a favorable reaction can still be extremely slow (e.g., diamond→graphite). ‘ΔG > 0 indicates a favorable, spontaneous reaction’ simply has the sign backwards; positive ΔG means unfavorable/nonspontaneous."
+      "explanation": "Correct: (D) A reaction with ΔG < 0 proceeds spontaneously, unaided. ΔG<0 means a reaction is energetically downhill and proceeds spontaneously without needing continuous external energy input — that's the actual definition of thermodynamic favorability. ‘A favorable reaction always proceeds instantly and completely’ and ‘Thermodynamic favorability guarantees a reaction is also fast’ both confuse thermodynamics (whether/how far a reaction goes) with kinetics (how fast) — a favorable reaction can still be extremely slow (e.g., diamond→graphite). ‘ΔG > 0 indicates a favorable, spontaneous reaction’ simply has the sign backwards; positive ΔG means unfavorable/nonspontaneous."
     },
     {
       "id": "9-17",
@@ -9113,7 +9113,7 @@ const QUESTIONS = {
         "−25330 kJ/mol"
       ],
       "correct": 1,
-      "explanation": "Converting ΔS to kJ first (−85.0 J/(mol·K) = −0.0850 kJ/(mol·K)): ΔG=−30.0−(298)(−0.0850)=−30.0+25.33=−4.67 kJ/mol. ‘−30.0 kJ/mol’ just reports ΔH, ignoring the TΔS term entirely. ‘−25330 kJ/mol’ is the classic unit-mismatch trap: multiplying 298×(−85.0) without converting to kJ first and combining it directly with a kJ-scale ΔH, producing a wildly oversized result. ‘+55.3 kJ/mol’ would come from mishandling the sign of the TΔS term."
+      "explanation": "Correct: (B) −4.67 kJ/mol. Converting ΔS to kJ first (−85.0 J/(mol·K) = −0.0850 kJ/(mol·K)): ΔG=−30.0−(298)(−0.0850)=−30.0+25.33=−4.67 kJ/mol. ‘−30.0 kJ/mol’ just reports ΔH, ignoring the TΔS term entirely. ‘−25330 kJ/mol’ is the classic unit-mismatch trap: multiplying 298×(−85.0) without converting to kJ first and combining it directly with a kJ-scale ΔH, producing a wildly oversized result. ‘+55.3 kJ/mol’ would come from mishandling the sign of the TΔS term."
     },
     {
       "id": "9-18",
@@ -9126,7 +9126,7 @@ const QUESTIONS = {
         "Both ΔH and ΔS are positive — favorable only above some crossover T."
       ],
       "correct": 3,
-      "explanation": "Melting is endothermic (ΔH>0, energy needed to overcome intermolecular forces) and increases entropy (ΔS>0, liquid is more disordered than solid) — this +ΔH/+ΔS combination is favorable only above a crossover temperature, matching ice melting above 0°C but not below. ‘ΔH is negative and ΔS is positive, favorable at all temperatures’ would make melting favorable at ALL temperatures, contradicting the observation that it's unfavorable below 0°C. ‘Both ΔH and ΔS are negative for melting, favorable only at low temperature’ would make melting favorable only at LOW temperature, the opposite of what's observed. ‘Melting has no defined ΔH or ΔS values at all’ is wrong — every process has well-defined thermodynamic quantities, and it's precisely their signs that explain the temperature dependence here."
+      "explanation": "Correct: (D) Both ΔH and ΔS are positive — favorable only above some crossover T. Melting is endothermic (ΔH>0, energy needed to overcome intermolecular forces) and increases entropy (ΔS>0, liquid is more disordered than solid) — this +ΔH/+ΔS combination is favorable only above a crossover temperature, matching ice melting above 0°C but not below. ‘ΔH is negative and ΔS is positive, favorable at all temperatures’ would make melting favorable at ALL temperatures, contradicting the observation that it's unfavorable below 0°C. ‘Both ΔH and ΔS are negative for melting, favorable only at low temperature’ would make melting favorable only at LOW temperature, the opposite of what's observed. ‘Melting has no defined ΔH or ΔS values at all’ is wrong — every process has well-defined thermodynamic quantities, and it's precisely their signs that explain the temperature dependence here."
     },
     {
       "id": "9-19",
@@ -9139,7 +9139,7 @@ const QUESTIONS = {
         "+83.9 J/(mol·K)"
       ],
       "correct": 3,
-      "explanation": "Rearranging ΔG=ΔH−TΔS for ΔS: ΔS=(ΔH−ΔG)/T=(20.0−(−5.0))/298=25.0/298=0.0839 kJ/(mol·K)=83.9 J/(mol·K). ‘+50.3 J/(mol·K)’ and ‘+25.0 J/(mol·K)’ both result from arithmetic slips in the rearrangement (e.g., forgetting to divide by T, or mishandling the subtraction of the negative ΔG). ‘−83.9 J/(mol·K)’ has the correct magnitude but the wrong sign — likely from mishandling the ΔH−ΔG subtraction (treating ΔG as +5.0 instead of −5.0).",
+      "explanation": "Correct: (D) +83.9 J/(mol·K). Rearranging ΔG=ΔH−TΔS for ΔS: ΔS=(ΔH−ΔG)/T=(20.0−(−5.0))/298=25.0/298=0.0839 kJ/(mol·K)=83.9 J/(mol·K). ‘+50.3 J/(mol·K)’ and ‘+25.0 J/(mol·K)’ both result from arithmetic slips in the rearrangement (e.g., forgetting to divide by T, or mishandling the subtraction of the negative ΔG). ‘−83.9 J/(mol·K)’ has the correct magnitude but the wrong sign — likely from mishandling the ΔH−ΔG subtraction (treating ΔG as +5.0 instead of −5.0).",
       "stretch": true
     },
     {
@@ -9209,7 +9209,7 @@ const QUESTIONS = {
         "ΔG < 0 guarantees a low activation energy for the reaction."
       ],
       "correct": 2,
-      "explanation": "Thermodynamic favorability (ΔG<0) and kinetics (activation energy/rate) are independent — a reaction can be favorable yet proceed very slowly if Ea is high, as in diamond→graphite. ‘The reaction must proceed instantly, since ΔG < 0’ and ‘ΔG < 0 guarantees a low activation energy for the reaction’ both wrongly assume thermodynamics determines speed, which it does not. ‘The reaction cannot occur under any circumstances at all’ is wrong — a high Ea only slows a reaction, it doesn't forbid it (it can still occur, especially with a catalyst or given enough time)."
+      "explanation": "Correct: (C) Favorable thermodynamically, though kinetically slow. Thermodynamic favorability (ΔG<0) and kinetics (activation energy/rate) are independent — a reaction can be favorable yet proceed very slowly if Ea is high, as in diamond→graphite. ‘The reaction must proceed instantly, since ΔG < 0’ and ‘ΔG < 0 guarantees a low activation energy for the reaction’ both wrongly assume thermodynamics determines speed, which it does not. ‘The reaction cannot occur under any circumstances at all’ is wrong — a high Ea only slows a reaction, it doesn't forbid it (it can still occur, especially with a catalyst or given enough time)."
     },
     {
       "id": "9-21",
@@ -9222,7 +9222,7 @@ const QUESTIONS = {
         "The conversion is actually thermodynamically unfavorable at room temperature."
       ],
       "correct": 1,
-      "explanation": "Diamond→graphite is thermodynamically favorable (graphite is more stable, ΔG<0) but requires breaking and rearranging diamond's rigid covalent network, which has an enormous activation energy — making the reaction kinetically far too slow to observe. ‘The conversion is actually thermodynamically unfavorable at room temperature’ contradicts the given premise and the actual thermodynamics (graphite genuinely is more stable at room conditions). ‘Diamond and graphite are actually chemically the same substance’ is chemically false — they're distinct allotropes with different structures and properties. ‘This particular conversion has never been studied or measured’ is untrue; its thermodynamics and kinetics are well characterized, which is exactly how we know the activation energy is so high."
+      "explanation": "Correct: (B) It has an extremely high activation energy, so it's kinetically too slow. Diamond→graphite is thermodynamically favorable (graphite is more stable, ΔG<0) but requires breaking and rearranging diamond's rigid covalent network, which has an enormous activation energy — making the reaction kinetically far too slow to observe. ‘The conversion is actually thermodynamically unfavorable at room temperature’ contradicts the given premise and the actual thermodynamics (graphite genuinely is more stable at room conditions). ‘Diamond and graphite are actually chemically the same substance’ is chemically false — they're distinct allotropes with different structures and properties. ‘This particular conversion has never been studied or measured’ is untrue; its thermodynamics and kinetics are well characterized, which is exactly how we know the activation energy is so high."
     },
     {
       "id": "9-22",
@@ -9235,7 +9235,7 @@ const QUESTIONS = {
         "Thermodynamic control refers only to reaction rate, never to product stability."
       ],
       "correct": 0,
-      "explanation": "Thermodynamic control reaches the most stable, lowest-energy product (usually needing more time/energy), while kinetic control stops at whichever product forms fastest (lowest activation energy pathway), which need not be the most stable — these can genuinely differ. ‘Kinetic control always produces the exact same result as thermodynamic control does’ contradicts the very reason the two terms exist — they're distinguished precisely because they can diverge. ‘Thermodynamic control refers only to reaction rate, never to product stability’ has the definitions swapped; thermodynamic control is about stability, not rate. ‘These two terms mean exactly the same thing in every context’ ignores that they describe different governing factors (energy/stability vs. speed)."
+      "explanation": "Correct: (A) Thermodynamic control favors the most stable product; kinetic favors the fastest one. Thermodynamic control reaches the most stable, lowest-energy product (usually needing more time/energy), while kinetic control stops at whichever product forms fastest (lowest activation energy pathway), which need not be the most stable — these can genuinely differ. ‘Kinetic control always produces the exact same result as thermodynamic control does’ contradicts the very reason the two terms exist — they're distinguished precisely because they can diverge. ‘Thermodynamic control refers only to reaction rate, never to product stability’ has the definitions swapped; thermodynamic control is about stability, not rate. ‘These two terms mean exactly the same thing in every context’ ignores that they describe different governing factors (energy/stability vs. speed)."
     },
     {
       "id": "9-23",
@@ -9248,20 +9248,21 @@ const QUESTIONS = {
         "It changes ΔG's value, making the reaction thermodynamically favorable."
       ],
       "correct": 0,
-      "explanation": "A catalyst lowers the activation energy, speeding up a reaction that was already thermodynamically favorable, without altering ΔG, ΔH, or ΔS. ‘It changes ΔG's value, making the reaction thermodynamically favorable’ misunderstands catalysis — the reaction is already favorable (ΔG<0) before the catalyst is added; catalysts affect rate, not thermodynamics. ‘It has no effect at all on either the reaction's rate or its ΔG’ ignores the catalyst's actual (kinetic) function. ‘It makes the already-favorable reaction thermodynamically unfavorable’ is simply backwards — catalysts never change a reaction's spontaneity."
+      "explanation": "Correct: (A) It lowers activation energy, speeding the reaction; ΔG is unchanged. A catalyst lowers the activation energy, speeding up a reaction that was already thermodynamically favorable, without altering ΔG, ΔH, or ΔS. ‘It changes ΔG's value, making the reaction thermodynamically favorable’ misunderstands catalysis — the reaction is already favorable (ΔG<0) before the catalyst is added; catalysts affect rate, not thermodynamics. ‘It has no effect at all on either the reaction's rate or its ΔG’ ignores the catalyst's actual (kinetic) function. ‘It makes the already-favorable reaction thermodynamically unfavorable’ is simply backwards — catalysts never change a reaction's spontaneity."
     },
     {
-      "id": "9-24",
+      "id": "9-24r",
       "topic": "9.4 Thermodynamic/Kinetic Control",
-      "stem": "Which statement correctly captures the overall relationship between thermodynamics and kinetics established across Units 5, 7, and 9?",
+      "stem": "A mixture of H<sub>2</sub> and O<sub>2</sub> gas can sit at room temperature for years with no detectable formation of water, even though 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) has a large negative ΔG°. A small spark causes the mixture to react explosively. Which explanation is best?",
       "choices": [
-        "Kinetics alone determines the final equilibrium position of a reaction.",
-        "Thermodynamics alone determines how quickly equilibrium is reached.",
-        "K/ΔG describe how far a reaction goes; rate/Ea describe how fast — both are needed.",
-        "Thermodynamics and kinetics always give identical, fully redundant information."
+        "Before the spark, ΔG° for the reaction was positive, and the spark makes it negative.",
+        "The spark acts as a catalyst that shifts the equilibrium position toward water.",
+        "The mixture is already at equilibrium, so no net reaction occurs until the spark changes K.",
+        "The reaction is thermodynamically favorable but has a large activation energy; the spark lets some molecules cross the barrier, and the heat released lets the reaction continue."
       ],
-      "correct": 2,
-      "explanation": "K and ΔG° (thermodynamics) describe whether/how far a reaction proceeds, while rate and Ea (kinetics) describe how fast it gets there — independent pieces of information both needed for a full picture. ‘Thermodynamics alone determines how quickly equilibrium is reached’ and ‘Kinetics alone determines the final equilibrium position of a reaction’ both cross the streams — speed is a kinetic property and final position/extent is a thermodynamic one; neither determines the other. ‘Thermodynamics and kinetics always give identical, fully redundant information’ is wrong precisely because they can and often do diverge (e.g., diamond→graphite is thermodynamically favorable but kinetically negligible)."
+      "correct": 3,
+      "explanation": "Correct: (D) The reaction is thermodynamically favorable but has a large activation energy; the spark lets some molecules cross the barrier, and the heat released lets the reaction continue. Thermodynamics and kinetics answer different questions. The large negative ΔG° says the products are far more stable, so the reaction is favorable, but it says nothing about speed. At room temperature almost no H<sub>2</sub> and O<sub>2</sub> molecules collide with energy above the activation energy, so the rate is negligible. The spark gives some molecules enough energy to react, and because the reaction is very exothermic, the heat released energizes neighboring molecules, so it spreads rapidly. (A) is wrong because ΔG° is a fixed property of the reaction at a given temperature and was strongly negative all along; the spark changes the rate, not ΔG°. (B) is wrong because a spark is not regenerated like a catalyst, and catalysts never shift the equilibrium position; they only change how quickly equilibrium is reached. (C) is wrong because a mixture at equilibrium would contain large amounts of water, since K is huge; the unreacted mixture is far from equilibrium but reacting too slowly.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-25",
@@ -9274,7 +9275,7 @@ const QUESTIONS = {
         "−13.1 kJ"
       ],
       "correct": 0,
-      "explanation": "ΔG°=−RTlnK=−(8.314)(298)ln(0.00500)=−(2477.6)(−5.298)=+13,128 J≈+13.1 kJ; since K<1, ΔG° is correctly positive. ‘−5.30 kJ’ and ‘+5.30 kJ’ both look like they used only part of the calculation (e.g., forgetting to multiply by RT) rather than completing −RTlnK. ‘−13.1 kJ’ has the right magnitude but the wrong sign — that would incorrectly describe a K<1 reaction as thermodynamically favorable (negative ΔG°), when K<1 must correspond to positive ΔG°."
+      "explanation": "Correct: (A) +13.1 kJ. ΔG°=−RTlnK=−(8.314)(298)ln(0.00500)=−(2477.6)(−5.298)=+13,128 J≈+13.1 kJ; since K<1, ΔG° is correctly positive. ‘−5.30 kJ’ and ‘+5.30 kJ’ both look like they used only part of the calculation (e.g., forgetting to multiply by RT) rather than completing −RTlnK. ‘−13.1 kJ’ has the right magnitude but the wrong sign — that would incorrectly describe a K<1 reaction as thermodynamically favorable (negative ΔG°), when K<1 must correspond to positive ΔG°."
     },
     {
       "id": "9-26",
@@ -9287,7 +9288,7 @@ const QUESTIONS = {
         "−25.0"
       ],
       "correct": 2,
-      "explanation": "Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e<sup>10.09</sup>=2.41×10⁴. ‘1.01×10⁻⁴’ and ‘8.4×10⁻⁵’ both give K<1, which would incorrectly pair a negative ΔG° (favorable, K>1 expected) with a small K — a sign-handling error in the exponent. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
+      "explanation": "Correct: (C) 2.41 × 10⁴. Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e<sup>10.09</sup>=2.41×10⁴. 1.01 × 10⁻⁴ and 8.4 × 10⁻⁵ are both less than 1, which would mean ΔG° > 0. A negative ΔG° always means K > 1, so both can be ruled out without any calculation. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
     },
     {
       "id": "9-27",
@@ -9300,7 +9301,7 @@ const QUESTIONS = {
         "Because ΔG°=−RTlnK and lnK>0 when K>1, the product is negative."
       ],
       "correct": 3,
-      "explanation": "Because ΔG°=−RTlnK, and ln(K)>0 whenever K>1 (a basic log property) with R and T always positive, the product −RTlnK must be negative — a direct mathematical consequence, not a coincidence. ‘K > 1 has no mathematical connection to ΔG° whatsoever’ and ‘This relationship is not actually true in every case’ both deny a relationship that's derived directly from the equation itself. ‘K > 1 always corresponds to ΔG° being exactly equal to zero’ confuses K>1 with the special case K=1 (where ΔG° is indeed exactly zero, but that's a different condition)."
+      "explanation": "Correct: (D) Because ΔG°=−RTlnK and lnK>0 when K>1, the product is negative. Because ΔG°=−RTlnK, and ln(K)>0 whenever K>1 (a basic log property) with R and T always positive, the product −RTlnK must be negative — a direct mathematical consequence, not a coincidence. ‘K > 1 has no mathematical connection to ΔG° whatsoever’ and ‘This relationship is not actually true in every case’ both deny a relationship that's derived directly from the equation itself. ‘K > 1 always corresponds to ΔG° being exactly equal to zero’ confuses K>1 with the special case K=1 (where ΔG° is indeed exactly zero, but that's a different condition)."
     },
     {
       "id": "9-28",
@@ -9313,7 +9314,7 @@ const QUESTIONS = {
         "K is undefined"
       ],
       "correct": 1,
-      "explanation": "If ΔG°=−RTlnK=0 and R,T≠0, then lnK=0, and lnK=0 means K=e⁰=1 exactly — neither products nor reactants are favored. ‘K is undefined’ and ‘K = 0’ both misunderstand what ΔG°=0 implies; the equation is perfectly well-defined at this point and solves cleanly to K=1, not an undefined or zero value. ‘K must be very large’ would only apply if ΔG° were strongly negative, not zero."
+      "explanation": "Correct: (B) K = 1 exactly. If ΔG°=−RTlnK=0 and R,T≠0, then lnK=0, and lnK=0 means K=e⁰=1 exactly — neither products nor reactants are favored. ‘K is undefined’ and ‘K = 0’ both misunderstand what ΔG°=0 implies; the equation is perfectly well-defined at this point and solves cleanly to K=1, not an undefined or zero value. ‘K must be very large’ would only apply if ΔG° were strongly negative, not zero."
     },
     {
       "id": "9-29",
@@ -9326,20 +9327,21 @@ const QUESTIONS = {
         "A larger magnitude ΔG° always means K sits closer to 1."
       ],
       "correct": 2,
-      "explanation": "Since ΔG°=−RTlnK, a larger-magnitude ΔG° (more strongly negative or positive) corresponds to a larger-magnitude lnK, pushing K further from 1 in the corresponding direction. ‘ΔG° and K magnitude are always exactly numerically identical’ confuses a logarithmic relationship with a direct numerical equivalence. ‘A larger magnitude ΔG° always means K sits closer to 1’ has the relationship backwards — larger |ΔG°| pushes K further from 1, not closer. ‘ΔG° magnitude has no relationship at all to how far K is from 1’ denies the very relationship the equation establishes."
+      "explanation": "Correct: (C) A larger-magnitude ΔG° corresponds to K being further from 1. Since ΔG°=−RTlnK, a larger-magnitude ΔG° (more strongly negative or positive) corresponds to a larger-magnitude lnK, pushing K further from 1 in the corresponding direction. ‘ΔG° and K magnitude are always exactly numerically identical’ confuses a logarithmic relationship with a direct numerical equivalence. ‘A larger magnitude ΔG° always means K sits closer to 1’ has the relationship backwards — larger |ΔG°| pushes K further from 1, not closer. ‘ΔG° magnitude has no relationship at all to how far K is from 1’ denies the very relationship the equation establishes."
     },
     {
-      "id": "9-30",
+      "id": "9-30r",
       "topic": "9.5 Free Energy and Equilibrium",
-      "stem": "How does the ΔG° = −RTlnK relationship connect Unit 9 (thermodynamics) directly back to Unit 7 (equilibrium)?",
+      "stem": "At 298 K, Reaction X has ΔG° = −10.0 kJ/mol and Reaction Y has ΔG° = −20.0 kJ/mol. Using ΔG° = −RT ln K with R = 8.314 J/(mol·K), how do their equilibrium constants compare?",
       "choices": [
-        "It shows that thermodynamics and equilibrium are entirely unrelated topics.",
-        "It mathematically links thermodynamic favorability (ΔG°) to equilibrium (K).",
-        "It only applies to reactions that never actually reach equilibrium.",
-        "K and ΔG° describe two completely different, wholly unrelated reactions."
+        "K<sub>Y</sub> is exactly twice K<sub>X</sub>, because K is directly proportional to ΔG°.",
+        "K<sub>Y</sub> is about 57 times larger than K<sub>X</sub>, and both reactions favor products at equilibrium.",
+        "K<sub>X</sub> is larger than K<sub>Y</sub>, because a less negative ΔG° gives a larger equilibrium constant.",
+        "Both K values are less than 1, because a negative ΔG° means reactants are favored at equilibrium."
       ],
       "correct": 1,
-      "explanation": "ΔG°=−RTlnK mathematically links a reaction's thermodynamic favorability (ΔG°) directly to its equilibrium position (K) — they're two complementary descriptions of the same underlying reality, not separate facts. ‘K and ΔG° describe two completely different, wholly unrelated reactions’ and ‘It shows that thermodynamics and equilibrium are entirely unrelated topics’ both directly contradict what this equation demonstrates. ‘It only applies to reactions that never actually reach equilibrium’ is backwards — the equation specifically describes the equilibrium constant K, so it inherently concerns reactions that do reach equilibrium."
+      "explanation": "Correct: (B) K<sub>Y</sub> is about 57 times larger than K<sub>X</sub>, and both reactions favor products at equilibrium. Rearranging gives K = e<sup>−ΔG°/RT</sup>, and RT = 8.314 × 298 ≈ 2478 J/mol. For X, K = e<sup>10000/2478</sup> = e<sup>4.04</sup> ≈ 57; for Y, K = e<sup>8.07</sup> ≈ 3.2 × 10<sup>3</sup>. Because K depends exponentially on ΔG°, doubling ΔG° squares K, so K<sub>Y</sub>/K<sub>X</sub> = e<sup>4.04</sup> ≈ 57. Both values exceed 1, so both reactions favor products at equilibrium. (A) is wrong because the relationship is logarithmic, not linear; ln K is proportional to ΔG°, so doubling ΔG° squares K instead of doubling it. (C) is wrong because a more negative ΔG° gives a larger K, so Reaction Y, with ΔG° = −20.0 kJ/mol, has the larger equilibrium constant, not Reaction X. (D) is wrong because a negative ΔG° makes ln K positive, so K is greater than 1 and products, not reactants, are favored at equilibrium for both reactions.",
+      "added": "2026-11-19"
     },
     {
       "id": "9-68",
@@ -9380,7 +9382,7 @@ const QUESTIONS = {
         "+105 kJ"
       ],
       "correct": 1,
-      "explanation": "ΔG(overall)=ΔG₁+ΔG₂=45+(−60)=−15 kJ, favorable overall despite Reaction 1 alone being unfavorable. ‘+105 kJ’ comes from subtracting instead of adding (or flipping a sign) rather than the correct sum. ‘+15 kJ’ has the right magnitude but the wrong sign, as if the larger favorable ΔG₂ term were treated as positive. ‘−105 kJ’ would come from adding the magnitudes as if both values were negative, ignoring that Reaction 1's ΔG is actually positive."
+      "explanation": "Correct: (B) −15 kJ. ΔG(overall)=ΔG₁+ΔG₂=45+(−60)=−15 kJ, favorable overall despite Reaction 1 alone being unfavorable. ‘+105 kJ’ comes from subtracting instead of adding (or flipping a sign) rather than the correct sum. ‘+15 kJ’ has the right magnitude but the wrong sign, as if the larger favorable ΔG₂ term were treated as positive. ‘−105 kJ’ would come from adding the magnitudes as if both values were negative, ignoring that Reaction 1's ΔG is actually positive."
     },
     {
       "id": "9-32",
@@ -9393,7 +9395,7 @@ const QUESTIONS = {
         "The shared intermediate species must always specifically be water."
       ],
       "correct": 2,
-      "explanation": "Sharing a common intermediate lets the two reactions be added together (Hess's Law-style), cancelling that species and yielding one genuine overall reaction with a combined ΔG. ‘Coupled reactions never actually need to share any common intermediate species’ contradicts the entire premise of coupling — without a shared species, you just have two unrelated reactions happening side by side, not a true coupled overall process. ‘The shared intermediate species must always specifically be water’ is far too restrictive — the intermediate can be any species produced by one reaction and consumed by the other (e.g., ATP/ADP/Pi in biology). ‘Coupling only ever works if both reactions have identical ΔG values’ is irrelevant — coupling works based on shared species and the sum of ΔG values, regardless of whether the individual ΔG values match."
+      "explanation": "Correct: (C) Adding the reactions (Hess's Law-style) cancels the intermediate species. Sharing a common intermediate lets the two reactions be added together (Hess's Law-style), cancelling that species and yielding one genuine overall reaction with a combined ΔG. ‘Coupled reactions never actually need to share any common intermediate species’ contradicts the entire premise of coupling — without a shared species, you just have two unrelated reactions happening side by side, not a true coupled overall process. ‘The shared intermediate species must always specifically be water’ is far too restrictive — the intermediate can be any species produced by one reaction and consumed by the other (e.g., ATP/ADP/Pi in biology). ‘Coupling only ever works if both reactions have identical ΔG values’ is irrelevant — coupling works based on shared species and the sum of ΔG values, regardless of whether the individual ΔG values match."
     },
     {
       "id": "9-33",
@@ -9406,7 +9408,7 @@ const QUESTIONS = {
         "Biosynthesis reactions are always thermodynamically favorable alone, so coupling is unnecessary."
       ],
       "correct": 0,
-      "explanation": "Many biosynthesis reactions have positive ΔG on their own (nonspontaneous), so coupling them to strongly favorable ATP hydrolysis (ΔG≈−30 kJ/mol) supplies the thermodynamic 'push' needed to make the combined process favorable. ‘ATP hydrolysis has no real thermodynamic connection to biosynthesis reactions’ contradicts the well-established biological role of ATP as the cell's energy currency. ‘Biosynthesis reactions are always thermodynamically favorable alone, so coupling is unnecessary’ is factually wrong — many are NOT favorable alone, which is exactly why coupling to ATP is needed. ‘This coupling strategy is purely a biological myth with no real thermodynamic basis’ is false — it's a direct, well-documented application of the additive ΔG principle covered in this section."
+      "explanation": "Correct: (A) Many biosynthesis reactions have positive ΔG alone; ATP hydrolysis provides the push. Many biosynthesis reactions have positive ΔG on their own (nonspontaneous), so coupling them to strongly favorable ATP hydrolysis (ΔG≈−30 kJ/mol) supplies the thermodynamic 'push' needed to make the combined process favorable. ‘ATP hydrolysis has no real thermodynamic connection to biosynthesis reactions’ contradicts the well-established biological role of ATP as the cell's energy currency. ‘Biosynthesis reactions are always thermodynamically favorable alone, so coupling is unnecessary’ is factually wrong — many are NOT favorable alone, which is exactly why coupling to ATP is needed. ‘This coupling strategy is purely a biological myth with no real thermodynamic basis’ is false — it's a direct, well-documented application of the additive ΔG principle covered in this section."
     },
     {
       "id": "9-34",
@@ -9419,7 +9421,7 @@ const QUESTIONS = {
         "+5 kJ; the coupling is successful and favorable overall."
       ],
       "correct": 2,
-      "explanation": "ΔG(overall)=20+15=+35 kJ, still positive/unfavorable — coupling two unfavorable reactions just produces an even more unfavorable overall process. ‘−35 kJ; the coupling is successful’ and ‘−5 kJ; the coupling is successful’ both incorrectly compute a negative sum from two positive ΔG values, which is mathematically impossible when adding two positive numbers. ‘+5 kJ; the coupling is successful’ gets the sign right but the magnitude wrong (an arithmetic slip), and also wrongly calls a still-positive ΔG 'successful' — a positive overall ΔG always means the coupling failed to make the process favorable."
+      "explanation": "Correct: (C) +35 kJ; not successful, still unfavorable. ΔG(overall)=20+15=+35 kJ, still positive/unfavorable — coupling two unfavorable reactions just produces an even more unfavorable overall process. ‘−35 kJ; the coupling is successful’ and ‘−5 kJ; the coupling is successful’ both incorrectly compute a negative sum from two positive ΔG values, which is mathematically impossible when adding two positive numbers. ‘+5 kJ; the coupling is successful’ gets the sign right but the magnitude wrong (an arithmetic slip), and also wrongly calls a still-positive ΔG 'successful' — a positive overall ΔG always means the coupling failed to make the process favorable."
     },
     {
       "id": "9-35",
@@ -9432,7 +9434,7 @@ const QUESTIONS = {
         "Coupled reaction ΔG values cannot be mathematically combined at all."
       ],
       "correct": 2,
-      "explanation": "Because ΔG, like ΔH, is a state function depending only on initial and final states, ΔG values of combined reaction steps simply add — the same logic as Hess's Law. ‘Only the larger in magnitude of the two ΔG values matters for the process’ ignores that both contributions genuinely add to the total; a large favorable ΔG can be outweighed by an even larger unfavorable one, so both must be counted. ‘ΔG values must always be multiplied together, never simply added’ misapplies the actual rule — multiplication isn't how state functions combine when reactions are added together. ‘Coupled reaction ΔG values cannot be mathematically combined at all’ directly contradicts the fact that this is precisely how coupled ΔG is calculated."
+      "explanation": "Correct: (C) The same additive principle as Hess's Law — ΔG values simply add. Because ΔG, like ΔH, is a state function depending only on initial and final states, ΔG values of combined reaction steps simply add — the same logic as Hess's Law. ‘Only the larger in magnitude of the two ΔG values matters for the process’ ignores that both contributions genuinely add to the total; a large favorable ΔG can be outweighed by an even larger unfavorable one, so both must be counted. ‘ΔG values must always be multiplied together, never simply added’ misapplies the actual rule — multiplication isn't how state functions combine when reactions are added together. ‘Coupled reaction ΔG values cannot be mathematically combined at all’ directly contradicts the fact that this is precisely how coupled ΔG is calculated."
     },
     {
       "id": "9-70",
@@ -9459,7 +9461,7 @@ const QUESTIONS = {
         "In the salt bridge"
       ],
       "correct": 1,
-      "explanation": "Oxidation always occurs at the anode by definition in any electrochemical cell (galvanic or electrolytic) — remember 'AN OX' (Anode=OXidation). ‘In the salt bridge’ confuses the salt bridge's role (ion flow to maintain neutrality) with the site of a half-reaction, which doesn't occur there. ‘Oxidation does not occur in a galvanic cell’ is false — every redox reaction, including in a galvanic cell, necessarily involves both oxidation and reduction. ‘At the cathode’ has the electrodes swapped — reduction, not oxidation, happens at the cathode ('RED CAT')."
+      "explanation": "Correct: (B) At the anode. Oxidation always occurs at the anode by definition in any electrochemical cell (galvanic or electrolytic) — remember 'AN OX' (Anode=OXidation). ‘In the salt bridge’ confuses the salt bridge's role (ion flow to maintain neutrality) with the site of a half-reaction, which doesn't occur there. ‘Oxidation does not occur in a galvanic cell’ is false — every redox reaction, including in a galvanic cell, necessarily involves both oxidation and reduction. ‘At the cathode’ has the electrodes swapped — reduction, not oxidation, happens at the cathode ('RED CAT')."
     },
     {
       "id": "9-37",
@@ -9472,7 +9474,7 @@ const QUESTIONS = {
         "Electrons do not flow through the external wire"
       ],
       "correct": 0,
-      "explanation": "Electrons are released at the anode (oxidation) and flow through the external wire to the cathode (reduction), which is what constitutes the cell's usable current. ‘From cathode to anode’ reverses the actual direction — electrons are consumed, not released, at the cathode. ‘In both directions simultaneously’ misunderstands current flow in this single external circuit, which has one consistent direction for electron flow. ‘Electrons do not flow through the external wire’ is wrong — that flow through the wire is exactly what generates the cell's usable electrical energy; it's ions, not electrons, that move through the salt bridge instead."
+      "explanation": "Correct: (A) From anode to cathode. Electrons are released at the anode (oxidation) and flow through the external wire to the cathode (reduction), which is what constitutes the cell's usable current. ‘From cathode to anode’ reverses the actual direction — electrons are consumed, not released, at the cathode. ‘In both directions simultaneously’ misunderstands current flow in this single external circuit, which has one consistent direction for electron flow. ‘Electrons do not flow through the external wire’ is wrong — that flow through the wire is exactly what generates the cell's usable electrical energy; it's ions, not electrons, that move through the salt bridge instead."
     },
     {
       "id": "9-38",
@@ -9485,7 +9487,7 @@ const QUESTIONS = {
         "To allow electrons to flow directly between the two half-cells."
       ],
       "correct": 2,
-      "explanation": "As the reaction proceeds, each half-cell builds up excess charge (from ion production at the anode side and ion consumption at the cathode side); the salt bridge lets ions migrate to balance this without letting the bulk solutions mix. ‘To increase the cell's overall voltage output’ is wrong — the salt bridge doesn't contribute to E°cell, which is set entirely by the two half-reactions' reduction potentials. ‘To prevent any current from ever flowing in the cell’ is backwards — without the salt bridge, charge buildup would actually stop the cell from working, so the salt bridge enables continued current flow. ‘To allow electrons to flow directly between the two half-cells’ confuses the salt bridge's ion-transport role with the external wire's electron-transport role — electrons never travel through the salt bridge."
+      "explanation": "Correct: (C) To allow ion flow between half-cells, keeping charge balanced. As the reaction proceeds, each half-cell builds up excess charge (from ion production at the anode side and ion consumption at the cathode side); the salt bridge lets ions migrate to balance this without letting the bulk solutions mix. ‘To increase the cell's overall voltage output’ is wrong — the salt bridge doesn't contribute to E°cell, which is set entirely by the two half-reactions' reduction potentials. ‘To prevent any current from ever flowing in the cell’ is backwards — without the salt bridge, charge buildup would actually stop the cell from working, so the salt bridge enables continued current flow. ‘To allow electrons to flow directly between the two half-cells’ confuses the salt bridge's ion-transport role with the external wire's electron-transport role — electrons never travel through the salt bridge."
     },
     {
       "id": "9-39",
@@ -9498,7 +9500,7 @@ const QUESTIONS = {
         "−1.05 V"
       ],
       "correct": 0,
-      "explanation": "The more positive reduction potential (Ag⁺/Ag, +0.80 V) is assigned as the cathode; Ni²⁺/Ni (−0.25 V) is reversed as the anode. E°cell=E°cathode−E°anode=0.80−(−0.25)=1.05 V. ‘0.55 V’ comes from adding the two potentials instead of subtracting (0.80+(−0.25)=0.55), an error in applying the formula. ‘1.30 V’ doesn't correspond to any correct application of E°cell=E°cathode−E°anode with these values — it results from misadding or misassigning the half-cell potentials. ‘−1.05 V’ has the correct magnitude but flips the sign, as if anode and cathode were assigned backwards (E°anode−E°cathode instead)."
+      "explanation": "Correct: (A) 1.05 V. The more positive reduction potential (Ag⁺/Ag, +0.80 V) is assigned as the cathode; Ni²⁺/Ni (−0.25 V) is reversed as the anode. E°cell=E°cathode−E°anode=0.80−(−0.25)=1.05 V. ‘0.55 V’ comes from adding the two potentials instead of subtracting (0.80+(−0.25)=0.55), an error in applying the formula. ‘1.30 V’ doesn't correspond to any correct application of E°cell=E°cathode−E°anode with these values — it results from misadding or misassigning the half-cell potentials. ‘−1.05 V’ has the correct magnitude but flips the sign, as if anode and cathode were assigned backwards (E°anode−E°cathode instead)."
     },
     {
       "id": "9-40",
@@ -9511,7 +9513,7 @@ const QUESTIONS = {
         "Al metal, since it is easily oxidized"
       ],
       "correct": 1,
-      "explanation": "Sn²⁺/Sn (−0.14 V) has the higher (less negative) reduction potential than Al³⁺/Al (−1.66 V), so Sn²⁺ is reduced (Sn²⁺+2e⁻→Sn) while Al is oxidized. ‘Al³⁺, since it has the more negative reduction potential’ reverses the rule — a MORE negative reduction potential means a species is LESS likely to be reduced, not more. ‘Al metal, since it is easily oxidized’ can't be reduced further — it's already the reduced (metallic) form, and here it's actually oxidized, not reduced. ‘Neither species is reduced in this cell’ is wrong — every galvanic cell involves one species being reduced (cathode) and one oxidized (anode)."
+      "explanation": "Correct: (B) Sn²⁺, since it has the higher reduction potential. Sn²⁺/Sn (−0.14 V) has the higher (less negative) reduction potential than Al³⁺/Al (−1.66 V), so Sn²⁺ is reduced (Sn²⁺+2e⁻→Sn) while Al is oxidized. ‘Al³⁺, since it has the more negative reduction potential’ reverses the rule — a MORE negative reduction potential means a species is LESS likely to be reduced, not more. ‘Al metal, since it is easily oxidized’ can't be reduced further — it's already the reduced (metallic) form, and here it's actually oxidized, not reduced. ‘Neither species is reduced in this cell’ is wrong — every galvanic cell involves one species being reduced (cathode) and one oxidized (anode)."
     },
     {
       "id": "9-41",
@@ -9524,7 +9526,7 @@ const QUESTIONS = {
         "The reaction isn't spontaneous as written; the reverse reaction would be."
       ],
       "correct": 3,
-      "explanation": "A negative E°cell means the reaction as proposed isn't spontaneous in that direction; reversing which half-reaction is oxidized/reduced would make it spontaneous (positive E°cell) instead. ‘Negative E°cell values are impossible under any circumstances’ is false — they're a normal outcome when a reaction is written in the nonspontaneous direction. ‘The calculation must contain an arithmetic error, since E°cell is always positive’ wrongly assumes E°cell can never be negative — it certainly can, for a nonspontaneous pairing. ‘A negative E°cell indicates an unusually strong galvanic cell’ misreads the sign entirely — a negative value indicates non-spontaneity, not unusual strength."
+      "explanation": "Correct: (D) The reaction isn't spontaneous as written; the reverse reaction would be. A negative E°cell means the reaction as proposed isn't spontaneous in that direction; reversing which half-reaction is oxidized/reduced would make it spontaneous (positive E°cell) instead. ‘Negative E°cell values are impossible under any circumstances’ is false — they're a normal outcome when a reaction is written in the nonspontaneous direction. ‘The calculation must contain an arithmetic error, since E°cell is always positive’ wrongly assumes E°cell can never be negative — it certainly can, for a nonspontaneous pairing. ‘A negative E°cell indicates an unusually strong galvanic cell’ misreads the sign entirely — a negative value indicates non-spontaneity, not unusual strength."
     },
     {
       "id": "9-42",
@@ -9537,7 +9539,7 @@ const QUESTIONS = {
         "The more positive reduction potential is instead always assigned as the anode."
       ],
       "correct": 0,
-      "explanation": "A more positive reduction potential reflects a greater tendency to be reduced; pairing that half-reaction as the cathode (site of reduction) is what produces a spontaneous, positive E°cell. ‘The more positive reduction potential is instead always assigned as the anode’ reverses the actual rule. ‘This assignment is entirely arbitrary and could be made either way with identical results’ is wrong — swapping the assignment flips the sign of E°cell, giving a nonspontaneous (negative) cell instead. ‘Reduction potential has no actual bearing on which half-reaction becomes the cathode’ directly contradicts the definition of standard reduction potential, which is exactly what determines this assignment."
+      "explanation": "Correct: (A) A more positive potential means a greater tendency to be reduced, favoring cathode role. A more positive reduction potential reflects a greater tendency to be reduced; pairing that half-reaction as the cathode (site of reduction) is what produces a spontaneous, positive E°cell. ‘The more positive reduction potential is instead always assigned as the anode’ reverses the actual rule. ‘This assignment is entirely arbitrary and could be made either way with identical results’ is wrong — swapping the assignment flips the sign of E°cell, giving a nonspontaneous (negative) cell instead. ‘Reduction potential has no actual bearing on which half-reaction becomes the cathode’ directly contradicts the definition of standard reduction potential, which is exactly what determines this assignment."
     },
     {
       "id": "9-43",
@@ -9550,7 +9552,7 @@ const QUESTIONS = {
         "The external wire connecting the two electrodes"
       ],
       "correct": 0,
-      "explanation": "The double vertical line specifically denotes the salt bridge (or porous barrier) separating the anode (left) and cathode (right) half-cells. ‘The external wire connecting the two electrodes’ isn't shown in this notation at all — cell notation depicts the internal chemical species, not the external circuit. ‘A phase boundary within a single half-cell’ is instead what a SINGLE vertical line represents (e.g., between solid Zn and aqueous Zn²⁺) — the double line specifically marks the boundary BETWEEN the two half-cells. ‘The direction of electron flow through the circuit’ isn't indicated by any symbol in standard cell notation; it's inferred from which side is anode vs. cathode, not directly shown."
+      "explanation": "Correct: (A) The salt bridge separating the two half-cells. The double vertical line specifically denotes the salt bridge (or porous barrier) separating the anode (left) and cathode (right) half-cells. ‘The external wire connecting the two electrodes’ isn't shown in this notation at all — cell notation depicts the internal chemical species, not the external circuit. ‘A phase boundary within a single half-cell’ is instead what a SINGLE vertical line represents (e.g., between solid Zn and aqueous Zn²⁺) — the double line specifically marks the boundary BETWEEN the two half-cells. ‘The direction of electron flow through the circuit’ isn't indicated by any symbol in standard cell notation; it's inferred from which side is anode vs. cathode, not directly shown."
     },
     {
       "id": "9-44",
@@ -9563,7 +9565,7 @@ const QUESTIONS = {
         "+217,091 J"
       ],
       "correct": 1,
-      "explanation": "ΔG°=−nFE°cell=−(3)(96,485)(0.75)=−217,091 J. ‘+217,091 J’ has the right magnitude but the wrong sign, as if the leading negative sign in the formula were dropped — but a positive E°cell (spontaneous) must give negative ΔG°. ‘−72,364 J’ and ‘−289,455 J’ both have the correct (negative) sign but wrong magnitudes, consistent with using an incorrect n (n=1 gives −72,364 J; n=4 gives −289,455 J) instead of the correct n=3."
+      "explanation": "Correct: (B) −217,091 J. ΔG°=−nFE°cell=−(3)(96,485)(0.75)=−217,091 J. ‘+217,091 J’ has the right magnitude but the wrong sign, as if the leading negative sign in the formula were dropped — but a positive E°cell (spontaneous) must give negative ΔG°. ‘−72,364 J’ and ‘−289,455 J’ both have the correct (negative) sign but wrong magnitudes, consistent with using an incorrect n (n=1 gives −72,364 J; n=4 gives −289,455 J) instead of the correct n=3."
     },
     {
       "id": "9-45",
@@ -9576,7 +9578,7 @@ const QUESTIONS = {
         "1.554 V"
       ],
       "correct": 0,
-      "explanation": "E°cell=−ΔG°/(nF)=150,000/192,970=0.777 V. ‘77,700 V’ reflects an order-of-magnitude/units error, such as omitting Faraday's constant from the denominator entirely. ‘−0.777 V’ has the correct magnitude but the wrong sign — but a negative ΔG° (favorable) must correspond to a positive E°cell, not negative. ‘1.554 V’ is exactly double the correct answer, consistent with using n=1 instead of the correct n=2 in the denominator."
+      "explanation": "Correct: (A) 0.777 V. E°cell=−ΔG°/(nF)=150,000/192,970=0.777 V. ‘77,700 V’ reflects an order-of-magnitude/units error, such as omitting Faraday's constant from the denominator entirely. ‘−0.777 V’ has the correct magnitude but the wrong sign — but a negative ΔG° (favorable) must correspond to a positive E°cell, not negative. ‘1.554 V’ is exactly double the correct answer, consistent with using n=1 instead of the correct n=2 in the denominator."
     },
     {
       "id": "9-46",
@@ -9589,7 +9591,7 @@ const QUESTIONS = {
         "E°cell and ΔG° are actually two completely unrelated quantities."
       ],
       "correct": 2,
-      "explanation": "Since n and F are always positive, ΔG°=−nFE°cell means a positive E°cell directly forces a negative ΔG°. ‘This relationship does not always hold true in every case’ and ‘E°cell and ΔG° are actually two completely unrelated quantities’ both deny a relationship that follows mathematically and necessarily from the equation. ‘A positive E°cell always corresponds instead to a positive ΔG°’ has the sign relationship backwards — the equation's leading negative sign is exactly what prevents this."
+      "explanation": "Correct: (C) ΔG°=−nFE°cell; with n,F positive, positive E°cell gives negative ΔG°. Since n and F are always positive, ΔG°=−nFE°cell means a positive E°cell directly forces a negative ΔG°. ‘This relationship does not always hold true in every case’ and ‘E°cell and ΔG° are actually two completely unrelated quantities’ both deny a relationship that follows mathematically and necessarily from the equation. ‘A positive E°cell always corresponds instead to a positive ΔG°’ has the sign relationship backwards — the equation's leading negative sign is exactly what prevents this."
     },
     {
       "id": "9-47",
@@ -9602,7 +9604,7 @@ const QUESTIONS = {
         "Cannot be determined without additional data beyond E°cell and n."
       ],
       "correct": 0,
-      "explanation": "With E°cell=2.20 V and n=4, the product nFE°cell is large, so ΔG°=−nFE°cell is strongly negative. ‘Exactly zero, regardless of E°cell or n values’ would only be true if E°cell were actually zero, not 2.20 V; it ignores that ΔG° depends directly on both values. ‘Strongly positive, since E°cell and n are both large’ has the sign backwards — it would describe a nonspontaneous cell, but a positive E°cell is spontaneous and thus gives negative ΔG°. ‘Cannot be determined without additional data beyond E°cell and n’ is wrong — E°cell and n are exactly the data needed to determine ΔG° via ΔG°=−nFE°cell; no other information is required."
+      "explanation": "Correct: (A) Strongly negative — large E°cell and n give large negative ΔG°. With E°cell=2.20 V and n=4, the product nFE°cell is large, so ΔG°=−nFE°cell is strongly negative. ‘Exactly zero, regardless of E°cell or n values’ would only be true if E°cell were actually zero, not 2.20 V; it ignores that ΔG° depends directly on both values. ‘Strongly positive, since E°cell and n are both large’ has the sign backwards — it would describe a nonspontaneous cell, but a positive E°cell is spontaneous and thus gives negative ΔG°. ‘Cannot be determined without additional data beyond E°cell and n’ is wrong — E°cell and n are exactly the data needed to determine ΔG° via ΔG°=−nFE°cell; no other information is required."
     },
     {
       "id": "9-48",
@@ -9615,7 +9617,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 3,
-      "explanation": "n=−ΔG°/(FE°cell)=386,000/(96,485×2.00)=386,000/192,970=2.00, so n=2. The other options (4, 1, 3) don't satisfy this equation with the given ΔG° and E°cell values — plugging any of them back into ΔG°=−nFE°cell would give a ΔG° magnitude that doesn't match the −386,000 J stated in the problem (e.g., n=1 gives only −192,970 J, and n=4 gives −771,880 J, neither matching)."
+      "explanation": "Correct: (D) 2. n=−ΔG°/(FE°cell)=386,000/(96,485×2.00)=386,000/192,970=2.00, so n=2. The other options (4, 1, 3) don't satisfy this equation with the given ΔG° and E°cell values — plugging any of them back into ΔG°=−nFE°cell would give a ΔG° magnitude that doesn't match the −386,000 J stated in the problem (e.g., n=1 gives only −192,970 J, and n=4 gives −771,880 J, neither matching)."
     },
     {
       "id": "9-49",
@@ -9628,7 +9630,7 @@ const QUESTIONS = {
         "n only matters for electrolysis calculations, never for galvanic cells."
       ],
       "correct": 0,
-      "explanation": "Because n directly multiplies the whole expression ΔG°=−nFE°cell, using the wrong n (e.g., failing to properly balance electrons between the half-reactions) scales the calculated ΔG° by that same wrong factor, giving a numerically incorrect answer. ‘n only matters for electrolysis calculations, never for galvanic cells’ is false — n plays the identical role in ΔG°=−nFE°cell for galvanic cells as it does in Faraday's Law calculations for electrolysis. ‘n is always assumed to be exactly 1 electron, for every single reaction’ is wrong — n varies by reaction and must be determined from the balanced half-reactions (e.g., n=2 for Cu²⁺/Cu, n=3 for Al³⁺/Al). ‘The value of n has no actual effect on the calculated ΔG° value’ directly contradicts its role as a multiplying factor in the equation."
+      "explanation": "Correct: (A) n multiplies the whole expression, so a wrong n scales ΔG° incorrectly. Because n directly multiplies the whole expression ΔG°=−nFE°cell, using the wrong n (e.g., failing to properly balance electrons between the half-reactions) scales the calculated ΔG° by that same wrong factor, giving a numerically incorrect answer. ‘n only matters for electrolysis calculations, never for galvanic cells’ is false — n plays the identical role in ΔG°=−nFE°cell for galvanic cells as it does in Faraday's Law calculations for electrolysis. ‘n is always assumed to be exactly 1 electron, for every single reaction’ is wrong — n varies by reaction and must be determined from the balanced half-reactions (e.g., n=2 for Cu²⁺/Cu, n=3 for Al³⁺/Al). ‘The value of n has no actual effect on the calculated ΔG° value’ directly contradicts its role as a multiplying factor in the equation."
     },
     {
       "id": "9-50",
@@ -9641,7 +9643,7 @@ const QUESTIONS = {
         "0.441 V"
       ],
       "correct": 3,
-      "explanation": "Ecell=E°cell−(0.0592/n)logQ=0.50−(0.0296)(2.00)=0.50−0.0592=0.441 V. ‘0.559 V’ has the correction added instead of subtracted, as if the sign in the Nernst equation were flipped. ‘0.290 V’ subtracts a much larger correction than the given logQ actually produces, consistent with an error computing the 0.0592/n prefactor. ‘0.500 V’ simply ignores the Q≠1 correction entirely, as if Q were mistakenly treated as 1 (standard conditions)."
+      "explanation": "Correct: (D) 0.441 V. Ecell=E°cell−(0.0592/n)logQ=0.50−(0.0296)(2.00)=0.50−0.0592=0.441 V. ‘0.559 V’ has the correction added instead of subtracted, as if the sign in the Nernst equation were flipped. ‘0.290 V’ subtracts a much larger correction than the given logQ actually produces, consistent with an error computing the 0.0592/n prefactor. ‘0.500 V’ simply ignores the Q≠1 correction entirely, as if Q were mistakenly treated as 1 (standard conditions)."
     },
     {
       "id": "9-51",
@@ -9654,7 +9656,7 @@ const QUESTIONS = {
         "1.289 V"
       ],
       "correct": 3,
-      "explanation": "Ecell=1.20−(0.0296)log(0.00100)=1.20−(0.0296)(−3.00)=1.20+0.0888=1.289 V. ‘1.200 V’ ignores the correction term entirely, as though Q were 1. ‘1.111 V’ applies the correction with the wrong sign (subtracting 0.0888 instead of adding it), which would only be correct if Q were greater than 1, not less than 1 as given. ‘1.230 V’ reflects a much smaller correction than log(0.001) actually produces, suggesting an error in computing logQ."
+      "explanation": "Correct: (D) 1.289 V. Ecell=1.20−(0.0296)log(0.00100)=1.20−(0.0296)(−3.00)=1.20+0.0888=1.289 V. ‘1.200 V’ ignores the correction term entirely, as though Q were 1. ‘1.111 V’ applies the correction with the wrong sign (subtracting 0.0888 instead of adding it), which would only be correct if Q were greater than 1, not less than 1 as given. ‘1.230 V’ reflects a much smaller correction than log(0.001) actually produces, suggesting an error in computing logQ."
     },
     {
       "id": "9-52",
@@ -9667,7 +9669,7 @@ const QUESTIONS = {
         "Ecell decreases, as the subtracted logQ term grows."
       ],
       "correct": 3,
-      "explanation": "As Q increases, log(Q) increases, making the subtracted (0.0592/n)logQ term larger, so Ecell decreases — less driving force remains as the system moves toward equilibrium. ‘Ecell becomes negative whenever Q exceeds 1’ overstates the effect — Ecell decreases but only becomes negative if the correction term exceeds E°cell itself, which isn't guaranteed just because Q>1. ‘Ecell is completely unaffected by the value of Q’ directly contradicts the entire purpose of the Nernst equation, which exists specifically to describe Q's effect on cell potential. ‘Ecell increases steadily as Q increases in value’ has the relationship backwards, since the correction term is subtracted, not added."
+      "explanation": "Correct: (D) Ecell decreases, as the subtracted logQ term grows. As Q increases, log(Q) increases, making the subtracted (0.0592/n)logQ term larger, so Ecell decreases — less driving force remains as the system moves toward equilibrium. ‘Ecell becomes negative whenever Q exceeds 1’ overstates the effect — Ecell decreases but only becomes negative if the correction term exceeds E°cell itself, which isn't guaranteed just because Q>1. ‘Ecell is completely unaffected by the value of Q’ directly contradicts the entire purpose of the Nernst equation, which exists specifically to describe Q's effect on cell potential. ‘Ecell increases steadily as Q increases in value’ has the relationship backwards, since the correction term is subtracted, not added."
     },
     {
       "id": "9-53",
@@ -9680,7 +9682,7 @@ const QUESTIONS = {
         "Ecell = 0, since equilibrium leaves no driving force."
       ],
       "correct": 3,
-      "explanation": "At equilibrium (Q=K), the forward and reverse reactions balance, leaving no net driving force to push current through the circuit, so Ecell=0 — a 'dead' battery. ‘Ecell cannot be determined once equilibrium is reached’ is wrong — it's precisely determined to be zero at this point, following directly from Q=K in the Nernst equation. ‘Ecell becomes infinite at equilibrium’ has no basis — nothing in the Nernst equation produces an infinite result as Q approaches K (log of a finite K is finite). ‘Ecell = E°cell exactly, at equilibrium’ would only be true if Q=1 (standard conditions), which generally isn't the same as Q=K unless K happens to equal 1."
+      "explanation": "Correct: (D) Ecell = 0, since equilibrium leaves no driving force. At equilibrium (Q=K), the forward and reverse reactions balance, leaving no net driving force to push current through the circuit, so Ecell=0 — a 'dead' battery. ‘Ecell cannot be determined once equilibrium is reached’ is wrong — it's precisely determined to be zero at this point, following directly from Q=K in the Nernst equation. ‘Ecell becomes infinite at equilibrium’ has no basis — nothing in the Nernst equation produces an infinite result as Q approaches K (log of a finite K is finite). ‘Ecell = E°cell exactly, at equilibrium’ would only be true if Q=1 (standard conditions), which generally isn't the same as Q=K unless K happens to equal 1."
     },
     {
       "id": "9-54",
@@ -9693,7 +9695,7 @@ const QUESTIONS = {
         "Q (the reaction quotient)"
       ],
       "correct": 3,
-      "explanation": "Q, the reaction quotient, is calculated from the actual, real-time (nonstandard) concentrations present in the cell at that moment. ‘n (moles of electrons)’ is simply the fixed number of electrons transferred, unrelated to concentration. ‘F (Faraday's constant)’ is a fixed physical constant, not a variable reflecting concentration. ‘E°cell (standard potential)’ is by definition the FIXED standard-condition (1 M, 1 atm) reference value — it's Q, not E°cell, that captures deviation from those standard conditions."
+      "explanation": "Correct: (D) Q (the reaction quotient). Q, the reaction quotient, is calculated from the actual, real-time (nonstandard) concentrations present in the cell at that moment. ‘n (moles of electrons)’ is simply the fixed number of electrons transferred, unrelated to concentration. ‘F (Faraday's constant)’ is a fixed physical constant, not a variable reflecting concentration. ‘E°cell (standard potential)’ is by definition the FIXED standard-condition (1 M, 1 atm) reference value — it's Q, not E°cell, that captures deviation from those standard conditions."
     },
     {
       "id": "9-55",
@@ -9706,7 +9708,7 @@ const QUESTIONS = {
         "Concentration cells cannot generate any voltage at all."
       ],
       "correct": 1,
-      "explanation": "Since both half-cells use the identical redox couple, their standard reduction potentials are equal and cancel, giving E°cell=0. But the concentration difference makes Q≠1, so the Nernst equation (Ecell=0−(0.0592/n)logQ) still yields a nonzero Ecell, driven purely by the system's tendency to equalize concentrations. ‘Concentration cells cannot generate any voltage at all’ is false — that's exactly what this setup does generate, via the Q term alone. ‘E°cell alone determines the voltage here, with no role for Q’ is backwards here — E°cell is zero, so Q is the ONLY source of voltage. ‘Concentration cells require two chemically different metals to function’ is wrong — the defining feature of a concentration cell is using the SAME electrode/ion in both half-cells at different concentrations."
+      "explanation": "Correct: (B) The concentration difference itself, via the Nernst equation, since E°cell=0. Since both half-cells use the identical redox couple, their standard reduction potentials are equal and cancel, giving E°cell=0. But the concentration difference makes Q≠1, so the Nernst equation (Ecell=0−(0.0592/n)logQ) still yields a nonzero Ecell, driven purely by the system's tendency to equalize concentrations. ‘Concentration cells cannot generate any voltage at all’ is false — that's exactly what this setup does generate, via the Q term alone. ‘E°cell alone determines the voltage here, with no role for Q’ is backwards here — E°cell is zero, so Q is the ONLY source of voltage. ‘Concentration cells require two chemically different metals to function’ is wrong — the defining feature of a concentration cell is using the SAME electrode/ion in both half-cells at different concentrations."
     },
     {
       "id": "9-71",
@@ -9733,7 +9735,7 @@ const QUESTIONS = {
         "804.9 mol"
       ],
       "correct": 0,
-      "explanation": "moles e⁻=It/F=(4.00)(3220)/96,485=12,880/96,485=0.1335 mol. ‘0.0334 mol’ is roughly 4× too small, consistent with a factor-of-4 arithmetic error. ‘804.9 mol’ and ‘12,880 mol’ are both far too large — ‘12,880 mol’ in particular looks like the numerator (It) was reported directly without dividing by F at all, and ‘804.9 mol’ suggests dividing by a much smaller (incorrect) value than F."
+      "explanation": "Correct: (A) 0.1335 mol. moles e⁻=It/F=(4.00)(3220)/96,485=12,880/96,485=0.1335 mol. ‘0.0334 mol’ is roughly 4× too small, consistent with a factor-of-4 arithmetic error. ‘804.9 mol’ and ‘12,880 mol’ are both far too large — ‘12,880 mol’ in particular looks like the numerator (It) was reported directly without dividing by F at all, and ‘804.9 mol’ suggests dividing by a much smaller (incorrect) value than F."
     },
     {
       "id": "9-57",
@@ -9746,7 +9748,7 @@ const QUESTIONS = {
         "107.9 g"
       ],
       "correct": 1,
-      "explanation": "The 1:1 electron-to-Ag ratio means moles Ag=moles e⁻=0.500 mol, so mass=0.500×107.87=53.9 g. ‘107.9 g’ mistakenly doubles the mass, as if 1.00 mol of Ag were deposited instead of 0.500 mol. ‘215.7 g’ compounds that error further (roughly 4× too large). ‘26.97 g’ uses the wrong molar mass (aluminum's, ~26.98 g/mol) instead of silver's 107.87 g/mol — a mix-up between elements."
+      "explanation": "Correct: (B) 53.9 g. The 1:1 electron-to-Ag ratio means moles Ag=moles e⁻=0.500 mol, so mass=0.500×107.87=53.9 g. ‘107.9 g’ mistakenly doubles the mass, as if 1.00 mol of Ag were deposited instead of 0.500 mol. ‘215.7 g’ compounds that error further (roughly 4× too large). ‘26.97 g’ uses the wrong molar mass (aluminum's, ~26.98 g/mol) instead of silver's 107.87 g/mol — a mix-up between elements."
     },
     {
       "id": "9-58",
@@ -9759,7 +9761,7 @@ const QUESTIONS = {
         "Both electrolysis and galvanic cells always involve spontaneous reactions only."
       ],
       "correct": 0,
-      "explanation": "Electrolysis uses external electrical energy to force a nonspontaneous redox reaction (ΔG>0) to occur, while a galvanic cell harnesses a naturally spontaneous reaction (ΔG<0) to generate electrical energy — opposite directions of energy flow. ‘Electrolysis and galvanic cells are truly identical processes, just different names’ ignores this fundamental spontaneity difference. ‘Both electrolysis and galvanic cells always involve spontaneous reactions only’ is false — electrolysis is defined by driving a NONspontaneous reaction. ‘Electrolysis only ever occurs in gas-phase reactions, never in solution’ is untrue — electrolysis commonly occurs in molten salts and aqueous solutions, not exclusively gas phase."
+      "explanation": "Correct: (A) Electrolysis forces a nonspontaneous reaction; galvanic cells use a spontaneous one. Electrolysis uses external electrical energy to force a nonspontaneous redox reaction (ΔG>0) to occur, while a galvanic cell harnesses a naturally spontaneous reaction (ΔG<0) to generate electrical energy — opposite directions of energy flow. ‘Electrolysis and galvanic cells are truly identical processes, just different names’ ignores this fundamental spontaneity difference. ‘Both electrolysis and galvanic cells always involve spontaneous reactions only’ is false — electrolysis is defined by driving a NONspontaneous reaction. ‘Electrolysis only ever occurs in gas-phase reactions, never in solution’ is untrue — electrolysis commonly occurs in molten salts and aqueous solutions, not exclusively gas phase."
     },
     {
       "id": "9-59",
@@ -9772,7 +9774,7 @@ const QUESTIONS = {
         "30.19 g"
       ],
       "correct": 2,
-      "explanation": "Converting to seconds (3.00 hr×3600=10,800 s), charge Q=It=(10.0)(10,800)=108,000 C, moles e⁻=108,000/96,485=1.1193 mol, and using the 3:1 electron:Al ratio, moles Al=1.1193/3=0.3731 mol, giving mass=0.3731×26.98=10.07 g. ‘90.56 g’ is roughly 9× too large, consistent with forgetting to divide by the 3-electron ratio (and a units slip). ‘3.353 g’ is about 3× too small, consistent with applying the 3:1 ratio backwards (multiplying by 3 instead of dividing). ‘30.19 g’ is exactly 3× the correct answer, the same 3:1 ratio error as ‘3.353 g’ but inverted."
+      "explanation": "Correct: (C) 10.07 g. Converting to seconds (3.00 hr×3600=10,800 s), charge Q=It=(10.0)(10,800)=108,000 C, moles e⁻=108,000/96,485=1.1193 mol, and using the 3:1 electron:Al ratio, moles Al=1.1193/3=0.3731 mol, giving mass=0.3731×26.98=10.07 g. ‘90.56 g’ is roughly 9× too large, consistent with forgetting to divide by the 3-electron ratio (and a units slip). ‘3.353 g’ is about 3× too small, consistent with applying the 3:1 ratio backwards (multiplying by 3 instead of dividing). ‘30.19 g’ is exactly 3× the correct answer, the same 3:1 ratio error as ‘3.353 g’ but inverted."
     },
     {
       "id": "9-60",
@@ -9785,7 +9787,7 @@ const QUESTIONS = {
         "The half-reaction's electron count is irrelevant to Faraday's Law calculations."
       ],
       "correct": 0,
-      "explanation": "The electron coefficient in the balanced half-reaction (e.g., 2e⁻ per Cu²⁺, 3e⁻ per Al³⁺) sets the electron-to-product mole ratio needed to convert moles of electrons into moles of substance. ‘The half-reaction's electron count is irrelevant to Faraday's Law calculations’ is false — it's the central conversion factor the whole calculation depends on. ‘This is always exactly 1 electron per mole, regardless of the substance’ is wrong — the ratio depends on the ion's charge (1 for Na⁺, 2 for Cu²⁺, 3 for Al³⁺, etc.), not a fixed universal value. ‘The total current used has no bearing on this particular ratio’ is true only in a narrow sense (the ratio itself comes from the half-reaction, not the current) but doesn't answer what the question asks; current instead determines the total charge delivered, a separate step in the overall calculation."
+      "explanation": "Correct: (A) The electron coefficient in that species' balanced half-reaction. The electron coefficient in the balanced half-reaction (e.g., 2e⁻ per Cu²⁺, 3e⁻ per Al³⁺) sets the electron-to-product mole ratio needed to convert moles of electrons into moles of substance. ‘The half-reaction's electron count is irrelevant to Faraday's Law calculations’ is false — it's the central conversion factor the whole calculation depends on. ‘This is always exactly 1 electron per mole, regardless of the substance’ is wrong — the ratio depends on the ion's charge (1 for Na⁺, 2 for Cu²⁺, 3 for Al³⁺, etc.), not a fixed universal value. ‘The total current used has no bearing on this particular ratio’ is true only in a narrow sense (the ratio itself comes from the half-reaction, not the current) but doesn't answer what the question asks; current instead determines the total charge delivered, a separate step in the overall calculation."
     },
     {
       "id": "9-61",
@@ -9798,7 +9800,7 @@ const QUESTIONS = {
         "Twice as many moles of Na form as Mg, since Na needs only 1 electron."
       ],
       "correct": 3,
-      "explanation": "Same charge through both cells means equal moles of electrons; Na⁺ needs only 1 e⁻ per atom while Mg²⁺ needs 2, so twice as many moles of Na form as moles of Mg for the same total electrons. ‘Equal moles of Na and Mg are produced from the same charge’ ignores the different electron stoichiometry between the two half-reactions. ‘The comparison cannot be made without knowing the specific current and time used’ is wrong — because both cells share identical current/time (same charge), those variables cancel out of the ratio, leaving a fixed 2:1 answer regardless of their actual values. ‘Half as many moles of Na are produced as moles of Mg formed’ inverts the ratio — since Na requires FEWER electrons per atom than Mg, MORE Na (not less) forms per unit of charge.",
+      "explanation": "Correct: (D) Twice as many moles of Na form as Mg, since Na needs only 1 electron. Same charge through both cells means equal moles of electrons; Na⁺ needs only 1 e⁻ per atom while Mg²⁺ needs 2, so twice as many moles of Na form as moles of Mg for the same total electrons. ‘Equal moles of Na and Mg are produced from the same charge’ ignores the different electron stoichiometry between the two half-reactions. ‘The comparison cannot be made without knowing the specific current and time used’ is wrong — because both cells share identical current/time (same charge), those variables cancel out of the ratio, leaving a fixed 2:1 answer regardless of their actual values. ‘Half as many moles of Na are produced as moles of Mg formed’ inverts the ratio — since Na requires FEWER electrons per atom than Mg, MORE Na (not less) forms per unit of charge.",
       "stretch": true
     },
     {
@@ -9812,7 +9814,7 @@ const QUESTIONS = {
         "Zinc does not conduct electricity at all, preventing any corrosion current."
       ],
       "correct": 2,
-      "explanation": "Zinc has a more negative standard reduction potential than iron, meaning it's more easily oxidized, so it corrodes preferentially and protects the iron. ‘Zinc does not conduct electricity at all, preventing any corrosion current’ is factually wrong — zinc is a metal and conducts electricity well, which is actually essential for it to function as an anode. ‘Zinc is simply more visually appealing than iron for structural applications’ is irrelevant to the actual electrochemical protection mechanism. ‘Zinc has a more positive standard reduction potential than iron does’ has the comparison backwards — it's zinc's MORE NEGATIVE potential (greater tendency to oxidize) that makes it protective, not a more positive one."
+      "explanation": "Correct: (C) Zinc has a more negative reduction potential, so it oxidizes before iron. Zinc has a more negative standard reduction potential than iron, meaning it's more easily oxidized, so it corrodes preferentially and protects the iron. ‘Zinc does not conduct electricity at all, preventing any corrosion current’ is factually wrong — zinc is a metal and conducts electricity well, which is actually essential for it to function as an anode. ‘Zinc is simply more visually appealing than iron for structural applications’ is irrelevant to the actual electrochemical protection mechanism. ‘Zinc has a more positive standard reduction potential than iron does’ has the comparison backwards — it's zinc's MORE NEGATIVE potential (greater tendency to oxidize) that makes it protective, not a more positive one."
     },
     {
       "id": "9-63",
@@ -9825,7 +9827,7 @@ const QUESTIONS = {
         "The battery's chemical composition is entirely replaced during recharging."
       ],
       "correct": 2,
-      "explanation": "Recharging forces the battery's (now nonspontaneous) discharge reaction to run backward via external electrical energy — this is electrolysis, regenerating the original reactants. ‘A spontaneous galvanic cell reaction, just like normal discharge’ describes normal discharge (battery use), not recharging, which requires external energy precisely because it's no longer spontaneous in that direction. ‘No electrochemical process occurs at all during recharging’ is false — recharging is very much an electrochemical (redox) process, just running in reverse. ‘The battery's chemical composition is entirely replaced during recharging’ is wrong — recharging chemically regenerates the ORIGINAL reactants from the discharged products, it doesn't replace the battery's materials with new ones."
+      "explanation": "Correct: (C) Electrolysis — external energy forces the reaction to run backward. Recharging forces the battery's (now nonspontaneous) discharge reaction to run backward via external electrical energy — this is electrolysis, regenerating the original reactants. ‘A spontaneous galvanic cell reaction, just like normal discharge’ describes normal discharge (battery use), not recharging, which requires external energy precisely because it's no longer spontaneous in that direction. ‘No electrochemical process occurs at all during recharging’ is false — recharging is very much an electrochemical (redox) process, just running in reverse. ‘The battery's chemical composition is entirely replaced during recharging’ is wrong — recharging chemically regenerates the ORIGINAL reactants from the discharged products, it doesn't replace the battery's materials with new ones."
     },
     {
       "id": "9-64",
@@ -9838,7 +9840,7 @@ const QUESTIONS = {
         "Rusting is a purely physical process, entirely unrelated to electrochemistry."
       ],
       "correct": 1,
-      "explanation": "Rusting is a redox process — iron is oxidized while oxygen is reduced — and water/moisture serves as the electrolyte enabling ion movement to complete the electrochemical circuit; without it, the redox reaction can't proceed effectively. ‘Rusting only ever requires oxygen present, never any water’ ignores water's essential role as the conducting medium, not just a reactant. ‘Rusting is a purely physical process, entirely unrelated to electrochemistry’ is false — rusting is fundamentally a redox reaction, an inherently electrochemical process. ‘Oxygen and water have no actual chemical role in the rusting process’ directly contradicts the basic chemistry of corrosion, in which both are essential participants (oxygen as the species reduced, water as the electrolyte medium)."
+      "explanation": "Correct: (B) It's a redox process — iron oxidized, oxygen reduced, water is electrolyte. Rusting is a redox process — iron is oxidized while oxygen is reduced — and water/moisture serves as the electrolyte enabling ion movement to complete the electrochemical circuit; without it, the redox reaction can't proceed effectively. ‘Rusting only ever requires oxygen present, never any water’ ignores water's essential role as the conducting medium, not just a reactant. ‘Rusting is a purely physical process, entirely unrelated to electrochemistry’ is false — rusting is fundamentally a redox reaction, an inherently electrochemical process. ‘Oxygen and water have no actual chemical role in the rusting process’ directly contradicts the basic chemistry of corrosion, in which both are essential participants (oxygen as the species reduced, water as the electrolyte medium)."
     },
     {
       "id": "9-65",
@@ -9851,7 +9853,7 @@ const QUESTIONS = {
         "Galvanization has no actual protective mechanism whatsoever."
       ],
       "correct": 1,
-      "explanation": "Even where the coating is scratched, nearby remaining zinc still acts as the sacrificial anode (since zinc oxidizes more readily than iron), continuing to protect the locally exposed iron electrochemically, not just physically. ‘Galvanization has no actual protective mechanism whatsoever’ contradicts the well-documented sacrificial-anode principle underlying galvanization. ‘A scratched galvanized nail always rusts immediately, with no continued protection’ is wrong — the electrochemical protection specifically continues even after the physical barrier is breached, which is the whole point of using zinc rather than an inert coating. ‘The zinc coating provides only a physical barrier, with no effect once scratched’ ignores the electrochemical (sacrificial anode) protection entirely, describing only paint-like coatings that lack this backup mechanism — unlike zinc."
+      "explanation": "Correct: (B) Exposed zinc keeps acting as sacrificial anode, protecting iron locally. Even where the coating is scratched, nearby remaining zinc still acts as the sacrificial anode (since zinc oxidizes more readily than iron), continuing to protect the locally exposed iron electrochemically, not just physically. ‘Galvanization has no actual protective mechanism whatsoever’ contradicts the well-documented sacrificial-anode principle underlying galvanization. ‘A scratched galvanized nail always rusts immediately, with no continued protection’ is wrong — the electrochemical protection specifically continues even after the physical barrier is breached, which is the whole point of using zinc rather than an inert coating. ‘The zinc coating provides only a physical barrier, with no effect once scratched’ ignores the electrochemical (sacrificial anode) protection entirely, describing only paint-like coatings that lack this backup mechanism — unlike zinc."
     }
   ]
 };
@@ -10760,6 +10762,67 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-5-n1",
+      "source": "Original",
+      "title": "Catalyzed Ozone Destruction and the Maxwell-Boltzmann Distribution",
+      "prompt": "In the stratosphere, nitric oxide (NO) speeds up the destruction of ozone. The proposed mechanism is: Step 1: NO(g) + O₃(g) → NO₂(g) + O₂(g) (slow); Step 2: NO₂(g) + O(g) → NO(g) + O₂(g) (fast). A chemist measures the initial rate of the reaction in a flow tube at constant temperature. Experiment 1: [NO] = 2.0 × 10⁻⁶ M, [O₃] = 3.0 × 10⁻⁶ M, initial rate = 6.6 × 10⁻⁵ M/s. Experiment 2: [NO] = 4.0 × 10⁻⁶ M, [O₃] = 3.0 × 10⁻⁶ M, initial rate = 1.3 × 10⁻⁴ M/s. Experiment 3: [NO] = 2.0 × 10⁻⁶ M, [O₃] = 9.0 × 10⁻⁶ M, initial rate = 2.0 × 10⁻⁴ M/s.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Write the balanced equation for the overall reaction. Identify the catalyst and the intermediate, and justify each identification using the mechanism.",
+          "steps": [
+            "Add the two steps and cancel species that appear on both sides: NO and NO₂ cancel. Overall: O₃(g) + O(g) → 2O₂(g).",
+            "NO is the catalyst: it is consumed as a reactant in Step 1 (the first step) and regenerated as a product in Step 2, so it does not appear in the overall equation.",
+            "NO₂ is the intermediate: it is produced in Step 1 and consumed in the later Step 2, so it also does not appear in the overall equation.",
+            "Full credit requires the correct overall equation and distinguishing the two roles by the order of events: the catalyst is used first and then remade; the intermediate is made first and then used."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Write the rate law predicted by the mechanism. Explain why the rate depends on [NO] even though NO does not appear in the overall equation.",
+          "steps": [
+            "The slow step is rate-determining, and for an elementary step the rate law follows its molecularity: rate = k[NO][O₃].",
+            "Step 2 is fast, so O atoms react as soon as NO₂ forms; the overall rate is limited by how fast Step 1 occurs, which depends on collisions between NO and O₃.",
+            "NO appears in the rate law because it is a reactant in the slow step, even though it is regenerated and cancels from the overall equation.",
+            "Full credit requires rate = k[NO][O₃] taken from the slow step and an explanation that the rate law reflects the rate-determining step, not the overall equation."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Show that the experimental data are consistent with the rate law in part (b), and calculate the rate constant k with correct units.",
+          "steps": [
+            "Experiments 1 → 2: [NO] doubles with [O₃] constant, and the rate goes from 6.6 × 10⁻⁵ to 1.3 × 10⁻⁴ M/s, a factor of 2. First order in NO.",
+            "Experiments 1 → 3: [O₃] triples with [NO] constant, and the rate goes from 6.6 × 10⁻⁵ to 2.0 × 10⁻⁴ M/s, a factor of 3. First order in O₃.",
+            "The experimental rate law, rate = k[NO][O₃], matches the rate law predicted by the slow step.",
+            "Using Experiment 1: k = (6.6 × 10⁻⁵ M/s)/[(2.0 × 10⁻⁶ M)(3.0 × 10⁻⁶ M)] = 1.1 × 10⁷ M⁻¹ s⁻¹.",
+            "Full credit requires both orders determined from ratios of experiments with one concentration held constant, a correct k of 1.1 × 10⁷, and units of M⁻¹ s⁻¹ for a second-order overall rate law."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "The uncatalyzed reaction O₃ + O → 2O₂ has a higher activation energy than the catalyzed pathway. Sketch a Maxwell-Boltzmann distribution (number of molecules versus kinetic energy) for the reacting gas at a single temperature. Mark E<sub>a</sub>(uncatalyzed) and E<sub>a</sub>(catalyzed) on the energy axis, and describe the sketch in words. Use it to explain why the catalyzed reaction is faster.",
+          "steps": [
+            "The distribution is a single curve: it starts at the origin, rises to a peak at a moderate kinetic energy, and has a long tail that falls off toward high energy.",
+            "E<sub>a</sub>(catalyzed) is a vertical line on the energy axis to the left of E<sub>a</sub>(uncatalyzed); both lines are in the tail, to the right of the peak.",
+            "The area under the curve to the right of each line is the fraction of collisions with enough energy to react. The area beyond E<sub>a</sub>(catalyzed) is much larger than the area beyond E<sub>a</sub>(uncatalyzed).",
+            "The catalyst provides a different pathway with a lower activation energy, so a larger fraction of collisions are energetic enough to react, and the reaction rate increases.",
+            "Full credit requires one curve of the correct shape, the catalyzed E<sub>a</sub> marked at lower energy than the uncatalyzed E<sub>a</sub>, and an explanation based on the larger fraction of particles with energy at or above the lower E<sub>a</sub>."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "A student says, \"Adding the catalyst has the same effect on the Maxwell-Boltzmann curve as raising the temperature.\" Explain what is wrong with this statement by comparing how the curve and the activation energy change in each case.",
+          "steps": [
+            "Adding a catalyst does not change the temperature, so the distribution of kinetic energies (the curve itself) does not change; only the activation-energy threshold moves to a lower energy.",
+            "Raising the temperature leaves E<sub>a</sub> unchanged but changes the curve: it flattens, broadens, and shifts toward higher energy, with the same total area, so more particles lie beyond the same E<sub>a</sub>.",
+            "Both changes increase the fraction of collisions with energy at or above the activation energy, which is why both increase the rate, but they do it in different ways.",
+            "Full credit requires stating that a catalyst lowers E<sub>a</sub> while the curve stays the same, and that a temperature increase reshapes the curve toward higher energy while E<sub>a</sub> stays the same."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "6": [
@@ -11116,6 +11179,66 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-7-n1",
+      "source": "Original",
+      "title": "Kp, Partial Pressures, and Volume Change for PCl₅",
+      "prompt": "Phosphorus pentachloride decomposes in the gas phase: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g). A rigid, evacuated vessel is filled with pure PCl₅ to an initial pressure of 1.50 atm at 523 K. The temperature is held at 523 K, and when equilibrium is reached the total pressure in the vessel is 2.10 atm.",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Write the expression for the equilibrium constant K<sub>p</sub> for this reaction.",
+          "steps": [
+            "K<sub>p</sub> uses the equilibrium partial pressures (in atm) of the gases, each raised to its coefficient, products over reactants.",
+            "K<sub>p</sub> = (P<sub>PCl₃</sub>)(P<sub>Cl₂</sub>) / P<sub>PCl₅</sub>.",
+            "Full credit requires partial pressures (not molar concentrations) with products in the numerator and PCl₅ in the denominator."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Using an ICE table in atm, determine the equilibrium partial pressure of each gas and calculate the value of K<sub>p</sub> at 523 K.",
+          "steps": [
+            "ICE (atm): PCl₅: 1.50 → −x → 1.50 − x. PCl₃: 0 → +x → x. Cl₂: 0 → +x → x.",
+            "Total pressure at equilibrium = (1.50 − x) + x + x = 1.50 + x = 2.10 atm, so x = 0.60 atm.",
+            "Equilibrium pressures: P<sub>PCl₅</sub> = 0.90 atm, P<sub>PCl₃</sub> = 0.60 atm, P<sub>Cl₂</sub> = 0.60 atm.",
+            "K<sub>p</sub> = (0.60)(0.60)/0.90 = 0.40.",
+            "Full credit requires using the total-pressure data to find x (recognizing that each mole of PCl₅ that decomposes adds one net mole of gas), correct equilibrium partial pressures, and K<sub>p</sub> = 0.40."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "In a separate experiment at 523 K, a vessel contains P<sub>PCl₅</sub> = 0.50 atm, P<sub>PCl₃</sub> = 0.80 atm, and P<sub>Cl₂</sub> = 0.40 atm. Calculate Q<sub>p</sub>, determine whether the system is at equilibrium, and predict whether the partial pressure of PCl₅ will increase, decrease, or stay the same as the system approaches equilibrium.",
+          "steps": [
+            "Q<sub>p</sub> = (0.80)(0.40)/0.50 = 0.64.",
+            "Q<sub>p</sub> (0.64) > K<sub>p</sub> (0.40), so the system is not at equilibrium; there are too many products relative to reactants.",
+            "The net reaction proceeds in the reverse direction (toward PCl₅), so P<sub>PCl₅</sub> increases while P<sub>PCl₃</sub> and P<sub>Cl₂</sub> decrease.",
+            "Full credit requires the correct Q<sub>p</sub>, an explicit comparison of Q<sub>p</sub> with K<sub>p</sub>, and the correct direction of change for PCl₅."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "The equilibrium mixture from part (b) is quickly compressed to half its original volume at constant temperature. Calculate Q<sub>p</sub> immediately after the compression, and use it to predict the direction the reaction shifts. Explain your prediction in terms of the number of moles of gas.",
+          "steps": [
+            "Halving the volume at constant T doubles every partial pressure at the instant of compression: P<sub>PCl₅</sub> = 1.80 atm, P<sub>PCl₃</sub> = 1.20 atm, P<sub>Cl₂</sub> = 1.20 atm.",
+            "Q<sub>p</sub> = (1.20)(1.20)/1.80 = 0.80, which is greater than K<sub>p</sub> = 0.40 (it is exactly 2K<sub>p</sub>, because the numerator has two pressure terms and the denominator one).",
+            "Since Q<sub>p</sub> > K<sub>p</sub>, the net reaction shifts in the reverse direction, toward PCl₅.",
+            "This is the side with fewer moles of gas (1 mol versus 2 mol), so the shift reduces the total number of gas particles and partially offsets the increase in pressure; the total pressure falls from 4.20 atm but stays above the original 2.10 atm.",
+            "Full credit requires a numerical Q<sub>p</sub> after compression compared with K<sub>p</sub>, the correct shift (toward PCl₅), and a justification based on moles of gas, with K<sub>p</sub> itself unchanged because the temperature is constant."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Instead of compressing the mixture, a student adds argon gas to the rigid vessel at constant temperature, raising the total pressure. The student claims that, because the total pressure increased, the equilibrium will shift toward PCl₅. Do you agree or disagree? Justify your answer.",
+          "steps": [
+            "Disagree.",
+            "In a rigid vessel the volume does not change, so adding an unreactive gas does not change the number of moles or partial pressure of PCl₅, PCl₃, or Cl₂.",
+            "Because K<sub>p</sub> and Q<sub>p</sub> depend only on the partial pressures of the reacting gases, Q<sub>p</sub> still equals K<sub>p</sub> and there is no shift.",
+            "Full credit requires disagreeing and explaining that the partial pressures of the reacting gases (and therefore Q<sub>p</sub>) are unchanged, so the system remains at equilibrium; the total pressure alone does not determine a shift."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "8": [
@@ -11360,6 +11483,70 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-8-n1",
+      "source": "Original",
+      "title": "Benzoic Acid Titration, Indicator Choice, and the Titration Curve",
+      "prompt": "A 25.00 mL sample of 0.120 M benzoic acid, C₆H₅COOH (K<sub>a</sub> = 6.3 × 10⁻⁵), is titrated with 0.100 M NaOH at 25 °C. Four available acid-base indicators and their color-change pH ranges are methyl orange (3.1–4.4), methyl red (4.4–6.2), bromothymol blue (6.0–7.6), and phenolphthalein (8.2–10.0).",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Calculate the pH of the benzoic acid solution before any NaOH is added.",
+          "steps": [
+            "C₆H₅COOH ⇌ H⁺ + C₆H₅COO⁻. ICE: 0.120 − x, x, x.",
+            "K<sub>a</sub> = x²/(0.120 − x) ≈ x²/0.120 = 6.3 × 10⁻⁵, so x² = 7.56 × 10⁻⁶ and x = [H⁺] = 2.75 × 10⁻³ M.",
+            "Check: (2.75 × 10⁻³/0.120) × 100 = 2.3%, under 5%, so the approximation is valid.",
+            "pH = −log(2.75 × 10⁻³) = 2.56.",
+            "Full credit requires a correct equilibrium setup for a weak acid (not treating it as a strong acid, which would give pH 0.92) and pH = 2.56."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Calculate the volume of NaOH needed to reach the equivalence point. Then determine the pH after 15.00 mL of NaOH has been added, and explain why this pH equals pK<sub>a</sub>.",
+          "steps": [
+            "Moles of benzoic acid = 0.02500 L × 0.120 mol/L = 3.000 × 10⁻³ mol. The 1:1 reaction HA + OH⁻ → A⁻ + H₂O requires 3.000 × 10⁻³ mol OH⁻.",
+            "V(NaOH) = 3.000 × 10⁻³ mol / 0.100 mol/L = 0.03000 L = 30.00 mL.",
+            "15.00 mL is half of the equivalence volume: 1.500 × 10⁻³ mol OH⁻ converts 1.500 × 10⁻³ mol HA into A⁻, leaving 1.500 × 10⁻³ mol HA. So [HA] = [A⁻].",
+            "Henderson-Hasselbalch: pH = pK<sub>a</sub> + log([A⁻]/[HA]) = pK<sub>a</sub> + log(1) = pK<sub>a</sub> = −log(6.3 × 10⁻⁵) = 4.20.",
+            "Full credit requires the equivalence volume of 30.00 mL, recognizing 15.00 mL as the half-equivalence point where [HA] = [A⁻], and pH = pK<sub>a</sub> = 4.20."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Calculate the pH at the equivalence point.",
+          "steps": [
+            "At equivalence all 3.000 × 10⁻³ mol HA has become C₆H₅COO⁻, in a total volume of 25.00 + 30.00 = 55.00 mL. [C₆H₅COO⁻] = 3.000 × 10⁻³ mol / 0.05500 L = 0.0545 M.",
+            "The conjugate base hydrolyzes: C₆H₅COO⁻ + H₂O ⇌ C₆H₅COOH + OH⁻, with K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub> = (1.0 × 10⁻¹⁴)/(6.3 × 10⁻⁵) = 1.6 × 10⁻¹⁰.",
+            "[OH⁻]² = (0.0545)(1.6 × 10⁻¹⁰) = 8.7 × 10⁻¹², so [OH⁻] = 2.9 × 10⁻⁶ M.",
+            "pOH = 5.53, so pH = 14.00 − 5.53 = 8.47.",
+            "Full credit requires using the total volume to find [A⁻], converting K<sub>a</sub> to K<sub>b</sub>, and a pH above 7 (8.47) that comes from the hydrolysis of the conjugate base."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Choose the most suitable indicator from the four listed for this titration. Justify your choice, and explain what error would result from using bromothymol blue instead.",
+          "steps": [
+            "An indicator should change color in a pH range that contains (or lies on the steep part of the curve around) the equivalence-point pH.",
+            "Phenolphthalein (8.2–10.0) contains the equivalence pH of 8.47, so it is the best choice.",
+            "Bromothymol blue changes color between pH 6.0 and 7.6, which is reached before the equivalence point (the solution is still a buffer of HA and A⁻ there), so the titration would be stopped too early.",
+            "A too-small volume of NaOH would make the calculated moles of acid (and its concentration) too low.",
+            "Full credit requires choosing phenolphthalein because its range brackets the equivalence pH, and stating that bromothymol blue would signal the endpoint before equivalence, giving a low result."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Sketch the titration curve (pH versus volume of NaOH added, 0 to 40.00 mL). Describe the sketch in words, labeling the initial pH, the half-equivalence point, the equivalence point, and the pH after 40.00 mL of NaOH has been added (calculate this last value).",
+          "steps": [
+            "After 40.00 mL: excess OH⁻ = (0.04000 L × 0.100) − 3.000 × 10⁻³ = 1.000 × 10⁻³ mol in 65.00 mL; [OH⁻] = 0.0154 M, pOH = 1.81, pH = 12.19.",
+            "The curve starts at pH 2.56 at 0 mL, rises quickly at first, then rises gently through a flat buffer region; the point (15.00 mL, pH 4.20) lies in the middle of this region, where the curve is flattest.",
+            "Near 30.00 mL the curve rises almost vertically; the equivalence point (30.00 mL, pH 8.47) sits at the center of this steep rise, above pH 7.",
+            "After equivalence the curve levels off and approaches pH 12.19 at 40.00 mL, controlled by the excess OH⁻.",
+            "Full credit requires a correctly shaped curve with the initial pH, the half-equivalence point (15.00 mL, pH = pK<sub>a</sub> = 4.20), an equivalence point at 30.00 mL with pH above 7, and a flattening at high pH near 12.19 at 40.00 mL."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ],
   "9": [
@@ -11539,6 +11726,69 @@ const FRQ_CONTENT = {
           ]
         }
       ]
+    },
+    {
+      "id": "frq-9-n1",
+      "source": "Original",
+      "title": "Steam Reforming and Dissolving Ammonium Nitrate: ΔS°, ΔG°, and Temperature",
+      "prompt": "Hydrogen gas is produced industrially by steam reforming of methane: CH₄(g) + H₂O(g) → CO(g) + 3H₂(g). Standard values at 298 K: CH₄(g): ΔH°<sub>f</sub> = −74.8 kJ/mol, ΔG°<sub>f</sub> = −50.8 kJ/mol, S° = 186.3 J/(mol·K); H₂O(g): ΔH°<sub>f</sub> = −241.8 kJ/mol, ΔG°<sub>f</sub> = −228.6 kJ/mol, S° = 188.8 J/(mol·K); CO(g): ΔH°<sub>f</sub> = −110.5 kJ/mol, ΔG°<sub>f</sub> = −137.2 kJ/mol, S° = 197.7 J/(mol·K); H₂(g): ΔH°<sub>f</sub> = 0, ΔG°<sub>f</sub> = 0, S° = 130.7 J/(mol·K)",
+      "parts": [
+        {
+          "label": "(a)",
+          "ask": "Calculate ΔS° for the reaction. Explain why its sign is consistent with the particle-level change that occurs.",
+          "steps": [
+            "ΔS° = ΣS°(products) − ΣS°(reactants) = [197.7 + 3(130.7)] − [186.3 + 188.8].",
+            "= 589.8 − 375.1 = +214.7 J/(mol<sub>rxn</sub>·K).",
+            "The reaction converts 2 mol of gas into 4 mol of gas. More gas particles have more possible positions and ways to distribute energy, so the energy and matter are more dispersed and entropy increases.",
+            "Full credit requires multiplying S°(H₂) by 3, including S° of every species (H₂ has a nonzero S° even though it is an element), the value +214.7 J/(mol·K), and a justification based on the increase in moles of gas."
+          ]
+        },
+        {
+          "label": "(b)",
+          "ask": "Calculate ΔG° at 298 K using the ΔG°<sub>f</sub> values, and state whether the reaction is thermodynamically favorable at 298 K under standard conditions. State whether K at 298 K is greater than or less than 1.",
+          "steps": [
+            "ΔG° = ΣΔG°<sub>f</sub>(products) − ΣΔG°<sub>f</sub>(reactants) = [−137.2 + 3(0)] − [−50.8 + (−228.6)].",
+            "= −137.2 + 279.4 = +142.2 kJ/mol<sub>rxn</sub>.",
+            "ΔG° > 0, so the reaction is not thermodynamically favorable at 298 K under standard conditions; since ΔG° = −RT ln K, a positive ΔG° means K < 1 (reactants are favored at equilibrium).",
+            "Full credit requires ΔG° = +142.2 kJ/mol, the conclusion that the reaction is not favorable at 298 K, and K < 1."
+          ]
+        },
+        {
+          "label": "(c)",
+          "ask": "Calculate ΔH° for the reaction. Using the signs of ΔH° and ΔS°, explain how temperature affects the favorability of the reaction, and estimate the temperature above which the reaction becomes thermodynamically favorable. State the assumption you make.",
+          "steps": [
+            "ΔH° = [−110.5 + 3(0)] − [−74.8 + (−241.8)] = −110.5 + 316.6 = +206.1 kJ/mol<sub>rxn</sub>. (Check: ΔH° − TΔS° = 206.1 − (298)(0.2147) = +142.1 kJ/mol, agreeing with part (b).)",
+            "ΔH° > 0 opposes the reaction and ΔS° > 0 favors it. In ΔG° = ΔH° − TΔS°, the −TΔS° term grows with temperature, so the reaction is unfavorable at low T and becomes favorable at high T.",
+            "Set ΔG° = 0: T = ΔH°/ΔS° = (206.1 kJ/mol)/(0.2147 kJ/(mol·K)) = 960 K. Above about 960 K, ΔG° < 0.",
+            "Assumption: ΔH° and ΔS° do not change significantly with temperature.",
+            "Full credit requires ΔH° = +206.1 kJ/mol, converting ΔS° to kJ before dividing, T ≈ 960 K, a sign argument (positive ΔH, positive ΔS: favorable only at high T), and the stated assumption."
+          ]
+        },
+        {
+          "label": "(d)",
+          "ask": "Solid ammonium nitrate dissolves readily in water, and the solution becomes cold: NH₄NO₃(s) → NH₄⁺(aq) + NO₃⁻(aq), ΔH°<sub>soln</sub> = +25.7 kJ/mol. Explain why ΔH°<sub>soln</sub> is positive by describing the interactions that are broken and formed when the solid dissolves. Your answer should describe an energy diagram showing these steps.",
+          "steps": [
+            "Step 1 (endothermic): the ionic attractions between NH₄⁺ and NO₃⁻ ions in the crystal lattice are overcome to separate the ions.",
+            "Step 2 (endothermic): some hydrogen bonds between water molecules are broken to make room for the ions.",
+            "Step 3 (exothermic): ion-dipole attractions form between the ions and the polar water molecules (the partially negative O of water toward NH₄⁺, the partially positive H toward NO₃⁻).",
+            "Energy diagram: from the solid plus water, two upward arrows (separating ions, separating water molecules) reach a high-energy level of separated particles; one downward arrow (forming ion-dipole attractions) ends at the solution level, which lies above the starting level. ΔH°<sub>soln</sub> is the net upward arrow from start to finish.",
+            "The energy released when the ion-dipole attractions form is smaller than the energy needed to break the lattice and the water-water attractions, so the overall process absorbs energy from the surroundings and ΔH°<sub>soln</sub> > 0.",
+            "Full credit requires all three steps with correct signs, a diagram description with the final level above the start, and a conclusion that the energy absorbed in breaking exceeds the energy released in forming."
+          ]
+        },
+        {
+          "label": "(e)",
+          "ask": "Dissolving NH₄NO₃ is thermodynamically favorable at 298 K even though it is endothermic. Calculate the minimum value of ΔS°<sub>soln</sub> that would make the process favorable at 298 K, and explain on the particle level why ΔS°<sub>soln</sub> is positive.",
+          "steps": [
+            "Favorable requires ΔG° = ΔH° − TΔS° < 0, so TΔS° > ΔH°.",
+            "ΔS° > ΔH°/T = (25.7 kJ/mol)/(298 K) = 0.0862 kJ/(mol·K) = 86.2 J/(mol·K).",
+            "ΔS° is positive because the ions leave a highly ordered crystal lattice and spread throughout the solution, where they and the water molecules have many more possible arrangements; the matter and energy become more dispersed.",
+            "The favorable entropy term (−TΔS°) outweighs the unfavorable enthalpy term, so dissolving is entropy-driven.",
+            "Full credit requires a minimum ΔS° of 86.2 J/(mol·K) (with consistent kJ/J units) and a particle-level explanation of the entropy increase from the ordered solid to dispersed aqueous ions."
+          ]
+        }
+      ],
+      "added": "2026-11-19"
     }
   ]
 };

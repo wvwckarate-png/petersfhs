@@ -638,7 +638,7 @@ export default function BiologyPage() {
                         <button style={S.frqHeader} onClick={() => setActiveFrq(isOpen ? null : frq.id)} aria-expanded={isOpen}>
                           <div>
                             <div style={S.frqSource}>{frq.source}</div>
-                            <div style={S.frqTitle}>{frq.title}</div>
+                            <div style={S.frqTitle}>{frq.title}{isRecent(frq.added) && <span className="q-new-badge" style={{ marginLeft: 8, verticalAlign: "middle" }}>New</span>}</div>
                           </div>
                           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style={{ transform: isOpen ? "rotate(180deg)" : "none", transition: "transform 0.15s", flexShrink: 0 }}>
                             <path d="M6 9L12 15L18 9" stroke="#767F73" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

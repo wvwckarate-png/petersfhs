@@ -417,59 +417,59 @@
     {
      "id": 1,
      "name": "The Rhetorical Situation",
-     "mcq": 64,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 2,
      "name": "Claims, Evidence, and Reasoning",
-     "mcq": 63,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 3,
      "name": "Rhetorical Appeals and Style",
-     "mcq": 61,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 4,
      "name": "Argument Structure and Counterargument",
-     "mcq": 59,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 5,
      "name": "Synthesis: Working with Multiple Sources",
-     "mcq": 54,
+     "mcq": 64,
      "sections": 5
     },
     {
      "id": 6,
      "name": "Syntax and Diction Analysis",
-     "mcq": 59,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 7,
      "name": "Complex and Layered Rhetorical Analysis",
-     "mcq": 57,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 8,
      "name": "Advanced Synthesis and Research Argument",
-     "mcq": 56,
+     "mcq": 65,
      "sections": 5
     },
     {
      "id": 9,
      "name": "Exam Skills Integration and Review",
-     "mcq": 57,
+     "mcq": 65,
      "sections": 5
     }
    ],
-   "mcqTotal": 530,
+   "mcqTotal": 584,
    "sectionTotal": 45
   },
   "englit": {
