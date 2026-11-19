@@ -69,47 +69,47 @@
     {
      "id": 9,
      "name": "Thermodynamics",
-     "mcq": 65,
+     "mcq": 87,
      "sections": 6
     },
     {
      "id": 10,
      "name": "Electric Force, Field & Potential",
-     "mcq": 66,
+     "mcq": 87,
      "sections": 7
     },
     {
      "id": 11,
      "name": "Electric Circuits",
-     "mcq": 65,
+     "mcq": 85,
      "sections": 9
     },
     {
      "id": 12,
      "name": "Magnetism & Electromagnetism",
-     "mcq": 66,
+     "mcq": 86,
      "sections": 4
     },
     {
      "id": 13,
      "name": "Geometric Optics",
-     "mcq": 65,
+     "mcq": 79,
      "sections": 4
     },
     {
      "id": 14,
      "name": "Waves, Sound & Physical Optics",
-     "mcq": 68,
+     "mcq": 102,
      "sections": 9
     },
     {
      "id": 15,
      "name": "Modern Physics",
-     "mcq": 65,
+     "mcq": 89,
      "sections": 9
     }
    ],
-   "mcqTotal": 460,
+   "mcqTotal": 615,
    "sectionTotal": 48
   },
   "biology": {

@@ -33,8 +33,9 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 ### A3. AP Physics 2
 - [x] Download the course description and run the audit (Fall 2024 edition; reports in ~/Desktop/petersfhs-gap-reports/physics2/)
-- [ ] Review the gap report and choose what to add
-- [ ] Build and check the additions
+- [x] Review the gap report and choose what to add (all missing items and the substantive thin ones)
+- [x] Build and check the additions — 57 study-guide additions, 155 MCQs, 41 figures (v8.6.0)
+- [ ] Decide whether the report's suggested FRQ parts (sketching graphs, equipotentials, RC curves) are worth adding
 
 ### A4. Remaining AP subjects (optional; decide after A1–A3)
 - [ ] AP Physics 1
@@ -70,6 +71,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.6.0 | Physics 2 gaps: 57 study-guide additions, 155 MCQs (Physics 2 now 615), 41 figures; fixed the 10.2 grounding sentence |
 | v8.5.9 | Visuals pass on the new Chemistry and Biology material: 42 figures, tables and worked examples (Chemistry 13 figures + 4 worked examples; Biology 24 figures + 1 table), placed inside the "New" boxes |
 | v8.5.8 | Biology gaps, batch 2: 34 study-guide additions, 44 MCQs (Biology now 622) |
 | v8.5.7 | Biology gaps, batch 1 (18 study-guide additions, 44 MCQs); "New material" markers: Dashboard card, MCQ "New" filter, New tags in the study guide (including sections finished before the additions) |
