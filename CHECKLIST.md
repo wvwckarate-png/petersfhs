@@ -53,7 +53,8 @@ The College Board publishes a free Course and Exam Description for each AP subje
 - [x] B2. 53 course/exam questions rewritten as content questions: APUSH 40, Government 9, Biology 1 (the other Biology candidates were real content), Chemistry 2. Each new version has the old id plus "r", so old saved answers no longer count, and it shows as New (v8.6.1)
 - [x] B3. Government 4-51, Government 3-65 and APUSH 9-61 fixed (same ids, same answer letters) (v8.6.1)
 - [x] B4. Spot-checked a random 225 questions (25 per AP subject): 0 wrong keys, 0 false statements; 16 explanations improved. Also added the "Correct: (X) answer" opener to the 2,521 explanations that lacked it (v8.6.1)
-- [ ] B5. Optional: about 1,900 older explanations (APES, AP Lang/Lit, Chemistry, Biology, Physics 2) explain the right answer but give no "(Y) is wrong because" line for each wrong choice
+- [x] B5 (sciences). Chemistry, Biology, Physics 1 and Physics 2: all 846 explanations without a reason for each wrong choice were rewritten in full and independently checked; every one of the 2,498 science MCQs now explains the right answer and each wrong choice. 12 flawed Chemistry questions fixed along the way (same answer letters) (v8.6.2)
+- [ ] B5 (other subjects, later): APES, AP Language and AP Literature explanations still lack per-choice reasons
 
 ## C. Decisions for you
 
@@ -72,6 +73,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.6.2 | Science explanations complete: 846 Chemistry, Biology, Physics 1 and Physics 2 explanations rewritten with a reason for every wrong choice; 12 flawed Chemistry questions fixed |
 | v8.6.1 | 9 new FRQs (Chemistry 4, Physics 2 5) with New badges; 54 AP Language revision questions rewritten and shown; 53 course/exam questions rewritten; 3 flawed questions fixed; 225-question spot-check; consistent "Correct: (X)" openers |
 | v8.6.0 | Physics 2 gaps: 57 study-guide additions, 155 MCQs (Physics 2 now 615), 41 figures; fixed the 10.2 grounding sentence |
 | v8.5.9 | Visuals pass on the new Chemistry and Biology material: 42 figures, tables and worked examples (Chemistry 13 figures + 4 worked examples; Biology 24 figures + 1 table), placed inside the "New" boxes |
