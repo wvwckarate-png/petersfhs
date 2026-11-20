@@ -9871,7 +9871,7 @@ const FRQ_CONTENT = {
           "ask": "Calculate the average atomic mass of Q, and identify the element.",
           "steps": [
             "Convert percentages to decimal fractions: 0.692 and 0.308.",
-            "Weighted average = (63)(0.692) + (65)(0.308) = 43.60 + 20.02 = 63.62 amu.",
+            "Weighted average = (63)(0.692) + (65)(0.308) = 43.60 + 20.02 = 63.62, which rounds to 63.6 amu (3 sig figs, limited by the abundances). Using the mass numbers 63 and 65 as the isotope masses is a close approximation; the exact isotopic masses are slightly smaller.",
             "This value is close to copper's known atomic mass (63.55 amu), so Q is copper.",
             "Full credit requires both the correct weighted-average setup (multiplying each isotope mass by its own decimal abundance, not an unweighted average) and a final numeric answer with appropriate sig figs."
           ]
@@ -9908,7 +9908,7 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "The first ionization energy of Al (578 kJ/mol) is lower than that of Mg (738 kJ/mol), even though Al has a greater nuclear charge. Explain this observation.",
           "steps": [
-            "Mg's highest-energy electron is removed from a filled, especially stable 3s² subshell.",
+            "Mg's first ionization removes a 3s electron. A 3s electron penetrates closer to the nucleus than a 3p electron in the same shell, so it is lower in energy and more strongly attracted to the nucleus.",
             "Al's highest-energy electron is removed from the 3p¹ subshell, which is higher in energy than 3s and experiences some additional shielding from the 3s² electrons beneath it.",
             "This combination of higher starting orbital energy and slightly greater shielding makes Al's outermost electron easier to remove than Mg's, despite Al's larger nuclear charge — a well-known exception to the general 'IE increases across a period' trend.",
             "Full credit requires explicitly referencing both the subshell (s vs. p) difference and the shielding/energy reasoning, not just stating that 'it's an exception' without justification."
@@ -9993,9 +9993,9 @@ const FRQ_CONTENT = {
           "ask": "A student claims that the peak with relative height 6 must represent the valence electrons, since it is the tallest peak. Explain what is incorrect about this claim.",
           "steps": [
             "Peak height reflects the number of electrons in a subshell, not whether that subshell is the valence (outermost) shell.",
-            "The valence electrons are identified by which peak has the lowest binding energy — i.e., the peak farthest to the right — which in this spectrum is the final peak (height 4, corresponding to 3p), not the tallest peak.",
+            "The valence electrons are those in the outermost shell (n = 3), which are the peaks with the lowest binding energies: the 3s peak (height 2) and the 3p peak (height 4), giving sulfur 6 valence electrons. Neither of these is the tallest peak.",
             "The tallest peak (height 6) corresponds to the filled 2p subshell, which is a core (non-valence) subshell in this atom, since it lies underneath the occupied n=3 shell.",
-            "Full credit requires explicitly distinguishing 'tallest peak' (most electrons in a subshell) from 'rightmost peak' (lowest binding energy, valence electrons) as two separate, unrelated properties of the graph."
+            "Full credit requires explicitly distinguishing peak height (number of electrons in a subshell) from binding energy (how tightly held the electrons are, which tells core vs valence): the valence electrons are the lowest-binding-energy peaks of the n = 3 shell (3s and 3p), while the tallest peak is the core 2p subshell."
           ]
         }
       ]
@@ -10020,8 +10020,8 @@ const FRQ_CONTENT = {
           "ask": "Given that X forms only a 2+ ion, propose a reasonable identity for X and justify your choice using its position on the periodic table.",
           "steps": [
             "A Period 4 metal that reliably forms only a 2+ ion is most consistent with a Group 2 element, such as calcium (Ca), since Group 2 elements have exactly 2 valence electrons and reliably lose both to reach a noble gas configuration.",
-            "Unlike many transition metals, Group 2 elements don't show variable oxidation states, since there's no partially-filled d-subshell to complicate ion formation — losing both valence electrons and stopping there is the single strongly favored outcome.",
-            "Full credit accepts calcium or another justified Group 2 element, as long as the reasoning correctly connects 'forms only one consistent ionic charge' to 'main-group element with a small, fixed number of valence electrons,' rather than a transition metal."
+            "Group 2 elements do not show variable oxidation states: after losing the two 4s electrons the ion has a noble-gas configuration, and removing a third (core) electron costs far too much energy. (Zinc is also a correct answer: Zn loses its two 4s electrons and keeps a completely filled 3d¹⁰ subshell, so Zn²⁺ is its only common ion. Most other Period 4 transition metals, such as Fe or Cu, form more than one ion.)",
+            "Full credit accepts calcium (Group 2) or zinc, with reasoning that connects the single 2+ charge to losing exactly the two 4s valence electrons and stopping at a stable configuration (noble-gas core for Ca, filled 3d¹⁰ for Zn)."
           ]
         },
         {
@@ -10087,7 +10087,8 @@ const FRQ_CONTENT = {
           "steps": [
             "Total valence electrons: S(6) + 4×F(7) = 34.",
             "4 S-F single bonds use 8 electrons; remaining 26 electrons distributed as 3 lone pairs per F (24 electrons) and 1 lone pair on S (2 electrons).",
-            "Sulfur has 1 lone pair in the correct structure."
+            "Sulfur has 1 lone pair in the correct structure.",
+            "Full credit requires a structure with 34 valence electrons, four S–F single bonds, three lone pairs on each F, and one lone pair on S (sulfur has an expanded octet of 10 electrons)."
           ]
         },
         {
@@ -10176,7 +10177,8 @@ const FRQ_CONTENT = {
           "steps": [
             "Total valence electrons: N(5) + 3×F(7) = 5 + 21 = 26.",
             "3 N-F single bonds use 6 electrons; remaining 20 electrons distributed as 3 lone pairs per F (18 electrons) and 1 lone pair on N (2 electrons).",
-            "Nitrogen has 1 lone pair in the correct structure."
+            "Nitrogen has 1 lone pair in the correct structure.",
+            "Full credit requires a structure with 26 valence electrons, three N–F single bonds, three lone pairs on each F, and one lone pair on N, so every atom has an octet."
           ]
         },
         {
@@ -10184,7 +10186,8 @@ const FRQ_CONTENT = {
           "ask": "Determine the electron geometry, molecular geometry, and hybridization of the central nitrogen.",
           "steps": [
             "Nitrogen has 4 total electron groups (3 bonding + 1 lone pair): tetrahedral electron geometry, sp³ hybridization.",
-            "With 3 bonded atoms and 1 lone pair occupying one tetrahedral position, the molecular geometry is trigonal pyramidal (the same shape as NH₃, since both have an identical electron-group arrangement)."
+            "With 3 bonded atoms and 1 lone pair occupying one tetrahedral position, the molecular geometry is trigonal pyramidal (the same shape as NH₃, since both have an identical electron-group arrangement).",
+            "Full credit requires all three answers: tetrahedral electron geometry, trigonal pyramidal molecular geometry, and sp³ hybridization, each tied to the four electron groups (three bonds, one lone pair) on N."
           ]
         },
         {
@@ -10231,7 +10234,7 @@ const FRQ_CONTENT = {
       "id": "frq-3-2",
       "source": "Original",
       "title": "Ideal Gas Law and Molar Mass Determination",
-      "prompt": "A 0.250 g sample of an unknown volatile liquid is vaporized completely in a 250.0 mL flask at 1.00 atm and 373 K.",
+      "prompt": "A 0.250 g sample of an unknown gaseous compound completely fills a 250.0 mL flask at 1.00 atm and 373 K.",
       "parts": [
         {
           "label": "(a)",
@@ -10254,7 +10257,8 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Based on the calculated molar mass, propose a plausible molecular formula for this compound if it is known to contain only carbon and hydrogen, and justify your choice.",
           "steps": [
-            "A molar mass of about 30.6 g/mol is very close to C₂H₆ (ethane, molar mass 30.07 g/mol), which fits both the numerical value and the constraint of containing only C and H.",
+            "Hydrocarbons near 30 g/mol: CH₄ = 16.04, C₂H₂ = 26.04, C₂H₄ = 28.05, C₂H₆ = 30.07 g/mol. Only C₂H₆ (ethane) is within about 2% of 30.6 g/mol, and a C₂ compound cannot hold more than 6 H, so the compound is C₂H₆.",
+            "Full credit requires C₂H₆ with its molar mass (30.07 g/mol) compared to the calculated value of 30.6 g/mol.",
             "Full credit accepts C₂H₆ or another chemically reasonable formula with a calculated molar mass close to 30.6 g/mol, as long as the reasoning explicitly connects the numerical match to the proposed formula."
           ]
         }
@@ -10287,9 +10291,9 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Describe the correct laboratory procedure for preparing this diluted solution using a volumetric flask.",
           "steps": [
-            "Measure 37.5 mL of the 2.00 M stock solution using a graduated cylinder or volumetric pipet.",
+            "Measure 37.5 mL of the 2.00 M stock solution with a buret (or a graduated pipet), which can deliver this volume to ±0.05 mL. A graduated cylinder is not precise enough, and volumetric pipets come only in fixed sizes such as 25 mL or 50 mL.",
             "Transfer this volume into a 500.0 mL volumetric flask.",
-            "Add distilled water gradually up to the calibration mark on the flask, mixing thoroughly, being careful to reach the mark exactly (not overshoot).",
+            "Add distilled water until the flask is about half full and swirl, then add water slowly (dropwise near the end) until the bottom of the meniscus sits on the calibration mark. Stopper the flask and invert it several times to mix completely.",
             "Full credit requires mentioning the volumetric flask specifically (for volume precision) and the correct order of operations (stock solution first, then dilute to the mark), not simply 'add water to the stock solution.'"
           ]
         }
@@ -10455,31 +10459,31 @@ const FRQ_CONTENT = {
       "id": "frq-4-2",
       "source": "Original",
       "title": "Stoichiometry and Limiting Reactant",
-      "prompt": "Aluminum reacts with excess hydrochloric acid according to the equation 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g). A student reacts 5.40 g of Al (molar mass 26.98 g/mol) with 200.0 mL of 3.00 M HCl.",
+      "prompt": "Aluminum reacts with hydrochloric acid according to the equation 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g). A student reacts 5.40 g of Al (molar mass 26.98 g/mol) with 200.0 mL of 2.50 M HCl.",
       "parts": [
         {
           "label": "(a)",
           "ask": "Determine the limiting reactant.",
           "steps": [
-            "Moles Al = 5.40/26.98 = 0.2002 mol. Moles HCl = 3.00 × 0.2000 = 0.600 mol.",
-            "Divide by coefficients: Al: 0.2002/2 = 0.1001; HCl: 0.600/6 = 0.100.",
-            "The values are essentially equal (0.1001 vs 0.100), meaning the reactants are present in almost exactly stoichiometric proportion — but since HCl's value is marginally smaller, HCl is technically the limiting reactant.",
-            "Full credit requires the coefficient-dividing method shown explicitly, with a reasonable conclusion given how close the two values are."
+            "Moles Al = 5.40 g ÷ 26.98 g/mol = 0.200 mol. Moles HCl = 2.50 mol/L × 0.2000 L = 0.500 mol.",
+            "Divide each by its coefficient: Al: 0.200/2 = 0.100; HCl: 0.500/6 = 0.0833.",
+            "HCl gives the smaller value, so HCl is the limiting reactant and Al is in excess. Check: 0.200 mol Al would need 0.200 × (6/2) = 0.600 mol HCl, but only 0.500 mol HCl is present.",
+            "Full credit requires moles of both reactants and a correct comparison (dividing by coefficients, or comparing the HCl needed with the HCl available), concluding that HCl is limiting."
           ]
         },
         {
           "label": "(b)",
           "ask": "Calculate the theoretical yield of H₂ gas, in moles.",
           "steps": [
-            "Using HCl as limiting (or Al, given how close the values are, either should earn credit if methodology is consistent): moles H₂ = 0.600 mol HCl × (3 mol H₂ / 6 mol HCl) = 0.300 mol H₂.",
+            "Moles H₂ = 0.500 mol HCl × (3 mol H₂ / 6 mol HCl) = 0.250 mol H₂.",
             "Full credit requires using the limiting reactant identified in part (a) and the correct mole ratio (3 H₂ : 6 HCl, reducible to 1:2)."
           ]
         },
         {
           "label": "(c)",
-          "ask": "If only 0.271 mol of H₂ is actually collected, calculate the percent yield.",
+          "ask": "If only 0.226 mol of H₂ is actually collected, calculate the percent yield.",
           "steps": [
-            "% yield = (actual/theoretical) × 100 = (0.271/0.300) × 100 = 90.3%.",
+            "% yield = (actual/theoretical) × 100 = (0.226 mol / 0.250 mol) × 100 = 90.4%.",
             "Full credit requires correctly using the theoretical yield calculated in part (b), not a re-derived or different value."
           ]
         }
@@ -10599,7 +10603,7 @@ const FRQ_CONTENT = {
       "id": "frq-5-1",
       "source": "Original",
       "title": "Determining Rate Law from Initial Rates Data",
-      "prompt": "The reaction 2ClO₂(aq) + 2OH⁻(aq) → ClO₃⁻(aq) + ClO₂⁻(aq) + H₂O(l) was studied, giving the data: Trial 1: [ClO₂]=0.060, [OH⁻]=0.030, rate=0.0248. Trial 2: [ClO₂]=0.020, [OH⁻]=0.030, rate=0.00276. Trial 3: [ClO₂]=0.020, [OH⁻]=0.090, rate=0.00828.",
+      "prompt": "The reaction 2ClO₂(aq) + 2OH⁻(aq) → ClO₃⁻(aq) + ClO₂⁻(aq) + H₂O(l) was studied, giving the data: Trial 1: [ClO₂] = 0.060 M, [OH⁻] = 0.030 M, rate = 0.0248 M/s. Trial 2: [ClO₂] = 0.020 M, [OH⁻] = 0.030 M, rate = 0.00276 M/s. Trial 3: [ClO₂] = 0.020 M, [OH⁻] = 0.090 M, rate = 0.00828 M/s.",
       "parts": [
         {
           "label": "(a)",
@@ -10624,7 +10628,7 @@ const FRQ_CONTENT = {
           "ask": "Write the complete rate law and calculate k, including units, using Trial 1's data.",
           "steps": [
             "Rate law: Rate = k[ClO₂]²[OH⁻].",
-            "Solving for k using Trial 1: 0.0248 = k(0.060)²(0.030) = k(0.0036)(0.030) = k(1.08×10⁻⁴). k = 0.0248/1.08×10⁻⁴ = 230 M⁻²s⁻¹.",
+            "Solving for k using Trial 1: 0.0248 M/s = k(0.060 M)²(0.030 M) = k(1.08 × 10⁻⁴ M³). k = (0.0248 M/s)/(1.08 × 10⁻⁴ M³) = 2.3 × 10² M⁻² s⁻¹ (2 sig figs, limited by 0.060 and 0.030).",
             "Full credit requires correct rate law construction from parts (a) and (b), correct substitution, and correct units (M⁻²s⁻¹ for an overall third-order reaction)."
           ]
         }
@@ -10836,7 +10840,7 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Calculate the heat gained by the water.",
           "steps": [
-            "q(water) = mcΔT = (100.0)(4.184)(24.9−21.0) = (100.0)(4.184)(3.9) = 1631.8 J.",
+            "q(water) = mcΔT = (100.0 g)(4.184 J/g·°C)(24.9 − 21.0)°C = (100.0)(4.184)(3.9) = 1631.8 J. The subtraction 24.9 − 21.0 = 3.9 leaves only 2 significant figures, so q(water) = 1.6 × 10³ J (carry 1631.8 J unrounded into part (b)).",
             "Full credit requires correct ΔT direction (final − initial) and correct substitution."
           ]
         },
@@ -10846,7 +10850,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Heat lost by metal = −q(water) = −1631.8 J (conservation of energy in the isolated system).",
             "ΔT(metal) = 24.9 − 98.5 = −73.6°C.",
-            "c(metal) = q/(mΔT) = −1631.8/[(32.5)(−73.6)] = −1631.8/−2392.0 = 0.682 J/g·°C.",
+            "c(metal) = q/(mΔT) = −1631.8 J/[(32.5 g)(−73.6°C)] = −1631.8/−2392.0 = 0.682 J/g·°C, which rounds to 0.68 J/g·°C (2 sig figs, limited by the 3.9°C temperature change of the water).",
             "Full credit requires correctly using the negative q and negative ΔT for the metal (both signs must be consistent) and correct final division."
           ]
         },
@@ -10854,7 +10858,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Based on the calculated specific heat, suggest a plausible identity for the metal, and explain one source of experimental error that could affect this result.",
           "steps": [
-            "A specific heat around 0.682 J/g·°C doesn't closely match any single common tabulated metal — it falls in the gap between titanium (≈0.523 J/g·°C) and aluminum (≈0.897 J/g·°C); accept any reasonable metal identification with justification tied to the calculated value, or (preferably) an explicit acknowledgment that the value doesn't precisely match a common metal, which is itself a useful observation feeding into the experimental-error discussion below.",
+            "A specific heat of about 0.68 J/g·°C doesn't closely match any single common tabulated metal. It falls in the gap between titanium (≈0.523 J/g·°C) and aluminum (≈0.897 J/g·°C). Accept any reasonable metal identification justified by the calculated value, or (preferably) an explicit statement that the value doesn't precisely match a common metal, which is itself a useful observation that feeds into the experimental-error discussion below.",
             "A reasonable source of error: heat loss to the surrounding air/calorimeter walls (not perfectly insulated) would cause the water's measured temperature increase to be smaller than the true value, leading to an underestimated q(water) and therefore an underestimated specific heat for the metal.",
             "Full credit requires a specific, physically reasonable error source connected to its actual effect on the calculated result, not a vague statement like 'human error.'"
           ]
@@ -10881,8 +10885,8 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Calculate the heat released when 23.0 g of ethanol (molar mass 46.07 g/mol) is completely combusted.",
           "steps": [
-            "Moles of ethanol = 23.0/46.07 = 0.4993 mol.",
-            "Heat released = 0.4993 mol × 1366.8 kJ/mol = 682.4 kJ.",
+            "Moles of ethanol = 23.0 g / 46.07 g/mol = 0.4992 mol (0.49924 unrounded).",
+            "Heat released = 0.49924 mol × 1366.8 kJ/mol = 682.4 kJ, reported as 682 kJ (3 sig figs, from 23.0 g). Because ΔH°rxn is negative, q for the reaction is −682 kJ: 682 kJ is released to the surroundings.",
             "Full credit requires correct mole conversion and correct use of the ΔH°rxn value from part (a), scaled to the actual moles reacting."
           ]
         },
@@ -10917,7 +10921,7 @@ const FRQ_CONTENT = {
           "ask": "Is the reaction N₂(g) + O₂(g) → 2NO(g) exothermic or endothermic? Explain what this suggests about why NO is not typically formed in large amounts at low temperatures.",
           "steps": [
             "Since ΔH = +180.6 kJ (positive), the reaction is endothermic.",
-            "A significantly positive ΔH means this reaction requires substantial energy input to proceed favorably in the forward direction; at low temperatures, without that available energy, very little NO tends to form — this is consistent with NO formation becoming more significant only at very high temperatures, such as inside a car engine or during lightning strikes.",
+            "Because the forward reaction absorbs heat, heat acts like a reactant. At low temperature the equilibrium lies far toward N₂ and O₂ (K is extremely small), so very little NO forms. Raising the temperature shifts the equilibrium toward NO and increases K, which is why significant NO forms only at very high temperatures, such as inside a car engine or in a lightning strike. (The strong N≡N triple bond also gives a large activation energy, so the reaction is very slow at low temperature as well.)",
             "Full credit requires connecting the positive ΔH to the practical implication about low-temperature NO formation, not just stating 'endothermic' without that connection."
           ]
         },
@@ -10960,8 +10964,8 @@ const FRQ_CONTENT = {
           "ask": "Calculate the total heat required for the entire process (ice at −10.0°C to steam at 120.0°C), given that warming the liquid water from 0.0°C to 100.0°C requires 10,460 J, boiling it at 100.0°C requires 56,463 J, and warming the steam from 100.0°C to 120.0°C requires 1005 J.",
           "steps": [
             "Total q = q₁ + q₂ + q(warm liquid) + q(vaporize) + q(warm steam) = 522.5 + 8336 + 10,460 + 56,463 + 1005 = 76,786.5 J ≈ 76.8 kJ.",
-            "Full credit requires correctly summing all five distinct segments (two heating-within-a-phase steps use q=mcΔT with a different c each time; two phase-change steps use q=nΔH; ensuring none are skipped or double-counted).",
-            "This mirrors the shape of a full heating curve from Unit 3.3 — alternating between sloped (temperature-changing) segments and flat (phase-change) plateaus, with each segment requiring a different formula and different substance-specific constant."
+            "This mirrors the shape of a full heating curve: sloped segments (temperature changing within one phase, q = mcΔT with that phase's specific heat) alternate with flat plateaus (phase changes at constant temperature, q = nΔH). Note that the vaporization plateau (56,463 J) is by far the largest contribution, much larger than melting (8336 J), because separating molecules completely into the gas requires overcoming nearly all of the hydrogen bonding.",
+            "Full credit requires correctly summing all five distinct segments (three heating-within-a-phase steps use q = mcΔT with a different c each time; two phase-change steps use q = nΔH), with none skipped or double-counted, and a total of about 76.8 kJ."
           ]
         }
       ]
@@ -11066,7 +11070,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Does the change in part (b) also change the value of K? Explain, and contrast this with the effect of the change in part (a) on K.",
           "steps": [
-            "Yes, the temperature change in part (b) DOES change K — temperature is the only variable that actually changes K's numerical value, since the reaction shifting backward at higher temperature results in a genuinely different equilibrium ratio (a smaller K, favoring reactants more than before).",
+            "Yes, the temperature change in part (b) DOES change K. Temperature is the only factor that changes K's numerical value. For an exothermic reaction, K decreases as temperature increases, so at the higher temperature the old equilibrium mixture now has Q > K, and the backward shift described in part (b) is the system moving to the new, smaller K (favoring reactants more than before).",
             "In contrast, the concentration change in part (a) shifts the equilibrium POSITION (the specific concentrations present) but does NOT change K itself — K remains the same value both before and after the new equilibrium is established.",
             "Full credit requires explicitly contrasting these two effects (position vs. K value) and correctly attributing the K-changing effect only to temperature."
           ]
@@ -11272,7 +11276,7 @@ const FRQ_CONTENT = {
           "ask": "Predict, without recalculating, whether percent ionization would increase or decrease if the solution were diluted to 0.0250 M, and explain why.",
           "steps": [
             "Percent ionization would increase upon dilution.",
-            "Diluting shifts the equilibrium according to Le Chatelier's Principle: with fewer total particles per unit volume, the system shifts toward the side with MORE total dissolved particles (ionized products, H⁺ and A⁻) to partially counteract the concentration decrease — this is a general trend for weak electrolytes, where percent ionization increases as concentration decreases.",
+            "Diluting the solution tenfold lowers [H⁺], [A⁻] and [HA] each by a factor of 10 at the instant of dilution, so Q = [H⁺][A⁻]/[HA] drops by a factor of 10 (two concentrations on top, one on bottom) and Q < K<sub>a</sub>. The equilibrium shifts forward, ionizing a larger fraction of the acid. In Le Chatelier terms, the system shifts toward the side with more dissolved particles (H⁺ and A⁻) to partly offset the dilution. Percent ionization of a weak electrolyte therefore increases as its concentration decreases (here, to about 2.3% at 0.0250 M).",
             "Full credit requires connecting this prediction to Le Chatelier's Principle explicitly, not just stating the trend as a memorized fact."
           ]
         }
@@ -11393,9 +11397,9 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Calculate the pH of the pure 0.100 M HF solution (without NaF).",
           "steps": [
-            "ICE: x²/(0.100−x) = 6.8×10⁻⁴. Since Ka is relatively large compared to typical weak acids, check if the simplifying assumption is likely to hold; using the quadratic due to the relatively large Ka: x² + 6.8×10⁻⁴x − 6.8×10⁻⁵ = 0.",
-            "Using the quadratic formula: x = [−6.8×10⁻⁴ + √((6.8×10⁻⁴)² + 4(6.8×10⁻⁵))]/2 = [−6.8×10⁻⁴ + √(4.62×10⁻⁷+2.72×10⁻⁴)]/2 ≈ [−6.8×10⁻⁴+0.01652]/2 ≈ 0.00792 M.",
-            "pH = −log(0.00792) = 2.10.",
+            "ICE: HF ⇌ H⁺ + F⁻; equilibrium 0.100 − x, x, x, so K<sub>a</sub> = x²/(0.100 − x) = 6.8 × 10⁻⁴. Testing the simplification: x ≈ √(0.100 × 6.8 × 10⁻⁴) = 8.2 × 10⁻³ M, which is 8.2% of 0.100 M (more than 5%), so the approximation fails and the quadratic is needed: x² + 6.8 × 10⁻⁴x − 6.8 × 10⁻⁵ = 0.",
+            "Using the quadratic formula: x = [−6.8 × 10⁻⁴ + √((6.8 × 10⁻⁴)² + 4(6.8 × 10⁻⁵))]/2 = [−6.8 × 10⁻⁴ + √(4.62 × 10⁻⁷ + 2.72 × 10⁻⁴)]/2 = [−6.8 × 10⁻⁴ + 0.01651]/2 = 0.00791 M = [H⁺].",
+            "pH = −log(0.00791) = 2.10.",
             "Full credit requires recognizing the need for the full quadratic formula (given HF's relatively large Ka) and correctly solving it, though reasonable credit is given for a correctly-labeled simplified approach if the check is shown."
           ]
         },
@@ -11442,7 +11446,7 @@ const FRQ_CONTENT = {
           "steps": [
             "ΔpH for the buffer = 4.92 − 4.74 = 0.18, a relatively small change.",
             "In pure water, adding 0.100 mol NaOH to 1.00 L directly gives [OH⁻] = 0.100 M, pOH = 1.00, pH = 13.00 — an enormous change from water's neutral starting pH of 7.00 (a change of 6.00 pH units).",
-            "This dramatic contrast (0.18 vs. 6.00 pH unit change) directly illustrates the buffer's function: the weak acid component absorbs the added strong base by converting it into more weak acid's conjugate base, rather than allowing free OH⁻ to accumulate and directly spike the pH.",
+            "This dramatic contrast (0.18 vs. 6.00 pH units) shows the buffer's function: the weak acid CH₃COOH neutralizes the added OH⁻ (CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O), turning a strong base into water and a weak base. Free OH⁻ does not accumulate, and because pH depends on the ratio [CH₃COO⁻]/[CH₃COOH], which changes only from 1.00 to 1.50, the pH barely moves.",
             "Full credit requires calculating both scenarios explicitly and drawing the direct numerical comparison, not just stating that buffers resist pH change in the abstract."
           ]
         }
@@ -11458,7 +11462,7 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Explain why Ka₁ is significantly larger than Ka₂ for this diprotic acid.",
           "steps": [
-            "Ka₁ governs removal of the first proton from neutral H₂C₂O₄, requiring only enough energy to overcome normal covalent bond strength.",
+            "Ka₁ governs removal of the first proton from neutral H₂C₂O₄. The molecule has no net charge, so the departing H⁺ is not held back by any extra electrostatic attraction, and the resulting anion HC₂O₄⁻ carries only a 1− charge.",
             "Ka₂ governs removal of the second proton from HC₂O₄⁻, a species that is already negatively charged; removing a positively-charged H⁺ from an already-negative ion requires overcoming additional electrostatic attraction between the departing proton and the negative charge, making this second ionization significantly more difficult (smaller Ka₂).",
             "Full credit requires this explicit electrostatic-attraction reasoning connecting the charge of the intermediate species to the reduced ease of the second ionization."
           ]
@@ -11529,7 +11533,7 @@ const FRQ_CONTENT = {
           "steps": [
             "An indicator should change color in a pH range that contains (or lies on the steep part of the curve around) the equivalence-point pH.",
             "Phenolphthalein (8.2–10.0) contains the equivalence pH of 8.47, so it is the best choice.",
-            "Bromothymol blue changes color between pH 6.0 and 7.6, which is reached before the equivalence point (the solution is still a buffer of HA and A⁻ there), so the titration would be stopped too early.",
+            "Bromothymol blue changes color between pH 6.0 and 7.6, which is reached before the equivalence point, while the solution is still a buffer of HA and A⁻. At pH 6.0, [A⁻]/[HA] = 10^(6.0 − 4.20) ≈ 63, so about 98.4% of the acid has been neutralized: the color begins to change near 29.5 mL instead of 30.00 mL, and the endpoint is gradual rather than sharp, so the titration would be stopped too early.",
             "A too-small volume of NaOH would make the calculated moles of acid (and its concentration) too low.",
             "Full credit requires choosing phenolphthalein because its range brackets the equivalence pH, and stating that bromothymol blue would signal the endpoint before equivalence, giving a low result."
           ]
@@ -11616,7 +11620,7 @@ const FRQ_CONTENT = {
           "ask": "Calculate ΔG° for this reaction, using the correct value of n from the balanced equation.",
           "steps": [
             "From the balanced equation in part (a), n = 2 (2 electrons transferred overall).",
-            "ΔG° = −nFE°cell = −(2)(96,485)(0.62) = −119,641 J ≈ −119.6 kJ.",
+            "ΔG° = −nFE°cell = −(2 mol e⁻)(96,485 C/mol e⁻)(0.62 V) = −119,641 J ≈ −1.2 × 10² kJ (2 sig figs, limited by E°cell = 0.62 V). The negative ΔG° agrees with the positive E°cell: the reaction is thermodynamically favorable.",
             "Full credit requires correctly identifying n=2 from the balanced overall equation (not simply defaulting to the smaller half-reaction's coefficient) and correct final calculation."
           ]
         }

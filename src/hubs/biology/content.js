@@ -8347,7 +8347,7 @@ const FRQ_CONTENT = {
           "ask": "Explain, at the molecular level, why Sample C is not digestible by human enzymes even though it is built from the same monomer as Samples A and B.",
           "steps": [
             "State that all three are made of glucose monomers, so the difference is not about the identity of the monomer itself.",
-            "Explain that the glycosidic bond geometry (the specific orientation of the linkage between glucose units) differs in cellulose compared to starch and glycogen.",
+            "The difference is the glycosidic linkage. Starch and glycogen are built from α-glucose joined by α-1,4 linkages (with α-1,6 linkages at branch points), while cellulose is built from β-glucose joined by β-1,4 linkages, in which every other glucose is flipped 180° relative to its neighbor.",
             "Cellulose's linkage geometry produces long, straight chains that hydrogen-bond tightly to neighboring chains, forming rigid fibers.",
             "Human digestive enzymes (like amylase) are shaped to recognize and cleave the specific bond geometry found in starch and glycogen, but do not have an active site shaped to bind and break cellulose's bond geometry — so cellulose passes through undigested.",
             "This is a direct application of the structure-function theme: full credit requires explaining WHY the enzyme can't act (shape/geometry mismatch), not just restating that the bonds are 'different.'"
@@ -8503,7 +8503,7 @@ const FRQ_CONTENT = {
           "ask": "Predict which cell type, the bacterium or the amoeba, has the more favorable surface area-to-volume ratio for efficient exchange with its environment, and justify your prediction using the size difference given.",
           "steps": [
             "Prediction: the bacterium (2 μm diameter) has the more favorable (higher) surface area-to-volume ratio.",
-            "Justification: because the amoeba is 100 times larger in diameter, its volume has increased by a factor related to the cube of that difference, far outpacing its surface area increase (related to the square of that difference).",
+            "Justification: for a sphere, SA:V = 4πr² ÷ (4/3)πr³ = 3/r = 6/d. Bacterium: 6 ÷ 2 μm = 3 μm⁻¹. Amoeba: 6 ÷ 200 μm = 0.03 μm⁻¹. The amoeba is 100 times wider, so its surface area is 100² = 10,000 times larger but its volume is 100³ = 1,000,000 times larger, leaving it with an SA:V ratio 100 times smaller than the bacterium's.",
             "As a result, the amoeba has proportionally much less membrane surface available per unit of internal volume than the bacterium does, making the bacterium's ratio far more favorable for efficient exchange.",
             "Full credit requires connecting the specific size difference given in the prompt to the general scaling principle from part (a), not just restating that smaller cells have better ratios in the abstract."
           ]
@@ -8512,8 +8512,8 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Based on your answer to part (b), predict one structural adaptation you might expect to find in the amoeba that would NOT be necessary in the much smaller bacterium, and explain how it addresses the amoeba's SA:V challenge.",
           "steps": [
-            "A reasonable prediction: extensive folding of the amoeba's plasma membrane (increasing effective surface area), or a highly branched/compartmentalized internal structure to reduce the effective diffusion distance within the cell.",
-            "Explanation: membrane folding increases the amoeba's available surface area for exchange without requiring the cell to shrink, directly counteracting its otherwise unfavorable SA:V ratio.",
+            "A reasonable prediction: extensive internal membrane-bound compartments (endoplasmic reticulum, Golgi, mitochondria with folded inner membranes, food vacuoles), or cytoplasmic streaming that actively moves materials through the large cell. Folds or projections of the plasma membrane (such as pseudopodia) are also acceptable.",
+            "Explanation: internal membranes add a very large membrane surface where reactions and transport happen, and they divide the huge volume into small compartments, so materials need not diffuse across the whole 200 μm cell. Cytoplasmic streaming does the same job by moving materials in bulk instead of relying on slow diffusion. Membrane projections such as pseudopodia raise the outer surface area without shrinking the cell. Each of these offsets the amoeba's low SA:V ratio, a problem the 2 μm bacterium does not have.",
             "Full credit requires a structurally specific, plausible adaptation (not a vague 'the cell adapts somehow') and an explanation connecting that adaptation back to the SA:V problem identified in part (b)."
           ]
         }
@@ -8550,7 +8550,7 @@ const FRQ_CONTENT = {
           "steps": [
             "The second protein represents active transport, since X⁺ is being moved against its concentration gradient — out of the cell, from lower internal concentration to higher external concentration.",
             "Moving a substance against its gradient is energetically unfavorable, unlike the first (passive) case, so this process requires an external energy input.",
-            "ATP hydrolysis provides that energy, allowing the protein to do the work needed to move X⁺ against the concentration gradient it would otherwise passively follow.",
+            "ATP hydrolysis supplies the energy: the pump transfers a phosphate from ATP to itself, and this phosphorylation changes the protein's shape so that its X⁺ binding site opens to the outside and loses its affinity for X⁺, releasing the ion against its gradient. The first protein is a channel that never changes shape this way and simply lets X⁺ flow down its gradient.",
             "Full credit requires explicitly contrasting this mechanism with the first protein's (passive, no ATP, down-gradient, moving into the cell) and explaining the underlying energetic reason ATP becomes necessary specifically when movement opposes the gradient."
           ]
         }
@@ -8622,7 +8622,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "A classmate argues that finding a double membrane alone is sufficient evidence to confirm endosymbiotic origin, without needing the other three observations. Evaluate this argument.",
           "steps": [
-            "The argument is not well-supported: a double membrane alone is suggestive but not conclusive, since other cellular structures can plausibly form double membranes through different mechanisms (such as internal membrane budding processes).",
+            "The argument is not well-supported: a double membrane alone is suggestive but not conclusive. The nucleus, for example, is enclosed by a double membrane (the nuclear envelope) but did not arise by endosymbiosis, so a double membrane can form in other ways.",
             "The strength of the endosymbiotic hypothesis comes specifically from the CONVERGENCE of multiple independent lines of evidence (double membrane, own DNA, own ribosomes, independent division) all pointing toward the same conclusion — no single piece of evidence alone would be considered as strong.",
             "Full credit requires taking an explicit stance (the argument is not well-supported) and explaining why converging multiple evidence lines is scientifically stronger than relying on a single observation, mirroring how released FRQs reward evidence-based evaluation of claims."
           ]
@@ -8751,8 +8751,8 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Explain why protein synthesis, described as strongly endergonic, would not occur spontaneously without an external energy input.",
           "steps": [
-            "An endergonic reaction is one in which the products have more stored energy than the reactants, meaning the reaction requires a net energy input to proceed.",
-            "Without an external energy source, an endergonic reaction would not occur spontaneously, since spontaneous processes proceed toward lower energy states, not higher ones.",
+            "An endergonic reaction has a positive free-energy change (ΔG > 0): the products have more free energy than the reactants. Joining amino acids by peptide bonds (dehydration synthesis) is uphill in water, and assembling them into one specific, ordered sequence decreases entropy, so ΔG is strongly positive.",
+            "A reaction proceeds spontaneously only if it lowers the system's free energy (ΔG < 0). Because protein synthesis would raise free energy, it will not happen on its own; it needs to be coupled to a source of free energy.",
             "Full credit requires explaining WHY endergonic reactions don't proceed spontaneously (energy requirement/direction), not just restating that they are endergonic."
           ]
         },
@@ -8760,8 +8760,8 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Explain how ATP hydrolysis allows this endergonic process to proceed within the cell.",
           "steps": [
-            "ATP hydrolysis is exergonic, releasing energy as the bond to ATP's terminal phosphate is broken.",
-            "By coupling ATP hydrolysis to the endergonic process of protein synthesis, the energy released by the exergonic reaction offsets the energy required by the endergonic reaction.",
+            "ATP hydrolysis (ATP + H<sub>2</sub>O → ADP + P<sub>i</sub>) is exergonic, ΔG ≈ −30 kJ/mol under standard conditions. Energy is released because the products are more stable than ATP (less repulsion among the negatively charged phosphates and better stabilization of P<sub>i</sub>), not because breaking a bond releases energy; breaking any bond takes energy.",
+            "Coupling works through a shared intermediate: ATP transfers part of itself to a reactant, usually a phosphate group (phosphorylation), forming a less stable, higher-energy intermediate. In protein synthesis, for example, ATP activates each amino acid by attaching it to AMP before the amino acid is loaded onto its tRNA. That intermediate then reacts in a step that is exergonic, so the energy released by ATP hydrolysis offsets the energy the endergonic step needs.",
             "The combined, coupled reaction becomes net energetically favorable overall, allowing the otherwise unfavorable protein synthesis to proceed.",
             "Full credit requires explicitly describing the coupling mechanism (pairing exergonic and endergonic reactions) rather than vaguely stating that 'ATP provides energy.'"
           ]
@@ -8807,9 +8807,9 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "A researcher claims that condition 2 demonstrates the Calvin cycle is not truly 'light-independent,' despite its name. Evaluate this claim using your answer to part (b).",
           "steps": [
-            "The claim has merit and is reasonably well-supported: while the Calvin cycle's own individual steps don't directly use light energy (which is technically true, and the origin of the name), the data in condition 2 shows that Calvin cycle activity is disrupted by low CO2 in a way that, in turn, disrupts the light-dependent reactions — demonstrating that the two processes are tightly interdependent overall.",
-            "A well-reasoned response acknowledges both the narrow technical accuracy of the name (individual Calvin cycle steps don't use light directly) and the broader inaccuracy of treating the two processes as truly independent systems, given how closely their outputs and inputs are linked.",
-            "Full credit requires an explicit, nuanced evaluation (not simply agreeing or disagreeing) that distinguishes the literal/technical claim from the practical, systems-level reality — mirroring the kind of evidence-based claim evaluation rewarded throughout the released FRQs."
+            "The claim is partly right but condition 2 is the wrong evidence for it. Condition 2 shows the reverse dependence: the light-dependent reactions stop when the Calvin cycle stops, because they run out of ADP, P<sub>i</sub> and NADP⁺. It does not show that the Calvin cycle needs light.",
+            "The claim is still reasonable on other grounds: the Calvin cycle uses no light directly (hence the name 'light-independent'), but it consumes the ATP and NADPH made by the light-dependent reactions. In the dark, those run out within seconds to minutes and CO<sub>2</sub> fixation stops. Evidence for this would be CO<sub>2</sub> uptake stopping in condition 3, which this experiment did not measure (it measured only O<sub>2</sub>).",
+            "Full credit takes a clear position (the conclusion that the Calvin cycle depends on light is reasonable, but condition 2 does not demonstrate it), correctly attributes what condition 2 shows (the light-dependent reactions depend on the Calvin cycle), and explains that the Calvin cycle depends on light only indirectly, through the ATP and NADPH the light-dependent reactions supply; the name means only that no Calvin cycle step uses light directly."
           ]
         }
       ]
@@ -8894,7 +8894,7 @@ const FRQ_CONTENT = {
       "id": "frq-3-6",
       "source": "Original",
       "title": "Enzyme Regulation via Feedback Inhibition in a Biosynthetic Pathway",
-      "prompt": "A five-step metabolic pathway converts starting molecule A into final product E, through intermediates B, C, and D, each conversion catalyzed by a different enzyme (Enzyme 1 through Enzyme 4). Researchers find that high concentrations of product E inhibit Enzyme 1 (which catalyzes the very first step, A to B), but do not directly affect Enzymes 2, 3, or 4.",
+      "prompt": "A four-step metabolic pathway converts starting molecule A into final product E, through intermediates B, C, and D, each conversion catalyzed by a different enzyme (Enzyme 1 through Enzyme 4). Researchers find that high concentrations of product E inhibit Enzyme 1 (which catalyzes the very first step, A to B), but do not directly affect Enzymes 2, 3, or 4.",
       "parts": [
         {
           "label": "(a)",
@@ -9067,9 +9067,9 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Based on your calculations, explain why a relatively small, single-step change in a signal transduction pathway (like the one described) can have a disproportionately large effect on the pathway's total output.",
           "steps": [
-            "Because each step in a multi-step amplifying pathway multiplies the effect of the previous step, a reduction at any single step doesn't just subtract a fixed amount from the final output — it multiplies through all of the SUBSEQUENT steps as well, compounding the reduction.",
-            "As shown in parts (a) and (b), reducing just one step's amplification factor from 10-fold to 1-fold (a change affecting only that single step directly) resulted in a full 10-fold reduction in the pathway's total final output, since that change affected everything happening downstream of it.",
-            "Full credit requires explaining this multiplicative/compounding principle explicitly (not simply restating that the numbers are different), demonstrating an understanding of why amplifying cascades are especially sensitive to disruption at any individual step, particularly steps occurring early in the pathway."
+            "Because the final output is the product of every step's amplification factor (10 × 10 × 10 = 1,000), a change at any single step does not subtract a fixed amount from the output; it scales the entire output by the same factor. Reducing one step's factor 10-fold therefore reduces the final output 10-fold.",
+            "As shown in parts (a) and (b), reducing just one step's amplification factor from 10-fold to 1-fold (10 × 1 × 10 = 100) cut the total output from 1,000 to 100. The step lost only 90 activated Enzyme B molecules, but the final output lost 900 target proteins, because every molecule lost at that step would have been multiplied by the later steps.",
+            "Full credit requires explaining the multiplicative principle explicitly (final output = product of every step's amplification factor), not just restating that the numbers differ. Note that in a purely multiplicative cascade the position of the change does not matter: dropping any one step from 10-fold to 1-fold, whether first, middle or last, cuts final output 10-fold (from 1,000 to 100)."
           ]
         }
       ]
@@ -9093,10 +9093,10 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Based on the results of Experiment 2, evaluate whether Molecule Z appears to function as an autocrine signal for its releasing cells under normal conditions.",
           "steps": [
-            "The results do not support Molecule Z functioning as a significant autocrine signal under NORMAL conditions.",
-            "When Molecule Z is prevented from accumulating near the releasing cells (via continuous fluid replacement), those cells show no self-directed response — but they DO still respond normally when Molecule Z is deliberately added back, showing the cells retain the receptor and downstream machinery needed to respond to it.",
-            "This pattern suggests that under normal physiological conditions, Molecule Z likely doesn't accumulate near its own releasing cells at a high enough concentration to trigger meaningful autocrine self-signaling — even though the cells are structurally CAPABLE of responding to it if concentration were high enough, as shown when it's added back experimentally.",
-            "Full credit requires distinguishing between the cells' underlying CAPABILITY to respond (which the data does support) and whether autocrine signaling actually OCCURS under normal conditions (which the data suggests it does not, absent artificial accumulation) — a subtle but important distinction to draw explicitly from the experimental design."
+            "Experiment 2 does not show that Molecule Z fails to act as an autocrine signal under normal conditions. Washing away the fluid creates an abnormal condition, preventing the local buildup that autocrine signaling depends on, so the absence of a self-response there is expected either way.",
+            "What the experiment does show: the releasing cells respond normally when Molecule Z is added back, so they have functional receptors and response machinery for Z. Cells that both release a signal and carry its receptor are capable of autocrine signaling.",
+            "To decide whether autocrine signaling actually occurs, the researchers would need a comparison culture in which the fluid is NOT replaced, so secreted Z can accumulate. A self-response in that culture, but not in the washed culture, would support autocrine signaling; no response in either would argue against it.",
+            "Full credit requires recognizing that Experiment 2 is inconclusive about normal autocrine signaling (the washing removes the condition being tested), that the add-back result shows the cells are capable of responding to their own signal, and that an unwashed control is needed to decide the question."
           ]
         },
         {
@@ -9116,14 +9116,14 @@ const FRQ_CONTENT = {
       "id": "frq-5-1",
       "source": "Original",
       "title": "Meiotic Errors and Nondisjunction Analysis",
-      "prompt": "A geneticist studies a family in which a child is born with an extra copy of a particular chromosome (trisomy). Karyotype analysis of the parents' gametes (using a technique that captures gamete chromosome content before fertilization) reveals that the mother produced an egg with two copies of the relevant chromosome, and genetic marker analysis confirms that both copies came from the SAME homologous chromosome (i.e., both copies are genetically identical sister chromatids, not one maternal-origin and one paternal-origin homolog).",
+      "prompt": "A geneticist studies a family in which a child is born with an extra copy of a particular chromosome (trisomy). DNA marker analysis of the child and both parents shows that the extra copy came from the mother: the child carries two maternal copies of that chromosome. At markers near the centromere, those two maternal copies are identical, meaning both are copies of the SAME one of the mother's two homologs (former sister chromatids), not one copy of the homolog she inherited from her mother plus one copy of the homolog she inherited from her father.",
       "parts": [
         {
           "label": "(a)",
           "ask": "Based on the genetic marker evidence described (both extra copies being identical sister chromatids, not one of each homolog), determine whether the nondisjunction event most likely occurred during Meiosis I or Meiosis II, and justify your answer.",
           "steps": [
             "Determination: the nondisjunction event most likely occurred during Meiosis II.",
-            "Justification: if nondisjunction had occurred during Meiosis I, the resulting extra chromosome copies in the egg would consist of one full homologous pair — one maternal-origin homolog and one paternal-origin homolog (each still made of two sister chromatids at that point) — genetically DISTINCT from each other.",
+            "Justification: if nondisjunction had occurred during Meiosis I, the two homologs would have failed to separate, so the egg would carry one copy of each of the mother's two DIFFERENT homologs (the one she inherited from her mother and the one she inherited from her father). Those two copies would differ at markers near the centromere.",
             "Since the evidence instead shows the two extra copies are identical sister chromatids (both copies of the SAME single homolog), this indicates that Meiosis I proceeded normally (correctly separating the two distinct homologs into different cells), and the error instead occurred during Meiosis II, when the sister chromatids of one already-separated homolog failed to split apart from each other.",
             "Full credit requires using the specific genetic evidence (identical sister chromatids, not distinct homologs) to justify the Meiosis II conclusion, not simply stating a division without justification."
           ]
@@ -9180,7 +9180,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Based on the recombination frequency calculated in part (b), what can be concluded about the relative physical distance between the seed shape and seed color genes on their shared chromosome?",
           "steps": [
-            "A recombination frequency of approximately 11.2% suggests the two genes are moderately close together on the same chromosome — closer than genes with recombination frequencies approaching 50% (which would behave as essentially unlinked), but not as tightly linked as genes with recombination frequencies below 5%.",
+            "A recombination frequency of about 11.2% corresponds to roughly 11 map units (centimorgans) between the genes (1% recombination = 1 map unit). The genes are fairly close on the same chromosome: farther apart than genes with recombination frequencies below about 5%, but much closer than genes near 50%, which behave as if unlinked.",
             "Full credit requires connecting the specific calculated recombination frequency value to a reasonable, proportionate statement about relative gene distance (not simply repeating the number without interpreting what it means for physical distance), demonstrating understanding of the recombination-frequency-to-distance relationship established earlier in the unit."
           ]
         }
@@ -9393,16 +9393,16 @@ const FRQ_CONTENT = {
           "steps": [
             "Comparison: the mutant sequence (Met-Ala-Arg-Gly) differs from the original (Met-Ala-His-Gly) at exactly one position — histidine has been replaced with arginine.",
             "Classification: this is a missense mutation.",
-            "Justification: a single nucleotide change (C to G at the relevant position) altered the codon from CAU (His) to CGU (Arg), resulting in one different amino acid being substituted into the protein, while the rest of the sequence (before and after this position) remains unchanged — this is the defining pattern of a missense mutation, as opposed to a silent mutation (no amino acid change) or nonsense mutation (premature stop codon)."
+            "Justification: a single nucleotide change (A to G at the second position of the third codon) altered the codon from CAU (His) to CGU (Arg), substituting one different amino acid while the rest of the sequence, before and after this position, remains unchanged. This is the defining pattern of a missense mutation, as opposed to a silent mutation (no amino acid change) or a nonsense mutation (premature stop codon)."
           ]
         },
         {
           "label": "(c)",
-          "ask": "Predict whether this specific missense mutation is more or less likely to significantly disrupt protein function, given that histidine and arginine are both classified as basic (positively charged) amino acids. Justify your prediction.",
+          "ask": "Predict whether this specific missense mutation is more or less likely to significantly disrupt protein function, given that histidine and arginine are both classified as basic amino acids (side chains that can carry a positive charge). Justify your prediction.",
           "steps": [
             "Prediction: this particular missense mutation is relatively LESS likely to significantly disrupt protein function, compared to a missense mutation substituting chemically very different amino acids (such as replacing a charged amino acid with a strongly hydrophobic one).",
-            "Justification: since histidine and arginine are both classified as basic (positively charged) amino acids — even though arginine's guanidinium side chain is notably larger and more complex than histidine's imidazole ring — this substitution is considered relatively 'conservative' — the new amino acid can often still participate in similar types of interactions (ionic bonds, hydrogen bonds) as the original, making it less likely to dramatically disrupt the protein's local structure or overall folding compared to a substitution introducing a chemically very different R-group.",
-            "Full credit requires connecting the shared basic (positively charged) classification of histidine and arginine to a reasoned prediction about functional impact, rather than simply asserting the mutation's severity without this structural/chemical reasoning — this reflects real principles used in predicting the likely impact of missense mutations in genetics and medicine."
+            "Justification: histidine and arginine are both basic, so this is a relatively conservative substitution. Arginine's side chain can still form ionic bonds and hydrogen bonds like histidine's, so local structure and folding are less likely to be badly disrupted than by, say, swapping in a hydrophobic residue. The caveat: arginine is larger and always positively charged, while histidine is mostly uncharged at pH 7.4 and often acts in active sites by gaining and losing H⁺. If this histidine is catalytic, even this conservative change could abolish activity.",
+            "Full credit requires connecting the shared basic classification of histidine and arginine (side chains that can carry a positive charge) to a reasoned prediction about functional impact, rather than simply asserting the mutation's severity without this structural/chemical reasoning — this reflects real principles used in predicting the likely impact of missense mutations in genetics and medicine."
           ]
         }
       ]
@@ -9427,7 +9427,7 @@ const FRQ_CONTENT = {
           "ask": "Explain why the operon shows its HIGHEST transcription level specifically under condition 4 (lactose present, glucose absent), rather than simply whenever lactose is present regardless of glucose levels (as seen by comparing conditions 2 and 4).",
           "steps": [
             "Lactose presence alone (removing the repressor block) is necessary but not fully sufficient for maximal transcription — the operon is also positively regulated based on glucose availability.",
-            "When glucose is scarce (as in condition 4), an additional regulatory protein (commonly, a molecule like CAP, activated when glucose is low) can bind and further enhance RNA polymerase's ability to transcribe the operon, on top of the repressor already being removed by lactose's presence.",
+            "When glucose is scarce (as in condition 4), the cell's cAMP level rises. cAMP binds the catabolite activator protein (CAP), and the CAP–cAMP complex binds a site just upstream of the lac promoter, helping RNA polymerase bind and start transcription. This boosts transcription on top of the repressor already being removed by lactose (allolactose).",
             "When glucose is abundant (as in condition 2), this positive-regulation signal is much weaker or absent, even though the repressor is still removed by lactose — resulting in comparatively lower transcription than condition 4, despite lactose being present in both cases.",
             "Full credit requires recognizing that lactose presence alone (via repressor removal) doesn't fully explain the DATA, and correctly reasoning toward an ADDITIONAL, glucose-dependent positive regulatory layer that specifically boosts transcription further when glucose is scarce — reflecting the biological logic that the cell preferentially uses glucose when available, only fully activating lactose metabolism when glucose is NOT an option."
           ]
@@ -9548,7 +9548,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "A researcher later resurveys the same population five years later and finds the recessive phenotype now appears in only 15% of the population, rather than the original 36%. Explain what this data suggests about the population, and identify at least one Hardy-Weinberg condition that may no longer be holding true.",
           "steps": [
-            "This data suggests the population is likely no longer in Hardy-Weinberg equilibrium — the significant shift in phenotype (and therefore allele) frequency over five years indicates some evolutionary force is acting on this population.",
+            "The white phenotype fell from 36% to 15% of the population. If the population were still in Hardy-Weinberg proportions, q would have fallen from √0.36 = 0.60 to √0.15 ≈ 0.39, a large change in five years. Either way the population is not stable at Hardy-Weinberg equilibrium: an evolutionary force is changing allele frequencies, or nonrandom mating is changing genotype frequencies (in which case q can no longer be found from the square root of the white-flower frequency).",
             "At least one Hardy-Weinberg condition is likely being violated. Plausible explanations include: natural selection (perhaps white flowers are less attractive to pollinators, or more vulnerable to some environmental stress, reducing their relative reproductive success); gene flow (migration of purple-flowered individuals into the population, or white-flowered individuals out of it); genetic drift (if the population size is actually small enough for random chance to meaningfully shift allele frequencies); or non-random mating (if pollinators show a preference correlating with flower color).",
             "Full credit requires explicitly connecting the observed allele/phenotype frequency SHIFT to a conclusion about the population no longer being in equilibrium, and proposing at least one specific, plausible violated condition with reasoning for why that mechanism could produce this particular observed shift."
           ]
@@ -9644,7 +9644,7 @@ const FRQ_CONTENT = {
           "ask": "Identify and describe the ADDITIONAL reproductive barrier revealed by the laboratory experiment, once the natural temporal barrier was artificially bypassed.",
           "steps": [
             "Identification: reduced hybrid viability, a postzygotic barrier.",
-            "Description: since successful fertilization DID occur in the laboratory setting (demonstrating that the temporal barrier was the only thing preventing natural mating, not some earlier prezygotic incompatibility), but the resulting hybrid offspring showed significantly reduced survival, this represents reduced hybrid viability, occurring after fertilization has already taken place.",
+            "Description: fertilization DID succeed in the lab, so the gametes are compatible (there is no gametic isolation). Because mating was artificially induced, the experiment cannot rule out other prezygotic barriers such as behavioral isolation. The hybrid tadpoles survived far less well than non-hybrid tadpoles, which is reduced hybrid viability, a barrier acting after fertilization.",
             "Full credit requires correctly identifying this SECOND, distinct barrier (reduced hybrid viability), correctly classifying it as postzygotic, and explaining how the experimental design (bypassing the first barrier) specifically revealed the existence of this second barrier."
           ]
         },
@@ -9678,9 +9678,9 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Based on the data given (including the X vs. Y comparison), evaluate whether X and Y are likely to be more closely related to EACH OTHER than either is to W, or less closely related to each other than to W.",
           "steps": [
-            "Evaluation: X and Y are likely LESS closely related to each other than X is to W, but X and Y still appear more closely related to each other than either is to Z or V.",
-            "Reasoning: X differs from W by only 2 amino acids (very close), while X differs from Y by 14 amino acids — since X and Y differ from each other by considerably more than X differs from W, this suggests X shares a more recent common ancestor specifically with W than with Y. However, since X-Y (14 differences) is still much smaller than W-Z (40) or W-V (45), X and Y still appear considerably more closely related to each other (and to W) than either is to Z or V.",
-            "Full credit requires the more nuanced conclusion (X is closer to W than to Y, but X-Y are still closer to each other than to Z/V), using the specific numerical comparisons given, rather than an oversimplified conclusion that doesn't account for all the relevant data provided."
+            "Evaluation: X and Y are NOT more closely related to each other than to W. X is much closer to W (2 differences) than to Y (14), and Y is about equally distant from W (15) and X (14).",
+            "Reasoning: W and X form a close pair that shares the most recent common ancestor. Y's nearly equal distances to W (15) and X (14) are exactly what is expected if Y split off before W and X diverged from each other: Y is equally related to both and is the outgroup to the W–X pair. The data give no X–Z, Y–Z, X–V or Y–V distances, so any comparison with Z or V can only be inferred from W's distances.",
+            "Full credit requires the correct conclusion (X is closer to W than to Y; Y is roughly equally related to W and X, so X and Y are not each other's closest relatives), supported by the specific numbers 2, 14 and 15."
           ]
         },
         {

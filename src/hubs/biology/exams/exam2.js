@@ -12,7 +12,7 @@ const EXAM = {
     "A phosphate group in place of the carboxyl group"
    ],
    "correct": 0,
-   "explanation": "Unsaturated fatty acids contain at least one C=C double bond, which bends the hydrocarbon chain. The kinks keep the molecules from packing tightly, so unsaturated fats such as oils are usually liquid at room temperature."
+   "explanation": "Correct: (A) One or more carbon–carbon double bonds that put kinks in its tail. A saturated fatty acid has only C–C single bonds, so its hydrocarbon tail is straight and holds the maximum number of hydrogens. An unsaturated fatty acid has at least one C=C double bond; a <i>cis</i> double bond puts a bend (kink) in the tail. The kinks keep neighboring tails from packing tightly, which weakens the attractions between molecules, so unsaturated fats such as olive oil are liquid at room temperature while saturated fats such as butter are solid.\n\n(B) is wrong because saturation is defined by the bonds, not the chain length, and it is the saturated tail, not the unsaturated one, that is straight and packs tightly.\n(C) is wrong because both kinds of fatty acid tails are long nonpolar hydrocarbon chains, so both are hydrophobic and neither dissolves easily in water.\n(D) is wrong because every fatty acid ends in a carboxyl group; a phosphate group belongs to a phospholipid's head, not to the fatty acid itself."
   },
   {
    "id": "be2-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "Apoptosis"
    ],
    "correct": 3,
-   "explanation": "Apoptosis is a regulated, orderly process of cell death that eliminates unneeded cells during development, such as the webbing between developing fingers. Necrosis is uncontrolled cell death caused by injury."
+   "explanation": "Correct: (D) Apoptosis. Apoptosis is programmed cell death: a regulated, orderly process in which caspase enzymes dismantle the cell from within, the cell shrinks and breaks into membrane-bound fragments, and neighboring phagocytes engulf the pieces without causing inflammation. During development it sculpts body parts, and the removal of the webbing between the fingers is the classic example. The stem's words \"programmed cell death\" are the definition of apoptosis.\n\n(A) is wrong because necrosis is uncontrolled cell death caused by injury, toxins or loss of blood supply; the cell swells and bursts and triggers inflammation, so it is not programmed.\n(B) is wrong because mitosis is nuclear division that makes new cells; it adds cells rather than removing the tissue between the fingers.\n(C) is wrong because meiosis is the reduction division that produces gametes in the gonads; it does not remove cells from developing tissues."
   },
   {
    "id": "be2-3",
@@ -38,7 +38,7 @@ const EXAM = {
     "Mitochondria originated from a prokaryote engulfed by an ancestral eukaryotic cell."
    ],
    "correct": 3,
-   "explanation": "The endosymbiotic theory proposes that mitochondria (and chloroplasts) were once free-living prokaryotes engulfed by a host cell. Their prokaryote-like DNA, ribosomes, and double membrane are evidence for this origin."
+   "explanation": "Correct: (D) Mitochondria originated from a prokaryote engulfed by an ancestral eukaryotic cell. The endosymbiotic theory proposes that mitochondria descend from free-living aerobic prokaryotes (related to alphaproteobacteria) that were engulfed by an ancestral host cell and kept as partners. Each feature in the stem matches a bacterium: circular DNA like a bacterial chromosome, 70S-type ribosomes like bacterial ribosomes, and a double membrane, the inner one from the original prokaryote and the outer one from the host's engulfing membrane. Mitochondria also divide by a fission-like process.\n\n(A) is wrong because a fold of the nuclear membrane would contain no DNA of its own and would not carry bacteria-like ribosomes or circular DNA.\n(B) is wrong because the endoplasmic reticulum makes membranes and proteins but cannot produce an organelle with its own circular genome and bacteria-like ribosomes.\n(C) is wrong because viruses have no ribosomes and no membranes of their own, so the bacterial features listed point to a prokaryote, not a virus."
   },
   {
    "id": "be2-4",
@@ -51,7 +51,7 @@ const EXAM = {
     "36"
    ],
    "correct": 2,
-   "explanation": "The six carbons of glucose are all released as CO₂: two from the conversion of pyruvate to acetyl CoA (two pyruvates) and four from the citric acid cycle, for a total of 6 CO₂."
+   "explanation": "Correct: (C) 6. Glucose has 6 carbons, and complete aerobic respiration oxidizes all of them to CO₂. Glycolysis releases no CO₂; it splits glucose into 2 pyruvate (3 C each). Pyruvate oxidation removes 1 CO₂ from each pyruvate, giving 2 CO₂ and 2 acetyl CoA. Each turn of the citric acid cycle releases 2 CO₂, and two turns give 4 CO₂. The total is 2 + 4 = 6 CO₂, which matches the equation C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O.\n\n(A) is wrong because 2 counts only the CO₂ released by pyruvate oxidation and leaves out the 4 CO₂ released by the two turns of the citric acid cycle.\n(B) is wrong because 4 counts only the citric acid cycle CO₂ and omits the 2 CO₂ lost when the two pyruvates are converted to acetyl CoA.\n(D) is wrong because 36 is an old estimate of the ATP yield per glucose, not the number of CO₂; a 6-carbon molecule can release at most 6 CO₂."
   },
   {
    "id": "be2-5",
@@ -64,7 +64,7 @@ const EXAM = {
     "Neither end of the strand"
    ],
    "correct": 0,
-   "explanation": "A DNA strand has directionality. The 5′ end has a phosphate group on the 5′ carbon of the sugar, and the 3′ end has a free hydroxyl group on the 3′ carbon. New nucleotides are added to the 3′ end."
+   "explanation": "Correct: (A) The 5′ end of the strand. A nucleotide's sugar carbons are numbered 1′ to 5′. In a DNA strand, the phosphate on one nucleotide's 5′ carbon bonds to the 3′ hydroxyl of the previous nucleotide, forming the sugar-phosphate backbone. This gives each strand a direction: the end whose terminal sugar has an unlinked phosphate on its 5′ carbon is the 5′ end, and the opposite end, with a free –OH on the 3′ carbon, is the 3′ end. DNA polymerase adds new nucleotides only to the 3′ end.\n\n(B) is wrong because the 3′ end carries a free hydroxyl group on the 3′ carbon, not a phosphate on the 5′ carbon.\n(C) is wrong because the two ends of a strand are chemically different (5′ phosphate versus 3′ hydroxyl), which is exactly what gives DNA its directionality.\n(D) is wrong because the 5′ end of a linear strand does carry the free 5′ phosphate; only a closed circular molecule would have no free ends."
   },
   {
    "id": "be2-6",
@@ -77,7 +77,7 @@ const EXAM = {
     "Biomagnification"
    ],
    "correct": 0,
-   "explanation": "A trophic cascade occurs when a change at one trophic level has indirect effects on other trophic levels. Here the predator reduces the small fish, which allows the populations that the small fish feed on (zooplankton, which graze on algae) to increase, and algae growth leads to changes down the chain."
+   "explanation": "Correct: (A) A trophic cascade. A trophic cascade is a chain of indirect effects that spreads across three or more trophic levels when a top consumer changes. Here the new predator lowers the small-fish population. The small fish graze on algae, so with fewer small fish eating it, the algae increase. The stem shows exactly this: a change at the top level causes effects two or more steps away in the food web.\n\n(B) is wrong because primary succession is the gradual colonization of bare, lifeless ground such as new lava rock; the lake already had a community.\n(C) is wrong because genetic drift is a random change in allele frequencies within a population, not a change in population sizes across feeding levels.\n(D) is wrong because biomagnification is the increase in the concentration of a persistent toxin such as DDT at higher trophic levels; no toxin is involved here."
   },
   {
    "id": "be2-7",
@@ -90,7 +90,7 @@ const EXAM = {
     "8"
    ],
    "correct": 2,
-   "explanation": "Each peptide bond forms with the release of one water molecule. Joining 10 amino acids in a chain requires 10 − 1 = 9 peptide bonds, so 9 water molecules are released."
+   "explanation": "Correct: (C) 9. Each dehydration synthesis reaction joins two amino acids with one peptide bond and removes one molecule of H₂O (an –OH from one carboxyl group and an –H from the next amino group). In an unbranched chain of n amino acids there are n − 1 links, just as 10 beads on a string are joined by 9 connections. So 10 amino acids form 10 − 1 = 9 peptide bonds and release 9 water molecules.\n\n(A) is wrong because 11 adds a bond instead of subtracting one; a linear chain of n units has n − 1 links, not n + 1.\n(B) is wrong because 10 assumes one water per amino acid, which would be true only if the chain closed into a ring.\n(D) is wrong because 8 subtracts one bond too many; 10 amino acids in a chain need 9 peptide bonds, not 8."
   },
   {
    "id": "be2-8",
@@ -104,7 +104,7 @@ const EXAM = {
     "0.47"
    ],
    "correct": 3,
-   "explanation": "χ² = Σ(o − e)²/e = (2.25)²/312.75 + (3.75)²/104.25 + (3.25)²/104.25 + (2.75)²/34.75 = 0.016 + 0.135 + 0.101 + 0.218 = 0.47."
+   "explanation": "Correct: (D) 0.47. The chi-square statistic is χ² = Σ(o − e)²/e, summed over the four phenotype classes in the table. Round yellow: (315 − 312.75)² / 312.75 = (2.25)² / 312.75 = 5.0625 / 312.75 = 0.016. Round green: (108 − 104.25)² / 104.25 = 14.0625 / 104.25 = 0.135. Wrinkled yellow: (101 − 104.25)² / 104.25 = 10.5625 / 104.25 = 0.101. Wrinkled green: (32 − 34.75)² / 34.75 = 7.5625 / 34.75 = 0.218. Sum: 0.016 + 0.135 + 0.101 + 0.218 = 0.47.\n\n(A) is wrong because the largest single term is only 0.218, so four terms cannot add to 15.7; a value that large would need deviations far bigger than the 2–4 offspring seen here.\n(B) is wrong because 7.81 is the critical value for 3 degrees of freedom at p = 0.05, which is compared with χ² rather than being the calculated value.\n(C) is wrong because 1.5 is about three times the correct sum; each squared deviation must be divided by its expected number, and the four terms total only 0.47."
   },
   {
    "id": "be2-9",
@@ -118,7 +118,7 @@ const EXAM = {
     "Fail to reject the null hypothesis; the differences are likely due to chance."
    ],
    "correct": 3,
-   "explanation": "The calculated χ² (0.47) is smaller than the critical value (7.81), so the difference between the observed and expected numbers is not statistically significant. The data are consistent with the 9:3:3:1 ratio expected for independently assorting genes."
+   "explanation": "Correct: (D) Fail to reject the null hypothesis; the differences are likely due to chance. The null hypothesis is that the genes assort independently, giving a 9:3:3:1 ratio, and that any deviation is due to chance. With 4 phenotype classes there are 4 − 1 = 3 degrees of freedom, and the critical value at p = 0.05 is 7.81. The calculated χ² is 0.47, which is far smaller than 7.81, so the deviations are not statistically significant. The student fails to reject the null hypothesis: the data fit the expected ratio.\n\n(A) is wrong because rejecting the null would require χ² greater than 7.81; 0.47 is far smaller, and the close fit to 9:3:3:1 actually supports independent assortment, not linkage.\n(B) is wrong because the data fit the Mendelian 9:3:3:1 prediction very closely, so there is no basis for rejecting the null hypothesis.\n(C) is wrong because expected values are often fractions; the chi-square test works with them, and only the observed counts must be whole numbers."
   },
   {
    "id": "be2-10",
@@ -131,7 +131,7 @@ const EXAM = {
     "It seals the gaps between Okazaki fragments."
    ],
    "correct": 0,
-   "explanation": "The guide RNA base pairs with a complementary DNA sequence, and Cas9 acts as a nuclease that makes a double-stranded break there. The cell's repair processes can then disable the gene or incorporate a new sequence."
+   "explanation": "Correct: (A) It cuts the DNA at the target sequence. In CRISPR-Cas9, a guide RNA has a sequence of about 20 nucleotides that is complementary to a chosen DNA target. The guide RNA base pairs with that target, and Cas9, an endonuclease, cuts both strands of the DNA there (a double-strand break) next to a short PAM sequence. The cell then repairs the break, either by error-prone end joining, which can knock out the gene, or by using a supplied template to insert a new sequence.\n\n(B) is wrong because Cas9 is a DNA-cutting nuclease; adding methyl groups is the job of methyltransferase enzymes, and Cas9 does not modify RNA.\n(C) is wrong because guide RNA is a noncoding RNA that is never translated, and translation is done by ribosomes, not by Cas9.\n(D) is wrong because sealing the gaps between Okazaki fragments is done by DNA ligase during replication; Cas9 breaks DNA rather than joining it."
   },
   {
    "id": "be2-11",
@@ -144,7 +144,7 @@ const EXAM = {
     "Feedback inhibition"
    ],
    "correct": 3,
-   "explanation": "When the end product inhibits an earlier enzyme in its own pathway, the cell avoids wasting resources by making more than it needs. This is feedback (end-product) inhibition, a form of negative feedback."
+   "explanation": "Correct: (D) Feedback inhibition. In feedback inhibition, the end product of a metabolic pathway binds to an enzyme early in the pathway, usually at an allosteric site, and lowers its activity. When the product builds up, its own production slows; when the product is used up, the enzyme becomes active again. This is a form of negative feedback that keeps the cell from wasting energy and raw materials on more product than it needs. Isoleucine inhibiting threonine deaminase is a classic example.\n\n(A) is wrong because competitive inhibition describes how a molecule that resembles the substrate blocks the active site; it names a mechanism, not the regulation of a pathway by its own end product.\n(B) is wrong because substrate-level phosphorylation is a way of making ATP by transferring a phosphate from a substrate to ADP; it does not regulate an enzyme.\n(C) is wrong because positive feedback would increase the activity of the first enzyme; here the product decreases it, so this is negative feedback."
   },
   {
    "id": "be2-12",
@@ -157,7 +157,7 @@ const EXAM = {
     "Decomposition, which converts organic matter to carbon dioxide"
    ],
    "correct": 0,
-   "explanation": "Most organisms cannot use N₂ directly. Nitrogen-fixing bacteria convert it to ammonia, which can be taken up by plants and incorporated into amino acids and nucleotides."
+   "explanation": "Correct: (A) Nitrogen fixation, which makes nitrogen available to plants in a usable form. N₂ makes up about 78% of the air, but its triple bond is so strong that plants and animals cannot use it. Nitrogen-fixing bacteria, such as <i>Rhizobium</i> in legume root nodules and free-living soil bacteria, use the enzyme nitrogenase to reduce N₂ to ammonia (NH₃, which becomes NH₄⁺ in soil). Plants absorb this fixed nitrogen and use it to build amino acids, nucleotides and chlorophyll, so fixation is the main natural entry point of nitrogen into food webs.\n\n(B) is wrong because denitrification converts nitrate back to N₂ gas, the reverse direction of what the stem describes.\n(C) is wrong because nitrification converts ammonium to nitrite and then nitrate, and the conversion of nitrate to N₂ described in this choice is actually denitrification.\n(D) is wrong because decomposition breaks down organic matter and releases ammonium and CO₂; it does not use atmospheric N₂."
   },
   {
    "id": "be2-13",
@@ -170,7 +170,7 @@ const EXAM = {
     "Epistasis"
    ],
    "correct": 3,
-   "explanation": "Epistasis occurs when the alleles of one gene affect the expression of another gene. Here the genotype at the second gene masks the effect of the pigment-type gene."
+   "explanation": "Correct: (D) Epistasis. Epistasis is an interaction in which the genotype at one gene masks or changes the expression of a different gene. In Labradors, the B gene determines black (B_) or brown (bb) pigment, and the E gene determines whether pigment is deposited in the fur. An ee dog is yellow no matter what its B genotype is, so the E gene is epistatic to the B gene. A cross of two BbEe dogs gives a modified 9 black : 3 brown : 4 yellow ratio.\n\n(A) is wrong because incomplete dominance involves two alleles of the same gene giving an intermediate heterozygote, such as pink snapdragons; here two different genes interact.\n(B) is wrong because codominance is when both alleles of one gene are fully expressed in a heterozygote, such as AB blood type; it does not involve one gene masking another.\n(C) is wrong because polygenic inheritance is when many genes add together to give a continuous range of phenotypes, such as height; here one gene masks another."
   },
   {
    "id": "be2-14",
@@ -183,7 +183,7 @@ const EXAM = {
     "Paracrine signaling"
    ],
    "correct": 3,
-   "explanation": "In paracrine signaling, the signal molecules act on nearby cells in the immediate vicinity. In endocrine signaling, hormones travel through the bloodstream to distant cells."
+   "explanation": "Correct: (D) Paracrine signaling. Cell signals are classified by the distance they travel. In paracrine signaling, a cell releases a local regulator (such as a growth factor) into the extracellular fluid, where it diffuses a short distance and acts on nearby target cells. The stem's clues are \"diffuses a short distance\" and \"nearby cells,\" which define paracrine signaling. Growth factors that stimulate neighboring cells to divide are textbook paracrine signals.\n\n(A) is wrong because endocrine hormones travel through the bloodstream to distant target cells rather than diffusing a short distance to neighbors.\n(B) is wrong because gap junctions pass small molecules directly from the cytoplasm of one cell into the next, without release into the extracellular fluid.\n(C) is wrong because direct contact signaling uses molecules bound to the surfaces of two touching cells, not a factor that is released and diffuses."
   },
   {
    "id": "be2-15",
@@ -196,7 +196,7 @@ const EXAM = {
     "2 rabbits"
    ],
    "correct": 2,
-   "explanation": "dN/dt = rN = (0.20)(100) = 20 rabbits per year at the start. The population is 120 after one year, but the question asks for the increase."
+   "explanation": "Correct: (C) 20 rabbits. The exponential growth equation dN/dt = rN gives the rate of increase from the per capita rate r and the population size N. With r = 0.20 per year and N = 100 rabbits, dN/dt = (0.20 /year)(100 rabbits) = 20 rabbits per year. So the population grows by about 20 rabbits in the first year, to about 120. (Continuous compounding would give slightly more, about 22, which is why the stem says approximate.)\n\n(A) is wrong because 120 is the population size after one year, but the question asks for the increase, which is 120 − 100 = 20.\n(B) is wrong because 100 is the starting population; an increase of 100 would require r = 1.0 per year, not 0.20.\n(D) is wrong because 2 is off by a factor of 10, as if r were 0.020 or the 0.20 were misread as 2%."
   },
   {
    "id": "be2-16",
@@ -209,7 +209,7 @@ const EXAM = {
     "Degradation of the mRNA in the cytoplasm"
    ],
    "correct": 0,
-   "explanation": "DNA methylation is an epigenetic modification that does not change the DNA sequence. It typically promotes a tightly packed chromatin structure that makes genes less accessible to transcription machinery, so gene expression is silenced."
+   "explanation": "Correct: (A) Reduced transcription of the genes in that region. DNA methylation adds methyl groups to cytosines, usually in CpG regions near promoters. It is an epigenetic change: the base sequence stays the same. Methylated DNA attracts proteins that compact the chromatin into tightly packed heterochromatin and blocks transcription factors from binding the promoter, so RNA polymerase cannot transcribe the genes. Heavy methylation therefore silences genes, as in X-chromosome inactivation and genomic imprinting.\n\n(B) is wrong because the opposite is true: methylation compacts chromatin and blocks transcription, while histone acetylation is the change usually linked to increased transcription.\n(C) is wrong because methylation is epigenetic; it chemically marks cytosines without changing the sequence of bases.\n(D) is wrong because mRNA degradation in the cytoplasm is controlled by mechanisms such as microRNAs, not by methyl groups on the DNA in the nucleus."
   },
   {
    "id": "be2-17",
@@ -222,7 +222,7 @@ const EXAM = {
     "+4.99 bar"
    ],
    "correct": 0,
-   "explanation": "Ψs = −iCRT = −(1)(0.20 mol/L)(0.0831 L·bar/(mol·K))(300 K) = −4.99 bar. The solute potential of a solution is always negative (or zero for pure water)."
+   "explanation": "Correct: (A) −4.99 bar. Substitute the values into Ψs = −iCRT with units: Ψs = −(1)(0.20 mol/L)(0.0831 L·bar/(mol·K))(300 K). First 0.20 × 0.0831 = 0.01662 bar/K, then × 300 K = 4.986 bar, so Ψs = −4.99 bar. The units cancel to bar. Solute potential is negative because dissolved solutes lower the water potential relative to pure water, which is set at 0.\n\n(B) is wrong because −2.49 bar is half the correct value, the result of using C = 0.10 M or i = 0.5 instead of 0.20 M and i = 1.\n(C) is wrong because solute potential is never positive; this drops the negative sign and also gives only half the correct size.\n(D) is wrong because this has the right size but drops the negative sign; solutes always lower water potential, so Ψs must be negative."
   },
   {
    "id": "be2-18",
@@ -235,7 +235,7 @@ const EXAM = {
     "Glucose and CO₂"
    ],
    "correct": 2,
-   "explanation": "The light-dependent reactions produce ATP and NADPH, which are used in the Calvin cycle to reduce the fixed CO₂ into three-carbon sugars. Oxygen is released as a by-product of the light reactions."
+   "explanation": "Correct: (C) ATP and NADPH. The light-dependent reactions in the thylakoids use light energy to make ATP (by chemiosmosis) and NADPH (by reducing NADP⁺ with electrons from water). In the Calvin cycle in the stroma, rubisco fixes CO₂ onto RuBP, and the resulting 3-PGA is phosphorylated by ATP and reduced by NADPH to G3P, the three-carbon sugar. ATP is also used to regenerate RuBP. Making one G3P uses 9 ATP and 6 NADPH.\n\n(A) is wrong because oxygen is a by-product released from splitting water in the light reactions, and water is their electron source; neither powers the Calvin cycle.\n(B) is wrong because pyruvate and NADH belong to glycolysis and cellular respiration; the photosynthetic electron carrier is NADPH.\n(D) is wrong because glucose is a product of photosynthesis, not an energy input from the light reactions, and CO₂ is the carbon source, not an energy carrier."
   },
   {
    "id": "be2-19",
@@ -248,7 +248,7 @@ const EXAM = {
     "100"
    ],
    "correct": 2,
-   "explanation": "Each amino acid is specified by a codon of three nucleotides, so 900 nucleotides code for 900/3 = 300 amino acids."
+   "explanation": "Correct: (C) 300. The genetic code is read in nonoverlapping triplets: each codon of 3 nucleotides specifies one amino acid. With 900 nucleotides in the coding region (the stop codon excluded, since it codes for no amino acid) and no introns to remove, the number of codons is 900 ÷ 3 = 300. So the polypeptide has 300 amino acids.\n\n(A) is wrong because 900 assumes one nucleotide per amino acid, but each amino acid needs a three-nucleotide codon.\n(B) is wrong because 450 divides by 2, as if codons were two nucleotides long; 4² = 16 combinations would be too few for 20 amino acids.\n(D) is wrong because 100 divides 900 by 9 instead of by 3; each codon is three nucleotides, so 900 nucleotides make 300 codons and 300 amino acids."
   },
   {
    "id": "be2-20",
@@ -261,7 +261,7 @@ const EXAM = {
     "The poly-A tail of the mRNA"
    ],
    "correct": 0,
-   "explanation": "Each tRNA carries a specific amino acid and has an anticodon that is complementary to an mRNA codon. This pairing in the ribosome ensures that the correct amino acid is added to the growing polypeptide."
+   "explanation": "Correct: (A) A codon in the mRNA. Each tRNA has an anticodon, a sequence of three bases in one of its loops, and carries the matching amino acid on its 3′ end. In the A site of the ribosome, the anticodon base pairs, antiparallel and complementary, with the codon in the mRNA. For example, the anticodon 3′-UAC-5′ pairs with the codon 5′-AUG-3′ and delivers methionine. This codon-anticodon pairing is what translates the nucleotide sequence into the correct amino acid sequence.\n\n(B) is wrong because tRNAs never pair with DNA; the DNA template is read by RNA polymerase during transcription in the nucleus.\n(C) is wrong because the large ribosomal subunit holds the tRNA and forms peptide bonds, but the anticodon pairs with the mRNA codon, not with rRNA.\n(D) is wrong because the poly-A tail is a 3′ string of adenines that stabilizes the mRNA and is never translated, so tRNAs do not pair with it."
   },
   {
    "id": "be2-21",
@@ -274,7 +274,7 @@ const EXAM = {
     "0.49"
    ],
    "correct": 0,
-   "explanation": "Since p + q = 1, q = 0.3. The frequency of the homozygous recessive genotype is q² = (0.3)² = 0.09."
+   "explanation": "Correct: (A) 0.09. For a gene with two alleles, p + q = 1, so the recessive allele frequency is q = 1 − 0.7 = 0.3. At Hardy–Weinberg equilibrium the genotype frequencies are p² + 2pq + q² = 1, and the homozygous recessive frequency is q² = (0.3)² = 0.09. The other genotypes are p² = 0.49 (homozygous dominant) and 2pq = 0.42 (heterozygous), and 0.49 + 0.42 + 0.09 = 1.00 checks the work.\n\n(B) is wrong because 0.21 is pq = (0.7)(0.3), which leaves out the factor of 2 in the heterozygote term and is not the frequency of any genotype.\n(C) is wrong because 0.42 is 2pq = 2(0.7)(0.3), the frequency of heterozygous carriers, not of homozygous recessive individuals.\n(D) is wrong because 0.49 is p² = (0.7)², the frequency of the homozygous dominant genotype."
   },
   {
    "id": "be2-22",
@@ -287,7 +287,7 @@ const EXAM = {
     "DNA ligase"
    ],
    "correct": 3,
-   "explanation": "On the lagging strand, DNA polymerase synthesizes short Okazaki fragments, and DNA ligase seals the gaps between them to form a continuous strand. Helicase unwinds the DNA, and primase lays down the RNA primers."
+   "explanation": "Correct: (D) DNA ligase. DNA polymerase can add nucleotides only to a 3′ end, so the lagging strand is made in short pieces called Okazaki fragments, each started from an RNA primer. After the primers are replaced with DNA, a nick remains in the sugar-phosphate backbone between adjacent fragments. DNA ligase seals each nick by forming a phosphodiester bond, joining the fragments into one continuous strand.\n\n(A) is wrong because helicase unwinds the double helix at the replication fork by breaking hydrogen bonds; it does not join fragments.\n(B) is wrong because primase lays down the short RNA primers that start each Okazaki fragment; it does not seal the gaps between them.\n(C) is wrong because RNA polymerase transcribes genes into RNA; it has no role in joining Okazaki fragments during replication."
   },
   {
    "id": "be2-23",
@@ -300,7 +300,7 @@ const EXAM = {
     "Deletion of a large segment of one of the chromosomes"
    ],
    "correct": 1,
-   "explanation": "Nondisjunction produces gametes with an extra or missing chromosome. If a gamete with two copies of chromosome 21 is fertilized by a normal gamete, the zygote has three copies (trisomy 21)."
+   "explanation": "Correct: (B) Nondisjunction, in which chromosomes fail to separate normally. Nondisjunction is the failure of homologous chromosomes (in meiosis I) or sister chromatids (in meiosis II) to separate. One resulting gamete gets two copies of chromosome 21 (n + 1) and another gets none (n − 1). When an n + 1 gamete is fertilized by a normal gamete, the zygote has three copies of chromosome 21, a trisomy, which causes Down syndrome. The risk rises with maternal age because egg cells stay arrested in meiosis I for decades.\n\n(A) is wrong because crossing over occurs between homologous chromosomes, and exchanging segments would not add a whole extra chromosome.\n(C) is wrong because independent assortment occurs in meiosis I and gives normal gametes with one copy of each chromosome, so it cannot add a chromosome.\n(D) is wrong because a deletion removes part of a chromosome; it cannot create an extra whole copy of chromosome 21."
   },
   {
    "id": "be2-24",
@@ -313,7 +313,7 @@ const EXAM = {
     "1/4"
    ],
    "correct": 1,
-   "explanation": "The parents must both be carriers (Cc). Among unaffected children, the genotypes are CC (1/3) and Cc (2/3), so the probability the unaffected child is a carrier is 2/3."
+   "explanation": "Correct: (B) 2/3. Two unaffected parents who have an affected (cc) child must both be carriers, Cc. A Cc × Cc cross gives 1 CC : 2 Cc : 1 cc. The second child is known to be unaffected, so the cc outcome is ruled out and only 1 + 2 = 3 equally likely outcomes remain. Of these, 2 are carriers (Cc), so the conditional probability is 2/3.\n\n(A) is wrong because 3/4 is the probability that any child is unaffected (CC or Cc), not the probability that an unaffected child is a carrier.\n(C) is wrong because 1/2 is the chance that any child is a carrier before we know its phenotype; knowing the child is unaffected removes cc and raises it to 2/3.\n(D) is wrong because 1/4 is the probability that a child is affected (cc) or homozygous normal (CC), not the probability of being a carrier."
   },
   {
    "id": "be2-25",
@@ -326,7 +326,7 @@ const EXAM = {
     "2"
    ],
    "correct": 1,
-   "explanation": "Glycolysis and the citric acid cycle produce a few ATP directly, and the electron transport chain and chemiosmosis produce most of the rest. The total is approximately 30–32 ATP per glucose, compared with 2 ATP from fermentation."
+   "explanation": "Correct: (B) 30. Per glucose, substrate-level phosphorylation gives 2 ATP in glycolysis and 2 ATP (as GTP or ATP) in the citric acid cycle. Most ATP comes from oxidative phosphorylation: the 10 NADH and 2 FADH₂ drive the electron transport chain, and about 2.5 ATP per NADH and 1.5 per FADH₂ gives about 26–28 more. The current estimate for the total is about 30–32 ATP per glucose, so 30 is the best choice. (Older textbooks give 36–38.)\n\n(A) is wrong because 90 is about three times the real yield; even the old theoretical maximum was only 36–38 ATP per glucose.\n(C) is wrong because 4 counts only the ATP from substrate-level phosphorylation (2 in glycolysis plus 2 in the citric acid cycle) and leaves out oxidative phosphorylation.\n(D) is wrong because 2 is the net ATP from glycolysis alone, which is also the yield of fermentation without oxygen."
   },
   {
    "id": "be2-26",
@@ -340,7 +340,7 @@ const EXAM = {
     "At high concentrations, the substrate outcompetes the inhibitor for active sites"
    ],
    "correct": 3,
-   "explanation": "A competitive inhibitor binds to the active site and competes with the substrate. When the substrate concentration is very high, substrate molecules occupy almost all of the active sites, so the maximum rate is the same. The inhibitor lowers the apparent affinity of the enzyme but not its maximum rate."
+   "explanation": "Correct: (D) At high concentrations, the substrate outcompetes the inhibitor for active sites. A competitive inhibitor resembles the substrate and binds the active site reversibly, so substrate and inhibitor compete for the same sites. In the graph, the inhibitor curve rises more slowly (at 5 mM it is about 4.5 vs 7 μmol/min), but as substrate concentration increases it keeps climbing toward the same plateau near 10 μmol/min. At very high [S], substrate molecules vastly outnumber inhibitor molecules and occupy almost every active site, so Vmax is unchanged while the apparent Km rises.\n\n(A) is wrong because nothing in the experiment destroys the inhibitor; it is still present at high substrate concentrations but is simply outcompeted.\n(B) is wrong because an inhibitor that changes the enzyme's shape at all concentrations (noncompetitive) would lower the maximum rate, but both curves approach the same plateau.\n(C) is wrong because substrate is converted to product, not inhibitor, and more inhibitor would lower the rate further rather than letting it reach the same plateau."
   },
   {
    "id": "be2-27",
@@ -354,7 +354,7 @@ const EXAM = {
     "To the substrate in the solution"
    ],
    "correct": 0,
-   "explanation": "Competitive inhibitors resemble the substrate and bind to the active site, preventing the substrate from binding. Binding at an allosteric site would be noncompetitive inhibition, which would lower the maximum rate at any substrate concentration."
+   "explanation": "Correct: (A) At the active site, which has a shape similar to the substrate. A competitive inhibitor has a shape and charge pattern similar to the substrate, so it fits into the active site and blocks the substrate from binding. Because both compete for the same site, adding more substrate can overcome the inhibition, which is why the graph shows the inhibited curve approaching the same maximum rate. Malonate inhibiting succinate dehydrogenase is a classic example.\n\n(B) is wrong because binding at a separate allosteric site is noncompetitive or allosteric inhibition, which lowers the maximum rate and cannot be overcome by more substrate.\n(C) is wrong because binding to the product after the reaction would not reduce the enzyme's activity or compete for its active site.\n(D) is wrong because an inhibitor that bound the substrate in solution would not compete with it for the enzyme's active site, which is what defines competitive inhibition."
   },
   {
    "id": "be2-28",
@@ -368,7 +368,7 @@ const EXAM = {
     "1000"
    ],
    "correct": 2,
-   "explanation": "The carrying capacity is the maximum population size that the environment can sustain. The graph levels off at approximately 500 individuals."
+   "explanation": "Correct: (C) 500. Carrying capacity (K) is the largest population that the habitat's resources can sustain over time. On a logistic (S-shaped) curve it is the level at which the curve flattens. In the graph, the population rises steeply between about weeks 5 and 11, then levels off at about 500 from week 14 onward and stays there through week 20, so K ≈ 500 insects.\n\n(A) is wrong because 50 is reached around week 3, during the slow early phase of growth, long before the curve levels off.\n(B) is wrong because 250 is K/2, the point of fastest growth near week 8, where the curve is steepest rather than flat.\n(D) is wrong because the population never exceeds about 500 on the graph, so 1000 is twice the observed carrying capacity."
   },
   {
    "id": "be2-29",
@@ -382,7 +382,7 @@ const EXAM = {
     "1000"
    ],
    "correct": 1,
-   "explanation": "In logistic growth, the growth rate dN/dt = rN(K − N)/K is greatest when N = K/2. With K ≈ 500, the maximum growth rate occurs at about 250 individuals."
+   "explanation": "Correct: (B) 250. In logistic growth, dN/dt = rN(K − N)/K. When N is small, few individuals reproduce; when N is near K, the (K − N)/K term is near zero. The product N(K − N) is largest when N = K/2. With K ≈ 500, the maximum growth rate occurs at N ≈ 250. On the graph this is the inflection point near week 8, where the curve is steepest.\n\n(A) is wrong because at about 50 (near week 3) the population is still small, so few individuals reproduce and the curve is only gently sloped.\n(C) is wrong because at 500 the population is at carrying capacity, where (K − N)/K ≈ 0 and growth has nearly stopped.\n(D) is wrong because the population never reaches 1000, and any size above K would decline rather than grow quickly."
   },
   {
    "id": "be2-30",
@@ -396,7 +396,7 @@ const EXAM = {
     "Oxygen is less soluble in water at the lower temperature."
    ],
    "correct": 2,
-   "explanation": "Metabolic reaction rates generally increase with temperature (up to an optimum) because molecules move faster and the enzymes are more active. The higher oxygen consumption reflects a higher rate of aerobic respiration."
+   "explanation": "Correct: (C) The enzymes of respiration are more active at the higher temperature. Germinating seeds are actively respiring, and the respiration enzymes speed up as temperature rises (up to an optimum) because molecules move faster and collide more often with enough energy to react. The table shows oxygen consumption rising from 1.2 mL/min at 10 °C to 3.6 mL/min at 25 °C, a threefold increase. Since O₂ is the final electron acceptor of the electron transport chain, faster O₂ use means faster aerobic respiration.\n\n(A) is wrong because the table measures oxygen consumed, not produced; germinating seeds use O₂ in respiration, and they have no photosynthesizing leaves yet to release O₂.\n(B) is wrong because the germinating seeds still used 1.2 mL O₂/min at 10 °C, so respiration slowed but did not stop.\n(D) is wrong because oxygen is actually more soluble in cold water, and solubility would not explain the threefold change in oxygen consumption."
   },
   {
    "id": "be2-31",
@@ -410,7 +410,7 @@ const EXAM = {
     "They are the only seeds in the experiment that contain mitochondria"
    ],
    "correct": 0,
-   "explanation": "The dormant seeds have very low metabolic activity, so they show that the change in oxygen consumption in the germinating seeds is due to their growth and respiration, not to the setup or to the temperature alone."
+   "explanation": "Correct: (A) They show the baseline oxygen use of seeds that are not actively metabolizing. The non-germinating (dormant) seeds are a control. They have very low metabolic activity and use only 0.1 mL O₂/min at both temperatures. This baseline shows that the large oxygen uptake of the germinating seeds (1.2 and 3.6 mL/min) comes from the active respiration of growing seeds, not from the apparatus, gas changes from temperature, or the seed material itself.\n\n(B) is wrong because the germinating seeds triple their oxygen use from 10 to 25 °C, so the data show that temperature does affect respiration.\n(C) is wrong because seeds do not produce oxygen; the dormant seeds consumed a small amount of O₂ (0.1 mL/min) rather than supplying it.\n(D) is wrong because all living plant cells, including dormant seeds, contain mitochondria; dormant seeds simply respire very slowly."
   },
   {
    "id": "be2-32",
@@ -424,7 +424,7 @@ const EXAM = {
     "5%"
    ],
    "correct": 2,
-   "explanation": "The cells in mitosis are those in prophase, metaphase, anaphase, and telophase: 40 + 10 + 5 + 5 = 60 of 400 cells, or 15%."
+   "explanation": "Correct: (C) 15%. Mitosis (M phase) includes prophase, metaphase, anaphase and telophase, while interphase is not part of mitosis. From the table: 40 + 10 + 5 + 5 = 60 cells in mitosis. As a percentage: 60/400 × 100% = 15%. As a check, 340 interphase cells are 85%, and 85% + 15% = 100%.\n\n(A) is wrong because 85% is the percentage in interphase (340/400), the opposite of what was asked.\n(B) is wrong because 60% reports the count of mitotic cells (60) as if it were a percentage, without dividing by the 400 cells counted.\n(D) is wrong because 5% reads the 5 cells counted in anaphase (or telophase) as a percentage; all four mitotic phases together hold 60 of the 400 cells, which is 15%."
   },
   {
    "id": "be2-33",
@@ -438,7 +438,7 @@ const EXAM = {
     "12 h"
    ],
    "correct": 1,
-   "explanation": "The fraction of cells in prophase is 40/400 = 0.10, so the time spent in prophase is (0.10)(24 h) = 2.4 h."
+   "explanation": "Correct: (B) 2.4 h. The fraction of cells caught in a phase is proportional to the time that phase takes, assuming the cells are dividing asynchronously. Prophase: 40/400 = 0.10 of the cells, so time = 0.10 × 24 h = 2.4 h. The same method gives about 20.4 h for interphase and 3.6 h for all of mitosis.\n\n(A) is wrong because 0.60 h is the time for metaphase (10/400 × 24 h), not prophase.\n(C) is wrong because 3.6 h is the time for all of mitosis (60/400 × 24 h), not for prophase alone.\n(D) is wrong because 12 h is half the cell cycle and has no basis in the data; only 10% of the cells were in prophase."
   },
   {
    "id": "be2-34",
@@ -452,7 +452,7 @@ const EXAM = {
     "0.0 M"
    ],
    "correct": 1,
-   "explanation": "At a sucrose concentration equal to the solute concentration inside the cells, there is no net water movement and about half of the cells are at the point of plasmolysis. About 45% of the cells were plasmolyzed at 0.4 M, so that concentration is closest."
+   "explanation": "Correct: (B) 0.4 M. Plasmolysis happens when the outside solution has a lower water potential than the cell, so water leaves and the membrane pulls away from the wall. When the outside solution has the same solute concentration as the cell sap (isotonic), there is no net water movement, and about 50% of cells show plasmolysis (incipient plasmolysis) because cells vary slightly. The table shows 45% plasmolysis at 0.4 M, the closest to 50%; interpolating between 0.4 M (45%) and 0.6 M (95%) gives about 0.42 M.\n\n(A) is wrong because at 0.6 M, 95% of the cells were plasmolyzed, so this solution is clearly hypertonic to almost all of the cells.\n(C) is wrong because at 0.2 M only 10% of the cells were plasmolyzed, so most cells still had a higher solute concentration than the solution.\n(D) is wrong because 0.0 M is pure water, which is hypotonic; the cells gain water and none were plasmolyzed."
   },
   {
    "id": "be2-35",
@@ -466,7 +466,7 @@ const EXAM = {
     "Water left the cells by osmosis because the solution had a lower water potential."
    ],
    "correct": 3,
-   "explanation": "The 0.6 M solution has a lower water potential than the cells, so water moves out by osmosis. The cytoplasm shrinks and the membrane pulls away from the rigid cell wall. Sucrose does not move freely across the membrane."
+   "explanation": "Correct: (D) Water left the cells by osmosis because the solution had a lower water potential. The 0.6 M sucrose solution has a more negative solute potential, so its water potential is lower than that of the onion cells. Water moves by osmosis from higher to lower water potential, so it leaves the cells. The cytoplasm and vacuole shrink and the membrane pulls away from the rigid cell wall (plasmolysis); the table shows 95% of the cells were plasmolyzed. Sucrose cannot easily cross the membrane, so it stays outside.\n\n(A) is wrong because sucrose does not readily cross the membrane, and swelling would press the membrane against the wall rather than pull it away.\n(B) is wrong because the cellulose cell wall is rigid and does not dissolve in sucrose; plasmolysis is visible precisely because the wall stays in place.\n(C) is wrong because water moves by osmosis, which is passive, and in this case it moves out of the cells, not in."
   },
   {
    "id": "be2-36",
@@ -479,7 +479,7 @@ const EXAM = {
     "10"
    ],
    "correct": 1,
-   "explanation": "The number of copies doubles each cycle, so after 5 cycles there are 2⁵ = 32 copies."
+   "explanation": "Correct: (B) 32. Each PCR cycle (denaturation, primer annealing, extension) copies every DNA molecule present, so the number doubles each cycle. Starting from 1 molecule, the number after n cycles is 2ⁿ: 1 → 2 → 4 → 8 → 16 → 32. After 5 cycles there are 2⁵ = 32 copies. This exponential doubling is why about 30 cycles can turn a single molecule into about a billion copies.\n\n(A) is wrong because 64 is 2⁶, the number after 6 cycles, one doubling too many.\n(C) is wrong because 25 is 5², which squares the number of cycles instead of raising 2 to the number of cycles.\n(D) is wrong because 10 is 2 × 5, which treats the growth as adding two copies per cycle instead of doubling."
   },
   {
    "id": "be2-37",
@@ -492,7 +492,7 @@ const EXAM = {
     "Individuals frequently migrate in and out of the population."
    ],
    "correct": 2,
-   "explanation": "The Hardy–Weinberg model assumes a large population (no genetic drift), random mating, no mutation, no gene flow, and no natural selection. A small population would experience genetic drift that changes the allele frequencies."
+   "explanation": "Correct: (C) The population is very large, so genetic drift has a negligible effect. The Hardy–Weinberg model has five conditions under which allele and genotype frequencies stay constant: a very large population (so random genetic drift is negligible), random mating, no mutation, no gene flow (migration), and no natural selection. Only choice C states one of these conditions. Violating any of them can change allele frequencies and cause evolution.\n\n(A) is wrong because preferential mating with similar phenotypes is nonrandom (assortative) mating, which violates the random mating condition.\n(B) is wrong because the model requires no mutation, since mutation changes allele frequencies by adding new alleles.\n(D) is wrong because migration in and out of the population is gene flow, which brings in and removes alleles and changes their frequencies."
   },
   {
    "id": "be2-38",
@@ -505,7 +505,7 @@ const EXAM = {
     "A nucleus"
    ],
    "correct": 1,
-   "explanation": "Plant cells contain chloroplasts, where photosynthesis occurs, along with a cell wall and a large central vacuole. Animal cells and plant cells both contain mitochondria, ribosomes, and a nucleus."
+   "explanation": "Correct: (B) Chloroplasts. Chloroplasts are the site of photosynthesis, with thylakoids that capture light energy and a stroma where the Calvin cycle fixes CO₂. They are found in plant cells (and algae) but not in animal cells. Plant cells also have a cellulose cell wall and a large central vacuole, which animal cells lack. Both cell types have the other three structures listed.\n\n(A) is wrong because plant cells have mitochondria too and carry out cellular respiration like animal cells.\n(C) is wrong because ribosomes are found in all cells, including animal cells, because every cell must make proteins.\n(D) is wrong because both plant and animal cells are eukaryotic, so both enclose their DNA in a membrane-bound nucleus."
   },
   {
    "id": "be2-39",
@@ -518,7 +518,7 @@ const EXAM = {
     "45,840 years"
    ],
    "correct": 2,
-   "explanation": "One-eighth is (1/2)³, so three half-lives have passed: 3 × 5,730 = 17,190 years."
+   "explanation": "Correct: (C) 17,190 years. After each half-life, half of the remaining carbon-14 decays: 1 → 1/2 → 1/4 → 1/8. One-eighth equals (1/2)³, so 3 half-lives have passed. The age is 3 × 5,730 years = 17,190 years. Radiometric dating works because a living organism keeps its C-14 to C-12 ratio equal to the atmosphere's by taking in carbon; at death intake stops, and the C-14 decays at a fixed rate while the C-12 stays, so the remaining fraction acts as a clock.\n\n(A) is wrong because 5,730 years is one half-life, which would leave 1/2 of the C-14, not 1/8.\n(B) is wrong because 11,460 years is two half-lives, which would leave 1/4 of the C-14.\n(D) is wrong because 45,840 years is 8 × 5,730, which multiplies by the denominator 8 instead of the number of halvings (3)."
   },
   {
    "id": "be2-40",
@@ -532,7 +532,7 @@ const EXAM = {
     "None of the mutations"
    ],
    "correct": 1,
-   "explanation": "A silent mutation changes the DNA sequence but not the amino acid, because of the redundancy of the genetic code. GAG, like GAA, codes for glutamic acid, so the protein is unchanged."
+   "explanation": "Correct: (B) Mutant 1. A silent mutation changes the nucleotide sequence without changing the amino acid, because the genetic code is redundant (several codons code for the same amino acid, often differing only in the third base). In mutant 1, GAA becomes GAG, and the table shows both code for glutamic acid, so the protein is unchanged.\n\n(A) is wrong because mutant 2 changes GAA to GAC, which codes for aspartic acid instead of glutamic acid; this is a missense mutation.\n(C) is wrong because mutant 3 changes GAA to UAA, a stop codon; this is a nonsense mutation that ends translation early.\n(D) is wrong because mutant 1 is silent because GAG still codes for Glu, as the table shows."
   },
   {
    "id": "be2-41",
@@ -546,7 +546,7 @@ const EXAM = {
     "Mutant 3, because a premature stop codon shortens the protein"
    ],
    "correct": 3,
-   "explanation": "A nonsense mutation creates a stop codon, so translation ends early and the protein is truncated, usually losing its function. A missense mutation changes a single amino acid, which may or may not affect function."
+   "explanation": "Correct: (D) Mutant 3, because a premature stop codon shortens the protein. Mutant 3 is a nonsense mutation: GAA → UAA turns an amino acid codon into a stop codon. Translation ends at this point, so all the amino acids after it are lost and the protein is truncated, usually losing its function. Mutant 2 is a missense mutation that swaps Glu for Asp, two similar acidic amino acids, so the protein may keep much of its function. Mutant 1 is silent.\n\n(A) is wrong because mutant 1 is silent: GAG still codes for glutamic acid, so the protein is unchanged even though the DNA is different.\n(B) is wrong because mutant 2 swaps glutamic acid for aspartic acid, a similar acidic amino acid, so its effect is usually milder than truncating the protein.\n(C) is wrong because the three mutations have very different effects: none (silent), possibly mild (missense) and usually severe (nonsense)."
   },
   {
    "id": "be2-42",
@@ -559,7 +559,7 @@ const EXAM = {
     "16"
    ],
    "correct": 1,
-   "explanation": "With q = 0.20, p = 0.80. The frequency of heterozygotes is 2pq = 2(0.80)(0.20) = 0.32, so the number of heterozygotes is 0.32 × 500 = 160."
+   "explanation": "Correct: (B) 160. Since p + q = 1, p = 1 − 0.20 = 0.80. The heterozygote frequency is 2pq = 2(0.80)(0.20) = 0.32. The expected number is 0.32 × 500 = 160 individuals. As a check, p² × 500 = 0.64 × 500 = 320 and q² × 500 = 0.04 × 500 = 20, and 320 + 160 + 20 = 500.\n\n(A) is wrong because 320 is the number of homozygous dominant individuals, p² × 500 = 0.64 × 500.\n(C) is wrong because 80 is pq × 500 = 0.16 × 500, which leaves out the factor of 2 in the heterozygote term 2pq.\n(D) is wrong because 16 slips a decimal place, as if 2pq were 0.032, or uses 2pq × 50 instead of 2pq × 500."
   },
   {
    "id": "be2-43",
@@ -572,7 +572,7 @@ const EXAM = {
     "Receptor-mediated endocytosis"
    ],
    "correct": 0,
-   "explanation": "Glucose is a polar molecule that cannot cross the lipid bilayer by itself. A carrier protein helps it move down its concentration gradient without energy input, which is facilitated diffusion, a form of passive transport."
+   "explanation": "Correct: (A) Facilitated diffusion. Glucose is large and polar, so it cannot easily cross the hydrophobic interior of the lipid bilayer. In red blood cells, GLUT1 carrier proteins bind glucose and change shape to move it across the membrane. Because glucose moves down its concentration gradient (high to low) and no ATP is used, this is passive transport through a protein: facilitated diffusion.\n\n(B) is wrong because active transport moves a substance against its gradient using ATP or another energy source; here glucose moves down its gradient without ATP.\n(C) is wrong because glucose is too polar and large to pass through the lipid bilayer in significant amounts, and the stem says a carrier protein is used.\n(D) is wrong because receptor-mediated endocytosis brings in material inside vesicles and requires energy; it does not use a carrier protein to move single molecules."
   },
   {
    "id": "be2-44",
@@ -586,7 +586,7 @@ const EXAM = {
     "0.27"
    ],
    "correct": 3,
-   "explanation": "The proportions in community 2 are 0.85, 0.05, 0.05, and 0.05. Σ(n/N)² = 0.7225 + 3(0.0025) = 0.73, so D = 1 − 0.73 = 0.27."
+   "explanation": "Correct: (D) 0.27. In community 2, N = 85 + 5 + 5 + 5 = 100. The proportions are 0.85, 0.05, 0.05 and 0.05. Squaring: 0.85² = 0.7225 and 0.05² = 0.0025 for each of the other three. Σ(n/N)² = 0.7225 + 3(0.0025) = 0.7300. D = 1 − 0.730 = 0.27. The low value reflects that species A dominates the community.\n\n(A) is wrong because 0.85 is the proportion of species A alone, not the diversity index.\n(B) is wrong because 0.73 is Σ(n/N)² before it is subtracted from 1, so it forgets the final 1 − Σ step.\n(C) is wrong because 0.50 does not come from the data; it may be a guess at a middle value, but the sum of squares gives 0.73 and D = 0.27."
   },
   {
    "id": "be2-45",
@@ -600,7 +600,7 @@ const EXAM = {
     "Community 2 has greater diversity because it has a higher total population."
    ],
    "correct": 2,
-   "explanation": "Both communities have four species (equal species richness), but diversity also depends on evenness. Community 1 has the higher Simpson's index (0.75) because the species are equally abundant; community 2 is dominated by species A."
+   "explanation": "Correct: (C) Community 1 has greater diversity because the species are equally abundant. Diversity depends on richness (the number of species) and evenness (how equally individuals are spread among them). Both communities have 4 species and 100 individuals. For community 1, each proportion is 0.25, so D = 1 − 4(0.25)² = 1 − 0.25 = 0.75. For community 2, D = 0.27, as calculated. Community 1 has higher diversity because its individuals are evenly spread, while community 2 is dominated by species A.\n\n(A) is wrong because dominance by one species lowers evenness, which lowers diversity; community 2's index (0.27) is the lower one.\n(B) is wrong because they have the same richness, but their indices (0.75 and 0.27) differ because evenness differs.\n(D) is wrong because both communities have 100 individuals, and Simpson's index depends on proportions, not total population size."
   },
   {
    "id": "be2-46",
@@ -613,7 +613,7 @@ const EXAM = {
     "16 times as large"
    ],
    "correct": 2,
-   "explanation": "SA/V = 3/r, so cell A has a ratio of 3/1 = 3 μm⁻¹ and cell B has 3/4 = 0.75 μm⁻¹. The ratio for cell A is 4 times as large. Smaller cells exchange materials more efficiently with their surroundings."
+   "explanation": "Correct: (C) 4 times as large. Using SA/V = 3/r: cell A has SA/V = 3/(1 μm) = 3 μm⁻¹ and cell B has SA/V = 3/(4 μm) = 0.75 μm⁻¹. The ratio is 3 ÷ 0.75 = 4, so cell A's SA/V is 4 times as large. Because SA/V is inversely proportional to r, a cell with 1/4 the radius has 4 times the SA/V. This is why cells stay small: a high SA/V lets material exchange keep up with metabolic needs.\n\n(A) is wrong because 1/4 inverts the comparison; SA/V is inversely proportional to r, so the smaller cell A has the larger ratio.\n(B) is wrong because SA/V depends on radius, and the radii differ by a factor of 4, so the ratios cannot be the same.\n(D) is wrong because 16 is the ratio of the surface areas (r² scales by 4² = 16) of cell B to cell A, not the ratio of their SA/V values."
   },
   {
    "id": "be2-47",
@@ -626,7 +626,7 @@ const EXAM = {
     "Covalent bonds that form between the nonpolar side chains in the interior"
    ],
    "correct": 1,
-   "explanation": "Nonpolar R groups cannot form hydrogen bonds with water, so the surrounding water molecules force them together in the interior of the protein. This hydrophobic effect is a major contributor to tertiary structure."
+   "explanation": "Correct: (B) Hydrophobic interactions that exclude nonpolar groups from water. Nonpolar R groups cannot form hydrogen bonds with water. Water molecules around them would have to form ordered cages, which is unfavorable, so the water molecules hydrogen bond with each other and push the nonpolar groups together in the protein's interior. This hydrophobic interaction (hydrophobic effect) is one of the main forces that drives a protein to fold into its tertiary structure, along with hydrogen bonds, ionic bonds and disulfide bridges.\n\n(A) is wrong because peptide bonds join the amino and carboxyl groups of the backbone to form the primary structure; they do not form between R groups.\n(C) is wrong because nonpolar R groups have no charges, so they cannot form ionic bonds, and they are pushed away from water rather than bonded to it.\n(D) is wrong because nonpolar R groups do not form covalent bonds with each other; the only common covalent R-group bond is the disulfide bridge between cysteines."
   },
   {
    "id": "be2-48",
@@ -639,7 +639,7 @@ const EXAM = {
     "Prezygotic isolation (behavioral isolation)"
    ],
    "correct": 3,
-   "explanation": "Behavioral isolation is a prezygotic barrier: differences in courtship signals prevent mating, so no zygote is formed. Postzygotic barriers act after fertilization, for example when hybrids are sterile."
+   "explanation": "Correct: (D) Prezygotic isolation (behavioral isolation). Reproductive barriers are classified by whether they act before (prezygotic) or after (postzygotic) a zygote forms. The birds live in the same area, so they are not geographically separated, and the females do not respond to the other species' songs, so mating never occurs. Since the barrier is a difference in courtship behavior that prevents mating, it is behavioral isolation, a prezygotic barrier.\n\n(A) is wrong because hybrid sterility acts after a hybrid is produced, but these birds never mate, so no hybrid zygote is formed.\n(B) is wrong because the stem says the two species live in the same area, so there is no physical barrier separating them.\n(C) is wrong because hybrid breakdown affects the offspring of fertile hybrids in later generations, but no hybrids are formed here."
   },
   {
    "id": "be2-49",
@@ -652,7 +652,7 @@ const EXAM = {
     "A methyl group and a carboxyl group"
    ],
    "correct": 0,
-   "explanation": "Every amino acid has a central carbon bonded to an amino group (–NH₂), a carboxyl group (–COOH), a hydrogen, and a variable R group. The R group is what differs among the 20 amino acids."
+   "explanation": "Correct: (A) An amino group and a carboxyl group. Every amino acid has a central (α) carbon bonded to four groups: an amino group (–NH₂, usually –NH₃⁺ in cells), a carboxyl group (–COOH, usually –COO⁻), a hydrogen atom and a variable R group (side chain). The amino group of one amino acid and the carboxyl group of another form the peptide bond. The R group is what differs among the 20 amino acids.\n\n(B) is wrong because phosphate groups are characteristic of nucleotides and phospholipids, and a hydroxyl group appears only in a few R groups such as serine's.\n(C) is wrong because a sulfhydryl group is found only in the R group of cysteine, so it is not present in every amino acid.\n(D) is wrong because a methyl group is found only in some R groups, such as alanine's; the amino group is the one shared by all amino acids."
   },
   {
    "id": "be2-50",
@@ -665,7 +665,7 @@ const EXAM = {
     "0"
    ],
    "correct": 1,
-   "explanation": "The Aa parent produces A and a gametes in equal proportions, and the aa parent produces only a gametes. Half of the offspring are Aa and half are aa."
+   "explanation": "Correct: (B) 1/2. This is a testcross. The Aa parent makes A and a gametes in a 1:1 ratio, and the aa parent makes only a gametes. The Punnett square gives Aa (A from the first parent + a) and aa (a + a) in equal numbers: 2 of 4 boxes are aa. The probability of aa is (1/2)(1) = 1/2.\n\n(A) is wrong because 3/4 is the proportion of offspring showing the dominant phenotype in an Aa × Aa cross, not this testcross.\n(C) is wrong because 1/4 is the probability of aa in an Aa × Aa cross, where each parent contributes a with probability 1/2.\n(D) is wrong because 0 would be correct only if neither parent carried a; here both parents can pass on an a allele."
   },
   {
    "id": "be2-51",
@@ -679,7 +679,7 @@ const EXAM = {
     "Yeast"
    ],
    "correct": 2,
-   "explanation": "Fewer differences in a conserved protein sequence indicate a more recent common ancestor, because fewer mutations have accumulated. The chimpanzee has no differences from humans."
+   "explanation": "Correct: (C) Chimpanzee. Cytochrome c is a protein of the electron transport chain found in nearly all eukaryotes. Mutations in its gene accumulate over time, so the more time since two species shared a common ancestor, the more amino acid differences they have. The table shows the chimpanzee has 0 differences from humans, the fewest, so it shares the most recent common ancestor with humans and is the most closely related.\n\n(A) is wrong because the rhesus monkey has 1 difference, slightly more than the chimpanzee's 0, so it is the second closest relative.\n(B) is wrong because the horse has 12 differences, many more than the primates, so it shares a more distant common ancestor with humans.\n(D) is wrong because yeast has 44 differences, the most in the table, so it is the most distantly related organism."
   },
   {
    "id": "be2-52",
@@ -693,7 +693,7 @@ const EXAM = {
     "Cytochrome c has not changed in any of the organisms that were compared."
    ],
    "correct": 0,
-   "explanation": "Similarity in homologous molecules, which decreases as the evolutionary distance between organisms increases, is evidence for common ancestry and descent with modification. A larger number of differences indicates a more distant common ancestor."
+   "explanation": "Correct: (A) Related organisms have similar proteins because of common ancestry. The number of differences grows with evolutionary distance: chimpanzee 0, rhesus monkey 1, horse 12, yeast 44. This fits descent with modification: all these organisms inherited cytochrome c from a common ancestor, and differences accumulated over time in each lineage. Closely related species have had less time to diverge, so their proteins are more similar. This molecular homology is strong evidence for common ancestry.\n\n(B) is wrong because yeast is a living species, not an ancestor; it shares a distant common ancestor with the others, and its 44 differences show divergence, not ancestry.\n(C) is wrong because the differences arose in many lineages, and the yeast, horse and monkey proteins have also changed since they split from the human line.\n(D) is wrong because the table shows up to 44 amino acid differences, so cytochrome c has clearly changed in different lineages."
   },
   {
    "id": "be2-53",
@@ -706,7 +706,7 @@ const EXAM = {
     "0.24 h"
    ],
    "correct": 1,
-   "explanation": "The fraction of cells in mitosis is 20/200 = 0.10, so the cells spend about 10% of the cycle in mitosis: (0.10)(24 h) = 2.4 h."
+   "explanation": "Correct: (B) 2.4 h. In an asynchronously dividing population, the fraction of cells seen in a phase equals the fraction of the cycle time spent in that phase. Here 20/200 = 0.10 of the cells are in mitosis, so the time in mitosis is 0.10 × 24 h = 2.4 h. The remaining 21.6 h is interphase.\n\n(A) is wrong because 10 h treats the 10% as a number of hours instead of multiplying it by the 24-hour cycle.\n(C) is wrong because 1.2 h is half the correct value, as if the fraction were 20/400 or the cycle were 12 hours.\n(D) is wrong because 0.24 h is off by a factor of 10, from using 0.01 instead of 0.10 for the fraction in mitosis."
   },
   {
    "id": "be2-54",
@@ -720,7 +720,7 @@ const EXAM = {
     "Bacteria with resistance alleles survived and reproduced while others were killed."
    ],
    "correct": 3,
-   "explanation": "The antibiotic is a selective pressure. A few bacteria already carried alleles for resistance (from random mutation). They survived and reproduced, so the proportion of resistant bacteria increased over generations."
+   "explanation": "Correct: (D) Bacteria with resistance alleles survived and reproduced while others were killed. The antibiotic is a selective agent. The graph shows resistant bacteria at about 1% at day 0, so resistance alleles were already present at low frequency. Susceptible bacteria were killed, while resistant ones survived and reproduced, passing the resistance alleles to their offspring. Over many generations the resistant share rose steeply between days 10 and 20 and leveled off near 100% by day 25. This is natural selection acting on existing variation.\n\n(A) is wrong because the antibiotic does not create resistance alleles for a purpose; mutations are random, and the graph shows resistant bacteria present at about 1% at the start.\n(B) is wrong because bacteria cannot learn; resistance is an inherited genetic trait, and the change is in the proportion of resistant bacteria in the population.\n(C) is wrong because raising the mutation rate of all genes would produce mostly harmful random changes; the increase comes from selection of resistance alleles already present."
   },
   {
    "id": "be2-55",
@@ -734,7 +734,7 @@ const EXAM = {
     "All of the bacteria in the culture carried the resistance alleles at the start."
    ],
    "correct": 2,
-   "explanation": "Mutations occur randomly and are not directed by the environment. The resistant bacteria were present at a low frequency (about 1%) at the start, and selection increased the frequency of resistance."
+   "explanation": "Correct: (C) The alleles arose by random mutation before exposure, and the antibiotic selected for them. Mutations arise randomly, regardless of whether they would be useful. The graph begins at about 1% resistant bacteria on day 0, before the antibiotic could have had any effect, so resistance alleles were present before exposure. The antibiotic did not create them; it killed susceptible cells and selected for resistant ones, which then increased to nearly 100%. The Lederberg replica-plating experiment demonstrated this same principle.\n\n(A) is wrong because the antibiotic cannot direct specific mutations; mutation is random with respect to need, and selection acts afterward.\n(B) is wrong because the graph shows about 1% resistant bacteria on day 0, so resistance alleles existed before the antibiotic was added.\n(D) is wrong because only about 1% of the bacteria were resistant at the start, not all of them; otherwise the percentage would have been 100% from day 0."
   },
   {
    "id": "be2-56",
@@ -747,7 +747,7 @@ const EXAM = {
     "Stabilizing selection, which favors intermediate phenotypes"
    ],
    "correct": 1,
-   "explanation": "When a new population is established by a small number of individuals, its gene pool contains only a fraction of the variation of the source population, and the allele frequencies can differ by chance. This is the founder effect."
+   "explanation": "Correct: (B) The founder effect, a type of genetic drift. The founder effect is a form of genetic drift: when a few individuals start a new population, their alleles are only a random sample of the source population's gene pool. By chance, some alleles are overrepresented, some are rare, and some are missing entirely. The stem attributes the difference to \"the small number of founders,\" which is a chance sampling effect rather than selection or migration.\n\n(A) is wrong because directional selection changes allele frequencies because some phenotypes survive better, but the stem attributes the difference to small founder numbers, not fitness.\n(C) is wrong because gene flow tends to make populations more similar by exchanging alleles; here a one-time colonization by a few individuals made them different.\n(D) is wrong because stabilizing selection is natural selection that favors intermediate phenotypes, and the stem describes a chance effect of founder numbers instead."
   },
   {
    "id": "be2-57",
@@ -760,7 +760,7 @@ const EXAM = {
     "Chromosomes line up along the middle of the cell before separating"
    ],
    "correct": 1,
-   "explanation": "In meiosis I, homologous chromosomes pair (synapsis) and are separated, which reduces the chromosome number by half. In mitosis, homologous chromosomes do not pair; sister chromatids separate."
+   "explanation": "Correct: (B) Homologous chromosomes pair up and then separate into different cells. In prophase I of meiosis, homologous chromosomes pair up (synapsis) to form tetrads, and crossing over occurs between them. In anaphase I, the homologs separate to opposite poles, so each daughter cell gets one chromosome of each pair, cutting the chromosome number in half (2n → n). In mitosis, homologs never pair; each chromosome lines up on its own and its sister chromatids separate.\n\n(A) is wrong because sister chromatids separate in mitosis and in meiosis II, but not in meiosis I, where sister chromatids stay together.\n(C) is wrong because the nuclear envelope breaks down in prophase of both mitosis and meiosis I, so this is not unique to meiosis I.\n(D) is wrong because chromosomes line up at the middle of the cell in metaphase of both mitosis and meiosis, so this is not unique to meiosis I."
   },
   {
    "id": "be2-58",
@@ -773,7 +773,7 @@ const EXAM = {
     "Complete dominance, in which one allele masks the other"
    ],
    "correct": 0,
-   "explanation": "In codominance, the heterozygote shows the phenotypes of both alleles at the same time. A person with type AB blood has red blood cells that carry both the A and B antigens."
+   "explanation": "Correct: (A) Codominance, in which both alleles are fully expressed. In codominance, both alleles in a heterozygote are fully and separately expressed. The Iᴬ allele codes for an enzyme that adds the A sugar to red blood cell surface glycoproteins, and the Iᴮ allele codes for one that adds the B sugar. An IᴬIᴮ person makes both enzymes, so their red blood cells carry both A and B antigens, and the result is type AB blood, not a blend.\n\n(B) is wrong because incomplete dominance gives an intermediate blend, such as pink flowers; AB red blood cells show both full A and full B antigens.\n(C) is wrong because epistasis is an interaction between two different genes, but blood type AB comes from two alleles of one gene, I.\n(D) is wrong because in complete dominance the heterozygote looks like one homozygote, but an IᴬIᴮ person shows both the A and the B antigens."
   },
   {
    "id": "be2-59",
@@ -786,7 +786,7 @@ const EXAM = {
     "It provides the energy that drives ATP synthase to make ATP"
    ],
    "correct": 3,
-   "explanation": "The electron transport chain pumps protons into the intermembrane space, creating a gradient. Protons flow back into the matrix through ATP synthase, and this flow drives the phosphorylation of ADP to ATP (chemiosmosis)."
+   "explanation": "Correct: (D) It provides the energy that drives ATP synthase to make ATP. As electrons pass along the electron transport chain from NADH and FADH₂ to O₂, complexes I, III and IV use the released energy to pump H⁺ from the matrix into the intermembrane space. This creates a proton-motive force (a concentration and charge gradient). Protons flow back into the matrix through ATP synthase, and the flow turns its rotor, which drives the phosphorylation of ADP + Pᵢ → ATP. This coupling is chemiosmosis, which makes most of the cell's ATP.\n\n(A) is wrong because glucose is broken down in the cytoplasm during glycolysis and never enters the mitochondrion; pyruvate is what is transported in.\n(B) is wrong because electrons are carried by the protein complexes and carriers of the chain (ubiquinone, cytochrome c), not by the proton gradient.\n(C) is wrong because pyruvate is broken down by pyruvate oxidation and the citric acid cycle using enzymes, not by the proton gradient, and water is made at complex IV."
   },
   {
    "id": "be2-60",
@@ -799,7 +799,7 @@ const EXAM = {
     "Decomposer"
    ],
    "correct": 2,
-   "explanation": "A keystone species has an effect on its community that is much larger than its abundance would suggest. Sea otters keep urchin populations in check, which protects the kelp that supports many other species."
+   "explanation": "Correct: (C) Keystone species. A keystone species has an effect on its community that is far larger than its abundance would suggest, and removing it causes major changes. Sea otters eat sea urchins. Without otters, urchin populations explode and overgraze the kelp, turning kelp forests into \"urchin barrens\" and removing habitat for many other species. Because the loss of one predator restructures the whole community, the sea otter is a keystone species.\n\n(A) is wrong because an invasive species is a non-native organism that spreads and causes harm; sea otters are native to kelp forests.\n(B) is wrong because primary producers make food by photosynthesis; the kelp is the producer, and the sea otter is a predator.\n(D) is wrong because decomposers break down dead organic matter; sea otters are predators that eat urchins."
   }
  ],
  "sets": {

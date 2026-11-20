@@ -4,7 +4,7 @@ import { exam, P, Q, table } from "./frqlib.mjs";
 // agar cube data
 const sides = [0.5, 1.0, 2.0];
 const vol = sides.map((s) => s ** 3), sa = sides.map((s) => 6 * s * s), ratio = sides.map((s, i) => sa[i] / vol[i]);
-const pct = [100, 71, 28];
+const pct = [97, 71, 43];
 if (ratio.join() !== "12,6,3") throw new Error("SA/V " + ratio.join());
 const tbl = table(["Cube side length (cm)", "Volume (cm³)", "Surface area (cm²)", "Percent of cube volume that changed color after 10 minutes"], sides.map((s, i) => [s.toFixed(1), vol[i].toFixed(3).replace(/\.?0+$/, ""), String(sa[i]), String(pct[i])]), "Table 1");
 
@@ -27,9 +27,9 @@ export default exam({
           "For identifying the dependent variable as the percent (or fraction) of the cube that changed color (the extent to which the acid had diffused into the cube)",
         ], ["The dependent variable is the <b>percent of the cube's volume that changed color</b> after 10 minutes, which indicates how far the acid diffused into the cube. (The independent variable is the size of the cube.)"], { label: "Part B" }),
         P("C", "Describe the relationship between the size of the cube and (i) the percent of the cube that changed color and (ii) the surface-area-to-volume ratio.", [
-          "For describing that as the cube size increases, the percent of the cube that changed color decreases (100% to 71% to 28%)",
+          "For describing that as the cube size increases, the percent of the cube that changed color decreases (97% to 71% to 43%)",
           "For describing that as the cube size increases, the surface-area-to-volume ratio decreases (12 to 6 to 3 cm<sup>−1</sup>)",
-        ], ["(i) The larger the cube, the smaller the percentage of its volume that changed color: 100% for the 0.5 cm cube, 71% for the 1.0 cm cube, and 28% for the 2.0 cm cube. (ii) The surface-area-to-volume ratio also decreases as the cube gets bigger: 12, 6, and 3 cm<sup>−1</sup>, respectively."], { label: "Part C" }),
+        ], ["(i) The larger the cube, the smaller the percentage of its volume that changed color: 97% for the 0.5 cm cube, 71% for the 1.0 cm cube, and 43% for the 2.0 cm cube. (ii) The surface-area-to-volume ratio also decreases as the cube gets bigger: 12, 6, and 3 cm<sup>−1</sup>, respectively."], { label: "Part C" }),
         P("D", "Explain how the surface-area-to-volume ratio limits the size that a cell can reach.", [
           "For explaining that as a cell grows, its volume (which determines its need for nutrients and its production of wastes) increases faster than its surface area (the membrane across which materials must pass)",
           "For explaining that a low surface-area-to-volume ratio means that materials cannot be exchanged (and distributed through the cell by diffusion) fast enough to meet the needs of the cell",

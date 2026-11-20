@@ -83,11 +83,11 @@ const EXAM = {
     {
      "id": "D",
      "label": "Part D",
-     "prompt": "Cells that lack the receptor (group 4) showed no response to the hormone. Explain this result. Then predict how the amount of mRNA of gene <i>X</i> in group 5 compares with that in group 2 and justify your prediction.",
+     "prompt": "Cells that lack the receptor (group 4) showed no response to the hormone. Explain this result. Then describe how the amount of mRNA of gene <i>X</i> in group 5 compares with that in group 2, and explain the difference.",
      "tip": "A phosphatase <em>removes</em> phosphate groups, so inhibiting it keeps proteins active longer. Many students write the opposite.",
      "rubric": [
       "For explaining that without the receptor the hormone cannot bind to the cells, so the signal transduction pathway is never activated",
-      "For predicting that group 5 (with the phosphatase inhibitor) has more mRNA than group 2 and justifying that, because the phosphatase cannot remove phosphate groups, the kinase-activated proteins stay phosphorylated (active) longer, which prolongs or enhances the signal"
+      "For describing that group 5 (with the phosphatase inhibitor) has more mRNA than group 2 (12.5 versus 8.0) and explaining that, because the phosphatase cannot remove phosphate groups, the kinase-activated proteins stay phosphorylated (active) longer, which prolongs or enhances the signal"
      ],
      "model": [
       "Without the receptor, the hormone has nothing to bind to, so the pathway is never started and the mRNA stays at the control level (1.1). In group 5, the phosphatase inhibitor prevents the removal of phosphate groups.",

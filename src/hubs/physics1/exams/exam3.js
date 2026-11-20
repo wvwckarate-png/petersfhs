@@ -11,7 +11,7 @@ const EXAM_3_QUESTIONS = [
       "4.8 s"
     ],
     "correct": 2,
-    "explanation": "The ball rises until its velocity is zero, which takes t = v₀/g = 1.2 s, and then takes the same time to fall back to the launch height. The total time is 2(1.2) = 2.4 s. 1.2 s is only the time to reach the top."
+    "explanation": "Correct: (C) 2.4 s. Under gravity alone the ball decelerates at g = 10 m/s² on the way up, stops at the top, and falls back down symmetrically. Time to the top: t = v₀/g = (12 m/s)/(10 m/s²) = 1.2 s. The fall back to ground level takes the same 1.2 s, so the total time in the air is 2v₀/g = 2(1.2 s) = 2.4 s.\n\n(A) is wrong because it divides v₀ by 2g (12/20 = 0.6 s) instead of doubling v₀/g; that would be only half of the rise time.\n(B) is wrong because 1.2 s is only the time to reach the top (v₀/g); the ball needs another 1.2 s to fall back to the ground.\n(D) is wrong because it doubles the round-trip time again (4v₀/g); 4.8 s would be the flight time for a launch speed of 24 m/s, not 12 m/s."
   },
   {
     "id": "e3-2",
@@ -24,7 +24,7 @@ const EXAM_3_QUESTIONS = [
       "3.6 J"
     ],
     "correct": 3,
-    "explanation": "The energy lost is the difference in gravitational potential energy: mg(h₁ − h₂) = (0.20)(10)(5.0 − 3.2) = 3.6 J. 1.8 is the difference in height (in meters), not an energy."
+    "explanation": "Correct: (D) 3.6 J. The ball is momentarily at rest at both the drop height and the top of the rebound, so all of its mechanical energy at those moments is gravitational potential energy. The energy lost in the bounce is the drop in that potential energy: ΔE = mg(h₁ − h₂) = (0.20 kg)(10 m/s²)(5.0 m − 3.2 m) = (2.0 N)(1.8 m) = 3.6 J. It starts with 10 J and keeps 6.4 J.\n\n(A) is wrong because 1.8 is the height difference in meters (5.0 − 3.2), a length rather than an energy; multiplying by the 2.0 N weight gives 3.6 J.\n(B) is wrong because no consistent calculation gives it; the ball starts with mgh₁ = 10 J and keeps mgh₂ = 6.4 J, so the loss is 3.6 J, not 2.4 J.\n(C) is wrong because it reuses the rebound height 3.2 m as if it were an energy; the energy kept after the bounce is mgh₂ = (2.0 N)(3.2 m) = 6.4 J, and the loss is 3.6 J."
   },
   {
     "id": "e3-3",
@@ -44,7 +44,7 @@ const EXAM_3_QUESTIONS = [
       "48 m"
     ],
     "correct": 0,
-    "explanation": "The displacement is the straight-line vector from start to finish. The two legs are perpendicular, so the magnitude is √(6.0² + 8.0²) = 10 m. The total distance traveled is 14 m, which is a different quantity, since distance is the total path length."
+    "explanation": "Correct: (A) 10 m. Displacement is the straight-line vector from the starting point to the ending point, not the length of the path. The 6.0 m east leg and the 8.0 m north leg are perpendicular, so they form the legs of a right triangle whose hypotenuse is the displacement: |Δr| = √(6.0² + 8.0²) m = √(36 + 64) m = √100 m = 10 m (directed about 53° north of east).\n\n(B) is wrong because 14 m is the total distance walked (6.0 + 8.0), which adds path lengths; perpendicular displacements must be added as vectors with the Pythagorean theorem.\n(C) is wrong because it doubles the 14 m path length (as if counting a round trip), and a displacement can never be longer than the path actually walked.\n(D) is wrong because it multiplies the two legs (6.0 × 8.0 = 48), which would have units of m², an area rather than a length."
   },
   {
     "id": "e3-4",
@@ -64,7 +64,7 @@ const EXAM_3_QUESTIONS = [
       "180 J"
     ],
     "correct": 1,
-    "explanation": "Gravity does work equal to the weight times the vertical drop: W = mgh = (2.0)(10)(3.0) = 60 J, independent of the ramp's length or angle."
+    "explanation": "Correct: (B) 60 J. Gravity is a conservative force, so the work it does depends only on the vertical drop, not on the ramp's length or angle. The weight is mg = (2.0 kg)(10 m/s²) = 20 N, directed straight down, and the box drops 3.0 m vertically. W = mgh = (20 N)(3.0 m) = 60 J, positive because the force and the vertical displacement point the same way.\n\n(A) is wrong because it leaves out the mass (gh = 10 × 3.0 = 30) or takes half of mgh; the full 20 N weight acts through the full 3.0 m drop.\n(C) is wrong because it doubles the correct work, as if the box had a mass of 4.0 kg or fell 6.0 m; nothing in the stem doubles mgh.\n(D) is wrong because it multiplies by the height twice (mgh × h = 60 × 3.0); work is force times displacement, and the 3.0 m drop enters only once."
   },
   {
     "id": "e3-5",
@@ -77,7 +77,7 @@ const EXAM_3_QUESTIONS = [
       "50 rad/s²"
     ],
     "correct": 0,
-    "explanation": "α = Δω/Δt = 10/5.0 = 2.0 rad/s² in magnitude. 50 results from multiplying the angular speed by the time."
+    "explanation": "Correct: (A) 2.0 rad/s². Uniform slowing means constant angular acceleration, so α equals the change in angular velocity divided by the elapsed time. The flywheel goes from 10 rad/s to 0 rad/s in 5.0 s: α = Δω/Δt = (0 − 10 rad/s)/(5.0 s) = −2.0 rad/s². The negative sign only shows that it is slowing; the magnitude is 2.0 rad/s².\n\n(B) is wrong because 5.0 is the stopping time in seconds, not an angular acceleration; dividing the 10 rad/s change by 5.0 s gives 2.0 rad/s².\n(C) is wrong because 10 rad/s is the initial angular speed; the acceleration is that change spread over 5.0 s, so it must be divided by the time.\n(D) is wrong because it multiplies the angular speed by the time (10 × 5.0 = 50) instead of dividing; acceleration is change in velocity per unit time."
   },
   {
     "id": "e3-6",
@@ -90,7 +90,7 @@ const EXAM_3_QUESTIONS = [
       "80 m/s"
     ],
     "correct": 1,
-    "explanation": "The impulse is FΔt = (20)(4.0) = 80 N·s, which equals the change in momentum: (5.0)v = 80, so v = 16 m/s. 4.0 m/s is the acceleration (20/5.0), and 80 is the impulse in N·s."
+    "explanation": "Correct: (B) 16 m/s. By the impulse–momentum theorem, the impulse of the net force equals the change in momentum. Impulse = FΔt = (20 N)(4.0 s) = 80 N·s. The object starts at rest, so its final momentum is 80 kg·m/s and v = p/m = (80 kg·m/s)/(5.0 kg) = 16 m/s. Equivalently, a = F/m = 4.0 m/s² and v = at = (4.0)(4.0) = 16 m/s.\n\n(A) is wrong because 4.0 is the acceleration in m/s² (20 N/5.0 kg), not the speed; after 4.0 s at that acceleration the speed is 16 m/s.\n(C) is wrong because it simply repeats the force value of 20 N as a speed; the speed depends on both the force and the mass, through Δp = FΔt.\n(D) is wrong because 80 is the impulse in N·s (the final momentum), which must still be divided by the 5.0 kg mass to give the speed."
   },
   {
     "id": "e3-7",
@@ -110,7 +110,7 @@ const EXAM_3_QUESTIONS = [
       "5.3 m/s²"
     ],
     "correct": 2,
-    "explanation": "The forces are in opposite directions, so the net force is 12 − 4.0 = 8.0 N toward the east. Then a = F/m = 8.0/3.0 ≈ 2.7 m/s². 5.3 m/s² comes from adding the magnitudes of the forces (16 N)."
+    "explanation": "Correct: (C) 2.7 m/s². Forces along the same line add as signed quantities. Taking east as positive, the net force is +12 N − 4.0 N = +8.0 N, so 8.0 N east. The frictionless surface adds no horizontal force, and the weight and normal force cancel vertically. Newton's second law then gives a = F_net/m = (8.0 N)/(3.0 kg) ≈ 2.7 m/s², directed east.\n\n(A) is wrong because it uses only the 4.0 N westward force (4.0/3.0 ≈ 1.3); the larger eastward force also acts, so the net force is 8.0 N.\n(B) is wrong because it would require a net force of 6.0 N on the 3.0 kg object (or dividing 8.0 N by 4.0); the net force is 12 − 4.0 = 8.0 N.\n(D) is wrong because it adds the magnitudes of opposite forces (12 + 4.0 = 16 N, and 16/3.0 ≈ 5.3); opposite forces partly cancel."
   },
   {
     "id": "e3-8",
@@ -123,7 +123,7 @@ const EXAM_3_QUESTIONS = [
       "8d"
     ],
     "correct": 2,
-    "explanation": "By the work–energy theorem, the braking force times the stopping distance equals the initial kinetic energy: Fd = ½mv². The distance is proportional to v², so doubling the speed makes the stopping distance 4 times as large."
+    "explanation": "Correct: (C) 4d. By the work–energy theorem, the negative work done by the constant braking force removes all of the car's kinetic energy: Fd = ½mv². With F and m fixed, the stopping distance is proportional to v². Doubling the speed multiplies the kinetic energy, and therefore the distance, by 2² = 4: d' = ½m(2v)²/F = 4(½mv²/F) = 4d.\n\n(A) is wrong because it assumes the stopping distance is proportional to the speed, but kinetic energy, which the brakes must remove, grows with the square of the speed.\n(B) is wrong because no proportionality gives a factor of 3; the distance scales as v², so doubling the speed gives 2² = 4 times the distance.\n(D) is wrong because it uses the cube of the speed ratio (2³ = 8); the kinetic energy, and so the stopping distance, depends on v², not v³."
   },
   {
     "id": "e3-9",
@@ -136,7 +136,7 @@ const EXAM_3_QUESTIONS = [
       "200 m"
     ],
     "correct": 1,
-    "explanation": "The pressure due to the water is 2.0 × 10<sup>5</sup> − 1.0 × 10<sup>5</sup> = 1.0 × 10<sup>5</sup> Pa = ρgh, so h = 1.0 × 10<sup>5</sup>/(1000 × 10) = 10 m."
+    "explanation": "Correct: (B) 10 m. The absolute pressure at depth h is P = P_atm + ρgh, so only the excess over atmospheric pressure (the gauge pressure) comes from the water. ρgh = 2.0 × 10<sup>5</sup> Pa − 1.0 × 10<sup>5</sup> Pa = 1.0 × 10<sup>5</sup> Pa. Then h = (1.0 × 10<sup>5</sup> Pa)/[(1000 kg/m³)(10 m/s²)] = 10 m. Every 10 m of fresh water adds about one atmosphere.\n\n(A) is wrong because it is half the correct depth, as if the water contributed only 0.5 × 10<sup>5</sup> Pa; the gauge pressure is the full 1.0 × 10<sup>5</sup> Pa.\n(C) is wrong because it uses the full absolute pressure (2.0 × 10<sup>5</sup>/10<sup>4</sup> = 20 m) and forgets that 1.0 × 10<sup>5</sup> Pa of it comes from the atmosphere.\n(D) is wrong because it divides the absolute pressure by the density alone (2.0 × 10<sup>5</sup>/1000 = 200), leaving out both g and the atmospheric pressure."
   },
   {
     "id": "e3-10",
@@ -149,7 +149,7 @@ const EXAM_3_QUESTIONS = [
       "100 J"
     ],
     "correct": 1,
-    "explanation": "U = ½kx² = ½(500)(0.20)² = 10 J. 20 J forgets the factor of ½, and 100 is the spring force kx in newtons, not an energy."
+    "explanation": "Correct: (B) 10 J. The work needed to compress a spring is stored as elastic potential energy, U = ½kx², because the spring force grows linearly from zero to kx as it is compressed (the area under the F–x line is a triangle). U = ½(500 N/m)(0.20 m)² = ½(500)(0.040) J = 10 J.\n\n(A) is wrong because it is half the correct value, as if an extra factor of ½ were applied (¼kx²); the formula contains a single ½.\n(C) is wrong because it forgets the factor of ½ (kx² = 500 × 0.040 = 20 J); the spring force is not constant at kx during the compression.\n(D) is wrong because 100 is the spring force kx = (500)(0.20) in newtons, not an energy; energy requires the area under the F–x graph, ½kx²."
   },
   {
     "id": "e3-11",
@@ -162,7 +162,7 @@ const EXAM_3_QUESTIONS = [
       "45 kg·m²/s"
     ],
     "correct": 0,
-    "explanation": "The angular momentum is L = Iω = (0.20)(15) = 3.0 kg·m²/s."
+    "explanation": "Correct: (A) 3.0 kg·m²/s. For a rigid body rotating about a fixed axis, angular momentum is the rotational analog of p = mv: L = Iω. Substituting the given values, L = (0.20 kg·m²)(15 rad/s) = 3.0 kg·m²/s. There is no factor of ½ (that belongs to kinetic energy, ½Iω²), and the units kg·m² × s⁻¹ give kg·m²/s.\n\n(B) is wrong because it simply halves the angular speed (15/2 = 7.5) and ignores the rotational inertia; L = Iω has no factor of ½ and must include I.\n(C) is wrong because it is ten times too large, as if I were 2.0 kg·m² instead of 0.20 kg·m²; (0.20)(15) = 3.0 kg·m²/s.\n(D) is wrong because it computes Iω² = (0.20)(15)² = 45, which is twice the rotational kinetic energy in joules, not the angular momentum."
   },
   {
     "id": "e3-12",
@@ -182,7 +182,7 @@ const EXAM_3_QUESTIONS = [
       "7,000 J"
     ],
     "correct": 3,
-    "explanation": "The sled rises (20)(sin 30°) = 10 m, so gravity requires work mgh = (500)(10) = 5000 J. Overcoming friction over 20 m requires (100)(20) = 2000 J. The rope must supply both: 5000 + 2000 = 7000 J, because the kinetic energy does not change."
+    "explanation": "Correct: (D) 7,000 J. At constant speed the kinetic energy does not change, so the net work is zero and the rope's work equals the work done against gravity plus the work done against friction. The sled rises h = (20 m)(sin 30°) = 10 m, so W_gravity = mgh = (50)(10)(10) = 5000 J. Friction acts along the full 20 m: (100 N)(20 m) = 2000 J. W_rope = 5000 J + 2000 J = 7000 J.\n\n(A) is wrong because 2000 J covers only the work against friction; the rope must also lift the sled 10 m, which takes another 5000 J.\n(B) is wrong because 5000 J covers only the gain in gravitational potential energy and ignores the 100 N friction force acting over 20 m.\n(C) is wrong because it applies friction over the 10 m vertical rise (100 × 10 = 1000 J) instead of the 20 m slope distance along which friction acts."
   },
   {
     "id": "e3-13",
@@ -195,7 +195,7 @@ const EXAM_3_QUESTIONS = [
       "4F"
     ],
     "correct": 3,
-    "explanation": "The gravitational force varies as 1/r². Halving the distance multiplies the force by (1/(1/2))² = 4, so the new force is 4F. Answering 2F treats the force as inversely proportional to the distance rather than to its square."
+    "explanation": "Correct: (D) 4F. Newton's law of gravitation gives F = Gm₁m₂/r², so the force varies inversely with the square of the separation. With the masses unchanged, F' / F = (d/(d/2))² = 2² = 4. Halving the distance therefore makes the attraction four times as strong: F' = 4F.\n\n(A) is wrong because F/4 is the result of doubling the separation; reducing the distance strengthens gravity rather than weakening it.\n(B) is wrong because it treats the force as directly proportional to the distance, so halving d would halve F; gravity actually gets stronger as the spheres get closer, by a factor of (2)² = 4.\n(C) is wrong because it treats the force as inversely proportional to the distance rather than to its square, which would give only a factor of 2."
   },
   {
     "id": "e3-14",
@@ -215,7 +215,7 @@ const EXAM_3_QUESTIONS = [
       "18,000 Pa"
     ],
     "correct": 2,
-    "explanation": "For a horizontal pipe, Bernoulli's equation gives ΔP = ½ρ(v₂² − v₁²) = ½(1000)(36 − 4.0) = 16,000 Pa. 8,000 Pa results from squaring the difference of the speeds instead of taking the difference of the squares."
+    "explanation": "Correct: (C) 16,000 Pa. For a horizontal pipe the height terms cancel and Bernoulli's equation becomes P₁ + ½ρv₁² = P₂ + ½ρv₂². The pressure is higher where the water is slower (the wide section): ΔP = ½ρ(v₂² − v₁²) = ½(1000 kg/m³)[(6.0 m/s)² − (2.0 m/s)²] = 500 × (36 − 4.0) Pa = 500 × 32 Pa = 16,000 Pa.\n\n(A) is wrong because it squares the difference of the speeds, ½(1000)(6.0 − 2.0)² = 8000 Pa, instead of taking the difference of the squares.\n(B) is wrong because no form of Bernoulli's equation gives it; for example ρv₁v₂ = (1000)(2.0)(6.0) = 12,000 multiplies the speeds instead of subtracting their squares.\n(D) is wrong because it uses only the narrow-section speed, ½(1000)(6.0)² = 18,000 Pa, ignoring the kinetic-energy term of the water in the wide section."
   },
   {
     "id": "e3-15",
@@ -235,7 +235,7 @@ const EXAM_3_QUESTIONS = [
       "22 m/s"
     ],
     "correct": 3,
-    "explanation": "Energy conservation gives mgh = ½mv², so v = √(2gh) = √(2 × 10 × 25) = √500 ≈ 22 m/s. The mass cancels."
+    "explanation": "Correct: (D) 22 m/s. With no friction, mechanical energy is conserved, so the gravitational potential energy lost on the way down becomes kinetic energy: mgh = ½mv². The mass cancels, leaving v = √(2gh) = √(2 × 10 m/s² × 25 m) = √(500 m²/s²) ≈ 22.4 m/s ≈ 22 m/s. The 400 kg mass is not needed.\n\n(A) is wrong because a speed of 12 m/s corresponds to a drop of only v²/2g = 144/20 ≈ 7.2 m, far less than the 25 m height.\n(B) is wrong because it drops the factor of 2, using v = √(gh) = √250 ≈ 16 m/s; setting mgh = ½mv² gives v² = 2gh.\n(C) is wrong because 20 m/s corresponds to a drop of v²/2g = 400/20 = 20 m, not 25 m; the correct result is √500 ≈ 22 m/s."
   },
   {
     "id": "e3-16",
@@ -255,7 +255,7 @@ const EXAM_3_QUESTIONS = [
       "30 N"
     ],
     "correct": 1,
-    "explanation": "The blocks accelerate together: a = 30/(6.0 + 4.0) = 3.0 m/s². The string is the only horizontal force on the 4.0 kg block, so T = (4.0)(3.0) = 12 N. 18 N is the net force on the 6.0 kg block (30 − 12), and 30 N is the force applied to the whole system."
+    "explanation": "Correct: (B) 12 N. Treat the two blocks as one system: the string forces are internal, so a = F/(m₁ + m₂) = (30 N)/(10 kg) = 3.0 m/s². Then isolate the 4.0 kg block at the back. The only horizontal force on it is the string tension, so T = m₄a = (4.0 kg)(3.0 m/s²) = 12 N. Check: the 6.0 kg block has 30 − 12 = 18 N = (6.0)(3.0) net.\n\n(A) is wrong because 8 N is too small to give the 4.0 kg block the shared 3.0 m/s² acceleration; that needs T = (4.0)(3.0) = 12 N.\n(C) is wrong because 18 N is the net force on the 6.0 kg block (30 − 12), not the tension; the string pulls only the 4.0 kg block forward.\n(D) is wrong because 30 N is the applied force on the whole system; the string accelerates only the 4.0 kg block, so its tension is less than 30 N."
   },
   {
     "id": "e3-17",
@@ -268,7 +268,7 @@ const EXAM_3_QUESTIONS = [
       "50,000 kg/m³"
     ],
     "correct": 0,
-    "explanation": "The volume is (0.10)³ = 1.0 × 10⁻³ m³, so the density is ρ = m/V = 0.50/(1.0 × 10⁻³) = 500 kg/m³."
+    "explanation": "Correct: (A) 500 kg/m³. Density is mass per unit volume, ρ = m/V. The cube's volume is the side cubed: V = (0.10 m)³ = 1.0 × 10⁻³ m³. Then ρ = (0.50 kg)/(1.0 × 10⁻³ m³) = 500 kg/m³. This is half the density of water, so the cube would float with half its volume submerged.\n\n(B) is wrong because 1,000 kg/m³ is the density of water, assumed rather than calculated; the cube's mass and volume give 500 kg/m³.\n(C) is wrong because it divides by 1.0 × 10⁻⁴ m³, a power-of-ten slip in cubing 0.10 m; (0.10)³ = 1.0 × 10⁻³ m³.\n(D) is wrong because it divides by 1.0 × 10⁻⁵ m³, an even larger power-of-ten error in the volume; the cube's volume is 1.0 × 10⁻³ m³."
   },
   {
     "id": "e3-18",
@@ -281,7 +281,7 @@ const EXAM_3_QUESTIONS = [
       "5.0 m/s"
     ],
     "correct": 2,
-    "explanation": "The total momentum of the system stays zero, so the skaters move in opposite directions with equal-magnitude momenta: (60)(2.0) = (40)v, giving v = 3.0 m/s. The lighter skater moves faster."
+    "explanation": "Correct: (C) 3.0 m/s. The skaters start at rest on frictionless ice, so the system's total momentum is zero before and after the push. Their momenta must therefore be equal in magnitude and opposite in direction: (60 kg)(2.0 m/s) = (40 kg)v, so v = 120/40 = 3.0 m/s, in the opposite direction. The lighter skater moves faster, in inverse proportion to the masses.\n\n(A) is wrong because it inverts the mass ratio, (40)(2.0)/60 ≈ 1.3 m/s, which would give the lighter skater the smaller speed and leave unequal momenta.\n(B) is wrong because equal speeds would give the 60 kg skater more momentum (120 kg·m/s) than the 40 kg skater (80 kg·m/s), so total momentum would not stay zero.\n(D) is wrong because it adds the two speeds (2.0 + 3.0); at 5.0 m/s the 40 kg skater would carry 200 kg·m/s, not the required 120 kg·m/s."
   },
   {
     "id": "e3-19",
@@ -294,7 +294,7 @@ const EXAM_3_QUESTIONS = [
       "8,000 N"
     ],
     "correct": 2,
-    "explanation": "At constant speed, the power equals the force times the speed: P = Fv, so F = 40,000/20 = 2000 N."
+    "explanation": "Correct: (C) 2,000 N. At constant speed the engine's driving force exactly balances the resistive force, and the rate of doing work is P = Fv. Solving, F = P/v = (40,000 W)/(20 m/s) = 2000 N. Check: 2000 N × 20 m/s = 40,000 J/s = 40 kW.\n\n(A) is wrong because 500 N would need a speed of P/F = 80 m/s to use 40 kW; at 20 m/s it would absorb only 10 kW.\n(B) is wrong because 1,000 N divides the power by 40 m/s, twice the actual speed; at 20 m/s it would use only 20 kW.\n(D) is wrong because 8,000 N at 20 m/s would require P = Fv = 160 kW, four times the 40 kW the engine delivers."
   },
   {
     "id": "e3-20",
@@ -307,7 +307,7 @@ const EXAM_3_QUESTIONS = [
       "72 m"
     ],
     "correct": 1,
-    "explanation": "Starting from rest, x = ½at² = ½(3.0)(4.0)² = 24 m. The drone's final speed is 12 m/s; multiplying that speed by the time (48 m) would be correct only if the drone had moved at its final speed the whole time."
+    "explanation": "Correct: (B) 24 m. With constant acceleration from rest, the displacement is x = v₀t + ½at² with v₀ = 0: x = ½(3.0 m/s²)(4.0 s)² = ½(3.0)(16) m = 24 m. Check with average velocity: the speed rises evenly from 0 to 12 m/s, so v_avg = 6.0 m/s and x = (6.0 m/s)(4.0 s) = 24 m.\n\n(A) is wrong because 12 is the final speed in m/s (at = 3.0 × 4.0), not a distance; the distance requires the average speed times the time.\n(C) is wrong because it multiplies the final speed by the time (12 × 4.0 = 48 m), which would be correct only if the drone had moved at 12 m/s the whole time.\n(D) is wrong because 72 m would require an average speed of 18 m/s, more than the 12 m/s final speed, which is impossible for a drone starting from rest."
   },
   {
     "id": "e3-21",
@@ -327,7 +327,7 @@ const EXAM_3_QUESTIONS = [
       "100 J"
     ],
     "correct": 3,
-    "explanation": "The child adds a rotational inertia of mr² = (25)(2.0)² = 100 kg·m², so the total becomes 200 kg·m². Angular momentum is conserved: (100)(2.0) = (200)ω, so ω = 1.0 rad/s. The kinetic energy changes from ½(100)(2.0)² = 200 J to ½(200)(1.0)² = 100 J, so 100 J is lost."
+    "explanation": "Correct: (D) 100 J. The child exerts no external torque about the axis, so angular momentum is conserved but kinetic energy is not (it is a rotational inelastic collision). L = Iω = (100)(2.0) = 200 kg·m²/s. The child adds mr² = (25)(2.0)² = 100 kg·m², so I_f = 200 kg·m² and ω_f = 200/200 = 1.0 rad/s. K_i = ½(100)(2.0)² = 200 J and K_f = ½(200)(1.0)² = 100 J, so 100 J is lost.\n\n(A) is wrong because it is only one quarter of the actual loss; with L conserved, K_f = L²/2I_f = 200²/(2 × 200) = 100 J, so 200 J − 100 J = 100 J is lost.\n(B) is wrong because it is half of the actual loss, as if an extra factor of ½ were applied; the energies are 200 J before and 100 J after.\n(C) is wrong because it would leave 125 J of kinetic energy, but with L = 200 kg·m²/s and I = 200 kg·m² the final energy must be L²/2I = 100 J."
   },
   {
     "id": "e3-22",
@@ -340,7 +340,7 @@ const EXAM_3_QUESTIONS = [
       "4.0 N·m"
     ],
     "correct": 3,
-    "explanation": "The rotational inertia is I = ½(4.0)(0.50)² = 0.50 kg·m². Then τ = Iα = (0.50)(8.0) = 4.0 N·m. The value 0.5 is the rotational inertia itself, not the torque."
+    "explanation": "Correct: (D) 4.0 N·m. Newton's second law for rotation is τ_net = Iα. First find the disk's rotational inertia: I = ½MR² = ½(4.0 kg)(0.50 m)² = ½(4.0)(0.25) = 0.50 kg·m². Then τ = Iα = (0.50 kg·m²)(8.0 rad/s²) = 4.0 N·m. The units check: kg·m² × rad/s² = kg·m²/s² = N·m, and a larger torque would be needed for a hoop of the same mass, which has twice the inertia.\n\n(A) is wrong because 0.5 is the rotational inertia in kg·m², not the torque; it still has to be multiplied by α = 8.0 rad/s².\n(B) is wrong because 1.0 is MR² = (4.0)(0.50)², the hoop formula, and is still an inertia rather than a torque; the disk needs τ = (0.50)(8.0) = 4.0 N·m.\n(C) is wrong because it is half the correct value, as if an extra factor of ½ were applied (I = ¼MR²); τ = (0.50)(8.0) = 4.0 N·m."
   },
   {
     "id": "e3-23",
@@ -353,7 +353,7 @@ const EXAM_3_QUESTIONS = [
       "4T, because the energy of the oscillator is four times as large."
     ],
     "correct": 0,
-    "explanation": "The period of a mass–spring system is T = 2π√(m/k), which depends only on the mass and the spring constant. With a larger amplitude the block travels farther but also reaches a proportionally larger maximum speed, so the time for one cycle is unchanged."
+    "explanation": "Correct: (A) T, because the period of a mass–spring oscillator does not depend on amplitude. The period of a mass–spring oscillator is T = 2π√(m/k), which contains only the mass and the spring constant. Doubling the amplitude doubles the distance traveled per cycle, but it also doubles the maximum restoring force (kx) and the maximum speed, so the block covers the longer path proportionally faster. The period stays T.\n\n(B) is wrong because the block does travel twice as far, but it also moves twice as fast at every corresponding point, so the time per cycle is unchanged.\n(C) is wrong because the faster motion is exactly offset by the longer path, so the period does not decrease; T = 2π√(m/k) has no amplitude dependence.\n(D) is wrong because the energy (½kA²) is four times as large, but the period depends only on m and k, not on the oscillator's energy."
   },
   {
     "id": "e3-24",
@@ -366,7 +366,7 @@ const EXAM_3_QUESTIONS = [
       "They reach the bottom together, because gravity accelerates all objects equally."
     ],
     "correct": 0,
-    "explanation": "Both objects lose the same gravitational potential energy mgh. A hoop has the greater rotational inertia (MR² compared with (2/5)MR²), so a larger share of its energy goes into rotation and less into translation. The sphere therefore has the larger translational speed, a larger acceleration down the incline, and reaches the bottom first."
+    "explanation": "Correct: (A) The sphere reaches the bottom first, because it has less rotational inertia, so more of its energy becomes translational kinetic energy. Both objects lose the same potential energy mgh, which is split between translation and rotation: mgh = ½mv² + ½Iω² with ω = v/R. For the sphere, I = (2/5)MR², so v² = (10/7)gh; for the hoop, I = MR², so v² = gh. The sphere keeps more of its energy as translational kinetic energy, so it has a larger acceleration down the incline and reaches the bottom first.\n\n(B) is wrong because both start with the same energy mgh; the hoop's larger rotational inertia sends more of that energy into spinning, so it moves more slowly.\n(C) is wrong because equal mass and radius are not enough; how the mass is distributed (hoop at the rim, sphere spread throughout) sets the rotational inertia.\n(D) is wrong because equal acceleration holds only for free fall or frictionless sliding; when rolling, part of the energy goes into rotation, and that share differs."
   },
   {
     "id": "e3-25",
@@ -379,7 +379,7 @@ const EXAM_3_QUESTIONS = [
       "8"
     ],
     "correct": 2,
-    "explanation": "By continuity, A₁v₁ = A₂v₂. The cross-sectional area is proportional to r², so halving the radius reduces the area to 1/4, and the speed increases by a factor of 4."
+    "explanation": "Correct: (C) 4. For an incompressible ideal fluid, the volume flow rate is constant: A₁v₁ = A₂v₂. The cross-sectional area of a pipe is A = πr², so halving the radius reduces the area to (1/2)² = 1/4 of its original value. To carry the same flow, the speed must increase by a factor of A₁/A₂ = 4.\n\n(A) is wrong because it uses the ratio of the radii (2) instead of the ratio of the areas; area depends on r², so the factor is 2² = 4.\n(B) is wrong because no geometric relation gives a factor of 3; the speed scales with 1/A ∝ 1/r², which gives exactly 4.\n(D) is wrong because it cubes the radius ratio (2³ = 8), as if flow depended on volume; continuity uses the cross-sectional area, which scales as r²."
   },
   {
     "id": "e3-26",
@@ -399,7 +399,7 @@ const EXAM_3_QUESTIONS = [
       "The position of the object at the start of the interval"
     ],
     "correct": 1,
-    "explanation": "The area under a velocity–time graph is the product of velocity and time summed over the interval, which is the displacement. Acceleration is the slope of the graph, not the area, and the area says nothing about where the object started."
+    "explanation": "Correct: (B) The displacement of the object during the interval. On a velocity–time graph, each thin strip of area is v·Δt, which is the small displacement during Δt. Adding the strips over an interval gives the total displacement, with area below the time axis counting as negative. For the graph shown, the area from 0 to 8 s would be ½(2)(4) + (3)(4) + ½(4 + 1)(3) = 4 + 12 + 7.5 = 23.5 m.\n\n(A) is wrong because the instantaneous acceleration is the slope of the v–t graph at that moment, not an area under it.\n(C) is wrong because average acceleration is Δv/Δt, the slope of a line joining the endpoints of the interval, not the area under the curve.\n(D) is wrong because the area gives only the change in position; the starting position cannot be read from a velocity graph without extra information."
   },
   {
     "id": "e3-27",
@@ -419,7 +419,7 @@ const EXAM_3_QUESTIONS = [
       "20 m/s"
     ],
     "correct": 0,
-    "explanation": "The vertical component is v₀ sin θ = (20)(sin 30°) = (20)(0.50) = 10 m/s. The 17 m/s value is the horizontal component, v₀ cos 30°."
+    "explanation": "Correct: (A) 10 m/s. Resolve the launch velocity into components. The vertical component is the side opposite the 30° angle: v₀y = v₀ sin θ = (20 m/s)(sin 30°) = (20)(0.50) = 10 m/s. The horizontal component is v₀ cos 30° = (20)(0.866) ≈ 17 m/s, and together they satisfy √(10² + 17.3²) = 20 m/s.\n\n(B) is wrong because 14 m/s is 20 sin 45°, the component for a 45° launch; at 30° the vertical component is 20 sin 30° = 10 m/s.\n(C) is wrong because 17 m/s is the horizontal component, v₀ cos 30°; the vertical component uses sin 30°.\n(D) is wrong because 20 m/s is the full launch speed; a component of a vector at 30° must be smaller than the vector itself."
   },
   {
     "id": "e3-28",
@@ -432,7 +432,7 @@ const EXAM_3_QUESTIONS = [
       "20,000 N"
     ],
     "correct": 1,
-    "explanation": "From v² = 2ad, the deceleration is a = 400/80 = 5.0 m/s². The braking force is F = ma = (1000)(5.0) = 5000 N."
+    "explanation": "Correct: (B) 5,000 N. Constant braking gives constant deceleration. From v² = v₀² − 2ad with v = 0: a = v₀²/(2d) = (20 m/s)²/(2 × 40 m) = 400/80 = 5.0 m/s². Newton's second law then gives F = ma = (1000 kg)(5.0 m/s²) = 5000 N. The work–energy check agrees: Fd = ½mv² gives F = 200,000 J/40 m = 5000 N.\n\n(A) is wrong because 2,500 N would give a = 2.5 m/s², which would stop the car in v²/2a = 80 m, twice the 40 m given.\n(C) is wrong because it drops the factor of 2 in v² = 2ad, using a = 400/40 = 10 m/s²; that force would stop the car in only 20 m.\n(D) is wrong because 20,000 is the car's initial momentum mv in kg·m/s, not a force; force requires dividing by a time or using the stopping distance."
   },
   {
     "id": "e3-29",
@@ -445,7 +445,7 @@ const EXAM_3_QUESTIONS = [
       "It is less than the weight, because the elevator's acceleration is directed upward."
     ],
     "correct": 0,
-    "explanation": "Because the elevator is moving downward and slowing, its acceleration is directed upward. Newton's second law then requires an upward net force on the passenger, so the scale's normal force must be greater than the weight: N − mg = ma with a > 0 upward. The direction of the velocity does not determine the scale reading — the direction of the acceleration does."
+    "explanation": "Correct: (A) It is greater than the weight, because the elevator's acceleration is directed upward. An elevator moving down and slowing has velocity downward but acceleration upward (opposite the velocity). Newton's second law for the passenger, with up positive: N − mg = ma, where a > 0. So N = m(g + a) > mg, and the scale, which reads the normal force N, shows more than the passenger's weight. The acceleration, not the velocity, determines the reading.\n\n(B) is wrong because the direction of motion does not set the scale reading; a downward-moving elevator that is slowing has an upward acceleration, so N > mg.\n(C) is wrong because the reading equals the weight only when the acceleration is zero; here the elevator is slowing, so a ≠ 0.\n(D) is wrong because an upward acceleration requires an upward net force, so N must exceed mg; this choice states the correct acceleration but the wrong conclusion."
   },
   {
     "id": "e3-30",
@@ -458,7 +458,7 @@ const EXAM_3_QUESTIONS = [
       "200 N"
     ],
     "correct": 2,
-    "explanation": "The buoyant force equals the weight of the displaced water: B = ρVg = (1000)(2.0 × 10⁻³)(10) = 20 N."
+    "explanation": "Correct: (C) 20 N. By Archimedes' principle, the buoyant force equals the weight of the fluid displaced. A completely submerged ball displaces its own volume of water: B = ρ_fluid V g = (1000 kg/m³)(2.0 × 10⁻³ m³)(10 m/s²) = 20 N. The ball's own mass and material do not matter, only the displaced volume.\n\n(A) is wrong because 2 is ρV = 2.0 kg, the mass of the displaced water; it must be multiplied by g = 10 m/s² to give a force.\n(B) is wrong because 10 N corresponds to displacing only 1.0 × 10⁻³ m³ of water, half the ball's stated volume.\n(D) is wrong because it is ten times too large, a power-of-ten slip in the volume; (1000)(2.0 × 10⁻³)(10) = 20 N."
   },
   {
     "id": "e3-31",
@@ -478,7 +478,7 @@ const EXAM_3_QUESTIONS = [
       "5.0 N·s"
     ],
     "correct": 3,
-    "explanation": "Taking the initial direction as positive, Δp = m(v_f − v_i) = (0.25)(−12 − 8.0) = −5.0 kg·m/s, so the impulse has magnitude 5.0 N·s. 1.0 N·s results from subtracting the speeds without accounting for the reversal of direction."
+    "explanation": "Correct: (D) 5.0 N·s. Impulse equals the change in momentum, and momentum is a vector, so the reversal of direction matters. Taking the initial direction as positive, v_i = +8.0 m/s and v_f = −12 m/s: J = m(v_f − v_i) = (0.25 kg)(−12 − 8.0) m/s = (0.25)(−20) = −5.0 kg·m/s. The magnitude of the impulse is 5.0 N·s, directed opposite the ball's original motion.\n\n(A) is wrong because it subtracts the speeds, (0.25)(12 − 8.0) = 1.0, ignoring that the ball reverses direction; the velocity change is 20 m/s, not 4.0 m/s.\n(B) is wrong because 2.0 kg·m/s is only the initial momentum (0.25 × 8.0); the bat must also give the ball 3.0 kg·m/s in the opposite direction.\n(C) is wrong because 3.0 kg·m/s is only the final momentum (0.25 × 12); the bat first has to cancel the incoming 2.0 kg·m/s."
   },
   {
     "id": "e3-32",
@@ -491,7 +491,7 @@ const EXAM_3_QUESTIONS = [
       "Both balls move forward, each with half of the original speed of the first ball."
     ],
     "correct": 0,
-    "explanation": "In an elastic collision both momentum and kinetic energy are conserved. For equal masses the balls exchange velocities, so the first ball stops and the second moves off with the first ball's original velocity. If the balls stuck together or each moved at half speed, momentum would be conserved but the kinetic energy would be cut in half. If the first ball rebounded with the second at rest, the momentum would change sign and would not be conserved."
+    "explanation": "Correct: (A) The first ball stops, and the second ball moves with the first ball's original velocity. In an elastic collision both momentum and kinetic energy are conserved. For a head-on collision of equal masses with one at rest, the only solution satisfying both is that the balls exchange velocities: m v = m v₁' + m v₂' and ½mv² = ½mv₁'² + ½mv₂'² give v₁' = 0 and v₂' = v. The first ball stops and the second moves off with the original velocity.\n\n(B) is wrong because sticking together is a perfectly inelastic collision; momentum is conserved but the kinetic energy drops to 2 × ½m(v/2)² = ¼mv², half the original.\n(C) is wrong because if the first ball rebounded with the second ball at rest, the total momentum would reverse from mv to −mv, violating momentum conservation.\n(D) is wrong because each ball at v/2 conserves momentum but leaves only 2 × ½m(v/2)² = ¼mv² of kinetic energy, half the original, so it is not elastic."
   },
   {
     "id": "e3-33",
@@ -511,7 +511,7 @@ const EXAM_3_QUESTIONS = [
       "900 N"
     ],
     "correct": 1,
-    "explanation": "Take torques about the right end so the right support's force drops out. The beam's weight (300 N) acts at its center, 1.5 m from the right end, and the person's weight (600 N) acts 2.0 m from the right end. Equilibrium requires N_L(3.0) = (300)(1.5) + (600)(2.0) = 1650, so N_L = 550 N."
+    "explanation": "Correct: (B) 550 N. The beam is in static equilibrium, so net torque about any point is zero. Taking torques about the right support removes N_R. The beam's weight (30 kg × 10 = 300 N) acts at its center, 1.5 m from the right end; the person's weight (600 N) acts 3.0 − 1.0 = 2.0 m from the right end. N_L(3.0 m) = (300 N)(1.5 m) + (600 N)(2.0 m) = 1650 N·m, so N_L = 550 N (and N_R = 900 − 550 = 350 N).\n\n(A) is wrong because it splits the 900 N total weight evenly between the supports, which is true only if the person stands at the center.\n(C) is wrong because 600 N is the person's weight alone; the left support also carries half of the 300 N beam and only part of the person's weight.\n(D) is wrong because 900 N is the total weight of the beam and person; if the left support carried all of it, the right support would exert no force."
   },
   {
     "id": "e3-34",
@@ -524,7 +524,7 @@ const EXAM_3_QUESTIONS = [
       "10 Hz"
     ],
     "correct": 2,
-    "explanation": "Frequency is the number of cycles per second: 10/5.0 = 2.0 Hz. The value 0.50 is the period in seconds."
+    "explanation": "Correct: (C) 2.0 Hz. Frequency is the number of complete cycles per unit time: f = (number of cycles)/(time) = 10 cycles/5.0 s = 2.0 Hz. The period is the reciprocal, T = 1/f = 0.50 s, the time for one cycle. Hertz means cycles per second, so 2.0 Hz is two full oscillations each second.\n\n(A) is wrong because 0.50 is the period in seconds (5.0 s/10 cycles), the time per cycle; frequency is the reciprocal, 2.0 Hz.\n(B) is wrong because 1.0 Hz would mean only 5 cycles in 5.0 s; the oscillator completes 10 cycles, which is 2 per second.\n(D) is wrong because 10 is the total number of cycles, not cycles per second; it must be divided by the 5.0 s interval."
   },
   {
     "id": "e3-35",
@@ -544,7 +544,7 @@ const EXAM_3_QUESTIONS = [
       "11 N·m"
     ],
     "correct": 1,
-    "explanation": "The 8.0 N force acts 1.0 m from the pivot and produces a counterclockwise torque of 8.0 N·m. The 5.0 N force acts 0.60 m from the pivot on the other side and produces a clockwise torque of 3.0 N·m. The net torque is 8.0 − 3.0 = 5.0 N·m. The rod's weight acts at the pivot and contributes no torque. 11 N·m comes from adding the torques instead of subtracting them."
+    "explanation": "Correct: (B) 5.0 N·m. Torque is τ = rF for a force perpendicular to the rod. The 8.0 N force at the left end acts 1.0 m from the pivot (half of 2.0 m) and tends to rotate the rod counterclockwise: τ = (1.0)(8.0) = 8.0 N·m. The 5.0 N force acts 0.60 m to the right and tends to rotate it clockwise: τ = (0.60)(5.0) = 3.0 N·m. The rod's weight acts at the pivot and gives no torque. Net torque = 8.0 − 3.0 = 5.0 N·m, counterclockwise.\n\n(A) is wrong because 3.0 N·m is only the torque of the 5.0 N force; the larger 8.0 N·m torque on the other side acts in the opposite sense.\n(C) is wrong because 8.0 N·m is only the torque of the 8.0 N force; the 5.0 N force produces an opposing 3.0 N·m torque that must be subtracted.\n(D) is wrong because it adds the two torques (8.0 + 3.0 = 11) even though they tend to rotate the rod in opposite directions."
   },
   {
     "id": "e3-36",
@@ -564,7 +564,7 @@ const EXAM_3_QUESTIONS = [
       "0.20 m"
     ],
     "correct": 3,
-    "explanation": "The block is in equilibrium, so the spring force balances the weight: kx = mg, giving x = (2.0)(10)/100 = 0.20 m. 0.020 m results from using the mass instead of the weight."
+    "explanation": "Correct: (D) 0.20 m. At rest, the block is in equilibrium, so the upward spring force balances the weight: kx = mg. The weight is (2.0 kg)(10 m/s²) = 20 N, so x = mg/k = (20 N)/(100 N/m) = 0.20 m. Hooke's law relates the spring force to the stretch from the relaxed length, which is exactly what is asked.\n\n(A) is wrong because it uses the mass instead of the weight (2.0/100 = 0.020 m); the spring must support a 20 N force, not 2.0.\n(B) is wrong because 0.050 m would support only kx = (100)(0.050) = 5.0 N, a quarter of the 20 N weight.\n(C) is wrong because it halves mg/k, as if a stray factor of ½ from ½kx² were inserted; a 0.10 m stretch supports only 10 N."
   },
   {
     "id": "e3-37",
@@ -577,7 +577,7 @@ const EXAM_3_QUESTIONS = [
       "An upward-curving parabola that starts at the origin"
     ],
     "correct": 3,
-    "explanation": "Kinetic energy is K = ½mv², so it is proportional to the square of the speed. Its graph against speed is a parabola opening upward that passes through the origin. A straight line would show a K that is proportional to v, such as the momentum."
+    "explanation": "Correct: (D) An upward-curving parabola that starts at the origin. Kinetic energy is K = ½mv², so for a fixed mass K is proportional to the square of the speed. A graph of K versus v is therefore a parabola that starts at the origin (K = 0 when v = 0) and curves upward, getting steeper as v increases: doubling the speed quadruples the kinetic energy.\n\n(A) is wrong because a straight line through the origin would mean K is proportional to v, which describes momentum (p = mv), not kinetic energy.\n(B) is wrong because a concave-down curve would mean K grows more slowly at high speed, the opposite of K ∝ v², which grows faster.\n(C) is wrong because a horizontal line would mean the kinetic energy does not depend on speed at all, contradicting K = ½mv²."
   },
   {
     "id": "e3-38",
@@ -590,7 +590,7 @@ const EXAM_3_QUESTIONS = [
       "200 N/m"
     ],
     "correct": 2,
-    "explanation": "Rearranging T = 2π√(m/k) gives k = 4π²m/T² = 4π²(0.50)/(0.63)² ≈ 50 N/m."
+    "explanation": "Correct: (C) 50 N/m. The period of a mass–spring oscillator is T = 2π√(m/k). Squaring and solving for k: k = 4π²m/T² = 4π²(0.50 kg)/(0.63 s)² = (19.7 kg)/(0.397 s²) ≈ 49.7 N/m ≈ 50 N/m. Check: T = 2π√(0.50/50) = 2π(0.10) = 0.63 s. Note that k depends on 1/T², so a small error in the period produces a large error in the spring constant.\n\n(A) is wrong because with k = 10 N/m the period would be 2π√(0.50/10) ≈ 1.4 s, more than twice the given 0.63 s.\n(B) is wrong because it is half the correct value, as if 2π² were used instead of 4π²; with k = 25 N/m the period would be about 0.89 s.\n(D) is wrong because it is four times too large, as if the period were halved; with k = 200 N/m the period would be about 0.31 s."
   },
   {
     "id": "e3-39",
@@ -610,7 +610,7 @@ const EXAM_3_QUESTIONS = [
       "The change in the object's momentum"
     ],
     "correct": 3,
-    "explanation": "The area under a force–time graph is the impulse, and by the impulse–momentum theorem the impulse equals the change in momentum. The change in kinetic energy and the work are related to the area under a force–position graph instead."
+    "explanation": "Correct: (D) The change in the object's momentum. The area under a force–time graph is ∫F dt, the impulse. By the impulse–momentum theorem, the impulse of the net force equals the change in momentum, Δp. For the graph shown, the area is ½(2)(10) + (2)(10) + ½(2)(10) = 40 N·s, so the object's momentum changes by 40 kg·m/s.\n\n(A) is wrong because the change in kinetic energy equals the net work, which is the area under a force–position graph, not a force–time graph.\n(B) is wrong because work is the area under a force versus displacement graph; the area under force versus time is impulse.\n(C) is wrong because acceleration at any instant is F/m, read from the graph's height divided by the mass, not from the area under it."
   },
   {
     "id": "e3-40",
@@ -623,7 +623,7 @@ const EXAM_3_QUESTIONS = [
       "80 rad/s²"
     ],
     "correct": 0,
-    "explanation": "α = τ/I = 20/4.0 = 5.0 rad/s². 80 results from multiplying the torque by the rotational inertia instead of dividing."
+    "explanation": "Correct: (A) 5.0 rad/s². Newton's second law for rotation is τ_net = Iα, so α = τ/I. Substituting the given values: α = (20 N·m)/(4.0 kg·m²) = 5.0 rad/s². The units work out because N·m = kg·m²/s², and dividing by kg·m² leaves 1/s² (rad/s²). This mirrors a = F/m for linear motion: torque plays the role of force and rotational inertia plays the role of mass.\n\n(B) is wrong because 10 rad/s² would require a net torque of (4.0)(10) = 40 N·m, twice the 20 N·m that acts on the wheel.\n(C) is wrong because 20 is the torque in N·m repeated as an angular acceleration; it must be divided by the rotational inertia of 4.0 kg·m².\n(D) is wrong because it multiplies the torque by the rotational inertia (20 × 4.0 = 80) instead of dividing, as α = τ/I requires."
   },
   {
     "id": "e3-41",
@@ -636,7 +636,7 @@ const EXAM_3_QUESTIONS = [
       "The puck's weight is the only force that acts on it."
     ],
     "correct": 1,
-    "explanation": "Constant velocity means zero acceleration, so by Newton's first and second laws the net force is zero. No forward force is needed to keep the puck moving. The puck's weight is balanced by the upward normal force from the ice, so weight is not the only force acting on it."
+    "explanation": "Correct: (B) The net force on the puck is zero. Constant velocity means zero acceleration (no change in speed or direction). By Newton's first and second laws, F_net = ma = 0, so the forces on the puck must balance. Vertically, the upward normal force from the ice cancels the downward weight; horizontally, the frictionless ice exerts no force, so the puck simply keeps moving.\n\n(A) is wrong because this is the Aristotelian misconception; by Newton's first law, an object keeps moving at constant velocity with no net force acting on it.\n(C) is wrong because a net force along the motion would make the puck speed up, but its velocity is constant, so the net force must be zero.\n(D) is wrong because the ice also pushes up with a normal force equal to the weight; if weight acted alone, the puck would accelerate downward."
   },
   {
     "id": "e3-42",
@@ -656,7 +656,7 @@ const EXAM_3_QUESTIONS = [
       "40 N"
     ],
     "correct": 2,
-    "explanation": "The block is in equilibrium, so the static friction force balances the component of the weight along the incline: f = mg sin 37° = (50)(0.60) = 30 N. 40 N is the component of the weight perpendicular to the incline, mg cos 37°."
+    "explanation": "Correct: (C) 30 N. Since the block stays at rest, the net force along the incline is zero, so static friction (directed up the slope) balances the component of gravity along the slope. The weight is mg = (5.0 kg)(10 m/s²) = 50 N, and its component along the incline is mg sin 37° = (50 N)(0.60) = 30 N, so f = 30 N. The friction is static, so μN is only its maximum, not needed here.\n\n(A) is wrong because 20 N does not match either component of the 50 N weight (30 N along, 40 N perpendicular), so it cannot balance the downslope pull.\n(B) is wrong because 25 N is mg sin 30° (or half of the weight); the incline is at 37°, so the downslope component is (50)(0.60) = 30 N.\n(D) is wrong because 40 N is the component of the weight perpendicular to the incline, mg cos 37°, which is balanced by the normal force, not by friction."
   }
 ];
 

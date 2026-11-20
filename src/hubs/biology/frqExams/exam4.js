@@ -85,7 +85,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Calculate the average rate of O<sub>2</sub> consumption, in mL per minute, over the 20 minutes for the germinating peas and for the dry peas. Show your work.",
-     "tip": "Divide the volume of O<sub>2</sub> consumed by the time, and compare the germinating and dry peas numerically, not just in words.",
+     "tip": "Divide the total volume of O<sub>2</sub> consumed at 20 min by the 20 minutes, and give the units (mL/min) for each rate.",
      "rubric": [
       "For a correct rate for the germinating peas: 0.49 mL/20 min = 0.0245 mL/min (about 0.025)",
       "For a correct rate for the dry peas: 0.03 mL/20 min = 0.0015 mL/min"
@@ -232,7 +232,7 @@ const EXAM = {
       "For a correct calculation: [(35 − 6)/6] × 100 = 483% (an increase of about 480%)"
      ],
      "model": [
-      "Percent change = [(final − initial)/initial] × 100 = [(35 − 6)/6] × 100 = <b>483%</b>. The share of resistant cells increased by almost six times between generation 10 and generation 15."
+      "Percent change = [(final − initial)/initial] × 100 = [(35 − 6)/6] × 100 = <b>483%</b>. The share of resistant cells became almost six times as large (35/6 ≈ 5.8) between generation 10 and generation 15."
      ]
     },
     {

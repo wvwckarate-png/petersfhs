@@ -18,7 +18,7 @@ const EXAM_2_QUESTIONS = [
       "8.0 m/s²"
     ],
     "correct": 0,
-    "explanation": "The normal force is mg = 50 N, so the friction force is (0.20)(50) = 10 N. The net force is 30 − 10 = 20 N, so a = 20/5.0 = 4.0 m/s². 6.0 m/s² ignores friction, and 5.8 m/s² uses the mass instead of the weight to find the friction."
+    "explanation": "Correct: (A) 4.0 m/s². On a horizontal floor with only a horizontal push, the normal force equals the weight: N = mg = (5.0 kg)(10 m/s²) = 50 N. Kinetic friction is f = μₖN = (0.20)(50 N) = 10 N, directed opposite the motion. Newton's second law gives F<sub>net</sub> = 30 N − 10 N = 20 N, so a = F<sub>net</sub>/m = 20 N / 5.0 kg = 4.0 m/s².\n\n(B) is wrong because it uses the mass instead of the weight in the friction formula: f = (0.20)(5.0) = 1.0 N, so a = (30 − 1.0)/5.0 = 5.8 m/s².\n(C) is wrong because it ignores friction entirely, computing a = 30 N / 5.0 kg = 6.0 m/s², even though the floor is rough and friction removes 10 N.\n(D) is wrong because it adds the 10 N friction force to the push, (30 + 10)/5.0 = 8.0 m/s², but kinetic friction opposes the motion and reduces the net force."
   },
   {
     "id": "e2-2",
@@ -31,7 +31,7 @@ const EXAM_2_QUESTIONS = [
       "5.0 s"
     ],
     "correct": 3,
-    "explanation": "The work done on the load is mgh = (100)(10)(10) = 10,000 J. With P = W/t, the time is t = 10,000/2000 = 5.0 s."
+    "explanation": "Correct: (D) 5.0 s. Lifting at constant speed means the motor's work goes entirely into gravitational potential energy: W = mgh = (100 kg)(10 m/s²)(10 m) = 1.0 × 10⁴ J. Power is the rate of doing work, P = W/t, so t = W/P = 10,000 J / 2000 W = 5.0 s. The constant speed tells you no kinetic energy is gained.\n\n(A) is wrong because it leaves out g, using W = mh = (100)(10) = 1000 J, which gives t = 1000/2000 = 0.5 s; the work must use the weight, 1000 N.\n(B) is wrong because it inverts the relationship, computing 2000/1000 (power divided by the weight) instead of dividing the 10,000 J of work by the 2000 W power.\n(C) is wrong because a 3.0 s lift at 2000 W supplies only 6000 J, which is less than the 10,000 J needed to raise 1000 N through 10 m."
   },
   {
     "id": "e2-3",
@@ -51,7 +51,7 @@ const EXAM_2_QUESTIONS = [
       "5.0 m/s²"
     ],
     "correct": 2,
-    "explanation": "The net force on the system is the difference in the weights: (3.0 − 2.0)(10) = 10 N. This force accelerates the total mass of 5.0 kg, so a = 10/5.0 = 2.0 m/s²."
+    "explanation": "Correct: (C) 2.0 m/s². Treat the two blocks and string as one system (an Atwood machine). The unbalanced force is the difference of the weights, (3.0 kg − 2.0 kg)(10 m/s²) = 10 N, while the string tension is internal. That 10 N must accelerate both masses together, 5.0 kg, so a = (m₂ − m₁)g/(m₁ + m₂) = 10 N / 5.0 kg = 2.0 m/s².\n\n(A) is wrong because it divides the 1.0 kg mass difference by the 2.0 kg lighter mass and leaves out g, 1.0/2.0 = 0.5; the 10 N weight difference must be divided by the 5.0 kg total mass.\n(B) is wrong because 1.0 m/s² is the acceleration a net force of only 5.0 N would give the 5.0 kg system, half the real 10 N difference between the weights; it is as if the 10 N were divided by 10 kg instead of 2.0 + 3.0 = 5.0 kg.\n(D) is wrong because it divides the 10 N net force by only the 2.0 kg block, forgetting that the 3.0 kg block must be accelerated by the same net force."
   },
   {
     "id": "e2-4",
@@ -71,7 +71,7 @@ const EXAM_2_QUESTIONS = [
       "4.5 m/s"
     ],
     "correct": 3,
-    "explanation": "The total momentum is zero before and after the explosion, so the 4.0 kg piece must carry equal and opposite momentum: (4.0)v = (2.0)(9.0), giving v = 4.5 m/s directed to the left."
+    "explanation": "Correct: (D) 4.5 m/s. The object starts at rest, so the total momentum is zero, and the internal explosion forces cannot change it. After the explosion the two pieces must have equal and opposite momenta: (4.0 kg)v = (2.0 kg)(9.0 m/s) = 18 kg·m/s, so v = 18/4.0 = 4.5 m/s, directed to the left. The heavier piece moves more slowly.\n\n(A) is wrong because a 4.0 kg piece at 2.0 m/s carries only 8.0 kg·m/s, which cannot cancel the 18 kg·m/s of the 2.0 kg piece, so total momentum would not stay zero.\n(B) is wrong because it divides the 18 kg·m/s by the total 6.0 kg mass, as if the whole object moved together, instead of by the 4.0 kg piece's own mass.\n(C) is wrong because a 4.0 kg piece at 4.0 m/s carries 16 kg·m/s, not the 18 kg·m/s needed to balance the 2.0 kg piece's momentum."
   },
   {
     "id": "e2-5",
@@ -84,7 +84,7 @@ const EXAM_2_QUESTIONS = [
       "5.6 J"
     ],
     "correct": 3,
-    "explanation": "Rolling without slipping means ω = v/R. The translational kinetic energy is ½mv² = ½(0.50)(16) = 4.0 J. The rotational kinetic energy is ½Iω² = ½(2/5)(mR²)(v/R)² = (1/5)mv² = 1.6 J. The total is 4.0 + 1.6 = 5.6 J. 4.0 J and 1.6 J are only the translational and rotational parts."
+    "explanation": "Correct: (D) 5.6 J. A rolling object has both translational and rotational kinetic energy, linked by the no-slip condition ω = v/R. Translational: ½mv² = ½(0.50 kg)(4.0 m/s)² = 4.0 J. Rotational: ½Iω² = ½(2/5)(mR²)(v/R)² = (1/5)mv² = (1/5)(0.50)(16) = 1.6 J. The radius cancels, and the total is 4.0 J + 1.6 J = 5.6 J.\n\n(A) is wrong because 1.6 J is only the rotational kinetic energy; the sphere's center of mass is also moving at 4.0 m/s and carries 4.0 J of translational energy.\n(B) is wrong because 4.0 J is only the translational kinetic energy ½mv², which treats the sphere as sliding without spinning and leaves out the 1.6 J of rotational energy.\n(C) is wrong because it adds only 1.0 J of rotational energy, an underestimate; with I = (2/5)MR² the rotational term is (1/5)mv² = 1.6 J, not 1.0 J."
   },
   {
     "id": "e2-6",
@@ -104,7 +104,7 @@ const EXAM_2_QUESTIONS = [
       "160 N·m"
     ],
     "correct": 0,
-    "explanation": "The block is at rest, so the tension equals its weight, 40 N. The string pulls tangentially at the drum's radius, so τ = rF = (0.25)(40) = 10 N·m. 160 would result from dividing the force by the radius."
+    "explanation": "Correct: (A) 10 N·m. The block hangs at rest, so the string tension balances its weight: T = mg = (4.0 kg)(10 m/s²) = 40 N. The string leaves the drum tangentially, so its line of action is perpendicular to the radius, and the lever arm is the full radius. The torque is τ = rT = (0.25 m)(40 N) = 10 N·m.\n\n(B) is wrong because it divides the 4.0 kg mass by the radius, 4.0/0.25 = 16, using mass instead of weight and dividing instead of multiplying by the lever arm.\n(C) is wrong because 40 N is the tension force itself, not a torque; the force must be multiplied by the 0.25 m lever arm to give the torque.\n(D) is wrong because it divides the 40 N tension by the radius, 40/0.25 = 160, instead of multiplying, and that quotient has units of N/m, not N·m."
   },
   {
     "id": "e2-7",
@@ -117,7 +117,7 @@ const EXAM_2_QUESTIONS = [
       "16 J"
     ],
     "correct": 3,
-    "explanation": "W = ΔK = ½(2.0)(5.0² − 3.0²) = 25 − 9 = 16 J. 4 J results from squaring the change in speed, (5.0 − 3.0)², instead of finding the change in v²."
+    "explanation": "Correct: (D) 16 J. By the work–energy theorem, the net work equals the change in kinetic energy: W<sub>net</sub> = ½m(v<sub>f</sub>² − v<sub>i</sub>²) = ½(2.0 kg)[(5.0 m/s)² − (3.0 m/s)²] = (1.0)(25 − 9.0) = 16 J. Kinetic energy depends on v², so you must square each speed before subtracting.\n\n(A) is wrong because it squares the change in speed, ½(2.0)(5.0 − 3.0)² = 4 J, instead of taking the difference of the squared speeds, 25 − 9 = 16.\n(B) is wrong because it drops the mass, computing ½(25 − 9) = 8 J; the kinetic energy formula needs the 2.0 kg mass, which doubles the result.\n(C) is wrong because it multiplies the momentum change, (2.0)(2.0) = 4.0 kg·m/s, by the initial speed 3.0 m/s; work is the change in ½mv², not that product."
   },
   {
     "id": "e2-8",
@@ -130,7 +130,7 @@ const EXAM_2_QUESTIONS = [
       "8.0 rad/s"
     ],
     "correct": 1,
-    "explanation": "No external torque acts, so angular momentum is conserved: I₁ω₁ = I₂ω₂, giving (3.0)(2.0) = (1.5)ω₂ and ω₂ = 4.0 rad/s."
+    "explanation": "Correct: (B) 4.0 rad/s. With negligible friction there is no external torque about the spin axis, so angular momentum is conserved: I₁ω₁ = I₂ω₂. Then (3.0 kg·m²)(2.0 rad/s) = (1.5 kg·m²)ω₂, so ω₂ = 6.0/1.5 = 4.0 rad/s. Halving the rotational inertia doubles the angular speed (her kinetic energy rises because she does work pulling her arms in).\n\n(A) is wrong because it assumes the angular speed stays the same, but pulling the arms in halves I, so ω must double to keep L = Iω constant.\n(C) is wrong because 6.0 is the angular momentum, I₁ω₁ = 6.0 kg·m²/s, not the new angular speed; it still has to be divided by the new I of 1.5 kg·m².\n(D) is wrong because it multiplies the speed by the square of the inertia ratio, 2.0 × 2² = 8.0, but conservation of L = Iω scales ω by the ratio itself."
   },
   {
     "id": "e2-9",
@@ -143,7 +143,7 @@ const EXAM_2_QUESTIONS = [
       "125 m"
     ],
     "correct": 0,
-    "explanation": "With constant deceleration, the average speed is (25 + 0)/2 = 12.5 m/s, so the distance is (12.5)(5.0) = 62.5 m. 125 m would result from using the initial speed for the entire 5.0 s, as if the car did not slow down."
+    "explanation": "Correct: (A) 62.5 m. With constant deceleration, velocity changes linearly, so the average velocity is the mean of the initial and final values: v<sub>avg</sub> = (25 + 0)/2 = 12.5 m/s. The distance is Δx = v<sub>avg</sub>t = (12.5 m/s)(5.0 s) = 62.5 m. Equivalently a = −25/5.0 = −5.0 m/s² and Δx = (25)(5.0) − ½(5.0)(5.0)² = 125 − 62.5 = 62.5 m.\n\n(B) is wrong because 75 m would require an average speed of 15 m/s over 5.0 s, but under uniform deceleration from 25 m/s to 0 the average is 12.5 m/s.\n(C) is wrong because 100 m would require an average speed of 20 m/s, which ignores how much the car slows during the 5.0 s of braking.\n(D) is wrong because it uses the initial speed for the whole time, (25)(5.0) = 125 m, as if the car never slowed down while braking."
   },
   {
     "id": "e2-10",
@@ -163,7 +163,7 @@ const EXAM_2_QUESTIONS = [
       "1.7"
     ],
     "correct": 1,
-    "explanation": "At constant speed the net force along the incline is zero: mg sin 30° = μₖ mg cos 30°. Therefore μₖ = tan 30° = 0.58. 0.50 is sin 30° and 0.87 is cos 30°, and 1.7 is the inverse of the correct ratio."
+    "explanation": "Correct: (B) 0.58. At constant speed the net force is zero. Along the incline, the gravity component mg sin θ is balanced by kinetic friction μₖN, and perpendicular to the incline N = mg cos θ. So mg sin 30° = μₖmg cos 30°, and the mass cancels: μₖ = tan 30° = 0.50/0.866 = 0.58.\n\n(A) is wrong because 0.50 is sin 30° alone; it forgets that the friction force depends on the normal force mg cos 30°, not the full weight.\n(C) is wrong because 0.87 is cos 30° alone, which is the ratio N/mg, not the ratio of friction to normal force that defines μₖ.\n(D) is wrong because 1.7 is cot 30° = cos 30°/sin 30°, the inverse of the correct ratio; it divides the normal component by the parallel component."
   },
   {
     "id": "e2-11",
@@ -176,7 +176,7 @@ const EXAM_2_QUESTIONS = [
       "The total linear momentum of the system"
     ],
     "correct": 3,
-    "explanation": "Total linear momentum is conserved whenever there is no net external force, regardless of the type of collision. Kinetic energy is conserved only in elastic collisions, and the individual momenta and kinetic energies of the objects change because the objects exert forces on each other."
+    "explanation": "Correct: (D) The total linear momentum of the system. In an isolated system no net external force acts, so by Newton's third law the forces the two objects exert on each other are equal and opposite and their impulses cancel. The total linear momentum is therefore conserved in every collision, elastic or inelastic. Kinetic energy can be converted to thermal energy or deformation, so it is not always conserved.\n\n(A) is wrong because total kinetic energy is conserved only in perfectly elastic collisions; in inelastic collisions some is converted to thermal energy, sound or deformation.\n(B) is wrong because each object's kinetic energy changes because the objects push on each other and do work on one another during the collision.\n(C) is wrong because each object's momentum changes because it receives an impulse from the other object; only the sum of the two momenta stays constant."
   },
   {
     "id": "e2-12",
@@ -196,7 +196,7 @@ const EXAM_2_QUESTIONS = [
       "2.0"
     ],
     "correct": 2,
-    "explanation": "Static friction provides the centripetal force: μₛmg = mv²/r, so μₛ = v²/(rg) = 400/(80 × 10) = 0.50. 2.0 results from inverting the ratio."
+    "explanation": "Correct: (C) 0.50. On a flat curve, static friction is the only horizontal force, so it supplies the centripetal force: f = mv²/r. The minimum μₛ occurs when friction is at its maximum, μₛmg = mv²/r, so μₛ = v²/(rg) = (20 m/s)²/[(80 m)(10 m/s²)] = 400/800 = 0.50. The mass cancels.\n\n(A) is wrong because it uses v/r = 20/80 = 0.25 without squaring the speed and without dividing by g, so the ratio is not even dimensionless.\n(B) is wrong because a coefficient of 0.40 would hold the car only up to v = √(0.40 × 10 × 80) ≈ 18 m/s, slower than the 20 m/s the car is traveling.\n(D) is wrong because it inverts the ratio, rg/v² = 800/400 = 2.0; the required friction grows with v², so v² belongs in the numerator."
   },
   {
     "id": "e2-13",
@@ -216,7 +216,7 @@ const EXAM_2_QUESTIONS = [
       "8.0 kg·m²"
     ],
     "correct": 2,
-    "explanation": "I = Σmr² = (1.0)(0)² + (1.0)(2.0)² = 4.0 kg·m². The mass at the axis contributes nothing. 2.0 kg·m² would be the rotational inertia about an axis through the rod's center, where each mass is 1.0 m away."
+    "explanation": "Correct: (C) 4.0 kg·m². Rotational inertia of point masses is I = Σmr², with r the perpendicular distance from the axis. The mass at the pivot end is at r = 0 and contributes nothing; the mass at the far end is at r = 2.0 m. So I = (1.0 kg)(0)² + (1.0 kg)(2.0 m)² = 4.0 kg·m². The light rod adds no inertia.\n\n(A) is wrong because 1.0 kg·m² treats one mass as being 1.0 m from the axis; that is the rod's midpoint, not where either mass sits relative to the end axis.\n(B) is wrong because 2.0 kg·m² is the rotational inertia about the rod's center, where each mass is 1.0 m away: 2 × (1.0)(1.0)² = 2.0 kg·m².\n(D) is wrong because it places both masses 2.0 m from the axis, 2 × (1.0)(2.0)² = 8.0 kg·m², but the mass at the pivot end has r = 0."
   },
   {
     "id": "e2-14",
@@ -236,7 +236,7 @@ const EXAM_2_QUESTIONS = [
       "4.5 m/s"
     ],
     "correct": 2,
-    "explanation": "The bob drops a height h = L(1 − cos 60°) = (1.0)(0.50) = 0.50 m. Energy conservation gives v = √(2gh) = √(2 × 10 × 0.50) = √10 ≈ 3.2 m/s. 4.5 m/s results from using the full string length as the drop height."
+    "explanation": "Correct: (C) 3.2 m/s. Tension is perpendicular to the motion and does no work, so mechanical energy is conserved. The bob's height drop is h = L − L cos 60° = (1.0 m)(1 − 0.50) = 0.50 m. Then mgh = ½mv², so v = √(2gh) = √(2 × 10 m/s² × 0.50 m) = √10 ≈ 3.2 m/s. The mass cancels.\n\n(A) is wrong because 1.0 m/s would correspond to a drop of only v²/(2g) = 0.05 m, far less than the 0.50 m the bob actually falls from 60°.\n(B) is wrong because it leaves out the factor of 2 in v = √(2gh), computing √(gh) = √(10 × 0.50) ≈ 2.2 m/s; from ½mv² = mgh the 2 must stay.\n(D) is wrong because it uses the full 1.0 m string length as the drop height, √(2 × 10 × 1.0) ≈ 4.5 m/s, but released at 60° the bob drops only 0.50 m."
   },
   {
     "id": "e2-15",
@@ -249,7 +249,7 @@ const EXAM_2_QUESTIONS = [
       "100 rad"
     ],
     "correct": 0,
-    "explanation": "Starting from rest, θ = ½αt² = ½(2.0)(5.0)² = 25 rad. 50 rad results from leaving out the factor of ½."
+    "explanation": "Correct: (A) 25 rad. The rotational kinematics equations mirror the linear ones. Starting from rest (ω₀ = 0) with constant α, the angular displacement is θ = ω₀t + ½αt² = 0 + ½(2.0 rad/s²)(5.0 s)² = ½(2.0)(25) = 25 rad. The final angular speed is 10 rad/s, and the average 5.0 rad/s times 5.0 s also gives 25 rad.\n\n(B) is wrong because it leaves out the ½, computing αt² = 50 rad, which equals the final angular speed times the time, as if the wheel spun at 10 rad/s throughout.\n(C) is wrong because 75 rad would require an average angular speed of 15 rad/s, greater than even the final speed of 10 rad/s the wheel reaches at 5.0 s.\n(D) is wrong because 100 rad is four times the correct value, the result of using 10 s instead of 5.0 s; the time is not doubled anywhere in the problem."
   },
   {
     "id": "e2-16",
@@ -269,7 +269,7 @@ const EXAM_2_QUESTIONS = [
       "10 m/s²"
     ],
     "correct": 1,
-    "explanation": "The net force is the vector sum: √(6.0² + 8.0²) = 10 N. Then a = F/m = 10/2.0 = 5.0 m/s². 7.0 m/s² comes from adding the forces (14 N) and dividing by the mass, which does not account for the perpendicular directions."
+    "explanation": "Correct: (B) 5.0 m/s². Forces are vectors. Perpendicular forces combine by the Pythagorean theorem: F<sub>net</sub> = √(6.0² + 8.0²) N = √100 N = 10 N. With a frictionless surface this is the only horizontal force, so Newton's second law gives a = F<sub>net</sub>/m = 10 N / 2.0 kg = 5.0 m/s², directed between the two forces.\n\n(A) is wrong because 2.5 m/s² is half the correct value, as if the 10 N resultant were divided by 4.0 kg instead of the 2.0 kg mass of the object.\n(C) is wrong because it adds the magnitudes, (6.0 + 8.0)/2.0 = 7.0 m/s², which is valid only if the forces point the same way, not at right angles.\n(D) is wrong because 10 is the magnitude of the net force in newtons; it must still be divided by the 2.0 kg mass to get the acceleration."
   },
   {
     "id": "e2-17",
@@ -289,7 +289,7 @@ const EXAM_2_QUESTIONS = [
       "10,000 N"
     ],
     "correct": 3,
-    "explanation": "The pressure is transmitted equally throughout the fluid: F₁/A₁ = F₂/A₂, so F₂ = (200)(0.50/0.010) = 10,000 N. The force is multiplied by the ratio of the areas, 50."
+    "explanation": "Correct: (D) 10,000 N. Pascal's principle: pressure applied to an enclosed fluid is transmitted undiminished throughout it, so F₁/A₁ = F₂/A₂. The pressure is 200 N / 0.010 m² = 2.0 × 10⁴ Pa, and the large piston's force is F₂ = PA₂ = (2.0 × 10⁴ Pa)(0.50 m²) = 1.0 × 10⁴ N. The force is multiplied by the area ratio, 0.50/0.010 = 50.\n\n(A) is wrong because it divides the 200 N force by the large area, 200/0.50 = 400, which is a pressure value (in Pa), not the force on the large piston.\n(B) is wrong because 2,000 N multiplies 200 N by 10 instead of by the area ratio 0.50/0.010 = 50.\n(C) is wrong because 5,000 N multiplies 200 N by 25, half the true area ratio of 50, so it undercounts the mechanical advantage."
   },
   {
     "id": "e2-18",
@@ -309,7 +309,7 @@ const EXAM_2_QUESTIONS = [
       "200 N"
     ],
     "correct": 1,
-    "explanation": "The vertical components of the two tensions support the weight: 2T sin 30° = mg = 100 N, so T = 100 N. 50 N results from forgetting the angle (each cable supports half the weight), and 200 N would be the sum of the two tensions."
+    "explanation": "Correct: (B) 100 N. The sign is in equilibrium, and by symmetry both cables carry the same tension T. The horizontal components cancel. The vertical components together hold up the weight: 2T sin 30° = mg = (10 kg)(10 m/s²) = 100 N. Since sin 30° = 0.50, 2T(0.50) = 100 N, so T = 100 N. Shallow cables need large tensions.\n\n(A) is wrong because it simply splits the weight between the cables, 100/2 = 50 N, ignoring that only the vertical component T sin 30° of each tension supports the sign.\n(C) is wrong because it divides the weight by tan 30° (100/0.577 ≈ 173 N), mixing up the components; the vertical balance uses sin 30°.\n(D) is wrong because 200 N is the sum of the two tensions, or the tension if a single cable at 30° held the sign alone (mg/sin 30°), not the tension in each."
   },
   {
     "id": "e2-19",
@@ -322,7 +322,7 @@ const EXAM_2_QUESTIONS = [
       "160 m/s"
     ],
     "correct": 0,
-    "explanation": "Starting from rest, v² = 2gh = 2(10)(80) = 1600, so v = 40 m/s. 80 m/s and 160 m/s come from confusing the height with the speed (or doubling it) and skipping the square root."
+    "explanation": "Correct: (A) 40 m/s. In free fall from rest, the speed after falling a height h follows from v² = v₀² + 2gh, or from energy conservation mgh = ½mv². Here v² = 2(10 m/s²)(80 m) = 1600 m²/s², so v = 40 m/s. The fall takes t = v/g = 4.0 s, and the average speed 20 m/s times 4.0 s gives 80 m as a check.\n\n(B) is wrong because 60 m/s would require v² = 3600 m²/s², a fall of 180 m; an 80 m drop gives only v² = 1600 m²/s².\n(C) is wrong because it confuses the 80 m height with a speed; the units differ, and v = √(2gh), not h.\n(D) is wrong because 160 is just 2h = 2 × 80 treated as a speed; it never uses g or takes the square root, √(2gh) = √1600 = 40 m/s."
   },
   {
     "id": "e2-20",
@@ -335,7 +335,7 @@ const EXAM_2_QUESTIONS = [
       "It is zero, because the crate is moving at a constant velocity."
     ],
     "correct": 0,
-    "explanation": "A constant velocity means zero acceleration, so the net horizontal force is zero (Newton's first law). The friction force must therefore balance the 50 N push, with equal magnitude and the opposite direction. Constant velocity does not mean there is no friction."
+    "explanation": "Correct: (A) It has a magnitude of 50 N and points opposite the crate's motion. Constant velocity means zero acceleration, so by Newton's first and second laws the net horizontal force is zero. The only horizontal forces are the 50 N push and kinetic friction, so friction must have magnitude 50 N and point opposite the push, which is opposite the crate's motion. Friction is present whenever surfaces slide, even at constant velocity.\n\n(B) is wrong because a friction force larger than the 50 N push would produce a net backward force, so the crate would slow down instead of moving at constant velocity.\n(C) is wrong because kinetic friction always opposes the relative sliding motion; pointing with the motion, it would add to the push and the crate would speed up.\n(D) is wrong because constant velocity means zero net force, not zero friction; the 50 N push would accelerate the crate if no friction balanced it."
   },
   {
     "id": "e2-21",
@@ -355,7 +355,7 @@ const EXAM_2_QUESTIONS = [
       "12,000 kg/m³"
     ],
     "correct": 1,
-    "explanation": "The buoyant force is the loss of apparent weight: B = 12 − 8.0 = 4.0 N. Since B = ρ_water Vg, V = 4.0/(1000 × 10) = 4.0 × 10⁻⁴ m³. The object's mass is 12/10 = 1.2 kg, so its density is 1.2/(4.0 × 10⁻⁴) = 3000 kg/m³."
+    "explanation": "Correct: (B) 3,000 kg/m³. The scale reading drops because the water pushes up: B = 12 N − 8.0 N = 4.0 N. Archimedes' principle says B = ρ<sub>water</sub>Vg for a fully submerged object, so V = 4.0/(1000 × 10) = 4.0 × 10⁻⁴ m³. The mass is m = W/g = 12/10 = 1.2 kg, so ρ = m/V = 1.2/(4.0 × 10⁻⁴) = 3000 kg/m³. Equivalently ρ/ρ<sub>water</sub> = W/B = 12/4.0 = 3.0.\n\n(A) is wrong because it treats the 8.0 N scale reading as the buoyant force, giving 12/8.0 × 1000 = 1,500 kg/m³; the buoyant force is the loss in reading, 4.0 N.\n(C) is wrong because 4,500 kg/m³ would mean the buoyant force is only 12/4.5 ≈ 2.7 N, but the scale reading actually falls by 4.0 N.\n(D) is wrong because it multiplies the 12 N weight by the water density without dividing by the 4.0 N buoyant force, equivalent to assuming a buoyant force of only 1.0 N."
   },
   {
     "id": "e2-22",
@@ -375,7 +375,7 @@ const EXAM_2_QUESTIONS = [
       "12 m/s"
     ],
     "correct": 1,
-    "explanation": "Momentum is conserved: (1500)(12) = (2500)v, so v = 18,000/2500 = 7.2 m/s."
+    "explanation": "Correct: (B) 7.2 m/s. In the brief collision, the external forces (friction, gravity balanced by the normal force) are negligible compared with the impact forces, so momentum is conserved. The cars lock together, a perfectly inelastic collision: (1500 kg)(12 m/s) + 0 = (1500 + 1000 kg)v, so v = 18,000 kg·m/s / 2500 kg = 7.2 m/s.\n\n(A) is wrong because it uses the 1000 kg car's mass in the initial momentum, (1000)(12)/2500 = 4.8 m/s, but the moving car is the 1500 kg one.\n(C) is wrong because 9.0 m/s would give a final momentum of (2500)(9.0) = 22,500 kg·m/s, more than the 18,000 kg·m/s available before the collision.\n(D) is wrong because the speed cannot stay 12 m/s: the moving car must share its 18,000 kg·m/s of momentum with the extra 1000 kg it locks onto, so the 2500 kg pair moves more slowly."
   },
   {
     "id": "e2-23",
@@ -388,7 +388,7 @@ const EXAM_2_QUESTIONS = [
       "18 J"
     ],
     "correct": 2,
-    "explanation": "The work equals the change in spring potential energy: ½k(x₂² − x₁²) = ½(400)(0.30² − 0.10²) = 200(0.08) = 16 J. 18 J is the total energy stored at 0.30 m, which includes the energy already stored at 0.10 m."
+    "explanation": "Correct: (C) 16 J. The work needed equals the increase in elastic potential energy, U = ½kx², with x measured from the relaxed length. At 0.10 m, U = ½(400)(0.10)² = 2.0 J; at 0.30 m, U = ½(400)(0.30)² = 18 J. The additional work is 18 J − 2.0 J = 16 J. The spring force grows with x, so each extra centimeter costs more.\n\n(A) is wrong because 2 J is the energy already stored at 0.10 m, ½(400)(0.10)², not the extra work to stretch from 0.10 m to 0.30 m.\n(B) is wrong because it uses the 0.20 m change in stretch as if measured from the relaxed length, ½(400)(0.20)² = 8 J; the potential energy depends on x², so ½k(x₂² − x₁²) is required.\n(D) is wrong because 18 J is the total energy stored at 0.30 m, which includes the 2 J already stored before the additional stretching began."
   },
   {
     "id": "e2-24",
@@ -408,7 +408,7 @@ const EXAM_2_QUESTIONS = [
       "0.63 s"
     ],
     "correct": 2,
-    "explanation": "The period of a mass–spring system is T = 2π√(m/k) = 2π√(0.20/80) = 2π(0.050) ≈ 0.31 s."
+    "explanation": "Correct: (C) 0.31 s. For a mass on an ideal spring the period is T = 2π√(m/k), independent of amplitude. Here m/k = 0.20 kg / 80 N/m = 0.0025 s², so √(m/k) = 0.050 s and T = 2π(0.050 s) ≈ 0.31 s. A frictionless surface keeps the motion simple harmonic.\n\n(A) is wrong because 0.05 s is √(m/k) alone; it forgets the 2π factor that converts from 1/ω to the full period.\n(B) is wrong because it uses π instead of 2π, giving π(0.050) ≈ 0.16 s, which is only half a period.\n(D) is wrong because 0.63 s is 4π√(m/k), double the correct period; one full cycle takes 2π√(m/k)."
   },
   {
     "id": "e2-25",
@@ -421,7 +421,7 @@ const EXAM_2_QUESTIONS = [
       "0.060 m³/s"
     ],
     "correct": 3,
-    "explanation": "The volume flow rate is Q = Av = (0.020)(3.0) = 0.060 m³/s. 0.0067 m³/s results from dividing the area by the speed instead of multiplying."
+    "explanation": "Correct: (D) 0.060 m³/s. The volume flow rate is the volume passing a point per second, Q = Av: each second the water advances 3.0 m, sweeping out a cylinder of cross-sectional area 0.020 m². So Q = (0.020 m²)(3.0 m/s) = 0.060 m³/s. The units check: m² × m/s = m³/s.\n\n(A) is wrong because it divides the area by the speed, 0.020/3.0 ≈ 0.0067, which gives units of m²·s/m, not m³/s.\n(B) is wrong because 0.015 m³/s is a quarter of the true value; it would require a speed of only 0.75 m/s through the 0.020 m² pipe.\n(C) is wrong because 0.050 m³/s would require a speed of 2.5 m/s, not 3.0 m/s, for this pipe; Q = Av gives 0.060 m³/s."
   },
   {
     "id": "e2-26",
@@ -434,7 +434,7 @@ const EXAM_2_QUESTIONS = [
       "Only the planet exerts a gravitational force, because it has the greater mass."
     ],
     "correct": 1,
-    "explanation": "By Newton's third law, the gravitational force of the planet on the moon and the force of the moon on the planet are equal in magnitude and opposite in direction. The moon has the much larger acceleration only because its mass is much smaller (a = F/m)."
+    "explanation": "Correct: (B) The two forces have equal magnitudes. Newton's third law: the planet pulls on the moon and the moon pulls on the planet with forces that are equal in magnitude and opposite in direction. Both equal Gm<sub>planet</sub>m<sub>moon</sub>/r², which is symmetric in the two masses. The moon's acceleration is much larger only because a = F/m and its mass is much smaller.\n\n(A) is wrong because the larger mass does not exert a larger force; the gravitational force between two bodies is a single interaction, equal in magnitude on each.\n(C) is wrong because a larger acceleration comes from the moon's smaller mass (a = F/m), not from a larger force; the two forces are equal.\n(D) is wrong because every mass attracts every other mass; the moon pulls on the planet, which is why the planet wobbles and the moon raises tides."
   },
   {
     "id": "e2-27",
@@ -454,7 +454,7 @@ const EXAM_2_QUESTIONS = [
       "24 J"
     ],
     "correct": 1,
-    "explanation": "Taking the 2.0 kg cart's direction as positive, the total momentum is (2.0)(4.0) − (1.0)(2.0) = 6.0 kg·m/s, so the carts move at 6.0/3.0 = 2.0 m/s together. The initial kinetic energy is ½(2.0)(4.0)² + ½(1.0)(2.0)² = 18 J, and the final is ½(3.0)(2.0)² = 6 J. The energy lost is 12 J. 6 J is the final energy and 18 J is the initial energy."
+    "explanation": "Correct: (B) 12 J. Take the 2.0 kg cart's direction as positive. Total momentum: (2.0)(4.0) + (1.0)(−2.0) = 6.0 kg·m/s, so the stuck carts move at 6.0/3.0 = 2.0 m/s. Initial kinetic energy: ½(2.0)(4.0)² + ½(1.0)(2.0)² = 16 + 2.0 = 18 J. Final: ½(3.0)(2.0)² = 6.0 J. Kinetic energy lost: 18 − 6.0 = 12 J, converted to thermal energy and deformation.\n\n(A) is wrong because 6 J is the kinetic energy remaining after the collision, ½(3.0)(2.0)², not the amount lost.\n(C) is wrong because 18 J is the total initial kinetic energy; the carts still move at 2.0 m/s afterward, so not all of it is lost.\n(D) is wrong because it adds the final kinetic energy to the initial one, 18 + 6 = 24 J, instead of subtracting it; no collision can lose more than the 18 J it started with."
   },
   {
     "id": "e2-28",
@@ -467,7 +467,7 @@ const EXAM_2_QUESTIONS = [
       "700 W"
     ],
     "correct": 2,
-    "explanation": "The work done against gravity is mgh = (70)(10)(30) = 21,000 J. Dividing by the time gives P = 21,000/60 = 350 W. 700 would be the climber's weight in newtons, not a power."
+    "explanation": "Correct: (C) 350 W. At constant speed, the climber's kinetic energy does not change, so the work against gravity equals the gain in potential energy: W = mgh = (70 kg)(10 m/s²)(30 m) = 21,000 J. Average power is P = W/t = 21,000 J / 60 s = 350 W. Equivalently P = Fv = (700 N)(0.50 m/s) = 350 W.\n\n(A) is wrong because it leaves out g, computing (70)(30)/60 = 35; the force against gravity is the weight, 700 N, not the 70 kg mass.\n(B) is wrong because 210 W corresponds to doing the 21,000 J of work over 100 s instead of the 60 s the climb actually takes.\n(D) is wrong because 700 is the climber's weight in newtons, not a power; the weight must be multiplied by the 0.50 m/s climbing speed."
   },
   {
     "id": "e2-29",
@@ -480,7 +480,7 @@ const EXAM_2_QUESTIONS = [
       "Its angular speed increases and its angular momentum increases."
     ],
     "correct": 1,
-    "explanation": "With no external torque, angular momentum L = Iω is conserved. The collapse reduces the star's rotational inertia I, so the angular speed ω must increase to keep L the same."
+    "explanation": "Correct: (B) Its angular speed increases and its angular momentum is unchanged. With no external torque, the star's angular momentum L = Iω is conserved. Collapsing to a smaller radius moves its mass closer to the axis, so I (proportional to MR²) decreases sharply. To keep L constant, ω must increase, which is why collapsed stars such as pulsars spin very rapidly.\n\n(A) is wrong because angular momentum cannot increase without an external torque, and with I decreasing the angular speed cannot stay unchanged if L is conserved.\n(C) is wrong because a smaller rotational inertia requires a larger angular speed to keep Iω constant, so ω increases rather than decreases.\n(D) is wrong because the angular speed does increase, but the angular momentum stays constant because no external torque acts on the isolated star."
   },
   {
     "id": "e2-30",
@@ -500,7 +500,7 @@ const EXAM_2_QUESTIONS = [
       "40 m"
     ],
     "correct": 1,
-    "explanation": "The fall time depends only on the vertical motion: 20 = ½(10)t², so t = 2.0 s. Horizontally the ball moves at a constant 10 m/s, so x = (10)(2.0) = 20 m."
+    "explanation": "Correct: (B) 20 m. Horizontal and vertical motions are independent. Vertically the ball starts with zero velocity: h = ½gt², so 20 m = ½(10 m/s²)t², t² = 4.0 s², t = 2.0 s. Horizontally there is no acceleration, so the ball covers x = v₀t = (10 m/s)(2.0 s) = 20 m before landing.\n\n(A) is wrong because 10 m corresponds to a fall time of only 1.0 s, which ignores that a 20 m drop from rest takes 2.0 s.\n(C) is wrong because 30 m would require a 3.0 s fall, which corresponds to a 45 m drop rather than the building's 20 m height.\n(D) is wrong because it uses a 4.0 s fall time, from dividing the height by half of g (20/5 = 4) without taking the square root; t = √(2h/g) = 2.0 s."
   },
   {
     "id": "e2-31",
@@ -513,7 +513,7 @@ const EXAM_2_QUESTIONS = [
       "10 m/s"
     ],
     "correct": 2,
-    "explanation": "The angular frequency is ω = √(k/m) = √(200/2.0) = 10 rad/s, and the maximum speed is v_max = Aω = (0.10)(10) = 1.0 m/s. (Energy conservation gives the same result: ½kA² = ½mv²_max.)"
+    "explanation": "Correct: (C) 1.0 m/s. The block's maximum speed occurs at equilibrium, where all the energy is kinetic. Energy conservation gives ½kA² = ½mv<sub>max</sub>², so v<sub>max</sub> = A√(k/m) = (0.10 m)√(200/2.0) = (0.10 m)(10 rad/s) = 1.0 m/s. Equivalently, the angular frequency is ω = 10 rad/s and v<sub>max</sub> = Aω.\n\n(A) is wrong because 0.10 is the amplitude in meters, a position, not a speed; it must be multiplied by ω = 10 rad/s.\n(B) is wrong because 0.50 m/s is half the correct maximum speed, as if the spring energy ½kA² were split evenly between kinetic and potential energy at the fastest point.\n(D) is wrong because 10 is the angular frequency √(k/m) in rad/s, not a speed; it must be multiplied by the 0.10 m amplitude."
   },
   {
     "id": "e2-32",
@@ -533,7 +533,7 @@ const EXAM_2_QUESTIONS = [
       "100 J"
     ],
     "correct": 2,
-    "explanation": "Only the component of the force along the displacement does work: W = Fd cos θ = (20)(5.0)(cos 30°) ≈ 87 J. 100 J ignores the angle, and 50 J uses sine instead of cosine."
+    "explanation": "Correct: (C) 87 J. Only the component of a force parallel to the displacement does work: W = Fd cos θ. The horizontal component of the pull is (20 N)cos 30° ≈ 17.3 N, and the box moves 5.0 m horizontally, so W = (20 N)(5.0 m)(0.866) ≈ 87 J. The vertical component (20 sin 30° = 10 N) is perpendicular to the motion and does no work.\n\n(A) is wrong because it uses sin 30° instead of cos 30°, (20)(5.0)(0.50) = 50 J, which is the work the perpendicular component would do if it were along the motion.\n(B) is wrong because 75 J would require a horizontal force component of 15 N, but (20 N)cos 30° ≈ 17 N; no correct trigonometric factor gives 0.75 here.\n(D) is wrong because it ignores the angle, (20)(5.0) = 100 J, as if the whole force pointed along the displacement."
   },
   {
     "id": "e2-33",
@@ -546,7 +546,7 @@ const EXAM_2_QUESTIONS = [
       "The gravitational potential energy decreases and the thermal energy increases by the same amount."
     ],
     "correct": 3,
-    "explanation": "The speed is constant, so the kinetic energy does not change. The block is moving lower, so its gravitational potential energy decreases. Energy is conserved for the whole system, so the lost potential energy appears as thermal energy produced by friction."
+    "explanation": "Correct: (D) The gravitational potential energy decreases and the thermal energy increases by the same amount. In the block–incline–Earth system, constant speed means the kinetic energy is unchanged. The block moves to lower height, so gravitational potential energy decreases. Friction is internal to this system and converts mechanical energy to thermal energy in the block and incline surface. By conservation of energy, ΔU<sub>g</sub> + ΔE<sub>thermal</sub> = 0: thermal energy increases by exactly the potential energy lost.\n\n(A) is wrong because if potential energy became kinetic energy, the block would speed up; its constant speed shows the energy goes to thermal energy instead.\n(B) is wrong because the kinetic energy does not decrease, because the speed is constant; friction's negative work is balanced by gravity's positive work.\n(C) is wrong because gravitational potential energy depends on height, not speed; the block is losing height, so its potential energy decreases."
   },
   {
     "id": "e2-34",
@@ -559,7 +559,7 @@ const EXAM_2_QUESTIONS = [
       "The pressure above the wing is lower than the pressure below it, so the net pressure force is upward."
     ],
     "correct": 3,
-    "explanation": "Bernoulli's equation says that where the fluid speed is greater, the pressure is lower. The lower pressure above the wing and higher pressure below produce a net upward force on the wing. Faster-moving air does not push harder on a surface; it exerts less pressure on it."
+    "explanation": "Correct: (D) The pressure above the wing is lower than the pressure below it, so the net pressure force is upward. Bernoulli's principle says that along a streamline, where the fluid speed is greater, the pressure is lower (P + ½ρv² + ρgy is constant). The faster air above the wing therefore has lower pressure than the slower air below. Pressure acts perpendicular to each surface, so the higher pressure under the wing pushes up more than the lower pressure above pushes down, giving net lift.\n\n(A) is wrong because it reverses Bernoulli's result; faster-moving air has lower pressure, so the pressure above the wing is lower, not higher.\n(B) is wrong because the different air speeds above and below produce a pressure difference; the pressures are not equal, and that difference is a main source of lift.\n(C) is wrong because faster-moving air does not push harder on a surface; by Bernoulli's principle it exerts lower pressure on the top of the wing."
   },
   {
     "id": "e2-35",
@@ -572,7 +572,7 @@ const EXAM_2_QUESTIONS = [
       "240,000 Pa"
     ],
     "correct": 2,
-    "explanation": "The gauge pressure is ρgh = (800)(10)(3.0) = 24,000 Pa. The atmospheric pressure is not included in the gauge pressure."
+    "explanation": "Correct: (C) 24,000 Pa. Gauge pressure is the pressure above atmospheric, which for a fluid at rest is due only to the weight of the fluid above: P<sub>gauge</sub> = ρgh = (800 kg/m³)(10 m/s²)(3.0 m) = 24,000 Pa. The absolute pressure would add about 101,000 Pa of atmospheric pressure, but the question asks for gauge pressure.\n\n(A) is wrong because it leaves out g, multiplying only ρh = (800)(3.0) = 2,400, which has units of kg/m², not pascals.\n(B) is wrong because it leaves out the depth, multiplying only ρg = (800)(10) = 8,000, which is the pressure gradient per meter, not the pressure at 3.0 m.\n(D) is wrong because 240,000 Pa is ten times too large, as if the depth were 30 m or g were applied twice; ρgh with 3.0 m gives 24,000 Pa."
   },
   {
     "id": "e2-36",
@@ -585,7 +585,7 @@ const EXAM_2_QUESTIONS = [
       "The period is unchanged, because the length of the pendulum is the same."
     ],
     "correct": 1,
-    "explanation": "The period of a simple pendulum is T = 2π√(L/g). With the same length and a smaller g, the period is longer. It is true that the period does not depend on the bob's mass, but it does depend on g, so it changes."
+    "explanation": "Correct: (B) The period is longer, because the gravitational acceleration is smaller. The period of a simple pendulum (small angles) is T = 2π√(L/g). It depends on length and gravitational field strength, not on the bob's mass. With L unchanged and g smaller on the Moon (about 1/6 of Earth's), L/g is larger, so the period is longer, by a factor of about √6 ≈ 2.4. The weaker restoring force swings the bob back more slowly.\n\n(A) is wrong because a smaller weight means a smaller restoring force, which slows the swing; the period becomes longer, not shorter.\n(C) is wrong because the period indeed does not depend on mass, but it does depend on g, so a smaller g on the Moon changes the period.\n(D) is wrong because the length is only one factor in T = 2π√(L/g); a change in g changes the period even when L stays the same."
   },
   {
     "id": "e2-37",
@@ -598,7 +598,7 @@ const EXAM_2_QUESTIONS = [
       "The object's weight must be balanced by a single upward force at its center of mass."
     ],
     "correct": 0,
-    "explanation": "For static equilibrium, both the translational and rotational accelerations must be zero. That requires the net force to be zero and the net torque about any chosen point to be zero. Equilibrium does not require a single supporting force at the center of mass: a plank resting on two supports, for example, is in equilibrium with forces at two different points."
+    "explanation": "Correct: (A) The net force on the object and the net torque about any point are both zero. Static equilibrium means the object has no translational and no angular acceleration. Newton's second law requires ΣF = 0, and the rotational form requires Στ = 0. When the net force is zero, if the net torque is zero about one point, it is zero about every point, so you may choose any convenient pivot when solving.\n\n(B) is wrong because a nonzero net torque would give the object an angular acceleration, so it would start rotating and would not remain in static equilibrium.\n(C) is wrong because a nonzero net force would give the center of mass a linear acceleration, so the object would not remain at rest.\n(D) is wrong because equilibrium needs only zero net force and zero net torque; a plank resting on two supports is balanced by forces at two separate points."
   },
   {
     "id": "e2-38",
@@ -618,7 +618,7 @@ const EXAM_2_QUESTIONS = [
       "20 m/s"
     ],
     "correct": 0,
-    "explanation": "The impulse is the area under the force–time graph, a triangle: ½(20 N)(0.10 s) = 1.0 N·s. Since J = Δp = mv, v = 1.0/0.50 = 2.0 m/s. 4.0 m/s results from treating the area as a rectangle (20 N × 0.10 s)."
+    "explanation": "Correct: (A) 2.0 m/s. Impulse equals the area under the force–time graph. The graph is a triangle rising from 0 to 20 N over 0.10 s and then dropping to zero, so J = ½(20 N)(0.10 s) = 1.0 N·s. The impulse–momentum theorem gives J = Δp = mv − 0, so v = 1.0 N·s / 0.50 kg = 2.0 m/s.\n\n(B) is wrong because it treats the area as a rectangle, (20 N)(0.10 s) = 2.0 N·s, as if the force were 20 N the whole time, giving 4.0 m/s.\n(C) is wrong because 10 m/s corresponds to an impulse of 5.0 N·s, five times the triangle's area; it multiplies the 20 N peak by the 0.50 kg mass instead of using the impulse.\n(D) is wrong because 20 is the peak force in newtons read off the graph, not a speed; the impulse (area) must be divided by the mass."
   },
   {
     "id": "e2-39",
@@ -638,7 +638,7 @@ const EXAM_2_QUESTIONS = [
       "It is moving in the positive direction with increasing speed."
     ],
     "correct": 3,
-    "explanation": "The slope of a position–time graph is the velocity. A positive slope means motion in the positive direction, and a slope that gets steeper means the speed is increasing (positive acceleration). A constant speed would give a straight line, and a negative-direction motion would give a negative slope."
+    "explanation": "Correct: (D) It is moving in the positive direction with increasing speed. The slope of a position–time graph is the velocity. A positive slope at every point means the velocity is always positive, so the object moves in the positive direction. The graph is concave up: the slope grows steeper with time, so the velocity is increasing, meaning a positive acceleration and an increasing speed.\n\n(A) is wrong because constant speed in one direction would make the position–time graph a straight line with constant slope, not a curve that gets steeper.\n(B) is wrong because decreasing speed would make the slope flatten out over time (concave down), but this graph's slope gets steeper.\n(C) is wrong because motion in the negative direction requires a negative slope, with position decreasing; here the position increases throughout."
   },
   {
     "id": "e2-40",
@@ -651,7 +651,7 @@ const EXAM_2_QUESTIONS = [
       "40 rad/s²"
     ],
     "correct": 3,
-    "explanation": "The torque is τ = rF = (0.20)(12) = 2.4 N·m, so α = τ/I = 2.4/0.060 = 40 rad/s²."
+    "explanation": "Correct: (D) 40 rad/s². A tangential force acts perpendicular to the radius, so its lever arm is the full radius: τ = rF = (0.20 m)(12 N) = 2.4 N·m. Newton's second law for rotation, τ = Iα, then gives α = τ/I = 2.4 N·m / 0.060 kg·m² = 40 rad/s².\n\n(A) is wrong because 4.0 rad/s² is ten times too small, as if the torque were 0.24 N·m or the inertia 0.60 kg·m²; a decimal slip in τ = rF = 2.4 N·m.\n(B) is wrong because 12 is the applied force in newtons; it must be multiplied by the 0.20 m radius and divided by the rotational inertia.\n(C) is wrong because 20 rad/s² uses half the torque, 1.2 N·m, as if the force acted at half the radius; a rim force uses the full 0.20 m lever arm."
   },
   {
     "id": "e2-41",
@@ -664,7 +664,7 @@ const EXAM_2_QUESTIONS = [
       "t² on the vertical axis versus h² on the horizontal axis"
     ],
     "correct": 0,
-    "explanation": "For a ball dropped from rest, h = ½gt². A graph of h versus t² is therefore a straight line through the origin with a slope of g/2, so g is twice the slope. Graphs of h versus t or t versus h are curved, and t² is proportional to h, not h², so the last graph is also curved."
+    "explanation": "Correct: (A) h on the vertical axis versus t² on the horizontal axis. For a ball dropped from rest, h = ½gt². This is a linear relationship between h and t², so plotting h on the vertical axis against t² on the horizontal axis gives a straight line through the origin with slope g/2. The student then finds g = 2 × slope. Linearizing data this way is the standard method for extracting a constant from a curved relationship.\n\n(B) is wrong because h is proportional to t², not t, so a graph of h versus t is a parabola, not a straight line with a constant slope.\n(C) is wrong because t is proportional to √h, so a graph of t versus h curves and flattens out, giving no constant slope.\n(D) is wrong because t² is proportional to h, not h², so a graph of t² versus h² is curved; t² versus h would be the linear choice."
   },
   {
     "id": "e2-42",
@@ -677,7 +677,7 @@ const EXAM_2_QUESTIONS = [
       "600 kJ"
     ],
     "correct": 0,
-    "explanation": "By the work–energy theorem, W = ΔK = ½(1000)(20² − 10²) = 150,000 J = 150 kJ. 200 kJ is only the final kinetic energy, and 300 kJ results from forgetting the ½."
+    "explanation": "Correct: (A) 150 kJ. The work–energy theorem says net work equals the change in kinetic energy: W = ½m(v<sub>f</sub>² − v<sub>i</sub>²) = ½(1000 kg)[(20 m/s)² − (10 m/s)²] = 500(400 − 100) = 150,000 J = 150 kJ. Doubling the speed quadruples the kinetic energy, from 50 kJ to 200 kJ.\n\n(B) is wrong because 200 kJ is only the final kinetic energy, ½(1000)(20)²; the car already had 50 kJ at 10 m/s, which must be subtracted.\n(C) is wrong because it forgets the ½ in the kinetic energy formula, (1000)(400 − 100) = 300 kJ, which doubles the correct work.\n(D) is wrong because 600 kJ is four times the correct work, 2(1000)(400 − 100) = 600,000 J, as if the ½ in ½mv² were replaced by 2; the correct factor gives ½(1000)(300) = 150 kJ."
   }
 ];
 

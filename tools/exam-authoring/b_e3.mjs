@@ -86,7 +86,7 @@ export default [
   // ================= Unit 3 (8) =================
   G(3, {
     text: "The graph shows the rate of CO₂ uptake by a plant's leaves at different light intensities under two atmospheric CO₂ concentrations.",
-    figures: [fig(photoLight, "A graph of CO2 uptake rate against light intensity. Both curves rise and then level off. The curve at 0.04 percent CO2 levels off near 10 and the curve at 0.10 percent CO2 levels off near 16.")],
+    figures: [fig(photoLight, "A graph of CO2 uptake rate against light intensity. Both curves rise and then level off. The curve at 0.04 percent CO2 levels off near 9 and the curve at 0.10 percent CO2 levels off near 14.")],
   }, [
     M(3, "What is the factor that limits the rate of photosynthesis in the plant at high light intensity under 0.04% CO₂?",
       ["The concentration of CO₂", "The intensity of the light", "The concentration of chlorophyll", "The temperature of the leaves"],

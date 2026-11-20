@@ -100,7 +100,7 @@ const EXAM = {
      "tip": "Glucose <em>lowers</em> the level of cAMP (it does not raise it), so the activator protein cannot help RNA polymerase bind to the promoter even though the repressor has been released.",
      "rubric": [
       "For explaining that when glucose is present, cAMP levels are low",
-      "For explaining that without cAMP the activator protein (CAP) cannot bind to the promoter to help RNA polymerase, so transcription of the operon is reduced even though the repressor is not bound, and the cells use glucose first"
+      "For explaining that without cAMP the activator protein (CAP) cannot bind to its site near the promoter to help RNA polymerase, so transcription of the operon is reduced even though the repressor is not bound, and the cells use glucose first"
      ],
      "model": [
       "Glucose is the cell's preferred energy source. When it is present, the level of cAMP is low, so the cAMP-dependent activator protein (CAP) does not bind near the promoter and RNA polymerase binds poorly.",

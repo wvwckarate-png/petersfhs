@@ -27,7 +27,7 @@ const EXAM = {
         "0.5",
         "0.125",
         "1.5",
-        "100"
+        "97"
        ],
        [
         "1.0",
@@ -39,7 +39,7 @@ const EXAM = {
         "2.0",
         "8",
         "24",
-        "28"
+        "43"
        ]
       ]
      },
@@ -74,11 +74,11 @@ const EXAM = {
      "label": "Part C",
      "prompt": "Describe the relationship between the size of the cube and (i) the percent of the cube that changed color and (ii) the surface-area-to-volume ratio.",
      "rubric": [
-      "For describing that as the cube size increases, the percent of the cube that changed color decreases (100% to 71% to 28%)",
+      "For describing that as the cube size increases, the percent of the cube that changed color decreases (97% to 71% to 43%)",
       "For describing that as the cube size increases, the surface-area-to-volume ratio decreases (12 to 6 to 3 cm<sup>−1</sup>)"
      ],
      "model": [
-      "(i) The larger the cube, the smaller the percentage of its volume that changed color: 100% for the 0.5 cm cube, 71% for the 1.0 cm cube, and 28% for the 2.0 cm cube. (ii) The surface-area-to-volume ratio also decreases as the cube gets bigger: 12, 6, and 3 cm<sup>−1</sup>, respectively."
+      "(i) The larger the cube, the smaller the percentage of its volume that changed color: 97% for the 0.5 cm cube, 71% for the 1.0 cm cube, and 43% for the 2.0 cm cube. (ii) The surface-area-to-volume ratio also decreases as the cube gets bigger: 12, 6, and 3 cm<sup>−1</sup>, respectively."
      ]
     },
     {

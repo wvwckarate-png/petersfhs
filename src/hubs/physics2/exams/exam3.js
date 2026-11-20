@@ -13,7 +13,7 @@ const EXAM = {
     "0.50 A"
    ],
    "correct": 2,
-   "explanation": "The resistors are in series, so they carry the same current: I = V/R_total = 12/(2 + 3 + 7) = 1.0 A."
+   "explanation": "Correct: (C) 1.0 A. In a single loop there is only one path, so every resistor carries the same current. The total resistance of series resistors is their sum: R = 2 Ω + 3 Ω + 7 Ω = 12 Ω. With an ideal battery, I = V/R = 12 V / 12 Ω = 1.0 A, and that same 1.0 A passes through the 3 Ω resistor. Check: the drops 2 V + 3 V + 7 V add to 12 V.\n\n(A) is wrong because it divides the 12 V by the 3 Ω resistor alone (12/3 = 4.0 A), as if that resistor were connected directly across the battery.\n(B) is wrong because 2.0 A would require a total resistance of only 6 Ω, but the series resistances add to 12 Ω, giving 1.0 A.\n(D) is wrong because 0.50 A would require a total resistance of 24 Ω, twice the actual series sum of 2 + 3 + 7 = 12 Ω."
   },
   {
    "id": "p2e3-2",
@@ -27,7 +27,7 @@ const EXAM = {
     "1.0 V"
    ],
    "correct": 1,
-   "explanation": "The current is 1.0 A, so V = IR = (1.0)(7) = 7.0 V. The 12 V of the battery is divided among the three resistors (2 V + 3 V + 7 V)."
+   "explanation": "Correct: (B) 7.0 V. The series current is I = 12 V / (2 + 3 + 7) Ω = 1.0 A, the same in every resistor. Ohm's law for the 7 Ω resistor alone gives ΔV = IR = (1.0 A)(7 Ω) = 7.0 V. The battery's 12 V is shared in proportion to resistance: 2.0 V + 3.0 V + 7.0 V = 12 V, as Kirchhoff's loop rule requires.\n\n(A) is wrong because 12 V is the potential difference across all three resistors together; the 7 Ω resistor gets only its share, 7.0 V.\n(C) is wrong because 3.0 V is the potential difference across the 3 Ω resistor, (1.0 A)(3 Ω), not across the 7 Ω resistor.\n(D) is wrong because 1.0 is the current in amperes, not a potential difference; multiplying it by 7 Ω gives 7.0 V across the resistor."
   },
   {
    "id": "p2e3-3",
@@ -41,7 +41,7 @@ const EXAM = {
     "The current decreases only in the 6 Ω resistor and stays the same elsewhere."
    ],
    "correct": 0,
-   "explanation": "In a series circuit the total resistance is the sum of the resistances. Replacing 3 Ω with 6 Ω raises the total from 12 Ω to 15 Ω. With the battery voltage fixed, I = V/R decreases (from 1.0 A to 0.80 A), and since the same current flows through every element of a series circuit, the current decreases everywhere."
+   "explanation": "Correct: (A) The current decreases, because the total resistance increases. Series resistances add, so replacing 3 Ω with 6 Ω raises the total from 2 + 3 + 7 = 12 Ω to 2 + 6 + 7 = 15 Ω. The battery's potential difference is fixed at 12 V, so I = V/R falls from 12/12 = 1.0 A to 12/15 = 0.80 A. Because a series loop has a single path, this smaller current is the same in every element.\n\n(B) is wrong because a larger resistance opposes current more, not less; raising the total resistance from 12 Ω to 15 Ω lowers I = V/R.\n(C) is wrong because a fixed battery voltage keeps V constant, not I; with V fixed, a larger total resistance gives a smaller current.\n(D) is wrong because charge cannot pile up in a single loop, so the current is the same everywhere in a series circuit (0.80 A in every element)."
   },
   {
    "id": "p2e3-4",
@@ -54,7 +54,7 @@ const EXAM = {
     "+200 J"
    ],
    "correct": 3,
-   "explanation": "The process is adiabatic, so Q = 0. By the first law, ΔU = Q + W_on = 0 + 200 = +200 J. The temperature of the gas rises as its internal energy increases."
+   "explanation": "Correct: (D) +200 J. The cylinder is insulated and the compression is quick, so the process is adiabatic: Q = 0. The first law, written with work done on the gas, is ΔU = Q + W_on = 0 + (+200 J) = +200 J. All the energy delivered by the compressing force stays in the gas as internal energy, so its temperature rises.\n\n(A) is wrong because −200 J has the wrong sign: work done on the gas adds energy to it, so its internal energy increases rather than decreases.\n(B) is wrong because ΔU = 0 describes an isothermal process, where heat flows out to balance the work; here insulation makes Q = 0, so ΔU = +200 J.\n(C) is wrong because there is no reason to split the work in half; with Q = 0 all 200 J of work becomes internal energy."
   },
   {
    "id": "p2e3-5",
@@ -68,7 +68,7 @@ const EXAM = {
     "3 cm"
    ],
    "correct": 1,
-   "explanation": "Two complete cycles span 16 cm, so one wavelength is 8 cm. (3 cm is the amplitude, and 4 cm is half a wavelength.)"
+   "explanation": "Correct: (B) 8 cm. The wavelength is the length of one complete cycle along the position axis. The graph shows the displacement starting at 0, rising to +3 cm at x = 2 cm, returning to 0 at x = 4 cm, reaching −3 cm at x = 6 cm, and completing the first cycle at x = 8 cm. Two full cycles fit in 16 cm, so λ = 16 cm / 2 = 8 cm.\n\n(A) is wrong because 16 cm is the length of the whole graph, which contains two complete cycles, so it is two wavelengths.\n(C) is wrong because 4 cm is the distance between adjacent zero crossings, which is only half a wavelength.\n(D) is wrong because 3 cm is the amplitude, the maximum displacement on the vertical axis, not a distance along the rope."
   },
   {
    "id": "p2e3-6",
@@ -82,7 +82,7 @@ const EXAM = {
     "0.25 s"
    ],
    "correct": 2,
-   "explanation": "The frequency is f = v/λ = 16/8 = 2.0 Hz, so the period is T = 1/f = 0.50 s. Alternatively T = λ/v = 8/16 = 0.50 s."
+   "explanation": "Correct: (C) 0.50 s. From the graph the wavelength is λ = 8 cm, and the stem gives v = 16 cm/s. The wave equation v = fλ gives f = v/λ = (16 cm/s)/(8 cm) = 2.0 Hz, so the period is T = 1/f = 1/(2.0 Hz) = 0.50 s. Equivalently, the wave moves one wavelength in one period: T = λ/v = 8/16 = 0.50 s.\n\n(A) is wrong because 8.0 is the wavelength in centimeters, not a time; the period is the wavelength divided by the speed, 8/16 = 0.50 s.\n(B) is wrong because 2.0 is the frequency in hertz; the period is its reciprocal, 1/2.0 = 0.50 s.\n(D) is wrong because 0.25 s comes from using half a wavelength (4 cm/16 cm/s) instead of the full 8 cm wavelength."
   },
   {
    "id": "p2e3-7",
@@ -95,7 +95,7 @@ const EXAM = {
     "49°"
    ],
    "correct": 2,
-   "explanation": "Snell's law gives (1.33)(sin 30°) = (1.00) sin θ₂, so sin θ₂ = 0.665 and θ₂ ≈ 42°. The ray bends away from the normal as it enters the medium with the lower index."
+   "explanation": "Correct: (C) 42°. Snell's law relates the angles on either side of the boundary: n₁ sin θ₁ = n₂ sin θ₂. Here (1.33)(sin 30°) = (1.00) sin θ₂, so sin θ₂ = (1.33)(0.500) = 0.665 and θ₂ = sin⁻¹(0.665) ≈ 42°. Light entering a medium with a lower index of refraction speeds up and bends away from the normal, so the angle must exceed 30°.\n\n(A) is wrong because 22° comes from dividing by 1.33 instead of multiplying (sin θ = 0.500/1.33 = 0.376), which bends the ray toward the normal as if it entered water.\n(B) is wrong because 30° would mean no bending, but the indices of water and air differ, so the ray must refract at the boundary.\n(D) is wrong because 49° is the critical angle for water to air, sin⁻¹(1/1.33), not the refraction angle for a 30° incident ray."
   },
   {
    "id": "p2e3-8",
@@ -108,7 +108,7 @@ const EXAM = {
     "1.0 × 10⁶ m/s"
    ],
    "correct": 2,
-   "explanation": "Particles pass through undeflected when the electric and magnetic forces cancel: qE = qvB, so v = E/B = 2000/0.50 = 4000 m/s. The charge and mass do not matter."
+   "explanation": "Correct: (C) 4000 m/s. For a particle to move straight through, the net force must be zero, so the electric and magnetic forces must have equal magnitudes and opposite directions: qE = qvB. The charge cancels, leaving v = E/B = (2000 V/m)/(0.50 T) = 4000 m/s, or 4.0 × 10³ m/s. Particles faster or slower than this are deflected, which is how the device selects a speed.\n\n(A) is wrong because at 250 m/s the magnetic force qvB = q(125 N/C) is far smaller than the electric force q(2000 N/C), so the particle is deflected.\n(B) is wrong because 1000 m/s is the product E × B (2000 × 0.50), but balancing qE = qvB requires dividing E by B, giving 4000 m/s.\n(D) is wrong because at 1.0 × 10⁶ m/s the magnetic force qvB would be 250 times the electric force, so the particle would be strongly deflected."
   },
   {
    "id": "p2e3-9",
@@ -121,7 +121,7 @@ const EXAM = {
     "The electric field points outward everywhere inside the metal, and the excess charge is on the surface."
    ],
    "correct": 0,
-   "explanation": "In electrostatic equilibrium the mobile charges in a conductor have stopped moving, which requires the electric field inside the conductor to be zero. Excess charge repels itself and moves as far apart as it can, ending up on the outer surface."
+   "explanation": "Correct: (A) The electric field is zero everywhere inside the metal, and the excess charge is on the surface. In electrostatic equilibrium the free electrons in a conductor have stopped drifting. If any electric field existed inside the metal, it would push those free charges and they would move, so the field inside the metal must be zero. Excess like charges repel and move as far apart as possible, so the net charge resides on the outer surface; Gauss's law confirms that no net charge can sit in a field-free interior.\n\n(B) is wrong because an outward field inside the metal would drive the free charges, so the conductor could not be in equilibrium; and excess charge does not stay in the volume.\n(C) is wrong because the zero field is right, but the excess charge does not stay spread through the volume; mutual repulsion pushes it to the surface.\n(D) is wrong because the charge location is right, but an outward field inside the metal would keep the free charges moving, contradicting equilibrium."
   },
   {
    "id": "p2e3-10",
@@ -135,7 +135,7 @@ const EXAM = {
     "50 J"
    ],
    "correct": 2,
-   "explanation": "The net work is the area enclosed by the cycle: ½(ΔV)(ΔP) = ½(2 × 10⁻³ m³)(100 × 10³ Pa) = 100 J. The cycle runs clockwise, so the net work done by the gas is positive."
+   "explanation": "Correct: (C) 100 J. For a closed cycle, the net work done by the gas equals the area enclosed on the PV diagram. The cycle is a right triangle with legs ΔV = 4 L − 2 L = 2 L = 2.0 × 10⁻³ m³ and ΔP = 200 kPa − 100 kPa = 1.0 × 10⁵ Pa. Area = ½(2.0 × 10⁻³ m³)(1.0 × 10⁵ Pa) = 100 J. The graph runs clockwise (A up to B, down to C, left to A), so this net work by the gas is positive.\n\n(A) is wrong because 400 J is (200 kPa)(2 L), a rectangle from the axis up to the highest pressure, not the triangular area enclosed by the cycle.\n(B) is wrong because 200 J is the full rectangle ΔP × ΔV = (1.0 × 10⁵ Pa)(2.0 × 10⁻³ m³); the cycle is a triangle, so the factor of ½ is missing.\n(D) is wrong because 50 J halves the triangular area a second time; the enclosed area is ½ΔVΔP = 100 J."
   },
   {
    "id": "p2e3-11",
@@ -149,7 +149,7 @@ const EXAM = {
     "300 J"
    ],
    "correct": 3,
-   "explanation": "The work done by the gas equals the area under the B → C line. The pressure falls linearly from 200 kPa to 100 kPa, so the average pressure is 150 kPa, and W = (150 × 10³ Pa)(2 × 10⁻³ m³) = 300 J."
+   "explanation": "Correct: (D) 300 J. The work done by the gas equals the area under the B → C line down to the volume axis. That region is a trapezoid: the volume increases by 2 L = 2.0 × 10⁻³ m³ while the pressure drops linearly from 200 kPa to 100 kPa, so the average pressure is 150 kPa. W = (1.5 × 10⁵ Pa)(2.0 × 10⁻³ m³) = 300 J, positive because the gas expands.\n\n(A) is wrong because 600 J multiplies the average pressure by the final volume, 4 L, instead of the change in volume, 2 L.\n(B) is wrong because 400 J uses the starting pressure of 200 kPa for the whole expansion, ignoring that the pressure falls to 100 kPa.\n(C) is wrong because 150 J is half the correct value, as if the volume changed by only 1 L instead of the 2 L shown on the graph."
   },
   {
    "id": "p2e3-12",
@@ -163,7 +163,7 @@ const EXAM = {
     "The gas releases heat to its surroundings, and its internal energy decreases."
    ],
    "correct": 3,
-   "explanation": "At constant pressure the volume decreases, and since PV = nRT, the temperature falls as V falls at fixed P. The internal energy therefore decreases (ΔU < 0). Work is done on the gas (W_by < 0), so by the first law Q = ΔU + W_by is even more negative: the gas releases heat. A constant pressure does not mean there is no heat flow."
+   "explanation": "Correct: (D) The gas releases heat to its surroundings, and its internal energy decreases. From C to A the pressure stays at 100 kPa while the volume falls from 4 L to 2 L. Since PV = nRT, the temperature halves, so the internal energy decreases (ΔU < 0). The gas is compressed, so the work done by the gas is negative: W_by = −(1.0 × 10⁵ Pa)(2.0 × 10⁻³ m³) = −200 J. The first law, Q = ΔU + W_by, then makes Q even more negative, so the gas releases heat.\n\n(A) is wrong because at constant pressure, shrinking the volume lowers the temperature (PV = nRT), so the internal energy decreases and heat leaves the gas.\n(B) is wrong because the internal energy does not stay constant: at fixed pressure, halving the volume halves the temperature, so ΔU < 0.\n(C) is wrong because constant pressure does not prevent heat flow; only an adiabatic process has Q = 0, and here Q = ΔU + W_by is negative."
   },
   {
    "id": "p2e3-13",
@@ -176,7 +176,7 @@ const EXAM = {
     "It follows exactly the same line as the original ray."
    ],
    "correct": 0,
-   "explanation": "The ray bends toward the normal on entering the glass and bends back by the same angle on leaving, because the second refraction is the reverse of the first. The emerging ray is therefore parallel to the incoming ray but displaced sideways."
+   "explanation": "Correct: (A) It is parallel to the original ray but shifted sideways. At the first surface the ray slows and bends toward the normal, n_air sin θ₁ = n_glass sin θ₂. The two faces are parallel, so the ray meets the second surface at the same angle θ₂, and Snell's law in reverse gives n_glass sin θ₂ = n_air sin θ₃, so θ₃ = θ₁. The ray leaves in its original direction but is displaced sideways by its slanted path through the glass.\n\n(B) is wrong because the bending toward the normal at entry is undone at exit, because the second refraction exactly reverses the first.\n(C) is wrong because the ray bends away from the normal only by the amount it bent toward it on entry, so the net direction change is zero.\n(D) is wrong because the emerging ray has the original direction but not the original line; its slanted path inside the glass shifts it sideways."
   },
   {
    "id": "p2e3-14",
@@ -189,7 +189,7 @@ const EXAM = {
     "140 dB"
    ],
    "correct": 1,
-   "explanation": "Doubling the intensity raises the level by 10 log(2) ≈ 3 dB, so the level is about 73 dB. Decibels are logarithmic, so the levels do not add directly."
+   "explanation": "Correct: (B) 73 dB. Sound level is logarithmic, β = 10 log(I/I₀), so levels in decibels do not add. Two identical machines double the intensity, and the level rises by 10 log(2I/I) = 10 log 2 ≈ 3.0 dB. The total is about 70 dB + 3 dB = 73 dB. A rise of 10 dB would require ten times the intensity, that is, ten machines.\n\n(A) is wrong because a second machine adds sound energy, doubling the intensity, so the level must rise above 70 dB.\n(C) is wrong because 77 dB would correspond to an intensity ratio of 10^0.7 ≈ 5, not the factor of 2 from two identical machines.\n(D) is wrong because 140 dB adds the decibel values directly, but decibels are logarithmic; doubling intensity adds only about 3 dB."
   },
   {
    "id": "p2e3-15",
@@ -209,7 +209,7 @@ const EXAM = {
     "Toward the top of the page"
    ],
    "correct": 3,
-   "explanation": "Using F = qv × B with v pointing left (−x) and B out of the page (+z): (−x) × (+z) = +y, which is toward the top of the page. For a positive charge the force points the same way as v × B."
+   "explanation": "Correct: (D) Toward the top of the page. For a positive charge the magnetic force is F = qv × B. The figure shows v pointing left (−x) and dots for a field out of the page (+z). Then (−x̂) × (+ẑ) = −(x̂ × ẑ) = −(−ŷ) = +ŷ, toward the top of the page. With the right hand: fingers along v (left), curl toward B (out of the page), and the thumb points up. The force is perpendicular to both v and B.\n\n(A) is wrong because toward the bottom of the page is the force on a negative charge, or the result of reversing the cross-product order.\n(B) is wrong because the magnetic force is always perpendicular to the velocity, so it cannot point straight back opposite to v.\n(C) is wrong because the magnetic force is perpendicular to B, which points out of the page, so the force must lie in the plane of the page."
   },
   {
    "id": "p2e3-16",
@@ -222,7 +222,7 @@ const EXAM = {
     "0.040 m"
    ],
    "correct": 2,
-   "explanation": "E = kq/r² gives r = √(kq/E) = √((9.0 × 10⁹)(2.0 × 10⁻⁹)/450) = √(0.040) = 0.20 m."
+   "explanation": "Correct: (C) 0.20 m. The field of a point charge is E = kq/r², so r = √(kq/E). Substituting, kq = (9.0 × 10⁹ N·m²/C²)(2.0 × 10⁻⁹ C) = 18 N·m²/C, and kq/E = 18/450 = 0.040 m². Taking the square root gives r = √0.040 m² = 0.20 m. Check: (18)/(0.20)² = 18/0.040 = 450 N/C.\n\n(A) is wrong because at 2.0 m the field would be 18/(2.0)² = 4.5 N/C, one hundred times smaller than 450 N/C.\n(B) is wrong because at 0.40 m the field would be 18/(0.40)² ≈ 113 N/C, a quarter of 450 N/C, because the field falls off as 1/r².\n(D) is wrong because 0.040 is r², the value before the square root is taken; the distance itself is √0.040 = 0.20 m."
   },
   {
    "id": "p2e3-17",
@@ -235,7 +235,7 @@ const EXAM = {
     "100 W"
    ],
    "correct": 1,
-   "explanation": "P = I²R = (2.0)²(5.0) = 20 W. The value 10 W is the potential difference across the wire (IR = 10 V), which is not a power."
+   "explanation": "Correct: (B) 20 W. The rate of energy dissipation in a resistor is P = IΔV, and with ΔV = IR this becomes P = I²R. Here P = (2.0 A)²(5.0 Ω) = (4.0 A²)(5.0 Ω) = 20 W. Equivalently, the potential difference across the wire is ΔV = IR = 10 V, and P = IΔV = (2.0 A)(10 V) = 20 W.\n\n(A) is wrong because 10 is IR, the potential difference in volts across the wire; the power is that voltage times the current, 20 W.\n(C) is wrong because 40 W would require a current of about 2.8 A or a resistance of 10 Ω; with I = 2.0 A and R = 5.0 Ω, I²R = 20 W.\n(D) is wrong because 100 W squares the potential difference instead, (IR)² = 10², without dividing by R; ΔV²/R = 100/5.0 = 20 W."
   },
   {
    "id": "p2e3-18",
@@ -248,7 +248,7 @@ const EXAM = {
     "0.050 V"
    ],
    "correct": 1,
-   "explanation": "Faraday's law for a coil gives |𝓔| = NΔΦ/Δt = (50)(0.020)/(0.40) = 2.5 V. Leaving out the number of turns would give 0.050 V."
+   "explanation": "Correct: (B) 2.5 V. Faraday's law gives the average emf of an N-turn coil as |𝓔| = N ΔΦ/Δt, because each turn contributes the same emf and the turns are in series. Here |𝓔| = (50)(0.020 Wb)/(0.40 s) = (1.0 Wb)/(0.40 s) = 2.5 V. The direction of the induced current follows from Lenz's law, but only the magnitude is asked.\n\n(A) is wrong because 25 V is ten times too large, a decimal slip; (50)(0.020)/0.40 = 1.0/0.40 = 2.5 V.\n(C) is wrong because 0.50 V does not follow from N ΔΦ/Δt; it would require a flux change of only 0.0040 Wb per turn over 0.40 s.\n(D) is wrong because 0.050 V is the emf of a single turn, ΔΦ/Δt; it leaves out the factor of N = 50 turns."
   },
   {
    "id": "p2e3-19",
@@ -261,7 +261,7 @@ const EXAM = {
     "The current is largest when the capacitor is fully charged."
    ],
    "correct": 0,
-   "explanation": "At the instant the switch is closed the capacitor has no charge and no potential difference, so the full battery voltage is across the resistor and the current is V/R, its maximum. As charge builds up, the capacitor's voltage grows and opposes the battery, reducing the voltage across the resistor and therefore the current. When the capacitor's voltage equals the battery's, the current is zero."
+   "explanation": "Correct: (A) The current is largest at first and decreases toward zero as the capacitor charges. When the switch closes, the uncharged capacitor has ΔV_C = q/C = 0, so the full battery voltage is across the resistor and the current is at its maximum, I₀ = ε/R. As charge builds, ΔV_C rises and the resistor's share, ε − ΔV_C, shrinks, so the current falls. It decays exponentially, I = I₀e^(−t/RC), approaching zero when ΔV_C equals ε.\n\n(B) is wrong because at the start the uncharged capacitor has no voltage across it, so the full battery voltage is across the resistor and the current is largest, not zero; the current then decays toward zero rather than rising to a constant.\n(C) is wrong because the current cannot stay constant, because the capacitor's growing voltage steadily reduces the voltage across the resistor.\n(D) is wrong because when the capacitor is fully charged its voltage equals the battery's, so no voltage is left across the resistor and the current is zero."
   },
   {
    "id": "p2e3-20",
@@ -274,7 +274,7 @@ const EXAM = {
     "The molecules have the same average kinetic energy, but the hydrogen molecules have the greater average speed."
    ],
    "correct": 3,
-   "explanation": "The average translational kinetic energy depends only on the temperature, K = (3/2)k_BT, so it is the same for both gases. Since K = ½mv², the lighter hydrogen molecules must have the greater average speed."
+   "explanation": "Correct: (D) The molecules have the same average kinetic energy, but the hydrogen molecules have the greater average speed. For an ideal gas the average translational kinetic energy depends only on the absolute temperature: K_avg = (3/2)k_BT. At equal temperatures both gases have the same K_avg. Since K = ½mv², the rms speed is v_rms = √(3k_BT/m). An O₂ molecule is 16 times as massive as H₂ (32 u vs 2 u), so hydrogen's rms speed is √16 = 4 times greater.\n\n(A) is wrong because average kinetic energy depends only on temperature, so hydrogen's is not greater; only its speed is greater.\n(B) is wrong because equal speeds would give the heavier oxygen more kinetic energy, but at equal temperature the kinetic energies are equal, so the speeds differ.\n(C) is wrong because at the same temperature the kinetic energies are equal, and the heavier oxygen molecules move more slowly, not faster."
   },
   {
    "id": "p2e3-21",
@@ -287,7 +287,7 @@ const EXAM = {
     "The field lines are straight lines directed toward the wire."
    ],
    "correct": 0,
-   "explanation": "Using the right-hand rule for a straight wire, point the thumb along the current (out of the page) and curl the fingers: they circle the wire counterclockwise as seen from the front of the page. Magnetic field lines form closed loops around the current and never point radially toward or away from the wire."
+   "explanation": "Correct: (A) The field lines are circles centered on the wire, directed counterclockwise as seen from the front of the page. For a long straight wire, the right-hand rule says: point the thumb along the current and the fingers curl in the direction of the magnetic field. With the current out of the page, the thumb points toward the viewer and the fingers curl counterclockwise. The field lines are closed circles centered on the wire, with magnitude B = μ₀I/(2πr) decreasing with distance.\n\n(B) is wrong because clockwise circles would be produced by a current directed into the page, the reverse of the current given.\n(C) is wrong because magnetic field lines around a current form closed loops; radial lines pointing away describe the electric field of a positive charge.\n(D) is wrong because magnetic field lines have no sources or sinks, so they cannot point radially inward the way the field of a negative charge does."
   },
   {
    "id": "p2e3-22",
@@ -300,7 +300,7 @@ const EXAM = {
     "48 μF"
    ],
    "correct": 0,
-   "explanation": "For capacitors in series, 1/C_eq = 1/4.0 + 1/12 = 3/12 + 1/12 = 4/12, so C_eq = 3.0 μF. The sum, 16 μF, would apply to capacitors in parallel."
+   "explanation": "Correct: (A) 3.0 μF. Capacitors in series carry the same charge, and their voltages add, so their reciprocals add: 1/C_eq = 1/C₁ + 1/C₂ = 1/(4.0 μF) + 1/(12 μF) = 3/12 + 1/12 = 4/12 μF⁻¹. Thus C_eq = 12/4 = 3.0 μF. A series combination is always smaller than the smallest capacitor, here 4.0 μF.\n\n(B) is wrong because 8.0 μF is the average of 4.0 μF and 12 μF, but averaging is not a rule for combining capacitors.\n(C) is wrong because 16 μF is the sum, which is the rule for capacitors in parallel, not in series.\n(D) is wrong because 48 μF is the product C₁C₂ alone; the series formula divides it by the sum, 48/16 = 3.0 μF."
   },
   {
    "id": "p2e3-23",
@@ -313,7 +313,7 @@ const EXAM = {
     "27 N"
    ],
    "correct": 0,
-   "explanation": "Coulomb's force varies as 1/r². Tripling the distance reduces the force by a factor of 9: 9.0/9 = 1.0 N. The value 3.0 N results from dividing by 3 rather than 9."
+   "explanation": "Correct: (A) 1.0 N. Coulomb's law, F = k|q₁q₂|/r², makes the force inversely proportional to the square of the separation when the charges are unchanged. The distance increases from 0.10 m to 0.30 m, a factor of 3, so the force decreases by a factor of 3² = 9. The new force is 9.0 N / 9 = 1.0 N.\n\n(B) is wrong because 0.33 N divides 9.0 N by 27, as if the force varied as 1/r³ instead of 1/r².\n(C) is wrong because 3.0 N divides by 3, treating the force as inversely proportional to r rather than to r².\n(D) is wrong because 27 N increases the force, but moving charges farther apart weakens the electric force."
   },
   {
    "id": "p2e3-24",
@@ -326,7 +326,7 @@ const EXAM = {
     "90 cm"
    ],
    "correct": 1,
-   "explanation": "The mirror equation gives 1/d_i = 1/f − 1/d_o = 1/20 − 1/60 = 2/60, so d_i = 30 cm (in front of the mirror, a real image)."
+   "explanation": "Correct: (B) 30 cm. Use the mirror equation, 1/f = 1/d_o + 1/d_i, with f = +20 cm for a concave mirror. Then 1/d_i = 1/20 − 1/60 = 3/60 − 1/60 = 2/60, so d_i = +30 cm. The positive sign means a real image in front of the mirror. The object is beyond the center of curvature (2f = 40 cm), so the image lies between f and 2f, inverted and reduced (m = −30/60 = −0.5).\n\n(A) is wrong because 15 cm comes from adding the reciprocals (1/20 + 1/60 = 4/60) instead of subtracting 1/d_o from 1/f.\n(C) is wrong because 60 cm is the object distance; an image coincides with its object only when the object is at the center of curvature, 2f = 40 cm.\n(D) is wrong because 90 cm would put the image beyond the object, but an object outside 2f produces an image between f and 2f (20 to 40 cm)."
   },
   {
    "id": "p2e3-25",
@@ -339,7 +339,7 @@ const EXAM = {
     "3.0 days"
    ],
    "correct": 2,
-   "explanation": "The count rate falls by a factor of 8 = 2³, so three half-lives have passed in 15 days. The half-life is 15/3 = 5.0 days."
+   "explanation": "Correct: (C) 5.0 days. The count rate is proportional to the number of undecayed nuclei, so it halves every half-life. The ratio is 800/100 = 8 = 2³: 800 → 400 → 200 → 100 counts per second, which is three half-lives. Three half-lives take 15 days, so the half-life is t½ = 15 days / 3 = 5.0 days.\n\n(A) is wrong because in one half-life the rate would fall only to 400 counts per second, not to 100.\n(B) is wrong because 7.5 days assumes two half-lives (a factor of 4), but the rate fell by a factor of 8, which is three half-lives.\n(D) is wrong because 3.0 days divides 15 by 5, but a factor of 8 corresponds to 3 halvings, not 5 (which would reach 25 counts per second)."
   },
   {
    "id": "p2e3-26",
@@ -352,7 +352,7 @@ const EXAM = {
     "The image is virtual, upright, and smaller than the object."
    ],
    "correct": 3,
-   "explanation": "A convex mirror always forms a virtual image behind the mirror that is upright and reduced in size. This wide field of view is why convex mirrors are used on vehicles."
+   "explanation": "Correct: (D) The image is virtual, upright, and smaller than the object. A convex mirror has a negative focal length. From 1/d_i = 1/f − 1/d_o, with f < 0 and d_o > 0, d_i is always negative and smaller in magnitude than |f|, so the image is virtual and behind the mirror. The magnification m = −d_i/d_o is positive and less than 1, so the image is always upright and reduced, for every object position.\n\n(A) is wrong because a diverging mirror cannot form a real image of a real object, because the reflected rays spread apart and never meet.\n(B) is wrong because the image is upright and virtual, but it is always smaller than the object; enlargement requires a concave mirror with the object inside f.\n(C) is wrong because a same-size image occurs for a plane mirror (virtual) or a concave mirror at 2f (real and inverted), never a convex mirror."
   },
   {
    "id": "p2e3-27",
@@ -365,7 +365,7 @@ const EXAM = {
     "The magnet loses its magnetization as it falls, which reduces its mass and its weight."
    ],
    "correct": 0,
-   "explanation": "As the magnet falls, the magnetic flux through each section of the tube changes. This induces circulating (eddy) currents in the copper, and by Lenz's law the magnetic field of these currents opposes the change, which exerts an upward force on the magnet. Copper is not ferromagnetic, so there is no attraction in the absence of motion."
+   "explanation": "Correct: (A) Induced currents in the tube create a magnetic force that opposes the magnet's motion (Lenz's law). As the magnet falls, the magnetic flux through each ring of the copper tube changes: it increases ahead of the magnet and decreases behind it. Faraday's law induces circulating eddy currents in the conducting copper, and Lenz's law says their magnetic fields oppose the change. They repel the approaching magnet below and attract the departing magnet above, exerting an upward force that slows the fall.\n\n(B) is wrong because copper is not attracted to a stationary magnet; the retarding force exists only while the magnet moves and induces currents.\n(C) is wrong because copper is not ferromagnetic; the braking comes from currents induced in the conductor, not from any static magnetic attraction.\n(D) is wrong because magnetization has no effect on mass or weight, and the magnet does not lose its magnetization by falling through the tube."
   },
   {
    "id": "p2e3-28",
@@ -378,7 +378,7 @@ const EXAM = {
     "0.20 N"
    ],
    "correct": 2,
-   "explanation": "F = BIL sin θ = (0.40)(8.0)(0.25)(sin 30°) = 0.40 N. The value 0.69 N results from using cosine instead of sine, and 0.80 N ignores the angle."
+   "explanation": "Correct: (C) 0.40 N. The magnetic force on a current-carrying wire is F = ILB sin θ, where θ is the angle between the wire and the field. Here F = (8.0 A)(0.25 m)(0.40 T)(sin 30°) = (0.80 N)(0.50) = 0.40 N. Only the component of the wire perpendicular to the field experiences a force, which is why the sine of the angle appears.\n\n(A) is wrong because 0.80 N is ILB with no angle factor, which would apply only if the wire were perpendicular to the field.\n(B) is wrong because 0.69 N uses cos 30° = 0.866 instead of sin 30°; the force depends on the wire's component perpendicular to B.\n(D) is wrong because 0.20 N multiplies by sin 30° twice, or uses half the correct current or length."
   },
   {
    "id": "p2e3-29",
@@ -391,7 +391,7 @@ const EXAM = {
     "5.0 Ω"
    ],
    "correct": 2,
-   "explanation": "The two 10 Ω resistors in parallel are equivalent to 5.0 Ω (10/2). In series with the 5.0 Ω resistor, the total is 5.0 + 5.0 = 10 Ω."
+   "explanation": "Correct: (C) 10 Ω. First combine the parallel pair: 1/R_p = 1/10 + 1/10 = 2/10, so R_p = 5.0 Ω (two equal resistors in parallel give half of one). That combination is in series with the 5.0 Ω resistor, and series resistances add: R_eq = 5.0 Ω + 5.0 Ω = 10 Ω.\n\n(A) is wrong because 25 Ω adds all three resistances as if they were in series, ignoring that the two 10 Ω resistors are in parallel.\n(B) is wrong because 15 Ω treats the parallel pair as a single 10 Ω resistor, but two 10 Ω resistors in parallel give only 5.0 Ω.\n(D) is wrong because 5.0 Ω is just the parallel pair's equivalent; it leaves out the 5.0 Ω resistor that is in series with it."
   },
   {
    "id": "p2e3-30",
@@ -405,7 +405,7 @@ const EXAM = {
     "5.0 × 10⁶ V/m"
    ],
    "correct": 0,
-   "explanation": "E = V/d = 200/(0.040) = 5.0 × 10³ V/m. The separation must be converted from centimeters to meters."
+   "explanation": "Correct: (A) 5.0 × 10³ V/m. Between large parallel plates the field is uniform, with magnitude E = ΔV/d. Converting the separation to meters, d = 4.0 cm = 0.040 m, so E = (200 V)/(0.040 m) = 5.0 × 10³ V/m. The figure shows the field pointing from the positive (upper) plate to the negative (lower) plate, the direction a positive test charge would be pushed.\n\n(B) is wrong because 8.0 × 10³ V/m would require a plate separation of 0.025 m (2.5 cm), not the 4.0 cm shown; 200 V/0.040 m = 5.0 × 10³ V/m.\n(C) is wrong because 5.0 × 10⁴ V/m uses d = 0.0040 m, a slip of one decimal place in converting 4.0 cm to meters.\n(D) is wrong because 5.0 × 10⁶ V/m uses d = 4.0 × 10⁻⁵ m, a conversion error of a factor of 1000; 4.0 cm is 0.040 m."
   },
   {
    "id": "p2e3-31",
@@ -419,7 +419,7 @@ const EXAM = {
     "8.4 × 10⁴ m/s"
    ],
    "correct": 1,
-   "explanation": "The electron gains kinetic energy equal to the potential energy lost: eΔV = ½mv². Then v = √(2eΔV/m) = √(2(1.6 × 10⁻¹⁹)(200)/(9.1 × 10⁻³¹)) ≈ 8.4 × 10⁶ m/s."
+   "explanation": "Correct: (B) 8.4 × 10⁶ m/s. The electron starts at rest at the negative plate and is pushed toward the positive plate. It moves through a potential difference of 200 V, so energy conservation gives eΔV = ½mv². Then v = √(2eΔV/m) = √(2(1.6 × 10⁻¹⁹ C)(200 V)/(9.1 × 10⁻³¹ kg)) = √(7.0 × 10¹³ m²/s²) ≈ 8.4 × 10⁶ m/s. The plate separation does not matter.\n\n(A) is wrong because 8.4 × 10⁷ m/s is ten times too large, which would need 100 times the energy (20,000 V); it is a slip in handling the powers of ten.\n(C) is wrong because 8.4 × 10⁵ m/s is ten times too small, which would correspond to only 2.0 V of potential difference; it comes from a power-of-ten slip.\n(D) is wrong because 8.4 × 10⁴ m/s is one hundred times too small, an error of four orders of magnitude in v², usually from mishandling the exponents."
   },
   {
    "id": "p2e3-32",
@@ -432,7 +432,7 @@ const EXAM = {
     "6.6 × 10⁵ J"
    ],
    "correct": 1,
-   "explanation": "During melting at a constant temperature, Q = mL_f = (0.50)(3.3 × 10⁵) = 1.65 × 10⁵ J. No temperature change formula (mcΔT) applies while the ice is melting."
+   "explanation": "Correct: (B) 1.65 × 10⁵ J. During melting at 0 °C the temperature stays constant, and all the added energy breaks the bonds holding the ice in its solid structure. The heat required is Q = mL_f = (0.50 kg)(3.3 × 10⁵ J/kg) = 1.65 × 10⁵ J. No mcΔT term is needed, because the ice starts at the melting point and ends as water at 0 °C.\n\n(A) is wrong because 8.3 × 10⁴ J is half the correct value, as if the mass were 0.25 kg instead of 0.50 kg.\n(C) is wrong because 3.3 × 10⁵ J is the latent heat for 1 kg; it was not multiplied by the 0.50 kg mass.\n(D) is wrong because 6.6 × 10⁵ J multiplies the latent heat by 2 instead of by 0.50, as if the mass were 2.0 kg."
   },
   {
    "id": "p2e3-33",
@@ -445,7 +445,7 @@ const EXAM = {
     "4"
    ],
    "correct": 3,
-   "explanation": "The beat frequency equals the difference between the two frequencies: |444 − 440| = 4 beats per second."
+   "explanation": "Correct: (D) 4. When two sounds of slightly different frequencies combine, they drift in and out of phase, so the loudness rises and falls. The number of loudness maxima per second, the beat frequency, equals the difference between the two frequencies: f_beat = |f₁ − f₂| = |444 Hz − 440 Hz| = 4 Hz, or 4 beats per second. The listener hears a 442 Hz tone pulsing 4 times per second.\n\n(A) is wrong because 884 is the sum of the two frequencies; beats depend on how quickly the waves drift out of phase, which is their difference.\n(B) is wrong because 442 Hz is the average frequency, the pitch of the combined tone, not the number of beats per second.\n(C) is wrong because 2 is half the difference; the waves come back into phase |f₁ − f₂| = 4 times each second."
   },
   {
    "id": "p2e3-34",
@@ -458,7 +458,7 @@ const EXAM = {
     "The photoelectric effect, in which electrons are ejected only if the light's frequency exceeds a threshold"
    ],
    "correct": 3,
-   "explanation": "In the photoelectric effect, the ejection of electrons depends on the frequency, not the intensity, of the light, which classical wave theory cannot explain. It shows that light energy comes in packets (photons) with E = hf. Diffraction, interference and refraction are all explained by the wave model."
+   "explanation": "Correct: (D) The photoelectric effect, in which electrons are ejected only if the light's frequency exceeds a threshold. In the photoelectric effect, electrons are ejected only when the light's frequency exceeds a threshold, regardless of intensity, and they appear without delay. A classical wave would eventually deliver enough energy at any frequency. Einstein explained this with photons of energy E = hf: one photon gives its energy to one electron, and K_max = hf − φ. This is direct evidence that light carries energy in discrete particles.\n\n(A) is wrong because single-slit diffraction is the spreading of waves through an opening, which is evidence for the wave nature of light.\n(B) is wrong because double-slit fringes come from the superposition of waves that are in or out of phase, so they show light's wave nature.\n(C) is wrong because refraction is explained by the change in wave speed between media (Snell's law), so it does not demonstrate photons."
   },
   {
    "id": "p2e3-35",
@@ -471,7 +471,7 @@ const EXAM = {
     "+6.0 μC"
    ],
    "correct": 2,
-   "explanation": "When identical conductors touch, the total charge is shared equally, so each sphere ends up with half of +6.0 μC, which is +3.0 μC. Total charge is conserved."
+   "explanation": "Correct: (C) +3.0 μC. When two identical conductors touch, charge flows until they reach the same potential; identical spheres at the same potential carry equal charges. Charge is conserved, so the total of +6.0 μC + 0 = +6.0 μC is shared equally: each sphere ends up with +6.0 μC / 2 = +3.0 μC. The total after separation is still +6.0 μC.\n\n(A) is wrong because the charge does not cancel; the neutral sphere has no charge to cancel it, and total charge (+6.0 μC) is conserved.\n(B) is wrong because +1.5 μC on each sphere would total only +3.0 μC, violating conservation of charge; that is a quarter, not half, of 6.0 μC.\n(D) is wrong because if each sphere had +6.0 μC the total would be +12 μC, which would create charge; the +6.0 μC must be shared."
   },
   {
    "id": "p2e3-36",
@@ -484,7 +484,7 @@ const EXAM = {
     "−120 V"
    ],
    "correct": 3,
-   "explanation": "V = kq/r = (9.0 × 10⁹)(−4.0 × 10⁻⁹)/(0.30) = −120 V. The potential near a negative charge is negative."
+   "explanation": "Correct: (D) −120 V. The electric potential of a point charge, with V = 0 at infinity, is V = kq/r, a scalar that keeps the sign of the charge. Substituting, V = (9.0 × 10⁹ N·m²/C²)(−4.0 × 10⁻⁹ C)/(0.30 m) = (−36 V·m)/(0.30 m) = −120 V. A negative charge makes the potential negative everywhere around it.\n\n(A) is wrong because +120 V drops the sign of the charge; potential is a signed scalar, so a negative charge gives a negative potential.\n(B) is wrong because +36 V both drops the sign and forgets to divide kq by the distance of 0.30 m.\n(C) is wrong because −36 V is kq alone in V·m; the distance of 0.30 m was not divided in (and it is not r² as for the field)."
   },
   {
    "id": "p2e3-37",
@@ -498,7 +498,7 @@ const EXAM = {
     "45 cm"
    ],
    "correct": 2,
-   "explanation": "From 1/f = 1/d_o + 1/d_i: 1/d_i = 1/10 − 1/15 = 1/30, so d_i = 30 cm."
+   "explanation": "Correct: (C) 30 cm. Use the thin lens equation, 1/f = 1/d_o + 1/d_i, with f = +10 cm and d_o = 15 cm. Then 1/d_i = 1/10 − 1/15 = 3/30 − 2/30 = 1/30, so d_i = +30 cm. The figure agrees: the object is between F and 2F, and the two rays from its tip cross beyond 2F on the far side, forming a real, inverted image magnified by m = −30/15 = −2.\n\n(A) is wrong because 6.0 cm comes from adding the reciprocals (1/10 + 1/15 = 5/30) instead of subtracting 1/d_o from 1/f.\n(B) is wrong because 15 cm is the object distance; the image is not at the same distance unless the object is at 2F (20 cm).\n(D) is wrong because 45 cm does not satisfy the lens equation: 1/15 + 1/45 = 4/45, which corresponds to f ≈ 11 cm, not 10 cm."
   },
   {
    "id": "p2e3-38",
@@ -512,7 +512,7 @@ const EXAM = {
     "It is virtual, upright, and larger than the object."
    ],
    "correct": 3,
-   "explanation": "With the object inside the focal length, 1/d_i = 1/10 − 1/5 = −1/10, so d_i = −10 cm. The negative sign means the image is virtual (on the same side as the object), and m = −d_i/d_o = +2 means upright and twice as large — a magnifying glass. An image is formed, but it can be seen only by looking through the lens."
+   "explanation": "Correct: (D) It is virtual, upright, and larger than the object. The object is now inside the focal length. The lens equation gives 1/d_i = 1/10 − 1/5 = −1/10, so d_i = −10 cm. The negative image distance means a virtual image on the same side as the object. The magnification m = −d_i/d_o = −(−10)/5 = +2, so the image is upright and twice the object's height. This is how a magnifying glass works.\n\n(A) is wrong because a real, inverted image forms only when the object is beyond the focal point; at 5 cm, inside f = 10 cm, the rays diverge after the lens.\n(B) is wrong because for a single lens, virtual images are upright, not inverted, and here m = +2 makes the image larger, not smaller.\n(C) is wrong because an image is formed; the refracted rays diverge, but extending them backward locates a virtual image 10 cm from the lens."
   },
   {
    "id": "p2e3-39",
@@ -525,7 +525,7 @@ const EXAM = {
     "1.4 × 10⁻¹⁵ Hz"
    ],
    "correct": 1,
-   "explanation": "Convert the energy to joules: 3.0 eV = 4.8 × 10⁻¹⁹ J. Then f = E/h = (4.8 × 10⁻¹⁹)/(6.63 × 10⁻³⁴) ≈ 7.2 × 10¹⁴ Hz."
+   "explanation": "Correct: (B) 7.2 × 10¹⁴ Hz. First convert the energy to joules: E = (3.0 eV)(1.6 × 10⁻¹⁹ J/eV) = 4.8 × 10⁻¹⁹ J. The photon relation E = hf then gives f = E/h = (4.8 × 10⁻¹⁹ J)/(6.63 × 10⁻³⁴ J·s) ≈ 7.2 × 10¹⁴ Hz. This is visible violet light, with λ = c/f ≈ 4.1 × 10⁻⁷ m = 410 nm.\n\n(A) is wrong because 4.5 × 10¹⁵ Hz would correspond to a photon energy of about 19 eV, so it does not come from 3.0 eV through f = E/h.\n(C) is wrong because 7.2 × 10¹³ Hz has the right digits but is ten times too small, a power-of-ten slip in dividing 10⁻¹⁹ by 10⁻³⁴.\n(D) is wrong because 1.4 × 10⁻¹⁵ is h/E, the reciprocal of the frequency (a period in seconds), not the frequency."
   },
   {
    "id": "p2e3-40",
@@ -538,7 +538,7 @@ const EXAM = {
     "It disappears."
    ],
    "correct": 0,
-   "explanation": "The angular position of the first minimum satisfies a sin θ = λ. A narrower slit (smaller a) gives a larger angle θ, so the central maximum spreads out and becomes wider."
+   "explanation": "Correct: (A) It increases. The first dark fringe of a single slit is at a sin θ = λ. Making the slit width a smaller increases sin θ = λ/a, so the first minima move farther from the center. With the screen distance fixed, the central bright maximum, which spans from one first minimum to the other (width ≈ 2Lλ/a), gets wider. A narrower opening diffracts light more.\n\n(B) is wrong because the width varies inversely with a, so narrowing the slit widens the central maximum rather than shrinking it.\n(C) is wrong because the angle of the first minimum, sin θ = λ/a, depends on the slit width, so changing a must change the pattern.\n(D) is wrong because a narrower slit still diffracts light, and more strongly; the central maximum only grows dimmer and wider."
   },
   {
    "id": "p2e3-41",
@@ -552,7 +552,7 @@ const EXAM = {
     "122 nm"
    ],
    "correct": 1,
-   "explanation": "The photon energy is ΔE = −1.51 − (−3.4) = 1.89 eV. Then λ = hc/ΔE = 1240/1.89 ≈ 656 nm, a red photon in the visible range."
+   "explanation": "Correct: (B) 656 nm. An emitted photon carries the energy difference between the levels: ΔE = E₃ − E₂ = (−1.51 eV) − (−3.4 eV) = 1.89 eV. Its wavelength is λ = hc/ΔE = (1240 eV·nm)/(1.89 eV) ≈ 656 nm. This red line is the first Balmer line (H-alpha), the most prominent visible line of hydrogen.\n\n(A) is wrong because 1280 nm would require a photon of only about 0.97 eV, which does not match the 1.89 eV gap between n = 3 and n = 2.\n(C) is wrong because 365 nm corresponds to 3.4 eV, the energy to ionize an atom from n = 2, not the n = 3 to n = 2 gap.\n(D) is wrong because 122 nm corresponds to 10.2 eV, the n = 2 to n = 1 transition in the ultraviolet."
   },
   {
    "id": "p2e3-42",
@@ -566,7 +566,7 @@ const EXAM = {
     "3.4 eV"
    ],
    "correct": 1,
-   "explanation": "Ionization means moving the electron from n = 1 (−13.6 eV) to 0 eV, which requires 13.6 eV. The value 10.2 eV is the energy needed to excite the electron from n = 1 to n = 2."
+   "explanation": "Correct: (B) 13.6 eV. Ionization removes the electron completely, raising it from its level to the 0 eV line marked on the diagram. From the ground state, n = 1 at −13.6 eV, the minimum energy is 0 − (−13.6 eV) = 13.6 eV. Any less leaves the electron bound in an excited level; any extra energy appears as the freed electron's kinetic energy.\n\n(A) is wrong because 27.2 eV doubles the ionization energy; only 0 − (−13.6) = 13.6 eV is needed to reach the 0 eV level.\n(C) is wrong because 10.2 eV, the gap from n = 1 to n = 2, only excites the electron to n = 2; it does not free it.\n(D) is wrong because 3.4 eV is the ionization energy from n = 2, not from the ground state, n = 1."
   }
  ],
  "sets": {

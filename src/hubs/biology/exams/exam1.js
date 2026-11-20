@@ -12,7 +12,7 @@ const EXAM = {
     "−0.50 MPa"
    ],
    "correct": 2,
-   "explanation": "Water potential is the sum of the pressure potential and the solute potential: Ψ = Ψp + Ψs = (+0.10) + (−0.40) = −0.30 MPa."
+   "explanation": "Correct: (C) −0.30 MPa. Water potential is the sum of its two components: Ψ = Ψ<sub>p</sub> + Ψ<sub>s</sub>. Solute potential is always zero or negative because dissolved solutes lower the free energy of water, while pressure potential in a turgid plant cell is positive. Here Ψ = (+0.10 MPa) + (−0.40 MPa) = −0.30 MPa. The cell's water potential is still negative, so it would take up water from pure water (Ψ = 0 MPa).\n\n(A) is wrong because it adds the magnitudes 0.40 + 0.10 and drops the negative sign of the solute potential, which can never be positive.\n(B) is wrong because it has the right magnitude but the wrong sign; a solute potential of −0.40 MPa outweighs a pressure potential of only +0.10 MPa, so Ψ is negative.\n(D) is wrong because it subtracts the pressure potential (−0.40 − 0.10) instead of adding it; positive turgor pressure raises water potential rather than lowering it."
   },
   {
    "id": "be1-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "0.60"
    ],
    "correct": 2,
-   "explanation": "The frequency of the recessive phenotype is q² = 0.16, so q = 0.40 and p = 1 − 0.40 = 0.60. The frequency of heterozygotes is 2pq = 2(0.60)(0.40) = 0.48."
+   "explanation": "Correct: (C) 0.48. In Hardy–Weinberg equilibrium the genotype frequencies are p² + 2pq + q² = 1. Only homozygous recessive individuals show the recessive phenotype, so q² = 0.16 and q = √0.16 = 0.40. Then p = 1 − 0.40 = 0.60, and the heterozygote frequency is 2pq = 2(0.60)(0.40) = 0.48. Check: p² + 2pq + q² = 0.36 + 0.48 + 0.16 = 1.00.\n\n(A) is wrong because 0.16 is q², the frequency of the homozygous recessive individuals given in the stem, not the heterozygotes.\n(B) is wrong because 0.36 is p² = (0.60)², the frequency of the homozygous dominant individuals rather than the heterozygotes (2pq).\n(D) is wrong because 0.60 is p, the frequency of the dominant allele; it is an allele frequency, not the frequency of any genotype."
   },
   {
    "id": "be1-3",
@@ -39,7 +39,7 @@ const EXAM = {
     "Sucrose moves from the right side to the left side, followed by water."
    ],
    "correct": 0,
-   "explanation": "Water moves by osmosis from the region of higher water potential to the region of lower water potential. The right side has the higher solute concentration and therefore the lower (more negative) solute potential, so water moves toward it. Sucrose cannot cross the membrane."
+   "explanation": "Correct: (A) From the left side to the right side, because the right side has the lower water potential. Water moves by osmosis from higher to lower water potential. Sucrose cannot cross the membrane, so only water moves. The right side is 0.6 M sucrose and the left side is 0.2 M, so the right side has more solute, a more negative solute potential, and the lower water potential (Ψ<sub>s</sub> = −iCRT, so tripling C makes Ψ<sub>s</sub> three times as negative). Net water flow is therefore from left to right.\n\n(B) is wrong because water moves toward the side with more solute, not away from it; the right side's extra solute pulls water in from the left, not the reverse.\n(C) is wrong because a selectively permeable membrane is exactly what allows osmosis; water can cross, and a water potential difference exists, so there is net flow.\n(D) is wrong because the membrane is impermeable to sucrose, as the set states, so sucrose cannot move at all; only water crosses the membrane."
   },
   {
    "id": "be1-4",
@@ -53,7 +53,7 @@ const EXAM = {
     "The level on the right side is lower, because sucrose has moved across."
    ],
    "correct": 0,
-   "explanation": "Water has moved into the right side, raising its level. The rising pressure from the taller column (the pressure potential) eventually balances the difference in solute potential, so the system stops changing with the levels unequal."
+   "explanation": "Correct: (A) The level on the right side is higher than the level on the left side. Water moves from the left (0.2 M) into the right (0.6 M), so the right column rises and the left column falls. The taller right column exerts hydrostatic pressure (a positive pressure potential) that pushes water back. Equilibrium is reached when Ψ = Ψ<sub>p</sub> + Ψ<sub>s</sub> is equal on both sides, not when the levels are equal. Because sucrose cannot cross, the right side always keeps more solute, so the right level stays higher.\n\n(B) is wrong because the left side loses water to the right side by osmosis, so its level drops below the right side rather than rising above it.\n(C) is wrong because equilibrium means equal water potential, not equal volumes; the solute difference persists and is balanced by the extra pressure of the taller right column.\n(D) is wrong because sucrose cannot cross the membrane, and water flows into the right side, so the right level rises rather than falls."
   },
   {
    "id": "be1-5",
@@ -66,7 +66,7 @@ const EXAM = {
     "20%"
    ],
    "correct": 3,
-   "explanation": "Adenine pairs with thymine, so A = T = 30%, totaling 60%. The remaining 40% is divided equally between guanine and cytosine, so C = 20%."
+   "explanation": "Correct: (D) 20%. By Chargaff's rules, in double-stranded DNA adenine pairs with thymine and guanine pairs with cytosine, so A = T and G = C. With A = 30%, T = 30%, and A + T = 60%. The remaining 100% − 60% = 40% is G + C, split equally: C = 40% ÷ 2 = 20% (and G = 20%).\n\n(A) is wrong because 70% is 100% − 30%, which subtracts only adenine and forgets that thymine also makes up 30% of the nucleotides.\n(B) is wrong because 40% is the combined G + C percentage; it must be divided equally between guanine and cytosine, giving 20% each.\n(C) is wrong because 30% would be true for thymine, which pairs with adenine; cytosine pairs with guanine and is not equal to adenine."
   },
   {
    "id": "be1-6",
@@ -80,7 +80,7 @@ const EXAM = {
     "Drug X causes cells to accumulate in the G₂ phase, so it likely blocks the transition into mitosis."
    ],
    "correct": 3,
-   "explanation": "The percentage of cells in G₂ increased from 12% in the control to 55% with Drug X, while the percentage in G₁ decreased. This pattern indicates that the cells are being held at the G₂/M transition, the point at which they would enter mitosis."
+   "explanation": "Correct: (D) Drug X causes cells to accumulate in the G₂ phase, so it likely blocks the transition into mitosis. Compare the bars phase by phase. With Drug X, G<sub>2</sub> rises from 12% to 55% while G<sub>1</sub> falls from 60% to 20%, and S (20% to 15%) and M (8% to 10%) change little. Cells are piling up just before mitosis, which means they complete DNA replication but cannot pass the G<sub>2</sub>/M checkpoint. The most likely action of the drug is to block entry into mitosis.\n\n(A) is wrong because the G<sub>1</sub> percentage falls from 60% to 20% with Drug X, so cells are leaving G<sub>1</sub> rather than accumulating there.\n(B) is wrong because M phase changes only from 8% to 10%, a small difference; the large accumulation in G<sub>2</sub> shows cells are being held back, not dividing faster.\n(C) is wrong because the distribution changes greatly, most clearly G<sub>2</sub> rising from 12% to 55%, so the drug clearly affects the cell cycle."
   },
   {
    "id": "be1-7",
@@ -94,7 +94,7 @@ const EXAM = {
     "92%"
    ],
    "correct": 3,
-   "explanation": "Interphase consists of G₁, S, and G₂: 60 + 20 + 12 = 92%. The remaining 8% of cells were in mitosis (M phase)."
+   "explanation": "Correct: (D) 92%. Interphase is the part of the cell cycle outside mitosis: G<sub>1</sub>, S, and G<sub>2</sub>. Reading the control bars, G<sub>1</sub> = 60%, S = 20%, and G<sub>2</sub> = 12%, so interphase = 60 + 20 + 12 = 92%. Equivalently, 100% − 8% (M phase) = 92%. Most cells in a population are in interphase because it is much longer than mitosis.\n\n(A) is wrong because 8% is the percentage of control cells in M phase, which is the only phase that is not part of interphase.\n(B) is wrong because 60% counts only G<sub>1</sub>; interphase also includes the S and G<sub>2</sub> phases, which add another 32%.\n(C) is wrong because 80% adds G<sub>1</sub> and S (60 + 20) but leaves out the 12% of cells in G<sub>2</sub>, which is also part of interphase."
   },
   {
    "id": "be1-8",
@@ -107,7 +107,7 @@ const EXAM = {
     "A Golgi apparatus"
    ],
    "correct": 0,
-   "explanation": "All cells contain ribosomes for protein synthesis. A nuclear envelope, mitochondria, and a Golgi apparatus are membrane-bound features of eukaryotic cells only."
+   "explanation": "Correct: (A) Ribosomes. Every cell must make proteins, so all cells, prokaryotic and eukaryotic, have ribosomes (70S in prokaryotes, 80S in the eukaryotic cytosol). Ribosomes are not bounded by a membrane, so they do not depend on the internal membrane system that prokaryotes lack. The other choices are membrane-bound organelles found only in eukaryotic cells.\n\n(B) is wrong because a nuclear envelope defines the eukaryotic nucleus; prokaryotes keep their DNA in a nucleoid region with no surrounding membrane.\n(C) is wrong because mitochondria are membrane-bound organelles found only in eukaryotes; prokaryotes carry out respiration on their plasma membrane instead.\n(D) is wrong because the Golgi apparatus is part of the eukaryotic endomembrane system, which prokaryotic cells do not have."
   },
   {
    "id": "be1-9",
@@ -120,7 +120,7 @@ const EXAM = {
     "A population bottleneck, which is a type of genetic drift"
    ],
    "correct": 3,
-   "explanation": "A sharp reduction in population size by a random event (a bottleneck) causes the allele frequencies in the survivors to differ by chance from the original population. This is genetic drift. The survivors were not chosen because of their alleles, so it is not natural selection."
+   "explanation": "Correct: (D) A population bottleneck, which is a type of genetic drift. A bottleneck is a sharp reduction in population size caused by a chance event such as a natural disaster. The few survivors are a random sample of the original population, so their allele frequencies differ from the original by chance alone. Because the change is random rather than driven by differences in fitness, it is a form of genetic drift, which has strong effects in small populations.\n\n(A) is wrong because a disaster kills individuals largely at random, so survival is not due to having better-adapted alleles; that would be natural selection.\n(B) is wrong because gene flow requires individuals or gametes moving between populations, and the stem describes no migration, only a loss of individuals.\n(C) is wrong because sexual selection depends on mate choice or competition for mates, which plays no role in surviving a natural disaster."
   },
   {
    "id": "be1-10",
@@ -133,7 +133,7 @@ const EXAM = {
     "A DNA sequence that binds activator proteins and increases transcription"
    ],
    "correct": 3,
-   "explanation": "Enhancers are DNA regulatory sequences. When transcription factors (activators) bind to them, they promote the assembly of the transcription machinery at the promoter, increasing the rate of transcription of the associated gene."
+   "explanation": "Correct: (D) A DNA sequence that binds activator proteins and increases transcription. An enhancer is a distal control element: a DNA sequence, often far from the promoter, that binds activator proteins (specific transcription factors). DNA bending brings the bound activators into contact with the general transcription factors and mediator proteins at the promoter, which helps RNA polymerase II assemble and raises the rate of transcription. Enhancers act at the level of transcription.\n\n(A) is wrong because an RNA that binds mRNA and destroys it describes a microRNA or siRNA, which regulates after transcription, not an enhancer.\n(B) is wrong because the site where the ribosome attaches is on the mRNA (near the 5′ cap in eukaryotes); enhancers are DNA sequences that affect transcription.\n(C) is wrong because the 5′ cap is added by capping enzymes during RNA processing; an enhancer is a DNA sequence, not an enzyme."
   },
   {
    "id": "be1-11",
@@ -146,7 +146,7 @@ const EXAM = {
     "0.09"
    ],
    "correct": 1,
-   "explanation": "The population has 400 alleles. The number of a alleles is 84 (from Aa) + 2(18) (from aa) = 120. The frequency is 120/400 = 0.30."
+   "explanation": "Correct: (B) 0.30. Count alleles directly. 200 diploid individuals carry 2 × 200 = 400 alleles. Each Aa individual carries one a allele and each aa individual carries two, so the number of a alleles is 84 + 2(18) = 84 + 36 = 120. The frequency of a is q = 120/400 = 0.30, and p = 280/400 = 0.70. Counting is required here; do not assume Hardy–Weinberg.\n\n(A) is wrong because 0.42 is 84/200, the frequency of heterozygous individuals, which is a genotype frequency rather than the a allele frequency.\n(C) is wrong because 0.21 is 84/400, which counts the a alleles in heterozygotes but leaves out the 36 a alleles carried by the aa individuals.\n(D) is wrong because 0.09 is 18/200, the frequency of aa individuals (q²), not the allele frequency q; √0.09 = 0.30 is the allele frequency."
   },
   {
    "id": "be1-12",
@@ -160,7 +160,7 @@ const EXAM = {
     "Solution D"
    ],
    "correct": 0,
-   "explanation": "Iodine turns blue-black in the presence of starch. Only solution C gave this result."
+   "explanation": "Correct: (A) Solution C. Iodine (iodine–potassium iodide) changes from amber to blue-black when it fits inside the helical coils of amylose in starch. In the table, only Solution C turned iodine blue-black; A, B, and D left it amber. Solution C also gave negative Benedict's (blue) and biuret (blue) results, consistent with a solution of starch alone.\n\n(B) is wrong because Solution A left iodine amber (negative for starch); its purple biuret result indicates protein, not starch.\n(C) is wrong because Solution B left iodine amber; its orange-red Benedict's result indicates a reducing sugar such as glucose, not starch.\n(D) is wrong because Solution D was negative for all three tests (Benedict's blue, biuret blue, iodine amber), so it contains no starch."
   },
   {
    "id": "be1-13",
@@ -174,7 +174,7 @@ const EXAM = {
     "Solution D"
    ],
    "correct": 0,
-   "explanation": "The biuret reagent turns purple when it reacts with peptide bonds, so a positive result indicates protein. Only solution A turned purple."
+   "explanation": "Correct: (A) Solution A. Biuret reagent contains Cu²⁺ ions, which form a purple complex with peptide bonds; a positive biuret test therefore indicates protein. In the table, only Solution A turned biuret purple, while B, C, and D left it blue. Solution A was negative for both reducing sugar (Benedict's blue) and starch (iodine amber).\n\n(B) is wrong because Solution B left biuret blue (no peptide bonds); its orange-red Benedict's result shows a reducing sugar instead.\n(C) is wrong because Solution C left biuret blue; its blue-black iodine result shows starch, which has no peptide bonds.\n(D) is wrong because Solution D was negative for every test, including biuret (blue), so there is no evidence that it contains protein."
   },
   {
    "id": "be1-14",
@@ -187,7 +187,7 @@ const EXAM = {
     "A frameshift mutation that changes the amino acids after the insertion"
    ],
    "correct": 3,
-   "explanation": "The ribosome reads mRNA in groups of three nucleotides. Inserting one nucleotide shifts the reading frame for every codon that follows, changing all of the downstream amino acids and often introducing a premature stop codon."
+   "explanation": "Correct: (D) A frameshift mutation that changes the amino acids after the insertion. The ribosome reads mRNA in non-overlapping triplets starting from the start codon. Inserting a single nucleotide (a number not divisible by 3) shifts the reading frame for every codon downstream of the insertion, so all later amino acids change and a premature stop codon usually appears. This frameshift typically produces a truncated, nonfunctional protein, while codons upstream of the insertion are unaffected.\n\n(A) is wrong because a silent mutation is a base substitution that produces a synonymous codon; an insertion shifts every downstream codon and is not silent.\n(B) is wrong because a missense mutation is a single base substitution that changes one codon; an insertion changes the reading frame of all codons after it.\n(C) is wrong because the mutation adds one nucleotide; it does not delete anything, let alone remove the entire gene from the chromosome."
   },
   {
    "id": "be1-15",
@@ -200,7 +200,7 @@ const EXAM = {
     "12 μm⁻¹"
    ],
    "correct": 1,
-   "explanation": "The surface area is 6 × (2 μm)² = 24 μm², and the volume is (2 μm)³ = 8 μm³. The ratio is 24/8 = 3.0 μm⁻¹. As cells grow larger, this ratio decreases, which limits how efficiently materials can be exchanged."
+   "explanation": "Correct: (B) 3.0 μm⁻¹. For a cube with side s = 2 μm, surface area = 6s² = 6(2 μm)² = 24 μm², and volume = s³ = (2 μm)³ = 8 μm³. SA/V = 24 μm² ÷ 8 μm³ = 3.0 μm⁻¹ (for any cube, SA/V = 6/s = 6/2). As a cell grows, volume rises faster than surface area, so this ratio falls and limits exchange across the membrane.\n\n(A) is wrong because 1.5 μm⁻¹ results from using 6s = 12 μm for the surface area instead of 6s² = 24 μm², then dividing by 8 μm³.\n(C) is wrong because 6.0 results from dividing the surface area by the area of one face (24 ÷ 4) instead of by the volume of 8 μm³.\n(D) is wrong because 12 results from dividing the surface area by the side length (24 ÷ 2) instead of by the volume, or from using 6 × 2 = 12."
   },
   {
    "id": "be1-16",
@@ -213,7 +213,7 @@ const EXAM = {
     "4"
    ],
    "correct": 1,
-   "explanation": "In 24 hours there are 24/6 = 4 doublings, so the population is 2⁴ = 16 cells."
+   "explanation": "Correct: (B) 16. Binary fission doubles the population each generation, so N = N₀ × 2<sup>n</sup>, where n is the number of generations. With a doubling time of 6 hours, 24 hours contains n = 24 ÷ 6 = 4 doublings. Starting from one cell, N = 1 × 2⁴ = 16 cells (1 → 2 → 4 → 8 → 16).\n\n(A) is wrong because 24 is the number of hours, not the number of cells; growth depends on the number of doublings, not on time directly.\n(C) is wrong because 8 cells is 2³, which counts only three doublings; 24 hours at a 6-hour doubling time contains four doublings.\n(D) is wrong because 4 is the number of doublings (24 ÷ 6); the number of cells is 2 raised to that power, 2⁴ = 16."
   },
   {
    "id": "be1-17",
@@ -226,7 +226,7 @@ const EXAM = {
     "16"
    ],
    "correct": 1,
-   "explanation": "Meiosis produces haploid cells, each with half the number of chromosomes of the parent cell: 8/2 = 4 chromosomes."
+   "explanation": "Correct: (B) 4. Meiosis reduces the chromosome number by half: a diploid cell (2n) produces four haploid (n) cells. Homologous chromosomes separate in meiosis I, and sister chromatids separate in meiosis II, which does not halve the number again. With 2n = 8, each cell at the end of meiosis has n = 8 ÷ 2 = 4 chromosomes, one from each homologous pair.\n\n(A) is wrong because 2 halves the chromosome number twice, once for each division; meiosis II separates sister chromatids and does not halve the number again.\n(C) is wrong because 8 is the diploid number, which is kept by mitosis, not meiosis; meiosis produces haploid cells with 4 chromosomes.\n(D) is wrong because 16 doubles the diploid number, perhaps confusing it with the 16 chromatids after S phase; meiosis reduces chromosome number rather than increasing it."
   },
   {
    "id": "be1-18",
@@ -239,7 +239,7 @@ const EXAM = {
     "The p53 protein repairs DNA by replacing damaged bases, so its absence prevents all DNA replication."
    ],
    "correct": 0,
-   "explanation": "p53 is a tumor suppressor. It activates repair, cell cycle arrest, or apoptosis when DNA is damaged. Without it, damaged cells can continue dividing and accumulate more mutations."
+   "explanation": "Correct: (A) The p53 protein normally halts the cell cycle or triggers apoptosis after DNA damage, so damaged cells keep dividing. p53 is a tumor suppressor protein, a transcription factor that is activated by DNA damage. It turns on genes such as p21 that halt the cell cycle at the G<sub>1</sub> checkpoint so the damage can be repaired, and it triggers apoptosis if the damage cannot be fixed. Without functional p53, cells with damaged DNA keep dividing and accumulate further mutations that can lead to cancer.\n\n(B) is wrong because p53 slows the cycle rather than speeding it up, and losing it makes cells divide more, not stop dividing.\n(C) is wrong because p53 is not a growth factor; losing a tumor suppressor allows tumors to grow, which is the opposite of slowing them.\n(D) is wrong because p53 is a transcription factor that signals repair, not a base-replacing repair enzyme, and its loss does not stop DNA replication."
   },
   {
    "id": "be1-19",
@@ -252,7 +252,7 @@ const EXAM = {
     "Golgi apparatus"
    ],
    "correct": 3,
-   "explanation": "The Golgi apparatus receives proteins from the rough ER, modifies them (for example, by adding carbohydrate groups), and packages them into vesicles for secretion or delivery to other organelles. Lysosomes digest materials, and mitochondria produce ATP."
+   "explanation": "Correct: (D) Golgi apparatus. Proteins made by ribosomes on the rough ER travel in vesicles to the cis face of the Golgi apparatus. In the Golgi they are modified (for example, by trimming and adding carbohydrate groups), sorted by molecular tags, and packaged at the trans face into vesicles bound for the plasma membrane (secretion), lysosomes, or other destinations. This modifying, sorting, and packaging role is the Golgi's main function.\n\n(A) is wrong because the smooth ER makes lipids and steroids, detoxifies drugs, and stores Ca²⁺; it does not sort and package proteins for secretion.\n(B) is wrong because lysosomes contain hydrolytic enzymes that digest macromolecules and worn-out organelles; they receive proteins from the Golgi rather than package them.\n(C) is wrong because mitochondria carry out cellular respiration to make ATP; they have no role in modifying or packaging proteins for secretion."
   },
   {
    "id": "be1-20",
@@ -265,7 +265,7 @@ const EXAM = {
     "10 times"
    ],
    "correct": 2,
-   "explanation": "The pH scale is logarithmic. A difference of 2 pH units is a difference of 10² = 100 in [H⁺], and the lower pH has the higher [H⁺]. The solution with pH 5 has 100 times as much H⁺."
+   "explanation": "Correct: (C) 100 times. pH = −log[H⁺], so each pH unit is a tenfold change in hydrogen ion concentration. At pH 5, [H⁺] = 10⁻⁵ M; at pH 7, [H⁺] = 10⁻⁷ M. The ratio is 10⁻⁵ ÷ 10⁻⁷ = 10² = 100. The lower pH has the higher [H⁺], so the pH 5 solution has 100 times as many hydrogen ions per liter.\n\n(A) is wrong because 10,000 is 10⁴, which would correspond to a 4-unit pH difference; pH 5 and pH 7 differ by only 2 units.\n(B) is wrong because 1000 is 10³, a 3-unit pH difference; the solutions differ by 2 pH units, so the factor is 10² = 100.\n(D) is wrong because 10 is the factor for a single pH unit; a 2-unit difference multiplies by ten twice, giving 10 × 10 = 100."
   },
   {
    "id": "be1-21",
@@ -279,7 +279,7 @@ const EXAM = {
     "Birds with shallow beaks moved to other islands, and their departure caused the remaining beaks to deepen."
    ],
    "correct": 2,
-   "explanation": "Natural selection acts on existing variation: during the drought, birds with deeper beaks had a survival and reproductive advantage because they could eat the available large seeds. If beak depth is heritable, the next generation has a higher mean beak depth. Individuals do not change their genes to meet a need."
+   "explanation": "Correct: (C) Birds with deeper beaks cracked large seeds, survived, and reproduced more, so alleles for deeper beaks became more common. Natural selection acts on heritable variation that already exists. Before the drought some finches had deeper beaks; when only large, hard seeds remained, those birds could crack them, so they survived and reproduced more. Their offspring inherited the alleles for deeper beaks, raising the mean from about 9.2 mm to 9.7 mm. The ±2 SE error bars (about ±0.1 mm) do not overlap, so the 0.5 mm change is likely real.\n\n(A) is wrong because beak depth changes acquired by individuals during their lives are not inherited; evolution changes the population, not individual birds' genes.\n(B) is wrong because mutations arise randomly and not in response to need; selection acted on variation in beak depth that already existed before the drought.\n(D) is wrong because the stem describes no migration; the data show a shift caused by differential survival on the island, not by birds leaving."
   },
   {
    "id": "be1-22",
@@ -293,7 +293,7 @@ const EXAM = {
     "The offspring of the surviving birds also have deeper beaks, even when raised in a different environment."
    ],
    "correct": 3,
-   "explanation": "If the trait is heritable, the deeper beaks should appear in offspring regardless of the environment in which they are raised. This would show that the change reflects a shift in the population's genes, not just an individual response to conditions."
+   "explanation": "Correct: (D) The offspring of the surviving birds also have deeper beaks, even when raised in a different environment. To show a change in allele frequencies, the trait must be shown to be heritable rather than a direct effect of diet or conditions. If offspring of the survivors have deeper beaks even when raised in a different environment (a common-garden comparison), the difference is passed on genetically. That rules out an environmental effect on development and supports evolution by natural selection.\n\n(A) is wrong because what the survivors eat describes their behavior but says nothing about whether deeper beaks are inherited by their offspring.\n(B) is wrong because measuring beak depth in the drought's first year gives no information about inheritance; it cannot separate genetic and environmental causes.\n(C) is wrong because a drop in body mass is an environmental response to food shortage and gives no evidence that beak-depth alleles changed in frequency."
   },
   {
    "id": "be1-23",
@@ -307,7 +307,7 @@ const EXAM = {
     "A soil fungus that lives at 20 °C"
    ],
    "correct": 0,
-   "explanation": "Enzyme Y has its optimum near 75 °C, so it is adapted to function at high temperatures. This is characteristic of organisms that live in hot environments, such as bacteria in hot springs. Enzyme X, with an optimum at 37 °C, is consistent with a human enzyme."
+   "explanation": "Correct: (A) A bacterium that lives in a hot spring. An enzyme works best at the temperature its organism normally experiences, because its folded shape is stabilized for that environment. The graph shows enzyme Y peaking near 75 °C and losing activity sharply above it, with almost no activity below about 40 °C. Such a heat-stable (thermophilic) enzyme fits a bacterium from a hot spring, while enzyme X, peaking near 37 °C, fits a human.\n\n(B) is wrong because human body temperature is about 37 °C, which matches the peak of enzyme X, not enzyme Y at 75 °C.\n(C) is wrong because an Arctic fish lives near 0 °C, where the graph shows enzyme Y has essentially no activity.\n(D) is wrong because at 20 °C enzyme Y is almost completely inactive on the graph, so a fungus living at 20 °C would not rely on it."
   },
   {
    "id": "be1-24",
@@ -321,7 +321,7 @@ const EXAM = {
     "The enzyme is converted into the product when the temperature exceeds its optimum."
    ],
    "correct": 1,
-   "explanation": "Heat disrupts the hydrogen bonds and other weak interactions that maintain the enzyme's tertiary structure, so the active site loses its shape and the enzyme is denatured. Peptide bonds are covalent and are not broken at these temperatures."
+   "explanation": "Correct: (B) The high temperature disrupts the enzyme's three-dimensional shape and changes its active site. An enzyme's active site depends on its tertiary structure, which is held by weak interactions such as hydrogen bonds, ionic bonds, and hydrophobic interactions. Above its optimum (37 °C for enzyme X), the extra thermal energy breaks these weak bonds, so the protein unfolds (denatures), the active site loses its shape, and substrate no longer binds well. That causes the steep drop on the graph.\n\n(A) is wrong because substrate supply does not depend on temperature in this experiment; the rate falls because the enzyme is denatured, not because substrate runs out.\n(C) is wrong because peptide bonds are strong covalent bonds that are not broken at these modest temperatures; denaturation disrupts weaker interactions, leaving the primary structure intact.\n(D) is wrong because enzymes are catalysts and are not converted into product at any temperature; they are unchanged by the reactions they speed up."
   },
   {
    "id": "be1-25",
@@ -334,7 +334,7 @@ const EXAM = {
     "All of their daughters will be carriers, and none of their sons will be color blind."
    ],
    "correct": 3,
-   "explanation": "The father passes his X (with the recessive allele) to all of his daughters and his Y to all of his sons. The mother passes a normal X to every child. The daughters are therefore heterozygous carriers, and the sons receive a normal X from their mother and are not color blind."
+   "explanation": "Correct: (D) All of their daughters will be carriers, and none of their sons will be color blind. Let X<sup>c</sup> be the color-blind allele. The father is X<sup>c</sup>Y and the mother is X<sup>C</sup>X<sup>C</sup>. Daughters receive the father's X<sup>c</sup> and a mother's X<sup>C</sup>, so all are X<sup>C</sup>X<sup>c</sup>: carriers with normal vision. Sons receive the father's Y and a mother's X<sup>C</sup>, so all are X<sup>C</sup>Y with normal vision. A father never passes his X chromosome to his sons.\n\n(A) is wrong because sons get their X from the mother, who has only normal alleles, so no son is color blind, and every daughter receives the father's recessive X.\n(B) is wrong because no child can be color blind, because every child receives a normal X from the homozygous normal mother.\n(C) is wrong because the mother contributes a dominant normal allele to every child, so none of the children can be color blind."
   },
   {
    "id": "be1-26",
@@ -347,7 +347,7 @@ const EXAM = {
     "0.38"
    ],
    "correct": 1,
-   "explanation": "The proportions are 0.50, 0.30, and 0.20. Σ(n/N)² = 0.25 + 0.09 + 0.04 = 0.38, so D = 1 − 0.38 = 0.62. A higher value indicates greater diversity."
+   "explanation": "Correct: (B) 0.62. Total N = 50 + 30 + 20 = 100. The proportions are 50/100 = 0.50, 30/100 = 0.30, and 20/100 = 0.20. Square and sum: 0.50² + 0.30² + 0.20² = 0.25 + 0.09 + 0.04 = 0.38. Then D = 1 − 0.38 = 0.62. Higher values (closer to 1) mean greater diversity, because two randomly chosen individuals are more likely to belong to different species.\n\n(A) is wrong because 1.38 results from adding the sum to 1 (1 + 0.38) instead of subtracting it; Simpson's index cannot exceed 1.\n(C) is wrong because 0.50 is just the proportion of species 1 (50/100), not the diversity index calculated from all three species.\n(D) is wrong because 0.38 is Σ(n/N)², the probability that two individuals are the same species; it must be subtracted from 1 to give D."
   },
   {
    "id": "be1-27",
@@ -361,7 +361,7 @@ const EXAM = {
     "Photosynthesis requires more time when more light is present."
    ],
    "correct": 0,
-   "explanation": "A shorter time for the disks to float means that oxygen was produced faster, so the rate of photosynthesis was greater. The rate increased as the light intensity increased. With no light, no oxygen accumulated."
+   "explanation": "Correct: (A) As the light intensity increases, the rate of photosynthesis increases. In the assay, a shorter time for disks to float means oxygen accumulated faster, so the rate of photosynthesis was higher. The time drops from 18 min at 100 lux to 9 min at 400 lux to 5 min at 800 lux, and no disks float at 0 lux. Rate is roughly proportional to 1/time, so the rate of photosynthesis rises as light intensity increases.\n\n(B) is wrong because the assay measures net oxygen production by photosynthesis; it gives no measurement of the rate of cellular respiration.\n(C) is wrong because the time to float drops from 18 min to 5 min as light increases, and no disks float in the dark, so light clearly matters.\n(D) is wrong because more light shortened the time to float (18 min to 5 min), meaning photosynthesis was faster, not slower."
   },
   {
    "id": "be1-28",
@@ -375,7 +375,7 @@ const EXAM = {
     "Without light, the density of the leaf tissue increases."
    ],
    "correct": 2,
-   "explanation": "The disks float because oxygen from the light-dependent reactions collects in the air spaces of the leaf. With no light, no oxygen is produced from photosynthesis, so the disks stay dense and remain sunk."
+   "explanation": "Correct: (C) Without light, the light-dependent reactions could not produce oxygen. The disks rise only when O₂ produced by photosynthesis collects in the air spaces of the leaf tissue and makes the disks buoyant. That O₂ comes from photolysis of water in the light-dependent reactions, which require light energy absorbed by chlorophyll. At 0 lux no O₂ is produced; the leaf cells' respiration actually consumes O₂, so the disks stay sunk.\n\n(A) is wrong because cellular respiration does not require light and continues in the dark; it consumes oxygen rather than producing the gas that floats the disks.\n(B) is wrong because bicarbonate supplies CO₂ for the Calvin cycle and does not need light to enter the cells; the missing factor is light-driven oxygen production.\n(D) is wrong because the density of the leaf tissue itself does not change with light; the disks stay sunk because no oxygen gas accumulates."
   },
   {
    "id": "be1-29",
@@ -388,7 +388,7 @@ const EXAM = {
     "It adds nucleotides to either end, depending on the gene."
    ],
    "correct": 0,
-   "explanation": "Nucleic acids are always synthesized in the 5′ → 3′ direction, with new nucleotides added to the 3′ end. Because the strands are antiparallel, the polymerase must read the template strand in the 3′ → 5′ direction."
+   "explanation": "Correct: (A) It adds nucleotides to the 3′ end of the growing mRNA, reading the template DNA strand 3′ to 5′. Like DNA polymerase, RNA polymerase can add nucleotides only to the free 3′-OH of the growing strand, so mRNA is built 5′ → 3′. Because the template and the new RNA are antiparallel, the polymerase moves along the template DNA strand in the 3′ → 5′ direction. The mRNA therefore matches the coding (nontemplate) strand, with U in place of T.\n\n(B) is wrong because nucleotides cannot be added to the 5′ end; the incoming nucleotide's phosphate bonds to the 3′-OH, so growth is always at the 3′ end.\n(C) is wrong because reading the template 5′ → 3′ while adding to the 3′ end is impossible; antiparallel pairing requires the template to be read 3′ → 5′.\n(D) is wrong because the direction of synthesis is fixed by the chemistry of nucleotide addition and is always 5′ → 3′ for every gene."
   },
   {
    "id": "be1-30",
@@ -401,7 +401,7 @@ const EXAM = {
     "36"
    ],
    "correct": 1,
-   "explanation": "Glycolysis uses 2 ATP in the energy-investment phase and produces 4 ATP in the payoff phase, for a net gain of 2 ATP per glucose."
+   "explanation": "Correct: (B) 2. Glycolysis has two phases. In the energy-investment phase, 2 ATP are used to phosphorylate glucose and fructose-6-phosphate. In the payoff phase, each of the two G3P molecules yields 2 ATP by substrate-level phosphorylation, so 4 ATP are made. Net gain = 4 − 2 = 2 ATP per glucose, along with 2 NADH and 2 pyruvate.\n\n(A) is wrong because the payoff phase makes 4 ATP, which is more than the 2 ATP invested, so glycolysis has a net gain, not zero.\n(C) is wrong because 4 ATP is the gross yield of the payoff phase; the 2 ATP spent in the investment phase must be subtracted for the net gain.\n(D) is wrong because about 36 ATP is the approximate total yield of complete aerobic respiration, mostly from oxidative phosphorylation, not glycolysis alone."
   },
   {
    "id": "be1-31",
@@ -414,7 +414,7 @@ const EXAM = {
     "3.84"
    ],
    "correct": 2,
-   "explanation": "χ² = (84 − 90)²/90 + (36 − 30)²/30 = 36/90 + 36/30 = 0.40 + 1.20 = 1.60. With 1 degree of freedom the critical value at p = 0.05 is 3.84, so the null hypothesis is not rejected."
+   "explanation": "Correct: (C) 1.60. Expected values are 90 dominant and 30 recessive. For dominant: (84 − 90)²/90 = 36/90 = 0.40. For recessive: (36 − 30)²/30 = 36/30 = 1.20. χ² = 0.40 + 1.20 = 1.60. With 2 classes there is 1 degree of freedom, and the critical value at p = 0.05 is 3.84; because 1.60 is less than 3.84, the student fails to reject the 3:1 hypothesis.\n\n(A) is wrong because 0.40 is only the dominant-class term, 36/90; the recessive-class term of 1.20 must also be added to get χ².\n(B) is wrong because 1.20 is only the recessive-class term, 36/30; χ² is the sum over both classes, 0.40 + 1.20 = 1.60.\n(D) is wrong because 3.84 is the critical value from the table for 1 degree of freedom at p = 0.05, not the calculated χ² value."
   },
   {
    "id": "be1-32",
@@ -428,7 +428,7 @@ const EXAM = {
     "Lizard"
    ],
    "correct": 3,
-   "explanation": "On a cladogram, relatedness is determined by recent common ancestry. The mouse and the lizard share the most recent common ancestor (they are sister taxa), so the lizard is the closest relative of the mouse in this tree."
+   "explanation": "Correct: (D) Lizard. On a cladogram, relatedness is measured by how recently two taxa share a common ancestor, not by how close their names are or how similar they look. The last branch point splits the mouse and the lizard, making them sister taxa. They share a more recent common ancestor with each other than either shares with the frog, salmon, or lamprey. The table agrees: only these two have the amniotic egg.\n\n(A) is wrong because the frog branched off before the mouse–lizard split, so it shares a more distant common ancestor with the mouse.\n(B) is wrong because the salmon diverged even earlier, before the frog, so its common ancestor with the mouse is older than the lizard's.\n(C) is wrong because the lamprey is the first branch on the tree (the outgroup), so it is the most distantly related organism to the mouse."
   },
   {
    "id": "be1-33",
@@ -442,7 +442,7 @@ const EXAM = {
     "Jaws evolved once in the common ancestor of the lamprey and the salmon."
    ],
    "correct": 1,
-   "explanation": "The lizard and the mouse are the only organisms with the amniotic egg and they are sister taxa, so the most parsimonious explanation is that the trait evolved once in their common ancestor. Four limbs are absent in lamprey and salmon, and jaws are absent in the lamprey."
+   "explanation": "Correct: (B) The amniotic egg evolved once, in the common ancestor of the lizard and the mouse. The table shows the amniotic egg in only the lizard and the mouse, and the cladogram shows them as sister taxa. The most parsimonious explanation (fewest evolutionary changes) is that the trait arose once, in their most recent common ancestor, and was inherited by both. This places the amniotic egg as a shared derived character on the branch leading to the mouse–lizard clade.\n\n(A) is wrong because independent origins would require two separate evolutionary events, while one origin in their common ancestor explains the shared trait with fewer changes.\n(C) is wrong because the table shows four limbs are absent in the lamprey and salmon, so they arose later, in the ancestor of frog, lizard, and mouse.\n(D) is wrong because the lamprey lacks jaws in the table, so jaws evolved after the lamprey branched off, in the ancestor of salmon and the later taxa."
   },
   {
    "id": "be1-34",
@@ -455,7 +455,7 @@ const EXAM = {
     "Quaternary structure"
    ],
    "correct": 2,
-   "explanation": "Secondary structure consists of local folding patterns (α-helices and β-sheets) held by hydrogen bonds between backbone atoms. Primary structure is the amino acid sequence (peptide bonds), tertiary structure is the 3-D shape stabilized by R-group interactions, and quaternary structure is the arrangement of multiple polypeptides."
+   "explanation": "Correct: (C) Secondary structure. Secondary structure consists of local folding patterns, the α-helix and the β-pleated sheet, held together by hydrogen bonds between the C=O of one peptide group and the N–H of another along the polypeptide backbone. Because these bonds involve backbone atoms, not R groups, the same patterns form in many different proteins regardless of amino acid sequence.\n\n(A) is wrong because primary structure is the sequence of amino acids held together by covalent peptide bonds, not hydrogen-bonded helices and sheets.\n(B) is wrong because tertiary structure is the overall 3-D shape stabilized mainly by interactions among R groups (side chains), not backbone hydrogen bonds.\n(D) is wrong because quaternary structure is the association of two or more polypeptide subunits, such as the four chains of hemoglobin."
   },
   {
    "id": "be1-35",
@@ -468,7 +468,7 @@ const EXAM = {
     "Crossing over and the independent assortment of homologous chromosomes"
    ],
    "correct": 3,
-   "explanation": "Crossing over exchanges segments between homologous chromosomes, and independent assortment shuffles maternal and paternal chromosomes into gametes. Together they produce an enormous number of different gametes. DNA replication and spindle formation do not create variation."
+   "explanation": "Correct: (D) Crossing over and the independent assortment of homologous chromosomes. Two meiotic events shuffle alleles. Crossing over in prophase I swaps segments between non-sister chromatids of homologous chromosomes, creating new allele combinations on a chromosome. Independent assortment in metaphase I orients each homologous pair randomly, giving 2<sup>n</sup> combinations of maternal and paternal chromosomes (2²³ ≈ 8.4 million in humans). Together they make nearly every gamete genetically unique.\n\n(A) is wrong because DNA replication copies chromosomes accurately to make identical sister chromatids, so it does not generate new combinations of alleles.\n(B) is wrong because sister chromatids are copies of each other (apart from crossovers), so separating them in meiosis II does not itself create new combinations.\n(C) is wrong because spindle fibers attaching to kinetochores moves chromosomes but does not change which alleles go together into a gamete."
   },
   {
    "id": "be1-36",
@@ -482,7 +482,7 @@ const EXAM = {
     "Y-linked"
    ],
    "correct": 0,
-   "explanation": "Two unaffected parents had an affected daughter, so the trait must be recessive and both parents are carriers. An affected daughter of an unaffected father rules out X-linked recessive inheritance, because an affected daughter must receive a recessive X from her father."
+   "explanation": "Correct: (A) Autosomal recessive. Two unaffected parents (I-1 and I-2) have an affected daughter (II-1), so the trait skips the parents' generation and must be recessive, with both parents carriers. It cannot be X-linked recessive, because an affected daughter would need a recessive X from her father, who would then be affected too. That leaves autosomal recessive: Aa × Aa produces aa offspring 1/4 of the time.\n\n(B) is wrong because an autosomal dominant trait in a child requires at least one affected parent, but both parents here are unaffected.\n(C) is wrong because an affected daughter (X<sup>a</sup>X<sup>a</sup>) must inherit X<sup>a</sup> from her father, who would then show the trait, but I-1 is unaffected.\n(D) is wrong because Y-linked traits pass only from father to son, so an affected daughter is impossible, and the father here is unaffected anyway."
   },
   {
    "id": "be1-37",
@@ -496,7 +496,7 @@ const EXAM = {
     "1/4"
    ],
    "correct": 1,
-   "explanation": "Both parents are carriers (Aa × Aa). Among offspring who do not show the trait, the genotypes are AA (1/4) and Aa (2/4), so the probability of being a carrier is (2/4)/(3/4) = 2/3."
+   "explanation": "Correct: (B) 2/3. Both parents are carriers (Aa × Aa), giving offspring 1/4 AA, 2/4 Aa, and 1/4 aa. II-3 does not show the trait, so she cannot be aa; we condition only on the unaffected outcomes, AA and Aa, which total 3/4. The probability she is a carrier is (2/4) ÷ (3/4) = 2/3.\n\n(A) is wrong because 3/4 is the probability that any child of two carriers is unaffected (AA or Aa), not the probability of being a carrier.\n(C) is wrong because 1/2 is the chance that a child of two carriers is Aa before the phenotype is known; knowing II-3 is unaffected removes aa from consideration.\n(D) is wrong because 1/4 is the probability of an aa (affected) child, which is already ruled out because II-3 does not show the trait."
   },
   {
    "id": "be1-38",
@@ -509,7 +509,7 @@ const EXAM = {
     "A ribosome attaches to the pre-mRNA while it is still in the nucleus."
    ],
    "correct": 1,
-   "explanation": "Eukaryotic pre-mRNA is modified in the nucleus. Introns (noncoding regions) are removed and the exons are spliced together, a modified guanine cap is added to the 5′ end, and a poly-A tail is added to the 3′ end. These modifications protect the mRNA and help in its export and translation."
+   "explanation": "Correct: (B) Introns are spliced out, a 5′ cap is added, and a poly-A tail is added. In eukaryotes, pre-mRNA is processed in the nucleus before export. Spliceosomes remove the introns and join the exons; a modified guanine (7-methylguanosine) cap is added to the 5′ end; and a poly-A tail of about 50–250 adenines is added to the 3′ end. The cap and tail protect the mRNA from degradation, aid export through nuclear pores, and help ribosomes bind.\n\n(A) is wrong because this reverses splicing; introns are the noncoding regions that are removed, and exons are the coding regions joined together.\n(C) is wrong because reverse transcriptase copies RNA into DNA in retroviruses; it is not part of normal mRNA processing in eukaryotic cells.\n(D) is wrong because eukaryotic translation occurs in the cytoplasm after the processed mRNA is exported; ribosomes do not translate pre-mRNA in the nucleus."
   },
   {
    "id": "be1-39",
@@ -522,7 +522,7 @@ const EXAM = {
     "Ecological equilibrium, which stops all further change in the forest"
    ],
    "correct": 2,
-   "explanation": "Secondary succession occurs in places where a community has been disturbed but the soil remains, so recovery is relatively fast. Primary succession begins in lifeless areas without soil, such as newly formed volcanic rock."
+   "explanation": "Correct: (C) Secondary succession, which begins with soil that already has seeds. Secondary succession occurs after a disturbance such as fire, flooding, or logging removes the existing community but leaves the soil. The soil already contains nutrients, seeds, roots, and microorganisms, so pioneer plants such as grasses and shrubs return quickly, followed by trees. Recovery is much faster than primary succession, which must first build soil from bare rock.\n\n(A) is wrong because primary succession begins on bare rock or new land with no soil, but the stem states that the soil remains intact after the fire.\n(B) is wrong because a climax community is the relatively stable end point of succession, reached only after many years, not immediately after a fire.\n(D) is wrong because communities keep changing after a disturbance; ecological equilibrium does not stop change, and recovery proceeds through succession."
   },
   {
    "id": "be1-40",
@@ -535,7 +535,7 @@ const EXAM = {
     "The structures result from convergent evolution in similar environments."
    ],
    "correct": 0,
-   "explanation": "Homologous structures share a similar underlying anatomy because they are inherited from a common ancestor, even though natural selection has modified them for different functions. Analogous structures, in contrast, have similar functions but different origins."
+   "explanation": "Correct: (A) The structures are homologous, inherited with modification from a common ancestor. Homologous structures share the same basic bone arrangement (one upper-arm bone, two forearm bones, wrist bones, and digits) because they are inherited from a common ancestor. Natural selection then modified them for different functions, such as grasping, flying, and swimming. Similar structure with different function is the hallmark of homology and is evidence of common descent.\n\n(B) is wrong because analogous structures have similar functions but different evolutionary origins and different underlying structure, the opposite of what the stem describes.\n(C) is wrong because vestigial structures have lost most or all of their function, but the arm, wing, and flipper are all fully functional.\n(D) is wrong because convergent evolution produces analogous structures in unrelated lineages; these limbs share structure because of common ancestry, and their environments differ."
   },
   {
    "id": "be1-41",
@@ -548,7 +548,7 @@ const EXAM = {
     "RNA was the first molecule that could replicate itself on early Earth"
    ],
    "correct": 1,
-   "explanation": "The experiment supports the hypothesis that the building blocks of life could have formed abiotically from simple molecules in an early atmosphere with an energy source, such as lightning. It did not produce cells and used an atmosphere without free oxygen."
+   "explanation": "Correct: (B) Organic molecules can form from simple inorganic substances on early Earth. Miller and Urey passed electric sparks, simulating lightning, through a mixture of CH₄, NH₃, H₂, and H₂O vapor modeling a reducing early atmosphere. Within days, organic molecules including several amino acids formed. This showed that the building blocks of life can form abiotically from simple inorganic substances given an energy source, supporting the Oparin–Haldane hypothesis.\n\n(A) is wrong because the experiment produced organic monomers such as amino acids, not living cells; no cells formed in the apparatus.\n(C) is wrong because the gas mixture contained no free oxygen, and an O₂-rich atmosphere would have destroyed the organic molecules instead of forming them.\n(D) is wrong because the experiment made no RNA and did not test self-replication; the RNA world hypothesis is supported by other evidence, such as ribozymes."
   },
   {
    "id": "be1-42",
@@ -561,12 +561,12 @@ const EXAM = {
     "The signal is amplified, so a few ligand molecules cause a large response"
    ],
    "correct": 3,
-   "explanation": "In a phosphorylation cascade, each activated enzyme can activate many molecules of the next enzyme, so the signal is amplified at every step. This allows a very low concentration of ligand to produce a large response."
+   "explanation": "Correct: (D) The signal is amplified, so a few ligand molecules cause a large response. In a phosphorylation cascade, the activated receptor activates a protein kinase, and each kinase molecule phosphorylates and activates many molecules of the next kinase. Because each step multiplies the number of active molecules, a few ligand molecules binding at the surface produce a very large number of activated proteins at the end. This amplification lets a small signal cause a large response.\n\n(A) is wrong because the ligand binds a cell-surface receptor and stays outside the cell; the message is relayed inward by the cascade rather than by the ligand.\n(B) is wrong because gap junctions connect neighboring cells directly, but this pathway relays a signal from a surface receptor within one cell.\n(C) is wrong because the protein kinases in a phosphorylation cascade are enzymes, so enzymes are involved at every step of this pathway."
   },
   {
    "id": "be1-43",
    "unit": 5,
-   "stem": "Two genes are located on the same chromosome. In a testcross, the recombinant offspring make up 5% of the total in one cross involving genes A and B, and 30% in a cross involving genes A and C. What can be concluded?",
+   "stem": "Genes A, B, and C are being mapped in an organism. In a testcross involving genes A and B, recombinant offspring make up 5% of the total. In a testcross involving genes A and C, recombinant offspring make up 30% of the total. What can be concluded?",
    "choices": [
     "Genes A and C are closer together on the chromosome than genes A and B.",
     "Genes A and B are on different chromosomes.",
@@ -574,7 +574,7 @@ const EXAM = {
     "Genes A and C assort independently."
    ],
    "correct": 2,
-   "explanation": "Crossing over is more likely to occur between genes that are farther apart, so the recombination frequency increases with the distance between them. The lower frequency (5%) for A and B means they are closer together than A and C (30%). A frequency of 50% would indicate independent assortment."
+   "explanation": "Correct: (C) Genes A and B are closer together on the chromosome than genes A and C. Crossing over can occur anywhere along a chromosome, so the farther apart two genes are, the more often a crossover falls between them and the more recombinant offspring appear. Recombination frequency therefore estimates map distance: 5% for A and B is about 5 map units, and 30% for A and C is about 30 map units. Both are below 50%, so both pairs are linked, with A and B closer together.\n\n(A) is wrong because the higher recombination frequency (30%) for A and C means they are farther apart, not closer, than A and B (5%).\n(B) is wrong because genes on different chromosomes assort independently and give about 50% recombinants; 5% shows that A and B are tightly linked.\n(D) is wrong because independent assortment gives about 50% recombinants; 30% is well below 50%, so A and C are linked on the same chromosome."
   },
   {
    "id": "be1-44",
@@ -587,7 +587,7 @@ const EXAM = {
     "Cohesion between water molecules, caused by hydrogen bonding, creates surface tension."
    ],
    "correct": 3,
-   "explanation": "Hydrogen bonds between neighboring water molecules make them cohesive, so the molecules at the surface are pulled inward and sideways, forming a film with surface tension that can support a small insect. Water is polar, not nonpolar."
+   "explanation": "Correct: (D) Cohesion between water molecules, caused by hydrogen bonding, creates surface tension. Water molecules are polar, and each can hydrogen bond with up to four neighbors. At the surface, molecules are pulled inward and sideways by the hydrogen bonds below and beside them, with none above, so the surface behaves like a stretched elastic film. This surface tension, a result of cohesion, can support the small weight of an insect spread over its feet.\n\n(A) is wrong because water dissolves many polar and ionic substances, but insect feet do not dissolve, and dissolving would not hold an insect up.\n(B) is wrong because high specific heat lets water resist temperature change; it does not make the surface rigid or support weight.\n(C) is wrong because water molecules are polar, not nonpolar, and it is hydrogen bonding among water molecules that creates the supportive surface tension."
   },
   {
    "id": "be1-45",
@@ -600,7 +600,7 @@ const EXAM = {
     "9/16"
    ],
    "correct": 0,
-   "explanation": "For each gene, the probability of the homozygous recessive genotype from an Aa × Aa cross is 1/4. Because the genes assort independently, the probability of aabb is (1/4)(1/4) = 1/16."
+   "explanation": "Correct: (A) 1/16. Because the genes assort independently, treat each gene separately and multiply. From Aa × Aa, P(aa) = 1/4; from Bb × Bb, P(bb) = 1/4. By the product rule, P(aabb) = (1/4)(1/4) = 1/16. This matches the 9:3:3:1 dihybrid ratio, in which 1 of 16 offspring shows both recessive traits.\n\n(B) is wrong because 1/8 multiplies 1/4 by 1/2, as if one of the genes came from a testcross (Bb × bb); both parents here are heterozygous for both genes.\n(C) is wrong because 1/4 is the probability for one gene only (aa); the probability of bb must also be multiplied in.\n(D) is wrong because 9/16 is the probability of showing both dominant traits (A_B_), not of being homozygous recessive for both genes."
   },
   {
    "id": "be1-46",
@@ -613,7 +613,7 @@ const EXAM = {
     "40"
    ],
    "correct": 1,
-   "explanation": "The per capita growth rate is (births − deaths)/N = (60 − 20)/500 = 0.08 per individual per year."
+   "explanation": "Correct: (B) 0.08. The per capita growth rate is the net change in population per individual over the time interval: r = (B − D)/N. With 60 births and 20 deaths, the net increase is 60 − 20 = 40 individuals. Dividing by N = 500 gives r = 40/500 = 0.08 per individual per year, which is an 8% annual increase.\n\n(A) is wrong because 0.04 is 20/500, the per capita death rate alone, not the net growth rate (births minus deaths).\n(C) is wrong because 0.12 is 60/500, the per capita birth rate alone; deaths must be subtracted before dividing by N.\n(D) is wrong because 40 is the total net increase in individuals (60 − 20); it must be divided by the population size to give a per capita rate."
   },
   {
    "id": "be1-47",
@@ -626,7 +626,7 @@ const EXAM = {
     "Facilitated diffusion of glucose into a cell through a channel protein"
    ],
    "correct": 2,
-   "explanation": "The sodium–potassium pump moves ions against their concentration gradients, which is active transport and uses ATP. Diffusion, osmosis through aquaporins, and facilitated diffusion are all passive and move substances down their gradients."
+   "explanation": "Correct: (C) Movement of Na⁺ out of a cell and K⁺ into the cell by the sodium–potassium pump. The Na⁺/K⁺ pump hydrolyzes one ATP to move 3 Na⁺ out of the cell and 2 K⁺ into it, both against their concentration gradients. Moving a substance from low to high concentration is active transport and requires a direct energy input; the phosphate from ATP changes the pump's shape. The other choices all move substances down their gradients without ATP.\n\n(A) is wrong because small nonpolar O₂ diffuses directly through the lipid bilayer down its concentration gradient, which is passive and uses no ATP.\n(B) is wrong because water moves through aquaporins by osmosis, a form of passive transport down the water potential gradient that uses no ATP.\n(D) is wrong because facilitated diffusion moves glucose down its concentration gradient through a transport protein, so it is passive and does not use ATP."
   },
   {
    "id": "be1-48",
@@ -639,7 +639,7 @@ const EXAM = {
     "6"
    ],
    "correct": 2,
-   "explanation": "Each turn of the cycle fixes one CO₂ into a five-carbon molecule (RuBP). Three CO₂ must be fixed (three turns) to net one three-carbon G3P (3 carbons from 3 CO₂)."
+   "explanation": "Correct: (C) 3. Each turn of the Calvin cycle fixes one CO₂ onto ribulose bisphosphate (RuBP, 5 carbons) using rubisco. Three turns fix 3 CO₂ (3 carbons) and produce 6 G3P (18 carbons); 5 G3P (15 carbons) are used to regenerate 3 RuBP, leaving 1 G3P (3 carbons) as net output. One G3P therefore needs 3 CO₂, at a cost of 9 ATP and 6 NADPH.\n\n(A) is wrong because one CO₂ adds only one carbon, but G3P is a three-carbon sugar, so three CO₂ molecules must be fixed.\n(B) is wrong because two CO₂ supply only two carbons, not enough for one three-carbon G3P to leave the cycle.\n(D) is wrong because 6 CO₂ (six turns) are needed for two G3P, which together make one six-carbon glucose, not for one G3P."
   },
   {
    "id": "be1-49",
@@ -652,7 +652,7 @@ const EXAM = {
     "Triglycerides"
    ],
    "correct": 0,
-   "explanation": "Each nucleotide in DNA and RNA contains a phosphate group, so nucleic acids contain phosphorus. Proteins contain C, H, O, and N (and sometimes S). Carbohydrates and triglycerides contain only C, H, and O."
+   "explanation": "Correct: (A) Nucleic acids. Every nucleotide in DNA and RNA contains a phosphate group (PO₄³⁻), and the nucleotides are joined by phosphodiester bonds, so all nucleic acids contain phosphorus. Amino acids contain C, H, O, and N (S in cysteine and methionine), and proteins gain phosphate only when phosphorylated, while carbohydrates and triglycerides contain only C, H, and O. Phospholipids also contain phosphorus, but triglycerides do not.\n\n(B) is wrong because amino acids contain C, H, O, N, and sometimes S but no phosphorus; a protein carries phosphate only if it is phosphorylated after translation, so proteins do not always contain phosphorus.\n(C) is wrong because carbohydrates such as glucose and starch contain only carbon, hydrogen, and oxygen, typically in a 1:2:1 ratio.\n(D) is wrong because triglycerides are glycerol plus three fatty acids and contain only C, H, and O; phospholipids, not triglycerides, contain phosphate."
   },
   {
    "id": "be1-50",
@@ -665,7 +665,7 @@ const EXAM = {
     "Fermentation, in which ATP is produced in the absence of any oxygen supply"
    ],
    "correct": 1,
-   "explanation": "Energy coupling links an exergonic reaction (ATP → ADP + Pᵢ) to an endergonic reaction, so that the overall free-energy change is negative and the process can proceed. The other terms describe regulation of enzymes or ATP production."
+   "explanation": "Correct: (B) Energy coupling, in which an exergonic reaction powers an endergonic reaction. Energy coupling uses the energy released by an exergonic reaction to drive an endergonic one. ATP hydrolysis (ΔG ≈ −30.5 kJ/mol) is linked to the endergonic reaction, usually by transferring a phosphate group to a reactant. The phosphorylated intermediate is less stable, so the combined process has an overall negative ΔG and proceeds spontaneously.\n\n(A) is wrong because feedback inhibition is a way of regulating pathways in which an end product inhibits an earlier enzyme; it does not use ATP to drive reactions.\n(C) is wrong because allosteric activation regulates enzyme activity by binding at a site other than the active site; it is not how ATP energy is transferred.\n(D) is wrong because fermentation regenerates NAD⁺ so glycolysis can make ATP without oxygen; it produces ATP rather than describing how ATP powers reactions."
   },
   {
    "id": "be1-51",
@@ -678,7 +678,7 @@ const EXAM = {
     "The repressor binds more tightly to the operator and prevents transcription"
    ],
    "correct": 0,
-   "explanation": "The lac operon is an inducible operon. When lactose is present, allolactose binds to the repressor and changes its shape, so it can no longer bind to the operator. RNA polymerase can then transcribe the genes needed to metabolize lactose."
+   "explanation": "Correct: (A) Allolactose binds the repressor, which releases the operator and allows transcription. The lac operon is inducible. Without lactose, the lacI repressor binds the operator and blocks RNA polymerase. When lactose is present, some is converted to allolactose, which binds the repressor allosterically and changes its shape so it releases the operator. RNA polymerase can then transcribe lacZ, lacY, and lacA, including lacY (permease, which takes up lactose) and lacZ (β-galactosidase, which breaks it down).\n\n(B) is wrong because lactose does not bind the promoter; its isomer allolactose binds the repressor, which removes the block to transcription.\n(C) is wrong because lactose does not interact directly with RNA polymerase; its effect works through the repressor (and, separately, the CAP–cAMP activator).\n(D) is wrong because the repressor binds tightly to the operator when lactose is absent; allolactose removes it, so lactose turns transcription on, not off."
   },
   {
    "id": "be1-52",
@@ -692,7 +692,7 @@ const EXAM = {
     "Most of the energy at each level is lost as heat or is not assimilated by the next level"
    ],
    "correct": 3,
-   "explanation": "At each transfer, most of the energy is used for the organism's own metabolism and is released as heat, and some biomass is not eaten or digested. Only about 10% of the energy is typically available to the next level. Energy flows through ecosystems and is not recycled."
+   "explanation": "Correct: (D) Most of the energy at each level is lost as heat or is not assimilated by the next level. Energy transfer between trophic levels is inefficient, usually about 10%, as the pyramid shows: 10,000 → 1,000 → 100 kJ. At each level most energy is used for the organisms' own cellular respiration and is lost as heat, and some biomass is never eaten, digested, or assimilated and passes to decomposers. Only the energy stored in new biomass is available to the next level.\n\n(A) is wrong because only producers capture sunlight; consumers get energy by eating other organisms, so sunlight capture does not explain the loss at each step.\n(B) is wrong because energy is not converted into matter in ecosystems; it is lost mainly as heat released during cellular respiration.\n(C) is wrong because energy is not recycled; it flows one way and leaves as heat, while nutrients (matter) are what decomposers recycle."
   },
   {
    "id": "be1-53",
@@ -706,7 +706,7 @@ const EXAM = {
     "1 kJ"
    ],
    "correct": 2,
-   "explanation": "Energy decreases by a factor of 10 at each level (10,000 → 1,000 → 100). The next level would have 100/10 = 10 kJ."
+   "explanation": "Correct: (C) 10 kJ. The pyramid shows energy falling by a factor of 10 at each step: 10,000 kJ (producers) → 1,000 kJ (primary consumers) → 100 kJ (secondary consumers), about 10% transfer efficiency. Tertiary consumers are the next level, so they would receive about 10% of 100 kJ: 0.10 × 100 kJ = 10 kJ.\n\n(A) is wrong because 1000 kJ is the energy at the primary consumer level, two levels below the tertiary consumers, not the predicted next value.\n(B) is wrong because 100 kJ is the energy at the secondary consumer level; only about 10% of it passes to the tertiary consumers.\n(D) is wrong because 1 kJ would be two more 10-fold drops below 100 kJ, the level after the tertiary consumers (quaternary consumers)."
   },
   {
    "id": "be1-54",
@@ -719,7 +719,7 @@ const EXAM = {
     "The damaged DNA is passed to both daughter cells without any change in the cell cycle."
    ],
    "correct": 2,
-   "explanation": "Checkpoints monitor the integrity of the cell and delay progress until problems are fixed. Proteins such as p53 halt the cycle for repair, and if the damage is too severe, they can trigger apoptosis to prevent the propagation of mutations."
+   "explanation": "Correct: (C) The cycle is halted for repair, or the cell undergoes apoptosis if repair fails. The G<sub>1</sub> checkpoint checks DNA integrity before the cell commits to replication. When damage is detected, p53 is activated and induces proteins such as p21 that inhibit Cdk–cyclin complexes, halting the cycle so the DNA can be repaired. If the damage is too severe to repair, p53 triggers apoptosis, preventing the mutation from being passed to daughter cells.\n\n(A) is wrong because the checkpoint exists to stop damaged DNA from being copied; entering S phase would replicate the damage and fix the mutations in place.\n(B) is wrong because the immediate response is a pause for repair; at G<sub>1</sub> the cell has not reached mitosis to skip it, and permanent G<sub>0</sub> is not automatic.\n(D) is wrong because a working checkpoint does change the cycle by halting it; passing damage on unchanged is what happens when checkpoints fail, as in cancer."
   },
   {
    "id": "be1-55",
@@ -732,7 +732,7 @@ const EXAM = {
     "A population of birds slowly changes in beak size over time without splitting."
    ],
    "correct": 1,
-   "explanation": "Allopatric speciation occurs when a geographic barrier separates a population into two groups. Gene flow stops, and independent mutation, selection, and drift lead to divergence until the groups can no longer interbreed. The doubling of chromosome number is an example of sympatric speciation."
+   "explanation": "Correct: (B) A river changes course and splits a population of squirrels, and over many generations the two groups become reproductively isolated. Allopatric speciation (\"other homeland\") begins when a geographic barrier physically separates a population. Once the river splits the squirrels, gene flow between the two groups stops. Over many generations, different mutations, natural selection, and genetic drift act independently in each group, so they diverge until they are reproductively isolated and cannot interbreed even if they meet again.\n\n(A) is wrong because a polyploid population arises within the parent population's range with no geographic barrier, which is sympatric speciation, not allopatric.\n(C) is wrong because producing fertile hybrids shows that the two groups are not reproductively isolated, so this is not speciation at all.\n(D) is wrong because gradual change in one unsplit population is anagenesis (evolution within a lineage) and produces no new species by geographic separation."
   },
   {
    "id": "be1-56",
@@ -746,7 +746,7 @@ const EXAM = {
     "Hares are consumers of lynx, so the hare population controls the lynx population."
    ],
    "correct": 2,
-   "explanation": "The abundant prey (hares) support more lynx reproduction and survival, but it takes time for the predator population to respond, so its peak lags behind the prey peak. Then the high number of lynx reduces the hare population."
+   "explanation": "Correct: (C) An increase in the hare population provides more food, so the lynx population grows after a delay. The graph shows lynx peaks (about 110,000) occurring roughly 1–2 years after each hare peak (about 160,000). Lynx depend on hares for food, so when hares are abundant, more lynx survive and reproduce, but the predator population needs time, about one breeding cycle, to grow. As lynx numbers rise they eat more hares, the hare population falls, and then the lynx population declines.\n\n(A) is wrong because the graph shows hare peaks coming first, and predators reduce prey rather than causing prey numbers to rise.\n(B) is wrong because lynx are predators of hares, not competitors, and the curves rise and fall in a linked, repeating pattern rather than independently.\n(D) is wrong because this reverses the relationship; the stem states that lynx are the predators of hares, not the other way around."
   },
   {
    "id": "be1-57",
@@ -760,7 +760,7 @@ const EXAM = {
     "Negative feedback between predator and prey populations"
    ],
    "correct": 3,
-   "explanation": "As the hare population rises, the lynx population rises and then reduces the hares, which in turn reduces the lynx. Each population's growth causes a change that opposes it, which is the essence of negative feedback and produces oscillations."
+   "explanation": "Correct: (D) Negative feedback between predator and prey populations. Negative feedback occurs when a change triggers a response that opposes it. As hares increase, lynx increase; more lynx eat more hares, so hares decline; fewer hares then cause lynx to decline, letting hares recover. Each population's growth sets up its own reversal, producing the repeating cycles of about 10 years in the graph rather than unlimited growth.\n\n(A) is wrong because exponential growth with no limits would give a J-shaped curve that keeps rising, not regular oscillations up and down.\n(B) is wrong because primary succession is the gradual change in species composition on newly formed land, not cycles in two populations.\n(C) is wrong because positive feedback would amplify change in one direction indefinitely, but both populations repeatedly rise and then fall."
   },
   {
    "id": "be1-58",
@@ -773,7 +773,7 @@ const EXAM = {
     "The cytosol"
    ],
    "correct": 0,
-   "explanation": "The light-dependent reactions occur in the thylakoid membranes, where chlorophyll and the electron transport chain are located. The Calvin cycle takes place in the stroma."
+   "explanation": "Correct: (A) The thylakoid membranes of the chloroplast. The light-dependent reactions take place in the thylakoid membranes of the chloroplast, where photosystems I and II, the electron transport chain, and ATP synthase are embedded. Light energy splits water, releasing O₂, and drives the production of ATP and NADPH. Protons are pumped into the thylakoid lumen, and ATP is made as they flow back to the stroma.\n\n(B) is wrong because the stroma is where the Calvin cycle (light-independent reactions) uses ATP and NADPH to fix CO₂, not where light is captured.\n(C) is wrong because the inner mitochondrial membrane holds the electron transport chain of cellular respiration, not the photosystems of photosynthesis.\n(D) is wrong because glycolysis occurs in the cytosol, but photosynthesis takes place inside chloroplasts and has no light reactions in the cytosol."
   },
   {
    "id": "be1-59",
@@ -787,7 +787,7 @@ const EXAM = {
     "6,000 bp"
    ],
    "correct": 2,
-   "explanation": "The digested lane shows two fragments, at about 2000 bp and 1000 bp. The fragments from a circular plasmid with one cut for each of the two sites add up to the size of the plasmid: 2000 + 1000 = 3000 bp."
+   "explanation": "Correct: (C) 3,000 bp. A restriction enzyme that cuts a circular plasmid at n sites produces n fragments, and because nothing is lost from a circle, the fragment sizes add up to the plasmid size. The digested lane shows two bands aligned with the 2000 bp and 1000 bp ladder bands, so the plasmid is 2000 + 1000 = 3000 bp. The uncut circular plasmid does not run at its true size, so its band (near 4000 bp) cannot be used.\n\n(A) is wrong because 1,000 bp is only the smaller fragment; the plasmid includes both fragments, so its size is their sum.\n(B) is wrong because 2,000 bp is only the larger fragment; the 1,000 bp fragment is also part of the circular plasmid.\n(D) is wrong because 6,000 bp doubles the correct total; cutting a circle at two sites gives two fragments whose sizes sum once to the plasmid size."
   },
   {
    "id": "be1-60",
@@ -801,7 +801,7 @@ const EXAM = {
     "Smaller fragments are denatured by the electric current."
    ],
    "correct": 1,
-   "explanation": "DNA is negatively charged and migrates toward the positive electrode. The charge-to-mass ratio is the same for all fragment sizes, so the separation depends on how easily the fragments move through the gel: smaller fragments weave through the pores faster and travel farther."
+   "explanation": "Correct: (B) Smaller fragments move more easily through the pores of the gel matrix. DNA is negatively charged because of its phosphate backbone and moves toward the positive electrode (+). Each nucleotide adds roughly the same charge and mass, so all fragments have about the same charge-to-mass ratio. The agarose gel acts as a molecular sieve: smaller fragments slip through its pores more easily and travel farther, separating the fragments by size.\n\n(A) is wrong because every nucleotide carries one phosphate, so the charge per unit length is the same for all fragments regardless of size.\n(C) is wrong because DNA is negatively charged and is attracted to the positive electrode, which is why all the fragments move away from the wells.\n(D) is wrong because the electric current does not denature DNA in a standard agarose gel, and denaturation would not explain separation by size."
   }
  ],
  "sets": {

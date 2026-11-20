@@ -248,7 +248,7 @@ const EXAM = {
      ],
      "model": [
       "Water moves by osmosis from a region of higher water potential to a region of lower water potential. (i) Pure water has the highest water potential (0), higher than that of the potato cells, which contain dissolved solutes, so water enters the cells and the mass increases by 18%.",
-      "(ii) A 0.8 M sucrose solution has a very low (negative) solute potential, lower than that of the potato cells, so water leaves the cells and the mass decreases by about 20%."
+      "(ii) A 0.8 M sucrose solution has a very low (negative) solute potential, so its water potential is lower than that of the potato cells, and water leaves the cells and the mass decreases by about 20%."
      ]
     },
     {
