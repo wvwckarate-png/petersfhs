@@ -143,3 +143,5 @@ console.log(problems.length ? 'PROBLEMS:\n' + problems.join('\n') : 'no problems
 fs.mkdirSync(dir, { recursive: true });
 const body = `// ${cfg.title} — ${out.length} questions. ${cfg.note || ''}\nconst EXAM = ${JSON.stringify({ questions: out, sets }, null, 1)};\n\nexport default EXAM;\n`;
 fs.writeFileSync(`${dir}/${cfg.file}`, body);
+// re-apply reviewed corrections (explanations, fixed keys) recorded in overrides/<hub>.json
+execFileSync('node', [`${SCR}/apply_overrides.mjs`, cfg.hub], { stdio: 'inherit' });

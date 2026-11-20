@@ -9,6 +9,7 @@ the generated files by hand.
 - `figlib.mjs`, `p2figs.mjs`, `chemfigs.mjs`, `biofigs.mjs` — SVG figure generators (charts, circuits, ray diagrams, PES/mass spectra, pedigrees, gels, …).
 - `build.mjs` — builds an exam file from a pool, balances answer positions, and runs checks (unit counts, figure validity, overlap with the practice bank, choice-length bias).
 - `v_*.mjs` + `verify.mjs` — independent recomputation of every numeric answer.
+- `apply_overrides.mjs` + `overrides/<hub>.json` — reviewed corrections (full per-choice explanations, fixed stems/choices/keys) applied by question id to the generated exam files; both build scripts re-run it automatically, so rebuilding an exam keeps the corrections.
 - `fixlen.py` — helper to rewrite a question's answer choices; `sheet.mjs` — renders a contact sheet of an exam's figures.
 - `physics1/` — the older toolchain used for the Physics 1 question text.
 - `p1figs.mjs` (scene/graph generators), `p1map1–4.mjs` + `p1map_sample.mjs` (which question gets which figure), `addfigs.mjs` (writes the figures into

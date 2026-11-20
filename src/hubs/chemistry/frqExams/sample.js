@@ -94,7 +94,7 @@ const EXAM = {
       "For identifying a suitable indicator, such as bromothymol blue or phenolphthalein, whose color change occurs near the steep part of the titration curve (a pH between about 4 and 10 is acceptable for a strong acid–strong base titration)"
      ],
      "model": [
-      "Either bromothymol blue (pH range about 6.0–7.6, centered near the equivalence point at pH 7) or phenolphthalein (8.2–10.0) is suitable. For a strong acid titrated with a strong base, the pH changes from about 3 to 11 within a fraction of a drop of the equivalence point, so any indicator whose color change occurs in that steep region marks the endpoint to within experimental error."
+      "Either bromothymol blue (pH range about 6.0–7.6, centered near the equivalence point at pH 7) or phenolphthalein (8.2–10.0) is suitable. For a strong acid titrated with a strong base, the pH changes from about 4 to 10 within a drop or two of the equivalence point, so any indicator whose color change occurs in that steep region marks the endpoint to within experimental error."
      ]
     }
    ],

@@ -38,10 +38,11 @@ const EXAM = {
      "prompt": "Use the titration curve to estimate the acid-dissociation constant, <i>K</i><sub>a</sub>, of HA. Explain your method.",
      "rubric": [
       "For identifying the half-equivalence point (12.5 mL) and reading the pH there, about 4.7, and indicating that at that point [HA] = [A<sup>−</sup>], so pH = p<i>K</i><sub>a</sub>",
-      "For a correct value of <i>K</i><sub>a</sub> ≈ 1.8 × 10<sup>−5</sup> (10<sup>−4.74</sup>)"
+      "For a value of <i>K</i><sub>a</sub> consistent with the pH read at the half-equivalence point, about 2 × 10<sup>−5</sup> (10<sup>−4.7</sup>; readings of pH 4.6–4.8, giving 1.6–2.5 × 10<sup>−5</sup>, are acceptable)"
      ],
      "model": [
-      "At the half-equivalence point (12.5 mL of base), half of the HA has been converted to A<sup>−</sup>, so [HA] = [A<sup>−</sup>] and the Henderson–Hasselbalch equation gives pH = p<i>K</i><sub>a</sub>. From Figure 1 the pH at 12.5 mL is about 4.7, so <i>K</i><sub>a</sub> = 10<sup>−4.7</sup> ≈ <b>1.8 × 10<sup>−5</sup></b> (p<i>K</i><sub>a</sub> = 4.74)."
+      "At the half-equivalence point (12.5 mL of base), half of the HA has been converted to A<sup>−</sup>, so [HA] = [A<sup>−</sup>] and the Henderson–Hasselbalch equation gives pH = p<i>K</i><sub>a</sub>. From Figure 1 the pH at 12.5 mL is about 4.7, so <i>K</i><sub>a</sub> = 10<sup>−4.7</sup> ≈ <b>2 × 10<sup>−5</sup></b>.",
+      "(The curve was drawn with p<i>K</i><sub>a</sub> = 4.74, that is, <i>K</i><sub>a</sub> = 1.8 × 10<sup>−5</sup>; any value consistent with a careful reading of the graph is acceptable.)"
      ]
     },
     {
@@ -109,7 +110,8 @@ const EXAM = {
      ],
      "model": [
       "<b>Phenolphthalein</b> is the best choice. An indicator should change color over a pH range that contains the pH at the equivalence point and lies on the steep vertical part of the titration curve.",
-      "The equivalence-point pH here is about 8.7, which is inside the transition range of phenolphthalein (8.2–10.0). Methyl orange and methyl red change color at a pH below the vertical portion (about 3–6), so they would signal the end well before 25.0 mL of base had been added."
+      "The equivalence-point pH here is about 8.7, which is inside the transition range of phenolphthalein (8.2–10.0). Methyl orange and methyl red change color at a pH below the vertical portion (about 3–6), so they would signal the end well before 25.0 mL of base had been added.",
+      "Bromothymol blue (6.0–7.6) finishes changing below 8.7, so it would also signal the end point slightly early; it suits a strong acid–strong base titration (equivalence pH 7), not this weak-acid one."
      ]
     },
     {
@@ -356,10 +358,10 @@ const EXAM = {
      "label": "Part C",
      "prompt": "Calculate the concentration of Pb<sup>2+</sup>(<i>aq</i>) remaining in the solution after the reaction goes to completion. (Assume the volumes are additive and ignore the small solubility of PbI<sub>2</sub>.)",
      "rubric": [
-      "For the correct concentration: (0.0100 − 0.00750) mol/(0.1000 L) = 0.025 <i>M</i>"
+      "For the correct concentration: (0.0100 − 0.00750) mol/(0.1000 L) = 0.0250 <i>M</i>"
      ],
      "model": [
-      "Moles of Pb<sup>2+</sup> remaining = 0.0100 mol − 0.00750 mol = 0.00250 mol, in a total volume of 100.0 mL (0.1000 L): [Pb<sup>2+</sup>] = 0.00250 mol/0.1000 L = <b>0.025 M</b>."
+      "Moles of Pb<sup>2+</sup> remaining = 0.0100 mol − 0.00750 mol = 0.00250 mol, in a total volume of 100.0 mL (0.1000 L): [Pb<sup>2+</sup>] = 0.00250 mol/0.1000 L = <b>0.0250 M</b>."
      ]
     }
    ],

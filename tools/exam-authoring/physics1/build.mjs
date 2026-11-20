@@ -72,3 +72,5 @@ console.log(problems.length ? 'PROBLEMS:\n' + problems.join('\n') : 'no problems
 fs.mkdirSync('/Users/gregorypeters/Desktop/petersfhs/src/hubs/physics1/exams', { recursive: true });
 const body = `// AP Physics 1 — MCQ Exam ${N} (${out.length} questions). Uses g = 10 m/s².\nconst EXAM_${N}_QUESTIONS = ${JSON.stringify(out, null, 2)};\n\nexport default EXAM_${N}_QUESTIONS;\n`;
 fs.writeFileSync(`/Users/gregorypeters/Desktop/petersfhs/src/hubs/physics1/exams/exam${N}.js`, body);
+// re-apply reviewed corrections recorded in tools/exam-authoring/overrides/physics1.json
+(await import('child_process')).execFileSync('node', ['/Users/gregorypeters/Desktop/petersfhs/tools/exam-authoring/apply_overrides.mjs', 'physics1'], { stdio: 'inherit' });

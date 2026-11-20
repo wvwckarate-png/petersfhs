@@ -131,7 +131,7 @@ const EXAM = {
      ],
      "model": [
       "For a second-order reaction a plot of 1/[A] versus time is linear. Calculating 1/[NO<sub>2</sub>]: 100, 154, 208, 262, 316 M<sup>−1</sup> at 0, 100, 200, 300, 400 s. The differences are 54 M<sup>−1</sup> in every 100 s interval, so 1/[NO<sub>2</sub>] is linear in time and the reaction is <b>second order</b> in NO<sub>2</sub>.",
-      "(For first order, ln[NO<sub>2</sub>] would be linear: the successive half-lives increase, 185 s, 370 s, …, which is not first-order behavior.)"
+      "(It is not first order: ln[NO<sub>2</sub>] = −4.61, −5.04, −5.34, −5.57, −5.76, and the changes per 100 s (−0.43, −0.30, −0.23, −0.19) are not constant, so ln[NO<sub>2</sub>] versus time is not linear.)"
      ]
     },
     {

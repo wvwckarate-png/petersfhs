@@ -12,7 +12,7 @@ const EXAM = {
     "4.2 × 10⁵ J"
    ],
    "correct": 1,
-   "explanation": "Q = mcΔT = (0.50)(4200)(20) = 4.2 × 10⁴ J."
+   "explanation": "Correct: (B) 4.2 × 10⁴ J. Thermal energy needed to warm a substance with no phase change is Q = mcΔT, where m is the mass, c is the specific heat capacity, and ΔT is the temperature change (a change of 1 °C equals a change of 1 K). Substituting the given values: Q = (0.50 kg)(4200 J/(kg·°C))(20 °C) = 42,000 J = 4.2 × 10⁴ J. The kg and °C units cancel, leaving joules, and two significant figures match the data.\n\n(A) is wrong because 2.1 × 10⁴ J is half the correct value, as if the mass were taken as 0.25 kg or the temperature change as 10 °C.\n(C) is wrong because 8.4 × 10⁴ J is (4200)(20), which leaves out the 0.50 kg mass and so treats the water as 1 kg.\n(D) is wrong because 4.2 × 10⁵ J is ten times too large, a power-of-ten slip when multiplying 0.50 × 4200 × 20."
   },
   {
    "id": "p2e1-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "Both go out, because removing a bulb breaks the circuit."
    ],
    "correct": 0,
-   "explanation": "Each branch of a parallel circuit is connected directly across the battery, so each bulb has the same potential difference as before and carries the same current. Removing one bulb changes only the total current drawn from the battery. The other bulbs' brightness does not change."
+   "explanation": "Correct: (A) It does not change, because each remaining bulb still has the full battery voltage across it. In a parallel circuit every branch connects directly across the battery terminals. With negligible internal resistance, the battery keeps the same potential difference V across each bulb no matter how many branches are attached. Each remaining bulb therefore still carries I = V/R and dissipates P = V²/R, the same as before, so its brightness is unchanged. Removing a bulb only lowers the total current the battery supplies, from 3V/R to 2V/R.\n\n(B) is wrong because each remaining bulb does not dim, since each branch current depends only on V and R, and neither changes; current is not a fixed amount shared out.\n(C) is wrong because the bulbs do not brighten, since the battery's total current drops when a branch is removed; each remaining branch still gets exactly V/R.\n(D) is wrong because the bulbs do not go out, since in parallel each bulb has its own complete path; only in a series circuit does removing one bulb break the whole loop."
   },
   {
    "id": "p2e1-3",
@@ -38,7 +38,7 @@ const EXAM = {
     "2 dB"
    ],
    "correct": 1,
-   "explanation": "The sound intensity level is β = 10 log(I/I₀) dB. A factor of 100 in intensity adds 10 log(100) = 10(2) = 20 dB."
+   "explanation": "Correct: (B) 20 dB. Sound intensity level is logarithmic: β = 10 log(I/I₀) dB. Multiplying the intensity by a factor k adds Δβ = 10 log k to the level, regardless of the starting value. For k = 100, Δβ = 10 log(100) = 10 × 2 = 20 dB. Every factor of 10 in intensity adds 10 dB, so two factors of 10 (10 × 10 = 100) add 20 dB.\n\n(A) is wrong because 100 dB treats the decibel scale as linear, adding the intensity factor itself instead of 10 times its logarithm.\n(C) is wrong because 10 dB is the increase for a tenfold intensity change, not a hundredfold change, which is two factors of 10.\n(D) is wrong because 2 dB is log(100) alone; it leaves off the factor of 10 in β = 10 log(I/I₀), which gives decibels rather than bels."
   },
   {
    "id": "p2e1-4",
@@ -52,7 +52,7 @@ const EXAM = {
     "0.50 A"
    ],
    "correct": 0,
-   "explanation": "The 6 Ω and 3 Ω resistors in parallel have an equivalent resistance of (6)(3)/(6 + 3) = 2.0 Ω. In series with the 4 Ω resistor, the total resistance is 6.0 Ω, so I = V/R = 12/6.0 = 2.0 A."
+   "explanation": "Correct: (A) 2.0 A. Reduce the circuit step by step. R₂ = 6 Ω and R₃ = 3 Ω are in parallel (both connect between the same two junctions), so R_p = (6)(3)/(6 + 3) = 18/9 = 2.0 Ω. This combination is in series with R₁ = 4 Ω, giving R_total = 4 + 2.0 = 6.0 Ω. The battery current is I = V/R_total = 12 V / 6.0 Ω = 2.0 A, all of which passes through R₁.\n\n(B) is wrong because 3.0 A is 12 V / 4 Ω, which uses only R₁ and ignores the 2.0 Ω of the parallel pair in series with it.\n(C) is wrong because 1.0 A would need a total resistance of 12 Ω; the circuit's resistance is 4 + 2.0 = 6.0 Ω (R₂ and R₃ in parallel give 2.0 Ω), so the current is 2.0 A, and even putting all three resistors in series (13 Ω) would give about 0.92 A, not 1.0 A.\n(D) is wrong because 0.50 A inverts Ohm's law, computing R/V = 6.0/12 instead of V/R = 12/6.0."
   },
   {
    "id": "p2e1-5",
@@ -66,7 +66,7 @@ const EXAM = {
     "16 W"
    ],
    "correct": 3,
-   "explanation": "The full battery current of 2.0 A flows through the 4 Ω resistor, so P = I²R = (2.0)²(4) = 16 W. 36 W would come from wrongly applying the whole 12 V to the 4 Ω resistor (V²/R)."
+   "explanation": "Correct: (D) 16 W. R₁ is in series with the battery, so it carries the full battery current of 2.0 A found from R_total = 4 + (6·3)/(6 + 3) = 6.0 Ω and I = 12/6.0 = 2.0 A. Its power is P = I²R = (2.0 A)²(4 Ω) = 16 W. As a check, the voltage across R₁ is (2.0)(4) = 8.0 V, and P = IV = (2.0)(8.0) = 16 W, matching V²/R = 64/4 = 16 W.\n\n(A) is wrong because 48 W is (12)(4), multiplying the battery voltage by the resistance, which is not a power formula; the battery's total output is only 24 W.\n(B) is wrong because 36 W comes from wrongly putting the whole 12 V across R₁ (V²/R = 144/4); only 8.0 V is across R₁ because 4.0 V is across the parallel pair.\n(C) is wrong because 8 W is IR = (2.0)(4) = 8, which is the voltage across R₁ in volts, not its power; the current must be squared."
   },
   {
    "id": "p2e1-6",
@@ -80,7 +80,7 @@ const EXAM = {
     "0.33 A"
    ],
    "correct": 2,
-   "explanation": "The 4 Ω resistor has a potential difference of (2.0)(4) = 8.0 V across it, leaving 12 − 8.0 = 4.0 V across the parallel pair. The current in the 6 Ω resistor is I = 4.0/6 = 0.67 A. (The 3 Ω resistor carries 1.3 A; the two add to the 2.0 A from the battery.)"
+   "explanation": "Correct: (C) 0.67 A. First find the voltage across the parallel pair. The battery current is 2.0 A (R_total = 4 + 2.0 = 6.0 Ω), so R₁ drops (2.0 A)(4 Ω) = 8.0 V, leaving 12 − 8.0 = 4.0 V across both R₂ and R₃ (parallel branches share the same voltage). The current in R₂ is I = V/R = 4.0 V / 6 Ω = 0.67 A. Check: R₃ carries 4.0/3 = 1.33 A, and 0.67 + 1.33 = 2.0 A, the battery current.\n\n(A) is wrong because 1.3 A is the current in the 3 Ω resistor; the smaller resistance carries the larger share, so the 6 Ω branch gets less.\n(B) is wrong because 1.0 A assumes the 2.0 A splits equally between the branches, but current divides inversely with resistance, 1:2 here.\n(D) is wrong because 0.33 A divides the battery current by the resistance (2.0/6), which is dimensionally wrong; it is the branch voltage, 4.0 V, that is divided by 6 Ω."
   },
   {
    "id": "p2e1-7",
@@ -93,7 +93,7 @@ const EXAM = {
     "The sphere is attracted to the rod, because the side of the sphere nearer the rod becomes negatively charged."
    ],
    "correct": 3,
-   "explanation": "The rod's positive charge pulls mobile electrons in the metal toward the near side of the sphere, leaving the far side positive. The near (negative) charges are closer to the rod, so the attraction is stronger than the repulsion on the far side, and the net force is attractive. No charge is transferred because they do not touch."
+   "explanation": "Correct: (D) The sphere is attracted to the rod, because the side of the sphere nearer the rod becomes negatively charged. This is charging by induction (polarization). The positive rod attracts the mobile electrons in the metal sphere toward the near side, leaving a positive region on the far side. The sphere stays neutral overall, but the induced negative charge is closer to the rod than the induced positive charge. Because Coulomb force falls off as 1/r², the attraction on the near side is stronger than the repulsion on the far side, so the net force pulls the sphere toward the rod.\n\n(A) is wrong because the sphere is not repelled; it gains no net charge without contact, and its separated charges arrange themselves so the attractive side is nearer the rod.\n(B) is wrong because a neutral object can still feel a force when its charges separate; the unequal distances make the near-side attraction win.\n(C) is wrong because no charge flows from the rod because they do not touch; the attraction comes from charge redistribution within the sphere, not transfer."
   },
   {
    "id": "p2e1-8",
@@ -113,7 +113,7 @@ const EXAM = {
     "Out of the page"
    ],
    "correct": 0,
-   "explanation": "Using the right-hand rule for F = qv × B: point the fingers along v (right), curl them toward B (into the page), and the thumb points up. For a positive charge the force is toward the top of the page. The magnetic force is always perpendicular to the velocity, so it can never point along the velocity, and it is perpendicular to B as well."
+   "explanation": "Correct: (A) Toward the top of the page. The magnetic force on a moving charge is F = qv × B. With v to the right (+x) and B into the page (−z), v × B = (x̂) × (−ẑ) = +ŷ, toward the top of the page. By the right-hand rule: fingers along v (right), curl toward B (into the page), and the thumb points up. The charge is positive, so the force has the same direction as v × B, toward the top of the page.\n\n(B) is wrong because toward the bottom would be the force on a negative charge, or the result of curling the fingers from B to v instead of from v to B.\n(C) is wrong because the magnetic force is always perpendicular to the velocity, so it can never point along the direction of motion.\n(D) is wrong because the magnetic force is perpendicular to B as well as to v, so it cannot point out of the page, which is along the field line."
   },
   {
    "id": "p2e1-9",
@@ -126,7 +126,7 @@ const EXAM = {
     "+700 J"
    ],
    "correct": 2,
-   "explanation": "The first law of thermodynamics is ΔU = Q − W_by, where Q is the heat added to the gas and W_by is the work done by the gas. Here ΔU = 500 − 200 = +300 J. +700 J would result from adding the work done by the gas instead of subtracting it."
+   "explanation": "Correct: (C) +300 J. The first law of thermodynamics is ΔU = Q − W_by, where Q is the heat added to the gas and W_by is the work done by the gas on its surroundings (equivalently, ΔU = Q + W_on, with W_on = −200 J). The gas absorbs Q = +500 J and does W_by = 200 J, so ΔU = 500 J − 200 J = +300 J. The gas keeps the 300 J of absorbed energy that it did not spend doing work.\n\n(A) is wrong because −700 J makes both terms negative, treating the absorbed heat as lost and also subtracting the work.\n(B) is wrong because −300 J reverses the sign convention, computing W − Q, as if the gas had lost heat and gained energy from work.\n(D) is wrong because +700 J adds the work done by the gas instead of subtracting it; doing work on the surroundings removes energy from the gas."
   },
   {
    "id": "p2e1-10",
@@ -146,7 +146,7 @@ const EXAM = {
     "5.0 × 10³ V/m"
    ],
    "correct": 1,
-   "explanation": "For a uniform field between parallel plates, E = V/d = 100/(2.0 × 10⁻³) = 5.0 × 10⁴ V/m. Using the distance in millimeters without converting to meters would give an answer 1000 times too small."
+   "explanation": "Correct: (B) 5.0 × 10⁴ V/m. Between large parallel plates the electric field is uniform, so its magnitude is E = ΔV/d. The separation must be in meters: d = 2.0 mm = 2.0 × 10⁻³ m. Then E = 100 V / (2.0 × 10⁻³ m) = 5.0 × 10⁴ V/m. The field points from the positive (upper) plate to the negative (lower) plate, as the arrows in the figure show, and 1 V/m equals 1 N/C.\n\n(A) is wrong because 2.0 × 10⁵ V/m is four times too large; it would require a plate separation of 0.50 mm, not 2.0 mm.\n(C) is wrong because 2.0 × 10⁴ V/m is 2.5 times too small; it corresponds to a separation of 5.0 mm rather than the 2.0 mm shown.\n(D) is wrong because 5.0 × 10³ V/m converts 2.0 mm as if it were 2.0 cm (2.0 × 10⁻² m), making the field ten times too small."
   },
   {
    "id": "p2e1-11",
@@ -159,7 +159,7 @@ const EXAM = {
     "0.10 V"
    ],
    "correct": 0,
-   "explanation": "The magnetic flux changes from BA = (0.50)(0.20) = 0.10 T·m² to zero in 0.10 s. By Faraday's law, |𝓔| = ΔΦ/Δt = 0.10/0.10 = 1.0 V."
+   "explanation": "Correct: (A) 1.0 V. Faraday's law gives the average induced emf as |𝓔| = ΔΦ/Δt, with magnetic flux Φ = BA when the field is perpendicular to the loop. The initial flux is (0.50 T)(0.20 m²) = 0.10 T·m² (0.10 Wb), and the final flux is zero, so ΔΦ = 0.10 Wb. Dividing by the time, |𝓔| = 0.10 Wb / 0.10 s = 1.0 V (1 Wb/s = 1 V).\n\n(B) is wrong because 10 V divides by the time twice (0.10/0.10²), or by 0.010 s, which is ten times too large.\n(C) is wrong because 0.50 V uses the average field of 0.25 T as if it were the change; the emf depends on the full change in field, 0.50 T.\n(D) is wrong because 0.10 V is the change in flux itself (0.10 Wb); it still needs to be divided by the 0.10 s time interval."
   },
   {
    "id": "p2e1-12",
@@ -172,7 +172,7 @@ const EXAM = {
     "6.0 N"
    ],
    "correct": 0,
-   "explanation": "By Coulomb's law, F = kq₁q₂/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶)(3.0 × 10⁻⁶)/(0.30)² = 0.60 N. The forces on the two spheres have equal magnitudes (Newton's third law)."
+   "explanation": "Correct: (A) 0.60 N. Coulomb's law gives the force between two point charges: F = k|q₁q₂|/r². Substituting: F = (9.0 × 10⁹ N·m²/C²)(2.0 × 10⁻⁶ C)(3.0 × 10⁻⁶ C)/(0.30 m)² = (0.054 N·m²)/(0.090 m²) = 0.60 N. Both charges are positive, so the force is repulsive, and by Newton's third law each sphere exerts a force of the same 0.60 N magnitude on the other, even though the charges differ.\n\n(B) is wrong because 0.18 N divides by r instead of r² (0.054/0.30), ignoring the inverse-square dependence on distance.\n(C) is wrong because 1.8 N squares 0.30 m incorrectly as 0.030 m² instead of 0.090 m², making the force three times too large.\n(D) is wrong because 6.0 N is ten times the correct value, a power-of-ten slip in combining 10⁹ with the two factors of 10⁻⁶."
   },
   {
    "id": "p2e1-13",
@@ -185,7 +185,7 @@ const EXAM = {
     "The ammeter in series with the resistor and the voltmeter in parallel with the resistor"
    ],
    "correct": 3,
-   "explanation": "An ammeter measures the current passing through it, so it must be in series with the resistor and have very low resistance. A voltmeter measures the potential difference between two points, so it is connected in parallel across the resistor and has very high resistance so it draws almost no current."
+   "explanation": "Correct: (D) The ammeter in series with the resistor and the voltmeter in parallel with the resistor. An ammeter measures the current that passes through it, so the resistor's current must flow through the meter: it goes in series, and it has very low resistance so it barely changes the current. A voltmeter measures the potential difference between two points, so its leads connect across the resistor, in parallel; it has very high resistance so it draws almost no current and does not disturb the circuit.\n\n(A) is wrong because this is exactly reversed; a low-resistance ammeter in parallel would short out the resistor, and a high-resistance voltmeter in series would nearly stop the current.\n(B) is wrong because a voltmeter in series adds a huge resistance that nearly stops the current, and it would not read the potential difference across the resistor.\n(C) is wrong because an ammeter in parallel provides a near-zero-resistance path that bypasses the resistor and can draw a dangerously large current."
   },
   {
    "id": "p2e1-14",
@@ -198,7 +198,7 @@ const EXAM = {
     "15°"
    ],
    "correct": 2,
-   "explanation": "Snell's law gives n₁ sin θ₁ = n₂ sin θ₂: (1.0)(sin 30°) = (1.5) sin θ₂, so sin θ₂ = 0.333 and θ₂ ≈ 19.5°. The ray bends toward the normal because it enters the higher-index glass. 48.6° results from putting the indices in the wrong places."
+   "explanation": "Correct: (C) 19.5°. Snell's law relates the angles measured from the normal: n₁ sin θ₁ = n₂ sin θ₂. With n₁ = 1.0 (air), θ₁ = 30°, and n₂ = 1.5 (glass): sin θ₂ = (1.0)(sin 30°)/1.5 = 0.50/1.5 = 0.333, so θ₂ = sin⁻¹(0.333) ≈ 19.5°. The ray slows down entering the higher-index glass and bends toward the normal, so the refraction angle must be smaller than 30°.\n\n(A) is wrong because 48.6° swaps the indices (sin θ₂ = 1.5 × 0.50 = 0.75), which would bend the ray away from the normal, as for light leaving glass.\n(B) is wrong because 30° assumes the ray does not bend, which is true only at normal incidence or when the two indices are equal.\n(D) is wrong because 15° simply halves the angle; Snell's law relates the sines of the angles, not the angles themselves, and gives 19.5°."
   },
   {
    "id": "p2e1-15",
@@ -211,7 +211,7 @@ const EXAM = {
     "12 mm"
    ],
    "correct": 2,
-   "explanation": "For small angles, the fringe spacing is Δy = λL/d = (600 × 10⁻⁹)(2.0)/(0.20 × 10⁻³) = 6.0 × 10⁻³ m = 6.0 mm."
+   "explanation": "Correct: (C) 6.0 mm. For a double slit with small angles, bright fringes lie at y_m = mλL/d, so adjacent bright fringes are separated by Δy = λL/d. Converting to meters: λ = 600 × 10⁻⁹ m and d = 0.20 × 10⁻³ m. Then Δy = (600 × 10⁻⁹ m)(2.0 m)/(0.20 × 10⁻³ m) = (1.2 × 10⁻⁶)/(2.0 × 10⁻⁴) = 6.0 × 10⁻³ m = 6.0 mm. The small-angle approximation holds because 6.0 mm is tiny compared with L = 2.0 m.\n\n(A) is wrong because 0.60 mm is ten times too small, a conversion slip such as taking the slit spacing as 2.0 mm instead of 0.20 mm.\n(B) is wrong because 3.0 mm is λL/(2d), the distance from the central bright fringe to the first dark fringe, not the bright-to-bright spacing.\n(D) is wrong because 12 mm is 2λL/d, the distance from the central maximum to the second bright fringe, which spans two fringe spacings."
   },
   {
    "id": "p2e1-16",
@@ -224,7 +224,7 @@ const EXAM = {
     "Its frequency increases and its wavelength is shorter."
    ],
    "correct": 0,
-   "explanation": "The frequency of a wave is set by its source and does not change when the wave crosses a boundary. The speed of light is lower in water (v = c/n), and since v = fλ with f fixed, the wavelength is shorter."
+   "explanation": "Correct: (A) Its frequency is unchanged and its wavelength is shorter. A wave's frequency is set by its source: each crest arriving at the boundary produces exactly one crest in the water, so f cannot change. Light slows in water to v = c/n (n ≈ 1.33). Since v = fλ with f fixed, the wavelength shrinks by the same factor: λ_water = λ_air/n, about 75% of its value in air. So the frequency is unchanged and the wavelength is shorter.\n\n(B) is wrong because a longer wavelength would require a higher speed, but light travels slower in water than in air (v = c/n with n > 1).\n(C) is wrong because the frequency cannot change at a boundary because crests must arrive and leave at the same rate; it is the wavelength that changes.\n(D) is wrong because the frequency does not increase; the shorter wavelength results entirely from the lower speed at constant frequency."
   },
   {
    "id": "p2e1-17",
@@ -244,7 +244,7 @@ const EXAM = {
     "10 V"
    ],
    "correct": 3,
-   "explanation": "The internal and external resistors are in series, so I = 𝓔/(r + R) = 12/6.0 = 2.0 A. The potential difference across the external resistor is V = IR = (2.0)(5.0) = 10 V. 12 V would be the potential difference only if the battery had no internal resistance."
+   "explanation": "Correct: (D) 10 V. A real battery acts like an ideal emf 𝓔 in series with its internal resistance r. The single loop has total resistance r + R = 1.0 + 5.0 = 6.0 Ω, so I = 𝓔/(r + R) = 12 V/6.0 Ω = 2.0 A. The potential difference across the external resistor is V = IR = (2.0 A)(5.0 Ω) = 10 V. Equivalently, the terminal voltage is 𝓔 − Ir = 12 − (2.0)(1.0) = 10 V; the missing 2.0 V is lost inside the battery.\n\n(A) is wrong because 12 V would appear across R only for an ideal battery; the 1.0 Ω internal resistance uses up 2.0 V while current flows.\n(B) is wrong because 11 V subtracts only 1 V for the internal resistance, as if the current were 1.0 A; the actual current is 2.0 A, so the internal drop is 2.0 V.\n(C) is wrong because 2.0 V is the drop across the internal resistance (Ir), or the numerical value of the current, not the voltage across the 5.0 Ω resistor."
   },
   {
    "id": "p2e1-18",
@@ -257,7 +257,7 @@ const EXAM = {
     "40 g"
    ],
    "correct": 1,
-   "explanation": "Nine days is three half-lives, so the sample is halved three times: 80 → 40 → 20 → 10 g."
+   "explanation": "Correct: (B) 10 g. Each half-life cuts the remaining amount of the isotope in half, so the amount left is N = N₀(1/2)^(t/T½). The elapsed time is 9.0 days and the half-life is 3.0 days, so t/T½ = 9.0/3.0 = 3 half-lives. Then N = (80 g)(1/2)³ = 80/8 = 10 g. Step by step: 80 g → 40 g → 20 g → 10 g. Decay is exponential, not linear, so the sample never simply runs out.\n\n(A) is wrong because 5.0 g corresponds to four half-lives (12 days), one halving too many for 9.0 days.\n(C) is wrong because 20 g is what remains after two half-lives (6.0 days), one halving too few.\n(D) is wrong because 40 g is what remains after only one half-life (3.0 days), not the three half-lives that fit in 9.0 days."
   },
   {
    "id": "p2e1-19",
@@ -270,7 +270,7 @@ const EXAM = {
     "The entropy of the coffee increases, because heat flows out of the coffee."
    ],
    "correct": 0,
-   "explanation": "When energy flows out of the coffee as heat, the coffee's entropy decreases (ΔS = Q/T with Q negative). The room gains the same amount of energy at a lower temperature, so its entropy increases by more than the coffee's entropy decreases. The second law requires the total entropy of the coffee and the room to increase in a spontaneous process. Energy is conserved, but entropy is not."
+   "explanation": "Correct: (A) The entropy of the coffee decreases, but the total entropy of the coffee and the room increases. As heat Q leaves the coffee at its high temperature T_hot, the coffee's entropy changes by about −Q/T_hot, a decrease. The same Q enters the room at the lower temperature T_room, raising the room's entropy by +Q/T_room. Because T_room < T_hot, Q/T_room > Q/T_hot, so the room gains more entropy than the coffee loses. The total entropy change is positive, as the second law requires for any spontaneous, irreversible process such as heat flow from hot to cold.\n\n(B) is wrong because the total entropy cannot decrease in a spontaneous process; only the coffee's own entropy decreases, and the room's increase is larger.\n(C) is wrong because conservation of energy does not imply conservation of entropy; irreversible heat flow from hot to cold always creates entropy.\n(D) is wrong because heat leaving a system lowers its entropy (ΔS = Q/T with Q negative), so the coffee's entropy decreases, not increases."
   },
   {
    "id": "p2e1-20",
@@ -284,7 +284,7 @@ const EXAM = {
     "800 J"
    ],
    "correct": 1,
-   "explanation": "At constant pressure the work done by the gas is W = PΔV = (100 × 10³ Pa)(6 − 2)(10⁻³ m³) = 400 J (the area under the A → B line). 600 J is P·V at state B alone, which does not account for the gas starting at 2 L."
+   "explanation": "Correct: (B) 400 J. Work done by a gas equals the area under its path on a PV diagram. A → B is at a constant 100 kPa while the volume grows from 2 L to 6 L, so W = PΔV. In SI units, P = 100 × 10³ Pa and ΔV = (6 − 2) L = 4 × 10⁻³ m³ (1 L = 10⁻³ m³). Then W = (1.0 × 10⁵ Pa)(4.0 × 10⁻³ m³) = 400 J, positive because the gas expands.\n\n(A) is wrong because 200 J is (100 kPa)(2 L), the pressure times the starting volume at A, not times the change in volume.\n(C) is wrong because 600 J is the product PV at state B alone; it ignores that the gas started at 2 L, so only 4 L of expansion occurred.\n(D) is wrong because 800 J multiplies 100 kPa by 8 L, adding the two volumes instead of subtracting them."
   },
   {
    "id": "p2e1-21",
@@ -298,7 +298,7 @@ const EXAM = {
     "The gas releases heat to its surroundings, and its internal energy decreases."
    ],
    "correct": 3,
-   "explanation": "The volume is constant, so no work is done (W = 0). The pressure drops, and since P/T is constant at fixed volume, the temperature also drops, so the internal energy decreases. With W = 0, the first law gives ΔU = Q, so Q is negative: the gas releases heat."
+   "explanation": "Correct: (D) The gas releases heat to its surroundings, and its internal energy decreases. B → C is a vertical line on the PV diagram: the volume stays 6 L, so the gas does no work (W = 0). The pressure falls from 100 kPa to 40 kPa, and for an ideal gas at constant volume P/T is constant, so the temperature falls to 40% of its value at B. The internal energy of an ideal gas depends only on T, so ΔU < 0. With W = 0, the first law gives Q = ΔU < 0: the gas releases heat.\n\n(A) is wrong because the pressure drops at constant volume, so the temperature and internal energy decrease; the gas does not absorb heat.\n(B) is wrong because no work is done because the volume does not change, and the temperature drops along with the pressure.\n(C) is wrong because the internal energy cannot stay constant because the temperature falls; with W = 0, all the heat released comes from ΔU."
   },
   {
    "id": "p2e1-22",
@@ -312,7 +312,7 @@ const EXAM = {
     "400 J"
    ],
    "correct": 1,
-   "explanation": "The net work equals the area enclosed by the cycle, a triangle with base ΔV = 4.0 × 10⁻³ m³ and height ΔP = 60 × 10³ Pa: ½(4.0 × 10⁻³)(60 × 10³) = 120 J. The cycle runs clockwise, so the net work done by the gas is positive. 240 J would be the area of the full rectangle."
+   "explanation": "Correct: (B) 120 J. For a cycle, the net work done by the gas equals the area enclosed by the loop, positive when the loop runs clockwise as here (A → B → C → A). The loop is a right triangle with legs ΔV = 6 − 2 = 4 L = 4.0 × 10⁻³ m³ and ΔP = 100 − 40 = 60 kPa = 6.0 × 10⁴ Pa. Area = ½(4.0 × 10⁻³ m³)(6.0 × 10⁴ Pa) = 120 J. Check: +400 J on A → B, 0 on B → C, and −½(100 + 40) kPa × 4 L = −280 J on C → A, for a net 120 J.\n\n(A) is wrong because 60 J is half the triangle's area, as if the ½ were applied twice or ΔV were taken as 2 L.\n(C) is wrong because 240 J is the area of the full 4 L × 60 kPa rectangle; the cycle encloses only the triangular half of it.\n(D) is wrong because 400 J is the work done during A → B alone; it ignores the negative work done on the gas during the compression C → A."
   },
   {
    "id": "p2e1-23",
@@ -325,7 +325,7 @@ const EXAM = {
     "0.15 N"
    ],
    "correct": 2,
-   "explanation": "F = BIL = (0.30)(5.0)(0.40) = 0.60 N."
+   "explanation": "Correct: (C) 0.60 N. The magnetic force on a straight current-carrying wire is F = ILB sin θ, and with the wire perpendicular to the field sin θ = 1. Substituting: F = (5.0 A)(0.40 m)(0.30 T) = 0.60 N. The units work out because 1 T = 1 N/(A·m), so A·m·T = N. The force is perpendicular to both the wire and the field.\n\n(A) is wrong because 6.0 N is ten times too large, a decimal slip in multiplying 5.0 × 0.40 × 0.30.\n(B) is wrong because 1.5 N is BI = (0.30)(5.0), which leaves out the 0.40 m length of the wire in the field.\n(D) is wrong because 0.15 N is a quarter of the correct value, as if only 0.10 m of the wire were in the field; the whole 0.40 m must be used."
   },
   {
    "id": "p2e1-24",
@@ -338,7 +338,7 @@ const EXAM = {
     "900 N/C"
    ],
    "correct": 1,
-   "explanation": "E = kq/r² = (9.0 × 10⁹)(5.0 × 10⁻⁹)/(0.50)² = 45/0.25 = 180 N/C. 90 N/C results from dividing by r instead of r²."
+   "explanation": "Correct: (B) 180 N/C. The field of a point charge is E = k|q|/r², pointing away from a positive charge. Substituting: E = (9.0 × 10⁹ N·m²/C²)(5.0 × 10⁻⁹ C)/(0.50 m)² = (45 N·m²/C)/(0.25 m²) = 180 N/C. The nano prefix (10⁻⁹) cancels neatly with k's 10⁹, and squaring 0.50 m gives 0.25 m², so the field is four times the value of kq alone.\n\n(A) is wrong because 90 N/C divides by r (0.50 m) instead of r², missing the inverse-square law.\n(C) is wrong because 360 N/C is twice the correct value, as if kq = 45 N·m²/C were divided by 0.125 m² (half of r²) instead of (0.50 m)² = 0.25 m²; the inverse-square law with 0.25 m² gives 180 N/C.\n(D) is wrong because 900 N/C squares 0.50 m incorrectly as 0.050 m² instead of 0.25 m²."
   },
   {
    "id": "p2e1-25",
@@ -352,7 +352,7 @@ const EXAM = {
     "12 cm"
    ],
    "correct": 2,
-   "explanation": "One full wavelength is the distance over which the wave pattern repeats. The graph shows two complete cycles between x = 0 and x = 12 cm, so λ = 6 cm. (3 cm is half a wavelength, and 2 cm is the amplitude.)"
+   "explanation": "Correct: (C) 6 cm. The wavelength is the distance over which the wave shape repeats, for example from one crest to the next. On the graph, crests are at x = 1.5 cm and x = 7.5 cm, 6 cm apart, and the pattern completes two full cycles between x = 0 and x = 12 cm, so λ = 12 cm / 2 = 6 cm. The vertical axis gives amplitude (2 cm), not wavelength, and the zero crossings at 3 cm intervals are only half a wavelength apart.\n\n(A) is wrong because 2 cm is the amplitude, read from the vertical displacement axis, not a horizontal distance along the string.\n(B) is wrong because 3 cm is the spacing between adjacent zero crossings, which is half a wavelength.\n(D) is wrong because 12 cm is the full width shown on the graph, which contains two wavelengths."
   },
   {
    "id": "p2e1-26",
@@ -366,7 +366,7 @@ const EXAM = {
     "2.0 Hz"
    ],
    "correct": 3,
-   "explanation": "From v = fλ, the frequency is f = v/λ = (12 cm/s)/(6 cm) = 2.0 Hz."
+   "explanation": "Correct: (D) 2.0 Hz. For any periodic wave, v = fλ. The wave speed is given as 12 cm/s, and the graph shows λ = 6 cm (two full cycles in 12 cm). Solving for frequency: f = v/λ = (12 cm/s)/(6 cm) = 2.0 s⁻¹ = 2.0 Hz. Units of length cancel, so there is no need to convert to meters. Equivalently, the period is T = λ/v = 0.50 s, and f = 1/T = 2.0 Hz.\n\n(A) is wrong because 72 Hz multiplies v by λ (12 × 6) instead of dividing; vλ has units of cm²/s, not hertz.\n(B) is wrong because 6.0 Hz uses the 2 cm amplitude in place of the wavelength (12/2).\n(C) is wrong because 0.50 Hz is λ/v, which is the period in seconds, not the frequency."
   },
   {
    "id": "p2e1-27",
@@ -386,7 +386,7 @@ const EXAM = {
     "300 Hz"
    ],
    "correct": 2,
-   "explanation": "Three loops means three half-wavelengths fit on the string: 3(λ/2) = 1.2 m, so λ = 0.80 m. The frequency is f = v/λ = 120/0.80 = 150 Hz. (The fundamental, with one loop, would have f = 50 Hz.)"
+   "explanation": "Correct: (C) 150 Hz. On a string fixed at both ends, each loop of a standing wave is half a wavelength long, with nodes at both ends. The figure shows three loops, so 3(λ/2) = L = 1.2 m, giving λ = 2(1.2 m)/3 = 0.80 m. Then f = v/λ = (120 m/s)/(0.80 m) = 150 Hz. This is the third harmonic, three times the fundamental frequency v/2L = 120/2.4 = 50 Hz.\n\n(A) is wrong because 50 Hz is the fundamental (one loop, λ = 2L = 2.4 m); the pattern shown has three loops.\n(B) is wrong because 100 Hz uses λ = 1.2 m, treating the whole string as one wavelength, which is the two-loop second harmonic.\n(D) is wrong because 300 Hz uses λ = 0.40 m, the length of one loop, but each loop is only half a wavelength."
   },
   {
    "id": "p2e1-28",
@@ -400,7 +400,7 @@ const EXAM = {
     "1.8 × 10⁶ N/C"
    ],
    "correct": 2,
-   "explanation": "P is 0.20 m from each charge. Each charge produces a field of magnitude kQ/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶)/(0.20)² = 4.5 × 10⁵ N/C. Both fields at P point to the right (away from +Q and toward −Q), so they add: 9.0 × 10⁵ N/C. A net field of zero would occur only if the fields pointed in opposite directions."
+   "explanation": "Correct: (C) 9.0 × 10⁵ N/C. P is 0.20 m from each charge. Each charge alone gives E = kQ/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶ C)/(0.20 m)² = (1.8 × 10⁴)/(0.040) = 4.5 × 10⁵ N/C. The field of +Q points away from it, to the right at P, and the field of −Q points toward it, also to the right. Both fields point the same way, so they add: E_net = 2(4.5 × 10⁵) = 9.0 × 10⁵ N/C, directed toward −Q.\n\n(A) is wrong because zero would hold midway between two equal charges of the same sign; for opposite charges the two fields at P point the same way and add.\n(B) is wrong because 4.5 × 10⁵ N/C is the field of only one charge; the other charge contributes an equal field in the same direction.\n(D) is wrong because 1.8 × 10⁶ N/C is twice the correct value, as if each field were 9.0 × 10⁵ N/C from squaring 0.20 m as 0.020 m²."
   },
   {
    "id": "p2e1-29",
@@ -414,7 +414,7 @@ const EXAM = {
     "Zero, because the potentials due to the two equal and opposite charges cancel at P."
    ],
    "correct": 3,
-   "explanation": "Potential is a scalar, and the contributions add algebraically: V = kQ/r + k(−Q)/r = 0 at the midpoint. A nonzero field does not imply a nonzero potential, and the direction of the field does not determine the sign of the potential at that point."
+   "explanation": "Correct: (D) Zero, because the potentials due to the two equal and opposite charges cancel at P. Electric potential is a scalar, so contributions add algebraically with their signs: V = kq/r summed over charges. At P both charges are 0.20 m away, so V = k(+Q)/0.20 + k(−Q)/0.20 = 0. Each term has magnitude (9.0 × 10⁹)(2.0 × 10⁻⁶)/0.20 = 9.0 × 10⁴ V, and they cancel exactly. The field at P is not zero (it is 9.0 × 10⁵ N/C), which shows that zero potential does not imply zero field.\n\n(A) is wrong because the direction of the field at a point does not set the sign of the potential there; the equal and opposite scalar terms sum to zero.\n(B) is wrong because a nonzero field means the potential is changing with position, not that its value is nonzero at that point.\n(C) is wrong because both charges are sources of potential; the −Q term is just as large as the +Q term at the midpoint, so they cancel."
   },
   {
    "id": "p2e1-30",
@@ -427,7 +427,7 @@ const EXAM = {
     "Sound that is as loud as one speaker alone, because the waves do not interact"
    ],
    "correct": 0,
-   "explanation": "A path difference of half a wavelength puts the two waves a half-cycle out of phase when they arrive, so crests of one coincide with troughs of the other and they cancel. This is destructive interference, which gives a minimum in loudness. The frequency of the sound is not changed by interference."
+   "explanation": "Correct: (A) A minimum in loudness, because the waves interfere destructively. Two in-phase sources produce waves that arrive at a point with a phase difference set by the path difference. A path difference of λ/2 means one wave has traveled half a cycle farther, so its crests arrive with the other wave's troughs. The displacements cancel (destructive interference), and for identical speakers with similar amplitudes the listener hears a minimum in loudness. Constructive interference occurs at path differences of 0, λ, 2λ, and so on.\n\n(B) is wrong because a maximum requires a path difference of a whole number of wavelengths; half a wavelength puts the waves out of phase.\n(C) is wrong because interference changes the amplitude, not the frequency; the sound at that point still has the speakers' frequency.\n(D) is wrong because sound waves do superpose; at a half-wavelength path difference they cancel rather than pass through unaffected."
   },
   {
    "id": "p2e1-31",
@@ -440,7 +440,7 @@ const EXAM = {
     "The current creates a magnetic field that opposes the increase in flux, so the face of the loop nearest the magnet acts like a north pole."
    ],
    "correct": 3,
-   "explanation": "By Lenz's law, the induced current opposes the change in flux that causes it. The flux through the loop from the approaching north pole is increasing, so the loop's induced field points back toward the magnet. A north face next to the approaching north pole produces repulsion, which opposes the motion. A current is induced only while the flux is changing."
+   "explanation": "Correct: (D) The current creates a magnetic field that opposes the increase in flux, so the face of the loop nearest the magnet acts like a north pole. Faraday's law says an emf is induced while the magnetic flux through the loop changes, and Lenz's law says the induced current flows so its own field opposes that change. As the north pole approaches, field lines from the magnet pointing into the loop grow stronger, so the flux increases. The induced current makes a field pointing back toward the magnet, which means the near face of the loop acts as a north pole, repelling the approaching north pole and opposing the motion.\n\n(A) is wrong because a south face would attract the approaching north pole, which would add to the change in flux instead of opposing it, violating energy conservation.\n(B) is wrong because induction requires a changing flux, not contact; the moving magnet changes the flux through the loop without touching it.\n(C) is wrong because once the magnet stops, the flux stops changing and the induced current falls to zero; current flows only during the motion."
   },
   {
    "id": "p2e1-32",
@@ -453,7 +453,7 @@ const EXAM = {
     "12 eV"
    ],
    "correct": 1,
-   "explanation": "E = hc/λ = (1240 eV·nm)/(500 nm) = 2.48 eV ≈ 2.5 eV."
+   "explanation": "Correct: (B) 2.5 eV. A photon's energy is E = hf = hc/λ. Using hc = 1240 eV·nm keeps the units simple: E = (1240 eV·nm)/(500 nm) = 2.48 eV, which rounds to 2.5 eV to two significant figures. This fits visible light, whose photons range from about 1.8 eV (red, 700 nm) to about 3.1 eV (violet, 400 nm); 500 nm is blue-green.\n\n(A) is wrong because 1.2 eV divides 1240 by 1000 nm, doubling the wavelength; that energy would be an infrared photon.\n(C) is wrong because 5.0 eV divides 1240 by about 250 nm, halving the wavelength; that energy is an ultraviolet photon.\n(D) is wrong because 12 eV divides 1240 by about 100 nm, a factor-of-five slip; energy is inversely proportional to wavelength, and 500 nm gives 2.48 eV."
   },
   {
    "id": "p2e1-33",
@@ -466,7 +466,7 @@ const EXAM = {
     "It is virtual, upright, and smaller than the object."
    ],
    "correct": 0,
-   "explanation": "The object is inside the focal length. The mirror equation gives 1/d_i = 1/10 − 1/5 = −1/10, so d_i = −10 cm. The negative image distance means the image is virtual (behind the mirror), and m = −d_i/d_o = +2, so the image is upright and twice as large — the way a makeup mirror works."
+   "explanation": "Correct: (A) It is virtual, upright, and larger than the object. For a concave mirror, 1/f = 1/d_o + 1/d_i. With f = +10 cm and d_o = 5 cm (inside the focal length): 1/d_i = 1/10 − 1/5 = −1/10, so d_i = −10 cm. A negative image distance means a virtual image behind the mirror. The magnification is m = −d_i/d_o = −(−10)/5 = +2, so the image is upright and twice the object's height. This is how a makeup or shaving mirror works.\n\n(B) is wrong because a real, inverted, larger image forms only when the object is between f and 2f; this object is inside f, so the reflected rays diverge.\n(C) is wrong because a real, inverted, smaller image forms when the object is beyond 2f (here, beyond 20 cm), not 5 cm away.\n(D) is wrong because a virtual, upright, smaller image is what a convex mirror always forms; this concave mirror gives m = +2, an enlarged image."
   },
   {
    "id": "p2e1-34",
@@ -479,7 +479,7 @@ const EXAM = {
     "R/4"
    ],
    "correct": 2,
-   "explanation": "The resistance is R = ρL/A. Doubling the length doubles R, but doubling the diameter increases the cross-sectional area by a factor of 2² = 4, which divides R by 4. Combined: 2/4 = 1/2, so the resistance is R/2."
+   "explanation": "Correct: (C) R/2. Resistance of a uniform wire is R = ρL/A, with cross-sectional area A = πd²/4. The second wire has length 2L, which doubles R. Its diameter is 2d, so its area is π(2d)²/4 = 4A, which divides R by 4. Combining: R₂ = ρ(2L)/(4A) = (2/4)(ρL/A) = R/2. The same material means the same resistivity ρ, so only the geometry changes.\n\n(A) is wrong because 2R accounts for doubling the length but ignores the larger cross-sectional area of the thicker wire.\n(B) is wrong because R assumes doubling the diameter doubles the area, cancelling the doubled length; area grows as the square of diameter, by a factor of 4.\n(D) is wrong because R/4 accounts for the fourfold area but forgets that doubling the length doubles the resistance."
   },
   {
    "id": "p2e1-35",
@@ -492,7 +492,7 @@ const EXAM = {
     "1.0 × 10⁵ Pa"
    ],
    "correct": 2,
-   "explanation": "At constant volume and amount of gas, P/T is constant when T is the absolute temperature. The temperatures are 300 K and 400 K, so P = (1.0 × 10⁵)(400/300) = 1.3 × 10⁵ Pa. 4.7 × 10⁵ Pa results from using the Celsius temperatures (127/27) instead of kelvins."
+   "explanation": "Correct: (C) 1.3 × 10⁵ Pa. In a rigid sealed container both V and n are fixed, so the ideal gas law gives P/T = constant, with T in kelvins. Converting: T₁ = 27 + 273 = 300 K and T₂ = 127 + 273 = 400 K. Then P₂ = P₁(T₂/T₁) = (1.0 × 10⁵ Pa)(400/300) = 1.33 × 10⁵ Pa ≈ 1.3 × 10⁵ Pa. Heating by 100 °C raises the absolute temperature by only one-third, so the pressure rises by one-third.\n\n(A) is wrong because 4.7 × 10⁵ Pa uses the Celsius ratio 127/27; gas-law proportions require absolute temperatures in kelvins.\n(B) is wrong because 2.0 × 10⁵ Pa assumes the temperature roughly doubles; in kelvins it goes only from 300 K to 400 K.\n(D) is wrong because 1.0 × 10⁵ Pa assumes the pressure stays constant, but a rigid container cannot expand, so heating raises the pressure."
   },
   {
    "id": "p2e1-36",
@@ -505,7 +505,7 @@ const EXAM = {
     "1.6 × 10⁻¹⁴ N"
    ],
    "correct": 2,
-   "explanation": "For a velocity perpendicular to the field, F = qvB = (1.6 × 10⁻¹⁹)(2.0 × 10⁶)(0.50) = 1.6 × 10⁻¹³ N."
+   "explanation": "Correct: (C) 1.6 × 10⁻¹³ N. The magnetic force on a charged particle is F = |q|vB sin θ; with v perpendicular to B, sin θ = 1. A proton has q = e = 1.6 × 10⁻¹⁹ C. Substituting: F = (1.6 × 10⁻¹⁹ C)(2.0 × 10⁶ m/s)(0.50 T) = 1.6 × 10⁻¹³ N. The factors 2.0 and 0.50 multiply to 1.0, so the magnitude is just 1.6 × 10⁻¹⁹ × 10⁶ = 1.6 × 10⁻¹³ N.\n\n(A) is wrong because 1.6 × 10⁻¹² N is ten times too large, a power-of-ten slip when combining 10⁻¹⁹ with 10⁶.\n(B) is wrong because 3.2 × 10⁻¹³ N is qv alone; it leaves out the 0.50 T field, which halves the product.\n(D) is wrong because 1.6 × 10⁻¹⁴ N is ten times too small, another exponent slip when combining 10⁻¹⁹ with 10⁶."
   },
   {
    "id": "p2e1-37",
@@ -518,7 +518,7 @@ const EXAM = {
     "−0.12 J"
    ],
    "correct": 3,
-   "explanation": "U = kq₁q₂/r = (9.0 × 10⁹)(4.0 × 10⁻⁶)(−2.0 × 10⁻⁶)/(0.60) = −0.12 J. The energy is negative because the charges have opposite signs (they attract), so work would have to be done to separate them."
+   "explanation": "Correct: (D) −0.12 J. The electric potential energy of two point charges is U = kq₁q₂/r, with the signs of the charges included. Substituting: U = (9.0 × 10⁹)(4.0 × 10⁻⁶ C)(−2.0 × 10⁻⁶ C)/(0.60 m) = (−0.072 J·m)/(0.60 m) = −0.12 J. The negative value reflects attraction between opposite charges: the system has less energy than when the charges are infinitely far apart, so 0.12 J of work must be done to separate them completely.\n\n(A) is wrong because +0.12 J has the right magnitude but drops the negative sign; opposite charges give a negative potential energy.\n(B) is wrong because +0.072 J both drops the sign and forgets to divide by the 0.60 m separation.\n(C) is wrong because −0.072 J has the correct sign but is just kq₁q₂ without dividing by r = 0.60 m."
   },
   {
    "id": "p2e1-38",
@@ -532,7 +532,7 @@ const EXAM = {
     "1900 nm"
    ],
    "correct": 1,
-   "explanation": "The photon carries the energy difference: ΔE = −1.5 − (−8.0) = 6.5 eV. Then λ = hc/ΔE = 1240/6.5 ≈ 190 nm."
+   "explanation": "Correct: (B) 190 nm. When the electron drops from n = 3 to n = 1, the emitted photon carries the energy difference between the levels: ΔE = E₃ − E₁ = (−1.5 eV) − (−8.0 eV) = 6.5 eV. The wavelength is λ = hc/ΔE = (1240 eV·nm)/(6.5 eV) = 190.8 nm ≈ 190 nm, in the ultraviolet. Larger energy drops give shorter wavelengths.\n\n(A) is wrong because 95 nm is half the correct wavelength, as if the energy difference were 13 eV, for example from doubling ΔE.\n(C) is wrong because 380 nm is twice the correct wavelength, as if the energy difference were only 3.25 eV, half of 6.5 eV.\n(D) is wrong because 1900 nm is ten times too large, a decimal slip such as dividing 1240 by 0.65 eV instead of 6.5 eV."
   },
   {
    "id": "p2e1-39",
@@ -546,7 +546,7 @@ const EXAM = {
     "n = 4 to n = 1"
    ],
    "correct": 0,
-   "explanation": "The wavelength is inversely proportional to the photon energy, so the longest wavelength comes from the smallest energy difference. The n = 4 to n = 3 transition releases only 1.0 eV, less than the others (5.0 eV, 6.5 eV, and 7.5 eV)."
+   "explanation": "Correct: (A) n = 4 to n = 3. Photon wavelength is λ = hc/ΔE, so the longest wavelength comes from the smallest energy drop. From the diagram: 4 → 3 gives (−0.5) − (−1.5) = 1.0 eV; 2 → 1 gives (−3.0) − (−8.0) = 5.0 eV; 3 → 1 gives 6.5 eV; 4 → 1 gives 7.5 eV. The 4 → 3 transition has the smallest ΔE, so its photon has the longest wavelength: λ = 1240/1.0 = 1240 nm, in the infrared.\n\n(B) is wrong because n = 2 to n = 1 releases 5.0 eV, five times more than 4 → 3, so its wavelength (248 nm) is much shorter.\n(C) is wrong because n = 3 to n = 1 releases 6.5 eV, giving a short wavelength of about 190 nm.\n(D) is wrong because n = 4 to n = 1 releases the largest energy, 7.5 eV, so it gives the shortest wavelength (about 165 nm), not the longest."
   },
   {
    "id": "p2e1-40",
@@ -560,7 +560,7 @@ const EXAM = {
     "30 cm"
    ],
    "correct": 1,
-   "explanation": "The thin-lens equation, 1/f = 1/d_o + 1/d_i, gives 1/d_i = 1/10 − 1/30 = 2/30, so d_i = 15 cm."
+   "explanation": "Correct: (B) 15 cm. The thin-lens equation is 1/f = 1/d_o + 1/d_i. With f = +10 cm (converging) and d_o = 30 cm: 1/d_i = 1/10 − 1/30 = 3/30 − 1/30 = 2/30, so d_i = +15 cm. The positive value places the image on the far side of the lens. This matches the ray diagram, where the two rays cross between F and 2F, as expected for an object beyond 2F.\n\n(A) is wrong because 7.5 cm adds the reciprocals (1/10 + 1/30 = 4/30) instead of subtracting 1/d_o from 1/f.\n(C) is wrong because 20 cm is d_o − f (30 − 10), which subtracts distances directly instead of their reciprocals.\n(D) is wrong because 30 cm assumes the image forms as far from the lens as the object, which happens only when the object is exactly at 2F (20 cm)."
   },
   {
    "id": "p2e1-41",
@@ -574,7 +574,7 @@ const EXAM = {
     "+2.0"
    ],
    "correct": 1,
-   "explanation": "The magnification is m = −d_i/d_o = −15/30 = −0.50. The negative sign means the image is inverted, and its magnitude of 0.50 means the image is half as tall as the object."
+   "explanation": "Correct: (B) −0.50. Magnification is m = h_i/h_o = −d_i/d_o. Using d_o = 30 cm and d_i = +15 cm from the thin-lens equation (1/d_i = 1/10 − 1/30 = 2/30): m = −15/30 = −0.50. The negative sign means the image is inverted relative to the object, and |m| = 0.50 means it is half as tall, consistent with the small inverted arrow in the ray diagram.\n\n(A) is wrong because −2.0 inverts the ratio, using d_o/d_i (30/15); that would make the image larger than the object.\n(C) is wrong because +0.50 has the right size but drops the minus sign; a real image from a single converging lens is inverted.\n(D) is wrong because +2.0 both inverts the ratio and drops the sign, describing an upright enlarged image, which is the virtual-image case."
   },
   {
    "id": "p2e1-42",
@@ -588,7 +588,7 @@ const EXAM = {
     "It is real, inverted, and smaller than the object."
    ],
    "correct": 3,
-   "explanation": "The object is beyond twice the focal length, and the image distance is positive (on the side of the lens opposite the object), so the image is real. Real images formed by a single converging lens are inverted, and since the magnification magnitude is 0.50, the image is smaller."
+   "explanation": "Correct: (D) It is real, inverted, and smaller than the object. With the object at 30 cm, beyond 2F (20 cm), the thin-lens equation gives d_i = +15 cm (1/d_i = 1/10 − 1/30 = 2/30). The positive image distance means the light actually converges on the opposite side of the lens, so the image is real and could be projected on a screen. The magnification m = −d_i/d_o = −15/30 = −0.50 shows it is inverted and half the object's height, as the ray diagram shows between F and 2F.\n\n(A) is wrong because a virtual, upright image forms only when the object is inside the focal length; here it is beyond 2F, and m is negative.\n(B) is wrong because a real image from a single converging lens is inverted, not upright, and |m| = 0.50 means it is smaller.\n(C) is wrong because the rays actually meet on the far side, so the image is real, and |m| = 0.50 means it is smaller, not larger."
   }
  ],
  "sets": {

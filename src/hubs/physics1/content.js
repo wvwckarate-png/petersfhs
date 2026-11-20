@@ -6972,7 +6972,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recall that acceleration due to gravity, g, acts identically on every object in free fall, regardless of horizontal motion, mass, or overall speed.",
             "Note that Ball A's greater overall (resultant) speed comes entirely from its horizontal velocity component, which never changes and has nothing to do with acceleration at all.",
-            "Conclude the student's claim is INCORRECT: both balls experience the exact same vertical acceleration, g, throughout the flight — overall speed and acceleration are separate quantities, and a faster overall speed doesn't imply a larger acceleration."
+            "Conclude the student's claim is INCORRECT: both balls have exactly the same acceleration, g = 9.8 m/s² straight down, throughout the flight. Ball A has zero horizontal acceleration (its horizontal velocity never changes), so its total acceleration is the same as Ball B's. Speed tells you how fast an object is moving; acceleration tells you how fast its velocity is changing, and a larger speed does not imply a larger acceleration."
           ]
         }
       ]
@@ -7018,7 +7018,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Compute the student's proposed value: (m1g+m2g)/2 = (78.4+29.4)/2 = 107.8/2 = 53.9 N.",
             "Compare to the actual calculated tension: 42.8 N ≠ 53.9 N, so the student's claim is INCORRECT.",
-            "Explain why: the simple average of the two weights would only be the correct tension if the system were NOT accelerating (i.e., if the two masses were equal, giving a=0) — since this system does accelerate, the tension has to be somewhere between the two individual weights, but it isn't necessarily their exact average once acceleration enters the picture."
+            "Explain why: combining the two equations gives T = 2m₁m₂g/(m₁+m₂). This equals the average weight (m₁+m₂)g/2 only when m₁ = m₂ (then a = 0 and T equals each weight). When the masses differ, T must be less than m₁g (so m₁ can accelerate down) and greater than m₂g (so m₂ can accelerate up), but it sits closer to the lighter weight: here 42.8 N is between 29.4 N and 78.4 N yet well below their 53.9 N average. So the average-of-weights rule fails whenever the system accelerates."
           ]
         }
       ]
@@ -7062,7 +7062,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recognize the competing effects of increasing angle at fixed tension: the horizontal component (T·cosθ) DECREASES as θ increases, providing less forward pull, while the vertical component (T·sinθ) INCREASES, reducing the normal force and therefore reducing friction.",
             "Note these two effects push acceleration in OPPOSITE directions — less forward pull tends to decrease acceleration, while less friction tends to increase it — so the net effect depends on the specific numbers, not a simple 'more force always helps' assumption.",
-            "Conclude the student's claim is INCORRECT as a blanket statement: increasing the angle does not always increase acceleration, since at large enough angles, the loss of horizontal pull can outweigh the reduction in friction, and there is even a well-defined angle that maximizes acceleration rather than acceleration simply increasing without limit."
+            "Test it with numbers: at θ = 45° (cos45° = sin45° ≈ 0.707), T·cosθ ≈ 35.4 N, F_N = 117.6 − 35.4 = 82.2 N, f_k = 0.25(82.2) ≈ 20.6 N, so a = (35.4 − 20.6)/12 ≈ 1.2 m/s², which is LESS than the 1.7 m/s² found at 30°. (Acceleration is largest where tanθ = μ_k = 0.25, about 14°; 30° is already past that, so steepening the rope from 30° makes things worse.) Conclude the student's claim is INCORRECT: the rope force does not increase (it stays 50 N), it is only redirected, and here increasing the angle lowers the acceleration because the lost forward pull outweighs the reduced friction."
           ]
         }
       ]
@@ -7071,7 +7071,7 @@ const FRQ_CONTENT = {
       "id": "frq-2-3",
       "source": "Original",
       "title": "Comparing Force Pairs and Net Force",
-      "prompt": "A 1500 kg car pushes against a stalled 1000 kg car, both initially at rest, accelerating the pair together at 1.2 m/s² across a frictionless surface (idealized for this problem). (a) Find the net force on the combined two-car system. (b) Find the force the pushing car exerts on the stalled car. (c) A student claims that since the pushing car is more massive, it must exert a larger force on the stalled car than the stalled car exerts back on it. Evaluate this claim, and reconcile it with your answer to part (b).",
+      "prompt": "A 1500 kg car pushes against a stalled 1000 kg car, both initially at rest, accelerating the pair together at 1.2 m/s². The stalled car's wheels roll freely, and rolling resistance and air resistance are negligible, so the only external horizontal force on the two-car system is the forward push of the road on the pushing car's drive wheels. (a) Find the net force on the combined two-car system. (b) Find the force the pushing car exerts on the stalled car. (c) A student claims that since the pushing car is more massive, it must exert a larger force on the stalled car than the stalled car exerts back on it. Evaluate this claim, and reconcile it with your answer to part (b).",
       "parts": [
         {
           "label": "(a)",
@@ -7079,7 +7079,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Treat both cars together as a single system with total mass 1500+1000=2500 kg.",
             "Apply Newton's Second Law to the whole system: F_net = m_total × a = 2500 × 1.2 = 3000 N.",
-            "This net force is the internal engine/driving force of the pushing car, since the surface is frictionless and there's no other external horizontal force on the two-car system."
+            "Identify where this 3000 N comes from: it must be an EXTERNAL force, namely static friction from the road pushing forward on the pushing car's drive wheels. The engine is internal to the system; it only turns the wheels so the tires push back on the road, and the road pushes the car forward (Newton's Third Law)."
           ]
         },
         {
@@ -7097,7 +7097,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recall Newton's Third Law: whatever force the pushing car exerts on the stalled car, the stalled car exerts an equal and opposite force back on the pushing car — regardless of either car's mass.",
             "State the reconciliation directly: the force found in part (b), 1200 N, is exerted BY the pushing car ON the stalled car; by Newton's Third Law, the stalled car pushes back on the pushing car with that exact same 1200 N, just in the opposite direction.",
-            "Conclude the student's claim is INCORRECT: mass has no bearing on the magnitude of a Third Law force pair — only on how much each car accelerates in response to that shared force (a = F/m), which is precisely why the lighter stalled car and the heavier pushing car end up sharing the same acceleration only because they're rigidly in contact, not because the forces on them differ."
+            "Conclude the student's claim is INCORRECT: the two forces in a Third Law pair are always equal in magnitude, whatever the masses. To reconcile with part (b), look at the pushing car by itself: the road pushes it forward with 3000 N and the stalled car pushes it backward with 1200 N, so its net force is 1800 N = (1500 kg)(1.2 m/s²). Both cars have the same acceleration because each car's NET force is proportional to its mass, not because the cars push on each other with different forces."
           ]
         }
       ]
@@ -7138,7 +7138,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recall the actual condition for conservation of MECHANICAL energy specifically: it only holds when no non-conservative force does work on the system.",
             "Note that friction acts on the ramp portion of this problem, doing negative work and removing mechanical energy from the block.",
-            "Conclude the student's claim is INCORRECT: while TOTAL energy (including heat generated by friction) is indeed always conserved, mechanical energy (KE+PE) specifically is NOT conserved here, since friction converts some of it into heat — this is exactly why the block's kinetic energy at the top (7.8 J) is less than its kinetic energy right after leaving the spring (50.0 J), even though both PE gained and heat lost account for the full difference."
+            "Conclude the student's claim is INCORRECT. Conservation of energy does not mean kinetic energy stays constant. Even on a frictionless ramp the KE would fall by the 29.4 J that becomes gravitational PE; with friction a further 12.8 J becomes thermal energy. The 50.0 J − 7.8 J = 42.2 J drop in KE is exactly 29.4 J + 12.8 J, so TOTAL energy is conserved even though kinetic (and mechanical) energy is not."
           ]
         }
       ]
@@ -7383,8 +7383,8 @@ const FRQ_CONTENT = {
           "label": "(d)",
           "ask": "Evaluate the student's claim.",
           "steps": [
-            "Recall that static equilibrium requires the WALL's contribution specifically to be horizontal only (since it's frictionless) — but this doesn't mean the LADDER as a whole can't achieve overall equilibrium.",
-            "Point to the calculation just completed: the ground provides both a vertical normal force (supporting the ladder's weight) AND a horizontal static friction force (balancing the wall's horizontal push) — between the ground's two force components and the wall's single horizontal force, all the conditions for equilibrium (ΣF_x=0, ΣF_y=0, Στ=0) can be satisfied simultaneously.",
+            "Recall what equilibrium requires: ΣF_x = 0, ΣF_y = 0, and Στ = 0. Because the wall is frictionless, its force on the ladder can only be horizontal (a normal force). That limits what the wall can do, but it does not stop the other forces from satisfying all three conditions.",
+            "Show that all three conditions hold: ΣF_y = 0 gives the ground's normal force F_N = 150 N, balancing the weight; ΣF_x = 0 is met by static friction of 32.7 N toward the wall, balancing the wall's 32.7 N push; and Στ = 0 about the base is how F_wall was found in part (b). Every condition is satisfied with the wall supplying only a horizontal force.",
             "Conclude the student's claim is INCORRECT: a frictionless wall is perfectly consistent with the ladder being in static equilibrium, AS LONG AS the ground provides sufficient friction — the wall doesn't need to supply any vertical or frictional force itself, since the ground handles that role entirely."
           ]
         }
@@ -7434,7 +7434,7 @@ const FRQ_CONTENT = {
       "id": "frq-5-3",
       "source": "Original",
       "title": "Comparing Moment of Inertia Configurations",
-      "prompt": "Two identical point masses, each 2.0 kg, are attached to the ends of a light rod. In Configuration A, the masses sit 0.30 m from the rod's center (on opposite sides), and the rod rotates about its center. In Configuration B, the same two masses are moved to sit 0.60 m from the center. (a) Find the moment of inertia for Configuration A. (b) Find the moment of inertia for Configuration B. (c) A student claims that since the distance in Configuration B is only double that of Configuration A, the moment of inertia should also only double. Evaluate this claim using your answers to parts (a) and (b). (d) If the same torque is applied to both configurations, compare their resulting angular accelerations.",
+      "prompt": "Two identical point masses, each 2.0 kg, are attached to a long light rod, one on each side of its center. In Configuration A, the masses sit 0.30 m from the rod's center (on opposite sides), and the rod rotates about its center. In Configuration B, the same two masses are moved to sit 0.60 m from the center. (a) Find the moment of inertia for Configuration A. (b) Find the moment of inertia for Configuration B. (c) A student claims that since the distance in Configuration B is only double that of Configuration A, the moment of inertia should also only double. Evaluate this claim using your answers to parts (a) and (b). (d) If the same torque is applied to both configurations, compare their resulting angular accelerations.",
       "parts": [
         {
           "label": "(a)",
@@ -7542,7 +7542,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Find KE before (person at center contributes zero, only the platform is spinning): KE_before = ½(400)(2.0)² = ½(400)(4.0) = 800 J.",
             "Find KE after: KE_after = ½(600)(4/3)² = ½(600)(16/9) = 4800/9 ≈ 533 J.",
-            "Compare: KE decreased from 800 J to about 533 J — energy was REMOVED from the rotational system (about 267 J), as the person walking outward against the platform's rotation does negative work on the system (the platform has to do work on the person to keep them moving in a circle at increasing radius, which comes at the cost of the platform's own rotational KE)."
+            "Compare: KE decreased from 800 J to about 533 J, so about 267 J of kinetic energy was REMOVED from the system. Where it went: the platform and person push only on each other (internal forces), so no outside agent took the energy. As the person walks outward they must keep resisting being flung outward, like lowering a heavy load slowly; their leg muscles do negative work, and the 267 J ends up as internal (thermal) energy in the person's body rather than as kinetic energy."
           ]
         },
         {
@@ -7566,8 +7566,8 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Derive the general speed expression.",
           "steps": [
-            "Apply conservation of energy: mgh = ½mv² + ½Iω², with I=kMR² and, for rolling without slipping, ω=v/R.",
-            "Substitute: mgh = ½mv² + ½(kMR²)(v/R)² = ½mv² + ½kMv² = ½Mv²(1+k).",
+            "Apply conservation of energy from the top (at rest) to the bottom: Mgh = ½Mv² + ½Iω², with I = kMR² and, for rolling without slipping, ω = v/R.",
+            "Substitute: Mgh = ½Mv² + ½(kMR²)(v/R)² = ½Mv² + ½kMv² = ½Mv²(1+k).",
             "The mass M cancels from both sides: gh = ½v²(1+k).",
             "Solve for v: v² = 2gh/(1+k), so v = √(2gh/(1+k))."
           ]
@@ -7586,7 +7586,7 @@ const FRQ_CONTENT = {
           "ask": "Evaluate the student's claim about acceleration.",
           "steps": [
             "Recall that final energy (and therefore final speed) being determined only by height is a statement about the START and END states — it says nothing directly about what happens at every point IN BETWEEN.",
-            "Recall from Unit 5's stretch discussion that objects with different moments of inertia have different accelerations down a ramp — specifically, a smaller k (like the sphere) results in a larger fraction of gravity's effect going toward linear acceleration rather than angular acceleration, giving it a genuinely larger acceleration at every point along the ramp, not just a different final speed.",
+            "Find the acceleration: along the incline, Mg·sinθ − f = Ma and the friction torque gives fR = Iα = kMR²(a/R), so f = kMa. Then Mg·sinθ = Ma(1+k), giving a = g·sinθ/(1+k). This is constant along the ramp but depends on k: sphere a = (5/7)g·sinθ ≈ 0.71g·sinθ, disk a = (2/3)g·sinθ ≈ 0.67g·sinθ, hoop a = ½g·sinθ. Mass and radius cancel, but the mass DISTRIBUTION (k) does not.",
             "Conclude the student's claim is INCORRECT: even though all three objects share the same total energy conversion by the bottom (governed only by mgh), they do NOT share the same acceleration at each point along the ramp — the sphere consistently accelerates faster than the disk, which accelerates faster than the hoop, which is exactly why the sphere pulls ahead and finishes with the highest speed rather than all three arriving together."
           ]
         }
@@ -7598,7 +7598,7 @@ const FRQ_CONTENT = {
       "id": "frq-7-1",
       "source": "Original",
       "title": "Comparing Two Spring-Mass Systems",
-      "prompt": "Spring System A has mass 2.0 kg and spring constant 200 N/m. Spring System B has mass 8.0 kg and the same spring constant, 200 N/m. Both are pulled to an amplitude of 0.15 m and released from rest at the same instant. (a) Find the period of each system. (b) Find the total mechanical energy of each system. (c) Find the maximum speed of each system. (d) A student claims that since System B has more total energy (having the same amplitude and spring constant, but not yet analyzed for energy), it must also have a greater maximum speed than System A. Evaluate this claim using your answers above.",
+      "prompt": "Spring System A has mass 2.0 kg and spring constant 200 N/m. Spring System B has mass 8.0 kg and the same spring constant, 200 N/m. Both are pulled to an amplitude of 0.15 m and released from rest at the same instant. (a) Find the period of each system. (b) Find the total mechanical energy of each system. (c) Find the maximum speed of each system. (d) A student claims that since System B has more mass, it must have more total energy, and therefore a greater maximum speed than System A. Evaluate this claim using your answers above.",
       "parts": [
         {
           "label": "(a)",
@@ -7667,7 +7667,7 @@ const FRQ_CONTENT = {
           "ask": "Determine g from the given data.",
           "steps": [
             "Compute T² for each data point: (0.20, 0.81), (0.40, 1.61), (0.60, 2.40), (0.80, 3.24), (1.00, 4.04).",
-            "Plot T² vs. L and find the best-fit slope — the data is quite linear, with a slope of approximately 4.04 s²/m (computed from the overall trend, e.g., using the first and last points: (4.04−0.81)/(1.00−0.20) = 3.23/0.80 ≈ 4.04 s²/m).",
+            "Plot T² (vertical, s²) against L (horizontal, m) and draw a single straight best-fit line through the points (it should pass close to the origin). Take the slope from two widely separated points ON THE LINE. Here the data lie almost exactly on the line, so the line passes through about (0.20 m, 0.81 s²) and (1.00 m, 4.04 s²): slope = (4.04 − 0.81)/(1.00 − 0.20) = 3.23/0.80 ≈ 4.04 s²/m (a least-squares fit gives the same, about 4.04 s²/m).",
             "Solve for g: g = 4π²/slope = 4π²/4.04 ≈ 39.48/4.04 ≈ 9.77 m/s² — close to the accepted value of 9.8 m/s², confirming the method's validity."
           ]
         }
@@ -7676,7 +7676,7 @@ const FRQ_CONTENT = {
     {
       "id": "frq-7-3",
       "source": "Original",
-      "title": "A Mass Dropped Onto a Spring",
+      "title": "A Block Oscillating on a Vertical Spring",
       "prompt": "A 1.5 kg block is attached to the top of a vertical spring (k=600 N/m), compressing it slightly at equilibrium. The block is then pushed down an additional 0.10 m from that equilibrium position and released from rest, undergoing SHM. (a) Find the angular frequency of the resulting oscillation. (b) Find the period of oscillation. (c) Find the maximum speed of the block during its motion. (d) A student claims that because the block started below the spring's natural (uncompressed) length, the amplitude of its SHM must be measured from the spring's natural length, not from the new equilibrium position. Evaluate this claim.",
       "parts": [
         {
@@ -7760,15 +7760,15 @@ const FRQ_CONTENT = {
       "id": "frq-8-2",
       "source": "Original",
       "title": "A Venturi-Style Pipe Experiment",
-      "prompt": "A student has a horizontal pipe that narrows from a wide section (area 0.040 m²) to a narrow section (area 0.010 m²), with pressure gauges at each section, a water source, and a stopwatch. Water (ρ=1000 kg/m³) flows through the pipe. (a) Describe a procedure to experimentally verify the continuity equation using the available equipment. (b) In a trial, the wide section shows a speed of 1.5 m/s. Find the speed in the narrow section, and the volume flow rate through the pipe. (c) The wide section shows a pressure of 1.80×10⁵ Pa. Find the pressure in the narrow section using Bernoulli's equation. (d) A student claims that since the pipe is horizontal, the pressure should be the same in both sections. Evaluate this claim.",
+      "prompt": "A student has a horizontal pipe that narrows from a wide section (area 0.040 m²) to a narrow section (area 0.010 m²), with pressure gauges at each section. The pipe is transparent. The student also has a water source, a stopwatch, a meter stick, food dye, and a graduated container. Water (ρ=1000 kg/m³) flows through the pipe. (a) Describe a procedure to experimentally verify the continuity equation using the available equipment. (b) In a trial, the wide section shows a speed of 1.5 m/s. Find the speed in the narrow section, and the volume flow rate through the pipe. (c) The wide section shows a pressure of 1.80×10⁵ Pa. Find the pressure in the narrow section using Bernoulli's equation. (d) A student claims that since the pipe is horizontal, the pressure should be the same in both sections. Evaluate this claim.",
       "parts": [
         {
           "label": "(a)",
           "ask": "Describe an experimental procedure.",
           "steps": [
-            "Measure the fluid speed at both the wide and narrow sections — for instance, by timing how long it takes a known volume of water to pass a marked point, or using a flow-speed sensor if available at each gauge location.",
+            "Measure the flow speed in each section: set the water source to a slow, steady flow, mark a known length (for example 1.00 m) along each section with the meter stick, inject a drop of dye upstream, and time how long the dye takes to travel each marked length; v = distance/time. Repeat several times and average.",
             "Record the corresponding pressure readings from the gauges at each section simultaneously.",
-            "Compute the volume flow rate at each section separately (Q=Av) and compare — the continuity equation predicts these two values should match, since no water is added or removed between the two sections.",
+            "Compute the volume flow rate at each section (Q = Av, using the given areas) and compare: the continuity equation predicts A₁v₁ = A₂v₂, since no water is added or lost between the sections. As an independent check, collect the water leaving the pipe in the graduated container for a timed interval; Q = volume/time should match both values.",
             "Repeat across multiple flow rates (adjusting the water source) to confirm the relationship holds consistently, not just for one specific trial."
           ]
         },
@@ -7804,7 +7804,7 @@ const FRQ_CONTENT = {
       "id": "frq-8-3",
       "source": "Original",
       "title": "Comparing Two Submerged Objects",
-      "prompt": "Object A (volume 0.0080 m³, mass 6.0 kg) and Object B (volume 0.0080 m³, mass 12 kg) are both fully submerged and held underwater (ρ=1000 kg/m³) by a string attached to the bottom of a tank. (a) Find the buoyant force on each object. (b) Find the tension in the string holding each object down, or determine if a string is even needed. (c) A student claims that since Object B has more mass, it must experience a greater buoyant force than Object A. Evaluate this claim using your answers above.",
+      "prompt": "Object A (volume 0.0080 m³, mass 6.0 kg) and Object B (volume 0.0080 m³, mass 12 kg) are both fully submerged and held at rest in water (ρ=1000 kg/m³) by a string: Object A by a string tied to the bottom of the tank, and Object B by a string hanging from a support above the tank, so that neither touches the tank floor. (a) Find the buoyant force on each object. (b) Find the tension in each string, and state whether the string pulls up or down on its object. (c) A student claims that since Object B has more mass, it must experience a greater buoyant force than Object A. Evaluate this claim using your answers above.",
       "parts": [
         {
           "label": "(a)",
@@ -7816,10 +7816,10 @@ const FRQ_CONTENT = {
         },
         {
           "label": "(b)",
-          "ask": "Find the tension needed for each object, or determine if none is needed.",
+          "ask": "Find the tension in each string and its direction.",
           "steps": [
             "For Object A: weight = mg = (6.0)(9.8) = 58.8 N. Since buoyant force (78.4 N) exceeds weight (58.8 N), the object would float upward on its own — a string is needed to hold it DOWN, with tension T_A = F_b − weight = 78.4 − 58.8 = 19.6 N (string pulling downward).",
-            "For Object B: weight = mg = (12)(9.8) = 117.6 N. Since weight (117.6 N) exceeds buoyant force (78.4 N), the object would sink on its own. Taking the problem's setup as a string suspending it at a fixed depth (not resting on the tank floor), the string must pull UP to hold it there, with tension = 117.6 − 78.4 = 39.2 N.",
+            "For Object B: weight = mg = (12)(9.8) = 117.6 N. Since its weight (117.6 N) exceeds the buoyant force (78.4 N), it would sink on its own, so the string from above must pull UP. Force balance: T_B + F_b = mg, so T_B = 117.6 − 78.4 = 39.2 N (string pulling upward).",
             "Recognize this distinction: Object A needs to be held DOWN (tension pulling down, 19.6 N, since it's more buoyant than heavy); Object B needs to be held UP (tension pulling up, 39.2 N, since it's heavier than buoyant) — the string's role flips direction depending on which force wins."
           ]
         },
