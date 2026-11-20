@@ -73,7 +73,7 @@ const QUESTIONS = {
         "Distance 11 m; displacement 11 m"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Distance 11 m; displacement 5.0 m. Distance simply adds path lengths regardless of direction: 8.0 + 3.0 = 11 m. Displacement is the net change in position: 8.0 m east minus 3.0 m west = 5.0 m east. This is the core distinction the whole section is built around — distance never cancels, displacement does."
+      "explanation": "Correct: (C) Distance 11 m; displacement 5.0 m. Distance is a scalar that adds up every bit of path length no matter which way the person walks: 8.0 m + 3.0 m = 11 m. Displacement is a vector, the net change in position, so the opposite legs subtract: taking east as positive, Δx = (+8.0 m) + (−3.0 m) = +5.0 m, or 5.0 m east. The clue words \"total distance\" and \"magnitude of displacement\" ask for these two different quantities. Distance never cancels; displacement does, which is why distance is always at least as large as the displacement's magnitude.\n\n(A) is wrong because swaps the two quantities: 5.0 m is the net displacement and 11 m is the path length, not the other way around.\n(B) is wrong because uses the net 5.0 m for both, as if distance could cancel when the person turns around; distance counts the 3.0 m walked back.\n(D) is wrong because adds the two legs for displacement too, ignoring that the 3.0 m west leg points opposite the 8.0 m east leg and subtracts."
     },
     {
       "id": "1-2",
@@ -112,7 +112,7 @@ const QUESTIONS = {
         "Displacement 0 m; distance 15 m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Displacement 0 m; distance 15 m. Since the object starts and ends at the exact same position, displacement is exactly zero, no matter how winding the path was. Distance only cares about the path actually traveled, which was 15 m — this is the same round-trip logic that makes average velocity zero for a full lap."
+      "explanation": "Correct: (D) Displacement 0 m; distance 15 m. Displacement depends only on the starting and ending positions: Δx = x<sub>f</sub> − x<sub>i</sub> = 2.0 m − 2.0 m = 0 m, however winding the route. Distance is the total length of path actually covered, which the stem gives directly as 15 m. The clue is that the start and end coordinates are identical while the path is curved. This is the same logic that makes a full lap of a track give zero displacement (and zero average velocity) but a large distance and a nonzero average speed.\n\n(A) is wrong because treats the 15 m of path as displacement, but displacement ignores the route and only compares the identical start and end positions.\n(B) is wrong because sets distance to zero along with displacement, yet the object really covered 15 m of ground, and distance never cancels.\n(C) is wrong because reverses the two ideas: the 15 m belongs to distance (path length), while displacement is zero because x<sub>f</sub> = x<sub>i</sub>."
     },
     {
       "id": "1-5",
@@ -138,7 +138,7 @@ const QUESTIONS = {
         "Yes, if the object moves in a straight line without reversing."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No, distance can't be less than displacement. Distance can never be smaller than the magnitude of displacement — the straight-line path (which is what displacement measures) is always the shortest possible route between two points. Distance equals displacement's magnitude only for pure, straight-line, non-reversing motion; any detour or reversal only adds extra distance without adding to displacement."
+      "explanation": "Correct: (C) No, distance can't be less than displacement. Displacement is the straight-line change in position from start to finish, and a straight line is the shortest possible route between two points. Any real path between the same two points is therefore at least that long, so distance ≥ |displacement| always. They are equal only for straight-line motion with no reversal; every detour or turnaround adds distance without adding displacement. The word \"less\" in the stem is the key: distance can equal or exceed the displacement's magnitude, but never fall below it.\n\n(A) is wrong because reverses the effect of changing direction: a reversal adds path length, making distance larger than displacement, never smaller.\n(B) is wrong because describes a round trip, where displacement is zero and distance is positive, so distance is greater, not less.\n(D) is wrong because describes the one case where distance exactly equals the magnitude of displacement, which is still not less than it."
     },
     {
       "id": "1-7",
@@ -164,7 +164,7 @@ const QUESTIONS = {
         "It's on the negative side of the chosen origin."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It's on the negative side of the chosen origin. A negative position simply means the object sits on the negative side of whatever origin was chosen — it says nothing by itself about which direction the object is currently moving. Position, velocity, and their signs are three separate pieces of information that shouldn't be conflated."
+      "explanation": "Correct: (D) It's on the negative side of the chosen origin. Position is measured from an origin that we choose, with one direction labeled positive. A negative value of x(t) only says where the object is at that instant: on the negative side of the origin. It says nothing about which way the object is moving (that is the sign of velocity, the slope of x vs. t) or how fast. For example, an object at x = −3 m can be moving in the +x direction toward the origin. Position, velocity, and acceleration each carry their own sign and must not be conflated.\n\n(A) is wrong because assumes negative numbers signal a mistake, but negative positions are perfectly valid coordinates on the far side of the chosen origin.\n(B) is wrong because confuses position with velocity; moving backward is shown by a negative slope of x vs. t, not by a negative x value.\n(C) is wrong because is impossible as stated: speed is a magnitude and is never negative, and position's sign says nothing about motion anyway."
     },
     {
       "id": "1-9",
@@ -177,7 +177,7 @@ const QUESTIONS = {
         "Average speed = 0; average velocity = 0"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Average speed ≈ 2.67 m/s; average velocity = 0. Average speed uses total distance (800 m) over total time (300 s): 800/300 ≈ 2.67 m/s. Average velocity uses total displacement, which is zero since the jogger returns to the start — giving average velocity of exactly 0 m/s, regardless of how far they actually ran."
+      "explanation": "Correct: (B) Average speed ≈ 2.67 m/s; average velocity = 0. Average speed = total distance / total time = (400 m + 400 m)/(100 s + 200 s) = 800 m / 300 s ≈ 2.67 m/s. Average velocity = total displacement / total time; the jogger returns to the starting point, so Δx = 0 and average velocity = 0/300 s = 0 m/s. The clue \"walks back the same 400 m\" signals a round trip. Note that you cannot average the two leg speeds (4.0 and 2.0 m/s) to get 3.0 m/s, because more time is spent on the slower leg.\n\n(A) is wrong because divides only one 400 m leg by the full 300 s (400/300 ≈ 1.33 m/s) and then gives velocity the same value despite zero displacement.\n(C) is wrong because uses total distance for velocity too, but velocity needs displacement, which is zero for this round trip back to the start.\n(D) is wrong because sets speed to zero along with velocity, but the jogger covered 800 m of path, so the average speed is clearly positive."
     },
     {
       "id": "1-10",
@@ -216,7 +216,7 @@ const QUESTIONS = {
         "Never — if one is zero, so is the other."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Yes — whenever the object returns to its start. This is possible any time an object's net displacement is zero but it covered real distance getting there and back — a round trip is the simplest example. Average speed (built from total distance) stays positive in that case, while average velocity (built from displacement) comes out to exactly zero."
+      "explanation": "Correct: (C) Yes — whenever the object returns to its start. Average velocity = displacement / time, while average speed = distance / time. If an object returns to its starting point, its displacement is zero, so average velocity is exactly zero, yet it covered real distance, so average speed is positive. A round trip (out and back, or a full lap of a track) is the simplest case. The clue \"over some time interval\" means only the start and end positions matter for velocity, while every meter of the path counts for speed.\n\n(A) is wrong because adds a condition that does not matter: speed can vary freely on the way out and back; only returning to the start is required.\n(B) is wrong because is backward: an object that never changes direction has displacement equal to distance, so average velocity could not be zero while speed is not.\n(D) is wrong because assumes speed and velocity always vanish together, but a round trip has zero displacement and positive distance, separating them."
     },
     {
       "id": "1-13",
@@ -242,7 +242,7 @@ const QUESTIONS = {
         "No, the average speed is less than 50 km/hr."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) No, the average speed is less than 50 km/hr. Simply averaging the two speeds is a common trap — average speed is total distance over total time, not an average of rates. Since the car spends MORE time covering the same distance at the slower 40 km/hr than at 60 km/hr, that slower speed gets weighted more heavily, pulling the true average speed below the naive 50 km/hr midpoint."
+      "explanation": "Correct: (D) No, the average speed is less than 50 km/hr. Average speed is total distance over total time, not the average of the two speeds. Let each half be d. Time = d/40 + d/60 = d(3 + 2)/120 = d/24 hr, so average speed = 2d/(d/24) = 48 km/hr. The car spends more time on the slower half (1.5 times as long), so 40 km/hr is weighted more heavily and the true average (the harmonic mean, 48 km/hr) falls below the 50 km/hr midpoint. The clue \"first half of a fixed distance\" (not half the time) is what makes this happen.\n\n(A) is wrong because has the weighting backward: more time is spent at the slower 40 km/hr, which pulls the average down to 48 km/hr, not up.\n(B) is wrong because averages rates directly; (40 + 60)/2 = 50 would only be right if equal TIMES, not equal distances, were spent at each speed.\n(C) is wrong because contradicts the stem, which says the halves are equal distances; unequal distances is a different problem and would not guarantee 50 km/hr."
     },
     {
       "id": "1-15",
@@ -346,7 +346,7 @@ const QUESTIONS = {
         "It stays in the same direction throughout, never changing."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It stays in the same direction throughout, never changing. This entire scenario — slowing while moving right, then speeding up while moving left — is exactly what happens under a single, constant acceleration pointing left the whole time (think of a ball rolling up and back down a ramp, or thrown up and falling back down). The acceleration never needs to reverse direction to produce this motion."
+      "explanation": "Correct: (D) It stays in the same direction throughout, never changing. Acceleration is the rate of change of velocity, a = Δv/Δt. Take right as positive. While the ball moves right and slows down, v is positive and decreasing, so Δv is negative and a points left. After it stops and speeds up moving left, v is negative and growing in magnitude, so Δv is again negative and a still points left. One constant leftward acceleration produces the whole slow, stop, reverse sequence, just like a ball thrown up and falling back down, where a = g downward the entire time.\n\n(A) is wrong because confuses acceleration with velocity: the velocity reverses direction, but the leftward acceleration causes that reversal and never flips.\n(B) is wrong because assumes stopping means zero acceleration, but at the instant v = 0 the velocity is still changing, so acceleration is nonzero.\n(C) is wrong because is unnecessary: the signs of velocity and its changes in both stages are enough to fix the acceleration's direction as left throughout."
     },
     {
       "id": "1-23",
@@ -359,7 +359,7 @@ const QUESTIONS = {
         "0.6 m/s²"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0 m/s². Average acceleration only depends on the overall change in velocity across the full interval: Δv = v<sub>final</sub> − v<sub>initial</sub> = 5.0 − 5.0 = 0, regardless of what happened in between. Average acceleration is 0/10 = 0 m/s², even though the object's velocity clearly wasn't constant throughout."
+      "explanation": "Correct: (A) 0 m/s². Average acceleration uses only the velocities at the start and end of the interval: a<sub>avg</sub> = Δv/Δt = (v<sub>f</sub> − v<sub>i</sub>)/Δt = (5.0 m/s − 5.0 m/s)/10 s = 0 m/s². The drop to 2.0 m/s at the 5 s mark changes the instantaneous acceleration during the interval (negative, then positive) but cancels out of the average, the same way a round trip gives zero average velocity. The phrase \"over the full 10 s\" is the clue to use the endpoints only.\n\n(B) is wrong because divides the 3.0 m/s dip by the full 10 s (3.0/10 = 0.3), but the dip is undone by the end, so the net Δv is zero.\n(C) is wrong because the start and end velocities and total time are all given, which is everything average acceleration requires.\n(D) is wrong because is the magnitude of the acceleration during one half only (3.0 m/s over 5 s = 0.6 m/s²), not the average over the full interval."
     },
     {
       "id": "1-24",
@@ -476,7 +476,7 @@ const QUESTIONS = {
         "Positive"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Positive. Since velocity is increasing over time (moving from a more negative value toward zero, i.e., increasing), and the slope of a v-t graph gives acceleration, an increasing straight-line trend on a v-t graph means a positive slope, hence positive acceleration — even though the velocity itself stays negative throughout this interval."
+      "explanation": "Correct: (D) Positive. On a v-t graph, the slope is the acceleration. Velocity that is negative but moving toward zero (for example, from −6 m/s to −2 m/s) is increasing, so the straight line slopes upward and a = Δv/Δt is positive. The object is moving in the negative direction and slowing down, because velocity and acceleration have opposite signs. The clue \"becoming less negative\" means the velocity value is rising, so the sign of the acceleration is set by the slope, not by the sign of v.\n\n(A) is wrong because acceleration is exactly the slope of a v-t graph, so its sign can be read directly from the line.\n(B) is wrong because takes the sign of the velocity instead of the slope; the velocity is negative, but it is increasing, so the slope is positive.\n(C) is wrong because would require a horizontal line, but the velocity is changing (moving toward zero), so the slope and acceleration are not zero."
     },
     {
       "id": "1-33",
@@ -528,7 +528,7 @@ const QUESTIONS = {
         "20 m"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0 m. This forms two triangular areas of equal size but opposite sign — one above the time axis (positive displacement while v>0) and one below it (negative displacement while v<0). Since the line is symmetric, these two areas exactly cancel, giving a total displacement of 0 m — even though the object was moving the entire time."
+      "explanation": "Correct: (C) 0 m. Displacement is the signed area between a v-t graph and the time axis. The line crosses zero at t = 2 s. From 0 to 2 s the area above the axis is ½(2 s)(5 m/s) = +5 m; from 2 to 4 s the area below the axis is ½(2 s)(−5 m/s) = −5 m. The total displacement is +5 m + (−5 m) = 0 m: the object moves 5 m forward, stops, and returns 5 m. The distance traveled, however, is 10 m, because distance adds the two areas as magnitudes.\n\n(A) is wrong because is the total distance (5 m + 5 m), adding both triangle areas as positive instead of letting the area below the axis count as negative.\n(B) is wrong because makes both triangles negative, but the first 2 s has positive velocity, so that area is +5 m and the sum is zero.\n(D) is wrong because multiplies 5 m/s by the full 4 s as if the velocity stayed +5 m/s; the velocity actually falls linearly through zero to −5 m/s."
     },
     {
       "id": "1-37",
@@ -658,7 +658,7 @@ const QUESTIONS = {
         "33 m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 33 m. Phase 1: Δx = ½(2.0)(3.0)² = 9.0 m, reaching v = (2.0)(3.0) = 6.0 m/s. Phase 2 (constant velocity): Δx = (6.0)(4.0) = 24 m. Total: 9.0 + 24 = 33 m — this only works by splitting the motion into its two separate constant-acceleration phases, exactly as the trap box in 1.5 warns."
+      "explanation": "Correct: (D) 33 m. Split the motion into its two constant-acceleration phases. Phase 1 (from rest, a = 2.0 m/s², t = 3.0 s): Δx<sub>1</sub> = ½at² = ½(2.0 m/s²)(3.0 s)² = 9.0 m, and the speed reached is v = at = (2.0)(3.0) = 6.0 m/s. Phase 2 (constant velocity for 4.0 s): Δx<sub>2</sub> = vt = (6.0 m/s)(4.0 s) = 24 m. Total distance = 9.0 m + 24 m = 33 m. A single kinematic equation cannot cover both phases because the acceleration changes at t = 3.0 s.\n\n(A) is wrong because applies the final 6.0 m/s to the full 7.0 s (6.0 × 7.0 = 42 m), ignoring that the object started from rest and averaged only 3.0 m/s in phase 1.\n(B) is wrong because stops after phase 1 (½ × 2.0 × 3.0² = 9.0 m) and leaves out the 24 m covered during the 4.0 s at constant speed.\n(C) is wrong because counts only phase 2 (6.0 m/s × 4.0 s = 24 m) and omits the 9.0 m covered while speeding up from rest."
     },
     {
       "id": "1-47",
@@ -867,7 +867,7 @@ const QUESTIONS = {
         "90°, since that gives the highest possible vertical speed."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 45°, since it balances hang time and horizontal speed. Range depends on both how fast the projectile moves horizontally (favoring a small angle, more horizontal component) and how long it stays airborne (favoring a large angle, more vertical component, more hang time). These two effects trade off against each other, and for launch and landing at the same height, 45° balances them exactly, maximizing the product of horizontal speed and flight time."
+      "explanation": "Correct: (A) 45°, since it balances hang time and horizontal speed. On level ground, range = (horizontal speed) × (time in the air). Horizontal speed is v<sub>0</sub>cosθ, which favors low angles; flight time is 2v<sub>0</sub>sinθ/g, which favors high angles. Their product, R = 2v<sub>0</sub>²sinθcosθ/g = v<sub>0</sub>²sin2θ/g, is largest when sin2θ = 1, so θ = 45°. Conceptually, 45° splits the launch speed equally between the two components, balancing hang time against horizontal speed. (This holds only when launch and landing heights match and air resistance is ignored.)\n\n(B) is wrong because maximizes horizontal speed but gives zero flight time on level ground, so the projectile lands immediately with essentially no range.\n(C) is wrong because brings in mass, but in projectile motion every mass falls with the same g, so mass drops out of the range entirely.\n(D) is wrong because maximizes flight time but leaves zero horizontal velocity, so the projectile goes straight up and lands where it started."
     },
     {
       "id": "1-63",
@@ -880,7 +880,7 @@ const QUESTIONS = {
         "Rising takes longer."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The two times are equal. For a projectile launched and landing at the same height, the vertical motion is symmetric — the vertical velocity component simply reverses sign on the way back down, following the same free-fall physics as Section 1.6's up-and-down symmetry. Time up always equals time down in this scenario."
+      "explanation": "Correct: (B) The two times are equal. With no air resistance, the vertical motion is free fall with constant a = −g. Rising, v<sub>y</sub> drops from v<sub>0y</sub> to 0 in t = v<sub>0y</sub>/g. Falling back to launch height, it covers the same vertical distance from rest with the same acceleration, so it also takes v<sub>0y</sub>/g and arrives with v<sub>y</sub> = −v<sub>0y</sub>. The vertical motion is symmetric in time, so time up = time down, each half the total flight time. The clue is \"back down to its original launch height.\"\n\n(A) is wrong because assumes falling is slower or that gravity weakens on the way down; with constant g and no drag, the descent mirrors the ascent exactly.\n(C) is wrong because the angle changes how long each half lasts, but for any angle the up and down times stay equal to each other.\n(D) is wrong because has no physical basis without air resistance; the same constant acceleration over the same height gives identical rise and fall times."
     },
     {
       "id": "1-64",
@@ -907,7 +907,7 @@ const QUESTIONS = {
         "≈ 3.50 s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) ≈ 3.50 s. Initial vertical velocity: v0y = 20(0.50) = 10 m/s (upward). Taking up as positive, with the ground 25 m below the launch point: −25 = 10t − 4.9t², rearranged into standard form as 4.9t² − 10t − 25 = 0. Applying the quadratic formula: t = [10 ± √(10² + 4(4.9)(25))]/(2×4.9) = [10 ± √590]/9.8 ≈ [10 ± 24.3]/9.8. Taking the positive root (the physically meaningful one): t ≈ 34.3/9.8 ≈ 3.50 s — notice the projectile first rises above the cliff edge before falling all the way down to the base, which is why the total flight time is considerably longer than a simple ½gt²=25 drop alone would give."
+      "explanation": "Correct: (D) ≈ 3.50 s. Treat the vertical motion alone. v<sub>0y</sub> = (20 m/s)(sin30°) = (20)(0.50) = 10 m/s upward. Taking up as positive with the base 25 m below the launch point: Δy = v<sub>0y</sub>t − ½gt², so −25 = 10t − 4.9t², or 4.9t² − 10t − 25 = 0. The quadratic formula gives t = [10 + √(10² + 4(4.9)(25))]/(2 × 4.9) = (10 + √590)/9.8 = (10 + 24.29)/9.8 ≈ 3.50 s (the negative root is unphysical). The projectile rises about 5.1 m above the cliff edge first, so it takes longer than a plain 25 m drop (2.26 s).\n\n(A) is wrong because uses the full 20 m/s as the vertical launch speed, solving 4.9t² − 20t − 25 = 0 to get about 5.1 s; only 20 sin30° = 10 m/s is vertical.\n(B) is wrong because is too short: at t = 2.85 s the height is 10(2.85) − 4.9(2.85)² ≈ −11 m, so the projectile is still about 14 m above the base.\n(C) is wrong because is only the time to reach the peak, v<sub>0y</sub>/g = 10/9.8 ≈ 1.02 s, and ignores the entire fall from the peak down to the base."
     }
   ],
   "2": [
@@ -961,7 +961,7 @@ const QUESTIONS = {
         "Incorrect — constant velocity needs zero net force, not a forward push."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Incorrect — constant velocity needs zero net force, not a forward push. This is a classic and very common misconception. Newton's First Law states that constant-velocity motion persists with zero net force — no forward-pushing force is needed to sustain it. Assuming motion requires a continuous force is exactly the pre-Newtonian intuition this law was built to correct."
+      "explanation": "Correct: (D) Incorrect — constant velocity needs zero net force, not a forward push. Newton's First Law says an object with zero net force keeps a constant velocity; force changes motion (causes acceleration), it is not needed to sustain motion. On frictionless ice, the puck's weight and the normal force cancel and nothing acts horizontally, so F<sub>net</sub> = 0 and the puck glides at constant velocity forever. The clue \"constant velocity\" means a = 0, so ΣF = ma = 0; any unbalanced forward force would make the puck speed up. The student's claim is the pre-Newtonian (Aristotelian) idea that motion needs a push.\n\n(A) is wrong because contradicts the stem, which states the puck moves at constant velocity; the student's error is about force, not about the motion description.\n(B) is wrong because is the misconception itself: with no friction nothing slows the puck, so it keeps moving with no forward force at all.\n(C) is wrong because agrees with the false claim; slipperiness explains why no backward force acts, not why a forward force would be needed."
     },
     {
       "id": "2-5",
@@ -1026,7 +1026,7 @@ const QUESTIONS = {
         "Yes — the horizontal and vertical forces both cancel."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Yes — the horizontal and vertical forces both cancel. Equilibrium just requires the vector sum of all forces to be zero. The horizontal pair (20 N east and 20 N west) cancels on its own, and the problem states the vertical forces balance as well — so the total net force is zero, and the box is in equilibrium."
+      "explanation": "Correct: (D) Yes — the horizontal and vertical forces both cancel. An object is in (translational) equilibrium when the vector sum of all forces is zero, ΣF = 0, which means a = 0. Check each direction separately. Horizontally: +20 N east + (−20 N) west = 0. Vertically: the stem says the vertical pair balances gravity, so ΣF<sub>y</sub> = 0. Both components of the net force are zero, so the box is in equilibrium, consistent with its staying at rest. Equilibrium does not require few forces or equal forces, only that the sum is zero.\n\n(A) is wrong because is false: any number of forces can sum to zero, as the 20 N east and 20 N west pair already shows.\n(B) is wrong because overlooks that the stem gives the needed information: the horizontal forces cancel and the vertical forces are stated to balance.\n(C) is wrong because adds a needless requirement; forces of different sizes can still cancel (e.g., gravity and the vertical pair need not equal 20 N)."
     },
     {
       "id": "2-10",
@@ -1052,7 +1052,7 @@ const QUESTIONS = {
         "A car speeding up from a stoplight."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) An elevator moving downward at a constant 2 m/s. An elevator moving at constant velocity (even if that velocity is downward) has zero acceleration, and is therefore in equilibrium. The ball at its peak still has gravity acting on it (nonzero net force, nonzero acceleration); the speeding-up car and the still-accelerating skydiver both have nonzero net force by definition."
+      "explanation": "Correct: (C) An elevator moving downward at a constant 2 m/s. Equilibrium means zero net force, which by Newton's Second Law means zero acceleration: the velocity is constant (in both size and direction). Constant velocity need not be zero; an elevator moving downward at a steady 2 m/s has a = 0, so the cable tension exactly balances its weight and F<sub>net</sub> = 0. The clue \"constant 2 m/s\" is what matters, not the direction of motion. The other three objects all have a changing velocity, so each has a net force.\n\n(A) is wrong because confuses zero velocity with zero acceleration: at the peak v = 0 for an instant, but gravity still gives a = 9.8 m/s² downward.\n(B) is wrong because describes a skydiver whose speed is still increasing; before terminal velocity, weight exceeds air drag, so there is a net downward force.\n(D) is wrong because describes a speeding-up car, which has an acceleration and therefore a net forward force from the road (static friction)."
     },
     {
       "id": "2-12",
@@ -1208,7 +1208,7 @@ const QUESTIONS = {
         "Both skaters feel exactly the same magnitude of force."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Both skaters feel exactly the same magnitude of force. By Newton's Third Law, the force each skater exerts on the other is always equal in magnitude, regardless of their masses — mass has no bearing on the force pair itself. (Their resulting accelerations will differ, since a = F/m, but the forces themselves are identical.)"
+      "explanation": "Correct: (D) Both skaters feel exactly the same magnitude of force. Newton's Third Law: when skater A pushes on skater B, B pushes back on A with a force equal in magnitude and opposite in direction, at every instant of the push. The two forces are one interaction, so their sizes cannot depend on mass. What mass does change is the response: a = F/m, so the lighter skater gets twice the acceleration (and leaves with twice the speed) of the skater who is twice as massive. The clue \"push off each other\" signals a single interaction pair.\n\n(A) is wrong because treats the two pushes as independent, but whichever skater pushes harder, the interaction forces on the two skaters are always equal in size.\n(B) is wrong because mixes up force with acceleration: the lighter skater has twice the acceleration (a = F/m), not twice the force.\n(C) is wrong because assumes more mass means more force, but the Third Law pair is equal regardless of the masses involved."
     },
     {
       "id": "2-24",
@@ -1234,7 +1234,7 @@ const QUESTIONS = {
         "The forces depend on which vehicle has more momentum."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) The two forces are exactly equal in magnitude. Newton's Third Law guarantees the two forces are equal in magnitude and opposite in direction, regardless of the vehicles' relative mass or speed. What differs is the resulting acceleration of each vehicle (a = F/m) — the lighter car experiences a much larger acceleration from that same-magnitude force."
+      "explanation": "Correct: (A) The two forces are exactly equal in magnitude. The force of the car on the truck and the force of the truck on the car are a Newton's Third Law pair: one interaction, equal in magnitude and opposite in direction, at every instant of the collision, regardless of mass, speed, or which vehicle was moving. The difference shows up in the accelerations: a = F/m, so the light car undergoes a much larger acceleration (and its occupants feel a much more violent jolt) than the massive truck from the same-sized force. That is why the car is damaged more.\n\n(B) is wrong because assumes the heavier object exerts more force; mass affects how much each vehicle accelerates, not the size of the force pair.\n(C) is wrong because assumes the moving object exerts more force; motion before the collision does not change the equal-and-opposite force pair.\n(D) is wrong because brings in momentum, but the Third Law pair is equal no matter which vehicle has more momentum (both receive equal and opposite impulses)."
     },
     {
       "id": "2-26",
@@ -1247,7 +1247,7 @@ const QUESTIONS = {
         "The book's own gravitational pull on the Earth, upward."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The book's own gravitational pull on the Earth, upward. Gravity is an interaction between the book and the Earth, so its Third Law partner must also be gravitational, acting on the Earth: the book pulls the Earth upward with a force of equal magnitude. The normal force is a completely separate (contact) interaction with its own separate Third Law partner."
+      "explanation": "Correct: (D) The book's own gravitational pull on the Earth, upward. A Third Law pair is the two sides of one interaction: \"A on B\" pairs with \"B on A,\" same type of force, equal size, opposite direction, acting on different objects. The force described is Earth's gravity on the book (Earth on book, downward). Its partner must be the book's gravity on Earth, pulling Earth upward with the same magnitude F<sub>g</sub>. Earth's huge mass means that force produces an unnoticeably small acceleration. The table's normal force is a different interaction that merely happens to balance the weight here.\n\n(A) is wrong because is a different (contact) interaction that acts on the same object, the book; it balances gravity here but is not its Third Law pair.\n(B) is wrong because is the Third Law partner of the normal force (book on table), a contact force, not the partner of Earth's gravity on the book.\n(C) is wrong because is false: gravity is a mutual interaction, so if Earth pulls on the book, the book pulls equally on Earth."
     },
     {
       "id": "2-27",
@@ -1260,7 +1260,7 @@ const QUESTIONS = {
         "The foot pushes the ground back; the ground pushes back on the foot."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The foot pushes the ground back; the ground pushes back on the foot. Walking is a great everyday example of the Third Law in action: the foot pushes backward against the ground (the 'action'), and by Newton's Third Law, the ground pushes forward on the foot with equal force (the 'reaction') — that reaction force is what actually propels the walker forward."
+      "explanation": "Correct: (D) The foot pushes the ground back; the ground pushes back on the foot. Muscles can only push or pull on other objects; an object cannot accelerate itself with internal forces. When walking, the foot pushes backward on the ground through static friction (foot on ground). By Newton's Third Law, the ground pushes forward on the foot with an equal-magnitude force (ground on foot). That forward static friction force from the ground is the external force that accelerates the walker forward. This is why walking is nearly impossible on frictionless ice: without friction, the foot cannot push back on the ground.\n\n(A) is wrong because is false: walking depends on the Third Law, since the forward push comes from the ground reacting to the foot's backward push.\n(B) is wrong because is impossible: internal muscle forces cannot accelerate the whole body; an external force (the ground's push) is required.\n(C) is wrong because has the direction wrong: air resistance opposes the walker's motion, pushing backward, so it cannot be the forward force."
     },
     {
       "id": "2-28",
@@ -1286,7 +1286,7 @@ const QUESTIONS = {
         "Only for contact forces, never for gravity or other long-range forces."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) No — the two forces always act on different objects. By definition, a Third Law pair consists of two forces acting on two DIFFERENT objects. A single object's free-body diagram only ever shows forces acting on that one object, so a genuine Third Law partner force can never appear on the same diagram as its pair — they physically can't cancel each other there."
+      "explanation": "Correct: (B) No — the two forces always act on different objects. A Third Law pair is always \"A on B\" and \"B on A,\" so the two forces act on two different objects. A free-body diagram shows only the forces acting on one chosen object, so at most one member of any Third Law pair can appear on it. Forces can only cancel if they act on the same object, so Third Law partners never cancel each other. The forces that do cancel on one diagram (like weight and normal force on a resting book) are from different interactions and are not a Third Law pair.\n\n(A) is wrong because invents a mass condition: whatever the masses, the two forces in a Third Law pair act on different objects and never share a diagram.\n(C) is wrong because is the common mistake of calling a balanced pair like weight and normal force a Third Law pair; those come from two different interactions.\n(D) is wrong because gravity obeys the Third Law exactly like contact forces do, and in every case the partners act on different objects."
     },
     {
       "id": "2-30",
@@ -1377,7 +1377,7 @@ const QUESTIONS = {
         "Yes — gravity is nearly as strong there; the station is in free fall."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Yes — gravity is nearly as strong there; the station is in free fall. At the ISS's altitude, Earth's gravity is still nearly as strong as at the surface. The 'weightless' appearance comes from the astronauts and the station both being in continuous free fall around Earth together — they experience no normal force from the station's floor, not because gravity has vanished, but because nothing is holding them up against it."
+      "explanation": "Correct: (D) Yes — gravity is nearly as strong there; the station is in free fall. Gravity weakens with distance as 1/r². The ISS orbits about 400 km up, so r ≈ 6370 + 400 = 6770 km, and g there ≈ 9.8 × (6370/6770)² ≈ 8.7 m/s², about 89% of surface gravity. Gravity is what keeps the station in orbit: the station and astronauts are in continuous free fall, all accelerating toward Earth at the same rate while their sideways speed keeps them missing it. Because the floor falls with them, it exerts no normal force, and that missing support is what \"weightless\" really means.\n\n(A) is wrong because assumes gravity disappears in orbit, but at about 400 km altitude it is still roughly 89% as strong as at Earth's surface.\n(B) is wrong because is false: nothing blocks gravity, which acts through any material; the station and its contents are all pulled toward Earth.\n(C) is wrong because credits spin, but the ISS does not spin to produce weightlessness; the floating comes from everything being in free fall together."
     },
     {
       "id": "2-37",
@@ -1468,7 +1468,7 @@ const QUESTIONS = {
         "Greater than the person's normal weight."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Zero. During free fall, a = g downward. Taking up as positive, F<sub>N</sub> − mg = ma with a = −g, so F<sub>N</sub> = m(g + a) = m(g − g) = 0 — the floor exerts no force on the person at all, since both are accelerating downward at exactly the same rate. This is the same physical situation (though far more dangerous) as the weightlessness astronauts experience in orbit."
+      "explanation": "Correct: (B) Zero. Apply Newton's Second Law to the person, taking up as positive: F<sub>N</sub> − mg = ma. In free fall a = −g, so F<sub>N</sub> = m(g + a) = m(g − g) = 0. The person and the floor both accelerate downward at exactly g, so the floor never presses against the person, and a scale on the floor would read zero (apparent weightlessness). The clue is \"falls freely, accelerating downward at exactly g.\" Because the result is m × 0, the person's mass is not needed.\n\n(A) is wrong because F<sub>N</sub> = m(g − g) = 0 for any mass, so the answer does not depend on knowing m.\n(C) is wrong because would be true only if the elevator moved at constant velocity (a = 0); at a = −g the floor provides no support.\n(D) is wrong because describes an elevator accelerating upward, where F<sub>N</sub> = m(g + a), greater than mg; a downward acceleration lowers the normal force."
     },
     {
       "id": "2-44",
@@ -1507,7 +1507,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing μ_k, the coefficient of kinetic friction."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No — the maximum static friction (39.2 N) exceeds the 35 N push. Maximum static friction is μ<sub>s</sub>·F<sub>N</sub> = (0.40)(10×9.8) = (0.40)(98) = 39.2 N. Since the applied 35 N push is less than this maximum, static friction can simply match the push (at 35 N) and keep the box in equilibrium — it never needs to reach its maximum, so the box doesn't move."
+      "explanation": "Correct: (C) No — the maximum static friction (39.2 N) exceeds the 35 N push. Static friction adjusts to whatever is needed, up to a maximum f<sub>s,max</sub> = μ<sub>s</sub>F<sub>N</sub>. On a level floor with a horizontal push, F<sub>N</sub> = mg = (10 kg)(9.8 m/s²) = 98 N, so f<sub>s,max</sub> = (0.40)(98 N) = 39.2 N. The 35 N push is less than 39.2 N, so static friction simply equals 35 N in the opposite direction, the net force is zero, and the box stays at rest. It would only start to slide if the push exceeded 39.2 N.\n\n(A) is wrong because judges by intuition instead of comparing forces; sliding requires the push to exceed μ<sub>s</sub>mg = 39.2 N, and 35 N does not.\n(B) is wrong because ignores static friction, which can match any push up to its 39.2 N maximum and keep the box from moving.\n(D) is wrong because μ<sub>k</sub> only matters once the box is already sliding; whether it starts depends on μ<sub>s</sub>, which is given."
     },
     {
       "id": "2-47",
@@ -1690,7 +1690,7 @@ const QUESTIONS = {
         "3.2 m/s²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 3.2 m/s². Along the ramp: mg·sinθ (down the ramp) minus friction (opposing the sliding, so up the ramp) equals ma. Friction is μ<sub>k</sub>·F<sub>N</sub> = μ<sub>k</sub>·mg·cosθ, since F<sub>N</sub> = mg·cosθ on an incline. So a = g(sinθ − μ<sub>k</sub>·cosθ) = 9.8(0.50 − 0.20×0.866) = 9.8(0.50 − 0.173) = 9.8(0.327) ≈ 3.2 m/s²."
+      "explanation": "Correct: (D) 3.2 m/s². Choose the axis along the incline, down-slope positive. The forces along the slope are the gravity component mg sinθ (down the slope) and kinetic friction (up the slope, opposing the sliding). Perpendicular to the slope, F<sub>N</sub> = mg cosθ, so f<sub>k</sub> = μ<sub>k</sub>mg cosθ. Newton's Second Law: ma = mg sinθ − μ<sub>k</sub>mg cosθ, so a = g(sinθ − μ<sub>k</sub>cosθ) = 9.8(0.50 − 0.20 × 0.866) = 9.8(0.50 − 0.173) = 9.8(0.327) ≈ 3.2 m/s². The mass cancels, so the 4.0 kg value is not needed.\n\n(A) is wrong because is g sinθ = 9.8 × 0.50 = 4.9 m/s², the frictionless result; it leaves out the kinetic friction that opposes the sliding.\n(B) is wrong because adds friction instead of subtracting it, 9.8(0.50 + 0.173) ≈ 6.6 m/s²; friction acts up the slope against the downhill motion.\n(C) is wrong because is only the friction term, 9.8 × 0.20 × 0.866 ≈ 1.7 m/s², rather than the gravity component minus friction."
     },
     {
       "id": "2-61",
@@ -1743,7 +1743,7 @@ const QUESTIONS = {
         "Tension is unrelated to either mass's weight, depending only on the string."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Tension must be less than the heavier weight but more than the lighter one. If tension equaled the heavier mass's full weight, that mass wouldn't accelerate at all — but it does, since it's not perfectly balanced. Tension must be somewhat less than its weight to allow a net downward force on it, and somewhat more than the lighter mass's weight to provide the net upward force needed to accelerate that mass upward too."
+      "explanation": "Correct: (A) Tension must be less than the heavier weight but more than the lighter one. In an Atwood machine the heavier mass m<sub>1</sub> accelerates downward and the lighter mass m<sub>2</sub> accelerates upward with the same magnitude a. For the heavy mass, m<sub>1</sub>g − T = m<sub>1</sub>a is positive, so T is less than m<sub>1</sub>g. For the light mass, T − m<sub>2</sub>g = m<sub>2</sub>a is positive, so T is greater than m<sub>2</sub>g. Solving gives T = 2m<sub>1</sub>m<sub>2</sub>g/(m<sub>1</sub> + m<sub>2</sub>), which always lies between the two weights. If T equaled either weight, that mass would have zero net force and could not accelerate.\n\n(B) is wrong because T = 2m<sub>1</sub>m<sub>2</sub>g/(m<sub>1</sub> + m<sub>2</sub>) is smaller than the average weight (m<sub>1</sub> + m<sub>2</sub>)g/2 unless the masses are equal.\n(C) is wrong because would leave zero net force on the heavier mass, so it could not accelerate downward, contradicting the motion of the system.\n(D) is wrong because is false: the tension is set by Newton's Second Law for the two masses, T = 2m<sub>1</sub>m<sub>2</sub>g/(m<sub>1</sub> + m<sub>2</sub>), not by the string."
     },
     {
       "id": "2-65",
@@ -1757,7 +1757,7 @@ const QUESTIONS = {
         "3.9 m/s²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 3.9 m/s². For the hanging mass (falling): m2g − T = m2a. For the block on the incline (pulled up the ramp): T − m1g·sinθ = m1a. Adding these equations to eliminate T: m2g − m1g·sinθ = (m1+m2)a, so a = g(m2 − m1·sinθ)/(m1+m2) = 9.8(5.0 − 3.0×0.60)/(8.0) = 9.8(5.0−1.8)/8.0 = 9.8(3.2)/8.0 ≈ 3.9 m/s²."
+      "explanation": "Correct: (D) 3.9 m/s². Treat the hanging 5.0 kg mass (m<sub>2</sub>) and the 3.0 kg block on the incline (m<sub>1</sub>) as connected, with the same acceleration. Hanging mass (falling): m<sub>2</sub>g − T = m<sub>2</sub>a. Block (pulled up the slope, no friction): T − m<sub>1</sub>g sinθ = m<sub>1</sub>a. Adding eliminates T: a = g(m<sub>2</sub> − m<sub>1</sub>sinθ)/(m<sub>1</sub> + m<sub>2</sub>) = 9.8(5.0 − 3.0 × 0.60)/8.0 = 9.8(3.2)/8.0 ≈ 3.9 m/s². The net driving force is 49 N − 17.6 N = 31.4 N, shared by 8.0 kg of total mass.\n\n(A) is wrong because is too large: 4.9 m/s² on 8.0 kg would need a net force of 39 N, but only 49 N − 17.6 N = 31.4 N is available.\n(B) is wrong because uses the full weight of the block instead of its slope component, 9.8(5.0 − 3.0)/8.0 ≈ 2.5 m/s²; only m<sub>1</sub>g sinθ opposes the motion.\n(C) is wrong because is too large: 6.9 m/s² on 8.0 kg would need about 55 N of net force, far more than the 31.4 N the two weights provide."
     }
   ],
   "3": [
@@ -2071,7 +2071,7 @@ const QUESTIONS = {
         "Yes, since ΔPE doesn't depend on the reference point."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Yes, since ΔPE doesn't depend on the reference point. While the absolute value of PE at any given point depends on the arbitrary reference chosen, the CHANGE in PE between two points does not — both students will compute the identical ΔPE for the object's drop, since the reference point cancels out when you take a difference."
+      "explanation": "Correct: (D) Yes, since ΔPE doesn't depend on the reference point. Gravitational potential energy is U = mgh, where h is measured from a reference level we are free to choose. Changing the reference adds the same constant to U at every point, so it cancels in a difference: ΔU = mg(h<sub>f</sub> − h<sub>i</sub>). For a drop from the tabletop to the ground, the first student gets mg(0 − 1 m) and the second gets mg(−1 m − 0); both equal −mg(1 m). Only changes in potential energy have physical meaning (they equal the negative of the work gravity does).\n\n(A) is wrong because is irrelevant: any object with mass has gravitational potential energy, and the two students agree on ΔU for any mass.\n(B) is wrong because assumes the reference changes the difference, but the constant offset it adds to U appears in both terms and cancels.\n(C) is wrong because adds a needless requirement; ΔU = mgΔh comes out the same for any reference level the students choose."
     },
     {
       "id": "3-25",
@@ -2149,7 +2149,7 @@ const QUESTIONS = {
         "Yes, friction has its own potential energy formula."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No, since friction isn't a conservative force. Potential energy is a concept that only applies to conservative forces (like gravity and springs), where the energy can be fully recovered. Kinetic friction is non-conservative — the energy it removes from a system is dissipated as heat and cannot be recovered as useful mechanical energy, so there's no PE formula associated with it."
+      "explanation": "Correct: (C) No, since friction isn't a conservative force. A potential energy function exists only for a conservative force, one whose work depends only on the start and end points and is zero around any closed path, so the energy can be fully recovered. Gravity and ideal springs qualify. Kinetic friction does not: it always opposes motion, so its work is negative on every segment, depends on path length (W = −f<sub>k</sub>d), and the energy goes into thermal energy that cannot be returned as kinetic energy. Since the work depends on path, no function of position alone can describe it.\n\n(A) is wrong because speed does not make friction conservative; at any speed its work still depends on path length.\n(B) is wrong because is false: kinetic friction does negative work whenever an object slides, converting mechanical energy into thermal energy.\n(D) is wrong because is false: friction has no potential energy formula; its work depends on the path taken, not on the position."
     },
     {
       "id": "3-31",
@@ -2305,7 +2305,7 @@ const QUESTIONS = {
         "Path shape actually does affect final speed in every case without exception."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Because gravity is conservative, so its work depends only on height. Gravity is a conservative force — the work it does (and therefore the change in kinetic energy, given no friction) depends only on the net vertical height dropped, not the specific route taken to get there. This is precisely why energy methods can skip over path details that kinematics would require tracking explicitly."
+      "explanation": "Correct: (A) Because gravity is conservative, so its work depends only on height. Gravity is a conservative force: the work it does depends only on the vertical drop, W<sub>g</sub> = mgh, not on the shape of the path. On a frictionless path, the normal force is always perpendicular to the motion and does no work, so gravity is the only force doing work. By the work-energy theorem, ½mv² = mgh, giving v = √(2gh) for any path with the same height drop. The path changes the time and the direction of travel at the bottom, but not the speed.\n\n(B) is wrong because the stem says the path is frictionless, and friction would add path dependence, not remove it.\n(C) is wrong because is false: speed at the bottom is set by the height lost (v = √(2gh)), and the time taken actually does depend on the path.\n(D) is wrong because contradicts energy conservation: on any frictionless path, the same height drop gives the same speed, v = √(2gh)."
     },
     {
       "id": "3-43",
@@ -2539,7 +2539,7 @@ const QUESTIONS = {
         "It stays exactly the same."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It must decrease to keep power constant. Since P = Fv, and P is held constant, force and velocity must be inversely proportional — as the car speeds up (v increases), the force the engine can sustain at that same power level must decrease. This is part of why cars tend to accelerate more slowly at higher speeds even under full engine power."
+      "explanation": "Correct: (C) It must decrease to keep power constant. Power delivered by a force along the direction of motion is P = Fv. If the engine's power output P is held constant while the speed v increases, the force must fall as F = P/v, inversely proportional to speed. For example, at 60 kW the driving force is 3000 N at 20 m/s but only 2000 N at 30 m/s. Since a = F/m (less any drag), a car at full power accelerates less and less as it speeds up, one reason acceleration drops off at highway speeds.\n\n(A) is wrong because has the relation backward: with P = Fv fixed, a larger v requires a smaller F, not a larger one.\n(B) is wrong because is false: for a force acting along the motion, power is directly linked to force by P = Fv.\n(D) is wrong because would make P = Fv increase as v increases, contradicting the stated constant power output."
     },
     {
       "id": "3-61",
@@ -2605,7 +2605,7 @@ const QUESTIONS = {
         "360 W"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 90 W. Using the work-energy theorem, the total work done equals the change in kinetic energy: W = ΔKE = ½(5.0)(12)² − 0 = 360 J. Average power is this total work divided by the total time: P<sub>avg</sub> = W/t = 360/4.0 = 90 W. Note this is the AVERAGE power — the instantaneous power was actually increasing throughout, since P=Fv and v was continuously increasing under the constant force."
+      "explanation": "Correct: (A) 90 W. Average power is total work over total time. By the work-energy theorem, the net work equals the change in kinetic energy: W = ΔKE = ½(5.0 kg)(12 m/s)² − 0 = ½(5.0)(144) = 360 J. Then P<sub>avg</sub> = W/t = 360 J / 4.0 s = 90 W. Check another way: F = ma = (5.0 kg)(3.0 m/s²) = 15 N, and with average velocity 6.0 m/s, P<sub>avg</sub> = Fv<sub>avg</sub> = (15)(6.0) = 90 W. The instantaneous power rises from 0 to 180 W as v increases.\n\n(B) is wrong because is the force, F = mΔv/Δt = (5.0)(12)/4.0 = 15 N, mislabeled as power; power needs force times velocity.\n(C) is wrong because is the instantaneous power at the end, F × v<sub>final</sub> = (15 N)(12 m/s) = 180 W, not the average over the 4.0 s.\n(D) is wrong because is the total work in joules, ½(5.0)(12)² = 360 J, without dividing by the 4.0 s needed to get power."
     }
   ],
   "4": [
@@ -2932,7 +2932,7 @@ const QUESTIONS = {
         "No — momentum conservation requires friction to be negligible during the collision."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) No — momentum conservation requires friction to be negligible during the collision. Friction from the ground is an EXTERNAL force on the two-cart system, and if it's significant, it violates the 'no net external force' condition needed for momentum conservation. In practice, collisions typically happen so quickly that friction's effect during the collision itself is negligible, even if it matters over the longer timescale of the carts' full motion."
+      "explanation": "Correct: (D) No — momentum conservation requires friction to be negligible during the collision. Momentum of a system is conserved only when the net external force on it is zero (or its impulse is negligible). Friction from the track acts on the carts from outside the two-cart system, so it is an external force; if it is significant during the collision, it delivers an external impulse J = F<sub>ext</sub>Δt that changes the total momentum. In practice, collision times are very short, so friction's impulse during the impact itself is often small and momentum is approximately conserved, but not exactly when friction is significant.\n\n(A) is wrong because ignores the condition for conservation: momentum is conserved only if the net external force is zero, and significant friction is external.\n(B) is wrong because overstates it: momentum is also conserved with friction present if that friction is internal or its impulse during the collision is negligible.\n(C) is wrong because is too strong: friction between objects inside the system is internal and does not change total momentum, and brief collisions often have negligible friction impulse."
     },
     {
       "id": "4-26",
@@ -2984,7 +2984,7 @@ const QUESTIONS = {
         "The rifle gains momentum opposite the bullet's, keeping the total at zero."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The rifle gains momentum opposite the bullet's, keeping the total at zero. Before firing, the rifle-bullet system is at rest, with zero total momentum. Since momentum must be conserved (internal explosive forces only, no significant external force during firing), the rifle must recoil backward with momentum exactly equal and opposite to the bullet's forward momentum, keeping the total at zero."
+      "explanation": "Correct: (D) The rifle gains momentum opposite the bullet's, keeping the total at zero. Before firing, the rifle and bullet are at rest, so the system's total momentum is zero. The expanding gas forces are internal to the system and the firing is brief, so external impulse is negligible and momentum is conserved. After firing, m<sub>b</sub>v<sub>b</sub> + m<sub>r</sub>v<sub>r</sub> = 0, so v<sub>r</sub> = −(m<sub>b</sub>/m<sub>r</sub>)v<sub>b</sub>: the rifle moves opposite to the bullet with momentum of equal size. Because the rifle is far more massive, its recoil speed is much smaller than the bullet's speed.\n\n(A) is wrong because air resistance on the bullet is tiny and acts after firing; recoil comes from momentum conservation during the firing.\n(B) is wrong because treats the explosive force and momentum as separate, but the internal gas forces are exactly how equal and opposite momenta are given to bullet and rifle.\n(C) is wrong because is false: the bullet is far lighter than the rifle, which is why the rifle's recoil speed is much smaller than the bullet's speed."
     },
     {
       "id": "4-30",
@@ -3114,7 +3114,7 @@ const QUESTIONS = {
         "The ball and the heavy object end up moving at the same final velocity."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The ball rebounds at nearly its original speed; the heavy object barely moves. In the limit of a very large mass ratio, an elastic collision leaves the light object rebounding at nearly its original speed (just reversed in direction), while the much heavier object gains only a tiny, often negligible, velocity — this is a good approximate model for a ball bouncing elastically off a wall."
+      "explanation": "Correct: (B) The ball rebounds at nearly its original speed; the heavy object barely moves. For a 1-D elastic collision with m<sub>2</sub> at rest, v<sub>1f</sub> = (m<sub>1</sub> − m<sub>2</sub>)v<sub>1</sub>/(m<sub>1</sub> + m<sub>2</sub>) and v<sub>2f</sub> = 2m<sub>1</sub>v<sub>1</sub>/(m<sub>1</sub> + m<sub>2</sub>). When m<sub>2</sub> ≫ m<sub>1</sub>, v<sub>1f</sub> ≈ −v<sub>1</sub> and v<sub>2f</sub> ≈ 0. So the light ball bounces back at nearly its original speed while the heavy object barely moves. The heavy object still takes momentum of about 2m<sub>1</sub>v<sub>1</sub>, but its huge mass makes its velocity tiny, so it takes almost no kinetic energy.\n\n(A) is wrong because it describes the equal-mass case, where the incoming ball stops; a light ball cannot give a much heavier object a large speed.\n(C) is wrong because fails momentum conservation for very unequal masses and does not describe any elastic outcome of a light ball hitting a heavy one.\n(D) is wrong because describes a perfectly inelastic collision (objects moving together), which loses kinetic energy and is not elastic."
     },
     {
       "id": "4-40",
@@ -3140,7 +3140,7 @@ const QUESTIONS = {
         "This can only be determined with specific numbers for the masses and speeds."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No — equal masses swap velocities fully, not evenly. If both objects had the same final velocity after an equal-mass elastic collision, that would actually describe a perfectly INELASTIC collision (they'd effectively be moving together) — which doesn't conserve kinetic energy for a moving-object-hits-stationary-object setup. The correct elastic result for equal masses is a full swap, not a shared final velocity."
+      "explanation": "Correct: (C) No — equal masses swap velocities fully, not evenly. For equal masses with one at rest, momentum conservation gives v<sub>1f</sub> + v<sub>2f</sub> = v<sub>1</sub>, and kinetic energy conservation gives v<sub>1f</sub>² + v<sub>2f</sub>² = v<sub>1</sub>². Apart from the trivial no-collision solution, the only answer is v<sub>1f</sub> = 0 and v<sub>2f</sub> = v<sub>1</sub>: they swap velocities. If both shared a common velocity, momentum would require each to move at v<sub>1</sub>/2, giving KE = 2 × ½m(v<sub>1</sub>/2)² = ¼mv<sub>1</sub>², only half the initial ½mv<sub>1</sub>², which is a perfectly inelastic collision.\n\n(A) is wrong because speed does not matter: a common final velocity always loses half the KE for equal masses, so it is never elastic.\n(B) is wrong because describes the perfectly inelastic outcome; a shared final velocity is the signature of objects sticking together, not of an elastic collision.\n(D) is wrong because is unnecessary: the general argument shows a shared velocity loses half the kinetic energy for any equal masses and any speed."
     },
     {
       "id": "4-42",
@@ -3179,7 +3179,7 @@ const QUESTIONS = {
         "Speed 6.0 m/s; KE 9.0 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Speed 12 m/s; KE 36 J. In the idealized limit of an infinitely massive wall, the elastic collision leaves the ball's speed essentially unchanged (12 m/s, just reversed in direction), since the wall absorbs essentially none of the kinetic energy. KE = ½(0.50)(12)² = 36 J, identical to its KE before the bounce."
+      "explanation": "Correct: (B) Speed 12 m/s; KE 36 J. In an elastic collision kinetic energy is conserved. For a wall with effectively infinite mass, v<sub>wall</sub> ≈ 0 after the collision, so the wall takes essentially no kinetic energy and the ball must rebound with the same speed it had, 12 m/s, only reversed in direction. KE = ½mv² = ½(0.50 kg)(12 m/s)² = ½(0.50)(144) = 36 J, the same as before the bounce. Note that the ball's momentum does change, from +6.0 to −6.0 kg·m/s, because the wall exerts an impulse of 12 kg·m/s.\n\n(A) is wrong because describes a perfectly inelastic hit where the ball sticks to the wall, losing all of its 36 J of kinetic energy; an elastic bounce keeps it.\n(C) is wrong because doubles the speed, which would quadruple the KE to ½(0.50)(24)² = 144 J, creating energy from nowhere.\n(D) is wrong because halves the speed, giving ½(0.50)(6.0)² = 9.0 J, which loses 27 J and contradicts the collision being elastic."
     },
     {
       "id": "4-45",
@@ -3296,7 +3296,7 @@ const QUESTIONS = {
         "Because cars always have exactly equal mass."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Because deformation, heat, and sound consume kinetic energy. The crumpling of metal, heat generated by that deformation, and the sound of the crash all represent kinetic energy being converted into other, non-recoverable forms — exactly the hallmark of an inelastic collision. (This is actually a safety feature by design: crumple zones intentionally maximize this energy conversion to reduce the force transmitted to passengers.)"
+      "explanation": "Correct: (B) Because deformation, heat, and sound consume kinetic energy. In an inelastic collision, momentum is conserved (the crash forces are internal and brief) but kinetic energy is not. In a car crash, large amounts of kinetic energy go into permanently deforming metal and plastic, into thermal energy from that deformation and from friction, and into sound. Because this energy cannot be recovered as kinetic energy, the cars separate slowly or move together, a strongly inelastic collision. Crumple zones are designed to absorb this energy and extend the collision time, reducing the force on passengers.\n\n(A) is wrong because momentum is conserved during a crash (external forces are small over the brief impact); inelastic means kinetic energy is lost.\n(C) is wrong because speed does not decide elasticity; what matters is whether kinetic energy is lost to deformation, heat, and sound.\n(D) is wrong because is false and irrelevant: cars have various masses, and mass equality does not determine whether a collision is elastic."
     },
     {
       "id": "4-54",
@@ -3322,7 +3322,7 @@ const QUESTIONS = {
         "No, momentum is always conserved under every circumstance, with no exceptions."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Yes — a significant external force like friction breaks conservation. Momentum conservation specifically requires an isolated system. If an external force (such as significant friction, or an outside push) acts on the objects during the collision, that external impulse will change the total momentum of just the colliding objects — conservation only strictly applies when such external forces are negligible or absent."
+      "explanation": "Correct: (A) Yes — a significant external force like friction breaks conservation. Total momentum of a system is conserved only if the net external force on that system is zero. If an external force acts during a collision, such as large friction from the road or a push from a barrier, it delivers an impulse J = F<sub>ext</sub>Δt that changes the total momentum of the colliding objects. Most collisions are so brief that external impulses are small, which is why momentum is usually conserved to a good approximation. Choosing a larger system (e.g., including Earth) can restore conservation.\n\n(B) is wrong because has no physical basis: kinetic energy and momentum are separate quantities, and a change in one does not compensate for the other.\n(C) is wrong because is backward: elasticity concerns kinetic energy; momentum conservation depends on external forces, not on whether the collision is elastic.\n(D) is wrong because ignores the condition for conservation: momentum is conserved only when the net external force on the system is zero."
     },
     {
       "id": "4-56",
@@ -3361,7 +3361,7 @@ const QUESTIONS = {
         "It stops moving entirely at the moment the explosion takes place."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It continues along the same parabolic path as before. The explosive forces are entirely internal to the system of fragments, and internal forces can never change the system's total momentum. Since the center of mass's motion is tied directly to total momentum, it continues along the exact same path (still just gravity acting on it) that the unexploded shell would have followed."
+      "explanation": "Correct: (C) It continues along the same parabolic path as before. The center of mass of a system accelerates according to the net external force: F<sub>ext</sub> = Ma<sub>cm</sub>. The explosion forces are internal; they come in equal and opposite Third Law pairs and cancel in the sum, so they cannot change the total momentum or the center-of-mass motion. The only external force is gravity (ignoring air resistance), the same as before the explosion, so a<sub>cm</sub> = g and the center of mass continues along the original parabola, even as the fragments scatter.\n\n(A) is wrong because assumes the explosion stops the horizontal motion, but internal forces cannot change the total horizontal momentum, so the center of mass keeps moving.\n(B) is wrong because the fragments' individual paths may be complex, but the center of mass follows a fully predictable path under gravity.\n(D) is wrong because would require an external impulse to cancel the total momentum; internal explosion forces cannot do this."
     },
     {
       "id": "4-59",
@@ -3439,7 +3439,7 @@ const QUESTIONS = {
         "Because internal forces cancel in pairs, so total momentum stays constant."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Because internal forces cancel in pairs, so total momentum stays constant. Internal forces during a collision come in Newton's Third Law pairs that cancel when summed over the whole system, meaning total momentum never changes — regardless of whether the collision is elastic or inelastic. Since v<sub>cm</sub> = p<sub>total</sub>/m<sub>total</sub>, and neither p<sub>total</sub> nor m<sub>total</sub> changes during an internal collision, the center of mass keeps moving at whatever constant velocity it had before."
+      "explanation": "Correct: (D) Because internal forces cancel in pairs, so total momentum stays constant. The velocity of the center of mass is v<sub>cm</sub> = p<sub>total</sub>/M<sub>total</sub>. During a collision inside an isolated system, each force one object exerts on the other has an equal and opposite Third Law partner, so the internal forces sum to zero and total momentum does not change. The total mass does not change either, so v<sub>cm</sub> stays constant before, during, and after the collision. This holds whether the collision is elastic or inelastic, because kinetic energy plays no role in the argument.\n\n(A) is wrong because is false: inelastic collisions lose kinetic energy, yet the center of mass still moves at constant velocity because momentum is conserved.\n(B) is wrong because overstates the case: external forces do change the center of mass's motion (F<sub>ext</sub> = Ma<sub>cm</sub>); only internal forces cannot.\n(C) is wrong because is false: the argument uses only momentum conservation, which holds in inelastic collisions too, so v<sub>cm</sub> stays constant either way."
     },
     {
       "id": "4-65",
@@ -3453,7 +3453,7 @@ const QUESTIONS = {
         "2.0 m/s, unrelated to the objects' individual velocities."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.0 m/s; unchanged since the collision is purely internal. v<sub>cm</sub> = (m1v1+m2v2)/(m1+m2) = [(3.0)(6.0)+(5.0)(−2.0)]/(3.0+5.0) = (18−10)/8.0 = 8.0/8.0 = 1.0 m/s. Since the collision is purely an internal event (no external force acts on the two-object system), total momentum (8.0 kg·m/s) and total mass (8.0 kg) are both unchanged by it — so v<sub>cm</sub> remains exactly 1.0 m/s both before and after. This is exactly why the final combined velocity in a perfectly inelastic collision always equals the pre-collision center-of-mass velocity: the two are the same calculation."
+      "explanation": "Correct: (A) 1.0 m/s; unchanged since the collision is purely internal. The center-of-mass velocity is the total momentum divided by the total mass: v<sub>cm</sub> = (m<sub>1</sub>v<sub>1</sub> + m<sub>2</sub>v<sub>2</sub>)/(m<sub>1</sub> + m<sub>2</sub>) = [(3.0)(6.0) + (5.0)(−2.0)]/(3.0 + 5.0) = (18 − 10)/8.0 = 8.0/8.0 = 1.0 m/s. The collision is internal to the two-object system, so total momentum (8.0 kg·m/s) and total mass (8.0 kg) are unchanged, and v<sub>cm</sub> stays 1.0 m/s. After they stick, the combined object moves at 8.0/8.0 = 1.0 m/s, which is exactly v<sub>cm</sub>.\n\n(B) is wrong because gets the right number but wrong reasoning: v<sub>cm</sub> does not change at impact, and here the stuck pair moves at exactly 1.0 m/s.\n(C) is wrong because assumes opposite directions cancel completely, but the momenta (+18 and −10 kg·m/s) are unequal, so the net is +8.0 kg·m/s.\n(D) is wrong because averages the velocities, (6.0 − 2.0)/2 = 2.0 m/s, without weighting by mass; the heavier 5.0 kg object pulls v<sub>cm</sub> toward −2.0 m/s."
     }
   ],
   "5": [
@@ -3572,7 +3572,7 @@ const QUESTIONS = {
         "Angular velocity is equal for both; A's linear speed is twice B's."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Angular velocity is equal for both; A's linear speed is twice B's. Every point on a single rigid rotating object shares the same angular velocity ω, regardless of its distance from the axis. But linear speed, v=rω, does depend on r — so A (twice as far out) has twice the linear speed of B, despite matching angular velocities."
+      "explanation": "Correct: (D) Angular velocity is equal for both; A's linear speed is twice B's. On a rigid rotating body every point turns through the same angle in the same time, so every point shares one angular velocity ω. Linear (tangential) speed depends on radius: v = rω. With r<sub>A</sub> = 2r<sub>B</sub>, v<sub>A</sub> = (2r<sub>B</sub>)ω = 2v<sub>B</sub>. Point A traces a circle with twice the circumference in the same period, so it must move twice as fast. The clue \"same spinning rigid disk\" fixes ω as shared; \"twice as far\" sets the speed ratio.\n\n(A) is wrong because both points complete each rotation in the same time, so ω is the same; only the linear speed doubles.\n(B) is wrong because, although ω is shared, v = rω means the point at twice the radius moves twice as fast.\n(C) is wrong because reverses the two quantities: ω is shared on a rigid body, while the linear speed v = rω is what differs."
     },
     {
       "id": "5-10",
@@ -3728,7 +3728,7 @@ const QUESTIONS = {
         "No, they are physically different quantities that share only units."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) No, they are physically different quantities that share only units. Despite sharing the same dimensional units (force × distance), torque and work are conceptually distinct: work is a scalar describing energy transfer, while torque is more like a rotational force with a direction (CCW/CW). The shared units are a dimensional coincidence, not a sign that the two quantities are interchangeable."
+      "explanation": "Correct: (D) No, they are physically different quantities that share only units. Torque and work both come out in N·m, but they are different physical quantities. Work, W = Fd cosθ, uses the component of force along the displacement; it is a scalar that measures energy transferred, so its unit is called the joule. Torque, τ = rF sinθ, uses the component of force perpendicular to the lever arm; it measures a force's tendency to cause angular acceleration and has a direction (clockwise or counterclockwise). Matching units is a dimensional coincidence. By convention torque is written N·m, never J.\n\n(A) is wrong because the stem itself notes the shared unit; both are N·m, so the units are not different.\n(B) is wrong because is false: work is an energy transfer (scalar), while torque is a rotational effect with a direction; they are not interchangeable.\n(C) is wrong because is false: torque and work are distinct in rotational systems too, where rotational work is W = τΔθ, torque times an angle."
     },
     {
       "id": "5-22",
@@ -3741,7 +3741,7 @@ const QUESTIONS = {
         "A measure of an object's angular velocity at a particular moment in time."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) How an object's mass is distributed relative to the rotation axis. Moment of inertia is the rotational analog of mass: I = Σmr² for point masses, so it depends not just on how much mass there is but on how far each piece sits from the axis. Mass far from the axis counts for much more (r is squared), and I measures resistance to changes in angular velocity. The same object has different I about different axes.\n\n(A) is wrong because torque is rF sinθ, a force-based quantity, and I is what resists that torque.\n(C) is wrong because I is not just mass; the same mass gives different I when arranged differently.\n(D) is wrong because angular velocity ω is a motion variable, while I is a fixed property of the object and axis."
+      "explanation": "Correct: (B) How an object's mass is distributed relative to the rotation axis. Moment of inertia is the rotational analog of mass: I = Σmr² for point masses, so it depends not just on how much mass there is but on how far each piece sits from the axis. Mass far from the axis counts for much more (r is squared), and I measures resistance to changes in angular velocity. The same object has different I about different axes.\n\n(A) is wrong because torque is rF sinθ, a force-based quantity, and I is what resists that torque.\n(C) is wrong because i is not just mass; the same mass gives different I when arranged differently.\n(D) is wrong because angular velocity ω is a motion variable, while I is a fixed property of the object and axis."
     },
     {
       "id": "5-23",
@@ -3806,7 +3806,7 @@ const QUESTIONS = {
         "Cannot be determined without more information."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The hoop, since all its mass sits at the maximum radius. The hoop (I=MR²) has all of its mass concentrated at the outer radius R, while the disk (I=½MR²) has its mass distributed from the center all the way out to R — since I depends on r², the hoop's mass, being uniformly at the maximum distance, produces double the moment of inertia of the disk."
+      "explanation": "Correct: (C) The hoop, since all its mass sits at the maximum radius. Moment of inertia is I = Σmr²: each bit of mass counts in proportion to the square of its distance from the axis. A thin hoop has all of its mass at r = R, so I<sub>hoop</sub> = MR². A solid disk has mass spread from r = 0 to r = R, and much of it near the center contributes little, so I<sub>disk</sub> = ½MR². With equal M and R, the hoop's moment of inertia is twice the disk's. The clue is where the mass sits, not just how much there is.\n\n(A) is wrong because reverses the geometry: the disk has mass spread inward toward the axis, while the hoop has all of its mass at the outer radius.\n(B) is wrong because ignores mass distribution: I depends on how mass is arranged relative to the axis, not just total mass and radius.\n(D) is wrong because equal mass and radius plus the known shapes give I<sub>hoop</sub> = MR² and I<sub>disk</sub> = ½MR², enough to compare."
     },
     {
       "id": "5-28",
@@ -3832,7 +3832,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It quadruples. For a disk the moment of inertia is I = ½MR², so with the mass M fixed, I is proportional to R². Doubling R multiplies I by 2² = 4. The clue is that the mass stays the same while only the size changes, so the whole change comes from the squared radius: ½M(2R)² = 4(½MR²).\n\n(A) is wrong because I depends on R through the R² factor, so changing the radius necessarily changes the moment of inertia.\n(B) is wrong because a larger radius spreads the same mass farther from the axis and increases I; it does not decrease it.\n(C) is wrong because it treats I as linear in R and forgets the square; the formula has R², so doubling R gives four times the original value, not two."
+      "explanation": "Correct: (D) It quadruples. For a disk the moment of inertia is I = ½MR², so with the mass M fixed, I is proportional to R². Doubling R multiplies I by 2² = 4. The clue is that the mass stays the same while only the size changes, so the whole change comes from the squared radius: ½M(2R)² = 4(½MR²).\n\n(A) is wrong because i depends on R through the R² factor, so changing the radius necessarily changes the moment of inertia.\n(B) is wrong because a larger radius spreads the same mass farther from the axis and increases I; it does not decrease it.\n(C) is wrong because it treats I as linear in R and forgets the square; the formula has R², so doubling R gives four times the original value, not two."
     },
     {
       "id": "5-30",
@@ -3858,7 +3858,7 @@ const QUESTIONS = {
         "The moment of inertia is the same regardless of which point the rod rotates about."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Larger, since more mass sits farther from that axis at the end. Rotating about one end places the entire rod's length between the axis and the far end, meaning much more of the mass sits farther from the axis compared to rotating about the center (where mass is distributed symmetrically, close on both sides) — this is exactly why the end-axis formula, (1/3)ML², is larger than the center-axis formula, (1/12)ML²."
+      "explanation": "Correct: (C) Larger, since more mass sits farther from that axis at the end. Since I = Σmr², moving the axis so that mass sits farther away increases the moment of inertia. About the center, the farthest mass is only L/2 away on each side; about one end, mass extends all the way out to L. Comparing the formulas, (1/3)ML² = (4/12)ML², which is four times (1/12)ML². The parallel-axis theorem confirms it: I<sub>end</sub> = I<sub>cm</sub> + M(L/2)² = (1/12)ML² + (1/4)ML² = (1/3)ML². The center of mass axis always gives the smallest I.\n\n(A) is wrong because is backward: (1/3)ML² is four times (1/12)ML², because more of the rod's mass is farther from the end axis.\n(B) is wrong because both formulas are given in terms of M and L, so their ratio of 4 can be found without numbers.\n(D) is wrong because is false: moment of inertia depends on the axis location, since I = Σmr² measures distances from that particular axis."
     },
     {
       "id": "5-32",
@@ -3988,7 +3988,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It is cut in half. Newton's second law for rotation gives α = τ/I, so with the torque fixed the angular acceleration is inversely proportional to the moment of inertia. Doubling I halves α. Moving mass away from the axis raises I, so the object is harder to spin up even though its total mass has not changed.\n\n(A) is wrong because I is in the denominator of α = τ/I, so changing it necessarily changes the angular acceleration.\n(B) is wrong because quadrupling would require a squared relationship, but α depends on I to the first power, so doubling I only halves α.\n(C) is wrong because doubling the inertia makes the object more resistant to changes in rotation, not less, so the angular acceleration cannot increase."
+      "explanation": "Correct: (D) It is cut in half. Newton's second law for rotation gives α = τ/I, so with the torque fixed the angular acceleration is inversely proportional to the moment of inertia. Doubling I halves α. Moving mass away from the axis raises I, so the object is harder to spin up even though its total mass has not changed.\n\n(A) is wrong because i is in the denominator of α = τ/I, so changing it necessarily changes the angular acceleration.\n(B) is wrong because quadrupling would require a squared relationship, but α depends on I to the first power, so doubling I only halves α.\n(C) is wrong because doubling the inertia makes the object more resistant to changes in rotation, not less, so the angular acceleration cannot increase."
     },
     {
       "id": "5-42",
@@ -4092,7 +4092,7 @@ const QUESTIONS = {
         "It makes all forces in the problem automatically balanced, with no work."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It makes that force's own torque zero, removing it from the equation. Any force applied exactly at the chosen pivot point has a lever arm of zero about that point, so its torque contribution is automatically zero — this conveniently removes that unknown force entirely from the torque equation, often leaving just one remaining unknown to solve for directly."
+      "explanation": "Correct: (C) It makes that force's own torque zero, removing it from the equation. For static equilibrium the net torque about any point is zero, so you may choose the pivot freely. Torque is τ = rF sinθ, where r is the distance from the pivot to where the force acts. Placing the pivot at the point where an unknown force acts makes r = 0 for that force, so its torque is zero and it drops out of the torque equation. That often leaves only one unknown, which can be solved directly; the eliminated force can then be found from ΣF = 0.\n\n(A) is wrong because the choice of pivot is a real strategy: it can remove an unknown from the torque equation entirely.\n(B) is wrong because is false: choosing a pivot is a bookkeeping choice and does not move where any force physically acts on the object.\n(D) is wrong because is false: choosing a pivot does not balance any forces; you still must apply ΣF = 0 and Στ = 0 to solve."
     },
     {
       "id": "5-50",
@@ -4144,7 +4144,7 @@ const QUESTIONS = {
         "It changes the physics of the problem, in a way that helps the solver."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It makes that unknown force's torque zero, simplifying the algebra. Since the torque contributed by a force depends on its lever arm distance from the pivot, placing the pivot exactly where that unknown force acts makes its lever arm (and therefore its torque contribution) zero — removing an unknown from the equation and often making the remaining algebra dramatically simpler."
+      "explanation": "Correct: (B) It makes that unknown force's torque zero, simplifying the algebra. In static equilibrium Στ = 0 about every point, so the pivot can be chosen anywhere. The torque of a force is τ = rF sinθ, with r measured from the pivot to the force's point of application. Choosing the pivot at the unknown force's location makes r = 0, so that force produces zero torque and vanishes from the torque equation. This removes one unknown, often leaving a single equation in a single unknown. The force is still real; it reappears in the ΣF = 0 equations.\n\n(A) is wrong because is false: choosing a pivot does not change the size of any force; it only sets that force's lever arm to zero.\n(C) is wrong because, while any pivot gives a correct answer, putting it at an unknown force removes that unknown and simplifies the algebra.\n(D) is wrong because is false: the physics is identical for every pivot choice; only the bookkeeping in the torque equation changes."
     },
     {
       "id": "5-54",
@@ -4301,7 +4301,7 @@ const QUESTIONS = {
         "The solid sphere, since its smaller moment of inertia leaves more energy for its center-of-mass motion."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The solid sphere, since its smaller moment of inertia leaves more energy for its center-of-mass motion. For a rolling object, gravity's torque about the contact point has to produce BOTH linear acceleration of the center of mass AND angular acceleration of the spin — and objects with a larger moment of inertia (like the hoop, I=MR², versus the sphere's I=(2/5)MR²) require more of that available 'torque budget' just to spin up, leaving less left over to accelerate the center of mass forward. This is exactly why, in a race down a ramp, a solid sphere reliably beats a hoop of the same mass and radius — a relationship this unit sets up conceptually, and which Unit 6 makes fully quantitative using rotational kinetic energy."
+      "explanation": "Correct: (D) The solid sphere, since its smaller moment of inertia leaves more energy for its center-of-mass motion. Rolling without slipping requires a = αR, so gravity's pull down the slope must provide both translational acceleration and angular acceleration. Writing I = kMR², Newton's laws give a = g sinθ/(1 + k). The sphere has k = 2/5 and the hoop k = 1, so a<sub>sphere</sub> = (5/7)g sinθ ≈ 0.71g sinθ and a<sub>hoop</sub> = ½g sinθ. In energy terms, the sphere's smaller moment of inertia sends a smaller share of its energy into spinning, leaving more for center-of-mass motion. Mass and radius cancel, so this holds for any size.\n\n(A) is wrong because the angle affects both accelerations equally through g sinθ; the sphere's 5/7 versus the hoop's 1/2 holds at any angle.\n(B) is wrong because is backward: a larger moment of inertia means more energy is needed for spinning, so the hoop accelerates less and is slower.\n(C) is wrong because ignores the mass distribution: equal M and R still give I<sub>sphere</sub> = (2/5)MR² and I<sub>hoop</sub> = MR², so their accelerations differ."
     }
   ],
   "6": [
@@ -4355,7 +4355,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) It doubles. The rotational kinetic energy KE<sub>rot</sub> = ½Iω² is directly proportional to the moment of inertia when ω is fixed, so doubling I doubles the energy: ½(2I)ω² = 2(½Iω²). A larger I means more mass farther from the axis, which stores more energy at the same spin rate. The stem keeps the angular velocity unchanged, so only the I factor matters.\n\n(B) is wrong because a larger moment of inertia increases the energy at a fixed spin rate, so the energy cannot be cut in half.\n(C) is wrong because I is a factor in the formula, so changing it changes the kinetic energy.\n(D) is wrong because quadrupling would require KE to depend on I², but only ω is squared in the formula; I appears to the first power, so doubling I only doubles KE."
+      "explanation": "Correct: (A) It doubles. The rotational kinetic energy KE<sub>rot</sub> = ½Iω² is directly proportional to the moment of inertia when ω is fixed, so doubling I doubles the energy: ½(2I)ω² = 2(½Iω²). A larger I means more mass farther from the axis, which stores more energy at the same spin rate. The stem keeps the angular velocity unchanged, so only the I factor matters.\n\n(B) is wrong because a larger moment of inertia increases the energy at a fixed spin rate, so the energy cannot be cut in half.\n(C) is wrong because i is a factor in the formula, so changing it changes the kinetic energy.\n(D) is wrong because quadrupling would require KE to depend on I², but only ω is squared in the formula; I appears to the first power, so doubling I only doubles KE."
     },
     {
       "id": "6-5",
@@ -4381,7 +4381,7 @@ const QUESTIONS = {
         "The role of velocity."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The role of mass. Comparing ½mv² with ½Iω²: v is replaced by ω and m is replaced by I. Mass measures resistance to a change in linear motion, and the moment of inertia I measures resistance to a change in rotational motion, so I is the rotational counterpart of mass. The same pattern appears in p = mv and L = Iω.\n\n(A) is wrong because I has a direct analog in the translational formula, namely the mass m, which sits in the same position in the expression.\n(B) is wrong because force has no place in either energy formula; kinetic energy depends on mass and speed, not on the force that produced the motion.\n(D) is wrong because the role of velocity in the rotational formula is played by the angular velocity ω, not by I, which multiplies ω² just as m multiplies v²."
+      "explanation": "Correct: (C) The role of mass. Comparing ½mv² with ½Iω²: v is replaced by ω and m is replaced by I. Mass measures resistance to a change in linear motion, and the moment of inertia I measures resistance to a change in rotational motion, so I is the rotational counterpart of mass. The same pattern appears in p = mv and L = Iω.\n\n(A) is wrong because i has a direct analog in the translational formula, namely the mass m, which sits in the same position in the expression.\n(B) is wrong because force has no place in either energy formula; kinetic energy depends on mass and speed, not on the force that produced the motion.\n(D) is wrong because the role of velocity in the rotational formula is played by the angular velocity ω, not by I, which multiplies ω² just as m multiplies v²."
     },
     {
       "id": "6-7",
@@ -4394,7 +4394,7 @@ const QUESTIONS = {
         "The hoop has greater rotational KE."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The hoop has greater rotational KE. Since KE<sub>rot</sub>=½Iω² and both objects share the same ω, the object with the larger moment of inertia has the greater rotational KE. The hoop (I=MR²) has twice the moment of inertia of the disk (I=½MR²) for equal mass and radius, so it has twice the rotational KE as well."
+      "explanation": "Correct: (D) The hoop has greater rotational KE. Rotational kinetic energy is KE<sub>rot</sub> = ½Iω². With the same ω for both, the object with the larger moment of inertia has more rotational KE. A hoop has all its mass at radius R, so I<sub>hoop</sub> = MR²; a solid disk has mass spread toward the center, so I<sub>disk</sub> = ½MR². Then KE<sub>hoop</sub> = ½MR²ω² and KE<sub>disk</sub> = ¼MR²ω², so the hoop has exactly twice the rotational kinetic energy. Its mass, all at the rim, moves faster on average (v = rω).\n\n(A) is wrong because equal M, R, and ω plus the standard moments of inertia give KE<sub>hoop</sub> = 2KE<sub>disk</sub>, a definite comparison.\n(B) is wrong because reverses the moments of inertia: the disk has I = ½MR², half the hoop's MR², so it has half the rotational KE.\n(C) is wrong because ignores the I in KE<sub>rot</sub> = ½Iω²; rotational KE depends on the mass distribution, not only on ω."
     },
     {
       "id": "6-8",
@@ -4446,7 +4446,7 @@ const QUESTIONS = {
         "20 kg·m²"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 5.0 kg·m². Solve KE<sub>rot</sub> = ½Iω² for the moment of inertia: I = 2KE/ω² = 2(40 J)/(4.0 rad/s)² = 80/16 = 5.0 kg·m². Check: ½(5.0)(16) = 40 J, which matches the given energy. The unit works out because joules divided by 1/s² is kg·m².\n\n(A) is wrong because I = 10 kg·m² gives ½(10)(16) = 80 J, which is double the 40 J given in the stem.\n(B) is wrong because I = 2.5 kg·m² gives ½(2.5)(16) = 20 J, which is only half of the given energy.\n(D) is wrong because I = 20 kg·m² gives ½(20)(16) = 160 J, which is four times the given energy of 40 J."
+      "explanation": "Correct: (C) 5.0 kg·m². Solve KE<sub>rot</sub> = ½Iω² for the moment of inertia: I = 2KE/ω² = 2(40 J)/(4.0 rad/s)² = 80/16 = 5.0 kg·m². Check: ½(5.0)(16) = 40 J, which matches the given energy. The unit works out because joules divided by 1/s² is kg·m².\n\n(A) is wrong because i = 10 kg·m² gives ½(10)(16) = 80 J, which is double the 40 J given in the stem.\n(B) is wrong because i = 2.5 kg·m² gives ½(2.5)(16) = 20 J, which is only half of the given energy.\n(D) is wrong because i = 20 kg·m² gives ½(20)(16) = 160 J, which is four times the given energy of 40 J."
     },
     {
       "id": "6-12",
@@ -4524,7 +4524,7 @@ const QUESTIONS = {
         "L = Iα"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) L = Iω. Angular momentum is the rotational analog of linear momentum p = mv, with the moment of inertia I replacing the mass m and the angular velocity ω replacing the velocity v. It has units of kg·m²/s. For a rigid object spinning about a fixed axis, this single product gives the angular momentum.\n\n(B) is wrong because ½Iω² is the rotational kinetic energy, which has units of joules, not the units of angular momentum.\n(C) is wrong because ½mv² is the translational kinetic energy of a moving mass and has nothing to do with rotation or angular momentum.\n(D) is wrong because Iα is a torque (Στ = Iα), the rotational analog of force; it measures the rate of change of angular momentum, not the angular momentum itself."
+      "explanation": "Correct: (A) L = Iω. Angular momentum is the rotational analog of linear momentum p = mv, with the moment of inertia I replacing the mass m and the angular velocity ω replacing the velocity v. It has units of kg·m²/s. For a rigid object spinning about a fixed axis, this single product gives the angular momentum.\n\n(B) is wrong because ½Iω² is the rotational kinetic energy, which has units of joules, not the units of angular momentum.\n(C) is wrong because ½mv² is the translational kinetic energy of a moving mass and has nothing to do with rotation or angular momentum.\n(D) is wrong because iα is a torque (Στ = Iα), the rotational analog of force; it measures the rate of change of angular momentum, not the angular momentum itself."
     },
     {
       "id": "6-18",
@@ -4745,7 +4745,7 @@ const QUESTIONS = {
         "Moment of inertia increases; angular velocity decreases."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Moment of inertia decreases; angular velocity increases. Pulling her arms in moves mass closer to the axis, and I = Σmr² falls. With no significant external torque, L = Iω stays constant, so a smaller I requires a larger ω, and she spins faster.\n\n(B) is wrong because I changes when mass moves toward the axis.\n(C) is wrong because I and ω cannot both increase and keep L constant.\n(D) is wrong because it reverses the effect; extending the arms would increase I and slow the spin."
+      "explanation": "Correct: (A) Moment of inertia decreases; angular velocity increases. Pulling her arms in moves mass closer to the axis, and I = Σmr² falls. With no significant external torque, L = Iω stays constant, so a smaller I requires a larger ω, and she spins faster.\n\n(B) is wrong because i changes when mass moves toward the axis.\n(C) is wrong because i and ω cannot both increase and keep L constant.\n(D) is wrong because it reverses the effect; extending the arms would increase I and slow the spin."
     },
     {
       "id": "6-35",
@@ -4771,7 +4771,7 @@ const QUESTIONS = {
         "It decreases, since tucking reduces her moment of inertia."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It increases, since tucking reduces her moment of inertia. Tucking into a ball pulls her mass closer to her rotation axis, reducing her moment of inertia — and with essentially no external torque acting on her while airborne (gravity acts through her center of mass, producing no torque about that axis), her angular momentum must stay constant, forcing her angular velocity to increase, letting her complete more rotations before hitting the water."
+      "explanation": "Correct: (B) It increases, since tucking reduces her moment of inertia. While airborne, the only significant external force on the diver is gravity, which acts at her center of mass and so exerts no torque about an axis through that point. With zero external torque, angular momentum is conserved: L = Iω = constant. Tucking pulls her mass closer to the rotation axis, decreasing I (roughly by a factor of 2 to 3), so ω must increase by the same factor, letting her complete more somersaults. Extending her body before entry increases I again and slows the spin.\n\n(A) is wrong because credits air resistance, which is small and would oppose the rotation; the speed-up comes from angular momentum conservation as I decreases.\n(C) is wrong because angular momentum, not angular velocity, is fixed; changing I by tucking changes ω.\n(D) is wrong because has the right cause but the wrong effect: with L = Iω constant, a smaller I makes ω larger, not smaller."
     },
     {
       "id": "6-37",
@@ -4823,7 +4823,7 @@ const QUESTIONS = {
         "Yes, both are always conserved together in any change to the spin."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) No — angular momentum is conserved, but kinetic energy increases. This is a critical distinction: angular momentum conservation depends only on zero external torque, which holds here. But kinetic energy is NOT automatically conserved — the skater's muscles do real work pulling her arms inward against the effective outward pull of her spin, adding kinetic energy to the system."
+      "explanation": "Correct: (A) No — angular momentum is conserved, but kinetic energy increases. With negligible external torque (frictionless ice), angular momentum is conserved: I<sub>i</sub>ω<sub>i</sub> = I<sub>f</sub>ω<sub>f</sub>. Kinetic energy can be written KE = L²/(2I). Since L stays fixed and I decreases when she pulls her arms in, KE increases. For example, halving I doubles ω and doubles KE. The extra energy comes from her muscles: to pull her arms inward along curved paths, she must exert an inward force through a distance, doing positive work. Conservation of L does not imply conservation of KE.\n\n(B) is wrong because is wrong on both counts: with no external torque angular momentum stays constant, and KE = L²/(2I) rises as I falls.\n(C) is wrong because zero external torque keeps L constant, while KE increases due to the work done by her muscles.\n(D) is wrong because assumes the two always go together, but KE = L²/(2I) changes whenever I changes even with L conserved."
     },
     {
       "id": "6-41",
@@ -5005,7 +5005,7 @@ const QUESTIONS = {
         "Both have exactly the same total kinetic energy at the bottom."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Both have exactly the same total kinetic energy at the bottom. By conservation of energy, BOTH objects convert the exact same amount of gravitational PE (mgh, since they have equal mass and drop the same height) into total kinetic energy — the sphere and the hoop end up with equal TOTAL kinetic energy at the bottom. What differs is how that total energy is SPLIT between translational and rotational forms (and therefore, their final speeds differ, since the hoop puts more into rotation)."
+      "explanation": "Correct: (D) Both have exactly the same total kinetic energy at the bottom. Both objects start from rest with equal mass and drop the same height, so each loses the same gravitational potential energy, mgh. Rolling without slipping involves static friction at a contact point that does not slide, so friction does no work and mechanical energy is conserved: total KE at the bottom = mgh for each. The difference is in how that total is split. The hoop (I = MR²) puts half into rotation; the sphere (I = (2/5)MR²) puts only 2/7 into rotation, so the sphere moves faster.\n\n(A) is wrong because both lose the same PE, mgh, and no energy is lost to friction; the sphere is faster but not more energetic.\n(B) is wrong because total KE = mgh depends only on the height and mass, so the ramp angle does not change the comparison.\n(C) is wrong because confuses rotational KE with total KE: the hoop has more rotational KE, but its total kinetic energy still equals mgh."
     },
     {
       "id": "6-55",
@@ -5031,7 +5031,7 @@ const QUESTIONS = {
         "No, because static friction doesn't actually exist during rolling."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No — static friction does zero work at the contact point. This is a key, somewhat surprising result: unlike kinetic friction (which does negative work and removes mechanical energy, as in Unit 3), static friction acting at a point with zero instantaneous velocity does zero work — so mechanical energy conservation applies completely to rolling-without-slipping motion, letting you use straightforward energy methods."
+      "explanation": "Correct: (C) No — static friction does zero work at the contact point. For rolling without slipping, the point of the object touching the ramp is momentarily at rest relative to the ramp; it does not slide. Work requires a force acting through a displacement of its point of application, and here that point has zero velocity, so static friction does zero work (P = F·v = 0). Static friction only redistributes energy between translation and rotation by supplying the torque that spins the object up. So mechanical energy is conserved: mgh = ½mv² + ½Iω².\n\n(A) is wrong because even on a rough ramp, rolling without slipping means the contact point does not slide, so static friction does no work.\n(B) is wrong because overgeneralizes from kinetic friction; static friction at a non-slipping contact point does zero work and removes no mechanical energy.\n(D) is wrong because is false: static friction does act; it supplies the torque that makes the object spin as it rolls down the ramp."
     },
     {
       "id": "6-57",
@@ -5057,7 +5057,7 @@ const QUESTIONS = {
         "Cannot be compared without knowing the ramp's angle."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The sliding block is faster, since none of its energy goes into rotation. The frictionlessly sliding block converts ALL of its gravitational PE into translational kinetic energy alone. The rolling ball has to split its PE between translational AND rotational KE — meaning less is available for translational motion, so it arrives at the bottom moving slower than the sliding block."
+      "explanation": "Correct: (C) The sliding block is faster, since none of its energy goes into rotation. Both objects lose the same potential energy, mgh. The frictionless block does not rotate, so all of it becomes translational KE: ½mv² = mgh, v = √(2gh). The rolling ball must split mgh between translation and rotation: mgh = ½mv² + ½Iω² = ½mv²(1 + k), with k = 2/5 for a solid ball, so v = √(10gh/7) ≈ 0.85√(2gh). With less energy available for translation, the ball arrives slower. Mass cancels in both results, and only the height (not the angle) matters.\n\n(A) is wrong because equal mass does not decide speed; the ball diverts part of mgh into rotation, leaving less for translation.\n(B) is wrong because is backward: rotation does not add energy; it uses up part of the same mgh, leaving less for translational speed.\n(D) is wrong because both speeds depend only on the height, √(2gh) and √(10gh/7), so the angle is not needed."
     },
     {
       "id": "6-59",
@@ -5109,7 +5109,7 @@ const QUESTIONS = {
         "Kinetic friction acts because the object is moving, and it removes energy just like in Unit 3."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Static friction acts, and it does zero work at the contact point. Rolling without slipping means zero relative sliding at the contact point (by definition), which is precisely the condition for STATIC (not kinetic) friction. And because that specific point has zero instantaneous velocity, any force acting there — including static friction — does zero work, which is exactly why mechanical energy conservation still applies to the rolling object."
+      "explanation": "Correct: (B) Static friction acts, and it does zero work at the contact point. Rolling without slipping means the point in contact with the surface has zero velocity relative to it: the forward velocity of the center, v, is exactly cancelled by the backward rotational velocity of the bottom point, ωR = v. With no sliding, the friction there is static, not kinetic. Because the point where static friction acts is not moving at that instant, the force acts through zero displacement and does zero work. Mechanical energy is therefore conserved, mgh = ½mv² + ½Iω², so energy methods apply directly.\n\n(A) is wrong because is false: static friction is needed to supply the torque that spins the object up; without it, the object would slide.\n(C) is wrong because static friction acts at a point with zero velocity, so it does zero work, unlike kinetic friction.\n(D) is wrong because, although the object moves, the contact point does not slide, so the friction is static and removes no energy."
     },
     {
       "id": "6-63",
@@ -5135,7 +5135,7 @@ const QUESTIONS = {
         "Hoop > disk > sphere"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Sphere > disk > hoop. The object with the SMALLEST moment of inertia (relative to MR²) diverts the least energy into rotation, leaving the most for translational speed. Ranking by their I coefficients: sphere (2/5) < disk (1/2) < hoop (1) — so the sphere is fastest, the disk is next, and the hoop, with the largest moment of inertia, is slowest."
+      "explanation": "Correct: (C) Sphere > disk > hoop. For an object rolling from rest through a height h, mgh = ½mv²(1 + k), where I = kMR², giving v = √(2gh/(1 + k)). Smaller k means a smaller share of energy goes into rotation and more into translation, so a higher speed. The coefficients are sphere 2/5, disk 1/2, hoop 1. Then v<sub>sphere</sub> = √(2gh/1.4) ≈ 0.845√(2gh), v<sub>disk</sub> = √(2gh/1.5) ≈ 0.816√(2gh), v<sub>hoop</sub> = √(2gh/2) ≈ 0.707√(2gh). Ranking: sphere > disk > hoop. Mass and radius cancel.\n\n(A) is wrong because puts the disk ahead of the sphere, but the disk's k = 1/2 is larger than the sphere's 2/5, so the disk is slower.\n(B) is wrong because ignores rotation: each object diverts a different share of mgh into spinning, so their bottom speeds differ.\n(D) is wrong because reverses the ranking: the hoop has the largest k = 1 and so the smallest speed, not the largest."
     },
     {
       "id": "6-65",
@@ -5149,7 +5149,7 @@ const QUESTIONS = {
         "v = √(2gh/(1+k)), matching the sphere's result for k=2/5."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) v = √(2gh/(1+k)), matching the sphere's result for k=2/5. Starting from energy conservation: mgh = ½mv² + ½Iω² = ½mv² + ½(kMR²)(v/R)² = ½mv²(1+k), where the mass cancels throughout. Solving: gh = ½v²(1+k), so v² = 2gh/(1+k), giving v = √(2gh/(1+k)). Checking against the solid sphere (k=2/5): v = √(2gh/1.4) = √(2gh/(7/5)) = √(10gh/7) — which matches exactly the (7/10)mv²-based result derived earlier in this unit, confirming the general formula is consistent with the specific shape-by-shape results."
+      "explanation": "Correct: (D) v = √(2gh/(1+k)), matching the sphere's result for k=2/5. For rolling without slipping, ω = v/R. Energy conservation from rest gives Mgh = ½Mv² + ½Iω² = ½Mv² + ½(kMR²)(v/R)² = ½Mv²(1 + k). The mass cancels: gh = ½v²(1 + k), so v² = 2gh/(1 + k) and v = √(2gh/(1 + k)). For a solid sphere k = 2/5, so 1 + k = 7/5 and v = √(2gh × 5/7) = √(10gh/7), matching the sphere result, Mgh = (7/10)Mv². As checks, k = 0 (pure sliding) gives √(2gh), and the hoop (k = 1) gives √(gh).\n\n(A) is wrong because puts k in the numerator, so speed would grow with moment of inertia; actually more rotational inertia diverts energy and lowers speed.\n(B) is wrong because drops the factor of 2 and the 1 in 1 + k; at k = 2/5 it gives √(2.5gh), faster than √(2gh), more than gravity can supply.\n(C) is wrong because ignores rotational kinetic energy; √(2gh) applies only to sliding without rotation (k = 0), not to rolling objects."
     }
   ],
   "7": [
@@ -5736,7 +5736,7 @@ const QUESTIONS = {
         "The restoring force is exactly proportional to displacement, at any angle."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) The true force involves sinθ, which only approximates θ for small angles. The true restoring force on a pendulum bob is proportional to sinθ (from the geometry of the swing), not θ itself. Since sinθ≈θ only holds accurately for small angles, the true restoring force only approximately matches the F∝−x condition required for pure SHM — this is the physical root of the small-angle restriction."
+      "explanation": "Correct: (A) The true force involves sinθ, which only approximates θ for small angles. For a pendulum of length L displaced by angle θ, the restoring force along the arc is the tangential component of gravity, F = −mg sinθ. SHM requires F proportional to −(displacement), where the arc displacement is s = Lθ. Since sinθ ≈ θ (in radians) only for small angles, F ≈ −mgθ = −(mg/L)s holds only approximately. For example, at 10°, θ = 0.1745 rad and sin10° = 0.1736, an error of about 0.5%; at 45° the error is about 10%. This is why T = 2π√(L/g) requires small amplitudes.\n\n(B) is wrong because g is essentially constant over the tiny height range of a pendulum swing; the approximation comes from sinθ, not gravity.\n(C) is wrong because is false: the tangential component of gravity, −mg sinθ, always pulls the bob back toward the lowest point.\n(D) is wrong because is false: the restoring force is proportional to sinθ, which grows more slowly than θ, so proportionality fails at large angles."
     },
     {
       "id": "7-46",
@@ -5957,7 +5957,7 @@ const QUESTIONS = {
         "SHM energy conservation is a newly-discovered law specific to oscillation."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The same conservation law, applied to a different potential energy. SHM energy conservation is literally the same principle from Unit 3 — total mechanical energy (KE+PE) remains constant absent friction or other non-conservative forces — just applied here with elastic potential energy (spring) or, for a pendulum, gravitational potential energy, trading with kinetic energy throughout the cycle."
+      "explanation": "Correct: (B) The same conservation law, applied to a different potential energy. Conservation of mechanical energy in SHM is the same law used in Unit 3: when only conservative forces do work, KE + PE stays constant. For a mass on a spring the potential energy is elastic, ½kx², so E = ½mv² + ½kx² = ½kA². For a pendulum it is gravitational, mgh, so E = ½mv² + mgh. In both, energy shifts back and forth between kinetic (maximum at equilibrium) and potential (maximum at the turning points), and the total stays fixed as long as friction and drag are negligible.\n\n(A) is wrong because both describe the same principle: total mechanical energy is constant when only conservative forces do work.\n(C) is wrong because is false: springs exert conservative forces, so a spring's elastic potential energy also obeys mechanical energy conservation.\n(D) is wrong because is false: SHM uses the same general energy conservation principle, just with a spring's elastic potential energy, ½kx², as the PE."
     },
     {
       "id": "7-63",
@@ -5983,7 +5983,7 @@ const QUESTIONS = {
         "KE is maximum at the lowest point; PE is maximum at the highest points."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) KE is maximum at the lowest point; PE is maximum at the highest points. This directly mirrors the spring's behavior: KE is maximum at the lowest point of the swing (equivalent to a spring's equilibrium position, where speed is greatest), and PE is maximum at the highest points of the swing (equivalent to the spring's maximum displacement, where the pendulum has momentarily stopped)."
+      "explanation": "Correct: (D) KE is maximum at the lowest point; PE is maximum at the highest points. With negligible friction, a pendulum's mechanical energy, KE + mgh, stays constant. At the highest points (the turning points) the bob is momentarily at rest, so KE = 0 and all the energy is gravitational PE, which is maximum there. At the lowest point, h is minimum, so PE is minimum and KE (and speed) is maximum. This mirrors a spring: maximum KE at equilibrium (x = 0), maximum PE at the extremes (x = ±A). The total is shared between the two forms at every point.\n\n(A) is wrong because contradicts energy conservation: with constant total energy, KE is largest where PE is smallest, so their maxima cannot coincide.\n(B) is wrong because reverses the two: the bob is momentarily at rest at the highest points (KE = 0) and fastest at the lowest point.\n(C) is wrong because is false: the bob speeds up and slows down and its height changes, so KE and PE trade off throughout each swing."
     },
     {
       "id": "7-65",
@@ -5997,7 +5997,7 @@ const QUESTIONS = {
         "The two expressions describe different physical quantities and are not meant to be equal."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) They are equivalent: ½mv_max² = ½m(Aω)² = ½mA²(k/m) = ½kA², as the mass cancels. Substitute v<sub>max</sub>=Aω into the kinetic energy expression: ½mv<sub>max</sub>² = ½m(Aω)² = ½mA²ω². Then substitute ω²=k/m: ½mA²(k/m) = ½kA² — the mass m cancels out algebraically, leaving exactly the elastic potential energy expression. This confirms both formulas describe the exact same total energy, just derived from two different reference points in the motion (maximum speed at equilibrium vs. maximum displacement at the extreme)."
+      "explanation": "Correct: (B) They are equivalent: ½mv_max² = ½m(Aω)² = ½mA²(k/m) = ½kA², as the mass cancels. Start with the kinetic energy at equilibrium, where all the energy is kinetic: E = ½mv<sub>max</sub>². Substitute v<sub>max</sub> = Aω: E = ½m(Aω)² = ½mA²ω². Then substitute ω² = k/m: E = ½mA²(k/m) = ½kA². The mass cancels, leaving exactly the elastic PE at a turning point, where v = 0 and all the energy is potential. Both expressions describe the same total energy, evaluated at two different points in the cycle, and the equivalence holds for any amplitude A.\n\n(A) is wrong because the algebra works for any amplitude; A appears squared on both sides and never needs to equal 1 m.\n(C) is wrong because the derivation is exact, with no approximation: substituting v<sub>max</sub> = Aω and ω² = k/m gives ½kA² precisely.\n(D) is wrong because both expressions equal the total mechanical energy, evaluated at equilibrium and at maximum displacement."
     }
   ],
   "8": [
@@ -6207,7 +6207,7 @@ const QUESTIONS = {
         "Both containers have equal pressure at the bottom."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Both containers have equal pressure at the bottom. Since P=P0+ρgh depends only on depth (and density), not on the container's shape or total fluid volume, both containers have exactly the same pressure at the bottom — sometimes called the hydrostatic paradox, since it can feel like the wider container's greater total weight of fluid should matter, but it doesn't."
+      "explanation": "Correct: (D) Both containers have equal pressure at the bottom. In a static fluid the pressure at depth h is P = P<sub>0</sub> + ρgh. It depends only on the surface pressure, the fluid density, and the vertical depth, not on the container's shape or the volume of fluid. With the same fluid (same ρ) at the same depth, both bottoms have the same pressure. The wide container holds more fluid, but it also has a larger bottom area, so the total force (F = PA) is larger while the pressure is the same. This is the hydrostatic paradox.\n\n(A) is wrong because P = P<sub>0</sub> + ρgh contains no shape term; same fluid and same depth fix the pressure.\n(B) is wrong because confuses pressure with total force: the wider container's bottom feels more force because its area is larger, but the pressure is equal.\n(C) is wrong because has no basis: narrowing the container does not concentrate pressure; P depends only on ρ, g, and depth."
     },
     {
       "id": "8-17",
@@ -6259,7 +6259,7 @@ const QUESTIONS = {
         "Pressure cannot be compared without knowing the exact tube dimensions."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Both sides have equal pressure at equal depths. Since pressure at a given depth depends only on depth and density — not on the container's width at that point — both sides of the U-tube have identical pressure at equal depths, which is exactly why the water settles to the same height on both sides."
+      "explanation": "Correct: (C) Both sides have equal pressure at equal depths. In a connected static fluid, pressure depends only on depth: P = P<sub>0</sub> + ρgh. Both sides of the U-tube are open to the atmosphere and filled with the same water, so at equal depths below the surface the pressure is equal, regardless of tube width. This is why the water level settles at the same height on both sides: if one side stood higher, the pressure at the bottom on that side would be larger, and water would flow until the levels and pressures matched.\n\n(A) is wrong because confuses the larger weight of water on the wide side with pressure; the wider area spreads that weight, keeping pressure equal.\n(B) is wrong because has no basis: a narrow tube does not concentrate pressure; at equal depth the pressure depends only on ρ, g, and h.\n(D) is wrong because P = P<sub>0</sub> + ρgh needs only depth and density, which are the same at equal depths on both sides."
     },
     {
       "id": "8-21",
@@ -6285,7 +6285,7 @@ const QUESTIONS = {
         "Pressure depends only on the height of fluid directly above that point."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Pressure depends only on the height of fluid directly above that point. The pressure formula depends specifically on the height h of fluid directly above the point in question — not on how wide the container is at any level. This is precisely why the hydrostatic paradox holds: differently-shaped containers filled to the same depth produce identical pressure at that depth."
+      "explanation": "Correct: (D) Pressure depends only on the height of fluid directly above that point. Consider a vertical column of fluid above a small area A at depth h. Its weight is ρ(Ah)g, so the extra pressure it adds is ρAhg/A = ρgh. Width does not appear: a wider container has more fluid, but that extra weight rests on more area, and the fluid walls support any fluid not directly above the point. So P = P<sub>0</sub> + ρgh depends only on depth below the surface. In a static fluid, pressure is also the same at all points of equal depth.\n\n(A) is wrong because contradicts P = P<sub>0</sub> + ρgh, which contains only depth and density; equal depth gives equal pressure for any width.\n(B) is wrong because is false: gravity acts on every part of the fluid, and the result comes from each column's weight over its own area.\n(C) is wrong because is too vague and partly wrong: pressure is not even throughout; it increases with depth. Only points at equal depth share pressure."
     },
     {
       "id": "8-23",
@@ -6324,7 +6324,7 @@ const QUESTIONS = {
         "Yes, but only for very large area ratios between the two pistons."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) No — the output piston moves a smaller distance, so work in equals work out. Since the fluid is essentially incompressible, the volume displaced by the small piston must equal the volume received by the large piston — meaning the small piston travels a much larger distance for the large piston's smaller displacement. Work (force × distance) balances out exactly, preserving energy conservation."
+      "explanation": "Correct: (C) No — the output piston moves a smaller distance, so work in equals work out. Pascal's principle says a pressure change is transmitted equally through an enclosed fluid, so F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub> and F<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>). Because the fluid is incompressible, the volume pushed out by the small piston equals the volume received by the large one: A<sub>1</sub>d<sub>1</sub> = A<sub>2</sub>d<sub>2</sub>, so the output moves a shorter distance, d<sub>2</sub> = d<sub>1</sub>(A<sub>1</sub>/A<sub>2</sub>). Then work out = F<sub>2</sub>d<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>) × d<sub>1</sub>(A<sub>1</sub>/A<sub>2</sub>) = F<sub>1</sub>d<sub>1</sub> = work in. Force is multiplied, energy is not.\n\n(A) is wrong because is false: work out equals work in (ignoring losses), because the larger output force acts through a proportionally smaller distance.\n(B) is wrong because is false and absurd: hydraulic fluids have ordinary positive mass; the explanation is the force-distance tradeoff.\n(D) is wrong because a bigger area ratio multiplies force more but shrinks output distance by the same factor, so W<sub>out</sub> = W<sub>in</sub> always."
     },
     {
       "id": "8-26",
@@ -6402,7 +6402,7 @@ const QUESTIONS = {
         "There is no tradeoff whatsoever."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The input piston must travel farther than the output piston moves. The mechanical advantage of a large output force comes at the cost of the input piston needing to travel a proportionally larger distance — exactly analogous to a lever's mechanical advantage from Unit 5, where a smaller force applied over a larger distance produces a larger force over a smaller distance, with no energy created or destroyed."
+      "explanation": "Correct: (B) The input piston must travel farther than the output piston moves. A hydraulic jack multiplies force by the area ratio: F<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>). Because the fluid is incompressible, the volumes match, A<sub>1</sub>d<sub>1</sub> = A<sub>2</sub>d<sub>2</sub>, so the input piston must move farther by the same ratio: d<sub>1</sub> = d<sub>2</sub>(A<sub>2</sub>/A<sub>1</sub>). For example, with A<sub>2</sub>/A<sub>1</sub> = 50, a 100 N push lifts 5000 N, but the input must move 50 cm to raise the load 1 cm. Work in equals work out, just as with a lever.\n\n(A) is wrong because an ideal hydraulic jack conserves energy; the tradeoff is in distance, not in total energy.\n(C) is wrong because contradicts the stem and Pascal's principle: F<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>) really is larger when A<sub>2</sub> is larger than A<sub>1</sub>.\n(D) is wrong because is false: the larger output force must come with a smaller output distance, or the jack would create energy."
     },
     {
       "id": "8-32",
@@ -6571,7 +6571,7 @@ const QUESTIONS = {
         "The buoyant force acts upward, partially supporting the object's weight."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The buoyant force acts upward, partially supporting the object's weight. The upward buoyant force genuinely helps support the object's weight, meaning the scale (or your hand, lifting something underwater) needs to supply less additional upward force — hence the object feels, and measures, lighter while submerged, even though its true weight (mg) hasn't changed at all."
+      "explanation": "Correct: (D) The buoyant force acts upward, partially supporting the object's weight. A submerged object has three forces: its weight mg (down), the buoyant force (up), and the support from the scale (up). By Archimedes' principle the buoyant force equals the weight of the displaced fluid, F<sub>B</sub> = ρ<sub>fluid</sub>V<sub>sub</sub>g. In equilibrium, F<sub>scale</sub> + F<sub>B</sub> = mg, so the scale reads F<sub>scale</sub> = mg − F<sub>B</sub>, less than the true weight. This reading is called apparent weight. The object's mass and gravity are unchanged; the water simply supplies part of the upward support.\n\n(A) is wrong because is false: gravity is the same just below the water surface as above it; the reduced reading comes from buoyancy.\n(B) is wrong because is false: the reduced scale reading is a real force effect caused by buoyancy, not an optical effect of refraction.\n(C) is wrong because is false: water does not remove mass from an object; its mass, and so its true weight, mg, stays the same."
     },
     {
       "id": "8-45",
@@ -6688,7 +6688,7 @@ const QUESTIONS = {
         "Because pressure is always the same throughout the pipe."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Whatever fluid enters one end per second must exit the other end per second. At steady-state flow with no leaks or branches, mass conservation demands that whatever fluid enters a section of pipe per second must also exit per second — otherwise fluid would be piling up or disappearing somewhere inside, which isn't physically possible for an incompressible fluid with nowhere else to go."
+      "explanation": "Correct: (A) Whatever fluid enters one end per second must exit the other end per second. For an incompressible fluid in steady flow, the density is constant and nothing accumulates inside the pipe. Conservation of mass then requires the volume flow rate to be the same at every cross section: the volume entering per second, A<sub>1</sub>v<sub>1</sub>, must equal the volume leaving per second, A<sub>2</sub>v<sub>2</sub>. If more entered than left, fluid would have to compress or pile up, which an incompressible fluid in a rigid, leak-free pipe cannot do. So A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>, and the fluid speeds up where the pipe narrows.\n\n(B) is wrong because is the opposite of the real reason: continuity holds precisely because mass is conserved and fluid cannot be created or destroyed.\n(C) is wrong because is false: continuity follows directly from mass conservation for an incompressible fluid in steady flow.\n(D) is wrong because is false: pressure generally varies along the pipe (Bernoulli's equation), and continuity does not depend on constant pressure."
     },
     {
       "id": "8-54",
@@ -6818,7 +6818,7 @@ const QUESTIONS = {
         "9.9 m/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 9.9 m/s. With P1=P2 (both exposed to atmosphere) and v1≈0 (large tank surface): ρgh1 = ½ρv2²+ρgh2, which simplifies to v2=√(2gΔh) = √(2×9.8×5.0) = √98 ≈ 9.9 m/s — this specific result is often called Torricelli's theorem, and notice it's identical to the speed of an object simply falling from that same height."
+      "explanation": "Correct: (D) 9.9 m/s. Apply Bernoulli's equation from the water surface (point 1) to the hole (point 2): P<sub>1</sub> + ½ρv<sub>1</sub>² + ρgh<sub>1</sub> = P<sub>2</sub> + ½ρv<sub>2</sub>² + ρgh<sub>2</sub>. Both are at atmospheric pressure, so P<sub>1</sub> = P<sub>2</sub> cancels, and v<sub>1</sub> ≈ 0 for a large tank. This leaves ½v<sub>2</sub>² = g(h<sub>1</sub> − h<sub>2</sub>), so v<sub>2</sub> = √(2gΔh) = √(2 × 9.8 m/s² × 5.0 m) = √(98 m²/s²) ≈ 9.9 m/s. This is Torricelli's theorem, the same speed an object reaches falling freely through 5.0 m.\n\n(A) is wrong because is gh = 9.8 × 5.0 = 49, which forgets both the factor of 2 and the square root; also, its units would be m²/s², not m/s.\n(B) is wrong because is √(4gh) = √196 = 14 m/s, which doubles v²; that would be the exit speed for a hole 10 m deep, not 5.0 m.\n(C) is wrong because is √(gh) = √49 = 7.0 m/s, which drops the factor of 2 that comes from clearing the ½ in ½ρv²."
     },
     {
       "id": "8-64",
@@ -6831,7 +6831,7 @@ const QUESTIONS = {
         "The ½ρv² term rises with speed, so pressure must fall to keep the sum constant."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) The ½ρv² term rises with speed, so pressure must fall to keep the sum constant. Bernoulli's equation requires the total (P+½ρv²+ρgh) to remain constant along a streamline. In a horizontal pipe, ρgh doesn't change, so any increase in kinetic energy (½ρv², from the fluid speeding up in the narrower section) must be balanced by a corresponding decrease in pressure — a direct energy-conservation tradeoff."
+      "explanation": "Correct: (D) The ½ρv² term rises with speed, so pressure must fall to keep the sum constant. Bernoulli's equation states that P + ½ρv² + ρgh is constant along a streamline in steady, incompressible, frictionless flow; it is conservation of energy per unit volume. By continuity (Av = constant), the fluid speeds up in the narrow section, so ½ρv² increases. In a horizontal pipe ρgh is the same at both points, so the pressure P must drop by exactly the gain in ½ρv². Physically, fluid speeds up only if a net force pushes it from higher pressure into the lower-pressure narrow section.\n\n(A) is wrong because the narrow section is completely full of fluid; the lower pressure comes from the faster flow, not from less fluid.\n(B) is wrong because is backward: the effect is clearest in horizontal pipes, where ρgh is constant and only the speed term changes pressure.\n(C) is wrong because is false: nothing blocks pressure; the drop occurs because kinetic energy per volume, ½ρv², rises while the total stays constant."
     },
     {
       "id": "8-65",
@@ -6845,7 +6845,7 @@ const QUESTIONS = {
         "1.66×10⁵ Pa"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 1.41×10⁵ Pa. Apply the full Bernoulli equation: P1+½ρv1²+ρgh1 = P2+½ρv2²+ρgh2. Left side: 2.0×10⁵+½(1000)(2.0)²+0 = 2.0×10⁵+2000 = 202,000 Pa. Right side without P2: ½(1000)(8.0)²+(1000)(9.8)(3.0) = 32,000+29,400 = 61,400 Pa. Solving: P2 = 202,000−61,400 = 140,600 Pa ≈ 1.41×10⁵ Pa. This problem requires tracking all three Bernoulli terms simultaneously — the speed increase and the height increase both act to lower pressure here, compounding the total pressure drop between the two points."
+      "explanation": "Correct: (C) 1.41×10⁵ Pa. Use the full Bernoulli equation: P<sub>1</sub> + ½ρv<sub>1</sub>² + ρgh<sub>1</sub> = P<sub>2</sub> + ½ρv<sub>2</sub>² + ρgh<sub>2</sub>. Left side: 2.0×10⁵ + ½(1000)(2.0)² + 0 = 200,000 + 2,000 = 202,000 Pa. Right side terms besides P<sub>2</sub>: ½(1000)(8.0)² + (1000)(9.8)(3.0) = 32,000 + 29,400 = 61,400 Pa. So P<sub>2</sub> = 202,000 − 61,400 = 140,600 Pa ≈ 1.41×10⁵ Pa. Both the speed increase (30,000 Pa) and the 3.0 m rise (29,400 Pa) lower the pressure, for a total drop of 59,400 Pa.\n\n(A) is wrong because implies a pressure drop of only 6,000 Pa, far smaller than even the 30,000 Pa increase in the ½ρv² term alone.\n(B) is wrong because implies a drop of 79,000 Pa, about 20,000 Pa more than the 59,400 Pa the speed and height terms together require.\n(D) is wrong because subtracts ½ρv<sub>1</sub>² instead of adding it (200,000 − 2,000 − 32,000 = 166,000 Pa) and leaves out the 29,400 Pa height term."
     }
   ]
 };
