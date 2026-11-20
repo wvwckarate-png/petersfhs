@@ -39,7 +39,7 @@ const TV = fig(sketchAxes({
   yTicks: [{ at: 0.5, label: "0.5" }, { at: 1, label: "1.0" }, { at: 1.5, label: "1.5" }, { at: 3, label: "3.0" }],
   curves: [{ pts: TmodelPts, color: "#3F7A94" }],
   notes: [{ x: 0.82, y: 1.12, s: "A", anchor: "end" }, { x: 3.1, y: 3.05, s: "B" }, { x: 3.1, y: 1.5, s: "C" }, { x: 0.82, y: 0.5, s: "D", anchor: "end" }],
-}), "A graph of temperature versus volume for the cycle. A rises along a straight line toward the origin's direction to B at 3.0 liters and 3.0 times the temperature at A; B drops vertically to C at half of B's temperature; C goes along a straight line to D at 1.0 liter; D rises vertically back to A.",
+}), "A graph of temperature versus volume for the cycle. From A, a straight line that would extend back through the origin rises to B at 3.0 liters and 3.0 times the temperature at A; B drops vertically to C at half of B's temperature; C goes along a straight line to D at 1.0 liter; D rises vertically back to A.",
 { caption: "Model sketch (<i>T</i> in units of <i>T</i><sub>A</sub>): A (1, 1.0) → B (3, 3.0) → C (3, 1.5) → D (1, 0.5) → A. Both slanted segments lie on lines through the origin." });
 
 const decayTable = table(["Time <i>t</i> (min)", "Count rate <i>R</i> (counts/min)", "ln <i>R</i>"], ts.map((t, i) => [String(t), String(Rs[i]), lnR[i].toFixed(2)]), "Table 1. Count rates corrected for background.");

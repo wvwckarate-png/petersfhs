@@ -39,7 +39,7 @@ const lensFig = fig(lensBlank({ f, dO: do1, h: ho }),
 
 const lensModel = fig(lensRays({ f, dO: do1, h: ho }),
   "A ray diagram: a ray from the top of the object parallel to the axis refracts through the far focal point, and a ray through the center of the lens continues straight. They meet to the right of the lens, forming a smaller, inverted, real image about 20 centimeters from the lens.",
-  { caption: "Model ray diagram (not to scale vertically): the image is real, inverted and smaller." });
+  { caption: "Model ray diagram (drawn to scale): the image is real, inverted and smaller." });
 
 const graphModel = fig(sketchAxes({
   xLabel: "Object distance d_{o} (cm)", yLabel: "Image distance d_{i} (cm)", xMax: 65, yMax: 65,

@@ -36,7 +36,7 @@ const SAMPLE_EXAM = {
       choices: ["16 m", "25 m", "31 m", "40 m"],
       correct: 2,
       explanation:
-        "Displacement is the area under the velocity–time graph. During the first 3 s the average velocity is (2 + 8)/2 = 5 m/s, giving 15 m. During the next 2 s the cart travels 8 × 2 = 16 m. The total is 15 + 16 = 31 m. Using the average of 2 and 8 for the whole trip (25 m) ignores that the last 2 s are at constant speed, and 40 m wrongly uses the top speed for all 5 s.",
+        "Correct: (C) 31 m. Displacement is the area under the velocity–time graph. During the first 3 s the velocity rises uniformly, so the average velocity is (2 + 8)/2 = 5 m/s and the displacement is (5 m/s)(3 s) = 15 m (the area of a trapezoid). During the next 2 s the cart moves at a constant 8 m/s, covering (8 m/s)(2 s) = 16 m. The total displacement is 15 m + 16 m = 31 m.\n\n(A) is wrong because 16 m is only the distance traveled during the last 2 s at constant speed; it leaves out the 15 m from the first 3 s.\n(B) is wrong because 25 m uses the average of 2 and 8 m/s for all 5 s, ignoring that the last 2 s are at a constant 8 m/s.\n(D) is wrong because 40 m uses the top speed of 8 m/s for all 5 s, ignoring that the cart starts at only 2 m/s.",
     },
     {
       id: "s-2",
@@ -45,7 +45,7 @@ const SAMPLE_EXAM = {
       choices: ["1.0 m", "2.0 m", "4.0 m", "5.0 m"],
       correct: 1,
       explanation:
-        "The vertical and horizontal motions are independent. Vertically, the ball starts with no vertical velocity, so 1.25 = ½(10)t², giving t = 0.5 s. Horizontally it moves at a constant 4.0 m/s, so x = 4.0 × 0.5 = 2.0 m. Answering 4.0 m treats the fall as taking 1 s, and 1.0 m uses half the fall time incorrectly.",
+        "Correct: (B) 2.0 m. The horizontal and vertical motions are independent. Vertically the ball starts with zero vertical velocity and falls 1.25 m: 1.25 m = ½(10 m/s²)t², so t² = 0.25 s² and t = 0.50 s. Horizontally there is no force, so the 4.0 m/s speed stays constant: x = (4.0 m/s)(0.50 s) = 2.0 m from the base of the table.\n\n(A) is wrong because 1.0 m uses t = 0.25 s, which is t² mistaken for t; the square root of 0.25 is 0.50 s.\n(C) is wrong because 4.0 m assumes a 1.0 s fall time, but a 1.25 m fall from rest takes only 0.50 s.\n(D) is wrong because 5.0 m multiplies the horizontal speed by the table height (4.0 × 1.25), which has no physical basis.",
     },
     {
       id: "s-3",
@@ -54,7 +54,7 @@ const SAMPLE_EXAM = {
       choices: ["8 N", "10 N", "20 N", "40 N"],
       correct: 0,
       explanation:
-        "Treat the two blocks as one system: the net force is the hanging block's weight, 10 N, and the total mass is 5.0 kg, so a = 2 m/s². The tension is the only horizontal force on the 4.0 kg block, so T = (4.0)(2) = 8 N. The tension is less than 10 N because the hanging block is accelerating downward. 40 N is the weight of the table block, which is balanced by the table and does not enter the horizontal motion.",
+        "Correct: (A) 8 N. Treat both blocks as one system connected by the string. The only unbalanced external force is the hanging block's weight, (1.0 kg)(10 m/s²) = 10 N, and the total mass is 5.0 kg, so a = 10 N ÷ 5.0 kg = 2.0 m/s². The tension is the only horizontal force on the 4.0 kg block, so T = (4.0 kg)(2.0 m/s²) = 8.0 N. Check on the hanging block: 10 N − 8 N = (1.0 kg)(2.0 m/s²).\n\n(B) is wrong because 10 N is the hanging block's weight; the tension would equal it only if the hanging block were not accelerating downward.\n(C) is wrong because 20 N exceeds the hanging block's 10 N weight, which would make that block accelerate upward, contradicting the motion.\n(D) is wrong because 40 N is the weight of the 4.0 kg block on the table, which is balanced by the normal force and does not set the tension.",
     },
     {
       id: "s-4",
@@ -63,7 +63,7 @@ const SAMPLE_EXAM = {
       choices: ["1.0 m/s²", "3.7 m/s²", "4.0 m/s²", "5.0 m/s²"],
       correct: 0,
       explanation:
-        "The normal force equals the weight, 50 N, so kinetic friction is (0.30)(50) = 15 N, opposing the motion. The net force is 20 − 15 = 5 N, so a = 5/5.0 = 1.0 m/s². 4.0 m/s² ignores friction (20/5.0). 3.7 m/s² results from using the mass instead of the weight to find the friction force. 5.0 m/s² mistakes the net force in newtons for the acceleration.",
+        "Correct: (A) 1.0 m/s². The floor is horizontal, so the normal force equals the weight: N = mg = (5.0 kg)(10 m/s²) = 50 N. Kinetic friction is f = μ<sub>k</sub>N = (0.30)(50 N) = 15 N, opposing the motion. The net horizontal force is 20 N − 15 N = 5 N, so by Newton's second law a = F<sub>net</sub>/m = 5 N ÷ 5.0 kg = 1.0 m/s².\n\n(B) is wrong because 3.7 m/s² uses the mass instead of the weight for friction: f = (0.30)(5.0) = 1.5 N, giving (20 − 1.5)/5.0 = 3.7 m/s².\n(C) is wrong because 4.0 m/s² ignores friction entirely, dividing the full 20 N push by the 5.0 kg mass.\n(D) is wrong because 5.0 m/s² takes the 5 N net force as the acceleration and forgets to divide by the 5.0 kg mass.",
     },
     {
       id: "s-5",
@@ -72,7 +72,7 @@ const SAMPLE_EXAM = {
       choices: ["3.0 m/s", "6.0 m/s", "9.0 m/s", "18 m/s"],
       correct: 1,
       explanation:
-        "With no friction, mechanical energy is conserved: mgh = ½mv². The mass cancels, so v = √(2gh) = √(2 × 10 × 1.8) = √36 = 6.0 m/s. The mass does not change the answer, and the shape of the track does not matter, only the height. 18 m/s results from forgetting the square root.",
+        "Correct: (B) 6.0 m/s. The track is frictionless and the normal force does no work, so mechanical energy is conserved: mgh = ½mv². The mass cancels, giving v = √(2gh) = √(2 × 10 m/s² × 1.8 m) = √(36 m²/s²) = 6.0 m/s. Only the height drop matters, not the 2.0 kg mass or the shape of the curved track.\n\n(A) is wrong because 3.0 m/s is half the correct speed, as if the speed came from √(gh/2) instead of √(2gh).\n(C) is wrong because 9.0 m/s is gh/2 = (10)(1.8)/2 with no square root, which also has the wrong units for a speed.\n(D) is wrong because 18 m/s is gh = (10)(1.8) without the factor of 2 or the square root, so it is not a speed.",
     },
     {
       id: "s-6",
@@ -81,7 +81,7 @@ const SAMPLE_EXAM = {
       choices: ["100 J", "200 J", "500 J", "1000 J"],
       correct: 3,
       explanation:
-        "At constant speed the upward force from the motor equals the weight: F = mg = 500 N. In 5.0 s the crate rises d = (0.40)(5.0) = 2.0 m, so W = Fd = (500)(2.0) = 1000 J. 200 J is the motor's power (500 N × 0.40 m/s) rather than the work, and 100 J and 500 J come from dropping either the distance or the time.",
+        "Correct: (D) 1000 J. At constant speed the net force is zero, so the motor's upward force equals the crate's weight: F = mg = (50 kg)(10 m/s²) = 500 N. In 5.0 s the crate rises d = vt = (0.40 m/s)(5.0 s) = 2.0 m. The work done by the motor is W = Fd = (500 N)(2.0 m) = 1000 J. Equivalently, power is Fv = 200 W, and 200 W × 5.0 s = 1000 J.\n\n(A) is wrong because 100 J leaves out g, multiplying the 50 kg mass by the 2.0 m height instead of using the 500 N weight.\n(B) is wrong because 200 J is the motor's power, (500 N)(0.40 m/s) = 200 W, which must still be multiplied by the 5.0 s.\n(C) is wrong because 500 J is just the weight in newtons, treated as if the crate rose only 1 m instead of 2.0 m.",
     },
     {
       id: "s-7",
@@ -90,7 +90,7 @@ const SAMPLE_EXAM = {
       choices: ["6 J", "12 J", "18 J", "24 J"],
       correct: 0,
       explanation:
-        "Momentum is conserved: (3.0)(4.0) = (4.0)v, so v = 3.0 m/s. The initial kinetic energy is ½(3.0)(4.0)² = 24 J, and the final is ½(4.0)(3.0)² = 18 J. The energy lost is 24 − 18 = 6 J. The values 24 J and 18 J are the initial and final energies, not the loss.",
+        "Correct: (A) 6 J. Momentum is conserved in the collision: (3.0 kg)(4.0 m/s) = (4.0 kg)v, so v = 3.0 m/s. The initial kinetic energy is ½(3.0 kg)(4.0 m/s)² = 24 J, and the final kinetic energy is ½(4.0 kg)(3.0 m/s)² = 18 J. The kinetic energy lost to heat, sound and deformation in this perfectly inelastic collision is 24 J − 18 J = 6 J.\n\n(B) is wrong because 12 J assumes half the kinetic energy is lost, but the loss depends on the mass ratio and works out to 6 J here.\n(C) is wrong because 18 J is the final kinetic energy of the joined carts, not the amount that was lost.\n(D) is wrong because 24 J is the initial kinetic energy; it would mean the carts stopped, which violates momentum conservation.",
     },
     {
       id: "s-8",
@@ -99,7 +99,7 @@ const SAMPLE_EXAM = {
       choices: ["1.3 m", "2.0 m", "3.0 m", "4.5 m"],
       correct: 2,
       explanation:
-        "For rotational equilibrium the net torque about the pivot is zero: (30)(g)(2.0) = (20)(g)(d), so d = (30 × 2.0)/20 = 3.0 m. The lighter child must sit farther from the pivot. 1.3 m results from inverting the ratio, and 2.0 m would only balance two equal masses.",
+        "Correct: (C) 3.0 m. For the plank to stay balanced, the net torque about the pivot must be zero, so the counterclockwise torque from the left child equals the clockwise torque from the right child: (30 kg)(g)(2.0 m) = (20 kg)(g)(d). The g cancels, so d = (30 × 2.0)/20 = 3.0 m. The lighter child must sit farther from the pivot to produce the same 600 N·m torque.\n\n(A) is wrong because 1.3 m inverts the mass ratio, d = (20 × 2.0)/30, which would put the lighter child closer and leave the plank unbalanced.\n(B) is wrong because 2.0 m balances only two equal masses; the 20 kg child at 2.0 m produces less torque than the 30 kg child.\n(D) is wrong because 4.5 m applies the 30/20 ratio twice, 2.0 × (1.5)², giving too much torque on the right side.",
     },
     {
       id: "s-9",
@@ -113,7 +113,7 @@ const SAMPLE_EXAM = {
       ],
       correct: 1,
       explanation:
-        "No external torque acts, so angular momentum L = Iω is constant. Pulling her arms in decreases her rotational inertia I, so ω must increase. Rotational kinetic energy is K = L²/(2I), which increases as I decreases — the extra energy comes from the work her muscles do pulling her arms inward. Choice A is wrong because L cannot change without an external torque, and choice C is wrong because K changes when I changes at fixed L.",
+        "Correct: (B) Her angular momentum is unchanged, her angular speed increases, and her rotational kinetic energy increases. No external torque acts on the skater (the ice is frictionless), so her angular momentum L = Iω is conserved. Pulling her arms in brings mass closer to the axis and decreases her rotational inertia I, so ω must increase to keep L constant. Her rotational kinetic energy is K = ½Iω² = L²/(2I); with L fixed and I smaller, K increases. The extra energy comes from the work her muscles do pulling her arms inward.\n\n(A) is wrong because angular momentum cannot increase without an external torque, and none acts on the skater on frictionless ice.\n(C) is wrong because kinetic energy K = L²/(2I) rises when I falls at constant L, because her muscles do positive work.\n(D) is wrong because angular speed must increase when rotational inertia decreases at fixed L, and her kinetic energy increases rather than decreases.",
     },
     {
       id: "s-10",
@@ -122,7 +122,7 @@ const SAMPLE_EXAM = {
       choices: ["T/9", "T/3", "3T", "9T"],
       correct: 2,
       explanation:
-        "For a mass–spring system the period is T = 2π√(m/k). Multiplying the mass by 9 multiplies the period by √9 = 3, so the new period is 3T. The period depends on the square root of the mass, so it does not change by the full factor of 9, and a larger mass makes the period longer, not shorter.",
+        "Correct: (C) 3T. For a mass–spring oscillator the period is T = 2π√(m/k), so the period is proportional to the square root of the mass. With the spring constant unchanged and the mass multiplied by 9, the new period is T' = 2π√(9m/k) = √9 · T = 3T. A heavier block accelerates less for the same spring force, so it oscillates more slowly.\n\n(A) is wrong because T/9 assumes the period is inversely proportional to the mass, but a larger mass makes the period longer.\n(B) is wrong because T/3 uses the correct square-root factor but inverts it, so it wrongly makes the period shorter.\n(D) is wrong because 9T assumes the period is proportional to the mass itself, but it depends on the square root of the mass.",
     },
     {
       id: "s-11",
@@ -131,7 +131,7 @@ const SAMPLE_EXAM = {
       choices: ["40%", "60%", "75%", "100%"],
       correct: 1,
       explanation:
-        "A floating object is in equilibrium, so the buoyant force equals its weight: ρ<sub>water</sub> · V<sub>sub</sub> · g = ρ<sub>block</sub> · V<sub>total</sub> · g. Then V<sub>sub</sub>/V<sub>total</sub> = ρ<sub>block</sub>/ρ<sub>water</sub> = 600/1000 = 0.60, or 60%. A block that sank would be 100% submerged, but it floats because it is less dense than water. 40% is the fraction above the surface.",
+        "Correct: (B) 60%. A floating block is in equilibrium, so the buoyant force equals its weight: ρ<sub>water</sub>V<sub>sub</sub>g = ρ<sub>block</sub>V<sub>total</sub>g. The g cancels, giving V<sub>sub</sub>/V<sub>total</sub> = ρ<sub>block</sub>/ρ<sub>water</sub> = (600 kg/m³)/(1000 kg/m³) = 0.60. So 60% of the block's volume is below the surface, and the other 40% sticks out above the water.\n\n(A) is wrong because 40% is the fraction of the block above the water's surface, not the fraction below it.\n(C) is wrong because 75% does not follow from the density ratio; the submerged fraction is 600/1000 = 0.60, not 0.75.\n(D) is wrong because 100% submerged applies to a block that is at least as dense as water, but this block floats because it is less dense.",
     },
   ],
 };

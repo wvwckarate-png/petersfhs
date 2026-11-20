@@ -66,7 +66,7 @@ const EXAM = {
      "prompt": "A beam of electrons accelerated through 100 V is directed at a thin crystal, and the electrons that pass through produce a pattern of bright and dark rings on a detector. Does this observation support a wave model or a particle model for electrons? Justify your answer.",
      "rubric": [
       "For indicating that the observation supports a wave model (electrons behave as waves)",
-      "For reasoning that diffraction and interference patterns of bright and dark regions are characteristic of waves, and that the electron's de Broglie wavelength (about 0.1 nm) is comparable to the spacing of atoms in the crystal"
+      "For reasoning that diffraction and interference patterns of bright and dark regions are characteristic of waves (for example, noting that the electron's de Broglie wavelength, about 0.1 nm, is comparable to the spacing of atoms in the crystal)"
      ],
      "model": [
       "The ring pattern supports a <b>wave</b> model. Bright and dark rings arise from constructive and destructive interference of waves that scatter from the regularly spaced atoms of the crystal — a pattern that a stream of simple classical particles would not produce.",
@@ -276,7 +276,7 @@ const EXAM = {
     {
      "id": "D",
      "label": "Part D",
-     "prompt": "Briefly explain why the equation used in part B can use the fringe spacing measured along the screen (a small-angle approximation) in this experiment.",
+     "prompt": "The equation used in part B relies on a small-angle approximation. Briefly explain why this approximation is valid in this experiment.",
      "rubric": [
       "For explaining that the fringe positions are small compared with <i>L</i> (so the angle θ is small), meaning sin θ ≈ tan θ ≈ θ"
      ],

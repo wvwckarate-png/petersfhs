@@ -12,7 +12,7 @@ const EXAM = {
     "The cytosol"
    ],
    "correct": 3,
-   "explanation": "Glycolysis is carried out by enzymes dissolved in the cytosol and does not require oxygen or mitochondria. The citric acid cycle occurs in the mitochondrial matrix, and the electron transport chain is in the inner mitochondrial membrane."
+   "explanation": "Correct: (D) The cytosol. Glycolysis, the first stage of cellular respiration, splits one glucose into two pyruvate molecules with a net gain of 2 ATP and 2 NADH. Its enzymes are dissolved in the cytosol, so it takes place outside any organelle and does not require oxygen. That is why glycolysis also occurs in prokaryotes and in anaerobic fermentation. Pyruvate then enters the mitochondrion for the later stages of respiration.\n\n(A) is wrong because the mitochondrial matrix is where pyruvate oxidation and the citric (Krebs) acid cycle occur, after glycolysis is finished.\n(B) is wrong because the inner mitochondrial membrane holds the electron transport chain and ATP synthase, not the glycolysis enzymes.\n(C) is wrong because the thylakoid membrane in chloroplasts carries out the light reactions of photosynthesis, not glycolysis."
   },
   {
    "id": "bs0-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "100"
    ],
    "correct": 2,
-   "explanation": "Three nucleotides make one codon, and each codon specifies one amino acid: 600/3 = 200 amino acids."
+   "explanation": "Correct: (C) 200. The genetic code is read in codons of three nucleotides, and each codon specifies one amino acid. With no introns, all 600 nucleotides are coding, and the stop codon is not counted, so the number of amino acids is 600 ÷ 3 = 200. (The start codon AUG codes for methionine, so it is included among the 200 codons.)\n\n(A) is wrong because 600 assumes each nucleotide codes for one amino acid, but a codon is three nucleotides long.\n(B) is wrong because 300 divides by 2, as if codons were two nucleotides long; two-letter codons would give only 16 combinations.\n(D) is wrong because 100 divides by 6, which double-counts by treating each codon as six nucleotides, as if counting both DNA strands."
   },
   {
    "id": "bs0-3",
@@ -38,7 +38,7 @@ const EXAM = {
     "24"
    ],
    "correct": 1,
-   "explanation": "Meiosis produces haploid gametes, each with half the chromosome number of the parent cell: 12/2 = 6."
+   "explanation": "Correct: (B) 6. Meiosis is a reduction division: one round of DNA replication followed by two divisions produces four haploid (n) cells. Each sperm therefore carries one chromosome from each homologous pair, half the diploid number. With 2n = 12, n = 12 ÷ 2 = 6 chromosomes per sperm. Fertilization by an egg with 6 chromosomes then restores the diploid number of 12.\n\n(A) is wrong because 3 halves the chromosome number twice, but meiosis II separates sister chromatids and does not halve the chromosome number again.\n(C) is wrong because 12 is the diploid number found in body cells and in cells made by mitosis, not in haploid gametes.\n(D) is wrong because 24 doubles the chromosome number; gametes would then double the number every generation after fertilization."
   },
   {
    "id": "bs0-4",
@@ -51,7 +51,7 @@ const EXAM = {
     "The Golgi apparatus"
    ],
    "correct": 0,
-   "explanation": "The plasma membrane, a phospholipid bilayer with embedded proteins, is selectively permeable and controls the movement of materials into and out of every cell. A plant cell wall is a rigid, fully permeable layer outside the membrane."
+   "explanation": "Correct: (A) The plasma membrane. The plasma membrane is a phospholipid bilayer with embedded proteins that surrounds every cell. Its hydrophobic interior blocks most ions and polar molecules, while channel, carrier and pump proteins let specific substances cross. This makes the membrane selectively permeable, so it controls what enters and leaves the cell in all organisms, including plants, bacteria and animals.\n\n(B) is wrong because the plant cell wall is a rigid, porous layer that gives support and resists bursting but lets most small molecules pass freely.\n(C) is wrong because the nucleolus is a region inside the nucleus that makes ribosomal RNA and assembles ribosome subunits.\n(D) is wrong because the Golgi apparatus modifies, sorts and packages proteins for secretion but does not control what crosses the cell boundary."
   },
   {
    "id": "bs0-5",
@@ -64,7 +64,7 @@ const EXAM = {
     "Telophase"
    ],
    "correct": 0,
-   "explanation": "In metaphase, the spindle fibers attach to the kinetochores and align the chromosomes at the metaphase plate. In anaphase, the sister chromatids separate and move to opposite poles."
+   "explanation": "Correct: (A) Metaphase. Metaphase is defined by the alignment of chromosomes. During this phase, spindle microtubules from opposite poles attach to the kinetochores of each pair of sister chromatids, and the opposing pulls line the chromosomes up along the metaphase plate at the cell's equator. A checkpoint ensures every chromosome is attached before the cell moves on to anaphase.\n\n(B) is wrong because in prophase the chromosomes condense and the spindle begins to form, but they have not yet lined up at the equator.\n(C) is wrong because in anaphase the sister chromatids separate and are pulled toward opposite poles, away from the equator.\n(D) is wrong because in telophase the chromosomes arrive at the poles, decondense, and new nuclear envelopes form around them."
   },
   {
    "id": "bs0-6",
@@ -77,7 +77,7 @@ const EXAM = {
     "Primary consumer"
    ],
    "correct": 3,
-   "explanation": "Grass is the producer (first trophic level), and organisms that eat producers are primary consumers. The rabbit eats the grass, so it is a primary consumer, and the fox is a secondary consumer."
+   "explanation": "Correct: (D) Primary consumer. Trophic levels follow the flow of energy from organism to organism. Grass captures energy from sunlight by photosynthesis, so it is the producer (first trophic level). An organism that eats producers is a primary consumer (second trophic level, an herbivore). The rabbit eats grass, so it is the primary consumer, and the fox that eats the rabbit is the secondary consumer.\n\n(A) is wrong because producers make their own food by photosynthesis; the grass is the producer, while the rabbit must eat to get energy.\n(B) is wrong because a secondary consumer eats primary consumers; that describes the fox, which eats the rabbit.\n(C) is wrong because decomposers such as fungi and bacteria break down dead matter, but the rabbit eats living grass."
   },
   {
    "id": "bs0-7",
@@ -91,7 +91,7 @@ const EXAM = {
     "25%"
    ],
    "correct": 1,
-   "explanation": "The offspring genotypes are TT (1/4), Tt (2/4), and tt (1/4). Both TT and Tt are tall, so 3/4 = 75% of the offspring are expected to be tall."
+   "explanation": "Correct: (B) 75%. The Punnett square for Tt × Tt has four equally likely boxes: TT, Tt, Tt and tt. Because tall (T) is dominant, any plant with at least one T allele is tall, so TT and both Tt boxes are tall, which is 3 of 4 boxes. The expected fraction is 3/4 = 75% tall, and the remaining 1/4 (tt) is short.\n\n(A) is wrong because 100% would require every offspring to carry a T allele, but the tt box shows that 1/4 are short.\n(C) is wrong because 50% counts only the two Tt boxes, leaving out the TT plant, which is also tall.\n(D) is wrong because 25% is the fraction of short (tt) plants, or of TT plants alone, not of all the tall plants."
   },
   {
    "id": "bs0-8",
@@ -105,7 +105,7 @@ const EXAM = {
     "9 : 3 : 3 : 1"
    ],
    "correct": 2,
-   "explanation": "The Punnett square shows one TT, two Tt, and one tt, a 1:2:1 genotypic ratio. The 3:1 ratio describes the phenotypes (tall to short)."
+   "explanation": "Correct: (C) 1 TT : 2 Tt : 1 tt. A genotypic ratio counts each allele combination separately. The Punnett square shows 1 TT box (top left), 2 Tt boxes (top right and bottom left) and 1 tt box (bottom right). The expected genotypic ratio is therefore 1 TT : 2 Tt : 1 tt. Grouping by appearance instead gives the phenotypic ratio of 3 tall : 1 short.\n\n(A) is wrong because 3 TT : 1 tt mixes up the 3:1 phenotypic ratio with genotypes and leaves out the heterozygous Tt offspring.\n(B) is wrong because 1 Tt : 1 tt is the ratio of a testcross (Tt × tt), not of a cross between two heterozygotes.\n(D) is wrong because 9:3:3:1 is the phenotypic ratio of a dihybrid cross involving two genes, but this is a monohybrid cross."
   },
   {
    "id": "bs0-9",
@@ -118,7 +118,7 @@ const EXAM = {
     "10,000 times"
    ],
    "correct": 2,
-   "explanation": "Each pH unit is a factor of 10 in [H⁺]. A difference of 3 pH units is a factor of 10³ = 1,000, and the lower pH has the higher concentration."
+   "explanation": "Correct: (C) 1,000 times. pH is a logarithmic scale: pH = −log[H⁺], so each one-unit change in pH is a tenfold change in hydrogen ion concentration. The two solutions differ by 6 − 3 = 3 pH units, so their [H⁺] values differ by a factor of 10³ = 1,000. The lower pH is more acidic, so the pH 3 solution has 1,000 times the [H⁺] of the pH 6 solution.\n\n(A) is wrong because 3 times treats pH as a linear scale, taking the difference of 3 units as the ratio of concentrations.\n(B) is wrong because 30 times multiplies the 3-unit difference by 10 instead of raising 10 to the third power.\n(D) is wrong because 10,000 times is 10⁴, which would correspond to a difference of four pH units, not three."
   },
   {
    "id": "bs0-10",
@@ -131,7 +131,7 @@ const EXAM = {
     "1.0"
    ],
    "correct": 1,
-   "explanation": "q² = 0.25, so q = 0.5 and p = 0.5. The frequency of heterozygotes is 2pq = 2(0.5)(0.5) = 0.50."
+   "explanation": "Correct: (B) 0.50. In Hardy–Weinberg equilibrium the genotype frequencies are p² + 2pq + q² = 1. Only homozygous recessive individuals show the recessive phenotype, so q² = 0.25 and q = √0.25 = 0.5. Then p = 1 − q = 0.5, and the heterozygote frequency is 2pq = 2(0.5)(0.5) = 0.50. Check: 0.25 + 0.50 + 0.25 = 1.00.\n\n(A) is wrong because 0.25 is q² (the homozygous recessive frequency) or p² (the homozygous dominant frequency), not 2pq.\n(C) is wrong because 0.75 is p² + 2pq, the frequency of everyone showing the dominant phenotype, including homozygous dominants.\n(D) is wrong because 1.0 is the total of all genotype frequencies; not every individual can be heterozygous when 25% are recessive."
   }
  ],
  "sets": {

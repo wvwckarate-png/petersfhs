@@ -12,7 +12,7 @@ const EXAM = {
     "0.29 kJ"
    ],
    "correct": 2,
-   "explanation": "q = mcΔT = (100. g)(4.18 J/(g·°C))(7.0 °C) = 2926 J ≈ 2.9 kJ."
+   "explanation": "Correct: (C) 2.9 kJ. The heat absorbed by a substance that changes temperature without changing phase is q = mcΔT. Here ΔT = 25.0 °C − 18.0 °C = 7.0 °C, so q = (100. g)(4.18 J/(g·°C))(7.0 °C) = 2926 J. Converting with 1 kJ = 1000 J gives 2.926 kJ, and because ΔT has only two significant figures (7.0), the answer is reported as 2.9 kJ. The value is positive because the water gains energy.\n\n(A) is wrong because it is 100 times too large; it comes from dividing 2926 J by 10 instead of 1000 (292.6 ≈ 293) when converting joules to kilojoules.\n(B) is wrong because it is 10 times too large; dividing 2926 J by 100 instead of 1000 when converting joules to kilojoules gives about 29 kJ.\n(D) is wrong because it is 10 times too small; it divides by 10,000 instead of 1000, or misplaces the decimal in the 2926 J result."
   },
   {
    "id": "cs0-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "+40 kJ"
    ],
    "correct": 0,
-   "explanation": "ΔG = ΔH − TΔS = −20 kJ − (400 K)(0.050 kJ/K) = −20 − 20 = −40 kJ. Both the energy term and the entropy term favor the reaction."
+   "explanation": "Correct: (A) −40 kJ. Gibbs free energy is ΔG = ΔH − TΔS, and the units must match before combining terms. Convert ΔS to kilojoules: +50 J/K = +0.050 kJ/K. Then TΔS = (400 K)(0.050 kJ/K) = 20 kJ, and ΔG = −20 kJ − 20 kJ = −40 kJ. Both the negative ΔH (exothermic) and the positive ΔS (increased disorder) make ΔG more negative, so the reaction is thermodynamically favorable at every temperature.\n\n(B) is wrong because −20 kJ is just ΔH; it leaves out the −TΔS term, which contributes another −20 kJ at 400 K.\n(C) is wrong because +20 kJ is only the magnitude of TΔS, and it ignores both ΔH and the minus sign in ΔG = ΔH − TΔS.\n(D) is wrong because +40 kJ reverses the signs of both terms, giving −ΔH + TΔS instead of ΔH − TΔS, so the sign of ΔG is flipped."
   },
   {
    "id": "cs0-3",
@@ -38,7 +38,7 @@ const EXAM = {
     "14.00"
    ],
    "correct": 2,
-   "explanation": "pOH = −log(1.0 × 10⁻³) = 3.00, so pH = 14.00 − 3.00 = 11.00."
+   "explanation": "Correct: (C) 11.00. The given quantity is [OH⁻], so first find pOH: pOH = −log(1.0 × 10⁻³) = 3.00. At 25 °C, pH + pOH = 14.00 because K<sub>w</sub> = 1.0 × 10⁻¹⁴, so pH = 14.00 − 3.00 = 11.00. A pH above 7 confirms the solution is basic, as expected when [OH⁻] is larger than 1.0 × 10⁻⁷ M. The two decimal places match the two significant figures in 1.0 × 10⁻³.\n\n(A) is wrong because 3.00 is the pOH, not the pH; it treats the hydroxide concentration as if it were [H⁺].\n(B) is wrong because 7.00 is the pH of a neutral solution, but [OH⁻] = 1.0 × 10⁻³ M is far above 1.0 × 10⁻⁷ M, so the solution is basic.\n(D) is wrong because 14.00 is pH + pOH itself; it forgets to subtract the pOH of 3.00 from 14.00."
   },
   {
    "id": "cs0-4",
@@ -51,7 +51,7 @@ const EXAM = {
     "0.33 atm"
    ],
    "correct": 1,
-   "explanation": "At constant temperature, P₁V₁ = P₂V₂, so P₂ = (1.0)(3.0)/(1.0) = 3.0 atm."
+   "explanation": "Correct: (B) 3.0 atm. At constant temperature and a fixed amount of gas, Boyle's law applies: pressure and volume are inversely proportional, so P₁V₁ = P₂V₂. Solving, P₂ = P₁V₁/V₂ = (1.0 atm)(3.0 L)/(1.0 L) = 3.0 atm. Compressing the gas to one-third of its volume packs the same molecules into a smaller space, so they strike the walls three times as often and the pressure triples.\n\n(A) is wrong because 9.0 atm squares the volume ratio (3.0)², but pressure is inversely proportional to volume, not to its square.\n(C) is wrong because 1.0 atm assumes the pressure does not change, but compressing a gas at constant temperature always raises its pressure.\n(D) is wrong because 0.33 atm uses P₂ = P₁V₂/V₁, treating pressure as directly proportional to volume, which is backward for Boyle's law."
   },
   {
    "id": "cs0-5",
@@ -65,7 +65,7 @@ const EXAM = {
     "B₂"
    ],
    "correct": 3,
-   "explanation": "After the reaction no B₂ remains, while one A₂ molecule is left over. B₂ was used up first, so it is the limiting reactant."
+   "explanation": "Correct: (D) B₂. The limiting reactant is the one completely used up, which stops the reaction. The before box holds 3 A₂ and 6 B₂ molecules. The equation needs 3 B₂ for every 1 A₂, so 6 B₂ can react with only 2 A₂, while 3 A₂ would need 9 B₂. The after box confirms this: 4 AB₃ molecules and 1 leftover A₂, with no B₂ remaining. B₂ ran out first, so B₂ is the limiting reactant.\n\n(A) is wrong because A₂ is the excess reactant; one A₂ molecule is still left in the after box, so it was not used up.\n(B) is wrong because AB₃ is the product of the reaction, not a reactant, so it cannot be the limiting reactant.\n(C) is wrong because the reaction stopped when all six B₂ molecules were consumed while an A₂ molecule was left over, so B₂ was limiting."
   },
   {
    "id": "cs0-6",
@@ -79,7 +79,7 @@ const EXAM = {
     "0"
    ],
    "correct": 2,
-   "explanation": "Six B₂ molecules react with 6 ÷ 3 = 2 A₂ molecules (the ratio is 1 A₂ : 3 B₂). Of the original three A₂ molecules, 3 − 2 = 1 remains."
+   "explanation": "Correct: (C) 1. The mole ratio in A₂ + 3 B₂ → 2 AB₃ is 1 A₂ : 3 B₂. All 6 B₂ molecules react, so they consume 6 ÷ 3 = 2 A₂ molecules and form 2 × 2 = 4 AB₃ molecules. Starting with 3 A₂, the number left is 3 − 2 = 1. The after box in the diagram shows exactly one A₂ molecule beside the four AB₃ molecules, confirming the count and conserving all 6 A atoms and 12 B atoms.\n\n(A) is wrong because 3 is the starting number of A₂ molecules; it assumes none of the A₂ reacted with B₂.\n(B) is wrong because 2 is the number of A₂ molecules that reacted, not the number left over after the reaction.\n(D) is wrong because 0 assumes A₂ is used up completely, but 6 B₂ molecules can react with only 2 of the 3 A₂ molecules."
   },
   {
    "id": "cs0-7",
@@ -92,7 +92,7 @@ const EXAM = {
     "1/2"
    ],
    "correct": 1,
-   "explanation": "30 minutes is three half-lives, so the amount remaining is (1/2)³ = 1/8."
+   "explanation": "Correct: (B) 1/8. For a first-order reaction the half-life is constant, independent of concentration, so each 10-minute interval halves whatever reactant remains. In 30 minutes there are 30 ÷ 10 = 3 half-lives, so the fraction remaining is (1/2)³ = 1/8. Step by step: 1 → 1/2 after 10 min, → 1/4 after 20 min, → 1/8 after 30 min.\n\n(A) is wrong because 1/16 is (1/2)⁴, the fraction left after four half-lives, which would take 40 minutes, not 30.\n(C) is wrong because 1/4 is the fraction left after two half-lives (20 minutes); it stops one half-life short.\n(D) is wrong because 1/2 is the fraction left after only one half-life (10 minutes), not after 30 minutes."
   },
   {
    "id": "cs0-8",
@@ -105,7 +105,7 @@ const EXAM = {
     "36 mol"
    ],
    "correct": 1,
-   "explanation": "n = mass/molar mass = 3.0 g ÷ 12.0 g/mol = 0.25 mol."
+   "explanation": "Correct: (B) 0.25 mol. The number of moles equals mass divided by molar mass: n = m/M. Here n = 3.0 g ÷ 12.0 g/mol = 0.25 mol. The grams cancel, leaving moles, and two significant figures match the 3.0 g measurement. As a sense check, 3.0 g is one-fourth of the 12.0 g in one mole of carbon, so the sample is one-fourth of a mole.\n\n(A) is wrong because 0.025 mol misplaces the decimal point; 3.0 ÷ 12.0 is 0.25, not 0.025.\n(C) is wrong because 2.5 mol is ten times too large, a decimal slip; a sample smaller than 12.0 g must contain less than 1 mol.\n(D) is wrong because 36 mol multiplies the mass by the molar mass (3.0 × 12.0) instead of dividing; the units would be g²/mol, not mol."
   },
   {
    "id": "cs0-9",
@@ -118,7 +118,7 @@ const EXAM = {
     "The equilibrium shifts toward the products."
    ],
    "correct": 3,
-   "explanation": "Adding a reactant makes Q smaller than K, so by Le Châtelier's principle the system shifts toward the products to consume some of the added N₂. The value of K does not change, because the temperature is constant."
+   "explanation": "Correct: (D) The equilibrium shifts toward the products. Adding N₂ raises a reactant concentration, so the reaction quotient Q = [NH₃]²/([N₂][H₂]³) drops below K. By Le Châtelier's principle the system responds by consuming some of the added N₂ (and some H₂), making more NH₃ until Q again equals K. The shift is therefore toward the products. K itself depends only on temperature, which is held constant, so K does not change.\n\n(A) is wrong because shifting toward the reactants would make even more N₂; that happens when a product is added, not a reactant.\n(B) is wrong because K depends only on temperature, and the temperature is constant, so adding N₂ changes Q, not K.\n(C) is wrong because equilibrium is dynamic, and adding N₂ disturbs it by making Q less than K, so the system must shift."
   },
   {
    "id": "cs0-10",
@@ -131,7 +131,7 @@ const EXAM = {
     "180°"
    ],
    "correct": 0,
-   "explanation": "The carbon atom in CH₄ has four bonding domains and no lone pairs, so the electron domains arrange themselves in a tetrahedron, with bond angles of about 109.5°."
+   "explanation": "Correct: (A) 109.5°. By VSEPR theory, the carbon atom in CH₄ has four bonding electron domains and no lone pairs. Four domains spread out as far apart as possible in three dimensions, forming a tetrahedron, and the angle between any two bonds in a regular tetrahedron is 109.5°. With no lone pairs to compress them, all six H–C–H angles are exactly the ideal tetrahedral angle.\n\n(B) is wrong because 120° is the angle for three electron domains in a trigonal planar shape, such as BF₃, not four.\n(C) is wrong because 90° is what a flat drawing of CH₄ with a square layout suggests, but the molecule is three-dimensional and tetrahedral.\n(D) is wrong because 180° is the angle for two electron domains in a linear molecule such as CO₂, not four."
   }
  ],
  "sets": {

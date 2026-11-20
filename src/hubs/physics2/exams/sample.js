@@ -19,7 +19,7 @@ const EXAM = {
     "To the right"
    ],
    "correct": 3,
-   "explanation": "Using F = qv × B with v along +y (up) and B along +z (out of the page): ŷ × ẑ = +x̂, which points to the right. For a positive charge the force is in the direction of v × B."
+   "explanation": "Correct: (D) To the right. The magnetic force on a moving charge is F = qv × B. In the figure, v points up the page (+y) and the dot symbols show B pointing out of the page (+z). The cross product ŷ × ẑ = +x̂, which points to the right. With the right-hand rule: fingers along v (up), curl toward B (out of the page), and the thumb points right. The charge is positive, so the force is in the v × B direction: to the right.\n\n(A) is wrong because to the left is the force direction for a negative charge, or the result of using the left hand or B × v.\n(B) is wrong because the magnetic force is always perpendicular to the velocity, so it cannot point along the motion toward the top of the page.\n(C) is wrong because the magnetic force is also perpendicular to B, so it cannot point into the page, which is along the field line."
   },
   {
    "id": "p2s0-2",
@@ -32,7 +32,7 @@ const EXAM = {
     "170 m/s"
    ],
    "correct": 2,
-   "explanation": "v = fλ = (680)(0.50) = 340 m/s."
+   "explanation": "Correct: (C) 340 m/s. For any periodic wave, the wave speed equals frequency times wavelength, v = fλ, because the wave travels one wavelength in each period. Here v = (680 Hz)(0.50 m) = 340 m/s. This matches the familiar speed of sound in air at room temperature (about 343 m/s), which is a good check on the result.\n\n(A) is wrong because 1360 m/s divides the frequency by the wavelength (680 ÷ 0.50) instead of multiplying them.\n(B) is wrong because 680 m/s just copies the frequency value; speed requires multiplying by the 0.50 m wavelength.\n(D) is wrong because 170 m/s multiplies the frequency by half the wavelength (0.25 m), a slip in using λ = 0.50 m."
   },
   {
    "id": "p2s0-3",
@@ -45,7 +45,7 @@ const EXAM = {
     "It cannot be determined without knowing the initial pressure of the gas."
    ],
    "correct": 0,
-   "explanation": "With Q = 0, the first law gives ΔU = −W_by. The expanding gas does positive work on its surroundings, so its internal energy decreases, and for an ideal gas this means the temperature falls."
+   "explanation": "Correct: (A) It decreases, because the gas does work at the expense of its internal energy. This is an adiabatic process, so Q = 0. The first law, ΔU = Q − W<sub>by</sub>, becomes ΔU = −W<sub>by</sub>. As the gas expands it pushes the piston outward and does positive work on the surroundings, so its internal energy decreases. For an ideal gas the internal energy depends only on temperature (U = (3/2)nRT for a monatomic gas), so a drop in U means the temperature falls.\n\n(B) is wrong because more room does not add energy; with no heat input, the work done by the expanding gas must come from its internal energy.\n(C) is wrong because no heat exchange does not mean constant temperature; the internal energy still changes because the gas does work.\n(D) is wrong because the first law fixes the sign of ΔU without knowing the pressure, since Q = 0 and the work done by the gas is positive."
   },
   {
    "id": "p2s0-4",
@@ -58,7 +58,7 @@ const EXAM = {
     "F"
    ],
    "correct": 1,
-   "explanation": "By Coulomb's law the force is proportional to the product of the charges. Doubling both charges multiplies the force by 2 × 2 = 4."
+   "explanation": "Correct: (B) 4F. Coulomb's law gives F = k|q₁q₂|/r², so the force is proportional to the product of the two charges and inversely proportional to the square of their separation. Doubling both charges multiplies the product by 2 × 2 = 4, and r is unchanged, so the new force is F' = k(2q₁)(2q₂)/r² = 4F.\n\n(A) is wrong because 8F multiplies by 2 three times (2³), but only two quantities double, q₁ and q₂, so the product q₁q₂ grows by 2 × 2 = 4 while r stays the same.\n(C) is wrong because 2F accounts for doubling only one of the charges; both charges double, so the product increases by a factor of 4.\n(D) is wrong because F assumes the force depends only on distance, but Coulomb's law makes it proportional to both charges."
   },
   {
    "id": "p2s0-5",
@@ -72,7 +72,7 @@ const EXAM = {
     "1.0 A"
    ],
    "correct": 3,
-   "explanation": "The total resistance is 2 + 3 + 5 = 10 Ω, so I = V/R = 10/10 = 1.0 A."
+   "explanation": "Correct: (D) 1.0 A. In a series circuit the same current passes through every resistor, and the equivalent resistance is the sum: R<sub>eq</sub> = 2 Ω + 3 Ω + 5 Ω = 10 Ω. The battery has negligible internal resistance, so Ohm's law for the whole loop gives I = V/R<sub>eq</sub> = 10 V ÷ 10 Ω = 1.0 A.\n\n(A) is wrong because 0.50 A uses half the battery voltage, 5 V ÷ 10 Ω, or doubles the total resistance; neither fits this circuit.\n(B) is wrong because 2.0 A uses only the 5 Ω resistor, 10 V ÷ 5 Ω, ignoring the 2 Ω and 3 Ω resistors in the same loop.\n(C) is wrong because 5.0 A uses only the 2 Ω resistor, 10 V ÷ 2 Ω, ignoring the other two resistors in series."
   },
   {
    "id": "p2s0-6",
@@ -86,7 +86,7 @@ const EXAM = {
     "1.0 V"
    ],
    "correct": 0,
-   "explanation": "V = IR = (1.0 A)(5 Ω) = 5.0 V. The battery's 10 V is divided among the resistors in proportion to their resistances."
+   "explanation": "Correct: (A) 5.0 V. The current through each series resistor is the same 1.0 A found from I = 10 V ÷ 10 Ω. By Ohm's law the potential difference across the 5 Ω resistor is V = IR = (1.0 A)(5 Ω) = 5.0 V. The battery's 10 V is shared in proportion to resistance: 2.0 V, 3.0 V and 5.0 V, which add to 10 V as Kirchhoff's loop rule requires.\n\n(B) is wrong because 10 V is the total battery voltage, which is shared among all three resistors in series, not dropped across one.\n(C) is wrong because 2.0 V is the potential difference across the 2 Ω resistor, (1.0 A)(2 Ω), not across the 5 Ω resistor.\n(D) is wrong because 1.0 V confuses the 1.0 A current with a voltage; the voltage across 5 Ω is IR = 5.0 V."
   },
   {
    "id": "p2s0-7",
@@ -99,7 +99,7 @@ const EXAM = {
     "10 cm"
    ],
    "correct": 2,
-   "explanation": "From 1/f = 1/d_o + 1/d_i: 1/d_i = 1/10 − 1/20 = 1/20, so d_i = 20 cm. (An object at twice the focal length produces an image at twice the focal length.)"
+   "explanation": "Correct: (C) 20 cm. The thin-lens equation is 1/f = 1/d<sub>o</sub> + 1/d<sub>i</sub>. Solving for the image distance: 1/d<sub>i</sub> = 1/10 cm − 1/20 cm = 2/20 − 1/20 = 1/20 cm⁻¹, so d<sub>i</sub> = +20 cm. The positive sign means a real image on the far side of the lens. This is the special case of an object at 2f, which forms a real, inverted, same-size image at 2f.\n\n(A) is wrong because 40 cm doubles the object distance; that would require the object to be at 4f/3, about 13 cm, not 20 cm.\n(B) is wrong because 30 cm adds the focal length and object distance (10 + 20), which is not how the lens equation combines them.\n(D) is wrong because 10 cm puts the image at the focal point, which only happens for an object very far away from the lens."
   },
   {
    "id": "p2s0-8",
@@ -112,7 +112,7 @@ const EXAM = {
     "1.0 eV"
    ],
    "correct": 2,
-   "explanation": "E = hc/λ = 1240/620 = 2.0 eV."
+   "explanation": "Correct: (C) 2.0 eV. A photon's energy is E = hf = hc/λ. Using hc = 1240 eV·nm lets the wavelength stay in nanometers: E = 1240 eV·nm ÷ 620 nm = 2.0 eV. This is reasonable for red-orange visible light, since visible photons carry about 1.8 to 3.1 eV, and shorter wavelengths carry more energy.\n\n(A) is wrong because 4.0 eV is twice the correct value; it would correspond to a 310 nm ultraviolet photon, half of 620 nm.\n(B) is wrong because 3.0 eV would require λ ≈ 413 nm (violet light), so it does not follow from 1240 ÷ 620.\n(D) is wrong because 1.0 eV is half the correct value; it would correspond to a 1240 nm infrared photon, not 620 nm."
   },
   {
    "id": "p2s0-9",
@@ -125,7 +125,7 @@ const EXAM = {
     "P/3"
    ],
    "correct": 1,
-   "explanation": "At constant volume, P is proportional to the absolute temperature. The temperature triples, so the pressure triples: 3P."
+   "explanation": "Correct: (B) 3P. A rigid sealed container keeps both the volume and the amount of gas constant. From PV = nRT, P is then directly proportional to the absolute temperature: P₂/P₁ = T₂/T₁. Here T₂/T₁ = 600 K ÷ 200 K = 3, so P₂ = 3P. Faster molecules hit the walls harder and more often, which raises the pressure. Kelvin temperatures must be used for this ratio.\n\n(A) is wrong because 9P squares the temperature ratio, but pressure is proportional to T, not T², at constant volume.\n(C) is wrong because P assumes pressure is unchanged, but heating a gas in a rigid container always raises its pressure.\n(D) is wrong because P/3 inverts the relationship, treating pressure as inversely proportional to absolute temperature at constant volume."
   }
  ],
  "sets": {

@@ -272,7 +272,7 @@ const EXAM = {
     {
      "id": "C",
      "label": "Part C",
-     "prompt": "The student repeats the experiment after rotating the magnet so that the wire makes an angle of 30° with the magnetic field instead of 90°. Indicate whether the slope of the new graph is greater than, less than, or equal to the slope of the original graph, and estimate the new slope. Justify your answer.",
+     "prompt": "The student repeats the experiment after rotating the magnet about a vertical axis so that the wire makes an angle of 30° with the magnetic field instead of 90°. Indicate whether the slope of the new graph is greater than, less than, or equal to the slope of the original graph, and estimate the new slope. Justify your answer.",
      "rubric": [
       "For indicating that the slope is smaller than the original",
       "For reasoning that the force is <i>F</i> = <i>I</i>ℓ<i>B</i> sin θ and sin 30° = 0.50, so the slope is halved to about 0.82 g/A"

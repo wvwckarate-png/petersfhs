@@ -8328,7 +8328,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recognize the process type: since the block is lowered slowly and the container stays in the water bath (which holds temperature constant), this is a quasi-static isothermal compression.",
             "Identify start and end points: the process starts at (V0, P<sub>atm</sub>+Mg/A) and ends at a smaller volume with pressure P<sub>atm</sub>+2Mg/A, once the block's full weight has transferred onto the piston.",
-            "Sketch the connecting curve: an isothermal process follows PV=constant, a downward-curving hyperbola-shaped path from the starting point to the ending point, arrow pointing toward decreasing V and increasing P."
+            "Sketch the connecting curve: an isothermal process follows PV = constant, so the path is a segment of a hyperbola P = (constant)/V. It is concave up (bowed toward the origin), rising more and more steeply as V gets smaller. Draw it from the starting point (V0, P<sub>atm</sub> + Mg/A) up and to the left to the end point at P<sub>atm</sub> + 2Mg/A, which (since PV is constant) is at V = V0(P<sub>atm</sub> + Mg/A)/(P<sub>atm</sub> + 2Mg/A), with the arrow pointing toward smaller V and larger P."
           ]
         },
         {
@@ -8353,7 +8353,7 @@ const FRQ_CONTENT = {
           "ask": "Sketch the Maxwell-Boltzmann distribution for State Y.",
           "steps": [
             "Determine what changed physically: since the container is rigid and sealed (fixed V and n), tripling the pressure means — via PV=NkT — the temperature has also tripled.",
-            "Translate that into distribution shape: since average kinetic energy (and therefore average speed) increases with tripled temperature, the curve's peak shifts to a higher speed.",
+            "Translate that into distribution shape: every characteristic speed of the distribution (most probable, average, rms) is proportional to √T, so tripling T multiplies them by √3 ≈ 1.7. The peak of the State Y curve therefore sits at about 1.7 times the speed of the State X peak, and more molecules are found at high speeds.",
             "Preserve total particle count: since N hasn't changed, the area under the new curve must equal the original area, so the curve becomes shorter and wider (spread over more speeds) while its peak shifts right."
           ]
         },
@@ -8462,7 +8462,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Recall that heat spontaneously flows from higher to lower temperature because this direction increases the total entropy of the two-block system.",
             "Describe the outcome: the 80°C block cools while the 20°C block warms, both approaching a common intermediate equilibrium temperature.",
-            "Justify using the guide's own framework: heat leaving the hot block removes a comparatively small number of newly-inaccessible microstates from a system that already has a very 'spread out' high-energy configuration, while the same heat entering the cooler block opens up a much larger relative number of newly-accessible arrangements there — so the disorder gained by the cold block outweighs the disorder lost by the hot block, producing a net entropy increase, consistent with the second law."
+            "Justify with entropy: when a small amount of energy Q leaves the hot block, its entropy falls by about Q/T<sub>hot</sub>; when the same Q enters the cold block, its entropy rises by about Q/T<sub>cold</sub>. Because T<sub>cold</sub> (293 K) is lower than T<sub>hot</sub> (353 K), Q/T<sub>cold</sub> > Q/T<sub>hot</sub>, so the total entropy of the isolated two-block system increases. In microstate terms, a given amount of energy opens up relatively more new arrangements in the colder block than it removes from the hotter one. Heat keeps flowing this way until the temperatures are equal, when further transfer would no longer increase total entropy; that is why the blocks end at a common temperature (50 °C for identical blocks)."
           ]
         },
         {
@@ -8720,7 +8720,7 @@ const FRQ_CONTENT = {
           "label": "(c)",
           "ask": "Compare the potential inside the hollow space to the surface potential.",
           "steps": [
-            "Recall that E=0 throughout the interior hollow space too, since there's no enclosed charge and no field lines can originate in empty space.",
+            "Recall that E = 0 inside the empty hollow space as well: the cavity contains no charge, and all of the excess charge +Q sits on the OUTER surface of the conductor, spread uniformly by symmetry. A uniform spherical shell of charge produces no field anywhere inside it (the contributions from all parts of the shell cancel), so the conductor shields the cavity completely.",
             "Since E=0 throughout that region, potential cannot change anywhere inside it (E is the rate of change of V).",
             "Conclude the potential inside the hollow space EQUALS the potential at the surface — the entire interior sits at one uniform potential, matching the surface value."
           ]
@@ -8738,7 +8738,7 @@ const FRQ_CONTENT = {
           "ask": "Find the total potential energy.",
           "steps": [
             "Identify all three pairwise distances from the coordinates: the +3μC/+5μC pair is 4.0cm apart, the +3μC/−2μC pair is 3.0cm apart, and the +5μC/−2μC pair is 5.0cm apart. Convert all distances to meters before substituting into the formula: 4.0 cm → 0.040 m, 3.0 cm → 0.030 m, 5.0 cm → 0.050 m.",
-            "Compute each pairwise potential energy using U=kq1q2/r (with r in meters): U(3,5)=+3.375J (both positive, repulsive); U(3,−2)=−1.8J (attractive); U(5,−2)=−1.8J (attractive).",
+            "Compute each pairwise potential energy with U = kq<sub>1</sub>q<sub>2</sub>/r (k = 9.0 × 10⁹ N·m²/C², charges in coulombs, r in meters): U(3,5) = (9.0 × 10⁹)(3.0 × 10⁻⁶)(5.0 × 10⁻⁶)/(0.040) = +3.375 J (both positive, repulsive); U(3,−2) = (9.0 × 10⁹)(3.0 × 10⁻⁶)(−2.0 × 10⁻⁶)/(0.030) = −1.8 J (attractive); U(5,−2) = (9.0 × 10⁹)(5.0 × 10⁻⁶)(−2.0 × 10⁻⁶)/(0.050) = −1.8 J (attractive).",
             "Sum all three pairwise energies for the total: U<sub>total</sub>=3.375−1.8−1.8=−0.225J — the two attractive pairs pull the total negative overall, despite the large positive repulsive term."
           ]
         }
@@ -8748,7 +8748,7 @@ const FRQ_CONTENT = {
       "id": "frq-10-7",
       "source": "Original — Experimental Design",
       "title": "Verifying the Parallel-Plate Capacitance Formula",
-      "prompt": "A student has two flat metal plates, a ruler, a variable DC power supply, a voltmeter, and a device to measure charge. Design an experiment to verify C=𝓔0A/d for an air-filled parallel-plate capacitor. (a) Describe the procedure. (b) Describe how to analyze the data graphically to test the relationship.",
+      "prompt": "A student has two flat metal plates, a ruler, a variable DC power supply, a voltmeter, and a device to measure charge. Design an experiment to verify C = ε₀A/d for an air-filled parallel-plate capacitor. (a) Describe the procedure. (b) Describe how to analyze the data graphically to test the relationship.",
       "parts": [
         {
           "label": "(a)",
@@ -8764,8 +8764,8 @@ const FRQ_CONTENT = {
           "ask": "Describe the graphical analysis.",
           "steps": [
             "For a fixed geometry, plot Q (vertical) against V (horizontal) for the voltage trials — since Q=CV, this should be a line through the origin with slope equal to C.",
-            "Repeat this slope-finding process at several different values of d, then plot the resulting C values (vertical) against 1/d (horizontal) — this should also be linear through the origin, with slope=𝓔0A.",
-            "Confirm the relationship by checking that this second slope, divided by the known area A, gives a value close to the accepted constant 𝓔0."
+            "Repeat this slope-finding process at several different values of d, then plot the resulting C values (vertical) against 1/d (horizontal) — this should also be linear through the origin, with slope = ε₀A.",
+            "Confirm the relationship by checking that this second slope, divided by the known area A, gives a value close to the accepted constant ε₀ = 8.85 × 10⁻¹² C²/(N·m²). (Keep d small compared with the plate size so the field between the plates is nearly uniform and the formula applies.)"
           ]
         }
       ]
@@ -8856,7 +8856,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Apply Kirchhoff's Loop rule to the single-loop circuit: 𝓔 = I(r + Rvar), since the same current flows through both the internal resistance and Rvar.",
             "Rearrange into a form that graphs as a straight line: dividing both sides by 𝓔I gives 1/I = (1/𝓔)Rvar + r/𝓔 — linear in Rvar, so plotting 1/I (vertical) against Rvar (horizontal) gives slope = 1/𝓔 and y-intercept = r/𝓔.",
-            "Compute 1/I for each data pair and estimate the best-fit slope — using the full spread of the data, the slope comes out to approximately 0.051 (in units of A⁻¹/Ω).",
+            "Compute 1/I for each data pair: 11.5, 16.7, 23.8, 37.0, and 62.5 A⁻¹ at R<sub>var</sub> = 200, 300, 450, 700, and 1200 Ω. These points lie close to a straight line; using points on the best-fit line far apart, slope ≈ (62.5 − 11.5) A⁻¹/(1200 − 200) Ω ≈ 0.051 V⁻¹ (a least-squares fit also gives 0.051 V⁻¹).",
             "Solve for the EMF from the slope: 𝓔 = 1/slope ≈ 1/0.051 ≈ 20 V."
           ]
         }
@@ -8921,7 +8921,7 @@ const FRQ_CONTENT = {
           "ask": "Describe how the data is analyzed to find τ.",
           "steps": [
             "Calculate resistance from the resistor-only trial using Ohm's Law: R = 𝓔/I.",
-            "Calculate capacitance from the measured geometry using the parallel-plate formula, with κ=1 for air: C = 𝓔0·A/d = 𝓔0·(side length)²/d.",
+            "Calculate capacitance from the measured geometry using the parallel-plate formula for air (κ ≈ 1): C = ε₀A/d = ε₀(side length)²/d, with ε₀ = 8.85 × 10⁻¹² C²/(N·m²).",
             "Multiply the two independently-determined quantities to predict the expected time constant: τ = RC — a value built from separately measuring each component, not from timing the circuit's actual charging behavior."
           ]
         },
@@ -8930,7 +8930,7 @@ const FRQ_CONTENT = {
           "ask": "Determine C graphically.",
           "steps": [
             "Recall the defining relationship for capacitance: q=CΔV — plotting q (vertical) against ΔV (horizontal) gives a straight line through the origin with slope equal to C directly.",
-            "Using the given data, compute the slope — the data is quite linear, giving a slope of about 0.80×10⁻¹⁰ C/V.",
+            "Compute the slope from the data: q/|ΔV| for the five points is 0.80, 0.84, 0.78, 0.83, and 0.80 × 10⁻¹⁰ C/V, so the points scatter closely about a line through the origin. Using two far-apart points on the best-fit line, slope ≈ (8.0 × 10⁻¹⁰ C − 0)/(10.0 V − 0) ≈ 0.80 × 10⁻¹⁰ C/V (a least-squares fit through the origin gives 0.81 × 10⁻¹⁰ C/V).",
             "Read the capacitance directly from that slope: C ≈ 8.0×10⁻¹¹ F (80 pF)."
           ]
         }
@@ -8940,7 +8940,7 @@ const FRQ_CONTENT = {
       "id": "frq-11-4",
       "source": "Original — Mathematical Routines",
       "title": "Two-Loop Circuit with Two Batteries",
-      "prompt": "A circuit has two batteries, 𝓔1=9V and 𝓔2=3V, each in series with an identical resistor R=3Ω, both branches meeting at a junction and connected through a shared resistor R=3Ω to complete the circuit. (a) Write the loop and junction equations needed to solve the circuit. (b) Solve for all three branch currents. (c) Interpret the sign of the current in the 𝓔2 branch.",
+      "prompt": "A circuit has two batteries, 𝓔<sub>1</sub> = 9 V and 𝓔<sub>2</sub> = 3 V, each in series with an identical resistor R = 3 Ω. The two battery branches meet at a junction, with each battery's positive terminal facing that junction, and the junction connects through a shared resistor R = 3 Ω back to the other ends of both branches, completing the circuit. (a) Write the loop and junction equations needed to solve the circuit. (b) Solve for all three branch currents. (c) Interpret the sign of the current in the 𝓔<sub>2</sub> branch.",
       "parts": [
         {
           "label": "(a)",
@@ -8989,8 +8989,8 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Describe the capacitor's voltage at t=RC.",
           "steps": [
-            "Recall that τ=RC is defined as the time at which the capacitor has charged to about 63% of its final voltage — not the halfway point, and not full charge.",
-            "Explain physically: this is simply the characteristic timescale of the exponential charging process, a standard reference point describing how quickly the circuit responds.",
+            "Recall what τ = RC means: the capacitor voltage during charging is ΔV<sub>C</sub> = 𝓔(1 − e<sup>−t/RC</sup>), so at t = RC it is 𝓔(1 − e<sup>−1</sup>) ≈ 0.63𝓔 — not the halfway point, and not full charge.",
+            "Explain physically: in each time constant, the remaining gap between ΔV<sub>C</sub> and 𝓔 shrinks to about 37% (1/e) of what it was, because the current, and so the charging rate, is proportional to that gap. Equivalently, τ is the time it would take to charge the capacitor fully if the current stayed at its initial value 𝓔/R. A larger τ means a slower circuit.",
             "Answer directly: at t=RC, the capacitor's voltage is at about 63% of the way to 𝓔 — closer to 𝓔 than to 0, but not yet nearly fully charged."
           ]
         },
@@ -9173,7 +9173,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Find each particle's turning direction using the right-hand rule with B out of the page (+z) and both particles initially moving −y: the resulting v×B direction points in −x (before accounting for charge sign).",
             "Apply each charge's sign: Particle 1 is negative, so its force is opposite (+x) — it curves right. Particle 2 is positive, so its force follows −x directly — it curves left.",
-            "Sketch each as a semicircular arc curving in its respective direction, both starting at the same point moving −y and ending moving +y."
+            "Compare the radii: r = mv/(|q|B) = √(2mK)/(|q|B). Particle 1: r<sub>1</sub> = √(2MK<sub>1</sub>)/(QB<sub>0</sub>). Particle 2: r<sub>2</sub> = √(2(M/2)(2K<sub>1</sub>))/(2QB<sub>0</sub>) = √(2MK<sub>1</sub>)/(2QB<sub>0</sub>) = r<sub>1</sub>/2. Sketch each as a semicircle starting at the entry point moving −y and ending moving +y: Particle 1 curving toward +x with a diameter twice as large as Particle 2's, which curves toward −x."
           ]
         },
         {
@@ -9244,8 +9244,8 @@ const FRQ_CONTENT = {
           "ask": "Determine the particle mass graphically.",
           "steps": [
             "Start from the radius formula for circular motion, r=mv0/(qB), and rearrange: r=(mv0/q)·(1/B) — plotting r (vertical) against 1/B (horizontal) gives a line through the origin with slope=mv0/q.",
-            "Compute 1/B for each data point and estimate the best-fit slope — the data gives a slope of approximately 0.075 m·T.",
-            "Solve for mass using the known charge and speed: m = slope·q/v0 = (0.075)(6.4×10⁻¹⁹)/(3.0×10⁶) ≈ 1.6×10⁻²⁶ kg."
+            "Compute 1/B for each point: 25.0, 16.7, 7.1, 6.3, and 5.0 T⁻¹, paired with r = 1.8, 1.2, 0.5, 0.4, and 0.3 m. The points fall close to a straight line; using two far-apart points on the best-fit line, slope ≈ (1.8 m − 0.3 m)/(25.0 T⁻¹ − 5.0 T⁻¹) ≈ 0.075 m·T (a least-squares fit gives 0.075 m·T; forcing the line through the origin gives about 0.071 m·T).",
+            "Solve for mass using the known charge and speed: m = slope·q/v<sub>0</sub> = (0.075 m·T)(6.4 × 10⁻¹⁹ C)/(3.0 × 10⁶ m/s) ≈ 1.6 × 10⁻²⁶ kg. Full credit: r graphed against 1/B, the slope identified as mv<sub>0</sub>/q, and m ≈ 1.5–1.6 × 10⁻²⁶ kg from a best-fit line (not a single data point)."
           ]
         }
       ]
@@ -9368,8 +9368,8 @@ const FRQ_CONTENT = {
           "ask": "Derive the motional EMF from the force on individual charges.",
           "steps": [
             "Consider a single positive charge q within the moving rod: as the rod moves with velocity v through field B, this charge experiences a magnetic force F=qvB, directed along the rod's length.",
-            "Recognize this force does work on the charge as it's pushed the full length L of the rod: W=F×L=qvBL.",
-            "Recall that EMF is work done per unit charge: EMF=W/q=(qvBL)/q=BLv — the charge cancels entirely."
+            "Follow the charge separation: positive charges collect at one end of the rod and negative charges at the other, building up an electric field E inside the rod. Separation stops when the electric force balances the magnetic force on each charge: qE = qvB, so E = vB along the rod.",
+            "Find the potential difference across the rod: for a uniform field over the length L, ΔV = EL = (vB)L, so the motional EMF is 𝓔 = BLv. The charge q cancels, so every charge in the rod gives the same result. (Note: the magnetic force itself does no work. The energy delivered to the circuit comes from the agent pushing the rod against the magnetic drag force found in part (c): its power Fv = B²L²v²/R equals I²R in the resistor.)"
           ]
         },
         {
@@ -9414,7 +9414,7 @@ const FRQ_CONTENT = {
           "ask": "Describe the wavelength change in Model A.",
           "steps": [
             "Recall that wavelength inside a medium relates to vacuum wavelength via λ_medium=λ_vacuum/n.",
-            "Since the mixture's index nm exceeds air's index na, the wavelength inside the mixture is SHORTER than in air.",
+            "Because the frequency is set by the source and cannot change at the boundary, λ = v/f changes only because the speed drops from c/n<sub>a</sub> to c/n<sub>m</sub>. So λ<sub>m</sub> = λ<sub>a</sub>(n<sub>a</sub>/n<sub>m</sub>): since n<sub>m</sub> > n<sub>a</sub>, the wavelength becomes SHORTER (and the light slows down) as it enters the mixture.",
             "Note what does NOT change: frequency stays constant across the boundary — only speed and wavelength change during refraction."
           ]
         },
@@ -9422,7 +9422,7 @@ const FRQ_CONTENT = {
           "label": "(c) i",
           "ask": "Derive θ4 in terms of θi, na, nb.",
           "steps": [
-            "Recognize that Snell's Law relates the angles in the very FIRST medium and the very LAST medium directly, regardless of what's in between, as long as the interfaces are parallel (as here).",
+            "Apply Snell's law at each parallel interface in turn: n<sub>a</sub>sinθ<sub>i</sub> = n<sub>w</sub>sinθ<sub>2</sub> (air to water), n<sub>w</sub>sinθ<sub>2</sub> = n<sub>m</sub>sinθ<sub>3</sub> (water to middle layer), n<sub>m</sub>sinθ<sub>3</sub> = n<sub>b</sub>sinθ<sub>4</sub> (middle to bottom). The product n·sinθ is the same in every layer, so the intermediate layers cancel out of the chain.",
             "Apply Snell's Law straight from air to the bottom layer: na·sinθi = nb·sinθ4.",
             "Solve: θ4 = arcsin[(na/nb)sinθi]."
           ]
@@ -9441,7 +9441,7 @@ const FRQ_CONTENT = {
           "ask": "Compare dA and dB to dw.",
           "steps": [
             "Compare Model A to the water-only case: since nm>nw, the beam bends more toward vertical, giving a smaller horizontal spread over the same depth — so dA < dw.",
-            "Break Model B's horizontal distance into three equal-depth segments, one per layer, each contributing (depth/3)·tan(angle in that layer).",
+            "Break Model B's horizontal distance into the three equal-depth layers. The beam crosses each layer twice (down to the mirror and back up at the same angle), so d<sub>B</sub> = 2(h/3)(tanθ<sub>2</sub> + tanθ<sub>3</sub> + tanθ<sub>4</sub>), compared with d<sub>w</sub> = 2h·tanθ<sub>2</sub> for water only.",
             "Compare each segment to plain water: the top segment matches exactly (same index, same angle); the middle and bottom segments use higher indices (nm, nb), producing smaller angles and smaller tangent values than plain water would give.",
             "Conclude that since two of three segments are smaller (and one equal), dB must also be less than dw — both models produce a smaller horizontal exit distance than plain water."
           ]
@@ -9578,7 +9578,7 @@ const FRQ_CONTENT = {
           "steps": [
             "Start from the reference-sheet relationship for bright fringes: d·sinθ = mλ.",
             "Convert angle to screen position using the small-angle approximation (valid since L≫d): sinθ ≈ y/L, giving y = mλL/d.",
-            "Identify m for each band: the pattern described (three bright bands, including the central one, between A and B) works out to A and B sitting at m=+2 and m=−2.",
+            "Identify m for each band: the three bright bands between A and B are the central band (m = 0) and the first-order band on each side (m = ±1), so A and B are the next bands out, the second-order bands m = +2 and m = −2.",
             "Find the distance between them: Δy = y<sub>A</sub> − y<sub>B</sub> = (2λL/d) − (−2λL/d) = 4λL/d.",
             "Convert wavelength to frequency using c=fλ, so λ=c/f: Δy = 4cL/(fd)."
           ]
@@ -9604,7 +9604,7 @@ const FRQ_CONTENT = {
           "label": "(a)",
           "ask": "Find the fundamental frequency.",
           "steps": [
-            "Apply the fundamental frequency formula for a string fixed at both ends: f1=v/(2L)=45/(2×1.5)=15Hz."
+            "For a string fixed at both ends, both ends must be nodes; the simplest pattern is a single loop (one antinode), which is half a wavelength, so λ<sub>1</sub> = 2L = 2(1.5 m) = 3.0 m. Then f<sub>1</sub> = v/λ<sub>1</sub> = (45 m/s)/(3.0 m) = 15 Hz."
           ]
         },
         {
@@ -9660,7 +9660,7 @@ const FRQ_CONTENT = {
       "id": "frq-14-4",
       "source": "Original — Mathematical Routines",
       "title": "Diffraction Grating Wavelength",
-      "prompt": "A diffraction grating with 5000 lines per centimeter is illuminated with monochromatic light. The second-order (m=2) bright line appears at 22° from the central maximum. (a) Find the slit spacing d. (b) Find the wavelength.",
+      "prompt": "A diffraction grating with 5000 lines per centimeter is illuminated with monochromatic light. The second-order (m=2) bright line appears at 30° from the central maximum. (a) Find the slit spacing d. (b) Find the wavelength.",
       "parts": [
         {
           "label": "(a)",
@@ -9674,7 +9674,7 @@ const FRQ_CONTENT = {
           "ask": "Find the wavelength.",
           "steps": [
             "Apply the grating equation (same form as double-slit): dsinθ=mλ.",
-            "Solve: λ=dsinθ/m=(2.0×10⁻⁶)(sin22°)/2≈3.75×10⁻⁷m=375nm."
+            "Solve: λ = d·sinθ/m = (2.0×10⁻⁶ m)(sin30°)/2 = (2.0×10⁻⁶ m)(0.50)/2 = 5.0×10⁻⁷ m = 500 nm, which is in the visible range (blue-green), as expected for a visible bright line."
           ]
         }
       ]
@@ -9788,7 +9788,7 @@ const FRQ_CONTENT = {
           "label": "(b)",
           "ask": "Calculate max KE for Metal 1, Trial 1.",
           "steps": [
-            "Convert the given de Broglie wavelength into momentum using λ=h/p: p = h/λe = (6.63×10⁻³⁴)/(6.9×10⁻¹⁰) ≈ 9.6×10⁻²⁵ kg·m/s.",
+            "Recognize that the smallest de Broglie wavelength belongs to the fastest electrons (λ = h/p, so smallest λ means largest p), so it gives the maximum kinetic energy. Convert it to momentum: p = h/λ<sub>e</sub> = (6.63×10⁻³⁴ J·s)/(6.9×10⁻¹⁰ m) ≈ 9.6×10⁻²⁵ kg·m/s.",
             "Using the classical momentum definition as instructed, find kinetic energy: K = p²/(2m) = (9.6×10⁻²⁵)²/(2×9.11×10⁻³¹) ≈ 5.1×10⁻¹⁹ J.",
             "Convert to electron-volts: K ≈ 5.1×10⁻¹⁹/1.6×10⁻¹⁹ ≈ 3.2 eV."
           ]
@@ -9916,7 +9916,7 @@ const FRQ_CONTENT = {
           "ask": "Describe the procedure.",
           "steps": [
             "Select several light frequencies above the metal's threshold, shining each on the sample in turn.",
-            "For each frequency, gradually increase the stopping voltage until the photoelectric current drops to exactly zero, recording that voltage.",
+            "For each frequency, connect the supply so the collector is at a NEGATIVE potential relative to the metal (a retarding voltage), and slowly increase its magnitude while watching an ammeter in the circuit; record the voltage at which the photoelectric current just drops to zero. That is the stopping voltage V<sub>stop</sub>, where qV<sub>stop</sub> = K<sub>max</sub>.",
             "Repeat with multiple trials per frequency to reduce uncertainty in identifying the exact zero-current point."
           ]
         },

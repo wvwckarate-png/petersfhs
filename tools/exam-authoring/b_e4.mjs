@@ -68,7 +68,7 @@ export default [
     "Nuclear pore complexes are channels that allow the controlled passage of molecules, such as mRNA and ribosomal subunits leaving the nucleus, and proteins (such as transcription factors) entering the nucleus."),
   G(2, {
     text: "A researcher measured the rate at which two molecules, A and B, are taken up by cells as the concentration of each molecule outside the cell was increased. The results are shown in the graph.",
-    figures: [fig(uptake, "A graph of the rate of uptake against concentration outside the cell. The curve for molecule A increases in a straight line. The curve for molecule B rises steeply and then levels off near 9.")],
+    figures: [fig(uptake, "A graph of the rate of uptake against concentration outside the cell. The curve for molecule A increases in a straight line. The curve for molecule B rises steeply and then levels off near 8.")],
   }, [
     M(2, "Which of the following best describes the uptake of molecule B?",
       ["It enters by facilitated diffusion through a limited number of carrier proteins.", "It enters by simple diffusion through the lipid bilayer of the membrane.", "It enters by osmosis through water channels called aquaporins in the membrane.", "It enters by a process that is not affected by the outside concentration."],

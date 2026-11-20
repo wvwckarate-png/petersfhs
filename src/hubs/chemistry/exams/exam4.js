@@ -12,7 +12,7 @@ const EXAM = {
     "Bent"
    ],
    "correct": 0,
-   "explanation": "The carbon atom has three electron domains: two C–H single bonds and one C=O double bond (a double bond counts as one domain). With no lone pairs, the geometry is trigonal planar."
+   "explanation": "Correct: (A) Trigonal planar. Count the electron domains on carbon. In H₂C=O, carbon forms two C–H single bonds and one C=O double bond, and a double bond counts as a single electron domain. Carbon has no lone pairs, so there are three bonding domains and zero lone pairs (AX₃). Three domains spread as far apart as possible lie in one plane at about 120°, so the molecular geometry is trigonal planar and carbon is sp² hybridized.\n\n(B) is wrong because trigonal pyramidal requires three bonding domains plus one lone pair (like NH₃), but the carbon in formaldehyde has no lone pair.\n(C) is wrong because tetrahedral requires four electron domains; this comes from counting the C=O double bond as two domains instead of one.\n(D) is wrong because bent geometry needs lone pairs on the central atom (like H₂O or SO₂), and carbon here has three bonded atoms and no lone pairs."
   },
   {
    "id": "ce4-2",
@@ -25,7 +25,7 @@ const EXAM = {
     "BF₃"
    ],
    "correct": 3,
-   "explanation": "A Lewis acid is an electron-pair acceptor. Boron in BF₃ has an incomplete octet (only six electrons) and can accept a pair of electrons. NH₃, OH⁻, and Cl⁻ each have lone pairs to donate, so they are Lewis bases."
+   "explanation": "Correct: (D) BF₃. A Lewis acid is an electron-pair acceptor and a Lewis base is an electron-pair donor. In BF₃, boron forms three B–F bonds and has only six valence electrons around it, an incomplete octet with an empty p orbital. It readily accepts a lone pair, for example from NH₃ to form the adduct F₃B–NH₃. Each of the other species has lone pairs available to donate.\n\n(A) is wrong because NH₃ has a lone pair on nitrogen that it donates, so it is a classic Lewis base (it is the donor in F₃B–NH₃).\n(B) is wrong because OH⁻ carries three lone pairs on oxygen and donates one to H⁺ or metal ions, so it acts as a Lewis base.\n(C) is wrong because Cl⁻ has a complete octet with four lone pairs and can only donate electron pairs, which makes it a Lewis base, not an acid."
   },
   {
    "id": "ce4-3",
@@ -38,7 +38,7 @@ const EXAM = {
     "100"
    ],
    "correct": 1,
-   "explanation": "With T = 0.10, A = −log(0.10) = 1.0. An absorbance of 1.0 means that 90% of the light is absorbed."
+   "explanation": "Correct: (B) 1.0. Absorbance and transmittance are related by A = −log T, where T is written as a fraction, not a percent. A transmittance of 10% means T = 0.10, so A = −log(0.10) = −(−1.0) = 1.0. An absorbance of 1.0 means that only one tenth of the incident light passes through the sample and 90% is absorbed. Absorbance has no units.\n\n(A) is wrong because 0.10 is the transmittance itself written as a fraction; it is not converted with A = −log T.\n(C) is wrong because 10 comes from using the percent value (10) directly or from 1/T, rather than taking −log of T = 0.10.\n(D) is wrong because an absorbance of 100 would mean T = 10⁻¹⁰⁰, essentially no light getting through; it mixes up the percent scale with absorbance, but −log(0.10) is only 1.0."
   },
   {
    "id": "ce4-4",
@@ -51,7 +51,7 @@ const EXAM = {
     "5.0 g"
    ],
    "correct": 2,
-   "explanation": "There are 5.0/24.3 = 0.206 mol Mg and 5.0/32.0 = 0.156 mol O₂. The reaction needs 2 mol Mg for each mol O₂, so the Mg (0.206 mol) can use only 0.103 mol of O₂: Mg is limiting. It forms 0.206 mol of MgO, which has a mass of (0.206)(40.3) = 8.3 g."
+   "explanation": "Correct: (C) 8.3 g. This is a limiting-reactant problem. Moles of Mg = 5.0 g ÷ 24.3 g/mol = 0.206 mol; moles of O₂ = 5.0 g ÷ 32.0 g/mol = 0.156 mol. The equation needs 2 mol Mg per mol O₂, so 0.206 mol Mg can react with only 0.103 mol O₂; O₂ is in excess and Mg is limiting. Mg and MgO are in a 2 : 2 ratio, so 0.206 mol MgO forms: (0.206 mol)(40.3 g/mol) = 8.3 g.\n\n(A) is wrong because 12.6 g is the yield if O₂ were limiting: 0.156 mol O₂ × 2 × 40.3 g/mol, but there is not enough Mg to use all the O₂.\n(B) is wrong because 10.0 g is the total mass of both reactants, which would all become MgO only if both were used up completely; O₂ is in excess (only 0.103 of 0.156 mol reacts), so less product forms.\n(D) is wrong because 5.0 g is the mass of the Mg alone; the product MgO also contains the mass of the oxygen that combined with it."
   },
   {
    "id": "ce4-5",
@@ -64,7 +64,7 @@ const EXAM = {
     "87.8 g/mol"
    ],
    "correct": 2,
-   "explanation": "The molar mass is the density times the molar volume: (1.96 g/L)(22.4 L/mol) = 43.9 g/mol."
+   "explanation": "Correct: (C) 43.9 g/mol. At STP one mole of an ideal gas occupies 22.4 L. The density is the mass of one liter, so the mass of one mole (the molar mass) is the density times the molar volume: M = (1.96 g/L)(22.4 L/mol) = 43.9 g/mol. This value matches CO₂ (44.0 g/mol). Units confirm the setup: g/L × L/mol = g/mol.\n\n(A) is wrong because 11.4 g/mol comes from dividing 22.4 by 1.96 instead of multiplying, which gives units of L²/(g·mol) rather than g/mol.\n(B) is wrong because 22.4 g/mol mistakes the molar volume (22.4 L/mol) for the molar mass and ignores the measured density.\n(D) is wrong because 87.8 g/mol is double the correct value, as if the molar volume were taken as 44.8 L/mol or the result multiplied by 2."
   },
   {
    "id": "ce4-6",
@@ -77,7 +77,7 @@ const EXAM = {
     "4.50 g"
    ],
    "correct": 2,
-   "explanation": "3.01 × 10²³ molecules is 0.500 mol, and the mass is (0.500 mol)(18.0 g/mol) = 9.00 g."
+   "explanation": "Correct: (C) 9.00 g. Convert molecules to moles with Avogadro's number, then moles to grams with the molar mass. Moles = (3.01 × 10²³ molecules)/(6.02 × 10²³ molecules/mol) = 0.500 mol. Mass = (0.500 mol)(18.0 g/mol) = 9.00 g. Since 3.01 × 10²³ is exactly half of Avogadro's number, the mass is half the molar mass, a useful check.\n\n(A) is wrong because 36.0 g corresponds to 2.00 mol, which results from dividing 6.02 × 10²³ by 3.01 × 10²³ (inverting the conversion).\n(B) is wrong because 18.0 g is the mass of one full mole (6.02 × 10²³ molecules), but the sample contains only half a mole.\n(D) is wrong because 4.50 g is the mass of 0.250 mol, which halves the moles a second time; 3.01 × 10²³ molecules is 0.500 mol."
   },
   {
    "id": "ce4-7",
@@ -91,7 +91,7 @@ const EXAM = {
     "The aluminum electrode, which is the anode"
    ],
    "correct": 0,
-   "explanation": "Reduction occurs at the cathode, the electrode where the species with the more positive reduction potential is reduced. Cu²⁺ (E° = +0.34 V) is reduced to Cu at the copper electrode, and aluminum is oxidized at the anode."
+   "explanation": "Correct: (A) The copper electrode, which is the cathode. Reduction always occurs at the cathode. The half-reaction with the more positive standard reduction potential proceeds as a reduction: Cu²⁺ + 2e⁻ → Cu (E° = +0.34 V) is far more positive than Al³⁺ + 3e⁻ → Al (E° = −1.66 V). So Cu²⁺ is reduced and copper metal plates onto the copper electrode, the cathode, while Al is oxidized at the aluminum anode. The figure agrees: electrons flow through the wire from Al toward Cu.\n\n(B) is wrong because aluminum has the much more negative reduction potential, so it is oxidized, and oxidation makes the aluminum electrode the anode.\n(C) is wrong because the copper electrode is where reduction occurs, and by definition the electrode where reduction occurs is the cathode, not the anode.\n(D) is wrong because the aluminum electrode is indeed the anode, but oxidation (loss of electrons from Al) occurs there, not reduction."
   },
   {
    "id": "ce4-8",
@@ -105,7 +105,7 @@ const EXAM = {
     "2.34 V"
    ],
    "correct": 2,
-   "explanation": "E°cell = E°(cathode) − E°(anode) = 0.34 − (−1.66) = +2.00 V. Potentials are intensive properties and are not multiplied by the coefficients used to balance the electrons (2 Al + 3 Cu²⁺)."
+   "explanation": "Correct: (C) 2.00 V. Use E°cell = E°(cathode) − E°(anode). Copper is the cathode (Cu²⁺ reduced) and aluminum is the anode (Al oxidized), so E°cell = (+0.34 V) − (−1.66 V) = +2.00 V. Reduction potentials are intensive properties, so they are not multiplied by the coefficients (2 Al + 3 Cu²⁺ → 2 Al³⁺ + 3 Cu) used to balance the electrons. The positive value confirms the cell is galvanic.\n\n(A) is wrong because 1.32 V results from subtracting 0.34 from 1.66 (dropping the negative sign on the aluminum potential) instead of 0.34 − (−1.66).\n(B) is wrong because 1.66 V is just the magnitude of the aluminum half-cell potential and leaves out the copper half-cell's +0.34 V contribution.\n(D) is wrong because 2.34 V comes from multiplying the copper potential by 2 (2 × 0.34 + 1.66); potentials are intensive and are never scaled by coefficients."
   },
   {
    "id": "ce4-9",
@@ -118,7 +118,7 @@ const EXAM = {
     "67"
    ],
    "correct": 2,
-   "explanation": "K = [CH₃OH]/([CO][H₂]²) = 0.12/((0.20)(0.30)²) = 0.12/0.018 = 6.7."
+   "explanation": "Correct: (C) 6.7. Write K as products over reactants, each raised to its coefficient: K = [CH₃OH]/([CO][H₂]²). Substituting: K = 0.12/((0.20)(0.30)²) = 0.12/((0.20)(0.090)) = 0.12/0.018 = 6.7. The H₂ concentration must be squared because its coefficient is 2. With two significant figures in the data, the answer is 6.7.\n\n(A) is wrong because 0.15 is the inverted expression, 0.018/0.12, which is the equilibrium constant for the reverse reaction.\n(B) is wrong because 1.5 is the reciprocal of 0.67 (0.018 ÷ 0.012 after a decimal slip), not products over reactants with H₂ squared.\n(D) is wrong because 67 is ten times too large, the result of a decimal error such as using 0.0018 for (0.20)(0.30)²."
   },
   {
    "id": "ce4-10",
@@ -131,7 +131,7 @@ const EXAM = {
     "24.6 L"
    ],
    "correct": 1,
-   "explanation": "The mole ratio H₂O₂ : O₂ is 2 : 1, so 0.200 mol H₂O₂ gives 0.100 mol O₂. Then V = nRT/P = (0.100)(0.0821)(300.)/(1.00) = 2.46 L."
+   "explanation": "Correct: (B) 2.46 L. First use stoichiometry: 2 H₂O₂ → 2 H₂O + O₂, so 0.200 mol H₂O₂ produces 0.200 ÷ 2 = 0.100 mol O₂. Then apply the ideal gas law: V = nRT/P = (0.100 mol)(0.0821 L·atm/(mol·K))(300. K)/(1.00 atm) = 2.46 L. Only the oxygen is a gas; the water is a liquid and does not add to the gas volume.\n\n(A) is wrong because 1.23 L corresponds to 0.0500 mol O₂, which uses a 4 : 1 ratio or halves the moles twice instead of once.\n(C) is wrong because 4.92 L uses 0.200 mol of O₂, ignoring the 2 : 1 mole ratio between H₂O₂ and O₂ in the balanced equation.\n(D) is wrong because 24.6 L is the volume of a full mole of gas at 300. K and 1.00 atm, ten times the 0.100 mol actually produced."
   },
   {
    "id": "ce4-11",
@@ -144,7 +144,7 @@ const EXAM = {
     "Pb²⁺(aq) + 2 NO₃⁻(aq) → Pb(NO₃)₂(s)"
    ],
    "correct": 0,
-   "explanation": "The yellow solid is PbI₂, which is insoluble. K⁺ and NO₃⁻ stay dissolved as spectator ions. The net ionic equation shows only the ions that combine: Pb²⁺ + 2 I⁻ → PbI₂(s)."
+   "explanation": "Correct: (A) Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s). Write the complete ionic equation: Pb²⁺ + 2 NO₃⁻ + 2 K⁺ + 2 I⁻ → PbI₂(s) + 2 K⁺ + 2 NO₃⁻. The yellow precipitate is lead(II) iodide, since nitrates and potassium salts are always soluble. K⁺ and NO₃⁻ appear unchanged on both sides, so they are spectator ions and are cancelled. The net ionic equation keeps only the species that actually react: Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s).\n\n(B) is wrong because this is the molecular (formula) equation; it still shows the spectator ions K⁺ and NO₃⁻ as parts of the dissolved compounds.\n(C) is wrong because KNO₃ is soluble in water, so K⁺ and NO₃⁻ remain dissolved as spectator ions and do not form a solid.\n(D) is wrong because Pb(NO₃)₂ is a soluble nitrate (it was one of the starting solutions), so it does not precipitate."
   },
   {
    "id": "ce4-12",
@@ -157,7 +157,7 @@ const EXAM = {
     "A catalyst is consumed in an early step and regenerated in a later step, while an intermediate is produced in one step and consumed in a later step."
    ],
    "correct": 3,
-   "explanation": "A catalyst enters the mechanism as a reactant (it is consumed) and is regenerated in a later step, so it has no net change. An intermediate is the opposite: it is formed in an early step and consumed in a later step. Neither appears in the overall equation."
+   "explanation": "Correct: (D) A catalyst is consumed in an early step and regenerated in a later step, while an intermediate is produced in one step and consumed in a later step. A catalyst enters the mechanism as a reactant in an early step (it is consumed) and is produced again in a later step, so it has no net change and is present at the start. An intermediate is the opposite: it is produced in one step and consumed in a later step, so it never exists before or after the reaction. Both cancel from the overall equation, but the order of consumption and formation tells them apart.\n\n(A) is wrong because this statement reverses the two definitions: a catalyst is consumed first and regenerated, while an intermediate is formed first and then consumed.\n(B) is wrong because both a catalyst and an intermediate appear in at least two steps of the mechanism, not only in the first or last step.\n(C) is wrong because they differ in the order of formation and consumption, and a catalyst is present at the start while an intermediate is not."
   },
   {
    "id": "ce4-13",
@@ -170,7 +170,7 @@ const EXAM = {
     "60.0%"
    ],
    "correct": 1,
-   "explanation": "0.0120 mol CO₂ comes from 0.0120 mol CaCO₃, which has a mass of (0.0120)(100.1) = 1.20 g. The percent is (1.20/1.50)(100) = 80.0%."
+   "explanation": "Correct: (B) 80.0%. CaCO₃ → CaO + CO₂ has a 1 : 1 ratio, so 0.0120 mol CO₂ came from 0.0120 mol CaCO₃. That mass is (0.0120 mol)(100.1 g/mol) = 1.20 g. Mass percent = (mass of CaCO₃ / mass of sample) × 100 = (1.20 g / 1.50 g)(100) = 80.0%. The other 0.30 g is impurity that does not release CO₂.\n\n(A) is wrong because a mass percent of a component can never exceed 100%; 120% treats the 1.20 g as if it were the percent itself.\n(C) is wrong because 75.0% would require only 1.125 g of CaCO₃ (0.0112 mol), not the 0.0120 mol shown by the CO₂ collected.\n(D) is wrong because 60.0% would require 0.900 g of CaCO₃ (0.00899 mol), which does not match the 1 : 1 ratio with 0.0120 mol CO₂."
   },
   {
    "id": "ce4-14",
@@ -183,7 +183,7 @@ const EXAM = {
     "0.010"
    ],
    "correct": 1,
-   "explanation": "Q = [HI]²/([H₂][I₂]) = (0.40)²/((0.10)(0.20)) = 0.16/0.020 = 8.0."
+   "explanation": "Correct: (B) 8.0. The reaction quotient has the same form as K but uses the current concentrations: Q = [HI]²/([H₂][I₂]). Substituting: Q = (0.40)²/((0.10)(0.20)) = 0.16/0.020 = 8.0. HI is squared because its coefficient is 2. Comparing Q with K tells which way the mixture will shift, but the question asks only for Q.\n\n(A) is wrong because 16 comes from dividing 0.16 by 0.010 instead of 0.020, a slip in multiplying (0.10)(0.20) for the denominator.\n(C) is wrong because 0.50 is just [H₂]/[I₂] = 0.10/0.20, which leaves out the product HI entirely; Q = (0.40)²/((0.10)(0.20)) = 8.0 (and even its inverse would be 0.125).\n(D) is wrong because 0.010 is not products over reactants; it is about half the denominator (0.020) and leaves out the (0.40)² numerator."
   },
   {
    "id": "ce4-15",
@@ -196,7 +196,7 @@ const EXAM = {
     "HOCH₂CH₂OH (ethylene glycol)"
    ],
    "correct": 3,
-   "explanation": "Viscosity increases with the strength of the intermolecular forces and with the molecule's ability to become tangled. Ethylene glycol has two O–H groups per molecule and forms extensive hydrogen bonds, so its molecules resist flowing past one another more than the others."
+   "explanation": "Correct: (D) HOCH₂CH₂OH (ethylene glycol). Viscosity, the resistance to flow, increases with the strength of the intermolecular forces and with the number of attachment points between molecules. Ethylene glycol, HOCH₂CH₂OH, has two O–H groups per molecule, so each molecule can hydrogen bond at both ends and form an extensive network. Methanol and ethanol have only one O–H group each, and hexane has only London dispersion forces. Ethylene glycol (about 16 mPa·s) is far more viscous than the others.\n\n(A) is wrong because methanol has only one O–H group and a small molecule, so it forms fewer hydrogen bonds and flows easily (low viscosity).\n(B) is wrong because hexane is nonpolar and has only London dispersion forces, so despite its chain it is a runny, low-viscosity liquid.\n(C) is wrong because ethanol has only one O–H group per molecule, so its hydrogen-bond network is weaker than ethylene glycol's two-ended network."
   },
   {
    "id": "ce4-16",
@@ -210,7 +210,7 @@ const EXAM = {
     "Nothing can be concluded about ΔH from the value of K."
    ],
    "correct": 0,
-   "explanation": "K decreases as the temperature rises, meaning the equilibrium shifts toward the reactants when heat is added. Heat acts like a product, which is the behavior of an exothermic reaction."
+   "explanation": "Correct: (A) The reaction is exothermic, because K decreases as the temperature increases. The table shows K = 50 at 400 K, 10 at 500 K, and 2.5 at 600 K, so K decreases as the temperature increases. For an exothermic reaction heat behaves like a product; adding heat shifts the equilibrium toward the reactants, which lowers K. An endothermic reaction would show the opposite trend. The temperature dependence of K (van 't Hoff reasoning) is what reveals the sign of ΔH.\n\n(B) is wrong because an endothermic reaction treats heat as a reactant, so its K would increase, not decrease, as the temperature rises.\n(C) is wrong because the size of K at a single temperature reflects ΔG°, not ΔH; the sign of ΔH comes from how K changes with temperature.\n(D) is wrong because the change in K with temperature does reveal the sign of ΔH, and the data clearly show K falling as T rises."
   },
   {
    "id": "ce4-17",
@@ -224,7 +224,7 @@ const EXAM = {
     "It becomes zero."
    ],
    "correct": 0,
-   "explanation": "At 600 K, K is smaller (2.5 versus 10), so the new equilibrium contains a smaller proportion of products. The system shifts toward the reactants until Q equals the new value of K."
+   "explanation": "Correct: (A) It decreases, because K is smaller at 600 K. From the table, K is 10 at 500 K but only 2.5 at 600 K. When the mixture is heated, the old concentrations now give Q = 10 > K = 2.5, so the reaction shifts toward the reactants until Q falls to the new K. This consumes product, so the amount of product decreases. This is consistent with the exothermic reaction identified from the data.\n\n(B) is wrong because heating favors the products only for an endothermic reaction; here K decreases with temperature, so heating favors the reactants.\n(C) is wrong because K changes with temperature, so the old equilibrium mixture is no longer at equilibrium at 600 K and must shift.\n(D) is wrong because K is still 2.5 at 600 K, a positive value, so a substantial amount of product remains at the new equilibrium."
   },
   {
    "id": "ce4-18",
@@ -237,7 +237,7 @@ const EXAM = {
     "The polar compound sticks more strongly to the polar paper, so it moves more slowly."
    ],
    "correct": 3,
-   "explanation": "The paper (stationary phase) is polar, so polar compounds stick to it more strongly and spend less time dissolved in the moving nonpolar solvent. They travel a shorter distance, while nonpolar compounds are carried farther by the solvent."
+   "explanation": "Correct: (D) The polar compound sticks more strongly to the polar paper, so it moves more slowly. In paper chromatography the paper is the polar stationary phase and the nonpolar solvent is the mobile phase. A compound's R_f depends on how it divides its time between the two phases. A polar compound is attracted to the polar paper (for example by hydrogen bonding with cellulose), so it spends more time stuck to the paper and moves more slowly. The nonpolar compound dissolves well in the nonpolar solvent and is carried farther, giving the larger R_f.\n\n(A) is wrong because a nonpolar compound is attracted only weakly to polar paper; strong attraction to the paper would make it move less, not farther.\n(B) is wrong because by like dissolves like, the polar compound is less soluble in the nonpolar solvent, and it travels the shorter distance.\n(C) is wrong because separation depends on differences in attraction to the two phases, not on molecular mass, and the compounds clearly move at different rates."
   },
   {
    "id": "ce4-19",
@@ -250,7 +250,7 @@ const EXAM = {
     "LiF has much stronger London dispersion forces than CsI because it has more electrons."
    ],
    "correct": 0,
-   "explanation": "Both compounds are made of ions with charges of +1 and −1, so the difference is in the ion sizes. Smaller ions can approach one another more closely, and by Coulomb's law the attractive force increases as the distance decreases. LiF therefore has the greater lattice energy and the higher melting point."
+   "explanation": "Correct: (A) The Li⁺ and F⁻ ions are smaller, so the Coulombic attraction between them is stronger. Both compounds contain +1 and −1 ions, so the charges are equal and the difference must come from ion size. By Coulomb's law, F ∝ q₁q₂/r², and the lattice energy grows as the distance between ion centers shrinks. Li⁺ and F⁻ are among the smallest ions, while Cs⁺ and I⁻ are among the largest. The closer approach in LiF gives a much larger lattice energy and a higher melting point (845 °C versus 621 °C).\n\n(B) is wrong because both LiF and CsI are ionic compounds made of a metal and a nonmetal; neither is held together by covalent bonds.\n(C) is wrong because Cs⁺ and I⁻ have charges of +1 and −1, the same as Li⁺ and F⁻, so charge cannot explain the difference.\n(D) is wrong because LiF has far fewer electrons than CsI, and the dominant forces in both solids are ionic attractions, not London dispersion forces."
   },
   {
    "id": "ce4-20",
@@ -264,7 +264,7 @@ const EXAM = {
     "Liquid C, because it has the lowest vapor pressure at any given temperature."
    ],
    "correct": 3,
-   "explanation": "Stronger intermolecular forces make it harder for molecules to escape into the gas phase, so the vapor pressure is lower at a given temperature and a higher temperature is needed to reach 760 torr. Liquid C has the lowest vapor pressure at each temperature."
+   "explanation": "Correct: (D) Liquid C, because it has the lowest vapor pressure at any given temperature. Stronger intermolecular forces hold molecules in the liquid more tightly, so fewer escape to the vapor at a given temperature. The graph shows that at every temperature curve C lies lowest, and it does not reach 760 torr until about 100 °C. Liquid C therefore has the lowest vapor pressure and the highest normal boiling point, both signs of the strongest intermolecular forces.\n\n(A) is wrong because a high vapor pressure means molecules escape easily, which indicates the weakest intermolecular forces, not the strongest.\n(B) is wrong because being in the middle of the graph means intermediate vapor pressure and intermediate forces, not the strongest.\n(C) is wrong because the curves are displaced from one another, reaching 760 torr at about 35, 78 and 100 °C, so the forces clearly differ."
   },
   {
    "id": "ce4-21",
@@ -278,7 +278,7 @@ const EXAM = {
     "760 °C"
    ],
    "correct": 1,
-   "explanation": "The normal boiling point is the temperature at which the vapor pressure equals 760 torr. Curve B crosses the 760 torr line at about 78 °C."
+   "explanation": "Correct: (B) 78 °C. The normal boiling point is the temperature at which the vapor pressure equals 1 atm, 760 torr. On the graph, curve B rises and crosses the dashed 760 torr line at about 78 °C. That is the temperature at which liquid B boils at standard atmospheric pressure, matching ethanol's boiling point of 78 °C.\n\n(A) is wrong because 35 °C is where curve A, not curve B, crosses the 760 torr line, so it is liquid A's normal boiling point.\n(C) is wrong because 100 °C is where curve C reaches 760 torr; at that temperature liquid B's vapor pressure is far above 1 atm.\n(D) is wrong because 760 is the pressure in torr that defines the normal boiling point, not a temperature read from the graph."
   },
   {
    "id": "ce4-22",
@@ -291,7 +291,7 @@ const EXAM = {
     "The hydrogen bonding between the atoms increases going down the group."
    ],
    "correct": 0,
-   "explanation": "The noble gases are nonpolar atoms, so the only attractions between them are London dispersion forces. Larger atoms have more electrons and are more polarizable, so the dispersion forces and the boiling points are greater."
+   "explanation": "Correct: (A) The London dispersion forces increase as the atoms get larger with more electrons. Noble gases exist as single nonpolar atoms, so the only attractions between them are London dispersion forces. Going down the group from He to Xe, the atoms have more electrons in larger, more diffuse electron clouds that are more polarizable. More polarizable atoms form larger temporary dipoles, so the dispersion forces strengthen and more energy is needed to separate the atoms, raising the boiling point from −269 °C to −108 °C.\n\n(B) is wrong because noble gas atoms are symmetrical and have no permanent dipole, so there are no dipole–dipole forces between them.\n(C) is wrong because noble gas atoms have filled valence shells and do not form covalent bonds with one another under normal conditions.\n(D) is wrong because hydrogen bonding requires H bonded to N, O, or F, and noble gas atoms contain no hydrogen at all."
   },
   {
    "id": "ce4-23",
@@ -305,7 +305,7 @@ const EXAM = {
     "2 A + B₂ → 2 AB"
    ],
    "correct": 3,
-   "explanation": "Two B₂ molecules (four B atoms) combined with four of the six A atoms to form four AB molecules, leaving two A atoms unreacted. The ratio of reactants consumed is 4 A : 2 B₂ = 2 A : 1 B₂, giving 2 A + B₂ → 2 AB."
+   "explanation": "Correct: (D) 2 A + B₂ → 2 AB. Compare the boxes. Before: six A atoms and two B₂ molecules. After: four AB molecules and two unreacted A atoms. So four A atoms and two B₂ molecules (four B atoms) were consumed to make four AB. Dividing by the common factor 2 gives 2 A + B₂ → 2 AB. Leftover A is excess reactant and is not written in the balanced equation.\n\n(A) is wrong because the product in the figure is AB (one A, one B), not AB₂, and this equation would not account for four AB molecules.\n(B) is wrong because B exists as diatomic B₂ molecules in the reactant box, so the reactant must be written as B₂, not B.\n(C) is wrong because this equation includes unreacted A on both sides; excess reactant is cancelled and does not appear in a balanced equation."
   },
   {
    "id": "ce4-24",
@@ -319,7 +319,7 @@ const EXAM = {
     "B₂"
    ],
    "correct": 3,
-   "explanation": "The limiting reactant is completely used up. No B₂ molecules remain after the reaction, while two A atoms are left over, so B₂ limited the amount of product that could form."
+   "explanation": "Correct: (D) B₂. The limiting reactant is the one completely used up, which determines how much product forms. In the after box, no B₂ molecules (no free B) remain, while two A atoms are left over. Both B₂ molecules were consumed and made four AB molecules; with more B₂, more of the leftover A could have reacted. So B₂ limited the amount of product.\n\n(A) is wrong because two A atoms remain unreacted after the reaction, so A is the excess reactant, not the limiting one.\n(B) is wrong because AB is the product of the reaction, so it cannot be a reactant that limits how much product forms.\n(C) is wrong because all of the B₂ was consumed while only part of the A was, so B₂ is clearly the limiting reactant."
   },
   {
    "id": "ce4-25",
@@ -332,7 +332,7 @@ const EXAM = {
     "ΔG < 0, because the reaction is spontaneous"
    ],
    "correct": 0,
-   "explanation": "At equilibrium there is no net driving force for the reaction, so ΔG = 0. The standard free energy change is related to the equilibrium constant by ΔG° = −RT ln K, and it is zero only if K = 1."
+   "explanation": "Correct: (A) ΔG = 0, and ΔG° = −RT ln K. At equilibrium there is no net driving force in either direction, so the free energy change under the actual conditions is zero: ΔG = ΔG° + RT ln Q = 0, with Q = K. Rearranging gives ΔG° = −RT ln K. ΔG° itself is generally not zero; it equals zero only in the special case K = 1. This relationship links thermodynamic data to equilibrium constants.\n\n(B) is wrong because ΔG° is zero only for the special case K = 1; at equilibrium in general it is ΔG, not ΔG°, that equals zero.\n(C) is wrong because ΔG > 0 means the reverse reaction is spontaneous, so the system would still be changing and not at equilibrium.\n(D) is wrong because ΔG < 0 means the forward reaction still proceeds spontaneously, so the system has not yet reached equilibrium."
   },
   {
    "id": "ce4-26",
@@ -345,7 +345,7 @@ const EXAM = {
     "The equilibrium shifts toward the products, forming more NH₃."
    ],
    "correct": 3,
-   "explanation": "Removing a product reduces its concentration, so Q becomes smaller than K. By Le Châtelier's principle, the system shifts toward the products to replace some of the NH₃. K does not change, because the temperature is constant."
+   "explanation": "Correct: (D) The equilibrium shifts toward the products, forming more NH₃. Removing NH₃ lowers its concentration, so Q = [NH₃]²/([N₂][H₂]³) becomes smaller than K. By Le Châtelier's principle, the system responds by shifting toward the products, converting some N₂ and H₂ into NH₃ until Q again equals K. K itself does not change because the temperature is constant; only temperature changes K.\n\n(A) is wrong because removing a product makes Q < K, which drives the reaction forward toward products, not backward toward N₂ and H₂.\n(B) is wrong because K depends only on temperature, and the temperature is constant, so K keeps the same value.\n(C) is wrong because removing NH₃ disturbs the equilibrium (Q no longer equals K), so the system must shift to restore it."
   },
   {
    "id": "ce4-27",
@@ -358,7 +358,7 @@ const EXAM = {
     "−198.7 J/K"
    ],
    "correct": 3,
-   "explanation": "ΔS° = ΣS°(products) − ΣS°(reactants) = 2(192.5) − [191.6 + 3(130.7)] = 385.0 − 583.7 = −198.7 J/K. The entropy decreases because four moles of gas become two."
+   "explanation": "Correct: (D) −198.7 J/K. ΔS° = ΣnS°(products) − ΣnS°(reactants). Products: 2(192.5) = 385.0 J/K. Reactants: 191.6 + 3(130.7) = 191.6 + 392.1 = 583.7 J/K. ΔS° = 385.0 − 583.7 = −198.7 J/K. The negative sign makes sense: four moles of gas become two moles of gas, so the number of possible arrangements, and the entropy, decreases.\n\n(A) is wrong because +198.7 J/K has the right magnitude but subtracts products from reactants, giving the wrong sign for a reaction that reduces moles of gas.\n(B) is wrong because a positive ΔS° is impossible here: the reaction goes from 4 mol to 2 mol of gas, so ΔS° must be negative (it is −198.7 J/K).\n(C) is wrong because −97.7 J/K has the right sign but only about half the right size; products 2(192.5) = 385.0 minus reactants 191.6 + 3(130.7) = 583.7 gives −198.7 J/K."
   },
   {
    "id": "ce4-28",
@@ -371,7 +371,7 @@ const EXAM = {
     "The 1s electrons in Li⁺ are less strongly attracted to the nucleus than before."
    ],
    "correct": 0,
-   "explanation": "When Li loses its valence electron from the 2s subshell, the outermost shell is removed entirely. The remaining two 1s electrons are in a smaller shell and are pulled in by the same nuclear charge (3+), so the ion is much smaller."
+   "explanation": "Correct: (A) The outer 2s electron is removed, leaving only the more tightly held 1s electrons. Lithium is 1s²2s¹. Forming Li⁺ removes the single 2s electron, which empties the entire second shell. The ion keeps only the 1s² electrons, which are much closer to the nucleus. The nuclear charge (3+) is unchanged, but it now pulls on only two electrons in the n = 1 shell, and there is no outer shell left, so Li⁺ (about 76 pm) is much smaller than Li (about 152 pm).\n\n(B) is wrong because ionization removes an electron but never changes the number of protons; Li and Li⁺ both have 3 protons.\n(C) is wrong because Li⁺ has one fewer electron than Li (2 instead of 3), since a positive ion forms by losing an electron.\n(D) is wrong because with one fewer electron there is less repulsion, so the 1s electrons are held as strongly or more strongly, not less."
   },
   {
    "id": "ce4-29",
@@ -384,7 +384,7 @@ const EXAM = {
     "22"
    ],
    "correct": 1,
-   "explanation": "Nitrogen contributes 5 electrons and each oxygen contributes 6, for 5 + 3(6) = 23. The negative charge adds one more electron, for a total of 24."
+   "explanation": "Correct: (B) 24. Add the valence electrons of each atom, then adjust for the charge. Nitrogen (group 15) has 5, and each oxygen (group 16) has 6: 5 + 3(6) = 23. The 1− charge means one extra electron, so the total is 23 + 1 = 24 valence electrons. A correct Lewis structure shows these 24 electrons as one N=O and two N–O bonds with resonance.\n\n(A) is wrong because 26 adds three extra electrons, as if the ion carried a 3− charge; NO₃⁻ has a charge of only 1−.\n(C) is wrong because 23 is the count for the neutral atoms; it forgets to add the one extra electron that gives the ion its 1− charge.\n(D) is wrong because 22 subtracts one electron for the charge instead of adding it; a negative charge means extra electrons."
   },
   {
    "id": "ce4-30",
@@ -397,7 +397,7 @@ const EXAM = {
     "18.0 kJ"
    ],
    "correct": 1,
-   "explanation": "q = mcΔT = (25.0 g)(0.900 J/(g·°C))(80.0 °C) = 1800 J = 1.80 kJ."
+   "explanation": "Correct: (B) 1.80 kJ. Use q = mcΔT. ΔT = 100.0 °C − 20.0 °C = 80.0 °C. q = (25.0 g)(0.900 J/(g·°C))(80.0 °C) = 1800 J = 1.80 kJ. The value is positive because the aluminum absorbs heat. Three significant figures are justified by the data. Note that a temperature change in °C equals the change in kelvins, so either scale gives the same ΔT.\n\n(A) is wrong because 225 J corresponds to a temperature change of only 10.0 °C; the actual change is 80.0 °C.\n(C) is wrong because 2.25 kJ uses the final temperature (100.0 °C) as ΔT instead of the change from 20.0 °C to 100.0 °C.\n(D) is wrong because 18.0 kJ is ten times too large, a decimal slip in converting 1800 J to kilojoules (1800 J = 1.80 kJ)."
   },
   {
    "id": "ce4-31",
@@ -410,7 +410,7 @@ const EXAM = {
     "1.6 × 10⁻¹⁰ M"
    ],
    "correct": 3,
-   "explanation": "pOH = 14.00 − 4.20 = 9.80, so [OH⁻] = 10^(−9.80) = 1.6 × 10⁻¹⁰ M. The value 6.3 × 10⁻⁵ M is [H⁺] for this solution."
+   "explanation": "Correct: (D) 1.6 × 10⁻¹⁰ M. At 25 °C, pH + pOH = 14.00. pOH = 14.00 − 4.20 = 9.80. [OH⁻] = 10^(−9.80) = 10^(0.20) × 10⁻¹⁰ = 1.6 × 10⁻¹⁰ M. Check: [H⁺] = 10^(−4.20) = 6.3 × 10⁻⁵ M, and (6.3 × 10⁻⁵)(1.6 × 10⁻¹⁰) = 1.0 × 10⁻¹⁴ = K_w. The solution is acidic, so [OH⁻] is very small.\n\n(A) is wrong because 6.3 × 10⁻¹⁰ M uses the wrong mantissa: 10^(−9.80) is 10^(0.20) × 10⁻¹⁰ = 1.6 × 10⁻¹⁰, not 10^(0.80) × 10⁻¹⁰.\n(B) is wrong because 1.6 × 10⁻⁴ M equals 10^(−3.80), a slip in taking the antilog of −4.20; it is not [OH⁻] and is also not [H⁺].\n(C) is wrong because 6.3 × 10⁻⁵ M is [H⁺] = 10^(−4.20); the question asks for [OH⁻], which requires using pOH = 9.80."
   },
   {
    "id": "ce4-32",
@@ -424,7 +424,7 @@ const EXAM = {
     "Oxygen"
    ],
    "correct": 3,
-   "explanation": "The relative peak heights are 2 : 2 : 4, corresponding to 1s²2s²2p⁴. That is 8 electrons, so the element has 8 protons and is oxygen."
+   "explanation": "Correct: (D) Oxygen. In a photoelectron spectrum each peak is a subshell, and the peak height is proportional to the number of electrons in it. The highest binding energy peak (53.2 MJ/mol) is 1s, the next (3.12 MJ/mol) is 2s, and the lowest (1.31 MJ/mol) is 2p. Heights of 2 : 2 : 4 give the configuration 1s²2s²2p⁴, a total of 8 electrons. A neutral atom with 8 electrons has 8 protons: oxygen.\n\n(A) is wrong because nitrogen is 1s²2s²2p³, so its 2p peak would represent 3 electrons, not the 4 shown.\n(B) is wrong because fluorine is 1s²2s²2p⁵, so its 2p peak would be 2.5 times the height of the 2s peak, not twice.\n(C) is wrong because carbon is 1s²2s²2p², so its 2p peak would be the same height as the 1s and 2s peaks, not twice as tall."
   },
   {
    "id": "ce4-33",
@@ -438,7 +438,7 @@ const EXAM = {
     "The spectrum would be identical, because both elements are in the same period."
    ],
    "correct": 0,
-   "explanation": "Fluorine has configuration 1s²2s²2p⁵, so its 2p peak represents five electrons rather than four. It also has one more proton, which increases the effective nuclear charge and the binding energy of every subshell."
+   "explanation": "Correct: (A) The 2p peak would be taller (5 electrons), and all of the peaks would be at higher binding energies. Fluorine has the configuration 1s²2s²2p⁵, so its 2p peak represents 5 electrons instead of oxygen's 4 and is taller; the 1s and 2s peaks still represent 2 electrons each. Fluorine also has 9 protons instead of 8, so every electron feels a greater nuclear charge. Each subshell's electrons are held more tightly, and all three peaks move to higher binding energies (for example, fluorine's 1s is about 67 MJ/mol).\n\n(B) is wrong because the extra proton in fluorine increases the attraction for every electron, so the binding energies increase, not decrease.\n(C) is wrong because the 2s subshell is full (2 electrons) in both atoms; the added electron goes into 2p, so the 2p peak grows.\n(D) is wrong because elements in the same period have different numbers of protons and electrons, so their spectra differ in peak heights and positions."
   },
   {
    "id": "ce4-34",
@@ -452,7 +452,7 @@ const EXAM = {
     "0.0200 s⁻¹"
    ],
    "correct": 2,
-   "explanation": "A linear plot of ln[A] versus time shows the reaction is first order. The slope equals −k. The line falls by 0.50 for every 10 s, so the slope is −0.050 s⁻¹ and k = 0.050 s⁻¹."
+   "explanation": "Correct: (C) 0.0500 s⁻¹. A straight-line plot of ln[A] versus time means the reaction is first order, with ln[A] = −kt + ln[A]₀. The slope equals −k. From the graph, ln[A] falls from −0.92 at 0 s to −3.92 at 60 s: slope = (−3.92 − (−0.92))/(60 s) = −3.00/60 s = −0.0500 s⁻¹. Therefore k = 0.0500 s⁻¹.\n\n(A) is wrong because 20.0 s⁻¹ is 1/k (1 ÷ 0.0500) and has the wrong units; 20.0 s is the time for ln[A] to fall by 1.\n(B) is wrong because 0.916 is the magnitude of the y-intercept, ln[A]₀, not the slope of the line, which gives the rate constant.\n(D) is wrong because 0.0200 s⁻¹ would mean ln[A] falls by only 0.20 every 10 s, but the graph shows a fall of 0.50 every 10 s."
   },
   {
    "id": "ce4-35",
@@ -466,7 +466,7 @@ const EXAM = {
     "2.5 M"
    ],
    "correct": 0,
-   "explanation": "The y-intercept of the line is ln[A]₀ = −0.916, so [A]₀ = e^(−0.916) = 0.40 M. The intercept is the logarithm of the initial concentration, not the concentration itself."
+   "explanation": "Correct: (A) 0.40 M. For a first-order reaction, ln[A] = −kt + ln[A]₀, so the y-intercept at t = 0 equals ln[A]₀. The graph's intercept is −0.92 (−0.916). Taking the antilog: [A]₀ = e^(−0.916) = 0.40 M. The intercept is the natural log of the starting concentration, so it must be converted with e^x before it is reported as a concentration.\n\n(B) is wrong because 0.92 is the magnitude of the intercept, ln[A]₀; it must be converted with e^(−0.916) to get the concentration.\n(C) is wrong because 1.0 M would give ln[A]₀ = 0, so the line would start at zero, but it starts at −0.92.\n(D) is wrong because 2.5 M equals e^(+0.916), which drops the negative sign of the intercept; ln of 2.5 is +0.92, not −0.92."
   },
   {
    "id": "ce4-36",
@@ -480,7 +480,7 @@ const EXAM = {
     "6.9 s"
    ],
    "correct": 2,
-   "explanation": "For a first-order reaction, t½ = ln 2/k = 0.693/0.0500 s⁻¹ = 13.9 s."
+   "explanation": "Correct: (C) 13.9 s. For a first-order reaction the half-life is independent of concentration: t½ = ln 2/k = 0.693/0.0500 s⁻¹ = 13.9 s. A graph check agrees: halving the concentration lowers ln[A] by 0.693, and at 0.050 per second that takes 0.693/0.050 = 13.9 s. So after 13.9 s, [A] falls from 0.40 M to 0.20 M.\n\n(A) is wrong because 27.7 s is two half-lives (ln 4/k = 1.386/0.0500), the time for the concentration to fall to one quarter.\n(B) is wrong because 20.0 s is 1/k, the time for ln[A] to drop by 1 (to 1/e of the start), not to one half.\n(D) is wrong because 6.9 s is half the half-life, obtained by using k = 0.100 s⁻¹ or dividing 0.693 by 0.100."
   },
   {
    "id": "ce4-37",
@@ -493,7 +493,7 @@ const EXAM = {
     "Cu"
    ],
    "correct": 2,
-   "explanation": "The reducing agent is the species that is oxidized, which gives up electrons. Aluminum goes from 0 to +3 and is oxidized, so Al is the reducing agent. Copper(II) is reduced (+2 to 0) and is the oxidizing agent."
+   "explanation": "Correct: (C) Al. The reducing agent is the species that is oxidized, because it gives its electrons to something else. Assign oxidation numbers: Al goes from 0 (element) to +3 in Al³⁺, so it loses electrons and is oxidized. Cu goes from +2 in Cu²⁺ to 0, so Cu²⁺ is reduced and is the oxidizing agent. Therefore Al(s) is the reducing agent.\n\n(A) is wrong because Cu²⁺ gains electrons and is reduced from +2 to 0, which makes it the oxidizing agent, not the reducing agent.\n(B) is wrong because Al³⁺ is the product formed when Al is oxidized; agents are identified among the reactants, not the products.\n(D) is wrong because Cu is a product formed by the reduction of Cu²⁺; it does not donate electrons in this reaction."
   },
   {
    "id": "ce4-38",
@@ -506,7 +506,7 @@ const EXAM = {
     "11.0 amu"
    ],
    "correct": 2,
-   "explanation": "The average atomic mass is (0.199)(10.0) + (0.801)(11.0) = 1.99 + 8.81 = 10.8 amu, which is close to 11 because ¹¹B is much more abundant."
+   "explanation": "Correct: (C) 10.8 amu. The average atomic mass is the abundance-weighted average of the isotope masses, using fractional abundances. Average = (0.199)(10.0 amu) + (0.801)(11.0 amu) = 1.99 + 8.81 = 10.8 amu. The result is close to 11 because ¹¹B is about four times as abundant as ¹⁰B. This matches boron's tabulated mass, 10.81.\n\n(A) is wrong because 10.2 amu results from swapping the abundances: (0.801)(10.0) + (0.199)(11.0) = 8.01 + 2.19 = 10.2.\n(B) is wrong because 10.5 amu is the simple average of 10.0 and 11.0, which ignores that ¹¹B is far more abundant than ¹⁰B.\n(D) is wrong because 11.0 amu is the mass of ¹¹B alone and ignores the 19.9% of atoms that are the lighter ¹⁰B."
   },
   {
    "id": "ce4-39",
@@ -519,7 +519,7 @@ const EXAM = {
     "2.46 atm"
    ],
    "correct": 2,
-   "explanation": "P = nRT/V = (0.50)(0.0821)(300.)/(2.5) = 12.3/2.5 = 4.93 atm."
+   "explanation": "Correct: (C) 4.93 atm. Rearrange the ideal gas law, PV = nRT, to solve for pressure: P = nRT/V. P = (0.50 mol)(0.0821 L·atm/(mol·K))(300. K)/(2.5 L) = 12.3 L·atm/2.5 L = 4.93 atm (4.9 atm to two significant figures). Units cancel to atm as required. Temperature must be in kelvins and volume in liters to match the units of R.\n\n(A) is wrong because 49.3 atm is ten times too large, a decimal slip such as dividing by 0.25 L instead of 2.5 L.\n(B) is wrong because 9.86 atm is double the correct value, as if 1.0 mol were used or the volume were halved to 1.25 L.\n(D) is wrong because 2.46 atm is half the correct value, as if 0.25 mol were used or the volume were doubled to 5.0 L."
   },
   {
    "id": "ce4-40",
@@ -532,7 +532,7 @@ const EXAM = {
     "CO₂"
    ],
    "correct": 1,
-   "explanation": "Each carbon atom in ethene has three electron domains (two C–H bonds and one C=C double bond), which corresponds to sp² hybridization. The carbon atoms in ethyne and CO₂ are sp (two domains), and carbon in methane is sp³ (four domains)."
+   "explanation": "Correct: (B) C₂H₄ (ethene). Hybridization follows the number of electron domains: 2 → sp, 3 → sp², 4 → sp³. In ethene, H₂C=CH₂, each carbon has two C–H bonds and one C=C double bond, which count as three domains, so each carbon is sp² hybridized with a trigonal planar arrangement (about 120°). The unhybridized p orbital on each carbon forms the π bond of the double bond.\n\n(A) is wrong because each carbon in ethyne, H–C≡C–H, has two electron domains (one C–H and one triple bond), so it is sp hybridized.\n(C) is wrong because carbon in methane has four C–H single bonds, four electron domains, so it is sp³ hybridized.\n(D) is wrong because carbon in CO₂ has two double bonds, two electron domains, and is sp hybridized with a linear shape."
   },
   {
    "id": "ce4-41",
@@ -545,7 +545,7 @@ const EXAM = {
     "The molecules collide more often, so more effective collisions occur each second."
    ],
    "correct": 3,
-   "explanation": "A higher concentration puts more molecules in a given volume, so collisions are more frequent. The fraction of collisions with enough energy and the correct orientation does not change, but the number of effective collisions per second increases. The rate constant and activation energy depend on temperature and catalysts, not concentration."
+   "explanation": "Correct: (D) The molecules collide more often, so more effective collisions occur each second. Collision theory says a reaction happens only when particles collide with enough energy and the proper orientation. Raising the concentration puts more molecules into the same volume, so they collide more frequently. The fraction of collisions that are effective (set by temperature and E_a) stays the same, but the number of effective collisions per second rises, so the rate increases. The rate constant and activation energy are unchanged.\n\n(A) is wrong because activation energy is set by the reaction pathway; only a catalyst lowers it, and concentration has no effect on it.\n(B) is wrong because the energy of each collision depends on temperature (molecular speeds), not on how concentrated the reactants are.\n(C) is wrong because the rate constant k depends on temperature and catalysts; a higher rate at higher concentration comes from the concentration terms, not from k."
   },
   {
    "id": "ce4-42",
@@ -558,7 +558,7 @@ const EXAM = {
     "+114 kJ"
    ],
    "correct": 0,
-   "explanation": "One C–H bond and one Cl–Cl bond are broken: 413 + 243 = 656 kJ. One C–Cl bond and one H–Cl bond are formed: 339 + 431 = 770 kJ. ΔH ≈ 656 − 770 = −114 kJ."
+   "explanation": "Correct: (A) −114 kJ. ΔH ≈ Σ(bonds broken) − Σ(bonds formed). Broken: one C–H (413 kJ) and one Cl–Cl (243 kJ), total 656 kJ. Formed: one C–Cl (339 kJ) and one H–Cl (431 kJ), total 770 kJ. ΔH ≈ 656 − 770 = −114 kJ. More energy is released by forming the new bonds than is absorbed breaking the old ones, so the reaction is exothermic. Only one of the four C–H bonds in CH₄ breaks.\n\n(B) is wrong because −38 kJ does not come from breaking one C–H and one Cl–Cl and forming one C–Cl and one H–Cl; that sum is −114 kJ.\n(C) is wrong because +38 kJ has the wrong sign and the wrong size; the bonds formed (770 kJ) are stronger than those broken (656 kJ).\n(D) is wrong because +114 kJ has the right magnitude but subtracts bonds broken from bonds formed, reversing the sign."
   },
   {
    "id": "ce4-43",
@@ -571,7 +571,7 @@ const EXAM = {
     "−197.8 kJ"
    ],
    "correct": 3,
-   "explanation": "ΔH° = 2(−395.7) − [2(−296.8) + 0] = −791.4 + 593.6 = −197.8 kJ. The coefficients in the balanced equation multiply the enthalpies of formation."
+   "explanation": "Correct: (D) −197.8 kJ. ΔH° = ΣnΔHf°(products) − ΣnΔHf°(reactants). Products: 2(−395.7) = −791.4 kJ. Reactants: 2(−296.8) + 0 = −593.6 kJ (O₂ is an element in its standard state, so ΔHf° = 0). ΔH° = −791.4 − (−593.6) = −197.8 kJ. The coefficients of 2 multiply the enthalpies of formation.\n\n(A) is wrong because +197.8 kJ subtracts products from reactants, reversing the sign of the correct value.\n(B) is wrong because +98.9 kJ both reverses the sign and leaves out the coefficients of 2 in the balanced equation.\n(C) is wrong because −98.9 kJ is the enthalpy change per mole of SO₃; it ignores the coefficients of 2 for the reaction as written."
   },
   {
    "id": "ce4-44",
@@ -584,7 +584,7 @@ const EXAM = {
     "12.70"
    ],
    "correct": 1,
-   "explanation": "HNO₃ is a strong acid, so [H⁺] = 0.050 M and pH = −log(0.050) = 1.30."
+   "explanation": "Correct: (B) 1.30. HNO₃ is a strong acid that ionizes completely in water, so [H⁺] = 0.050 M. pH = −log(0.050) = 1.30. The two significant figures in 0.050 become two decimal places in the pH. The value is low, as expected for a moderately concentrated strong acid.\n\n(A) is wrong because 0.050 is the hydrogen ion concentration in mol/L, not the pH; the pH is −log of this value.\n(C) is wrong because 2.30 is −log(0.0050), a decimal slip that uses ten times less acid than the 0.050 M given.\n(D) is wrong because 12.70 is 14.00 − 1.30, which treats the 1.30 as a pOH, as if HNO₃ were a base."
   },
   {
    "id": "ce4-45",
@@ -597,7 +597,7 @@ const EXAM = {
     "NH₃"
    ],
    "correct": 0,
-   "explanation": "Iodine is a nonpolar molecule held together by London dispersion forces. By the principle that like dissolves like, it dissolves best in a nonpolar solvent such as carbon tetrachloride. Water, methanol, and ammonia are polar and form hydrogen bonds with themselves."
+   "explanation": "Correct: (A) CCl₄. Iodine, I₂, is a nonpolar molecule whose only intermolecular forces are London dispersion forces. By the rule that like dissolves like, it dissolves best in a nonpolar solvent whose molecules also interact by dispersion forces. CCl₄ is tetrahedral and symmetrical, so it is nonpolar, and I₂ dissolves readily in it (giving a violet solution). The polar solvents would have to break their own hydrogen bonds to make room for I₂.\n\n(B) is wrong because water is highly polar and strongly hydrogen bonded; breaking those bonds to dissolve nonpolar I₂ is unfavorable, so I₂ is only slightly soluble.\n(C) is wrong because methanol is polar and hydrogen bonds with itself, so it is a poorer match for nonpolar I₂ than nonpolar CCl₄.\n(D) is wrong because ammonia is a polar, hydrogen-bonding molecule, so it is a poor solvent for the nonpolar I₂ molecule."
   },
   {
    "id": "ce4-46",
@@ -610,7 +610,7 @@ const EXAM = {
     "CH₃COOH and CH₃COONa"
    ],
    "correct": 3,
-   "explanation": "A buffer contains a weak acid and its conjugate base (or a weak base and its conjugate acid) in comparable amounts. Acetic acid and sodium acetate meet this requirement. HCl and HNO₃ are strong acids, and NaOH is a strong base."
+   "explanation": "Correct: (D) CH₃COOH and CH₃COONa. A buffer needs a weak acid and its conjugate base (or a weak base and its conjugate acid) in comparable amounts, so that it can neutralize both added acid and added base. Acetic acid, CH₃COOH, is a weak acid, and sodium acetate supplies its conjugate base, CH₃COO⁻. Added H⁺ reacts with CH₃COO⁻ and added OH⁻ reacts with CH₃COOH, so the pH changes very little.\n\n(A) is wrong because HCl is a strong acid, and Cl⁻ is too weak a base to react with added H⁺, so this pair cannot resist pH changes.\n(B) is wrong because HNO₃ is a strong acid and NO₃⁻ is a negligible base, so the mixture cannot neutralize added acid.\n(C) is wrong because NaOH is a strong base and NaCl is a neutral salt; neither component can neutralize added base."
   },
   {
    "id": "ce4-47",
@@ -623,7 +623,7 @@ const EXAM = {
     "The dissolving process does not involve a change in energy."
    ],
    "correct": 1,
-   "explanation": "The temperature of the solution increased because the dissolving process released thermal energy to it. A process that releases heat to the surroundings is exothermic, with ΔH < 0."
+   "explanation": "Correct: (B) The dissolving process is exothermic, because thermal energy is released to the solution. The solution in the insulated cup is the surroundings and the dissolving process is the system. The solution's temperature rose, which means it gained thermal energy, and that energy came from the dissolving process. A process that releases heat to its surroundings is exothermic, so ΔH(solution) < 0. Examples include dissolving NaOH or CaCl₂ in water.\n\n(A) is wrong because the solution (surroundings) gained the energy, which means the dissolving process (system) lost it; that is exothermic, not endothermic.\n(C) is wrong because a temperature increase of the surroundings means the system released heat, so ΔH < 0, not ΔH > 0.\n(D) is wrong because the temperature change shows that energy was transferred, so the dissolving process does involve an enthalpy change."
   },
   {
    "id": "ce4-48",
@@ -636,7 +636,7 @@ const EXAM = {
     "23.8 torr"
    ],
    "correct": 2,
-   "explanation": "By Dalton's law, the total pressure is the sum of the partial pressures: P(H₂) = P_total − P(H₂O) = 755 − 23.8 = 731 torr."
+   "explanation": "Correct: (C) 731 torr. When a gas is collected over water, the gas in the collection vessel is a mixture of H₂ and water vapor. By Dalton's law of partial pressures, P_total = P(H₂) + P(H₂O). So P(H₂) = 755 torr − 23.8 torr = 731 torr (rounded to the ones place, matching the precision of 755 torr).\n\n(A) is wrong because 779 torr adds the water vapor pressure to the total instead of subtracting it; the total already includes the water vapor.\n(B) is wrong because 755 torr is the total pressure of the mixture, which includes the 23.8 torr contributed by water vapor.\n(D) is wrong because 23.8 torr is the partial pressure of the water vapor, not of the hydrogen gas collected."
   },
   {
    "id": "ce4-49",
@@ -649,7 +649,7 @@ const EXAM = {
     "The time taken for a reaction"
    ],
    "correct": 0,
-   "explanation": "A state function depends only on the current state of the system, not on how it got there. Enthalpy is a state function, which is why Hess's law works. Heat and work depend on the path."
+   "explanation": "Correct: (A) Enthalpy, H. A state function depends only on the current state of the system (temperature, pressure, composition), not on the path used to reach it. Enthalpy is a state function, so ΔH for a change is the same no matter how the change is carried out; this is why Hess's law works. Heat and work are path functions: different paths between the same states can involve different q and w, although their sum ΔU is fixed.\n\n(B) is wrong because the heat absorbed depends on the path taken between two states, so q is a path function, not a state function.\n(C) is wrong because work depends on how a process is carried out (for example, the pressure during expansion), so it is a path function.\n(D) is wrong because the time for a reaction is a kinetic quantity that depends on conditions and catalysts, not a property of the system's state."
   },
   {
    "id": "ce4-50",
@@ -662,7 +662,7 @@ const EXAM = {
     "The rate quadruples."
    ],
    "correct": 2,
-   "explanation": "The rate depends on [A] to the first power, so doubling [A] doubles the rate. The reaction is zero order in B, so changing [B] has no effect. The net effect is that the rate doubles."
+   "explanation": "Correct: (C) The rate doubles. The rate law is rate = k[A]¹[B]⁰ = k[A]. Doubling [A] multiplies the rate by 2¹ = 2. Halving [B] multiplies the rate by (½)⁰ = 1, so it has no effect. The combined factor is 2 × 1 = 2, so the rate doubles. Zero order means the rate does not depend on that reactant's concentration.\n\n(A) is wrong because the rate would be unchanged only if the effects canceled, but halving a zero-order reactant has no effect to cancel the doubling of [A].\n(B) is wrong because a halved rate treats the change in [B] as first order and ignores that the rate is first order in A.\n(D) is wrong because quadrupling would require second order in A (2² = 4); the reaction is only first order in A."
   },
   {
    "id": "ce4-51",
@@ -675,7 +675,7 @@ const EXAM = {
     "At no temperature"
    ],
    "correct": 1,
-   "explanation": "The reaction is spontaneous when ΔG = ΔH − TΔS < 0, so T > ΔH/ΔS = (30,000 J)/(100 J/K) = 300 K."
+   "explanation": "Correct: (B) Above 300 K. A reaction is spontaneous when ΔG = ΔH − TΔS < 0. Convert to consistent units: ΔH = +30 kJ = +30,000 J and ΔS = +100 J/K. Setting ΔG = 0 gives T = ΔH/ΔS = (30,000 J)/(100 J/K) = 300 K. Because ΔS is positive, the −TΔS term grows with temperature, so ΔG becomes negative above 300 K.\n\n(A) is wrong because 30 K comes from a units slip (for example, using 3000 J); at 30 K, ΔG = 30,000 − 3,000 = +27,000 J, still positive.\n(C) is wrong because 3000 K is ten times too high; ΔG is already negative at any temperature just above 300 K.\n(D) is wrong because with ΔH > 0 and ΔS > 0 the reaction becomes spontaneous at high temperature; never spontaneous requires ΔH > 0 and ΔS < 0."
   },
   {
    "id": "ce4-52",
@@ -688,7 +688,7 @@ const EXAM = {
     "K increases, because heat is added to the system."
    ],
    "correct": 1,
-   "explanation": "For an exothermic reaction, heat is a product, so raising the temperature shifts the equilibrium toward the reactants and the value of K decreases. K depends on temperature, not on the concentrations."
+   "explanation": "Correct: (B) K decreases, because the equilibrium shifts toward the reactants. For an exothermic reaction, heat can be treated as a product: N₂ + 3 H₂ ⇌ 2 NH₃ + heat. Raising the temperature adds heat, so the equilibrium shifts toward the reactants, and at the new equilibrium the ratio [NH₃]²/([N₂][H₂]³) is smaller. Thus K decreases. Temperature is the only factor that changes the value of K.\n\n(A) is wrong because a faster rate speeds up both the forward and reverse reactions; it changes how fast equilibrium is reached, not the value of K.\n(C) is wrong because K is constant only at a fixed temperature; temperature changes K, while concentration changes do not.\n(D) is wrong because adding heat to an exothermic reaction favors the reactants and lowers K; K increases with heat only for an endothermic reaction."
   },
   {
    "id": "ce4-53",
@@ -701,7 +701,7 @@ const EXAM = {
     "1.0 × 10⁻¹"
    ],
    "correct": 1,
-   "explanation": "[H⁺] = [A⁻] = 1.0 × 10⁻³ M, and [HA] ≈ 0.10 − 0.001 ≈ 0.10 M. K_a = [H⁺][A⁻]/[HA] = (1.0 × 10⁻³)²/(0.10) = 1.0 × 10⁻⁵."
+   "explanation": "Correct: (B) 1.0 × 10⁻⁵. pH 3.00 means [H⁺] = 1.0 × 10⁻³ M. From HA ⇌ H⁺ + A⁻, [A⁻] = [H⁺] = 1.0 × 10⁻³ M, and [HA] = 0.10 − 0.0010 ≈ 0.099 ≈ 0.10 M (only 1% ionizes). K_a = [H⁺][A⁻]/[HA] = (1.0 × 10⁻³)²/(0.10) = 1.0 × 10⁻⁶/0.10 = 1.0 × 10⁻⁵.\n\n(A) is wrong because 1.0 × 10⁻⁷ multiplies (1.0 × 10⁻³)² by 0.10 instead of dividing by 0.10, or confuses K_a with neutral [H⁺].\n(C) is wrong because 1.0 × 10⁻³ is [H⁺] itself; K_a requires squaring it and dividing by the acid concentration.\n(D) is wrong because 1.0 × 10⁻¹ is the initial acid concentration, 0.10 M, not the acid dissociation constant."
   },
   {
    "id": "ce4-54",
@@ -714,7 +714,7 @@ const EXAM = {
     "Cu"
    ],
    "correct": 0,
-   "explanation": "A molecular solid consists of discrete molecules held together by intermolecular forces. Solid iodine is made of I₂ molecules held by London dispersion forces. NaCl is ionic, SiO₂ is a network covalent solid, and Cu is a metallic solid."
+   "explanation": "Correct: (A) I₂. A molecular solid is made of discrete molecules held in place by intermolecular forces. Solid iodine consists of individual I₂ molecules (covalently bonded within each molecule) held together only by London dispersion forces, which is why iodine is soft and sublimes easily. The other choices are ionic, network covalent and metallic solids.\n\n(B) is wrong because NaCl is an ionic solid, a lattice of Na⁺ and Cl⁻ ions held by Coulombic attractions rather than discrete molecules.\n(C) is wrong because SiO₂ (quartz) is a network covalent solid in which each Si is covalently bonded to four O atoms throughout the crystal.\n(D) is wrong because Cu is a metallic solid of cations in a sea of delocalized electrons, not a collection of molecules."
   },
   {
    "id": "ce4-55",
@@ -727,7 +727,7 @@ const EXAM = {
     "0.050 mol"
    ],
    "correct": 2,
-   "explanation": "The pH equals the pK_a when [A⁻] = [HA]. NaOH converts HA into A⁻ one-for-one, so converting half of the 0.20 mol of HA requires 0.10 mol of NaOH."
+   "explanation": "Correct: (C) 0.10 mol. By the Henderson–Hasselbalch equation, pH = pK_a + log([A⁻]/[HA]), so pH = pK_a when [A⁻] = [HA] (log 1 = 0). NaOH reacts with HA one-to-one: HA + OH⁻ → A⁻ + H₂O. Adding 0.10 mol NaOH to 0.20 mol HA leaves 0.10 mol HA and forms 0.10 mol A⁻, the equal amounts needed.\n\n(A) is wrong because 0.40 mol NaOH is twice the acid present; it would neutralize all the HA and leave 0.20 mol excess strong base.\n(B) is wrong because 0.20 mol NaOH converts all of the HA to A⁻ (the equivalence point), leaving no acid, so there is no buffer.\n(D) is wrong because 0.050 mol NaOH gives 0.050 mol A⁻ and 0.15 mol HA, a 1 : 3 ratio and a pH about 0.48 below pK_a."
   },
   {
    "id": "ce4-56",
@@ -740,7 +740,7 @@ const EXAM = {
     "0.250 M"
    ],
    "correct": 1,
-   "explanation": "The first dilution gives (0.500 M)(10.0/100.) = 0.0500 M. The second dilution halves it: (0.0500 M)(25.0/50.0) = 0.0250 M."
+   "explanation": "Correct: (B) 0.0250 M. Use M₁V₁ = M₂V₂ for each dilution. First: M₂ = (0.500 M)(10.0 mL)/(100. mL) = 0.0500 M. Second: M₃ = (0.0500 M)(25.0 mL)/(50.0 mL) = 0.0250 M. Overall the solution is diluted by a factor of 10 and then 2, a factor of 20: 0.500 M ÷ 20 = 0.0250 M.\n\n(A) is wrong because 0.0125 M halves the concentration one extra time, a factor of 40 overall instead of the actual factor of 20.\n(C) is wrong because 0.0500 M is the concentration after only the first dilution; it misses the second, twofold dilution.\n(D) is wrong because 0.250 M applies only the second, twofold dilution to 0.500 M and skips the first, tenfold dilution."
   },
   {
    "id": "ce4-57",
@@ -753,7 +753,7 @@ const EXAM = {
     "96.5 C"
    ],
    "correct": 2,
-   "explanation": "1.08 g of Ag is 0.0100 mol. One electron is needed per Ag atom, so 0.0100 mol of electrons, with a charge of (0.0100)(96,500) = 965 C."
+   "explanation": "Correct: (C) 965 C. Convert grams of silver to moles, then to moles of electrons, then to coulombs. Moles Ag = 1.08 g ÷ 108 g/mol = 0.0100 mol. Ag⁺ + e⁻ → Ag needs one mole of electrons per mole of Ag, so 0.0100 mol e⁻. Charge = (0.0100 mol e⁻)(96,500 C/mol e⁻) = 965 C.\n\n(A) is wrong because 96,500 C is one faraday, the charge needed to deposit a full mole (108 g) of silver, not 1.08 g.\n(B) is wrong because 9,650 C corresponds to 0.100 mol of electrons, which would deposit 10.8 g of silver, ten times the mass given.\n(D) is wrong because 96.5 C corresponds to 0.00100 mol of electrons, which would deposit only 0.108 g of silver."
   },
   {
    "id": "ce4-58",
@@ -767,7 +767,7 @@ const EXAM = {
     "8.37"
    ],
    "correct": 1,
-   "explanation": "At 12.5 mL, half of the HF has been converted to F⁻, so [HF] = [F⁻] and pH = pK_a = 3.14."
+   "explanation": "Correct: (B) 3.14. The equivalence point is at 25.0 mL, since (0.0250 L)(0.100 M) = 0.00250 mol HF requires 0.00250 mol NaOH = 25.0 mL. At 12.5 mL, half the HF has been converted to F⁻, so [HF] = [F⁻]. Henderson–Hasselbalch gives pH = pK_a + log(1) = 3.14. The curve agrees, reading a little above pH 3 at 12.5 mL in the flat buffer region.\n\n(A) is wrong because pH 1.00 would be the pH of 0.100 M strong acid; even the starting HF solution is at about pH 2.1 on the curve.\n(C) is wrong because pH 7.00 is neutral and is not reached until near the steep rise around 25 mL; at 12.5 mL the solution is still acidic.\n(D) is wrong because pH 8.37 is a basic pH reached only near the equivalence point at 25 mL; at 12.5 mL the curve is still in the acidic buffer region."
   },
   {
    "id": "ce4-59",
@@ -781,7 +781,7 @@ const EXAM = {
     "Greater than 7, because F⁻ is a weak acid's conjugate base and produces OH⁻"
    ],
    "correct": 3,
-   "explanation": "At the equivalence point the solution contains F⁻, the conjugate base of a weak acid, which hydrolyzes: F⁻ + H₂O ⇌ HF + OH⁻. The solution is therefore basic, with a pH greater than 7."
+   "explanation": "Correct: (D) Greater than 7, because F⁻ is a weak acid's conjugate base and produces OH⁻. At the equivalence point all the HF has been converted to F⁻ and water; the solution is about 0.0500 M NaF. F⁻ is the conjugate base of a weak acid and hydrolyzes: F⁻ + H₂O ⇌ HF + OH⁻, with K_b = K_w/K_a = 1.0 × 10⁻¹⁴/7.2 × 10⁻⁴ = 1.4 × 10⁻¹¹. This gives [OH⁻] ≈ 8 × 10⁻⁷ M and pH ≈ 7.9, which is greater than 7.\n\n(A) is wrong because equal amounts of acid and base give pH 7 only for a strong acid with a strong base; F⁻ makes this solution basic.\n(B) is wrong because at the equivalence point the HF has been fully neutralized, so the original acid no longer controls the pH.\n(C) is wrong because at the equivalence point the moles of NaOH exactly equal the moles of HF, so no excess NaOH remains."
   },
   {
    "id": "ce4-60",
@@ -795,7 +795,7 @@ const EXAM = {
     "Thymol blue (acid range), which changes color in the pH range 1.2–2.8"
    ],
    "correct": 2,
-   "explanation": "An indicator should change color near the pH of the equivalence point. For this titration the equivalence point is in the basic range (about pH 8), so phenolphthalein, which changes color between pH 8.2 and 10.0, is the best choice."
+   "explanation": "Correct: (C) Phenolphthalein, which changes color in the pH range 8.2–10.0. An indicator should change color at the steep part of the curve, around the equivalence point. For this weak acid–strong base titration the equivalence pH is about 7.9, and the curve rises steeply from about pH 5 to about 11 near 25 mL. Phenolphthalein, with a range of 8.2–10.0, changes color within this vertical rise and very close to the equivalence pH, so it marks the endpoint sharply.\n\n(A) is wrong because methyl orange (3.1–4.4) changes in the buffer region, well before the equivalence point, so it would signal the endpoint far too early.\n(B) is wrong because bromocresol green (3.8–5.4) changes color before the steep rise begins, so it would signal the endpoint too early.\n(D) is wrong because thymol blue's acid range (1.2–2.8) lies around the starting pH of about 2.1, nowhere near the equivalence pH of about 7.9."
   }
  ],
  "sets": {
