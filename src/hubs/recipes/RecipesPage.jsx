@@ -91,8 +91,10 @@ function Star({ on, onClick, label }) {
 
 const initials = (t) => t.replace(/[^A-Za-z ]/g, "").split(" ").filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
 const isFamily = (r) => /family/i.test(r.credit || "");
-// Photos come from the recipe's original page, so the caption names that author or site and links to it when the link is known.
+// Photos come from the recipe's original page (or, for recipes without one, a Wikimedia Commons photo of the same dish), so the caption names that author or site and links to it when the link is known.
 function photoCredit(r) {
+  const pc = r.photo_credit; // stock photo from Wikimedia Commons: credit the photographer and license, as the license requires
+  if (pc) return <>Photo: {pc.author}, <a href={pc.url} target="_blank" rel="noreferrer" style={{ color: RUST }}>{pc.license}</a>, via Wikimedia Commons</>;
   const who = (r.credit || "").replace(/^Adapted from\s+/i, "").trim();
   if (!who || /not recorded/i.test(who)) return "Photo from the original recipe page (source not recorded).";
   return <>Photo: {r.credit_url ? <a href={r.credit_url} target="_blank" rel="noreferrer" style={{ color: RUST }}>{who}</a> : who}</>;
