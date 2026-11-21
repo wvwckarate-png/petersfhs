@@ -53,7 +53,7 @@ const CSS = `
 .rc-hero .rc-star svg{width:24px;height:24px}
 .rc-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:28px;padding:22px 26px}
 .rc-photo{width:100%;border-radius:14px;display:block;border:2px solid ${GOLD}}
-.rc-cap{font-size:11.5px;color:#767F73;margin:5px 0 0}
+.rc-cap{font-size:11.5px;color:#767F73;margin:5px 0 14px}
 .rc-facts{display:flex;flex-wrap:wrap;gap:8px 18px;margin:0 0 14px;font-size:14px}
 .rc-facts b{color:${RUST_DEEP}}
 .rc-sum{font-style:italic;color:#5C645A;margin:0 0 14px;font-size:15px}
@@ -91,6 +91,12 @@ function Star({ on, onClick, label }) {
 
 const initials = (t) => t.replace(/[^A-Za-z ]/g, "").split(" ").filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
 const isFamily = (r) => /family/i.test(r.credit || "");
+// Photos come from the recipe's original page, so the caption names that author or site and links to it when the link is known.
+function photoCredit(r) {
+  const who = (r.credit || "").replace(/^Adapted from\s+/i, "").trim();
+  if (!who || /not recorded/i.test(who)) return "Photo from the original recipe page (source not recorded).";
+  return <>Photo: {r.credit_url ? <a href={r.credit_url} target="_blank" rel="noreferrer" style={{ color: RUST }}>{who}</a> : who}</>;
+}
 const when = (r) => r.total || [r.prep && `Prep ${r.prep}`, r.cook && `Cook ${r.cook}`].filter(Boolean).join(" · ");
 
 function Tile({ r, fav }) {
@@ -148,7 +154,7 @@ function Detail({ slug }) {
         </div>
         <div className="rc-cols">
           <div>
-            {r.photo && <><img className="rc-photo" src={r.photo} alt={r.title} /><p className="rc-cap">Photo from the original recipe page.</p></>}
+            {r.photo && <><img className="rc-photo" src={r.photo} alt={r.title} /><p className="rc-cap">{photoCredit(r)}</p></>}
             {r.summary && <p className="rc-sum">{r.summary}</p>}
             {facts.length > 0 && <div className="rc-facts">{facts.map(([k, v]) => <span key={k}><b>{k}:</b> {v}</span>)}</div>}
             {r.equipment && <div className="rc-facts"><span><b>You need:</b> {r.equipment}</span></div>}
