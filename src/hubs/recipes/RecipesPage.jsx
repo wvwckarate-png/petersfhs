@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import HubTopBar from "../../components/HubTopBar";
 import { useFavorites } from "./favorites";
@@ -27,7 +27,9 @@ const CSS = `
 .rc-head h2{font-family:'Manrope',sans-serif;font-weight:800;font-size:17px;margin:0;color:${RUST_DEEP}}
 .rc-count{font-size:13px;color:#767F73}
 .rc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
-.rc-tile{position:relative;display:flex;flex-direction:column;background:#fff;border:1px solid #ECEAE3;border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .15s ease,box-shadow .15s ease}
+.rc-tile{position:relative;background:#fff;border:1px solid #ECEAE3;border-radius:16px;overflow:hidden;transition:transform .15s ease,box-shadow .15s ease}
+.rc-link{display:flex;flex-direction:column;height:100%;text-decoration:none;color:inherit}
+.rc-link:focus-visible{outline:3px solid ${GOLD};outline-offset:-3px;border-radius:16px}
 .rc-tile:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(60,40,30,.14)}
 .rc-img{aspect-ratio:4/3;width:100%;object-fit:cover;display:block;background:${CREAM}}
 .rc-ph{aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#fff;font-family:'Manrope',sans-serif;font-weight:800;text-align:center;padding:10px}
@@ -93,7 +95,8 @@ const when = (r) => r.total || [r.prep && `Prep ${r.prep}`, r.cook && `Cook ${r.
 
 function Tile({ r, fav }) {
   return (
-    <Link to={`/recipes/${r.slug}`} className="rc-tile">
+    <div className="rc-tile">
+    <Link to={`/recipes/${r.slug}`} className="rc-link">
       {r.photo
         ? <img className="rc-img" src={r.photo} alt={r.title} loading="lazy" />
         : <div className="rc-ph" style={{ background: TINT[r.category] || RUST }}><b>{initials(r.title)}</b><span>{r.subcategory || r.category}</span></div>}
@@ -101,9 +104,10 @@ function Tile({ r, fav }) {
         <h3 className="rc-title">{r.title}</h3>
         <div className="rc-meta">{r.subcategory || r.category}{when(r) ? ` · ${when(r)}` : ""}</div>
         {isFamily(r) && <span className="rc-fam">Family recipe</span>}
-        <Star on={fav.isFav(r.slug)} onClick={() => fav.toggle(r.slug)} label={r.title} />
       </div>
     </Link>
+    <Star on={fav.isFav(r.slug)} onClick={() => fav.toggle(r.slug)} label={r.title} />
+    </div>
   );
 }
 
@@ -170,11 +174,24 @@ function Detail({ slug }) {
   );
 }
 
+// The list remembers its search, category and scroll position for this browser tab, so "← All recipes" returns to the same spot.
+const VIEW_KEY = "pf-recipes-view";
+const readView = () => { try { return JSON.parse(sessionStorage.getItem(VIEW_KEY)) || {}; } catch { return {}; } };
+
 function Browse() {
   const fav = useFavorites();
-  const [q, setQ] = useState("");
-  const [cat, setCat] = useState("all");
-  const [sub, setSub] = useState("all");
+  const saved = useMemo(readView, []);
+  const [q, setQ] = useState(saved.q || "");
+  const [cat, setCat] = useState(saved.cat || "all");
+  const [sub, setSub] = useState(saved.sub || "all");
+  useEffect(() => {
+    try { sessionStorage.setItem(VIEW_KEY, JSON.stringify({ ...readView(), q, cat, sub })); } catch { /* private mode */ }
+  }, [q, cat, sub]);
+  useEffect(() => {
+    const y = saved.y || 0;
+    requestAnimationFrame(() => window.scrollTo(0, y));
+    return () => { try { sessionStorage.setItem(VIEW_KEY, JSON.stringify({ ...readView(), y: window.scrollY })); } catch { /* private mode */ } };
+  }, []); // eslint-disable-line
   const subs = useMemo(() => cat === "all" || cat === "fav" ? [] : [...new Set(RECIPES.filter((r) => r.category === cat).map((r) => r.subcategory).filter(Boolean))].sort(), [cat]);
   const list = useMemo(() => {
     const t = q.trim().toLowerCase();
@@ -217,6 +234,12 @@ function Browse() {
 
 export default function RecipesPage() {
   const { slug } = useParams();
+  useEffect(() => {
+    const r = slug && BY_SLUG[slug];
+    document.title = r ? `${r.title} · Recipes · Peters Family Homeschool` : "Recipes · Peters Family Homeschool";
+    if (slug) window.scrollTo(0, 0); // a recipe opens at its top, not at the list's scroll position
+    return () => { document.title = "Peters Family Homeschool"; };
+  }, [slug]);
   return (
     <div style={{ minHeight: "100vh", background: "#FAFAF7", fontFamily: "'Nunito', sans-serif", padding: "40px 24px 90px", boxSizing: "border-box" }}>
       <style>{CSS}</style>

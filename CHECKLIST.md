@@ -74,6 +74,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.7.0 | Recipes section: 73 recipes with printable 4x6 cards, favorites synced to each profile, home-page card |
 | v8.6.3 | Exam and FRQ audit for the four sciences: 856 exam explanations rewritten; about 125 unit-FRQ fixes; 21 FRQ-exam fixes; 3 figure-description fixes; no answer keys changed |
 | v8.6.2 | Science explanations complete: 846 Chemistry, Biology, Physics 1 and Physics 2 explanations rewritten with a reason for every wrong choice; 12 flawed Chemistry questions fixed |
 | v8.6.1 | 9 new FRQs (Chemistry 4, Physics 2 5) with New badges; 54 AP Language revision questions rewritten and shown; 53 course/exam questions rewritten; 3 flawed questions fixed; 225-question spot-check; consistent "Correct: (X)" openers |
