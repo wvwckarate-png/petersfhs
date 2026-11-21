@@ -264,7 +264,14 @@ export default function HomePage() {
               <SectionShell key={sec} {...shell} title="Recipes" headOnlyInEdit>
                 <RC {...(edit ? {} : { to: "/recipes" })} className="recipe-banner">
                   <span className="recipe-mark" aria-hidden="true">
-                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="14" rx="2.2" stroke="#FBF3E0" strokeWidth="1.6" /><path d="M7 9.5h10M7 13h6" stroke="#E8B84A" strokeWidth="1.7" strokeLinecap="round" /></svg>
+                    <svg width="40" height="40" viewBox="1.6 1.4 20.8 18.4" fill="none">
+                      {/* a pie with steam rising */}
+                      <path d="M8.2 3.2c-.9 1 .9 1.9 0 2.9M12 2.4c-.9 1 .9 1.9 0 2.9M15.8 3.2c-.9 1 .9 1.9 0 2.9" stroke="#FBF3E0" strokeWidth="1.3" strokeLinecap="round" opacity=".85" />
+                      <path d="M3.2 13.2c0-2.3 3.9-4.2 8.8-4.2s8.8 1.9 8.8 4.2" fill="#E8B84A" stroke="#FBF3E0" strokeWidth="1.4" strokeLinejoin="round" />
+                      <path d="M7.4 10.2l2.4 3M12 9.1v4.1M16.6 10.2l-2.4 3" stroke="#A03A22" strokeWidth="1.1" strokeLinecap="round" />
+                      <path d="M2.4 13.2h19.2l-2 4.6c-.3.7-1 1.2-1.8 1.2H6.2c-.8 0-1.5-.5-1.8-1.2l-2-4.6z" fill="#FBF3E0" fillOpacity=".18" stroke="#FBF3E0" strokeWidth="1.5" strokeLinejoin="round" />
+                      <path d="M4.2 15.6h15.6" stroke="#FBF3E0" strokeWidth="1" strokeLinecap="round" opacity=".55" />
+                    </svg>
                   </span>
                   <span style={{ position: "relative", zIndex: 1 }}>
                     <span className="recipe-title" style={{ display: "block" }}>Recipes</span>
