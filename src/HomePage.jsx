@@ -10,6 +10,7 @@ import { SankakuMark } from "./hubs/jiujitsu/Mark";
 import { BELT_STOPS } from "./hubs/jiujitsu/Enso";
 import { getSession, onSession, legacyEntries, downloadBackup } from "./lib/cloud";
 import { openProfilePanel } from "./lib/profileSlot";
+import { useFavorites } from "./hubs/recipes/favorites";
 import { useLayout } from "./lib/layoutPrefs";
 import TileGrid from "./components/TileGrid";
 import { AP, SAT_TOTALS, MODE_LABELS, loadApProgress, loadOtherProgress, pct, timeAgo } from "./lib/progress";
@@ -18,7 +19,7 @@ import { AP, SAT_TOTALS, MODE_LABELS, loadApProgress, loadOtherProgress, pct, ti
 // (Before v8.5 this page was four hub cards; that version is kept at the git tag v8.4.26-before-redesign.)
 
 // Home sections in their default order. Each student can reorder and hide them ("Customize").
-const SECTIONS = ["ap", "sat", "college", "jj"];
+const SECTIONS = ["ap", "sat", "college", "jj", "recipes"];
 
 const SAT_COLOR = "#3D3470", SAT_DEEP = "#2A2350";
 const NAVY = "#002855", GOLD_DEEP = "#8A6500";
@@ -64,6 +65,7 @@ export default function HomePage() {
   const [other, setOther] = useState(null);
   const [edit, setEdit] = useState(false);
   const layout = useLayout("home-layout-v1", SECTIONS);
+  const recipeFavs = useFavorites().favs.length;
   const { isHidden } = layout;
 
   useEffect(() => onSession(setSession), []);
@@ -253,6 +255,26 @@ export default function HomePage() {
                       </>
                     ) };
                   })} />
+              </SectionShell>
+            );
+          }
+          if (sec === "recipes") {
+            const RC = edit ? "div" : Link;
+            return (
+              <SectionShell key={sec} {...shell} title="Recipes" headOnlyInEdit>
+                <RC {...(edit ? {} : { to: "/recipes" })} className="recipe-banner">
+                  <span className="recipe-mark" aria-hidden="true">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="14" rx="2.2" stroke="#FBF3E0" strokeWidth="1.6" /><path d="M7 9.5h10M7 13h6" stroke="#E8B84A" strokeWidth="1.7" strokeLinecap="round" /></svg>
+                  </span>
+                  <span style={{ position: "relative", zIndex: 1 }}>
+                    <span className="recipe-title" style={{ display: "block" }}>Recipes</span>
+                    <span className="recipe-sub" style={{ display: "block" }}>
+                      Family favorites with printable 4x6 cards. Star the ones you cook most.
+                      {recipeFavs > 0 ? ` ${recipeFavs} favorite${recipeFavs === 1 ? "" : "s"} saved.` : ""}
+                    </span>
+                  </span>
+                  {!edit && <span className="recipe-go">Open the recipe box →</span>}
+                </RC>
               </SectionShell>
             );
           }

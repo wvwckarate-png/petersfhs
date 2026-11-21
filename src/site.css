@@ -133,6 +133,18 @@
 .jj-sub { font-size: 13.5px; color: #B9BDC2; margin-top: 3px; line-height: 1.45; }
 .jj-go { margin-left: auto; font-weight: 800; font-size: 14px; color: #fff; background: #D8472E; padding: 9px 18px; border-radius: 100px; white-space: nowrap; position: relative; z-index: 1; }
 
+.recipe-banner {
+  display: flex; align-items: center; gap: 18px; text-decoration: none; color: #FBF3E0;
+  background: #A03A22; border-radius: 20px; padding: 18px 22px; position: relative; overflow: hidden; margin-top: 12px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.recipe-banner:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(122,42,24,.32); }
+.recipe-banner::after { content: ""; position: absolute; right: -60px; top: -80px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(232,184,74,.34), rgba(232,184,74,0) 70%); pointer-events: none; }
+.recipe-mark { width: 54px; height: 54px; border-radius: 16px; background: rgba(251,243,224,.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; z-index: 1; }
+.recipe-title { font-family: var(--pf-display); font-weight: 800; font-size: 18px; }
+.recipe-sub { font-size: 13.5px; color: #F3D9C8; margin-top: 3px; line-height: 1.45; }
+.recipe-go { margin-left: auto; font-weight: 800; font-size: 14px; color: #5A1F10; background: #E8B84A; padding: 9px 18px; border-radius: 100px; white-space: nowrap; position: relative; z-index: 1; }
+
 .site-foot { border-top: 1px solid var(--pf-line); margin-top: 8px; padding-top: 18px; display: flex; gap: 10px 22px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--pf-muted); }
 .link-btn { background: none; border: none; padding: 0; cursor: pointer; font: inherit; color: var(--pf-sage); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
 
@@ -219,8 +231,8 @@ body.is-dragging-card, body.is-dragging-card * { cursor: grabbing !important; us
   .section-head .sub { display: none; }
   .resume-stats { gap: 18px; }
   .resume-stats b { font-size: 17px; }
-  .jj-banner { flex-wrap: wrap; }
-  .jj-go { margin-left: 0; }
+  .jj-banner, .recipe-banner { flex-wrap: wrap; }
+  .jj-go, .recipe-go { margin-left: 0; }
   .pf-btn-in { padding: 3px; border-color: transparent; background: transparent; }
   .pf-btn-in .pf-name { display: none; }
   .pf-btn-out { padding: 8px 12px 8px 10px; font-size: 13px; }
