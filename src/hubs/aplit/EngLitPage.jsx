@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { storage } from "../../lib/storage";
+import { dropOutdatedAnswers } from "../../lib/answerFixes";
 import { logAttempt } from "../../lib/cloud";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
@@ -85,7 +86,12 @@ export default function EngLitPage() {
     (async () => {
       try {
         const result = await storage.get(MCQ_STORAGE_KEY, false);
-        if (result && result.value) setAnswered(JSON.parse(result.value));
+        if (result && result.value) {
+          // questions whose answer key was corrected: drop answers saved under the old key so they can be answered again
+          const { next, changed } = dropOutdatedAnswers(JSON.parse(result.value), MCQ_STORAGE_KEY);
+          setAnswered(next);
+          if (changed) storage.set(MCQ_STORAGE_KEY, JSON.stringify(next), false).catch(() => {});
+        }
       } catch { /* storage unavailable or unreadable — ignore */ }
       try {
         const navResult = await storage.get(NAV_STORAGE_KEY, false);

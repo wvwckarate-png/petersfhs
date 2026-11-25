@@ -59,7 +59,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 ## C. Decisions for you
 
-- [ ] C1. Saved answers on the 5 questions whose answer keys were corrected (APUSH 8-2; AP Lit Unit 9 4-11, 1-12 and 5-10; AP Lang Unit 9 1-3): leave them, or clear just those answers so they count correctly
+- [x] C1. Saved answers on the 5 questions whose answer keys were corrected (APUSH 8-2; AP Lit Unit 9 4-11, 1-12 and 5-10; AP Lang Unit 9 1-3) are cleared on each student's next visit so they count correctly (v8.7.5)
 - [ ] C2. Test the draggable home-page cards with a real finger on a phone or tablet
 
 ## D. Ideas
