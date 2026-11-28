@@ -10,54 +10,54 @@
     {
      "id": 1,
      "name": "Kinematics",
-     "mcq": 65,
-     "sections": 7
+     "mcq": 86,
+     "sections": 8
     },
     {
      "id": 2,
      "name": "Force and Translational Dynamics",
-     "mcq": 65,
-     "sections": 9
+     "mcq": 102,
+     "sections": 11
     },
     {
      "id": 3,
      "name": "Work, Energy, and Power",
-     "mcq": 65,
+     "mcq": 81,
      "sections": 6
     },
     {
      "id": 4,
      "name": "Linear Momentum",
-     "mcq": 65,
+     "mcq": 75,
      "sections": 6
     },
     {
      "id": 5,
      "name": "Torque and Rotational Dynamics",
-     "mcq": 65,
+     "mcq": 75,
      "sections": 6
     },
     {
      "id": 6,
      "name": "Energy and Momentum of Rotating Systems",
-     "mcq": 65,
-     "sections": 4
+     "mcq": 103,
+     "sections": 6
     },
     {
      "id": 7,
      "name": "Oscillations",
-     "mcq": 65,
+     "mcq": 76,
      "sections": 4
     },
     {
      "id": 8,
      "name": "Fluids",
-     "mcq": 65,
+     "mcq": 80,
      "sections": 6
     }
    ],
-   "mcqTotal": 520,
-   "sectionTotal": 48
+   "mcqTotal": 678,
+   "sectionTotal": 53
   },
   "physics2": {
    "name": "AP Physics 2",

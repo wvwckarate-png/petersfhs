@@ -38,7 +38,11 @@ The College Board publishes a free Course and Exam Description for each AP subje
 - [x] FRQ decision: 5 new unit FRQs (P–T extrapolation, equipotentials and plates, RC graphs and meters, single/double slit and grating, blackbody and Compton); practice exams unchanged (v8.6.1)
 
 ### A4. Remaining AP subjects (optional; decide after A1–A3)
-- [ ] AP Physics 1
+- [x] AP Physics 1 — audit against the Fall 2024 course description (183 of 293 statements fully covered; reports in ~/Desktop/petersfhs-gap-reports/physics1/), then all gaps filled (v8.8.0):
+  - [x] 5 new sections: 1.8 Reference Frames and Relative Motion, 2.10 Circular Motion, 2.11 Universal Gravitation and Orbits, 6.5 Work Done by a Torque, 6.6 Orbiting Satellites
+  - [x] 38 study-guide additions across all 8 units (motion diagrams, FBD conventions, apparent weight, energy and momentum bar charts, U = −GMm/r, p-t and ω-t graphs, lever arm and force diagrams, rolling bar charts, SHM equations, fluids at the particle level, and more)
+  - [x] 158 MCQs (Physics 1 now 678), 12 new unit FRQs (labs, loop-the-loop, orbits and escape speed, bar charts, meterstick, heavy pulley, yo-yo), 49 figures; every item independently checked
+  - [x] Existing-text fixes: potential energy belongs to a system (3.3), "lever arm" now means the perpendicular distance (5.2 text and 6 questions), 4-25 and 4-55 reworded to "the system's momentum changes", frq-5-1(a) asks for a force diagram, incline caption notes components stay off the FBD
 - [ ] AP Environmental Science
 - [ ] AP US Government
 - [ ] AP US History
@@ -74,6 +78,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.8.0 | Physics 1 gaps: 5 new sections (incl. Circular Motion and Gravitation), 38 study-guide additions, 158 MCQs (Physics 1 now 678), 12 new FRQs, 49 figures; 4-25/4-55, lever-arm and PE wording fixes |
 | v8.7.0 | Recipes section: 73 recipes with printable 4x6 cards, favorites synced to each profile, home-page card |
 | v8.6.3 | Exam and FRQ audit for the four sciences: 856 exam explanations rewritten; about 125 unit-FRQ fixes; 21 FRQ-exam fixes; 3 figure-description fixes; no answer keys changed |
 | v8.6.2 | Science explanations complete: 846 Chemistry, Biology, Physics 1 and Physics 2 explanations rewritten with a reason for every wrong choice; 12 flawed Chemistry questions fixed |
